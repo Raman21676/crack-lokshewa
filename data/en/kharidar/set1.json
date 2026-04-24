@@ -1,253 +1,110 @@
 [
   {
     "id": "q1",
-    "question": "When was the Constitution of Nepal 2072 promulgated?",
-    "options": [
-      "2072 Kartik 15",
-      "2072 Mangsir 1",
-      "2072 Poush 10",
-      "2072 Ashoj 3"
-    ],
-    "correctIndex": 3,
-    "explanation": "September 20, 2015 (2072 Ashoj 3).",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q2",
-    "question": "Which is the 21st country to adopt the Euro currency?",
-    "options": [
-      "Estonia",
-      "Portugal",
-      "Serbia",
-      "Bulgaria"
-    ],
-    "correctIndex": 3,
-    "explanation": "Bulgaria adopted the Euro on January 9, 2026. The 20th country was Croatia. Euro was introduced in 2000.",
-    "subject": "GK"
-  },
-  {
-    "id": "q3",
-    "question": "When did Nepal Telecom start robot technology for customer service?",
-    "options": [
-      "2081 Mangsir 3",
-      "2082 Mangsir 1",
-      "2081 Mangsir 1",
-      "2081 Mangsir 2"
-    ],
-    "correctIndex": 3,
-    "explanation": "Nepal Telecom started robot technology for customer service on 2081 Mangsir 2.",
-    "subject": "GK"
-  },
-  {
-    "id": "q4",
-    "question": "When did the Sepoy Mutiny occur in India?",
-    "options": [
-      "1863",
-      "1804",
-      "1865",
-      "1857"
-    ],
-    "correctIndex": 3,
-    "explanation": "The Sepoy Mutiny (Indian Rebellion) occurred in 1857. 1863 = Abolition of slavery in America. 1865 = Assassination of Abraham Lincoln. 1804 = Napoleon declared Emperor of France.",
-    "subject": "GK"
-  },
-  {
-    "id": "q5",
-    "question": "When is the International Day of Happiness celebrated every year?",
-    "options": [
-      "March 15",
-      "March 18",
-      "March 20",
-      "March 22"
-    ],
-    "correctIndex": 2,
-    "explanation": "The International Day of Happiness is celebrated on March 20 every year.",
-    "subject": "GK"
-  },
-  {
-    "id": "q6",
-    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
-    "options": [
-      "STATION",
-      "TRADITION",
-      "MINISTER",
-      "RATION"
-    ],
-    "correctIndex": 2,
-    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q7",
-    "question": "What is the Dhimal priest called?",
-    "options": [
-      "Guju",
-      "Bhusal",
-      "Lama",
-      "Barang"
-    ],
-    "correctIndex": 3,
-    "explanation": "Dhimal priest = Barang. Newar=Guju, Magar=Bhusal, Tamang=Lama.",
-    "subject": "GK"
-  },
-  {
-    "id": "q8",
-    "question": "Which district HQ is at the highest altitude?",
-    "options": [
-      "Dolpa",
-      "Namche",
-      "Jomsom",
-      "Simikot"
-    ],
-    "correctIndex": 3,
-    "explanation": "Simikot in Humla district.",
-    "subject": "GK"
-  },
-  {
-    "id": "q9",
-    "question": "When did IPL 2026 start?",
-    "options": [
-      "March 26, 2026",
-      "March 27, 2026",
-      "March 28, 2026",
-      "March 29, 2026"
-    ],
-    "correctIndex": 2,
-    "explanation": "IPL 2026 started on March 28, 2026. It is the 19th edition, running until May 1, with 10 participating teams.",
-    "subject": "GK"
-  },
-  {
-    "id": "q10",
-    "question": "How many points were in the declaration issued at Sagarmatha Samvad 2082 in Kathmandu?",
-    "options": [
-      "21 points",
-      "25 points",
-      "27 points",
-      "31 points"
-    ],
-    "correctIndex": 1,
-    "explanation": "A 25-point declaration was issued at Sagarmatha Samvad 2082, held in Kathmandu from Jeth 2-4, 2082. Inaugurated by KP Sharma Oli. Slogan: 'Climate Change and the Future of Mountains and Humanity'.",
-    "subject": "GK"
-  },
-  {
-    "id": "q11",
-    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
-    "options": [
-      "3",
-      "14",
-      "17",
-      "21"
-    ],
-    "correctIndex": 1,
-    "explanation": "14 is the only even number.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q12",
-    "question": "Which was the first country where an atomic bomb was dropped?",
-    "options": [
-      "China",
-      "France",
-      "Japan",
-      "America"
-    ],
-    "correctIndex": 2,
-    "explanation": "Japan was the first country (Hiroshima). China = first civil service country. France = first metric system country. America = first constitution country.",
-    "subject": "GK"
-  },
-  {
-    "id": "q13",
-    "question": "Which of the following is NOT a communicable disease?",
-    "options": [
-      "Measles",
-      "Cholera",
-      "Pneumonia",
-      "Asthma"
-    ],
-    "correctIndex": 3,
-    "explanation": "Asthma is NOT a communicable disease. Measles, cholera, and pneumonia are all communicable (infectious) diseases.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q14",
-    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
-    "options": [
-      "20",
-      "24",
-      "32",
-      "40"
-    ],
-    "correctIndex": 1,
-    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q15",
-    "question": "Who was the first Governor of Gandaki Province?",
-    "options": [
-      "Baburam Kuwar",
-      "Krishna Chandra Pokharel",
-      "Netranath Adhikari",
-      "Bishnu Prasad Nepal"
-    ],
-    "correctIndex": 0,
-    "explanation": "Baburam Kuwar was the first Governor. Krishna Chandra Pokharel = first CM, Netranath Adhikari = first Speaker, Bishnu Prasad Nepal = current Lok Sewa Aayog Chairman.",
-    "subject": "GK"
-  },
-  {
-    "id": "q16",
-    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
-    "options": [
-      "35",
-      "40",
-      "45",
-      "50"
-    ],
-    "correctIndex": 2,
-    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q17",
-    "question": "How many judges are in Nepal's Supreme Court?",
-    "options": [
-      "15",
-      "19",
-      "21",
-      "25"
-    ],
-    "correctIndex": 2,
-    "explanation": "21 judges including the Chief Justice.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q18",
     "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
     "options": [
-      "DIBJS",
-      "BDJIS",
       "DIBJT",
-      "DJBIS"
+      "DJBIS",
+      "DIBJS",
+      "BDJIS"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
     "subject": "IQ"
   },
   {
-    "id": "q19",
-    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
+    "id": "q2",
+    "question": "Who won the men's Ballon d'Or 2025?",
     "options": [
-      "Cousin",
-      "Sister",
-      "Daughter",
-      "Niece"
+      "Lionel Messi",
+      "Rodri",
+      "Aitana Bonmati",
+      "Ousmane Dembele"
     ],
-    "correctIndex": 1,
-    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
+    "correctIndex": 3,
+    "explanation": "Ousmane Dembele won the men's Ballon d'Or 2025. Aitana Bonmati won the women's award. Rodri = 2024 men's winner. Messi = 2023 men's winner.",
+    "subject": "GK"
+  },
+  {
+    "id": "q3",
+    "question": "How many local levels are there in Nepal?",
+    "options": [
+      "761",
+      "775",
+      "744",
+      "753"
+    ],
+    "correctIndex": 3,
+    "explanation": "753: 6 metros, 11 sub-metros, 276 municipalities, 460 rural municipalities.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q4",
+    "question": "Who represented Nepal at COP 30?",
+    "options": [
+      "Balendra Shah",
+      "Pushpa Kamal Dahal",
+      "KP Sharma Oli",
+      "Madan Prasad Pariyar"
+    ],
+    "correctIndex": 3,
+    "explanation": "Madan Prasad Pariyar represented Nepal at COP 30 held in Belem, Brazil (Nov 10-21, 2025). COP 31 will be in Turkey (Nov 9-20, 2026).",
+    "subject": "GK"
+  },
+  {
+    "id": "q5",
+    "question": "How many days did the Thailand-Cambodia war last?",
+    "options": [
+      "3 days",
+      "4 days",
+      "5 days",
+      "7 days"
+    ],
+    "correctIndex": 2,
+    "explanation": "The war lasted 5 days.",
+    "subject": "GK"
+  },
+  {
+    "id": "q6",
+    "question": "When did industrial census start in Nepal?",
+    "options": [
+      "1968 BS",
+      "1993 BS",
+      "2022 BS",
+      "2029 BS"
+    ],
+    "correctIndex": 2,
+    "explanation": "Industrial census started in 2022 BS. It is conducted every 5 years. The 10th industrial census was held on 2079 Asar 11.",
+    "subject": "GK"
+  },
+  {
+    "id": "q7",
+    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctIndex": 3,
+    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
     "subject": "IQ"
   },
   {
-    "id": "q20",
+    "id": "q8",
+    "question": "According to SDG Index 2025, what is Nepal's rank?",
+    "options": [
+      "109",
+      "72",
+      "107",
+      "95"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nepal ranks 95th in SDG Index.",
+    "subject": "GK"
+  },
+  {
+    "id": "q9",
     "question": "Which body prevents corruption in Nepal?",
     "options": [
       "Election Commission",
@@ -260,59 +117,111 @@
     "subject": "CONSTITUTION"
   },
   {
-    "id": "q21",
-    "question": "Which king died during treatment in Switzerland?",
+    "id": "q10",
+    "question": "Which Nepali bank won the SAFA Award 2024?",
     "options": [
-      "Girman Yuddha Bikram Shah",
-      "Rajendra Shah",
-      "Tribhuvan Shah",
-      "Ran Bahadur Shah"
+      "NIC Asia Bank",
+      "Everest Bank",
+      "Nabil Bank",
+      "Global IME Bank"
     ],
-    "correctIndex": 2,
-    "explanation": "Tribhuvan Shah died during treatment in Switzerland. Girman Yuddha Bikram Shah = died of smallpox. Rajendra Shah = died in prison. Ran Bahadur Shah = killed by his own brother.",
+    "correctIndex": 3,
+    "explanation": "Global IME Bank won the SAFA Award 2024.",
     "subject": "GK"
   },
   {
-    "id": "q22",
-    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
+    "id": "q11",
+    "question": "Which SAARC capital is closest to Nepal?",
     "options": [
-      "DIBJS",
-      "BDJIS",
-      "DIBJT",
-      "DJBIS"
-    ],
-    "correctIndex": 0,
-    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q23",
-    "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
-    "options": [
-      "RTSIFD",
-      "RTSHFD",
-      "RTSIEC",
-      "RTSIFC"
-    ],
-    "correctIndex": 0,
-    "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q24",
-    "question": "Which is the 5th country to land a spacecraft on the moon?",
-    "options": [
-      "India",
-      "China",
-      "Russia",
-      "Japan"
+      "Male",
+      "New Delhi",
+      "Dhaka",
+      "Thimphu"
     ],
     "correctIndex": 3,
-    "explanation": "Japan is the 5th country.",
+    "explanation": "Thimphu (Bhutan) is the closest SAARC capital, about 400 km from Kathmandu. Closest country after India & China = Bangladesh (27 km). 4th closest = Bhutan (32 km).",
+    "subject": "GK"
+  },
+  {
+    "id": "q12",
+    "question": "Match: Purnima, Christ, Vishnu Gupta, Karl Marx",
+    "options": [
+      "Buddha/Israel/Kautilya/England",
+      "Buddha/Rome/Chanakya/Germany",
+      "Gandhi/Jerusalem/Kautilya/Russia",
+      "Buddha/Israel/Chanakya/Germany"
+    ],
+    "correctIndex": 0,
+    "explanation": "Purnima=Buddha, Christ=Israel, Vishnu Gupta=Kautilya, Karl Marx=England.",
+    "subject": "GK"
+  },
+  {
+    "id": "q13",
+    "question": "What is the currency of Nepal?",
+    "options": [
+      "Rupee",
+      "Taka",
+      "Rupiah",
+      "Yen"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepalese Rupee (NPR).",
+    "subject": "GK"
+  },
+  {
+    "id": "q14",
+    "question": "Match the phobias: Aerophobia, Hydrophobia, Photophobia, Pyrophobia",
+    "options": [
+      "Sky/Water/Light/Fire",
+      "Water/Sky/Fire/Light",
+      "Light/Fire/Sky/Water",
+      "Fire/Light/Water/Sky"
+    ],
+    "correctIndex": 0,
+    "explanation": "Aerophobia=Sky, Hydrophobia=Water, Photophobia=Light, Pyrophobia=Fire.",
     "subject": "SCIENCE"
   },
   {
-    "id": "q25",
+    "id": "q15",
+    "question": "If square area = 625 sq.m, what is the perimeter?",
+    "options": [
+      "80m",
+      "90m",
+      "100m",
+      "120m"
+    ],
+    "correctIndex": 2,
+    "explanation": "Side=25m. Perimeter=4×25=100m.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q16",
+    "question": "What is the term length of Nepal's President?",
+    "options": [
+      "3 years",
+      "4 years",
+      "5 years",
+      "6 years"
+    ],
+    "correctIndex": 2,
+    "explanation": "5 years.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q17",
+    "question": "Which is the world's largest desert?",
+    "options": [
+      "Arabian Desert",
+      "Antarctica Desert",
+      "Kalahari Desert",
+      "Sahara Desert"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sahara is the world's largest hot desert. Arabian = largest sandy desert, Antarctica = largest polar desert, Thar = largest in South Asia.",
+    "subject": "GK"
+  },
+  {
+    "id": "q18",
     "question": "If A is brother of B, B is sister of C, C is father of D. How is A related to D?",
     "options": [
       "Uncle",
@@ -325,98 +234,85 @@
     "subject": "IQ"
   },
   {
-    "id": "q26",
-    "question": "How many local levels are there in Nepal?",
+    "id": "q19",
+    "question": "When did Kathmandu Metropolitan City reopen the open stage (Khulla Manch) for the public?",
     "options": [
-      "744",
-      "753",
-      "761",
-      "775"
+      "2078 Baisakh 15",
+      "2082 Baisakh 2",
+      "2082 Baisakh 3",
+      "2082 Chaitra 29"
     ],
-    "correctIndex": 1,
-    "explanation": "753: 6 metros, 11 sub-metros, 276 municipalities, 460 rural municipalities.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q27",
-    "question": "When was the Narcotic Drugs Control Act enacted?",
-    "options": [
-      "2028 BS",
-      "2033 BS",
-      "2045 BS",
-      "2050 BS"
-    ],
-    "correctIndex": 1,
-    "explanation": "The Narcotic Drugs Control Act was enacted in 2033 BS.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q28",
-    "question": "What is the original homeland of the Chhantel caste?",
-    "options": [
-      "Myagdi",
-      "Mustang",
-      "Manang",
-      "Dolpa"
-    ],
-    "correctIndex": 0,
-    "explanation": "The Chhantel caste's original homeland is Myagdi.",
+    "correctIndex": 2,
+    "explanation": "Reopened on 2082 Baisakh 3 after being closed since 2078 Baisakh due to COVID-19.",
     "subject": "GK"
   },
   {
-    "id": "q29",
-    "question": "What is 25% of 25% of 400?",
-    "options": [
-      "20",
-      "25",
-      "30",
-      "40"
-    ],
-    "correctIndex": 1,
-    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q30",
+    "id": "q20",
     "question": "Complete the analogy: Eye : Vision :: Ear : ?",
     "options": [
-      "Sound",
-      "Hearing",
       "Noise",
-      "Music"
+      "Music",
+      "Sound",
+      "Hearing"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Eye is for vision, Ear is for hearing.",
     "subject": "IQ"
   },
   {
-    "id": "q31",
-    "question": "Which science studies climate?",
+    "id": "q21",
+    "question": "From which date is National Film Day celebrated starting 2082 BS?",
     "options": [
-      "Pedology",
-      "Orology",
-      "Climatology",
-      "Ornithology"
+      "Asar 1",
+      "Asar 23",
+      "Asar 15",
+      "Asar 25"
     ],
     "correctIndex": 2,
-    "explanation": "Climatology studies climate. Pedology = study of soil. Orology = study of mountains. Ornithology = study of birds.",
-    "subject": "SCIENCE"
+    "explanation": "National Film Day is celebrated on Asar 15 from 2082 BS. The decision was made on 2082 Asar 13. Previously it was on Asar 1. Changed to honor 'Aama' (Nepal's first film).",
+    "subject": "GK"
   },
   {
-    "id": "q32",
-    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
+    "id": "q22",
+    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
     "options": [
-      "Rs. 25000",
-      "Rs. 30000",
-      "Rs. 35000",
-      "Rs. 40000"
+      "35",
+      "40",
+      "45",
+      "50"
     ],
-    "correctIndex": 1,
-    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
+    "correctIndex": 2,
+    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
     "subject": "MATH"
   },
   {
-    "id": "q33",
+    "id": "q23",
+    "question": "In how many districts is the One Village One Product (OVOP) program currently operating in Nepal?",
+    "options": [
+      "77 districts",
+      "66 districts",
+      "32 districts",
+      "42 districts"
+    ],
+    "correctIndex": 3,
+    "explanation": "OVOP is operating in 42 districts. It started from Dolakha (from lotta farming) in FY 2063/64.",
+    "subject": "GK"
+  },
+  {
+    "id": "q24",
+    "question": "When was the Nepal-China Border Protocol Agreement signed?",
+    "options": [
+      "1970 AD",
+      "1980 AD",
+      "1955 AD",
+      "1961 AD"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Nepal-China Border Protocol Agreement was signed in 1961 AD.",
+    "subject": "GK"
+  },
+  {
+    "id": "q25",
     "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
     "options": [
       "100m",
@@ -429,59 +325,7 @@
     "subject": "MATH"
   },
   {
-    "id": "q34",
-    "question": "What is the unemployment rate of Gandaki Province?",
-    "options": [
-      "23.9%",
-      "13.3%",
-      "20.9%",
-      "7.40%"
-    ],
-    "correctIndex": 3,
-    "explanation": "Unemployment rate = 7.40%. 23.9% = below 14 years, 13.3% = above 60 years, 20.9% = disabled population.",
-    "subject": "GK"
-  },
-  {
-    "id": "q35",
-    "question": "According to the IMF World Economic Outlook 2025, which country has the world's third largest economy?",
-    "options": [
-      "Japan",
-      "China",
-      "Germany",
-      "India"
-    ],
-    "correctIndex": 2,
-    "explanation": "Germany has the world's third largest economy ($4.74 trillion). 1st=USA ($30.507T), 2nd=China ($19.231T), 4th=India ($4.187T), 5th=Japan ($4.186T).",
-    "subject": "GK"
-  },
-  {
-    "id": "q36",
-    "question": "Who invented the television?",
-    "options": [
-      "Martin Cooper",
-      "John Baird",
-      "Johannes Gutenberg",
-      "Alfred Nobel"
-    ],
-    "correctIndex": 1,
-    "explanation": "John Baird invented the television. Martin Cooper = mobile phone. Johannes Gutenberg = printing press. Alfred Nobel = dynamite.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q37",
-    "question": "How many articles are in the Constitution of Nepal 2072?",
-    "options": [
-      "280",
-      "295",
-      "308",
-      "325"
-    ],
-    "correctIndex": 2,
-    "explanation": "308 articles, 35 parts, 9 schedules.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q38",
+    "id": "q26",
     "question": "Next in series: 2, 6, 12, 20, 30, ?",
     "options": [
       "38",
@@ -494,72 +338,202 @@
     "subject": "IQ"
   },
   {
-    "id": "q39",
-    "question": "In which community do people drink alcohol after carrying a dead body?",
+    "id": "q27",
+    "question": "If x + 1/x = 3, what is x² + 1/x²?",
     "options": [
-      "Kushbadia",
-      "Raute",
-      "Thami",
-      "Lepcha"
+      "7",
+      "8",
+      "9",
+      "11"
     ],
     "correctIndex": 0,
-    "explanation": "Kushbadia = drink after burial. Raute=move place, Thami=chautara, Lepcha=water wash.",
+    "explanation": "(x+1/x)² = x²+2+1/x² = 9. So x²+1/x² = 7.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q28",
+    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
+    "options": [
+      "STATION",
+      "TRADITION",
+      "MINISTER",
+      "RATION"
+    ],
+    "correctIndex": 2,
+    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q29",
+    "question": "Which was the first country where an atomic bomb was dropped?",
+    "options": [
+      "China",
+      "France",
+      "Japan",
+      "America"
+    ],
+    "correctIndex": 2,
+    "explanation": "Japan was the first country (Hiroshima). China = first civil service country. France = first metric system country. America = first constitution country.",
     "subject": "GK"
   },
   {
-    "id": "q40",
-    "question": "Bel marriage (Ihi) is a tradition of which caste?",
+    "id": "q30",
+    "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
     "options": [
-      "Gurung",
-      "Newar",
-      "Tamang",
-      "Magar"
+      "RTSIFD",
+      "RTSHFD",
+      "RTSIEC",
+      "RTSIFC"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q31",
+    "question": "What percentage of water is found in the human body?",
+    "options": [
+      "4-6 liters",
+      "5-6 liters",
+      "2.5-3 liters",
+      "66%"
+    ],
+    "correctIndex": 3,
+    "explanation": "About 66% of the human body is water. Blood volume = 4-6 liters (male 5-6L, female 4-5L). Plasma volume = 2.5-3 liters.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q32",
+    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
+    "options": [
+      "3",
+      "14",
+      "17",
+      "21"
     ],
     "correctIndex": 1,
-    "explanation": "Bel marriage (Ihi) is a Newar tradition.",
+    "explanation": "14 is the only even number.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q33",
+    "question": "In how many languages does Radio Nepal currently broadcast news?",
+    "options": [
+      "24",
+      "25",
+      "23",
+      "26"
+    ],
+    "correctIndex": 1,
+    "explanation": "Radio Nepal broadcasts news in 25 languages. The 25th language is Dhanwar, added on 2081 Asar 30. 24th = Baitadeli, 23rd = Rajbanshi.",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
+    "options": [
+      "Rs. 25000",
+      "Rs. 30000",
+      "Rs. 35000",
+      "Rs. 40000"
+    ],
+    "correctIndex": 1,
+    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q35",
+    "question": "What is Nepal's national bird?",
+    "options": [
+      "Peacock",
+      "Himalayan Monal",
+      "Eagle",
+      "Crow"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Himalayan Monal (Danphe).",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
+    "options": [
+      "Cousin",
+      "Sister",
+      "Daughter",
+      "Niece"
+    ],
+    "correctIndex": 1,
+    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q37",
+    "question": "Which is the smallest sub-metropolitan city by area?",
+    "options": [
+      "Nepalgunj",
+      "Dharan",
+      "Dhangadhi",
+      "Itahari"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepalgunj is the smallest sub-metropolitan city by area. Largest sub-metropolitan = Ghorahi (Dang). Largest metropolitan = Pokhara (Kaski). Smallest metropolitan = Lalitpur.",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "When was Nepal declared untouchability-free?",
+    "options": [
+      "2063 Jestha 20",
+      "2063 Jestha 21",
+      "2063 Jestha 22",
+      "2063 Jestha 23"
+    ],
+    "correctIndex": 1,
+    "explanation": "Declared on 2063 Jestha 21.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q39",
+    "question": "Which is the upper house of Nepal's Federal Parliament?",
+    "options": [
+      "House of Representatives",
+      "National Assembly",
+      "Provincial Assembly",
+      "Local Assembly"
+    ],
+    "correctIndex": 1,
+    "explanation": "National Assembly (Rashtriya Sabha) is the upper house.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q40",
+    "question": "In which district is Gosaikunda lake?",
+    "options": [
+      "Sindhupalchok",
+      "Rasuwa",
+      "Nuwakot",
+      "Dhading"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gosaikunda is in Rasuwa district.",
     "subject": "GK"
   },
   {
     "id": "q41",
-    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
+    "question": "When was the Narcotic Drugs Control Act enacted?",
     "options": [
-      "96",
-      "48",
-      "32",
-      "64"
+      "2028 BS",
+      "2033 BS",
+      "2045 BS",
+      "2050 BS"
     ],
-    "correctIndex": 0,
-    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
-    "subject": "IQ"
+    "correctIndex": 1,
+    "explanation": "The Narcotic Drugs Control Act was enacted in 2033 BS.",
+    "subject": "CONSTITUTION"
   },
   {
     "id": "q42",
-    "question": "Which was the first country to establish diplomatic relations with Nepal?",
-    "options": [
-      "Britain",
-      "India",
-      "China",
-      "France"
-    ],
-    "correctIndex": 0,
-    "explanation": "Britain was the first country.",
-    "subject": "GK"
-  },
-  {
-    "id": "q43",
-    "question": "How many types of ecosystems are found in Nepal according to the Ministry of Science and Environment?",
-    "options": [
-      "119",
-      "903",
-      "114",
-      "118"
-    ],
-    "correctIndex": 3,
-    "explanation": "According to the Ministry of Science and Environment, there are 118 types of ecosystems in Nepal. 903 = types of birds. 114 = ecosystems per Dobreman.",
-    "subject": "GK"
-  },
-  {
-    "id": "q44",
     "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
     "options": [
       "214673",
@@ -572,59 +546,72 @@
     "subject": "IQ"
   },
   {
-    "id": "q45",
-    "question": "What is the rank of Annapurna Himal in the world?",
+    "id": "q43",
+    "question": "Who was the Emerging Player in NPL 2025 (2nd edition)?",
     "options": [
-      "8th",
-      "9th",
-      "10th",
-      "11th"
+      "Sher Malla",
+      "Sandeep Lamichhane",
+      "Rohit Paudel",
+      "Avinash Bohara"
     ],
-    "correctIndex": 2,
-    "explanation": "Annapurna is the 10th highest mountain in the world (8,091m) and 8th highest in Nepal. K2 is the 2nd highest (8,611m, in Pakistan).",
+    "correctIndex": 0,
+    "explanation": "Sher Malla was the Emerging Player. Sandeep=Best Bowler, Rohit=Best Batsman.",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "Which element is found in tea?",
+    "options": [
+      "Lycopene",
+      "Tannin",
+      "Curcumin",
+      "Gingerol"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tea contains tannin. Lycopene = found in tomatoes. Curcumin = found in turmeric. Gingerol = found in ginger.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q45",
+    "question": "From which Veda did music originate?",
+    "options": [
+      "Rigveda",
+      "Samaveda",
+      "Yajurveda",
+      "Atharvaveda"
+    ],
+    "correctIndex": 1,
+    "explanation": "Music is believed to have originated from Samaveda.",
     "subject": "GK"
   },
   {
     "id": "q46",
-    "question": "Which community counts a child as one year old immediately after birth?",
+    "question": "Who won the Mr. Nepal 2025 title?",
     "options": [
-      "Danuwar",
-      "Sherpa",
-      "Dura",
-      "Byasi"
+      "Himanchal Raj KC",
+      "Girish Ratna Shakya",
+      "Prakash Chauhan",
+      "Bikash Raj Sake"
     ],
-    "correctIndex": 1,
-    "explanation": "Sherpa counts child as 1 year at birth. Danuwar=chicken blood wash, Dura=rooster/hen.",
+    "correctIndex": 0,
+    "explanation": "Himanchal Raj KC won Mr. Nepal 2025. Girish Ratna Shakya = Mr. Global Nepal 2025. Prakash Chauhan = Man of the World 2025.",
     "subject": "GK"
   },
   {
     "id": "q47",
-    "question": "Approximately how many civilians were killed in World War II?",
+    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
     "options": [
-      "1 crore",
-      "2 crore",
-      "3 crore",
-      "4 crore"
+      "96",
+      "48",
+      "32",
+      "64"
     ],
     "correctIndex": 0,
-    "explanation": "About 1 crore civilians were killed. Soldiers killed = 1 crore 46 lakh. Wounded = 3 crore 40 lakh. Lives lost = 2 crore 20 lakh. Expenditure = 11,92,000 crore dollars.",
-    "subject": "GK"
+    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
+    "subject": "IQ"
   },
   {
     "id": "q48",
-    "question": "According to the Institute for Economics & Peace report, what is Nepal's rank in the Global Terrorism Index?",
-    "options": [
-      "99th",
-      "59th",
-      "69th",
-      "79th"
-    ],
-    "correctIndex": 0,
-    "explanation": "Nepal ranks 99th in the Global Terrorism Index by IEP. Pakistan ranks 1st with a score of 8.574, followed by Burkina Faso with 8.334.",
-    "subject": "GK"
-  },
-  {
-    "id": "q49",
     "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
     "options": [
       "18 days",
@@ -637,16 +624,29 @@
     "subject": "MATH"
   },
   {
-    "id": "q50",
-    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
+    "id": "q49",
+    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
     "options": [
-      "A",
-      "C",
-      "D",
-      "E"
+      "DIBJS",
+      "BDJIS",
+      "DIBJT",
+      "DJBIS"
     ],
-    "correctIndex": 3,
-    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
+    "correctIndex": 0,
+    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
     "subject": "IQ"
+  },
+  {
+    "id": "q50",
+    "question": "Which was the first spacecraft to land on the Moon's surface?",
+    "options": [
+      "Luna 1",
+      "Luna 2",
+      "Luna 10",
+      "Skylab"
+    ],
+    "correctIndex": 1,
+    "explanation": "Luna 2 was the first spacecraft to land on the Moon's surface. Luna 10 = first to orbit the Moon. Skylab = first manned station for solar study (1974).",
+    "subject": "SCIENCE"
   }
 ]
