@@ -1,461 +1,19 @@
 [
   {
     "id": "q1",
-    "question": "When was the Nepal-India Biodiversity Agreement signed?",
+    "question": "When is the International Day of Happiness celebrated every year?",
     "options": [
-      "2082 Falgun 14",
-      "2082 Falgun 15",
-      "2082 Falgun 12",
-      "2082 Falgun 13"
+      "March 15",
+      "March 18",
+      "March 20",
+      "March 22"
     ],
-    "correctIndex": 3,
-    "explanation": "Signed on 2082 Falgun 13 (February 25, 2026).",
+    "correctIndex": 2,
+    "explanation": "The International Day of Happiness is celebrated on March 20 every year.",
     "subject": "GK"
   },
   {
     "id": "q2",
-    "question": "What is 25% of 25% of 400?",
-    "options": [
-      "30",
-      "40",
-      "20",
-      "25"
-    ],
-    "correctIndex": 3,
-    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q3",
-    "question": "By the end of the 16th plan, what is the target percentage for women's participation in public service policy-making positions?",
-    "options": [
-      "25%",
-      "15%",
-      "18%",
-      "20%"
-    ],
-    "correctIndex": 3,
-    "explanation": "The 16th plan targets 20% women's participation in public service policy-making positions.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q4",
-    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
-    "options": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "correctIndex": 3,
-    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q5",
-    "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
-    "options": [
-      "22 days",
-      "25 days",
-      "18 days",
-      "20 days"
-    ],
-    "correctIndex": 3,
-    "explanation": "M₁D₁=M₂D₂. 15×24=18×D₂. D₂=360/18=20 days.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q6",
-    "question": "If square area = 625 sq.m, what is the perimeter?",
-    "options": [
-      "120m",
-      "80m",
-      "90m",
-      "100m"
-    ],
-    "correctIndex": 3,
-    "explanation": "Side=25m. Perimeter=4×25=100m.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q7",
-    "question": "Which is the largest lake in Nepal?",
-    "options": [
-      "Phewa Lake",
-      "Rara Lake",
-      "Begnas Lake",
-      "Tilicho Lake"
-    ],
-    "correctIndex": 1,
-    "explanation": "Rara Lake in Mugu district.",
-    "subject": "GK"
-  },
-  {
-    "id": "q8",
-    "question": "When was the new coach appointed for the Nepal men's national football team?",
-    "options": [
-      "2082 Falgun 26",
-      "2082 Falgun 27",
-      "2082 Falgun 29",
-      "2082 Falgun 28"
-    ],
-    "correctIndex": 3,
-    "explanation": "Guglielmo Arena from Switzerland was appointed as the new coach of Nepal men's national football team on 2082 Falgun 28.",
-    "subject": "GK"
-  },
-  {
-    "id": "q9",
-    "question": "Who is the current Secretary-General of BIMSTEC?",
-    "options": [
-      "Indramani Pandey",
-      "Sumith Nakandal",
-      "Tenzin Lekphell",
-      "Sahidul Islam"
-    ],
-    "correctIndex": 0,
-    "explanation": "Indramani Pandey is the current Secretary-General of BIMSTEC (from India). Sumith Nakandal = 1st SG (Sri Lanka). Sahidul Islam = 2nd SG (Bangladesh). Tenzin Lekphell = 3rd SG (Bhutan).",
-    "subject": "GK"
-  },
-  {
-    "id": "q10",
-    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
-    "options": [
-      "DIBJS",
-      "BDJIS",
-      "DIBJT",
-      "DJBIS"
-    ],
-    "correctIndex": 0,
-    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q11",
-    "question": "What was the total budget presented by all 7 provinces for FY 2082/83?",
-    "options": [
-      "Rs. 2 Kharab 77 Arba 70 Crore",
-      "Rs. 2 Kharab 87 Arba 70 Crore",
-      "Rs. 2 Kharab 97 Arba 70 Crore",
-      "Rs. 2 Kharab 67 Arba 70 Crore"
-    ],
-    "correctIndex": 1,
-    "explanation": "The total budget presented by all 7 provinces for FY 2082/83 was Rs. 2 Kharab 87 Arba 70 Crore.",
-    "subject": "GK"
-  },
-  {
-    "id": "q12",
-    "question": "Which river in Nepal flows in two directions with the same name?",
-    "options": [
-      "Karnali",
-      "Koshi",
-      "Gandaki",
-      "Rapti"
-    ],
-    "correctIndex": 3,
-    "explanation": "The Rapti River flows in two directions with the same name in Nepal.",
-    "subject": "GK"
-  },
-  {
-    "id": "q13",
-    "question": "Up to how many decibels can the human ear tolerate?",
-    "options": [
-      "80-85 dB",
-      "50-55 dB",
-      "60-65 dB",
-      "70-75 dB"
-    ],
-    "correctIndex": 3,
-    "explanation": "The human ear can tolerate up to 70-75 decibels.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q14",
-    "question": "How many mountains above 8,000m are in Gandaki Province?",
-    "options": [
-      "3",
-      "2",
-      "5",
-      "4"
-    ],
-    "correctIndex": 0,
-    "explanation": "3 mountains: Dhaulagiri (8,167m, Myagdi), Manaslu (8,163m, Gorkha), Annapurna (8,091m, Kaski).",
-    "subject": "GK"
-  },
-  {
-    "id": "q15",
-    "question": "Who received the Bhanira Shankar Award 2082?",
-    "options": [
-      "Dhanraj Giri",
-      "Madhav Khanal",
-      "Saroj Dhakal",
-      "Muni Shakya"
-    ],
-    "correctIndex": 3,
-    "explanation": "Muni Shakya received the Bhanira Shankar Award 2082. Saroj Dhakal = Bhanira Service Honor Award. Madhav Khanal = Bhanira Pragya Award. Dhanraj Giri = Bhanira Award.",
-    "subject": "GK"
-  },
-  {
-    "id": "q16",
-    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
-    "options": [
-      "Rs. 25000",
-      "Rs. 30000",
-      "Rs. 35000",
-      "Rs. 40000"
-    ],
-    "correctIndex": 1,
-    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q17",
-    "question": "What is Nepal's rank in the World Happiness Report 2025?",
-    "options": [
-      "82nd",
-      "88th",
-      "92nd",
-      "95th"
-    ],
-    "correctIndex": 2,
-    "explanation": "Nepal ranks 92nd in the World Happiness Report 2025.",
-    "subject": "GK"
-  },
-  {
-    "id": "q18",
-    "question": "Which planet has the shortest day?",
-    "options": [
-      "Earth",
-      "Venus",
-      "Jupiter",
-      "Neptune"
-    ],
-    "correctIndex": 2,
-    "explanation": "Jupiter has the shortest day at 9 hours 55 minutes. Venus = 243 days, Earth = 23h 56m 4.09s, Neptune = 16h 10m.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q19",
-    "question": "Which is the world's deepest lake?",
-    "options": [
-      "Lake Tanganyika",
-      "Lake Baikal",
-      "Caspian Sea",
-      "Lake Superior"
-    ],
-    "correctIndex": 1,
-    "explanation": "Lake Baikal in Russia is the world's deepest lake (1,642 meters deep).",
-    "subject": "GK"
-  },
-  {
-    "id": "q20",
-    "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
-    "options": [
-      "100m",
-      "150m",
-      "200m",
-      "250m"
-    ],
-    "correctIndex": 0,
-    "explanation": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q21",
-    "question": "When did the One Village One Product (OVOP) program start in Nepal?",
-    "options": [
-      "2063 BS",
-      "2036 BS",
-      "2071 BS",
-      "2073 BS"
-    ],
-    "correctIndex": 0,
-    "explanation": "OVOP started in 2063 BS. First district was Dolakha (from lotta/potato farming), now in 42 districts, logo unveiled on 2071 Aswin 12.",
-    "subject": "GK"
-  },
-  {
-    "id": "q22",
-    "question": "What are the two moons of Mars?",
-    "options": [
-      "Phobos and Deimos",
-      "Phobos and Ganymede",
-      "Deimos and Moon",
-      "Phobos and Callisto"
-    ],
-    "correctIndex": 0,
-    "explanation": "Mars has two moons: Phobos and Deimos. Ganymede = Jupiter's moon (largest in solar system). Moon = Earth's only natural satellite.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q23",
-    "question": "Which is the religious book of Christianity?",
-    "options": [
-      "Quran",
-      "Tripitaka",
-      "Bible",
-      "Vedas"
-    ],
-    "correctIndex": 2,
-    "explanation": "The Bible is the religious book of Christianity. Quran = Islam. Tripitaka = Buddhism. Vedas = Hinduism.",
-    "subject": "GK"
-  },
-  {
-    "id": "q24",
-    "question": "Who was appointed as Nepal's new Attorney General?",
-    "options": [
-      "Bikasman Paudel",
-      "Govinda KC",
-      "Narayan Datt Kadel",
-      "Govinda KC"
-    ],
-    "correctIndex": 2,
-    "explanation": "Narayan Datt Kadel was appointed on 2082 Chaitra 22 as the 31st Attorney General. 30th was Sabita Bhandari, the first female Attorney General.",
-    "subject": "GK"
-  },
-  {
-    "id": "q25",
-    "question": "In which community is the custom of marrying only in the month of Mangsir practiced?",
-    "options": [
-      "Koche",
-      "Thami",
-      "Chepang",
-      "Punye"
-    ],
-    "correctIndex": 1,
-    "explanation": "The Thami community has the custom of marrying only in the month of Mangsir. Koche = bride goes to groom's house after marriage. Chepang = chiuri tree given as dowry. Punye = bride kidnapping custom.",
-    "subject": "GK"
-  },
-  {
-    "id": "q26",
-    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
-    "options": [
-      "Cousin",
-      "Sister",
-      "Daughter",
-      "Niece"
-    ],
-    "correctIndex": 1,
-    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q27",
-    "question": "When did Kathmandu Metropolitan City reopen the open stage (Khulla Manch) for the public?",
-    "options": [
-      "2078 Baisakh 15",
-      "2082 Baisakh 2",
-      "2082 Baisakh 3",
-      "2082 Chaitra 29"
-    ],
-    "correctIndex": 2,
-    "explanation": "Reopened on 2082 Baisakh 3 after being closed since 2078 Baisakh due to COVID-19.",
-    "subject": "GK"
-  },
-  {
-    "id": "q28",
-    "question": "How many insurance service provider institutions are in Koshi Province?",
-    "options": [
-      "103",
-      "113",
-      "123",
-      "133"
-    ],
-    "correctIndex": 1,
-    "explanation": "There are 113 insurance institutions: 87 government, 21 private, and 5 community-based.",
-    "subject": "GK"
-  },
-  {
-    "id": "q29",
-    "question": "Who was the shortest ruling Rana Prime Minister in Nepal's history?",
-    "options": [
-      "Bir Shumsher",
-      "Dev Shumsher",
-      "Chandra Shumsher",
-      "Bhim Shumsher"
-    ],
-    "correctIndex": 1,
-    "explanation": "Dev Shumsher ruled for only 114 days, making him the shortest ruling Rana PM. Bir Shumsher = first to ride a motor vehicle. Chandra Shumsher = replaced Nepal Sambat with Bikram Sambat. Bhim Shumsher = established office hours 10 AM to 4 PM.",
-    "subject": "GK"
-  },
-  {
-    "id": "q30",
-    "question": "When was Nepal Airlines Corporation established?",
-    "options": [
-      "2049 Jestha 4",
-      "2017 Kartik 20",
-      "2015 Asar 17",
-      "206 Baisakh 11"
-    ],
-    "correctIndex": 2,
-    "explanation": "Nepal Airlines Corporation was established on 2015 Asar 17 (1958 AD). Nepal Airways started flights on 2049 Jestha 4. First plane crash in Nepal: 2017 Kartik 20 (Bhairahawa). First plane landing: 206 Baisakh 11.",
-    "subject": "GK"
-  },
-  {
-    "id": "q31",
-    "question": "Which Social Security Day was celebrated in 2082?",
-    "options": [
-      "7th",
-      "8th",
-      "9th",
-      "10th"
-    ],
-    "correctIndex": 1,
-    "explanation": "8th Social Security Day. Celebrated on Mangsir 11.",
-    "subject": "GK"
-  },
-  {
-    "id": "q32",
-    "question": "Which was the first country to establish diplomatic relations with Nepal?",
-    "options": [
-      "Britain",
-      "India",
-      "China",
-      "France"
-    ],
-    "correctIndex": 0,
-    "explanation": "Britain was the first country.",
-    "subject": "GK"
-  },
-  {
-    "id": "q33",
-    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
-    "options": [
-      "STATION",
-      "TRADITION",
-      "MINISTER",
-      "RATION"
-    ],
-    "correctIndex": 2,
-    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q34",
-    "question": "When was the Nepal-China Border Protocol Agreement signed?",
-    "options": [
-      "1955 AD",
-      "1961 AD",
-      "1970 AD",
-      "1980 AD"
-    ],
-    "correctIndex": 1,
-    "explanation": "The Nepal-China Border Protocol Agreement was signed in 1961 AD.",
-    "subject": "GK"
-  },
-  {
-    "id": "q35",
-    "question": "How many days did World War II last?",
-    "options": [
-      "2191 days",
-      "2291 days",
-      "2391 days",
-      "1561 days"
-    ],
-    "correctIndex": 0,
-    "explanation": "World War II lasted 2191 days. World War I lasted 1561 days.",
-    "subject": "GK"
-  },
-  {
-    "id": "q36",
     "question": "How many parties received national party status in the 2082 BS House of Representatives election?",
     "options": [
       "7",
@@ -468,20 +26,189 @@
     "subject": "GK"
   },
   {
-    "id": "q37",
-    "question": "Which constitutional body conducts elections in Nepal?",
+    "id": "q3",
+    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
     "options": [
-      "Public Service Commission",
-      "Election Commission",
-      "CIAA",
-      "Auditor General"
+      "STATION",
+      "TRADITION",
+      "MINISTER",
+      "RATION"
     ],
-    "correctIndex": 1,
-    "explanation": "Election Commission conducts all elections.",
+    "correctIndex": 2,
+    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q4",
+    "question": "When was Nepal Airlines Corporation established?",
+    "options": [
+      "2049 Jestha 4",
+      "2017 Kartik 20",
+      "2015 Asar 17",
+      "206 Baisakh 11"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal Airlines Corporation was established on 2015 Asar 17 (1958 AD). Nepal Airways started flights on 2049 Jestha 4. First plane crash in Nepal: 2017 Kartik 20 (Bhairahawa). First plane landing: 206 Baisakh 11.",
+    "subject": "GK"
+  },
+  {
+    "id": "q5",
+    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
+    "options": [
+      "DIBJS",
+      "BDJIS",
+      "DIBJT",
+      "DJBIS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q6",
+    "question": "The world's first cabinet meeting underwater took place in which ocean?",
+    "options": [
+      "Pacific",
+      "Atlantic",
+      "Indian",
+      "Arctic"
+    ],
+    "correctIndex": 2,
+    "explanation": "First underwater cabinet meeting was held in the Indian Ocean (Maldives).",
+    "subject": "GK"
+  },
+  {
+    "id": "q7",
+    "question": "Which district headquarters is the highest in Koshi Province?",
+    "options": [
+      "Diktel",
+      "Khatbari",
+      "Phidim",
+      "Salleri"
+    ],
+    "correctIndex": 3,
+    "explanation": "Salleri (Solukhumbu) is the highest district headquarters in Koshi Province.",
+    "subject": "GK"
+  },
+  {
+    "id": "q8",
+    "question": "Which Nepali bank won the SAFA Award 2024?",
+    "options": [
+      "NIC Asia Bank",
+      "Everest Bank",
+      "Nabil Bank",
+      "Global IME Bank"
+    ],
+    "correctIndex": 3,
+    "explanation": "Global IME Bank won the SAFA Award 2024.",
+    "subject": "GK"
+  },
+  {
+    "id": "q9",
+    "question": "Which planet has the shortest day?",
+    "options": [
+      "Earth",
+      "Venus",
+      "Jupiter",
+      "Neptune"
+    ],
+    "correctIndex": 2,
+    "explanation": "Jupiter has the shortest day at 9 hours 55 minutes. Venus = 243 days, Earth = 23h 56m 4.09s, Neptune = 16h 10m.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q10",
+    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
+    "options": [
+      "17",
+      "21",
+      "3",
+      "14"
+    ],
+    "correctIndex": 3,
+    "explanation": "14 is the only even number.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q11",
+    "question": "Where is the headquarters of Greenpeace located?",
+    "options": [
+      "New York",
+      "Paris",
+      "London",
+      "Amsterdam"
+    ],
+    "correctIndex": 3,
+    "explanation": "The headquarters of Greenpeace is in Amsterdam, Netherlands.",
+    "subject": "GK"
+  },
+  {
+    "id": "q12",
+    "question": "Which country/territory has the highest population density in the world?",
+    "options": [
+      "Singapore",
+      "Hong Kong",
+      "Monaco",
+      "Macau"
+    ],
+    "correctIndex": 3,
+    "explanation": "Macau has the highest population density in the world. Lowest = Greenland. 2nd highest = Monaco. 2nd lowest = Mongolia.",
+    "subject": "GK"
+  },
+  {
+    "id": "q13",
+    "question": "When was the Nepal-India Biodiversity Agreement signed?",
+    "options": [
+      "2082 Falgun 14",
+      "2082 Falgun 15",
+      "2082 Falgun 12",
+      "2082 Falgun 13"
+    ],
+    "correctIndex": 3,
+    "explanation": "Signed on 2082 Falgun 13 (February 25, 2026).",
+    "subject": "GK"
+  },
+  {
+    "id": "q14",
+    "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
+    "options": [
+      "20 days",
+      "22 days",
+      "25 days",
+      "18 days"
+    ],
+    "correctIndex": 0,
+    "explanation": "M₁D₁=M₂D₂. 15×24=18×D₂. D₂=360/18=20 days.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q15",
+    "question": "How many local levels are there in Nepal?",
+    "options": [
+      "761",
+      "775",
+      "744",
+      "753"
+    ],
+    "correctIndex": 3,
+    "explanation": "753: 6 metros, 11 sub-metros, 276 municipalities, 460 rural municipalities.",
     "subject": "CONSTITUTION"
   },
   {
-    "id": "q38",
+    "id": "q16",
+    "question": "What is Earth's equatorial diameter?",
+    "options": [
+      "12,756 km",
+      "12,714 km",
+      "12,735 km",
+      "12,500 km"
+    ],
+    "correctIndex": 0,
+    "explanation": "Earth's equatorial diameter is 12,756 km. Polar diameter = 12,714 km. Average diameter = 12,735 km.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q17",
     "question": "How many provincial assemblies are there in Nepal?",
     "options": [
       "5",
@@ -494,59 +221,176 @@
     "subject": "CONSTITUTION"
   },
   {
-    "id": "q39",
-    "question": "What is the average depth of the Indian Ocean?",
+    "id": "q18",
+    "question": "Approximately how many civilians were killed in World War II?",
     "options": [
-      "390 meters",
-      "2400 meters",
-      "3700 meters",
-      "130 meters"
+      "1 crore",
+      "2 crore",
+      "3 crore",
+      "4 crore"
     ],
-    "correctIndex": 2,
-    "explanation": "The average depth of the Indian Ocean is about 3700 meters. Pacific Ocean has the greatest average depth (~4300m), Arctic has the shallowest.",
+    "correctIndex": 0,
+    "explanation": "About 1 crore civilians were killed. Soldiers killed = 1 crore 46 lakh. Wounded = 3 crore 40 lakh. Lives lost = 2 crore 20 lakh. Expenditure = 11,92,000 crore dollars.",
     "subject": "GK"
   },
   {
-    "id": "q40",
-    "question": "When was the Constitution of Nepal 2072 promulgated?",
+    "id": "q19",
+    "question": "When and where was COP 30 held?",
     "options": [
-      "2072 Ashoj 3",
-      "2072 Kartik 15",
-      "2072 Mangsir 1",
-      "2072 Poush 10"
+      "Baku, Azerbaijan, 2024 Nov 11-22",
+      "Belem, Brazil, 2025 Nov 10-21",
+      "Antalya, Turkey, 2026 Nov 9-20",
+      "Paris, France, 2025 Dec 1-10"
     ],
-    "correctIndex": 0,
-    "explanation": "September 20, 2015 (2072 Ashoj 3).",
+    "correctIndex": 1,
+    "explanation": "COP 30 was held in Belem, Brazil from November 10-21, 2025. COP 29 was in Baku 2024, COP 31 will be in Antalya 2026.",
+    "subject": "GK"
+  },
+  {
+    "id": "q20",
+    "question": "Which article guarantees Right to Equality?",
+    "options": [
+      "Article 16",
+      "Article 17",
+      "Article 18",
+      "Article 20"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 18 guarantees Right to Equality.",
     "subject": "CONSTITUTION"
   },
   {
-    "id": "q41",
-    "question": "Which mosquito spreads the dengue virus?",
+    "id": "q21",
+    "question": "What percentage of Provincial Assembly members are elected proportionally?",
     "options": [
-      "Anopheles mosquito",
-      "Aedes aegypti",
-      "Culex mosquito",
-      "Mansonia mosquito"
-    ],
-    "correctIndex": 1,
-    "explanation": "The dengue virus is spread by the Aedes aegypti mosquito.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q42",
-    "question": "According to the Institute for Economics & Peace report, what is Nepal's rank in the Global Terrorism Index?",
-    "options": [
-      "99th",
-      "59th",
-      "69th",
-      "79th"
+      "40%",
+      "60%",
+      "50%",
+      "33%"
     ],
     "correctIndex": 0,
-    "explanation": "Nepal ranks 99th in the Global Terrorism Index by IEP. Pakistan ranks 1st with a score of 8.574, followed by Burkina Faso with 8.334.",
+    "explanation": "40% of Provincial Assembly members are elected through proportional representation. 60% are directly elected.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q22",
+    "question": "Which river's mythological name is Mahaprabha?",
+    "options": [
+      "Rapti",
+      "Likhu",
+      "Arun",
+      "Myagdi"
+    ],
+    "correctIndex": 2,
+    "explanation": "Arun River's mythological name is Mahaprabha. Rapti = Achiravati, Likhu = Hemganga, Myagdi = Mangala.",
     "subject": "GK"
   },
   {
-    "id": "q43",
+    "id": "q23",
+    "question": "In how many languages does Radio Nepal currently broadcast news?",
+    "options": [
+      "24",
+      "25",
+      "23",
+      "26"
+    ],
+    "correctIndex": 1,
+    "explanation": "Radio Nepal broadcasts news in 25 languages. The 25th language is Dhanwar, added on 2081 Asar 30. 24th = Baitadeli, 23rd = Rajbanshi.",
+    "subject": "GK"
+  },
+  {
+    "id": "q24",
+    "question": "Which district is Kathmandu University located in?",
+    "options": [
+      "Kavre",
+      "Chitwan",
+      "Kathmandu",
+      "Makwanpur"
+    ],
+    "correctIndex": 0,
+    "explanation": "Kathmandu University is in Kavre district. Tribhuvan University = Kirtipur (Kathmandu), Pokhara University = Kaski (Lekhnath), Purbanchal University = Biratnagar.",
+    "subject": "GK"
+  },
+  {
+    "id": "q25",
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mars is called the Red Planet due to iron oxide.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q26",
+    "question": "How many clauses (articles) are there in the Magna Carta?",
+    "options": [
+      "53",
+      "63",
+      "73",
+      "83"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Magna Carta contains 63 clauses. It was signed on June 15, 1215 by King John II near the Thames River in Latin.",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "When is International Women's Day celebrated?",
+    "options": [
+      "March 8",
+      "June 5",
+      "May 1",
+      "September 8"
+    ],
+    "correctIndex": 0,
+    "explanation": "International Women's Day is celebrated on March 8. June 5 = Environment Day, May 1 = Labour Day, September 8 = Literacy Day.",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "The Chhath festival is mainly celebrated by which community?",
+    "options": [
+      "Maithili community",
+      "Hindus",
+      "Buddhists",
+      "Sherpa community"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Chhath festival is mainly celebrated by the Maithili community. Hindus = Dashain, Tihar, etc. Buddhists = Buddha Jayanti. Sherpas = Losar.",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "According to the 7th Agriculture Census 2078, what percentage of families are engaged in agriculture?",
+    "options": [
+      "62%",
+      "4.4%",
+      "70.4%",
+      "11.7%"
+    ],
+    "correctIndex": 0,
+    "explanation": "62% of families are engaged in agriculture. 4.4% have crop insurance, 70.4% have agriculture as main source, 11.7% took loans for agriculture.",
+    "subject": "GK"
+  },
+  {
+    "id": "q30",
+    "question": "Which district in Koshi Province has the highest population growth rate?",
+    "options": [
+      "Ilam",
+      "Jhapa",
+      "Udayapur",
+      "Khotang"
+    ],
+    "correctIndex": 1,
+    "explanation": "Jhapa has the highest population growth rate in Koshi Province at 1.97%. Khotang has the lowest at -1.56%.",
+    "subject": "GK"
+  },
+  {
+    "id": "q31",
     "question": "What is the area of Chhyanath National Park?",
     "options": [
       "834 sq km",
@@ -559,7 +403,46 @@
     "subject": "GK"
   },
   {
-    "id": "q44",
+    "id": "q32",
+    "question": "In which district is Jaljale Pokhari located in Koshi Province?",
+    "options": [
+      "Bhojpur",
+      "Tehrathum",
+      "Panchthar",
+      "Taplejung"
+    ],
+    "correctIndex": 3,
+    "explanation": "Jaljale Pokhari is in Taplejung district. Sijme Lake and Tin Pokhari are also in Taplejung.",
+    "subject": "GK"
+  },
+  {
+    "id": "q33",
+    "question": "When did the Government of Nepal approve the Artificial Intelligence (AI) Policy 2082?",
+    "options": [
+      "2082 Jestha 26",
+      "2082 Asar 26",
+      "2082 Saun 26",
+      "2082 Bhadau 26"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Government of Nepal approved the AI Policy 2082 on 2082 Saun 26.",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "Which SAARC country has never hosted a SAARC Summit so far?",
+    "options": [
+      "Bhutan",
+      "Afghanistan",
+      "Pakistan",
+      "Nepal"
+    ],
+    "correctIndex": 1,
+    "explanation": "Afghanistan has never hosted a SAARC Summit. Bhutan = hosted once. Pakistan = hosted twice. Nepal = hosted three times (11th, 18th, etc.).",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
     "question": "What is the height of Makalu Mountain?",
     "options": [
       "8414 meters",
@@ -572,81 +455,198 @@
     "subject": "GK"
   },
   {
-    "id": "q45",
-    "question": "How many female MPs were elected directly in the 2082 BS House of Representatives election?",
+    "id": "q36",
+    "question": "What is 25% of 25% of 400?",
     "options": [
-      "12",
-      "13",
-      "14",
-      "15"
+      "20",
+      "25",
+      "30",
+      "40"
+    ],
+    "correctIndex": 1,
+    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q37",
+    "question": "Which country has the world's largest national park?",
+    "options": [
+      "Canada",
+      "America",
+      "Mexico",
+      "Greenland"
+    ],
+    "correctIndex": 3,
+    "explanation": "Greenland has the world's largest national park (Northeast Greenland National Park, 972,000 sq km). 2nd largest = Great Limpopo Transfrontier Park (South Africa).",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "What is the area of Karnali Province (the largest province)?",
+    "options": [
+      "27,984 sq km",
+      "26,984 sq km",
+      "25,984 sq km",
+      "24,984 sq km"
+    ],
+    "correctIndex": 0,
+    "explanation": "Karnali Province area = 27,984 sq km (19.01% of Nepal). Largest district = Dolpa (7,889 sq km). Smallest district = Rukum West (1,213.49 sq km). Most populous = Surkhet. Least populous = Dolpa.",
+    "subject": "GK"
+  },
+  {
+    "id": "q39",
+    "question": "If square area = 625 sq.m, what is the perimeter?",
+    "options": [
+      "80m",
+      "90m",
+      "100m",
+      "120m"
     ],
     "correctIndex": 2,
-    "explanation": "14 female MPs were elected directly. 13 from Rastriya Swatantra Party and 1 from Congress (Basana Thapa from Dailekh-1).",
+    "explanation": "Side=25m. Perimeter=4×25=100m.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q40",
+    "question": "What is the poverty rate in Koshi Province?",
+    "options": [
+      "17.2%",
+      "20.17%",
+      "11.9%",
+      "2%"
+    ],
+    "correctIndex": 0,
+    "explanation": "Poverty rate in Koshi Province is 17.2%. Nepal's rate is 20.17%. Gandaki has the lowest at 11.9%.",
+    "subject": "GK"
+  },
+  {
+    "id": "q41",
+    "question": "When was Bhakti Thapa declared as Nepal's 18th national hero?",
+    "options": [
+      "2066 BS",
+      "2067 BS",
+      "2068 BS",
+      "2069 BS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bhakti Thapa was declared Nepal's 18th national hero in 2066 BS.",
+    "subject": "GK"
+  },
+  {
+    "id": "q42",
+    "question": "What was the slogan of Tax Day 2082?",
+    "options": [
+      "Tax system is the foundation of investment",
+      "Tax system is the essence, investment is the foundation",
+      "Investment is the foundation, tax system",
+      "Tax system, investment foundation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Slogan: 'Tax system is the essence, investment is the foundation'. Observed on Mangsir 1.",
+    "subject": "GK"
+  },
+  {
+    "id": "q43",
+    "question": "Which king introduced copper coins in Nepal's history?",
+    "options": [
+      "Mahendra Malla",
+      "Ratna Malla",
+      "Siddhi Narsingh Malla",
+      "Pratap Malla"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ratna Malla introduced copper coins. Mahendra Malla = silver coins, Siddhi Narsingh Malla = leather coins, Pratap Malla = four-sided (chaar kone) coins.",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "What does the term 'Kariya Mochan' refer to?",
+    "options": [
+      "Sati Pratha",
+      "Slavery (Das Pratha)",
+      "Child Marriage",
+      "Polygamy"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Kariya Mochan' refers to the abolition of the slavery (Das Pratha) system in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q45",
+    "question": "When was the new coach appointed for the Nepal men's national football team?",
+    "options": [
+      "2082 Falgun 27",
+      "2082 Falgun 29",
+      "2082 Falgun 28",
+      "2082 Falgun 26"
+    ],
+    "correctIndex": 2,
+    "explanation": "Guglielmo Arena from Switzerland was appointed as the new coach of Nepal men's national football team on 2082 Falgun 28.",
     "subject": "GK"
   },
   {
     "id": "q46",
-    "question": "Nepal ranks 49th globally in biodiversity. What is Nepal's rank in Asia?",
+    "question": "Which pond is located in Bajhang district?",
     "options": [
-      "12th",
-      "21st",
-      "11th",
-      "14th"
+      "Pap Kunda",
+      "Nihari Kunda",
+      "Narad Kunda",
+      "Gyan Kunda"
     ],
-    "correctIndex": 2,
-    "explanation": "Nepal ranks 11th in Asia in biodiversity. According to the Nepal Biodiversity Research and Conservation Center, Nepal is 49th globally.",
+    "correctIndex": 1,
+    "explanation": "Nihari Kunda is located in Bajhang district. Rakshas Kunda is also in Bajhang.",
     "subject": "GK"
   },
   {
     "id": "q47",
-    "question": "Who won the Mr. Nepal 2025 title?",
+    "question": "How many articles are there in the SAARC Charter?",
     "options": [
-      "Himanchal Raj KC",
-      "Girish Ratna Shakya",
-      "Prakash Chauhan",
-      "Bikash Raj Sake"
+      "8",
+      "10",
+      "12",
+      "15"
     ],
-    "correctIndex": 0,
-    "explanation": "Himanchal Raj KC won Mr. Nepal 2025. Girish Ratna Shakya = Mr. Global Nepal 2025. Prakash Chauhan = Man of the World 2025.",
+    "correctIndex": 1,
+    "explanation": "The SAARC Charter has 10 articles.",
     "subject": "GK"
   },
   {
     "id": "q48",
-    "question": "When did IPL 2026 start?",
+    "question": "What is the powerhouse of the cell?",
     "options": [
-      "March 26, 2026",
-      "March 27, 2026",
-      "March 28, 2026",
-      "March 29, 2026"
+      "Nucleus",
+      "Ribosome",
+      "Mitochondria",
+      "Golgi body"
     ],
     "correctIndex": 2,
-    "explanation": "IPL 2026 started on March 28, 2026. It is the 19th edition, running until May 1, with 10 participating teams.",
-    "subject": "GK"
+    "explanation": "Mitochondria produces ATP.",
+    "subject": "SCIENCE"
   },
   {
     "id": "q49",
-    "question": "When did Prithvi Narayan Shah attack Patan?",
+    "question": "Who was appointed as Nepal's new Attorney General?",
     "options": [
-      "Vikram Sambat 1825 Aswin 24",
-      "Vikram Sambat 1826 Mangshir 1",
-      "Vikram Sambat 1826 Chaitra 10",
-      "Vikram Sambat 1831 Magh 1"
+      "Bikasman Paudel",
+      "Govinda KC",
+      "Narayan Datt Kadel",
+      "Govinda KC"
     ],
-    "correctIndex": 0,
-    "explanation": "Prithvi Narayan Shah attacked Patan on Vikram Sambat 1825 Aswin 24. Attacked Bhaktapur on 1826 Mangshir 1. Declared Kathmandu as capital on 1826 Chaitra 10. Died on 1831 Magh 1 at Devighat, Nuwakot due to a tiger attack.",
+    "correctIndex": 2,
+    "explanation": "Narayan Datt Kadel was appointed on 2082 Chaitra 22 as the 31st Attorney General. 30th was Sabita Bhandari, the first female Attorney General.",
     "subject": "GK"
   },
   {
     "id": "q50",
-    "question": "When is the International Day of Happiness celebrated every year?",
+    "question": "Who received the Bhanira Shankar Award 2082?",
     "options": [
-      "March 15",
-      "March 18",
-      "March 20",
-      "March 22"
+      "Dhanraj Giri",
+      "Madhav Khanal",
+      "Saroj Dhakal",
+      "Muni Shakya"
     ],
-    "correctIndex": 2,
-    "explanation": "The International Day of Happiness is celebrated on March 20 every year.",
+    "correctIndex": 3,
+    "explanation": "Muni Shakya received the Bhanira Shankar Award 2082. Saroj Dhakal = Bhanira Service Honor Award. Madhav Khanal = Bhanira Pragya Award. Dhanraj Giri = Bhanira Award.",
     "subject": "GK"
   }
 ]

@@ -1,578 +1,71 @@
 [
   {
     "id": "q1",
-    "question": "Who won the men's Ballon d'Or 2025?",
-    "options": [
-      "Lionel Messi",
-      "Rodri",
-      "Aitana Bonmati",
-      "Ousmane Dembele"
-    ],
-    "correctIndex": 3,
-    "explanation": "Ousmane Dembele won the men's Ballon d'Or 2025. Aitana Bonmati won the women's award. Rodri = 2024 men's winner. Messi = 2023 men's winner.",
-    "subject": "GK"
-  },
-  {
-    "id": "q2",
-    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
-    "options": [
-      "Daughter",
-      "Niece",
-      "Cousin",
-      "Sister"
-    ],
-    "correctIndex": 3,
-    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q3",
-    "question": "What is the settlement of the Magar community called?",
-    "options": [
-      "Khasan",
-      "Tharuhat",
-      "Magarat",
-      "Sheshat"
-    ],
-    "correctIndex": 2,
-    "explanation": "The settlement of the Magar community is called Magarat. Sheshat = Newar settlement. Khasan = Khas settlement. Tharuhat = Tharu settlement.",
-    "subject": "GK"
-  },
-  {
-    "id": "q4",
-    "question": "Which planet is cold on one side and extremely hot on the other?",
-    "options": [
-      "Mercury",
-      "Uranus",
-      "Earth",
-      "Saturn"
-    ],
-    "correctIndex": 0,
-    "explanation": "Mercury is extremely cold on one side and very hot on the other. Uranus = rises in the west, Earth = highest density planet, Saturn = lowest density planet.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q5",
-    "question": "How many local levels are there in Nepal?",
-    "options": [
-      "775",
-      "744",
-      "753",
-      "761"
-    ],
-    "correctIndex": 2,
-    "explanation": "753: 6 metros, 11 sub-metros, 276 municipalities, 460 rural municipalities.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q6",
-    "question": "When did the Sepoy Mutiny occur in India?",
-    "options": [
-      "1863",
-      "1804",
-      "1865",
-      "1857"
-    ],
-    "correctIndex": 3,
-    "explanation": "The Sepoy Mutiny (Indian Rebellion) occurred in 1857. 1863 = Abolition of slavery in America. 1865 = Assassination of Abraham Lincoln. 1804 = Napoleon declared Emperor of France.",
-    "subject": "GK"
-  },
-  {
-    "id": "q7",
-    "question": "Which river is also known as 'Uttar Gaya' in Nepal?",
-    "options": [
-      "Rapti",
-      "Karnali",
-      "Sanoberi",
-      "Trishuli"
-    ],
-    "correctIndex": 3,
-    "explanation": "Trishuli is known as 'Uttar Gaya'. Sanoberi = 'Uttar Ganga'. Karnali = fastest flowing river in Nepal.",
-    "subject": "GK"
-  },
-  {
-    "id": "q8",
-    "question": "How many articles are there in the SAARC Charter?",
-    "options": [
-      "15",
-      "8",
-      "10",
-      "12"
-    ],
-    "correctIndex": 2,
-    "explanation": "The SAARC Charter has 10 articles.",
-    "subject": "GK"
-  },
-  {
-    "id": "q9",
-    "question": "Which was the first spacecraft to land on the Moon's surface?",
-    "options": [
-      "Luna 10",
-      "Skylab",
-      "Luna 1",
-      "Luna 2"
-    ],
-    "correctIndex": 3,
-    "explanation": "Luna 2 was the first spacecraft to land on the Moon's surface. Luna 10 = first to orbit the Moon. Skylab = first manned station for solar study (1974).",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q10",
-    "question": "Where is Nepal's easternmost point located?",
-    "options": [
-      "Panchthar",
-      "Darchula",
-      "Taplejung",
-      "Ilam"
-    ],
-    "correctIndex": 2,
-    "explanation": "Nepal's easternmost point is in Taplejung district.",
-    "subject": "GK"
-  },
-  {
-    "id": "q11",
-    "question": "When was the World Health Organization (WHO) established?",
-    "options": [
-      "April 7, 1948",
-      "April 7, 1953",
-      "April 10, 1953",
-      "April 10, 1948"
-    ],
-    "correctIndex": 0,
-    "explanation": "WHO was established on April 7, 1948. Headquarters = Geneva, Switzerland. Nepal became a member in 1953.",
-    "subject": "GK"
-  },
-  {
-    "id": "q12",
-    "question": "Which is the upper house of Nepal's Federal Parliament?",
-    "options": [
-      "Provincial Assembly",
-      "Local Assembly",
-      "House of Representatives",
-      "National Assembly"
-    ],
-    "correctIndex": 3,
-    "explanation": "National Assembly (Rashtriya Sabha) is the upper house.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q13",
-    "question": "When is World Autism Awareness Day celebrated every year?",
-    "options": [
-      "April 3",
-      "April 4",
-      "April 1",
-      "April 2"
-    ],
-    "correctIndex": 3,
-    "explanation": "April 2 every year. Established by UN on Dec 18, 2007.",
-    "subject": "GK"
-  },
-  {
-    "id": "q14",
-    "question": "According to the World Bank, what is Nepal's current unemployment rate?",
-    "options": [
-      "21.7%",
-      "22.7%",
-      "23.7%",
-      "24.8%"
-    ],
-    "correctIndex": 1,
-    "explanation": "Nepal's unemployment rate is 22.7% according to the World Bank. This is the highest unemployment rate in South Asia.",
-    "subject": "GK"
-  },
-  {
-    "id": "q15",
-    "question": "Which body prevents corruption in Nepal?",
-    "options": [
-      "Election Commission",
-      "Public Service Commission",
-      "CIAA",
-      "NHRC"
-    ],
-    "correctIndex": 2,
-    "explanation": "CIAA (Commission for Investigation of Abuse of Authority).",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q16",
-    "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
-    "options": [
-      "100m",
-      "150m",
-      "200m",
-      "250m"
-    ],
-    "correctIndex": 0,
-    "explanation": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q17",
-    "question": "Next in series: 2, 6, 12, 20, 30, ?",
-    "options": [
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "correctIndex": 2,
-    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q18",
-    "question": "What is the poverty rate in Koshi Province?",
-    "options": [
-      "17.2%",
-      "20.17%",
-      "11.9%",
-      "2%"
-    ],
-    "correctIndex": 0,
-    "explanation": "Poverty rate in Koshi Province is 17.2%. Nepal's rate is 20.17%. Gandaki has the lowest at 11.9%.",
-    "subject": "GK"
-  },
-  {
-    "id": "q19",
-    "question": "How many types of ecosystems are found in Nepal according to the Ministry of Science and Environment?",
-    "options": [
-      "119",
-      "903",
-      "114",
-      "118"
-    ],
-    "correctIndex": 3,
-    "explanation": "According to the Ministry of Science and Environment, there are 118 types of ecosystems in Nepal. 903 = types of birds. 114 = ecosystems per Dobreman.",
-    "subject": "GK"
-  },
-  {
-    "id": "q20",
-    "question": "How many founding nations did BIMSTEC have?",
-    "options": [
-      "5",
-      "6",
-      "7",
-      "4"
-    ],
-    "correctIndex": 3,
-    "explanation": "BIMSTEC had 4 founding nations: Bangladesh, India, Sri Lanka, and Thailand. 7 = SAARC founding nations. 6 = EU founding nations. 5 = ASEAN founding nations.",
-    "subject": "GK"
-  },
-  {
-    "id": "q21",
-    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
-    "options": [
-      "35",
-      "40",
-      "45",
-      "50"
-    ],
-    "correctIndex": 2,
-    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q22",
-    "question": "Who was elected as Speaker of the House of Representatives on BS 2082 Chaitra 27?",
-    "options": [
-      "Indira Ranamagar",
-      "Pushpa Bhusal",
-      "Ruby Kumari Thakur",
-      "Ansari Gharti"
-    ],
-    "correctIndex": 2,
-    "explanation": "Ruby Kumari Thakur from CPN-UML was elected Speaker.",
-    "subject": "GK"
-  },
-  {
-    "id": "q23",
-    "question": "Which Terai district has the highest population growth rate in Nepal?",
-    "options": [
-      "Kathmandu",
-      "Banke",
-      "Khotang",
-      "Morang"
-    ],
-    "correctIndex": 1,
-    "explanation": "Banke has the highest population growth rate in Terai. Bardia = lowest in Terai. Kathmandu = highest in hills. Khotang = lowest in hills. Morang = highest population in Terai. Kalikot = highest in mountains. Manang = lowest in mountains.",
-    "subject": "GK"
-  },
-  {
-    "id": "q24",
-    "question": "If square area = 625 sq.m, what is the perimeter?",
-    "options": [
-      "80m",
-      "90m",
-      "100m",
-      "120m"
-    ],
-    "correctIndex": 2,
-    "explanation": "Side=25m. Perimeter=4×25=100m.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q25",
-    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
-    "options": [
-      "Sound",
-      "Hearing",
-      "Noise",
-      "Music"
-    ],
-    "correctIndex": 1,
-    "explanation": "Eye is for vision, Ear is for hearing.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q26",
-    "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
-    "options": [
-      "RTSIFD",
-      "RTSHFD",
-      "RTSIEC",
-      "RTSIFC"
-    ],
-    "correctIndex": 0,
-    "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q27",
-    "question": "Where was COP 29 held?",
-    "options": [
-      "Brazil",
-      "UAE",
-      "Azerbaijan",
-      "Turkey"
-    ],
-    "correctIndex": 2,
-    "explanation": "COP 29 was held in Baku, Azerbaijan. COP 30 = Brazil, COP 28 = UAE, COP 31 = Turkey. COP stands for Conference of the Parties.",
-    "subject": "GK"
-  },
-  {
-    "id": "q28",
-    "question": "Who led the American War of Independence?",
-    "options": [
-      "George Washington",
-      "George Grenville",
-      "Thomas Jefferson",
-      "Red Indian"
-    ],
-    "correctIndex": 0,
-    "explanation": "George Washington led the American War of Independence. Grenville = British King at the time. Jefferson = drafted the Declaration of Independence. Red Indian = Native Americans.",
-    "subject": "GK"
-  },
-  {
-    "id": "q29",
-    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
-    "options": [
-      "20",
-      "24",
-      "32",
-      "40"
-    ],
-    "correctIndex": 1,
-    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q30",
-    "question": "Who first used the term 'ecosystem'?",
-    "options": [
-      "A.G. Tansley",
-      "Ernest Haeckel",
-      "J.C. Farman",
-      "Barbara Ward"
-    ],
-    "correctIndex": 0,
-    "explanation": "A.G. Tansley first used the term 'ecosystem' and is known as the 'Father of Ecosystem'. Ernest Haeckel = first used 'ecology'. J.C. Farman = discovered the ozone layer. Barbara Ward = first used 'sustainable development'.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q31",
-    "question": "How many zones were named after rivers in Nepal?",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "15"
-    ],
-    "correctIndex": 1,
-    "explanation": "Out of the 14 former zones of Nepal, 10 were named after rivers.",
-    "subject": "GK"
-  },
-  {
-    "id": "q32",
-    "question": "Approximately how many times larger is China than Nepal?",
-    "options": [
-      "65 times",
-      "70 times",
-      "50 times",
-      "55 times"
-    ],
-    "correctIndex": 0,
-    "explanation": "China is approximately 65 times larger than Nepal in terms of area.",
-    "subject": "GK"
-  },
-  {
-    "id": "q33",
     "question": "Which is the rainiest place in Nepal?",
     "options": [
-      "Pokhara",
-      "Lumle",
       "Kathmandu",
-      "Biratnagar"
+      "Biratnagar",
+      "Pokhara",
+      "Lumle"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Lumle in Kaski district.",
     "subject": "GK"
   },
   {
-    "id": "q34",
-    "question": "What is the production capacity of Arun-3 Hydropower Project?",
+    "id": "q2",
+    "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
     "options": [
-      "450 MW",
-      "900 MW",
-      "750 MW",
-      "12 MW"
-    ],
-    "correctIndex": 1,
-    "explanation": "Arun-3 Hydropower Project has a production capacity of 900 MW.",
-    "subject": "GK"
-  },
-  {
-    "id": "q35",
-    "question": "After Brazil, which country has the most biodiversity in the world?",
-    "options": [
-      "Indonesia",
-      "Colombia",
-      "China",
-      "America"
+      "214673",
+      "246173",
+      "214763",
+      "216473"
     ],
     "correctIndex": 0,
-    "explanation": "Indonesia has the second most biodiversity after Brazil. Top 5: 1. Brazil, 2. Indonesia, 3. Colombia, 4. China, 5. Mexico.",
+    "explanation": "R=6,O=8,S=2,E=1,C=7,H=3,A=4,I=5,P=9. SEARCH=S(2)+E(1)+A(4)+R(6)+C(7)+H(3)=214673.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q3",
+    "question": "Which is the world's second largest island?",
+    "options": [
+      "Borneo",
+      "Madagascar",
+      "Greenland",
+      "New Guinea"
+    ],
+    "correctIndex": 3,
+    "explanation": "New Guinea is the world's second largest island. 1st = Greenland, 3rd = Borneo, 4th = Madagascar, 5th = Baffin.",
     "subject": "GK"
   },
   {
-    "id": "q36",
-    "question": "Glass is mainly made from which substance?",
+    "id": "q4",
+    "question": "Which constitutional body conducts elections in Nepal?",
     "options": [
-      "Sand",
-      "Clay",
-      "Limestone",
-      "Soil"
+      "CIAA",
+      "Auditor General",
+      "Public Service Commission",
+      "Election Commission"
     ],
-    "correctIndex": 0,
-    "explanation": "Glass is mainly made from sand. Clay + limestone = cement. Soil = ceramics.",
-    "subject": "SCIENCE"
+    "correctIndex": 3,
+    "explanation": "Election Commission conducts all elections.",
+    "subject": "CONSTITUTION"
   },
   {
-    "id": "q37",
-    "question": "By what percentage did farming families increase per 7th Agriculture Census 2078?",
-    "options": [
-      "5%",
-      "6%",
-      "8%",
-      "10%"
-    ],
-    "correctIndex": 2,
-    "explanation": "Farming families increased by 8%.",
-    "subject": "GK"
-  },
-  {
-    "id": "q38",
-    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
-    "options": [
-      "Rs. 25000",
-      "Rs. 30000",
-      "Rs. 35000",
-      "Rs. 40000"
-    ],
-    "correctIndex": 1,
-    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q39",
-    "question": "Who represented Nepal at COP 30?",
-    "options": [
-      "KP Sharma Oli",
-      "Madan Prasad Pariyar",
-      "Balendra Shah",
-      "Pushpa Kamal Dahal"
-    ],
-    "correctIndex": 1,
-    "explanation": "Madan Prasad Pariyar represented Nepal at COP 30 held in Belem, Brazil (Nov 10-21, 2025). COP 31 will be in Turkey (Nov 9-20, 2026).",
-    "subject": "GK"
-  },
-  {
-    "id": "q40",
-    "question": "In which district is Jagadishpur located?",
-    "options": [
-      "Pyuthan",
-      "Kapilvastu",
-      "Banke",
-      "Nawalparasi"
-    ],
-    "correctIndex": 1,
-    "explanation": "Jagadishpur is located in Kapilvastu district. It is one of the important wetlands (ramsar site) of Nepal.",
-    "subject": "GK"
-  },
-  {
-    "id": "q41",
-    "question": "What is the area of Karnali Province (the largest province)?",
-    "options": [
-      "27,984 sq km",
-      "26,984 sq km",
-      "25,984 sq km",
-      "24,984 sq km"
-    ],
-    "correctIndex": 0,
-    "explanation": "Karnali Province area = 27,984 sq km (19.01% of Nepal). Largest district = Dolpa (7,889 sq km). Smallest district = Rukum West (1,213.49 sq km). Most populous = Surkhet. Least populous = Dolpa.",
-    "subject": "GK"
-  },
-  {
-    "id": "q42",
-    "question": "When did Nepal Telecom start robot technology for customer service?",
-    "options": [
-      "2081 Mangsir 1",
-      "2081 Mangsir 2",
-      "2081 Mangsir 3",
-      "2082 Mangsir 1"
-    ],
-    "correctIndex": 1,
-    "explanation": "Nepal Telecom started robot technology for customer service on 2081 Mangsir 2.",
-    "subject": "GK"
-  },
-  {
-    "id": "q43",
-    "question": "How many physiographic regions is Nepal divided into?",
-    "options": [
-      "5",
-      "3",
-      "7",
-      "4"
-    ],
-    "correctIndex": 1,
-    "explanation": "Physiographically, Nepal is divided into 3 regions: Mountain (Himal), Hill (Pahad), and Terai (Plain).",
-    "subject": "GK"
-  },
-  {
-    "id": "q44",
+    "id": "q5",
     "question": "Which continent has the most countries?",
     "options": [
-      "Asia",
-      "Africa",
       "Europe",
-      "Australia"
+      "Australia",
+      "Asia",
+      "Africa"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Africa has the most countries (54). Asia = 48, Europe = 44, Australia = 14, South America = 12, North America = 23.",
     "subject": "GK"
   },
   {
-    "id": "q45",
+    "id": "q6",
     "question": "Which country did the Industrial Revolution start from?",
     "options": [
       "Germany",
@@ -585,68 +78,575 @@
     "subject": "GK"
   },
   {
-    "id": "q46",
-    "question": "How many times larger is Nepal than Vatican City?",
+    "id": "q7",
+    "question": "Which of the following industrial areas was built with India's help?",
     "options": [
-      "3,34,500 times",
-      "3,33,500 times",
-      "3,32,500 times",
-      "3,31,500 times"
+      "Bhaktapur Industrial Area",
+      "Hetauda Industrial Area",
+      "Patan Industrial Area",
+      "Birendranagar Industrial Area"
+    ],
+    "correctIndex": 2,
+    "explanation": "Patan Industrial Area was built with India's help.",
+    "subject": "GK"
+  },
+  {
+    "id": "q8",
+    "question": "Nepal ranks 49th globally in biodiversity. What is Nepal's rank in Asia?",
+    "options": [
+      "12th",
+      "21st",
+      "11th",
+      "14th"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal ranks 11th in Asia in biodiversity. According to the Nepal Biodiversity Research and Conservation Center, Nepal is 49th globally.",
+    "subject": "GK"
+  },
+  {
+    "id": "q9",
+    "question": "How many articles are in the Constitution of Nepal 2072?",
+    "options": [
+      "280",
+      "295",
+      "308",
+      "325"
+    ],
+    "correctIndex": 2,
+    "explanation": "308 articles, 35 parts, 9 schedules.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q10",
+    "question": "Which place is known as Nepal's 'wind hole'?",
+    "options": [
+      "Mahabharat mountain range",
+      "Inner Madhes",
+      "Bhavar region",
+      "Chure mountain"
     ],
     "correctIndex": 0,
-    "explanation": "Nepal is about 3,34,500 times larger than Vatican City. Nepal is 116.17 times smaller than Russia (the largest country).",
+    "explanation": "Mahabharat mountain range is known as Nepal's 'wind hole'. It is also called 'Hill Station of Nepal', 'Low Himalaya', and 'Moddar Parbat'.",
+    "subject": "GK"
+  },
+  {
+    "id": "q11",
+    "question": "How many physiographic regions is Nepal divided into?",
+    "options": [
+      "7",
+      "4",
+      "5",
+      "3"
+    ],
+    "correctIndex": 3,
+    "explanation": "Physiographically, Nepal is divided into 3 regions: Mountain (Himal), Hill (Pahad), and Terai (Plain).",
+    "subject": "GK"
+  },
+  {
+    "id": "q12",
+    "question": "When was Balaju Industrial Area established?",
+    "options": [
+      "2016 BS",
+      "2020 BS",
+      "2029 BS",
+      "2030 BS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Balaju Industrial Area was established in 2016 BS. Hetauda and Patan = 2020, Dharan = 2029, Nepalgunj = 2030.",
+    "subject": "GK"
+  },
+  {
+    "id": "q13",
+    "question": "How many types of ecosystems are found in Nepal according to the Ministry of Science and Environment?",
+    "options": [
+      "119",
+      "903",
+      "114",
+      "118"
+    ],
+    "correctIndex": 3,
+    "explanation": "According to the Ministry of Science and Environment, there are 118 types of ecosystems in Nepal. 903 = types of birds. 114 = ecosystems per Dobreman.",
+    "subject": "GK"
+  },
+  {
+    "id": "q14",
+    "question": "Who was the first person to travel to space?",
+    "options": [
+      "George Washington",
+      "Neil Armstrong",
+      "Yuri Gagarin",
+      "Magellan"
+    ],
+    "correctIndex": 2,
+    "explanation": "Yuri Gagarin of Russia was the first person in space. Washington = 1st US President. Armstrong = first on the moon. Magellan = first world circumnavigation.",
+    "subject": "GK"
+  },
+  {
+    "id": "q15",
+    "question": "Who was the Province Chief when Koshi Province was named?",
+    "options": [
+      "Parshuram Khapung",
+      "Hikmat Kumar Karki",
+      "Kedar Karki",
+      "Somnath Adhikari Pyasi"
+    ],
+    "correctIndex": 0,
+    "explanation": "Parshuram Khapung was the Province Chief when Koshi Province was named on 2079 Falgun 17.",
+    "subject": "GK"
+  },
+  {
+    "id": "q16",
+    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
+    "options": [
+      "35",
+      "40",
+      "45",
+      "50"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q17",
+    "question": "Up to how many decibels can the human ear tolerate?",
+    "options": [
+      "50-55 dB",
+      "60-65 dB",
+      "70-75 dB",
+      "80-85 dB"
+    ],
+    "correctIndex": 2,
+    "explanation": "The human ear can tolerate up to 70-75 decibels.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q18",
+    "question": "When was the Nepal-China Border Protocol Agreement signed?",
+    "options": [
+      "1970 AD",
+      "1980 AD",
+      "1955 AD",
+      "1961 AD"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Nepal-China Border Protocol Agreement was signed in 1961 AD.",
+    "subject": "GK"
+  },
+  {
+    "id": "q19",
+    "question": "What is the priest of the Chepang community called?",
+    "options": [
+      "Lama",
+      "Pandit",
+      "Bhusal",
+      "Pandey"
+    ],
+    "correctIndex": 3,
+    "explanation": "The priest of the Chepang community is called Pandey. Lama = Sherpa priest. Pandit = Brahmin/Kshatriya priest. Bhusal = Magar priest.",
+    "subject": "GK"
+  },
+  {
+    "id": "q20",
+    "question": "Which Buddha Jayanti was celebrated in 2082 BS?",
+    "options": [
+      "2566th",
+      "2577th",
+      "2578th",
+      "2569th"
+    ],
+    "correctIndex": 3,
+    "explanation": "The 2569th Buddha Jayanti was celebrated in 2082 BS. This commemorates the birth of Siddhartha Gautam (Buddha).",
+    "subject": "GK"
+  },
+  {
+    "id": "q21",
+    "question": "If x + 1/x = 3, what is x² + 1/x²?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "11"
+    ],
+    "correctIndex": 0,
+    "explanation": "(x+1/x)² = x²+2+1/x² = 9. So x²+1/x² = 7.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q22",
+    "question": "How many local levels are there in Koshi Province?",
+    "options": [
+      "137",
+      "140",
+      "145",
+      "135"
+    ],
+    "correctIndex": 0,
+    "explanation": "There are 137 local levels: 1 metropolis, 2 sub-metropolises, 46 municipalities, and 88 rural municipalities. There are also 1,157 wards.",
+    "subject": "GK"
+  },
+  {
+    "id": "q23",
+    "question": "When was Artemis 2 launched in 2026?",
+    "options": [
+      "April 3, 2026",
+      "March 30, 2026",
+      "April 2, 2026",
+      "April 1, 2026"
+    ],
+    "correctIndex": 3,
+    "explanation": "Artemis 2 was launched on April 1, 2026. It is an American mission that traveled 4,20,000 km from Earth - the farthest in history. Christina Koch became the first woman to travel to the moon.",
+    "subject": "GK"
+  },
+  {
+    "id": "q24",
+    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
+    "options": [
+      "Sister",
+      "Daughter",
+      "Niece",
+      "Cousin"
+    ],
+    "correctIndex": 0,
+    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q25",
+    "question": "Which element is found in tea?",
+    "options": [
+      "Lycopene",
+      "Tannin",
+      "Curcumin",
+      "Gingerol"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tea contains tannin. Lycopene = found in tomatoes. Curcumin = found in turmeric. Gingerol = found in ginger.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q26",
+    "question": "What is the smallest unit of matter?",
+    "options": [
+      "Molecule",
+      "Atom",
+      "Electron",
+      "Proton"
+    ],
+    "correctIndex": 1,
+    "explanation": "Atom is the smallest unit that retains chemical properties.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q27",
+    "question": "Ending hunger is which Sustainable Development Goal (SDG)?",
+    "options": [
+      "Goal 2",
+      "Goal 3",
+      "Goal 4",
+      "Goal 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ending hunger is SDG Goal 2. Goal 1 = No Poverty, Goal 3 = Good Health and Well-being, Goal 4 = Quality Education.",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "Which event is considered the starting point of World War II?",
+    "options": [
+      "Attack on Pearl Harbor",
+      "Germany's invasion of Poland",
+      "Battle of Stalingrad",
+      "D-Day landing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Germany's invasion of Poland on September 1, 1939 is considered the starting point of WWII.",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "What is 25% of 25% of 400?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "40"
+    ],
+    "correctIndex": 1,
+    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q30",
+    "question": "Which body prevents corruption in Nepal?",
+    "options": [
+      "Election Commission",
+      "Public Service Commission",
+      "CIAA",
+      "NHRC"
+    ],
+    "correctIndex": 2,
+    "explanation": "CIAA (Commission for Investigation of Abuse of Authority).",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q31",
+    "question": "Which Terai district has the highest population growth rate in Nepal?",
+    "options": [
+      "Kathmandu",
+      "Banke",
+      "Khotang",
+      "Morang"
+    ],
+    "correctIndex": 1,
+    "explanation": "Banke has the highest population growth rate in Terai. Bardia = lowest in Terai. Kathmandu = highest in hills. Khotang = lowest in hills. Morang = highest population in Terai. Kalikot = highest in mountains. Manang = lowest in mountains.",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
+    "question": "Who won the Mr. Nepal 2025 title?",
+    "options": [
+      "Himanchal Raj KC",
+      "Girish Ratna Shakya",
+      "Prakash Chauhan",
+      "Bikash Raj Sake"
+    ],
+    "correctIndex": 0,
+    "explanation": "Himanchal Raj KC won Mr. Nepal 2025. Girish Ratna Shakya = Mr. Global Nepal 2025. Prakash Chauhan = Man of the World 2025.",
+    "subject": "GK"
+  },
+  {
+    "id": "q33",
+    "question": "Which river is also known as 'Uttar Gaya' in Nepal?",
+    "options": [
+      "Sanoberi",
+      "Trishuli",
+      "Rapti",
+      "Karnali"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trishuli is known as 'Uttar Gaya'. Sanoberi = 'Uttar Ganga'. Karnali = fastest flowing river in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "In which community is the custom of marrying only in the month of Mangsir practiced?",
+    "options": [
+      "Koche",
+      "Thami",
+      "Chepang",
+      "Punye"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Thami community has the custom of marrying only in the month of Mangsir. Koche = bride goes to groom's house after marriage. Chepang = chiuri tree given as dowry. Punye = bride kidnapping custom.",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "Who was elected in the 2082 Magh National Assembly election?",
+    "options": [
+      "Sunil Bahadur Thapa",
+      "Gagan Thapa",
+      "Bishnu Paudel",
+      "Prakash Man Singh"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sunil Bahadur Thapa was elected in the 2082 Magh National Assembly election.",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "Who invented the television?",
+    "options": [
+      "Martin Cooper",
+      "John Baird",
+      "Johannes Gutenberg",
+      "Alfred Nobel"
+    ],
+    "correctIndex": 1,
+    "explanation": "John Baird invented the television. Martin Cooper = mobile phone. Johannes Gutenberg = printing press. Alfred Nobel = dynamite.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q37",
+    "question": "Which is the world's largest desert?",
+    "options": [
+      "Arabian Desert",
+      "Antarctica Desert",
+      "Kalahari Desert",
+      "Sahara Desert"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sahara is the world's largest hot desert. Arabian = largest sandy desert, Antarctica = largest polar desert, Thar = largest in South Asia.",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "Next in series: 2, 6, 12, 20, 30, ?",
+    "options": [
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "correctIndex": 2,
+    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q39",
+    "question": "Who scored the first century in NPL 2025 (2nd edition)?",
+    "options": [
+      "Mark Watt",
+      "Martin Guptill",
+      "Adam Rossington",
+      "Andre Gayle"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mark Watt scored the first century in NPL 2025. Adam Rossington scored the second century in 2025. Andre Gayle scored the first century in NPL 2024 (1st edition).",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "When was the first amendment to the Magna Carta made?",
+    "options": [
+      "Feb 11, 1225",
+      "Feb 17, 1217",
+      "Feb 16, 1216",
+      "Feb 10, 1127"
+    ],
+    "correctIndex": 2,
+    "explanation": "The first amendment to the Magna Carta was made on February 16, 1216 by Henry III. 2nd amendment = Feb 17, 1217. 3rd amendment = Feb 11, 1225.",
+    "subject": "GK"
+  },
+  {
+    "id": "q41",
+    "question": "Who started the Rato Machhindranath Jatra (festival)?",
+    "options": [
+      "Pratap Malla",
+      "Narendradev",
+      "Ratna Malla",
+      "Bhupatindra Malla"
+    ],
+    "correctIndex": 1,
+    "explanation": "Narendradev started the Rato Machhindranath Jatra. Pratap Malla = started Seto Machhindranath Jatra. Ratna Malla = introduced copper coins. Bhupatindra Malla = built 55-window palace in Bhaktapur.",
+    "subject": "GK"
+  },
+  {
+    "id": "q42",
+    "question": "Which province has the most agriculturally suitable land in Nepal?",
+    "options": [
+      "Koshi Province",
+      "Madhesh Province",
+      "Bagmati Province",
+      "Sudurpashchim Province"
+    ],
+    "correctIndex": 0,
+    "explanation": "Koshi Province has the most agriculturally suitable land in Nepal. Morang district in Koshi is also the largest rice-producing district in the province.",
+    "subject": "GK"
+  },
+  {
+    "id": "q43",
+    "question": "By what percentage did farming families increase per 7th Agriculture Census 2078?",
+    "options": [
+      "5%",
+      "6%",
+      "8%",
+      "10%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Farming families increased by 8%.",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "Where was COP 29 held?",
+    "options": [
+      "Brazil",
+      "UAE",
+      "Azerbaijan",
+      "Turkey"
+    ],
+    "correctIndex": 2,
+    "explanation": "COP 29 was held in Baku, Azerbaijan. COP 30 = Brazil, COP 28 = UAE, COP 31 = Turkey. COP stands for Conference of the Parties.",
+    "subject": "GK"
+  },
+  {
+    "id": "q45",
+    "question": "Which district is Chaurjahari Airport located in?",
+    "options": [
+      "Jajarkot",
+      "Rukum West",
+      "Salyan",
+      "Dang"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chaurjahari Airport is in Rukum West district. Bhadrapur = Jhapa, Bharatpur = Chitwan, Biratnagar = Morang, Birendranagar = Surkhet.",
+    "subject": "GK"
+  },
+  {
+    "id": "q46",
+    "question": "Who represented Nepal at COP 30?",
+    "options": [
+      "KP Sharma Oli",
+      "Madan Prasad Pariyar",
+      "Balendra Shah",
+      "Pushpa Kamal Dahal"
+    ],
+    "correctIndex": 1,
+    "explanation": "Madan Prasad Pariyar represented Nepal at COP 30 held in Belem, Brazil (Nov 10-21, 2025). COP 31 will be in Turkey (Nov 9-20, 2026).",
     "subject": "GK"
   },
   {
     "id": "q47",
-    "question": "Which country is known as the 'Land of Thousand Lakes'?",
+    "question": "Which king died during treatment in Switzerland?",
     "options": [
-      "New Zealand",
-      "Laos",
-      "Thailand",
-      "Finland"
+      "Girman Yuddha Bikram Shah",
+      "Rajendra Shah",
+      "Tribhuvan Shah",
+      "Ran Bahadur Shah"
     ],
-    "correctIndex": 3,
-    "explanation": "Finland is called the Land of Thousand Lakes. New Zealand = Britain of the South, Laos = Land of Thousand Elephants, Thailand = Land of White Elephants.",
+    "correctIndex": 2,
+    "explanation": "Tribhuvan Shah died during treatment in Switzerland. Girman Yuddha Bikram Shah = died of smallpox. Rajendra Shah = died in prison. Ran Bahadur Shah = killed by his own brother.",
     "subject": "GK"
   },
   {
     "id": "q48",
-    "question": "What is the term length of Nepal's President?",
+    "question": "When was the Narcotic Drugs Control Act enacted?",
     "options": [
-      "3 years",
-      "4 years",
-      "5 years",
-      "6 years"
+      "2028 BS",
+      "2033 BS",
+      "2045 BS",
+      "2050 BS"
     ],
-    "correctIndex": 2,
-    "explanation": "5 years.",
+    "correctIndex": 1,
+    "explanation": "The Narcotic Drugs Control Act was enacted in 2033 BS.",
     "subject": "CONSTITUTION"
   },
   {
     "id": "q49",
-    "question": "What is the Dhimal priest called?",
+    "question": "Who was the Prime Minister when Nepal was divided into 7 districts ( provinces)?",
     "options": [
-      "Guju",
-      "Bhusal",
-      "Lama",
-      "Barang"
+      "Sher Bahadur Deuba",
+      "Pushpa Kamal Dahal",
+      "KP Sharma Oli",
+      "Sushil Koirala"
     ],
-    "correctIndex": 3,
-    "explanation": "Dhimal priest = Barang. Newar=Guju, Magar=Bhusal, Tamang=Lama.",
+    "correctIndex": 0,
+    "explanation": "Sher Bahadur Deuba was PM when 7 districts were established on 2074 Bhadra 5. Sushil Koirala was PM when 7 provinces were established on 2072 Asar 3.",
     "subject": "GK"
   },
   {
     "id": "q50",
-    "question": "Which revolution is known as the Intellectual Revolution?",
+    "question": "Where was the Rio+5 Summit held?",
     "options": [
-      "French Revolution",
-      "Russian Revolution",
-      "Industrial Revolution",
-      "Glorious Revolution of Britain"
+      "Brazil",
+      "Japan",
+      "Indonesia",
+      "South Africa"
     ],
-    "correctIndex": 0,
-    "explanation": "The French Revolution is called the Intellectual Revolution. Russian Revolution = October Revolution. Industrial Revolution = Mechanical Revolution. Glorious Revolution = Bloodless Revolution.",
+    "correctIndex": 1,
+    "explanation": "The Rio+5 Summit was held in Japan. Rio+10 = Brazil (Rio de Janeiro), Rio+50 = Indonesia (Bali), Rio+10 (Johannesburg) = South Africa.",
     "subject": "GK"
   }
 ]

@@ -1,279 +1,19 @@
 [
   {
     "id": "q1",
-    "question": "The Kyoto Protocol is related to which field?",
+    "question": "What is the origin place of the Kali Gandaki River?",
     "options": [
-      "Trade",
-      "Human Rights",
-      "Environment",
-      "Defense"
+      "Annapurna Himal",
+      "Lalikharka",
+      "Mustang",
+      "Gosaikunda"
     ],
     "correctIndex": 2,
-    "explanation": "The Kyoto Protocol is related to environment and climate change.",
+    "explanation": "Kali Gandaki originates from Mustang (Mustang Lek). Gosaikunda = Trishuli origin. Annapurna = Seti origin. Lalikharka = Mechi origin.",
     "subject": "GK"
   },
   {
     "id": "q2",
-    "question": "Which currency did Siddhi Narsingh Malla introduce?",
-    "options": [
-      "Gold currency",
-      "Silver currency",
-      "Copper currency",
-      "Leather currency"
-    ],
-    "correctIndex": 3,
-    "explanation": "Siddhi Narsingh Malla introduced leather currency. Sadashiv Malla = gold currency. Mahendra Malla = silver currency + 'mohar'. Ratna Malla = copper currency.",
-    "subject": "GK"
-  },
-  {
-    "id": "q3",
-    "question": "Who won with the highest number of votes in the 2082 BS House of Representatives direct election?",
-    "options": [
-      "Vishwaraj Pokharel",
-      "Tek Bahadur Gurung",
-      "Dr. Lekhjung Thapa",
-      "Balendra Shah"
-    ],
-    "correctIndex": 3,
-    "explanation": "Balendra Shah won with 68,348 votes from Jhapa-5. Pokharel won by smallest margin (5 votes, Okhaldhunga-1), Gurung had lowest votes (2,415, Manang), Thapa had highest margin (50,379, Rupandehi).",
-    "subject": "GK"
-  },
-  {
-    "id": "q4",
-    "question": "Which edition of Miss Nepal did Luna Luitel win in 2025?",
-    "options": [
-      "32nd",
-      "33rd",
-      "30th",
-      "31st"
-    ],
-    "correctIndex": 3,
-    "explanation": "Luna Luitel won the 31st edition of Miss Nepal in 2025.",
-    "subject": "GK"
-  },
-  {
-    "id": "q5",
-    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
-    "options": [
-      "32",
-      "40",
-      "20",
-      "24"
-    ],
-    "correctIndex": 3,
-    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q6",
-    "question": "What percentage of Provincial Assembly members are elected proportionally?",
-    "options": [
-      "50%",
-      "33%",
-      "40%",
-      "60%"
-    ],
-    "correctIndex": 2,
-    "explanation": "40% of Provincial Assembly members are elected through proportional representation. 60% are directly elected.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q7",
-    "question": "Which ocean has the coldest water?",
-    "options": [
-      "Arctic Ocean",
-      "Indian Ocean",
-      "Pacific Ocean",
-      "Southern Ocean"
-    ],
-    "correctIndex": 0,
-    "explanation": "The Arctic Ocean has the coldest water. It is also called the 'Formidable Ocean' and its area increases during winter.",
-    "subject": "GK"
-  },
-  {
-    "id": "q8",
-    "question": "How many public corporations are there in Nepal currently?",
-    "options": [
-      "45",
-      "43",
-      "15",
-      "28"
-    ],
-    "correctIndex": 0,
-    "explanation": "There are 45 public corporations in Nepal. 43 are operational, 2 are closed, 15 are in loss, and 28 are in profit.",
-    "subject": "GK"
-  },
-  {
-    "id": "q9",
-    "question": "What is the current Nepal Sambat year in 2082?",
-    "options": [
-      "NESAM 1146",
-      "NESAM 1145",
-      "NESAM 1144",
-      "NESAM 1143"
-    ],
-    "correctIndex": 0,
-    "explanation": "The current Nepal Sambat is 1146. It started from Vikram Sambat 936. Founded by Raghavdev and promoted by Shankhadhar Sakhwa.",
-    "subject": "GK"
-  },
-  {
-    "id": "q10",
-    "question": "Which metal is liquid at room temperature?",
-    "options": [
-      "Iron",
-      "Copper",
-      "Mercury",
-      "Silver"
-    ],
-    "correctIndex": 2,
-    "explanation": "Mercury is the only liquid metal at room temperature.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q11",
-    "question": "Which district headquarters is the highest in Koshi Province?",
-    "options": [
-      "Diktel",
-      "Khatbari",
-      "Phidim",
-      "Salleri"
-    ],
-    "correctIndex": 3,
-    "explanation": "Salleri (Solukhumbu) is the highest district headquarters in Koshi Province.",
-    "subject": "GK"
-  },
-  {
-    "id": "q12",
-    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
-    "options": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "correctIndex": 3,
-    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q13",
-    "question": "If square area = 625 sq.m, what is the perimeter?",
-    "options": [
-      "80m",
-      "90m",
-      "100m",
-      "120m"
-    ],
-    "correctIndex": 2,
-    "explanation": "Side=25m. Perimeter=4×25=100m.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q14",
-    "question": "How many days did the Thailand-Cambodia war last?",
-    "options": [
-      "3 days",
-      "4 days",
-      "5 days",
-      "7 days"
-    ],
-    "correctIndex": 2,
-    "explanation": "The war lasted 5 days.",
-    "subject": "GK"
-  },
-  {
-    "id": "q15",
-    "question": "Which Nepali was included in Time Magazine's 2026 list of 100 most influential people?",
-    "options": [
-      "KP Sharma Oli",
-      "Gagan Thapa",
-      "Pushpa Kamal Dahal",
-      "Balendra Shah"
-    ],
-    "correctIndex": 3,
-    "explanation": "Balendra Shah (Mayor of Kathmandu) was included. List published April 15, 2026.",
-    "subject": "GK"
-  },
-  {
-    "id": "q16",
-    "question": "When was the National Silk Conference 2082 held?",
-    "options": [
-      "2082 Poush 26",
-      "2082 Poush 25",
-      "2082 Poush 24",
-      "2082 Poush 27"
-    ],
-    "correctIndex": 0,
-    "explanation": "The National Silk Conference 2082 was held on Poush 26, 2082.",
-    "subject": "GK"
-  },
-  {
-    "id": "q17",
-    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
-    "options": [
-      "96",
-      "48",
-      "32",
-      "64"
-    ],
-    "correctIndex": 0,
-    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q18",
-    "question": "How many member states does ASEAN currently have?",
-    "options": [
-      "10",
-      "14",
-      "12",
-      "11"
-    ],
-    "correctIndex": 3,
-    "explanation": "ASEAN currently has 11 member states. Timor-Leste became the 11th member on October 26, 2022.",
-    "subject": "GK"
-  },
-  {
-    "id": "q19",
-    "question": "What does a light-year measure?",
-    "options": [
-      "Speed",
-      "Time",
-      "Distance",
-      "Acceleration"
-    ],
-    "correctIndex": 2,
-    "explanation": "A light-year measures distance. One light-year is approximately 9.5 trillion km.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q20",
-    "question": "When and where was the 35th NATO summit held?",
-    "options": [
-      "Hague, Netherlands, June 24-25, 2025",
-      "Brussels, Belgium, May 10-11, 2025",
-      "Washington DC, USA, July 5-6, 2025",
-      "Paris, France, April 18-19, 2025"
-    ],
-    "correctIndex": 0,
-    "explanation": "The 35th NATO summit was held in The Hague, Netherlands on June 24-25, 2025. The 34th was in the USA on July 9-11.",
-    "subject": "GK"
-  },
-  {
-    "id": "q21",
-    "question": "When was SAARC established?",
-    "options": [
-      "1983",
-      "1985",
-      "1987",
-      "1990"
-    ],
-    "correctIndex": 1,
-    "explanation": "December 8, 1985. HQ in Kathmandu.",
-    "subject": "GK"
-  },
-  {
-    "id": "q22",
     "question": "Which is the longest river in Nepal?",
     "options": [
       "Koshi",
@@ -286,306 +26,98 @@
     "subject": "GK"
   },
   {
-    "id": "q23",
-    "question": "Which body prevents corruption in Nepal?",
+    "id": "q3",
+    "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
     "options": [
-      "Election Commission",
-      "Public Service Commission",
-      "CIAA",
-      "NHRC"
+      "RTSIEC",
+      "RTSIFC",
+      "RTSIFD",
+      "RTSHFD"
     ],
     "correctIndex": 2,
-    "explanation": "CIAA (Commission for Investigation of Abuse of Authority).",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q24",
-    "question": "When was the first amendment to the Magna Carta made?",
-    "options": [
-      "Feb 11, 1225",
-      "Feb 17, 1217",
-      "Feb 16, 1216",
-      "Feb 10, 1127"
-    ],
-    "correctIndex": 2,
-    "explanation": "The first amendment to the Magna Carta was made on February 16, 1216 by Henry III. 2nd amendment = Feb 17, 1217. 3rd amendment = Feb 11, 1225.",
-    "subject": "GK"
-  },
-  {
-    "id": "q25",
-    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
-    "options": [
-      "3",
-      "14",
-      "17",
-      "21"
-    ],
-    "correctIndex": 1,
-    "explanation": "14 is the only even number.",
+    "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
     "subject": "IQ"
   },
   {
-    "id": "q26",
-    "question": "Which country experienced the largest volcanic eruption in 2025?",
+    "id": "q4",
+    "question": "How many days did the Thailand-Cambodia war last?",
     "options": [
-      "Argentina",
-      "Chile",
-      "Japan",
-      "Ethiopia"
+      "3 days",
+      "4 days",
+      "5 days",
+      "7 days"
     ],
-    "correctIndex": 3,
-    "explanation": "Ethiopia experienced the largest volcanic eruption in 2025. The volcano is named Haili Guppi (Hayli Guppi) and erupted on November 23, 2025.",
+    "correctIndex": 2,
+    "explanation": "The war lasted 5 days.",
     "subject": "GK"
   },
   {
-    "id": "q27",
-    "question": "How many protected areas are there in Koshi Province?",
+    "id": "q5",
+    "question": "What is the term length of National Assembly members?",
     "options": [
-      "3",
-      "4",
-      "5",
-      "6"
+      "4 years",
+      "5 years",
+      "6 years",
+      "7 years"
     ],
-    "correctIndex": 1,
-    "explanation": "There are 4 protected areas: 2 national parks (Sagarmatha, Makalu Barun), 1 wildlife reserve (Koshi Tappu), and 1 conservation area (Kanchenjunga).",
-    "subject": "GK"
+    "correctIndex": 2,
+    "explanation": "National Assembly members serve 6 years.",
+    "subject": "CONSTITUTION"
   },
   {
-    "id": "q28",
-    "question": "Which is the smallest district of Koshi Province?",
+    "id": "q6",
+    "question": "Who first used the term 'ecosystem'?",
     "options": [
-      "Tehrathum",
-      "Jhapa",
-      "Morang",
-      "Sunsari"
+      "J.C. Farman",
+      "Barbara Ward",
+      "A.G. Tansley",
+      "Ernest Haeckel"
     ],
-    "correctIndex": 0,
-    "explanation": "Tehrathum is the smallest district of Koshi Province by area.",
-    "subject": "GK"
-  },
-  {
-    "id": "q29",
-    "question": "Which district is famous for Junar in Koshi Province?",
-    "options": [
-      "Jhapa",
-      "Dhankuta",
-      "Bhojpur",
-      "Sankhuwasabha"
-    ],
-    "correctIndex": 1,
-    "explanation": "Dhankuta is famous for Junar (a citrus fruit) in Koshi Province.",
-    "subject": "GK"
-  },
-  {
-    "id": "q30",
-    "question": "Match the phobias: Aerophobia, Hydrophobia, Photophobia, Pyrophobia",
-    "options": [
-      "Sky/Water/Light/Fire",
-      "Water/Sky/Fire/Light",
-      "Light/Fire/Sky/Water",
-      "Fire/Light/Water/Sky"
-    ],
-    "correctIndex": 0,
-    "explanation": "Aerophobia=Sky, Hydrophobia=Water, Photophobia=Light, Pyrophobia=Fire.",
+    "correctIndex": 2,
+    "explanation": "A.G. Tansley first used the term 'ecosystem' and is known as the 'Father of Ecosystem'. Ernest Haeckel = first used 'ecology'. J.C. Farman = discovered the ozone layer. Barbara Ward = first used 'sustainable development'.",
     "subject": "SCIENCE"
   },
   {
-    "id": "q31",
-    "question": "If x + 1/x = 3, what is x² + 1/x²?",
+    "id": "q7",
+    "question": "How many member states does ASEAN currently have?",
     "options": [
-      "7",
-      "8",
-      "9",
+      "10",
+      "14",
+      "12",
       "11"
     ],
-    "correctIndex": 0,
-    "explanation": "(x+1/x)² = x²+2+1/x² = 9. So x²+1/x² = 7.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q32",
-    "question": "Which country first established democracy?",
-    "options": [
-      "Italy",
-      "Arabia",
-      "China",
-      "Greece"
-    ],
     "correctIndex": 3,
-    "explanation": "Greece first established democracy. Italy = first handkerchief. Arabia = first numerals. China = first ice cream.",
+    "explanation": "ASEAN currently has 11 member states. Timor-Leste became the 11th member on October 26, 2022.",
     "subject": "GK"
   },
   {
-    "id": "q33",
-    "question": "Which country recently declared an energy emergency?",
+    "id": "q8",
+    "question": "Which is the deepest river in Nepal?",
     "options": [
-      "Malaysia",
-      "Thailand",
-      "Indonesia",
-      "Philippines"
-    ],
-    "correctIndex": 3,
-    "explanation": "Philippines declared energy emergency on March 24, 2026.",
-    "subject": "GK"
-  },
-  {
-    "id": "q34",
-    "question": "When was Koshi Province declared a fully vaccinated province?",
-    "options": [
-      "2081 Asar 29",
-      "2081 Asar 30",
-      "2081 Asar 31",
-      "2081 Saun 2"
-    ],
-    "correctIndex": 2,
-    "explanation": "Koshi Province was declared fully vaccinated on 2081 Asar 31.",
-    "subject": "GK"
-  },
-  {
-    "id": "q35",
-    "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
-    "options": [
-      "18 days",
-      "20 days",
-      "22 days",
-      "25 days"
-    ],
-    "correctIndex": 1,
-    "explanation": "M₁D₁=M₂D₂. 15×24=18×D₂. D₂=360/18=20 days.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q36",
-    "question": "Which country appointed the world's first AI minister?",
-    "options": [
-      "Albania",
-      "Japan",
-      "South Korea",
-      "Estonia"
+      "Gandaki",
+      "Karnali",
+      "Koshi",
+      "Narayani"
     ],
     "correctIndex": 0,
-    "explanation": "Albania appointed the world's first AI minister.",
+    "explanation": "The Gandaki River is considered the deepest river in Nepal.",
     "subject": "GK"
   },
   {
-    "id": "q37",
-    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
+    "id": "q9",
+    "question": "Who is known as 'Bullet Maharaj' in Nepal's history?",
     "options": [
-      "STATION",
-      "TRADITION",
-      "MINISTER",
-      "RATION"
+      "Dev Shamsher",
+      "Chandra Shamsher",
+      "Shreepach Trailokya",
+      "Surendra Bikram Shah"
     ],
     "correctIndex": 2,
-    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q38",
-    "question": "Which article guarantees Right to Equality?",
-    "options": [
-      "Article 16",
-      "Article 17",
-      "Article 18",
-      "Article 20"
-    ],
-    "correctIndex": 2,
-    "explanation": "Article 18 guarantees Right to Equality.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q39",
-    "question": "When was Nepal declared untouchability-free?",
-    "options": [
-      "2063 Jestha 20",
-      "2063 Jestha 21",
-      "2063 Jestha 22",
-      "2063 Jestha 23"
-    ],
-    "correctIndex": 1,
-    "explanation": "Declared on 2063 Jestha 21.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q40",
-    "question": "What is 25% of 25% of 400?",
-    "options": [
-      "20",
-      "25",
-      "30",
-      "40"
-    ],
-    "correctIndex": 1,
-    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q41",
-    "question": "In how many districts is the One Village One Product (OVOP) program currently operating in Nepal?",
-    "options": [
-      "32 districts",
-      "42 districts",
-      "77 districts",
-      "66 districts"
-    ],
-    "correctIndex": 1,
-    "explanation": "OVOP is operating in 42 districts. It started from Dolakha (from lotta farming) in FY 2063/64.",
+    "explanation": "Shreepach Trailokya is known as 'Bullet Maharaj'. Dev Shamsher = 'Dhanakute Maharaj', Chandra Shamsher = 'Fiste Maharaj', Surendra = 'Sanki Maharaj'.",
     "subject": "GK"
   },
   {
-    "id": "q42",
-    "question": "Which famous building was constructed by Anshu Varma?",
-    "options": [
-      "Pashupatinath",
-      "Kailashkut",
-      "Bhadradhiwas",
-      "Managriha"
-    ],
-    "correctIndex": 1,
-    "explanation": "Kailashkut was built by Anshu Varma. Pashupatinath = Prachanda Dev. Bhadradhiwas = Narendra Dev. Managriha = Manadev.",
-    "subject": "GK"
-  },
-  {
-    "id": "q43",
-    "question": "Which country surrendered last in World War I?",
-    "options": [
-      "Japan",
-      "Germany",
-      "Italy",
-      "Bulgaria"
-    ],
-    "correctIndex": 1,
-    "explanation": "Germany surrendered last in WWI (May 1945). Bulgaria surrendered first in WWI (Sept 1918). Italy surrendered first in WWII (Sept 1943). Japan surrendered last in WWII (Aug 1945).",
-    "subject": "GK"
-  },
-  {
-    "id": "q44",
-    "question": "Who won the Madan Puraskar 2081 BS?",
-    "options": [
-      "Chuden Kabimo (Urmila)",
-      "Vivek Oja (Ethan)",
-      "Parijat (Sirishko Ful)",
-      "Mohan Mainali (Mukam Ranmaidan)"
-    ],
-    "correctIndex": 0,
-    "explanation": "Chuden Kabimo won for 'Urmila' in 2081. Oja won in 2079, Parijat in 2022 (first female), Mainali in 2080. Satyamohan Joshi has won 3 times (most).",
-    "subject": "GK"
-  },
-  {
-    "id": "q45",
-    "question": "Who is the current SAARC Secretary General?",
-    "options": [
-      "Esala Ruwan Weerakoon",
-      "Golam Sarwar",
-      "Arjun Bahadur Thapa",
-      "Silkant Sharma"
-    ],
-    "correctIndex": 1,
-    "explanation": "Golam Sarwar from Bangladesh is the current SAARC Secretary General.",
-    "subject": "GK"
-  },
-  {
-    "id": "q46",
+    "id": "q10",
     "question": "What is the unemployment rate of Gandaki Province?",
     "options": [
       "23.9%",
@@ -598,33 +130,280 @@
     "subject": "GK"
   },
   {
-    "id": "q47",
-    "question": "Which instrument is used to observe the Sun?",
+    "id": "q11",
+    "question": "When did Prithvi Narayan Shah attack Bhaktapur?",
     "options": [
-      "Pyrheliometer",
-      "Helioscope",
-      "Photometer",
-      "Actinometer"
+      "1822 Chaitra 3",
+      "1825 Ashoj 24",
+      "1825 Ashoj 13",
+      "1826 Mangsir 1"
     ],
-    "correctIndex": 1,
-    "explanation": "A helioscope is used to observe the Sun. Pyrheliometer = measures solar radiation. Photometer = measures light intensity.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q48",
-    "question": "When is Election Day celebrated in Nepal?",
-    "options": [
-      "Falgun 7",
-      "Aswin 2",
-      "Poush 1",
-      "Mangshir 1"
-    ],
-    "correctIndex": 0,
-    "explanation": "Election Day is celebrated on Falgun 7. It is also Democracy Day. Education Day = Aswin 2, Flag Day = Poush 1, Tax Day = Mangshir 1.",
+    "correctIndex": 3,
+    "explanation": "Prithvi Narayan Shah attacked Bhaktapur on 1826 Mangsir 1. 1822 Chaitra 3 = Kirtipur, 1825 Ashoj 24 = Patan, 1825 Ashoj 13 = Kathmandu.",
     "subject": "GK"
   },
   {
-    "id": "q49",
+    "id": "q12",
+    "question": "Who won the Madan Puraskar 2081 BS?",
+    "options": [
+      "Chuden Kabimo (Urmila)",
+      "Vivek Oja (Ethan)",
+      "Parijat (Sirishko Ful)",
+      "Mohan Mainali (Mukam Ranmaidan)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chuden Kabimo won for 'Urmila' in 2081. Oja won in 2079, Parijat in 2022 (first female), Mainali in 2080. Satyamohan Joshi has won 3 times (most).",
+    "subject": "GK"
+  },
+  {
+    "id": "q13",
+    "question": "How many protected areas are there in Koshi Province?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "There are 4 protected areas: 2 national parks (Sagarmatha, Makalu Barun), 1 wildlife reserve (Koshi Tappu), and 1 conservation area (Kanchenjunga).",
+    "subject": "GK"
+  },
+  {
+    "id": "q14",
+    "question": "Which currency did Siddhi Narsingh Malla introduce?",
+    "options": [
+      "Leather currency",
+      "Gold currency",
+      "Silver currency",
+      "Copper currency"
+    ],
+    "correctIndex": 0,
+    "explanation": "Siddhi Narsingh Malla introduced leather currency. Sadashiv Malla = gold currency. Mahendra Malla = silver currency + 'mohar'. Ratna Malla = copper currency.",
+    "subject": "GK"
+  },
+  {
+    "id": "q15",
+    "question": "Under which schedule of Nepal's Constitution are provincial government powers listed?",
+    "options": [
+      "Schedule 5",
+      "Schedule 6",
+      "Schedule 7",
+      "Schedule 8"
+    ],
+    "correctIndex": 1,
+    "explanation": "Provincial government powers are listed in Schedule 6 of Nepal's Constitution.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q16",
+    "question": "Which country experienced the largest volcanic eruption in 2025?",
+    "options": [
+      "Argentina",
+      "Chile",
+      "Japan",
+      "Ethiopia"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ethiopia experienced the largest volcanic eruption in 2025. The volcano is named Haili Guppi (Hayli Guppi) and erupted on November 23, 2025.",
+    "subject": "GK"
+  },
+  {
+    "id": "q17",
+    "question": "Which country recently declared an energy emergency?",
+    "options": [
+      "Malaysia",
+      "Thailand",
+      "Indonesia",
+      "Philippines"
+    ],
+    "correctIndex": 3,
+    "explanation": "Philippines declared energy emergency on March 24, 2026.",
+    "subject": "GK"
+  },
+  {
+    "id": "q18",
+    "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
+    "options": [
+      "18 days",
+      "20 days",
+      "22 days",
+      "25 days"
+    ],
+    "correctIndex": 1,
+    "explanation": "M₁D₁=M₂D₂. 15×24=18×D₂. D₂=360/18=20 days.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q19",
+    "question": "The Kyoto Protocol is related to which field?",
+    "options": [
+      "Trade",
+      "Human Rights",
+      "Environment",
+      "Defense"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Kyoto Protocol is related to environment and climate change.",
+    "subject": "GK"
+  },
+  {
+    "id": "q20",
+    "question": "Who was appointed as the first female chairperson of the Nepal Insurance Authority?",
+    "options": [
+      "Chandrakala Paudel",
+      "Sabita Sharma",
+      "Rama Ghimire",
+      "Manju Devkota"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chandrakala Paudel was appointed as the first female chairperson of Nepal Insurance Authority on 2082 Magh 13.",
+    "subject": "GK"
+  },
+  {
+    "id": "q21",
+    "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
+    "options": [
+      "100m",
+      "150m",
+      "200m",
+      "250m"
+    ],
+    "correctIndex": 0,
+    "explanation": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q22",
+    "question": "When was the Narcotic Drugs Control Act enacted?",
+    "options": [
+      "2028 BS",
+      "2033 BS",
+      "2045 BS",
+      "2050 BS"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Narcotic Drugs Control Act was enacted in 2033 BS.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q23",
+    "question": "What is the term length of Nepal's President?",
+    "options": [
+      "3 years",
+      "4 years",
+      "5 years",
+      "6 years"
+    ],
+    "correctIndex": 2,
+    "explanation": "5 years.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q24",
+    "question": "Who was the last king of the Lichhavi dynasty?",
+    "options": [
+      "Jit Gupta",
+      "Bhuvan Singh",
+      "Gasti",
+      "Jaya Kamadev"
+    ],
+    "correctIndex": 3,
+    "explanation": "Jaya Kamadev was the last king of the Lichhavi dynasty. Jit Gupta = last Gopal king, Bhuvan Singh = last Mahispal king, Gasti = last Kirat king.",
+    "subject": "GK"
+  },
+  {
+    "id": "q25",
+    "question": "Who is known as the 'Father of Experiment'?",
+    "options": [
+      "Charles Babbage",
+      "Archimedes",
+      "Michael Faraday",
+      "Albert Einstein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Archimedes is known as the Father of Experiment. Charles Babbage = Father of Computer. Michael Faraday = Father of Electronics.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q26",
+    "question": "What is the current Nepal Sambat year in 2082?",
+    "options": [
+      "NESAM 1146",
+      "NESAM 1145",
+      "NESAM 1144",
+      "NESAM 1143"
+    ],
+    "correctIndex": 0,
+    "explanation": "The current Nepal Sambat is 1146. It started from Vikram Sambat 936. Founded by Raghavdev and promoted by Shankhadhar Sakhwa.",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "Which edition of Miss Nepal did Luna Luitel win in 2025?",
+    "options": [
+      "30th",
+      "31st",
+      "32nd",
+      "33rd"
+    ],
+    "correctIndex": 1,
+    "explanation": "Luna Luitel won the 31st edition of Miss Nepal in 2025.",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "Which famous building was constructed by Anshu Varma?",
+    "options": [
+      "Pashupatinath",
+      "Kailashkut",
+      "Bhadradhiwas",
+      "Managriha"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kailashkut was built by Anshu Varma. Pashupatinath = Prachanda Dev. Bhadradhiwas = Narendra Dev. Managriha = Manadev.",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "What is Nepal's rank among Asian countries by area?",
+    "options": [
+      "24th",
+      "25th",
+      "26th",
+      "27th"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal is the 26th largest country in Asia. World rank = 93rd. SAARC rank = 5th. Landlocked countries rank = 21st.",
+    "subject": "GK"
+  },
+  {
+    "id": "q30",
+    "question": "Who won with the highest number of votes in the 2082 BS House of Representatives direct election?",
+    "options": [
+      "Balendra Shah",
+      "Vishwaraj Pokharel",
+      "Tek Bahadur Gurung",
+      "Dr. Lekhjung Thapa"
+    ],
+    "correctIndex": 0,
+    "explanation": "Balendra Shah won with 68,348 votes from Jhapa-5. Pokharel won by smallest margin (5 votes, Okhaldhunga-1), Gurung had lowest votes (2,415, Manang), Thapa had highest margin (50,379, Rupandehi).",
+    "subject": "GK"
+  },
+  {
+    "id": "q31",
+    "question": "In the Lichhavi period, what type of punishment was 'Dhana Danda'?",
+    "options": [
+      "Scolding",
+      "Humiliation",
+      "Fine",
+      "Amputation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dhana Danda meant fine/jarivana. Vak Danda = scolding, Dhig Danda = humiliation, Badh Danda = amputation.",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
     "question": "When did the Air India plane crash occur in Ahmedabad?",
     "options": [
       "June 10, 2025",
@@ -637,16 +416,237 @@
     "subject": "GK"
   },
   {
-    "id": "q50",
-    "question": "What is the origin place of the Kali Gandaki River?",
+    "id": "q33",
+    "question": "Which country surrendered last in World War I?",
     "options": [
-      "Mustang",
-      "Gosaikunda",
-      "Annapurna Himal",
-      "Lalikharka"
+      "Japan",
+      "Germany",
+      "Italy",
+      "Bulgaria"
+    ],
+    "correctIndex": 1,
+    "explanation": "Germany surrendered last in WWI (May 1945). Bulgaria surrendered first in WWI (Sept 1918). Italy surrendered first in WWII (Sept 1943). Japan surrendered last in WWII (Aug 1945).",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "When is Election Day celebrated in Nepal?",
+    "options": [
+      "Falgun 7",
+      "Aswin 2",
+      "Poush 1",
+      "Mangshir 1"
     ],
     "correctIndex": 0,
-    "explanation": "Kali Gandaki originates from Mustang (Mustang Lek). Gosaikunda = Trishuli origin. Annapurna = Seti origin. Lalikharka = Mechi origin.",
+    "explanation": "Election Day is celebrated on Falgun 7. It is also Democracy Day. Education Day = Aswin 2, Flag Day = Poush 1, Tax Day = Mangshir 1.",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "The ozone layer is related to which of the following gases?",
+    "options": [
+      "Nitrogen",
+      "Argon",
+      "Oxygen",
+      "Greenhouse gas"
+    ],
+    "correctIndex": 3,
+    "explanation": "The ozone layer is related to greenhouse gases (CFCs cause ozone depletion).",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q36",
+    "question": "What percentage of water is found in the human body?",
+    "options": [
+      "4-6 liters",
+      "5-6 liters",
+      "2.5-3 liters",
+      "66%"
+    ],
+    "correctIndex": 3,
+    "explanation": "About 66% of the human body is water. Blood volume = 4-6 liters (male 5-6L, female 4-5L). Plasma volume = 2.5-3 liters.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q37",
+    "question": "When and where was the 35th NATO summit held?",
+    "options": [
+      "Hague, Netherlands, June 24-25, 2025",
+      "Brussels, Belgium, May 10-11, 2025",
+      "Washington DC, USA, July 5-6, 2025",
+      "Paris, France, April 18-19, 2025"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 35th NATO summit was held in The Hague, Netherlands on June 24-25, 2025. The 34th was in the USA on July 9-11.",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "Next in series: 2, 6, 12, 20, 30, ?",
+    "options": [
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "correctIndex": 2,
+    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q39",
+    "question": "Which is the smallest district of Koshi Province?",
+    "options": [
+      "Tehrathum",
+      "Jhapa",
+      "Morang",
+      "Sunsari"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tehrathum is the smallest district of Koshi Province by area.",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "In how many districts is the One Village One Product (OVOP) program currently operating in Nepal?",
+    "options": [
+      "32 districts",
+      "42 districts",
+      "77 districts",
+      "66 districts"
+    ],
+    "correctIndex": 1,
+    "explanation": "OVOP is operating in 42 districts. It started from Dolakha (from lotta farming) in FY 2063/64.",
+    "subject": "GK"
+  },
+  {
+    "id": "q41",
+    "question": "What is the highest peak of the Chure (Siwalik) range in Nepal?",
+    "options": [
+      "Fusang",
+      "Haripur",
+      "Langtang",
+      "Garba"
+    ],
+    "correctIndex": 3,
+    "explanation": "Garba is the highest peak of the Chure (Siwalik) range in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q42",
+    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
+    "options": [
+      "Cousin",
+      "Sister",
+      "Daughter",
+      "Niece"
+    ],
+    "correctIndex": 1,
+    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q43",
+    "question": "What was the slogan of World Health Day 2026?",
+    "options": [
+      "Together for Health, Stand with Science",
+      "Help for All",
+      "Our Planet Our Earth",
+      "Support Nurses and Midwives"
+    ],
+    "correctIndex": 0,
+    "explanation": "World Health Day is celebrated every year on April 7 since 1950.",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "Which country first established democracy?",
+    "options": [
+      "Italy",
+      "Arabia",
+      "China",
+      "Greece"
+    ],
+    "correctIndex": 3,
+    "explanation": "Greece first established democracy. Italy = first handkerchief. Arabia = first numerals. China = first ice cream.",
+    "subject": "GK"
+  },
+  {
+    "id": "q45",
+    "question": "How many public corporations are there in Nepal currently?",
+    "options": [
+      "45",
+      "43",
+      "15",
+      "28"
+    ],
+    "correctIndex": 0,
+    "explanation": "There are 45 public corporations in Nepal. 43 are operational, 2 are closed, 15 are in loss, and 28 are in profit.",
+    "subject": "GK"
+  },
+  {
+    "id": "q46",
+    "question": "When was SAARC established?",
+    "options": [
+      "1983",
+      "1985",
+      "1987",
+      "1990"
+    ],
+    "correctIndex": 1,
+    "explanation": "December 8, 1985. HQ in Kathmandu.",
+    "subject": "GK"
+  },
+  {
+    "id": "q47",
+    "question": "Who started the Gai Jatra festival?",
+    "options": [
+      "Gunakamdev",
+      "Mahendra Malla",
+      "Jagat Jyoti Malla",
+      "Jagat Prakash Malla"
+    ],
+    "correctIndex": 3,
+    "explanation": "Jagat Prakash Malla started Gai Jatra. Jagat Jyoti Malla started Bisket Jatra.",
+    "subject": "GK"
+  },
+  {
+    "id": "q48",
+    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
+    "options": [
+      "20",
+      "24",
+      "32",
+      "40"
+    ],
+    "correctIndex": 1,
+    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q49",
+    "question": "According to the latest agricultural census, which district has the most potato farming in Nepal?",
+    "options": [
+      "Rupandehi",
+      "Dhading",
+      "Chitwan",
+      "Kavre"
+    ],
+    "correctIndex": 3,
+    "explanation": "Kavre has the most potato farming according to the 2078 BS (7th) agricultural census. Chitwan has the most vegetable farming.",
+    "subject": "GK"
+  },
+  {
+    "id": "q50",
+    "question": "When was the National Silk Conference 2082 held?",
+    "options": [
+      "2082 Poush 26",
+      "2082 Poush 25",
+      "2082 Poush 24",
+      "2082 Poush 27"
+    ],
+    "correctIndex": 0,
+    "explanation": "The National Silk Conference 2082 was held on Poush 26, 2082.",
     "subject": "GK"
   }
 ]
