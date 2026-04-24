@@ -1,474 +1,45 @@
 [
   {
     "id": "q1",
-    "question": "If square area = 625 sq.m, what is the perimeter?",
+    "question": "What is 25% of 25% of 400?",
     "options": [
-      "120m",
-      "80m",
-      "90m",
-      "100m"
+      "30",
+      "40",
+      "20",
+      "25"
     ],
     "correctIndex": 3,
-    "explanation": "Side=25m. Perimeter=4×25=100m.",
+    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
     "subject": "MATH"
   },
   {
     "id": "q2",
-    "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
+    "question": "Which Lichhavi king went to take refuge in Tibet?",
     "options": [
-      "22 days",
-      "25 days",
-      "18 days",
-      "20 days"
+      "Shivadev Pratham",
+      "Gunakamadev",
+      "Narendra Dev",
+      "Uday Dev"
     ],
     "correctIndex": 3,
-    "explanation": "M₁D₁=M₂D₂. 15×24=18×D₂. D₂=360/18=20 days.",
-    "subject": "MATH"
+    "explanation": "Uday Dev went to Tibet for refuge. Narendra Dev = started window decoration tradition. Gunakamadev = settled Kantipur (built Kathmandu). Shivadev Pratham = settled Kirtipur.",
+    "subject": "GK"
   },
   {
     "id": "q3",
-    "question": "Where was the 9th Indian Ocean Conference 2026 held?",
+    "question": "When did IPL 2026 start?",
     "options": [
-      "Laos",
-      "India",
-      "Mauritius",
-      "Nepal"
+      "March 26, 2026",
+      "March 27, 2026",
+      "March 28, 2026",
+      "March 29, 2026"
     ],
     "correctIndex": 2,
-    "explanation": "Held in Mauritius, April 10-12, 2026.",
+    "explanation": "IPL 2026 started on March 28, 2026. It is the 19th edition, running until May 1, with 10 participating teams.",
     "subject": "GK"
   },
   {
     "id": "q4",
-    "question": "Which district produces the most timur (Sichuan pepper) in Nepal?",
-    "options": [
-      "Baglung",
-      "Salyan",
-      "Siraha",
-      "Rupandehi"
-    ],
-    "correctIndex": 1,
-    "explanation": "Salyan produces the most timur. Baglung = lotta, Siraha = bel, Rupandehi = dairy.",
-    "subject": "GK"
-  },
-  {
-    "id": "q5",
-    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
-    "options": [
-      "BDJIS",
-      "DIBJT",
-      "DJBIS",
-      "DIBJS"
-    ],
-    "correctIndex": 3,
-    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q6",
-    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
-    "options": [
-      "STATION",
-      "TRADITION",
-      "MINISTER",
-      "RATION"
-    ],
-    "correctIndex": 2,
-    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q7",
-    "question": "When did industrial census start in Nepal?",
-    "options": [
-      "1968 BS",
-      "1993 BS",
-      "2022 BS",
-      "2029 BS"
-    ],
-    "correctIndex": 2,
-    "explanation": "Industrial census started in 2022 BS. It is conducted every 5 years. The 10th industrial census was held on 2079 Asar 11.",
-    "subject": "GK"
-  },
-  {
-    "id": "q8",
-    "question": "Ending hunger is which Sustainable Development Goal (SDG)?",
-    "options": [
-      "Goal 3",
-      "Goal 4",
-      "Goal 1",
-      "Goal 2"
-    ],
-    "correctIndex": 3,
-    "explanation": "Ending hunger is SDG Goal 2. Goal 1 = No Poverty, Goal 3 = Good Health and Well-being, Goal 4 = Quality Education.",
-    "subject": "GK"
-  },
-  {
-    "id": "q9",
-    "question": "Where was Nepal's first Film Development Conference 2082 held?",
-    "options": [
-      "Kathmandu",
-      "Pokhara",
-      "Lumbini",
-      "Madi, Chitwan"
-    ],
-    "correctIndex": 3,
-    "explanation": "Nepal's first Film Development Conference 2082 was held in Madi, Chitwan on 2082 Magh 26.",
-    "subject": "GK"
-  },
-  {
-    "id": "q10",
-    "question": "Where was the First National Education Conference 2082 held?",
-    "options": [
-      "Pokhara",
-      "Janakpur",
-      "Dhangadhi",
-      "Banepa"
-    ],
-    "correctIndex": 1,
-    "explanation": "The First National Education Conference 2082 was held in Janakpur on Asar 10-11, 2082 (Vikram Sambat).",
-    "subject": "GK"
-  },
-  {
-    "id": "q11",
-    "question": "Which country has three capital cities?",
-    "options": [
-      "Indonesia",
-      "Cape Verde",
-      "Mauritius",
-      "South Africa"
-    ],
-    "correctIndex": 3,
-    "explanation": "South Africa has three capital cities: Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial).",
-    "subject": "GK"
-  },
-  {
-    "id": "q12",
-    "question": "Which district has Nepal's narrowest airport?",
-    "options": [
-      "Solukhumbu",
-      "Dolakha",
-      "Mugu",
-      "Mustang"
-    ],
-    "correctIndex": 1,
-    "explanation": "Dolakha has Nepal's narrowest airport (Jiri Airport, only 18 meters wide). Highest airport = Syangboche (Solukhumbu). Most dangerous = Lukla (Solukhumbu). Lowest = Biratnagar (Morang).",
-    "subject": "GK"
-  },
-  {
-    "id": "q13",
-    "question": "Who represented Nepal at COP 30?",
-    "options": [
-      "KP Sharma Oli",
-      "Madan Prasad Pariyar",
-      "Balendra Shah",
-      "Pushpa Kamal Dahal"
-    ],
-    "correctIndex": 1,
-    "explanation": "Madan Prasad Pariyar represented Nepal at COP 30 held in Belem, Brazil (Nov 10-21, 2025). COP 31 will be in Turkey (Nov 9-20, 2026).",
-    "subject": "GK"
-  },
-  {
-    "id": "q14",
-    "question": "From which year is Coffee Day celebrated every year on Mangsir 1?",
-    "options": [
-      "2053 BS",
-      "2054 BS",
-      "2061 BS",
-      "2062 BS"
-    ],
-    "correctIndex": 3,
-    "explanation": "Coffee Day started from 2062 BS. Tea Day started from 2054 BS (Baisakh 15). Donation Day started from 2061 BS (Asar 15).",
-    "subject": "GK"
-  },
-  {
-    "id": "q15",
-    "question": "Which district is the National Biodiversity Center located in?",
-    "options": [
-      "Kaski",
-      "Lalitpur",
-      "Chitwan",
-      "Dang"
-    ],
-    "correctIndex": 2,
-    "explanation": "The National Biodiversity Center is in Chitwan district. The Biodiversity Park is in Kaski. Center and Park are different.",
-    "subject": "GK"
-  },
-  {
-    "id": "q16",
-    "question": "When is World Wetlands Day celebrated?",
-    "options": [
-      "February 2",
-      "June 5",
-      "May 22",
-      "April 22"
-    ],
-    "correctIndex": 0,
-    "explanation": "World Wetlands Day is February 2. Environment Day = June 5, Biodiversity Day = May 22, Earth Day = April 22.",
-    "subject": "GK"
-  },
-  {
-    "id": "q17",
-    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
-    "options": [
-      "20",
-      "24",
-      "32",
-      "40"
-    ],
-    "correctIndex": 1,
-    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q18",
-    "question": "When was Nepal's new map (with Lipulekh & Limpiyadhura) passed by the House of Representatives?",
-    "options": [
-      "2077 Baisakh 7",
-      "2077 Jestha 4",
-      "2077 Jestha 31",
-      "2077 Jestha 5"
-    ],
-    "correctIndex": 2,
-    "explanation": "Passed by House of Representatives on 2077 Jestha 31. Government decision to publish = 2077 Jestha 5. National Assembly passed = 2077 Asar 4.",
-    "subject": "GK"
-  },
-  {
-    "id": "q19",
-    "question": "Who became the new Prime Minister of Bangladesh in 2026?",
-    "options": [
-      "Khaleda Zia",
-      "Sheikh Hasina",
-      "Mohammad Yunus",
-      "Tariq Rahman"
-    ],
-    "correctIndex": 3,
-    "explanation": "Tariq Rahman was appointed Prime Minister on February 17, 2026.",
-    "subject": "GK"
-  },
-  {
-    "id": "q20",
-    "question": "How many judges are in Nepal's Supreme Court?",
-    "options": [
-      "15",
-      "19",
-      "21",
-      "25"
-    ],
-    "correctIndex": 2,
-    "explanation": "21 judges including the Chief Justice.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q21",
-    "question": "Next in series: 2, 6, 12, 20, 30, ?",
-    "options": [
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "correctIndex": 2,
-    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q22",
-    "question": "When did Prithvi Narayan Shah attack Patan?",
-    "options": [
-      "Vikram Sambat 1825 Aswin 24",
-      "Vikram Sambat 1826 Mangshir 1",
-      "Vikram Sambat 1826 Chaitra 10",
-      "Vikram Sambat 1831 Magh 1"
-    ],
-    "correctIndex": 0,
-    "explanation": "Prithvi Narayan Shah attacked Patan on Vikram Sambat 1825 Aswin 24. Attacked Bhaktapur on 1826 Mangshir 1. Declared Kathmandu as capital on 1826 Chaitra 10. Died on 1831 Magh 1 at Devighat, Nuwakot due to a tiger attack.",
-    "subject": "GK"
-  },
-  {
-    "id": "q23",
-    "question": "Which place is called 'Nepal's Nainital'?",
-    "options": [
-      "Trivenidham",
-      "Lomathang",
-      "Jumla",
-      "Manaslu"
-    ],
-    "correctIndex": 0,
-    "explanation": "Trivenidham is called Nepal's Nainital. Lomathang = Nepal's city of clay (in Mustang). Jumla = Nepal's Darjeeling/Kashmir. Manaslu = Nepal's Mount Fuji.",
-    "subject": "GK"
-  },
-  {
-    "id": "q24",
-    "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
-    "options": [
-      "214673",
-      "246173",
-      "214763",
-      "216473"
-    ],
-    "correctIndex": 0,
-    "explanation": "R=6,O=8,S=2,E=1,C=7,H=3,A=4,I=5,P=9. SEARCH=S(2)+E(1)+A(4)+R(6)+C(7)+H(3)=214673.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q25",
-    "question": "What is the Dhimal priest called?",
-    "options": [
-      "Guju",
-      "Bhusal",
-      "Lama",
-      "Barang"
-    ],
-    "correctIndex": 3,
-    "explanation": "Dhimal priest = Barang. Newar=Guju, Magar=Bhusal, Tamang=Lama.",
-    "subject": "GK"
-  },
-  {
-    "id": "q26",
-    "question": "Who invented the television?",
-    "options": [
-      "Martin Cooper",
-      "John Baird",
-      "Johannes Gutenberg",
-      "Alfred Nobel"
-    ],
-    "correctIndex": 1,
-    "explanation": "John Baird invented the television. Martin Cooper = mobile phone. Johannes Gutenberg = printing press. Alfred Nobel = dynamite.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q27",
-    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
-    "options": [
-      "Cousin",
-      "Sister",
-      "Daughter",
-      "Niece"
-    ],
-    "correctIndex": 1,
-    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q28",
-    "question": "Which province does Rasuwa district belong to?",
-    "options": [
-      "Koshi",
-      "Gandaki",
-      "Lumbini",
-      "Bagmati"
-    ],
-    "correctIndex": 3,
-    "explanation": "Rasuwa district belongs to Bagmati Province (Province No. 3).",
-    "subject": "GK"
-  },
-  {
-    "id": "q29",
-    "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
-    "options": [
-      "100m",
-      "150m",
-      "200m",
-      "250m"
-    ],
-    "correctIndex": 0,
-    "explanation": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q30",
-    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
-    "options": [
-      "96",
-      "48",
-      "32",
-      "64"
-    ],
-    "correctIndex": 0,
-    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q31",
-    "question": "Which planet has the shortest day?",
-    "options": [
-      "Earth",
-      "Venus",
-      "Jupiter",
-      "Neptune"
-    ],
-    "correctIndex": 2,
-    "explanation": "Jupiter has the shortest day at 9 hours 55 minutes. Venus = 243 days, Earth = 23h 56m 4.09s, Neptune = 16h 10m.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q32",
-    "question": "Which is Nepal's largest province by area?",
-    "options": [
-      "Bagmati",
-      "Lumbini",
-      "Karnali",
-      "Sudurpashchim"
-    ],
-    "correctIndex": 2,
-    "explanation": "Karnali (27,984 sq km, 19% of Nepal).",
-    "subject": "GK"
-  },
-  {
-    "id": "q33",
-    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
-    "options": [
-      "Sound",
-      "Hearing",
-      "Noise",
-      "Music"
-    ],
-    "correctIndex": 1,
-    "explanation": "Eye is for vision, Ear is for hearing.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q34",
-    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
-    "options": [
-      "Rs. 25000",
-      "Rs. 30000",
-      "Rs. 35000",
-      "Rs. 40000"
-    ],
-    "correctIndex": 1,
-    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q35",
-    "question": "If A is brother of B, B is sister of C, C is father of D. How is A related to D?",
-    "options": [
-      "Uncle",
-      "Father",
-      "Brother",
-      "Nephew"
-    ],
-    "correctIndex": 0,
-    "explanation": "C is D's father. B is C's sister. A is B's brother, so A is D's uncle.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q36",
-    "question": "In which country did the Rose Revolution take place?",
-    "options": [
-      "Ukraine",
-      "Kuwait",
-      "Moldova",
-      "Egypt"
-    ],
-    "correctIndex": 0,
-    "explanation": "The Rose Revolution took place in Ukraine (2003). Blue Revolution = Kuwait (2005). Grape Revolution = Moldova (2009). Lotus Revolution = Egypt (2011).",
-    "subject": "GK"
-  },
-  {
-    "id": "q37",
     "question": "Which district of Gandaki has the highest population density?",
     "options": [
       "Manang",
@@ -481,7 +52,202 @@
     "subject": "GK"
   },
   {
-    "id": "q38",
+    "id": "q5",
+    "question": "How many zones were named after rivers in Nepal?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "correctIndex": 1,
+    "explanation": "Out of the 14 former zones of Nepal, 10 were named after rivers.",
+    "subject": "GK"
+  },
+  {
+    "id": "q6",
+    "question": "How many languages are used in Gorkhapatra?",
+    "options": [
+      "46",
+      "48",
+      "24",
+      "26"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gorkhapatra now publishes in 48 languages. 47th was Santhali, 48th was Hayu.",
+    "subject": "GK"
+  },
+  {
+    "id": "q7",
+    "question": "Which trekking route was NOT identified by Koshi Province government for trail-based tourism?",
+    "options": [
+      "Mundhum Trail",
+      "Milke Trail",
+      "Halesi Trail",
+      "Kanchenjunga Trail"
+    ],
+    "correctIndex": 2,
+    "explanation": "Halesi Trail was NOT identified by Koshi Province government for trail-based tourism development.",
+    "subject": "GK"
+  },
+  {
+    "id": "q8",
+    "question": "Who scored the first century in NPL 2025 (2nd edition)?",
+    "options": [
+      "Martin Guptill",
+      "Adam Rossington",
+      "Andre Gayle",
+      "Mark Watt"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mark Watt scored the first century in NPL 2025. Adam Rossington scored the second century in 2025. Andre Gayle scored the first century in NPL 2024 (1st edition).",
+    "subject": "GK"
+  },
+  {
+    "id": "q9",
+    "question": "How many districts are there in Gandaki Province?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gandaki Province has 11 districts.",
+    "subject": "GK"
+  },
+  {
+    "id": "q10",
+    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
+    "options": [
+      "STATION",
+      "TRADITION",
+      "MINISTER",
+      "RATION"
+    ],
+    "correctIndex": 2,
+    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q11",
+    "question": "What is the term length of National Assembly members?",
+    "options": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "7 years"
+    ],
+    "correctIndex": 2,
+    "explanation": "National Assembly members serve 6 years.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q12",
+    "question": "When is World Wetlands Day celebrated?",
+    "options": [
+      "June 5",
+      "May 22",
+      "April 22",
+      "February 2"
+    ],
+    "correctIndex": 3,
+    "explanation": "World Wetlands Day is February 2. Environment Day = June 5, Biodiversity Day = May 22, Earth Day = April 22.",
+    "subject": "GK"
+  },
+  {
+    "id": "q13",
+    "question": "Which place is called 'Nepal's Nainital'?",
+    "options": [
+      "Lomathang",
+      "Jumla",
+      "Manaslu",
+      "Trivenidham"
+    ],
+    "correctIndex": 3,
+    "explanation": "Trivenidham is called Nepal's Nainital. Lomathang = Nepal's city of clay (in Mustang). Jumla = Nepal's Darjeeling/Kashmir. Manaslu = Nepal's Mount Fuji.",
+    "subject": "GK"
+  },
+  {
+    "id": "q14",
+    "question": "Which Social Security Day was celebrated in 2082?",
+    "options": [
+      "7th",
+      "8th",
+      "9th",
+      "10th"
+    ],
+    "correctIndex": 1,
+    "explanation": "8th Social Security Day. Celebrated on Mangsir 11.",
+    "subject": "GK"
+  },
+  {
+    "id": "q15",
+    "question": "What was the total budget presented by all 7 provinces for FY 2082/83?",
+    "options": [
+      "Rs. 2 Kharab 77 Arba 70 Crore",
+      "Rs. 2 Kharab 87 Arba 70 Crore",
+      "Rs. 2 Kharab 97 Arba 70 Crore",
+      "Rs. 2 Kharab 67 Arba 70 Crore"
+    ],
+    "correctIndex": 1,
+    "explanation": "The total budget presented by all 7 provinces for FY 2082/83 was Rs. 2 Kharab 87 Arba 70 Crore.",
+    "subject": "GK"
+  },
+  {
+    "id": "q16",
+    "question": "Who is the author of the book 'Baikuntha Express'?",
+    "options": [
+      "Narayan Wagle",
+      "Amar Neupane",
+      "Buddhisagar",
+      "Mohanraj Sharma"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Baikuntha Express' was written by Mohanraj Sharma.",
+    "subject": "GK"
+  },
+  {
+    "id": "q17",
+    "question": "If square area = 625 sq.m, what is the perimeter?",
+    "options": [
+      "80m",
+      "90m",
+      "100m",
+      "120m"
+    ],
+    "correctIndex": 2,
+    "explanation": "Side=25m. Perimeter=4×25=100m.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q18",
+    "question": "What is the speed of light in vacuum?",
+    "options": [
+      "3×10⁶ m/s",
+      "3×10¹⁰ m/s",
+      "3×10⁴ m/s",
+      "3×10⁸ m/s"
+    ],
+    "correctIndex": 3,
+    "explanation": "Speed of light in vacuum is ~3×10⁸ m/s.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q19",
+    "question": "Which community counts a child as one year old immediately after birth?",
+    "options": [
+      "Danuwar",
+      "Sherpa",
+      "Dura",
+      "Byasi"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sherpa counts child as 1 year at birth. Danuwar=chicken blood wash, Dura=rooster/hen.",
+    "subject": "GK"
+  },
+  {
+    "id": "q20",
     "question": "If x + 1/x = 3, what is x² + 1/x²?",
     "options": [
       "7",
@@ -494,59 +260,33 @@
     "subject": "MATH"
   },
   {
-    "id": "q39",
-    "question": "Which is the rainiest place in Nepal?",
+    "id": "q21",
+    "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
     "options": [
-      "Pokhara",
-      "Lumle",
-      "Kathmandu",
-      "Biratnagar"
+      "214673",
+      "246173",
+      "214763",
+      "216473"
     ],
-    "correctIndex": 1,
-    "explanation": "Lumle in Kaski district.",
-    "subject": "GK"
-  },
-  {
-    "id": "q40",
-    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
-    "options": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "correctIndex": 3,
-    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
+    "correctIndex": 0,
+    "explanation": "R=6,O=8,S=2,E=1,C=7,H=3,A=4,I=5,P=9. SEARCH=S(2)+E(1)+A(4)+R(6)+C(7)+H(3)=214673.",
     "subject": "IQ"
   },
   {
-    "id": "q41",
-    "question": "What is the smallest unit of matter?",
+    "id": "q22",
+    "question": "Which of the following was NOT a cause of the Indian Independence Movement?",
     "options": [
-      "Molecule",
-      "Atom",
-      "Electron",
-      "Proton"
+      "Role of press",
+      "Awakening of Indians",
+      "Establishment of INC",
+      "Corrupt justice system"
     ],
-    "correctIndex": 1,
-    "explanation": "Atom is the smallest unit that retains chemical properties.",
-    "subject": "SCIENCE"
+    "correctIndex": 3,
+    "explanation": "Corrupt justice system was a cause of the French Revolution, not the Indian Independence Movement.",
+    "subject": "GK"
   },
   {
-    "id": "q42",
-    "question": "How many fundamental rights are in Nepal's Constitution?",
-    "options": [
-      "28",
-      "30",
-      "31",
-      "35"
-    ],
-    "correctIndex": 2,
-    "explanation": "The Constitution guarantees 31 fundamental rights.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q43",
+    "id": "q23",
     "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
     "options": [
       "RTSIFD",
@@ -559,46 +299,85 @@
     "subject": "IQ"
   },
   {
-    "id": "q44",
-    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
+    "id": "q24",
+    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
     "options": [
-      "35",
-      "40",
-      "45",
-      "50"
-    ],
-    "correctIndex": 2,
-    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q45",
-    "question": "What is the term length of Nepal's President?",
-    "options": [
-      "3 years",
-      "4 years",
-      "5 years",
-      "6 years"
-    ],
-    "correctIndex": 2,
-    "explanation": "5 years.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q46",
-    "question": "When was the World Health Organization (WHO) established?",
-    "options": [
-      "April 7, 1948",
-      "April 7, 1953",
-      "April 10, 1953",
-      "April 10, 1948"
+      "96",
+      "48",
+      "32",
+      "64"
     ],
     "correctIndex": 0,
-    "explanation": "WHO was established on April 7, 1948. Headquarters = Geneva, Switzerland. Nepal became a member in 1953.",
+    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q25",
+    "question": "When was Balaju Industrial Area established?",
+    "options": [
+      "2016 BS",
+      "2020 BS",
+      "2029 BS",
+      "2030 BS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Balaju Industrial Area was established in 2016 BS. Hetauda and Patan = 2020, Dharan = 2029, Nepalgunj = 2030.",
     "subject": "GK"
   },
   {
-    "id": "q47",
+    "id": "q26",
+    "question": "Which continent has been most researched by scientists?",
+    "options": [
+      "Africa",
+      "North America",
+      "Antarctica",
+      "South America"
+    ],
+    "correctIndex": 2,
+    "explanation": "Antarctica is the most researched continent by scientists. Africa = largest diamond mines, North America = most coastline, South America = continent of birds.",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "Where was the First National Education Conference 2082 held?",
+    "options": [
+      "Pokhara",
+      "Janakpur",
+      "Dhangadhi",
+      "Banepa"
+    ],
+    "correctIndex": 1,
+    "explanation": "The First National Education Conference 2082 was held in Janakpur on Asar 10-11, 2082 (Vikram Sambat).",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "Who took Nepal's first wicket in the T20 World Cup 2026?",
+    "options": [
+      "Sandeep Lamichhane",
+      "Dipendra Singh Airee",
+      "Sompal Kami",
+      "Sher Malla"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sher Malla took Nepal's first wicket in T20 World Cup 2026 against England on February 8. Nepal was in Group C.",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "Which constitutional body conducts elections in Nepal?",
+    "options": [
+      "Public Service Commission",
+      "Election Commission",
+      "CIAA",
+      "Auditor General"
+    ],
+    "correctIndex": 1,
+    "explanation": "Election Commission conducts all elections.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q30",
     "question": "Which country has the world's shortest constitution?",
     "options": [
       "America",
@@ -611,7 +390,215 @@
     "subject": "GK"
   },
   {
-    "id": "q48",
+    "id": "q31",
+    "question": "When was Jengji declared a martyr by the government?",
+    "options": [
+      "2082 Kartik 17",
+      "2081 Aswin 2",
+      "2082 Mangshir 5",
+      "2083 Jestha 12"
+    ],
+    "correctIndex": 0,
+    "explanation": "Jengji was declared a martyr on 2082 Kartik 17.",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
+    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
+    "options": [
+      "Rs. 25000",
+      "Rs. 30000",
+      "Rs. 35000",
+      "Rs. 40000"
+    ],
+    "correctIndex": 1,
+    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q33",
+    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
+    "options": [
+      "35",
+      "40",
+      "45",
+      "50"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q34",
+    "question": "Where was the 9th Indian Ocean Conference 2026 held?",
+    "options": [
+      "Laos",
+      "India",
+      "Mauritius",
+      "Nepal"
+    ],
+    "correctIndex": 2,
+    "explanation": "Held in Mauritius, April 10-12, 2026.",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "By the end of the 16th plan, what is the target percentage for women's participation in public service policy-making positions?",
+    "options": [
+      "15%",
+      "18%",
+      "20%",
+      "25%"
+    ],
+    "correctIndex": 2,
+    "explanation": "The 16th plan targets 20% women's participation in public service policy-making positions.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q36",
+    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctIndex": 3,
+    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q37",
+    "question": "When was the SLC (School Leaving Certificate) Board formed?",
+    "options": [
+      "1980 BS",
+      "1987 BS",
+      "1990 BS",
+      "1949 BS"
+    ],
+    "correctIndex": 2,
+    "explanation": "The SLC Board was formed in 1990 BS. In the first SLC exam, the total marks were 800 and the pass mark was 228.",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "Which is Nepal's largest province by area?",
+    "options": [
+      "Bagmati",
+      "Lumbini",
+      "Karnali",
+      "Sudurpashchim"
+    ],
+    "correctIndex": 2,
+    "explanation": "Karnali (27,984 sq km, 19% of Nepal).",
+    "subject": "GK"
+  },
+  {
+    "id": "q39",
+    "question": "Who won the Mr. Nepal 2025 title?",
+    "options": [
+      "Himanchal Raj KC",
+      "Girish Ratna Shakya",
+      "Prakash Chauhan",
+      "Bikash Raj Sake"
+    ],
+    "correctIndex": 0,
+    "explanation": "Himanchal Raj KC won Mr. Nepal 2025. Girish Ratna Shakya = Mr. Global Nepal 2025. Prakash Chauhan = Man of the World 2025.",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
+    "options": [
+      "DIBJS",
+      "BDJIS",
+      "DIBJT",
+      "DJBIS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q41",
+    "question": "What is Nepal's technically feasible solar power capacity?",
+    "options": [
+      "1.5 crore MW",
+      "2.0 crore MW",
+      "2.66 crore MW",
+      "3.0 crore MW"
+    ],
+    "correctIndex": 2,
+    "explanation": "Technically feasible solar capacity is 2.66 crore MW.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q42",
+    "question": "Which place is Nepal's southernmost point?",
+    "options": [
+      "Jhapa's Dhulabari",
+      "Jhapa's Lodabari",
+      "Jhapa's Godawari",
+      "Jhapa's Urlabari"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nepal's southernmost point is Jhapa's Lodabari. Eastern = Taplejung's Leleph. Western = Kanchanpur's Dodhara. Northern = Humla's Chemla.",
+    "subject": "GK"
+  },
+  {
+    "id": "q43",
+    "question": "When did Kathmandu Metropolitan City reopen the open stage (Khulla Manch) for the public?",
+    "options": [
+      "2078 Baisakh 15",
+      "2082 Baisakh 2",
+      "2082 Baisakh 3",
+      "2082 Chaitra 29"
+    ],
+    "correctIndex": 2,
+    "explanation": "Reopened on 2082 Baisakh 3 after being closed since 2078 Baisakh due to COVID-19.",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "Nepal's standard time is determined based on which longitude passing through Gaurishankar?",
+    "options": [
+      "83 degrees 15 minutes",
+      "85 degrees 30 minutes",
+      "81 degrees 45 minutes",
+      "84 degrees 00 minutes"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepal's standard time is based on 83°15' East longitude passing through Gaurishankar.",
+    "subject": "GK"
+  },
+  {
+    "id": "q45",
+    "question": "Which planet is cold on one side and extremely hot on the other?",
+    "options": [
+      "Mercury",
+      "Uranus",
+      "Earth",
+      "Saturn"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mercury is extremely cold on one side and very hot on the other. Uranus = rises in the west, Earth = highest density planet, Saturn = lowest density planet.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q46",
+    "question": "What is the highest peak of the Chure (Siwalik) range in Nepal?",
+    "options": [
+      "Fusang",
+      "Haripur",
+      "Langtang",
+      "Garba"
+    ],
+    "correctIndex": 3,
+    "explanation": "Garba is the highest peak of the Chure (Siwalik) range in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q47",
     "question": "When was the Constitution of Nepal 2072 promulgated?",
     "options": [
       "2072 Ashoj 3",
@@ -624,29 +611,42 @@
     "subject": "CONSTITUTION"
   },
   {
-    "id": "q49",
-    "question": "In which community is the custom of marrying only in the month of Mangsir practiced?",
+    "id": "q48",
+    "question": "Which element is found in tea?",
     "options": [
-      "Koche",
-      "Thami",
-      "Chepang",
-      "Punye"
+      "Lycopene",
+      "Tannin",
+      "Curcumin",
+      "Gingerol"
     ],
     "correctIndex": 1,
-    "explanation": "The Thami community has the custom of marrying only in the month of Mangsir. Koche = bride goes to groom's house after marriage. Chepang = chiuri tree given as dowry. Punye = bride kidnapping custom.",
+    "explanation": "Tea contains tannin. Lycopene = found in tomatoes. Curcumin = found in turmeric. Gingerol = found in ginger.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q49",
+    "question": "From which year is Coffee Day celebrated every year on Mangsir 1?",
+    "options": [
+      "2062 BS",
+      "2053 BS",
+      "2054 BS",
+      "2061 BS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Coffee Day started from 2062 BS. Tea Day started from 2054 BS (Baisakh 15). Donation Day started from 2061 BS (Asar 15).",
     "subject": "GK"
   },
   {
     "id": "q50",
-    "question": "Which article guarantees Right to Equality?",
+    "question": "Which is the upper house of Nepal's Federal Parliament?",
     "options": [
-      "Article 16",
-      "Article 17",
-      "Article 18",
-      "Article 20"
+      "House of Representatives",
+      "National Assembly",
+      "Provincial Assembly",
+      "Local Assembly"
     ],
-    "correctIndex": 2,
-    "explanation": "Article 18 guarantees Right to Equality.",
+    "correctIndex": 1,
+    "explanation": "National Assembly (Rashtriya Sabha) is the upper house.",
     "subject": "CONSTITUTION"
   }
 ]

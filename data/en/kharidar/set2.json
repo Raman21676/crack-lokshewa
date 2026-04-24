@@ -1,552 +1,32 @@
 [
   {
     "id": "q1",
-    "question": "With which SAARC country does Nepal have the maximum time difference?",
+    "question": "Where was the 17th BRICS Summit 2025 held?",
     "options": [
-      "Sri Lanka",
-      "Maldives",
-      "Pakistan",
-      "Afghanistan"
+      "India",
+      "South Africa",
+      "Indonesia",
+      "Brazil"
     ],
     "correctIndex": 3,
-    "explanation": "Afghanistan has the maximum time difference with Nepal (1 hour 15 minutes behind). Pakistan = 45 min behind, Sri Lanka = 15 min behind, India = 15 min behind, Maldives = 45 min behind.",
+    "explanation": "The 17th BRICS Summit 2025 was held in Rio de Janeiro, Brazil from July 6-7, 2025.",
     "subject": "GK"
   },
   {
     "id": "q2",
-    "question": "Next in series: 2, 6, 12, 20, 30, ?",
+    "question": "What is the condition of being extremely attracted to boys called?",
     "options": [
-      "44",
-      "38",
-      "40",
-      "42"
+      "Gynophilic",
+      "Androphobia",
+      "Androphilic",
+      "Gynophobia"
     ],
-    "correctIndex": 3,
-    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
-    "subject": "IQ"
+    "correctIndex": 2,
+    "explanation": "Androphilic = attraction to males. Gynophobia = fear of women. Gynophilic = attraction to females. Androphobia = fear of men.",
+    "subject": "SCIENCE"
   },
   {
     "id": "q3",
-    "question": "Which Lichhavi king went to take refuge in Tibet?",
-    "options": [
-      "Gunakamadev",
-      "Narendra Dev",
-      "Uday Dev",
-      "Shivadev Pratham"
-    ],
-    "correctIndex": 2,
-    "explanation": "Uday Dev went to Tibet for refuge. Narendra Dev = started window decoration tradition. Gunakamadev = settled Kantipur (built Kathmandu). Shivadev Pratham = settled Kirtipur.",
-    "subject": "GK"
-  },
-  {
-    "id": "q4",
-    "question": "Which constitutional body conducts elections in Nepal?",
-    "options": [
-      "CIAA",
-      "Auditor General",
-      "Public Service Commission",
-      "Election Commission"
-    ],
-    "correctIndex": 3,
-    "explanation": "Election Commission conducts all elections.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q5",
-    "question": "The 'Mauri' musical instrument is associated with which community?",
-    "options": [
-      "Newar",
-      "Tamang",
-      "Limbu",
-      "Chhanchal"
-    ],
-    "correctIndex": 3,
-    "explanation": "The Mauri instrument is associated with the Chhanchal community. Newar = Nayi baja. Tamang = Kaling baja. Limbu = Phasphuk.",
-    "subject": "GK"
-  },
-  {
-    "id": "q6",
-    "question": "What is 25% of 25% of 400?",
-    "options": [
-      "20",
-      "25",
-      "30",
-      "40"
-    ],
-    "correctIndex": 1,
-    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q7",
-    "question": "Under the OVOP program, which district was selected for turmeric (besar)?",
-    "options": [
-      "Bajura",
-      "Salyan",
-      "Banke",
-      "Sunsari"
-    ],
-    "correctIndex": 3,
-    "explanation": "Sunsari was selected for turmeric. Bajura = olive, Salyan = ginger (also Palpa), Banke = lentils (musuro).",
-    "subject": "GK"
-  },
-  {
-    "id": "q8",
-    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
-    "options": [
-      "STATION",
-      "TRADITION",
-      "MINISTER",
-      "RATION"
-    ],
-    "correctIndex": 2,
-    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q9",
-    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
-    "options": [
-      "BDJIS",
-      "DIBJT",
-      "DJBIS",
-      "DIBJS"
-    ],
-    "correctIndex": 3,
-    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q10",
-    "question": "Which body prevents corruption in Nepal?",
-    "options": [
-      "Election Commission",
-      "Public Service Commission",
-      "CIAA",
-      "NHRC"
-    ],
-    "correctIndex": 2,
-    "explanation": "CIAA (Commission for Investigation of Abuse of Authority).",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q11",
-    "question": "According to the Institute for Economics & Peace report, what is Nepal's rank in the Global Terrorism Index?",
-    "options": [
-      "99th",
-      "59th",
-      "69th",
-      "79th"
-    ],
-    "correctIndex": 0,
-    "explanation": "Nepal ranks 99th in the Global Terrorism Index by IEP. Pakistan ranks 1st with a score of 8.574, followed by Burkina Faso with 8.334.",
-    "subject": "GK"
-  },
-  {
-    "id": "q12",
-    "question": "What is the term length of National Assembly members?",
-    "options": [
-      "4 years",
-      "5 years",
-      "6 years",
-      "7 years"
-    ],
-    "correctIndex": 2,
-    "explanation": "National Assembly members serve 6 years.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q13",
-    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
-    "options": [
-      "20",
-      "24",
-      "32",
-      "40"
-    ],
-    "correctIndex": 1,
-    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q14",
-    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
-    "options": [
-      "3",
-      "14",
-      "17",
-      "21"
-    ],
-    "correctIndex": 1,
-    "explanation": "14 is the only even number.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q15",
-    "question": "Which was the first spacecraft to land on the Moon's surface?",
-    "options": [
-      "Luna 1",
-      "Luna 2",
-      "Luna 10",
-      "Skylab"
-    ],
-    "correctIndex": 1,
-    "explanation": "Luna 2 was the first spacecraft to land on the Moon's surface. Luna 10 = first to orbit the Moon. Skylab = first manned station for solar study (1974).",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q16",
-    "question": "The world's first cabinet meeting underwater took place in which ocean?",
-    "options": [
-      "Pacific",
-      "Atlantic",
-      "Indian",
-      "Arctic"
-    ],
-    "correctIndex": 2,
-    "explanation": "First underwater cabinet meeting was held in the Indian Ocean (Maldives).",
-    "subject": "GK"
-  },
-  {
-    "id": "q17",
-    "question": "Nepal ranks 10th in Asia in flowering plant diversity. What is its global rank?",
-    "options": [
-      "20th",
-      "23rd",
-      "25th",
-      "27th"
-    ],
-    "correctIndex": 3,
-    "explanation": "Nepal ranks 27th globally.",
-    "subject": "GK"
-  },
-  {
-    "id": "q18",
-    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
-    "options": [
-      "Sound",
-      "Hearing",
-      "Noise",
-      "Music"
-    ],
-    "correctIndex": 1,
-    "explanation": "Eye is for vision, Ear is for hearing.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q19",
-    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
-    "options": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "correctIndex": 3,
-    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q20",
-    "question": "According to the World Bank, what is Nepal's current unemployment rate?",
-    "options": [
-      "21.7%",
-      "22.7%",
-      "23.7%",
-      "24.8%"
-    ],
-    "correctIndex": 1,
-    "explanation": "Nepal's unemployment rate is 22.7% according to the World Bank. This is the highest unemployment rate in South Asia.",
-    "subject": "GK"
-  },
-  {
-    "id": "q21",
-    "question": "What is Nepal's national flower?",
-    "options": [
-      "Lotus",
-      "Rhododendron",
-      "Sunflower",
-      "Rose"
-    ],
-    "correctIndex": 1,
-    "explanation": "Rhododendron (Lali Gurans).",
-    "subject": "GK"
-  },
-  {
-    "id": "q22",
-    "question": "Which type of soil is considered best for agricultural production?",
-    "options": [
-      "Sandy soil",
-      "Hilly soil",
-      "Marshy soil",
-      "Alluvial soil"
-    ],
-    "correctIndex": 3,
-    "explanation": "Alluvial soil (तलैया माटो) is considered the best for agricultural production due to its high fertility.",
-    "subject": "GK"
-  },
-  {
-    "id": "q23",
-    "question": "Who was chosen as Player of the Tournament in the 2026 ICC Men's T20 World Cup?",
-    "options": [
-      "Sanju Samson",
-      "Sahibzada Farhan",
-      "Jasprit Bumrah",
-      "Jos Buttler"
-    ],
-    "correctIndex": 0,
-    "explanation": "Sanju Samson was the Player of the Tournament in the 2026 ICC Men's T20 World Cup. Farhan scored the most runs (383) and Bumrah took the most wickets (14).",
-    "subject": "GK"
-  },
-  {
-    "id": "q24",
-    "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
-    "options": [
-      "100m",
-      "150m",
-      "200m",
-      "250m"
-    ],
-    "correctIndex": 0,
-    "explanation": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q25",
-    "question": "If A is brother of B, B is sister of C, C is father of D. How is A related to D?",
-    "options": [
-      "Uncle",
-      "Father",
-      "Brother",
-      "Nephew"
-    ],
-    "correctIndex": 0,
-    "explanation": "C is D's father. B is C's sister. A is B's brother, so A is D's uncle.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q26",
-    "question": "How many provincial assemblies are there in Nepal?",
-    "options": [
-      "5",
-      "6",
-      "7",
-      "8"
-    ],
-    "correctIndex": 2,
-    "explanation": "7 provincial assemblies.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q27",
-    "question": "How many official languages does ASEAN have?",
-    "options": [
-      "10",
-      "2",
-      "3",
-      "24"
-    ],
-    "correctIndex": 0,
-    "explanation": "ASEAN has 10 official languages. 2 = UN official languages. 24 = EU official languages.",
-    "subject": "GK"
-  },
-  {
-    "id": "q28",
-    "question": "Who is the 18th Governor of Nepal Rastra Bank?",
-    "options": [
-      "Yuba Raj Khatiwada",
-      "Maha Prasad Adhikari",
-      "Vishwanath Paudel",
-      "Himalaya Shamsher"
-    ],
-    "correctIndex": 2,
-    "explanation": "Vishwanath Paudel is the 18th Governor.",
-    "subject": "GK"
-  },
-  {
-    "id": "q29",
-    "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
-    "options": [
-      "18 days",
-      "20 days",
-      "22 days",
-      "25 days"
-    ],
-    "correctIndex": 1,
-    "explanation": "M₁D₁=M₂D₂. 15×24=18×D₂. D₂=360/18=20 days.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q30",
-    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
-    "options": [
-      "Rs. 25000",
-      "Rs. 30000",
-      "Rs. 35000",
-      "Rs. 40000"
-    ],
-    "correctIndex": 1,
-    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q31",
-    "question": "Who was the Emerging Player in NPL 2025 (2nd edition)?",
-    "options": [
-      "Sher Malla",
-      "Sandeep Lamichhane",
-      "Rohit Paudel",
-      "Avinash Bohara"
-    ],
-    "correctIndex": 0,
-    "explanation": "Sher Malla was the Emerging Player. Sandeep=Best Bowler, Rohit=Best Batsman.",
-    "subject": "GK"
-  },
-  {
-    "id": "q32",
-    "question": "Which is the lowest point in Australia?",
-    "options": [
-      "Lake Assal",
-      "Dead Sea",
-      "Lake Eyre",
-      "Death Valley"
-    ],
-    "correctIndex": 2,
-    "explanation": "Lake Eyre is the lowest point in Australia. Lake Assal = Africa, Dead Sea = Asia, Death Valley = South America.",
-    "subject": "GK"
-  },
-  {
-    "id": "q33",
-    "question": "In which community do families fight during marriage?",
-    "options": [
-      "Thami",
-      "Limbu",
-      "Kumal",
-      "Jhangad"
-    ],
-    "correctIndex": 2,
-    "explanation": "Kumal = fight during marriage. Thami=marriage after death, Limbu=fire guns, Jhangad=exchange sindur.",
-    "subject": "GK"
-  },
-  {
-    "id": "q34",
-    "question": "Which king died during treatment in Switzerland?",
-    "options": [
-      "Girman Yuddha Bikram Shah",
-      "Rajendra Shah",
-      "Tribhuvan Shah",
-      "Ran Bahadur Shah"
-    ],
-    "correctIndex": 2,
-    "explanation": "Tribhuvan Shah died during treatment in Switzerland. Girman Yuddha Bikram Shah = died of smallpox. Rajendra Shah = died in prison. Ran Bahadur Shah = killed by his own brother.",
-    "subject": "GK"
-  },
-  {
-    "id": "q35",
-    "question": "What percentage of Nepal's population follows the Kirat religion?",
-    "options": [
-      "3.17%",
-      "1.76%",
-      "8.21%",
-      "5.09%"
-    ],
-    "correctIndex": 0,
-    "explanation": "According to the census, 3.17% of Nepal's population follows the Kirat religion. 1.76% = Christianity, 8.21% = Buddhism, 5.09% = Islam.",
-    "subject": "GK"
-  },
-  {
-    "id": "q36",
-    "question": "Which Social Security Day was celebrated in 2082?",
-    "options": [
-      "7th",
-      "8th",
-      "9th",
-      "10th"
-    ],
-    "correctIndex": 1,
-    "explanation": "8th Social Security Day. Celebrated on Mangsir 11.",
-    "subject": "GK"
-  },
-  {
-    "id": "q37",
-    "question": "What is the scientific name of Vitamin B?",
-    "options": [
-      "Thiamine",
-      "Tocopherol",
-      "Retinol",
-      "Calciferol"
-    ],
-    "correctIndex": 0,
-    "explanation": "Vitamin B = Thiamine. Vitamin E = Tocopherol. Vitamin A = Retinol. Vitamin D = Calciferol. Vitamin C = Ascorbic acid.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q38",
-    "question": "How many times did record-holder Kami Rita Sherpa summit Everest on 2082 Jestha 13?",
-    "options": [
-      "20",
-      "31",
-      "30",
-      "29"
-    ],
-    "correctIndex": 1,
-    "explanation": "Kami Rita Sherpa summited Everest for the 31st time on 2082 Jestha 13. He first summited in 1994.",
-    "subject": "GK"
-  },
-  {
-    "id": "q39",
-    "question": "Which continent has the most countries?",
-    "options": [
-      "Asia",
-      "Africa",
-      "Europe",
-      "Australia"
-    ],
-    "correctIndex": 1,
-    "explanation": "Africa has the most countries (54). Asia = 48, Europe = 44, Australia = 14, South America = 12, North America = 23.",
-    "subject": "GK"
-  },
-  {
-    "id": "q40",
-    "question": "Which Nepali was included in Time Magazine's 2026 list of 100 most influential people?",
-    "options": [
-      "KP Sharma Oli",
-      "Gagan Thapa",
-      "Pushpa Kamal Dahal",
-      "Balendra Shah"
-    ],
-    "correctIndex": 3,
-    "explanation": "Balendra Shah (Mayor of Kathmandu) was included. List published April 15, 2026.",
-    "subject": "GK"
-  },
-  {
-    "id": "q41",
-    "question": "If x + 1/x = 3, what is x² + 1/x²?",
-    "options": [
-      "7",
-      "8",
-      "9",
-      "11"
-    ],
-    "correctIndex": 0,
-    "explanation": "(x+1/x)² = x²+2+1/x² = 9. So x²+1/x² = 7.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q42",
-    "question": "What is Earth's equatorial diameter?",
-    "options": [
-      "12,756 km",
-      "12,714 km",
-      "12,735 km",
-      "12,500 km"
-    ],
-    "correctIndex": 0,
-    "explanation": "Earth's equatorial diameter is 12,756 km. Polar diameter = 12,714 km. Average diameter = 12,735 km.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q43",
     "question": "Who was the first female Deputy Speaker in Nepal's history?",
     "options": [
       "Dwarika Devi Thakurani",
@@ -559,46 +39,280 @@
     "subject": "GK"
   },
   {
-    "id": "q44",
-    "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
+    "id": "q4",
+    "question": "Who is known as Nepal's 'Father of the Nation'?",
     "options": [
-      "214673",
-      "246173",
-      "214763",
-      "216473"
+      "Tribhuvan Bir Bikram Shah",
+      "Mahendra Bir Bikram Shah",
+      "Birendra Bir Bikram Shah",
+      "Prithvi Narayan Shah"
     ],
-    "correctIndex": 0,
-    "explanation": "R=6,O=8,S=2,E=1,C=7,H=3,A=4,I=5,P=9. SEARCH=S(2)+E(1)+A(4)+R(6)+C(7)+H(3)=214673.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q45",
-    "question": "Which country has withdrawn from the United Nations?",
-    "options": [
-      "Switzerland",
-      "Vatican City",
-      "Indonesia",
-      "Taiwan"
-    ],
-    "correctIndex": 2,
-    "explanation": "Indonesia withdrew in 1965 and rejoined in 1966.",
+    "correctIndex": 3,
+    "explanation": "Prithvi Narayan Shah, who unified Nepal.",
     "subject": "GK"
   },
   {
-    "id": "q46",
-    "question": "When was Nepal declared untouchability-free?",
+    "id": "q5",
+    "question": "Which ocean has the coldest water?",
     "options": [
-      "2063 Jestha 20",
-      "2063 Jestha 21",
-      "2063 Jestha 22",
-      "2063 Jestha 23"
+      "Pacific Ocean",
+      "Southern Ocean",
+      "Arctic Ocean",
+      "Indian Ocean"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Arctic Ocean has the coldest water. It is also called the 'Formidable Ocean' and its area increases during winter.",
+    "subject": "GK"
+  },
+  {
+    "id": "q6",
+    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
+    "options": [
+      "32",
+      "40",
+      "20",
+      "24"
+    ],
+    "correctIndex": 3,
+    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q7",
+    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
+    "options": [
+      "BDJIS",
+      "DIBJT",
+      "DJBIS",
+      "DIBJS"
+    ],
+    "correctIndex": 3,
+    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q8",
+    "question": "Which is the hottest place in Nepal?",
+    "options": [
+      "Birgunj",
+      "Nepalgunj",
+      "Bhairahawa",
+      "Janakpur"
     ],
     "correctIndex": 1,
-    "explanation": "Declared on 2063 Jestha 21.",
+    "explanation": "Nepalgunj is the hottest.",
+    "subject": "GK"
+  },
+  {
+    "id": "q9",
+    "question": "Which country won the ICC T20 World Cup 2026?",
+    "options": [
+      "Pakistan",
+      "South Africa",
+      "India",
+      "New Zealand"
+    ],
+    "correctIndex": 2,
+    "explanation": "India won the ICC T20 World Cup 2026. New Zealand was runner-up. It was held from Feb 7 to March 8 in India and Sri Lanka, the 10th edition with 55 matches.",
+    "subject": "GK"
+  },
+  {
+    "id": "q10",
+    "question": "From which river did the Egyptian civilization originate?",
+    "options": [
+      "Huang He River",
+      "Indus & Ravi River",
+      "Tiber River",
+      "Nile River"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Egyptian civilization originated from the Nile River. Huang He = Chinese civilization. Indus & Ravi = Indus Valley civilization. Tiber = Roman civilization.",
+    "subject": "GK"
+  },
+  {
+    "id": "q11",
+    "question": "Which country has three capital cities?",
+    "options": [
+      "Indonesia",
+      "Cape Verde",
+      "Mauritius",
+      "South Africa"
+    ],
+    "correctIndex": 3,
+    "explanation": "South Africa has three capital cities: Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial).",
+    "subject": "GK"
+  },
+  {
+    "id": "q12",
+    "question": "In which district is the Lepcha community's main settlement?",
+    "options": [
+      "Morang",
+      "Gorkha",
+      "Jhapa",
+      "Ilam"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lepcha in Ilam. Dhimal in Morang, Chonara in Gorkha, Kisan in Jhapa.",
+    "subject": "GK"
+  },
+  {
+    "id": "q13",
+    "question": "How many fundamental rights are in Nepal's Constitution?",
+    "options": [
+      "28",
+      "30",
+      "31",
+      "35"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Constitution guarantees 31 fundamental rights.",
     "subject": "CONSTITUTION"
   },
   {
-    "id": "q47",
+    "id": "q14",
+    "question": "Which king died during treatment in Switzerland?",
+    "options": [
+      "Girman Yuddha Bikram Shah",
+      "Rajendra Shah",
+      "Tribhuvan Shah",
+      "Ran Bahadur Shah"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tribhuvan Shah died during treatment in Switzerland. Girman Yuddha Bikram Shah = died of smallpox. Rajendra Shah = died in prison. Ran Bahadur Shah = killed by his own brother.",
+    "subject": "GK"
+  },
+  {
+    "id": "q15",
+    "question": "Which instrument measures height?",
+    "options": [
+      "Polygraph",
+      "Pyrheliometer",
+      "Altimeter",
+      "Microscope"
+    ],
+    "correctIndex": 2,
+    "explanation": "An altimeter measures height. Microscope = magnifies small objects. Polygraph = lie detector. Pyrheliometer = measures solar radiation.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q16",
+    "question": "When was the Constitution of Nepal 2072 promulgated?",
+    "options": [
+      "2072 Ashoj 3",
+      "2072 Kartik 15",
+      "2072 Mangsir 1",
+      "2072 Poush 10"
+    ],
+    "correctIndex": 0,
+    "explanation": "September 20, 2015 (2072 Ashoj 3).",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q17",
+    "question": "When is National Magar Day celebrated every year?",
+    "options": [
+      "Falgun 15",
+      "Falgun 10",
+      "Falgun 14",
+      "Falgun 11"
+    ],
+    "correctIndex": 0,
+    "explanation": "National Magar Day is celebrated on Falgun 15 every year, in memory of the Magar Association establishment on 2039 Falgun 15.",
+    "subject": "GK"
+  },
+  {
+    "id": "q18",
+    "question": "How many days did World War II last?",
+    "options": [
+      "2191 days",
+      "2291 days",
+      "2391 days",
+      "1561 days"
+    ],
+    "correctIndex": 0,
+    "explanation": "World War II lasted 2191 days. World War I lasted 1561 days.",
+    "subject": "GK"
+  },
+  {
+    "id": "q19",
+    "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
+    "options": [
+      "18 days",
+      "20 days",
+      "22 days",
+      "25 days"
+    ],
+    "correctIndex": 1,
+    "explanation": "M₁D₁=M₂D₂. 15×24=18×D₂. D₂=360/18=20 days.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q20",
+    "question": "How many judges are in Nepal's Supreme Court?",
+    "options": [
+      "15",
+      "19",
+      "21",
+      "25"
+    ],
+    "correctIndex": 2,
+    "explanation": "21 judges including the Chief Justice.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q21",
+    "question": "According to the 7th Agriculture Census 2078, what percentage of families are engaged in agriculture?",
+    "options": [
+      "62%",
+      "4.4%",
+      "70.4%",
+      "11.7%"
+    ],
+    "correctIndex": 0,
+    "explanation": "62% of families are engaged in agriculture. 4.4% have crop insurance, 70.4% have agriculture as main source, 11.7% took loans for agriculture.",
+    "subject": "GK"
+  },
+  {
+    "id": "q22",
+    "question": "Which metal is liquid at room temperature?",
+    "options": [
+      "Iron",
+      "Copper",
+      "Mercury",
+      "Silver"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mercury is the only liquid metal at room temperature.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q23",
+    "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
+    "options": [
+      "100m",
+      "150m",
+      "200m",
+      "250m"
+    ],
+    "correctIndex": 0,
+    "explanation": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q24",
+    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
+    "options": [
+      "Rs. 25000",
+      "Rs. 30000",
+      "Rs. 35000",
+      "Rs. 40000"
+    ],
+    "correctIndex": 1,
+    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q25",
     "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
     "options": [
       "RTSIFD",
@@ -611,42 +325,328 @@
     "subject": "IQ"
   },
   {
-    "id": "q48",
-    "question": "If square area = 625 sq.m, what is the perimeter?",
+    "id": "q26",
+    "question": "Match: Purnima, Christ, Vishnu Gupta, Karl Marx",
     "options": [
-      "80m",
-      "90m",
-      "100m",
-      "120m"
+      "Buddha/Israel/Kautilya/England",
+      "Buddha/Rome/Chanakya/Germany",
+      "Gandhi/Jerusalem/Kautilya/Russia",
+      "Buddha/Israel/Chanakya/Germany"
     ],
-    "correctIndex": 2,
-    "explanation": "Side=25m. Perimeter=4×25=100m.",
+    "correctIndex": 0,
+    "explanation": "Purnima=Buddha, Christ=Israel, Vishnu Gupta=Kautilya, Karl Marx=England.",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "If x + 1/x = 3, what is x² + 1/x²?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "11"
+    ],
+    "correctIndex": 0,
+    "explanation": "(x+1/x)² = x²+2+1/x² = 9. So x²+1/x² = 7.",
     "subject": "MATH"
   },
   {
-    "id": "q49",
-    "question": "Who received the Bhanira Shankar Award 2082?",
+    "id": "q28",
+    "question": "How many local levels are there in Nepal?",
     "options": [
-      "Dhanraj Giri",
-      "Madhav Khanal",
-      "Saroj Dhakal",
-      "Muni Shakya"
+      "744",
+      "753",
+      "761",
+      "775"
+    ],
+    "correctIndex": 1,
+    "explanation": "753: 6 metros, 11 sub-metros, 276 municipalities, 460 rural municipalities.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q29",
+    "question": "Which is the smallest Ramsar wetland site in Nepal?",
+    "options": [
+      "Gokyo Lake",
+      "Rara Lake",
+      "Ghodaghodi Lake",
+      "Maipokhari"
     ],
     "correctIndex": 3,
-    "explanation": "Muni Shakya received the Bhanira Shankar Award 2082. Saroj Dhakal = Bhanira Service Honor Award. Madhav Khanal = Bhanira Pragya Award. Dhanraj Giri = Bhanira Award.",
+    "explanation": "Maipokhari (Ilam) is the smallest Ramsar site in Nepal. There are 10 Ramsar sites. Largest = Pokhara Valley 9 lakes. First listed = Koshi Tappu (Sunsari).",
+    "subject": "GK"
+  },
+  {
+    "id": "q30",
+    "question": "If A is brother of B, B is sister of C, C is father of D. How is A related to D?",
+    "options": [
+      "Uncle",
+      "Father",
+      "Brother",
+      "Nephew"
+    ],
+    "correctIndex": 0,
+    "explanation": "C is D's father. B is C's sister. A is B's brother, so A is D's uncle.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q31",
+    "question": "When is World Autism Awareness Day celebrated every year?",
+    "options": [
+      "April 1",
+      "April 2",
+      "April 3",
+      "April 4"
+    ],
+    "correctIndex": 1,
+    "explanation": "April 2 every year. Established by UN on Dec 18, 2007.",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
+    "question": "When did the Sagarmatha Mass Plantation Campaign start?",
+    "options": [
+      "2082 Jestha 14",
+      "2082 Asar 14",
+      "2082 Saun 14",
+      "2082 Bhadau 14"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Sagarmatha Mass Plantation Campaign started on 2082 Asar 14. Under this campaign, 3 crore plants will be planted every year for 20 years continuously.",
+    "subject": "GK"
+  },
+  {
+    "id": "q33",
+    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
+    "options": [
+      "STATION",
+      "TRADITION",
+      "MINISTER",
+      "RATION"
+    ],
+    "correctIndex": 2,
+    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q34",
+    "question": "What was Nepal called during the Satya Yuga?",
+    "options": [
+      "Tapovan",
+      "Nepal",
+      "Mukti Sopan",
+      "Satyawati"
+    ],
+    "correctIndex": 3,
+    "explanation": "During Satya Yuga, Nepal was called Satyawati. Tapovan = Treta Yuga. Nepal = Kali Yuga (present). Mukti Sopan = Dwapar Yuga.",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "Who led the Russian Revolution of 1905?",
+    "options": [
+      "Nicholas II",
+      "Father Gapon",
+      "Bolshevik Party",
+      "Lenin's Red Army"
+    ],
+    "correctIndex": 1,
+    "explanation": "Father Gapon led the Russian Revolution of 1905. Nicholas II = Tsar at the time. Bolshevik Party = heroes of the revolution. Red Army = Lenin's army.",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "Which of the following industrial areas was built with India's help?",
+    "options": [
+      "Bhaktapur Industrial Area",
+      "Hetauda Industrial Area",
+      "Patan Industrial Area",
+      "Birendranagar Industrial Area"
+    ],
+    "correctIndex": 2,
+    "explanation": "Patan Industrial Area was built with India's help.",
+    "subject": "GK"
+  },
+  {
+    "id": "q37",
+    "question": "How many local levels are there in Gandaki Province?",
+    "options": [
+      "85",
+      "87",
+      "88",
+      "99"
+    ],
+    "correctIndex": 0,
+    "explanation": "85 local levels: 1 metropolitan (Pokhara - Nepal's largest), 26 municipalities, 58 rural municipalities, 0 sub-metropolitan.",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctIndex": 3,
+    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q39",
+    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
+    "options": [
+      "3",
+      "14",
+      "17",
+      "21"
+    ],
+    "correctIndex": 1,
+    "explanation": "14 is the only even number.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q40",
+    "question": "Which was the first spacecraft to land on the Moon's surface?",
+    "options": [
+      "Luna 1",
+      "Luna 2",
+      "Luna 10",
+      "Skylab"
+    ],
+    "correctIndex": 1,
+    "explanation": "Luna 2 was the first spacecraft to land on the Moon's surface. Luna 10 = first to orbit the Moon. Skylab = first manned station for solar study (1974).",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q41",
+    "question": "Which king built the 22nd dhara (water spout) of Balaju?",
+    "options": [
+      "Ran Bahadur Shah",
+      "Yog Narendra Malla",
+      "Jayaprakash Malla",
+      "Jayasthiti Malla"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ran Bahadur Shah built the 22nd dhara. Jayaprakash Malla built the 21st dhara.",
+    "subject": "GK"
+  },
+  {
+    "id": "q42",
+    "question": "When was Nepal declared untouchability-free?",
+    "options": [
+      "2063 Jestha 20",
+      "2063 Jestha 21",
+      "2063 Jestha 22",
+      "2063 Jestha 23"
+    ],
+    "correctIndex": 1,
+    "explanation": "Declared on 2063 Jestha 21.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q43",
+    "question": "Who was chosen as Player of the Tournament in the 2026 ICC Men's T20 World Cup?",
+    "options": [
+      "Sanju Samson",
+      "Sahibzada Farhan",
+      "Jasprit Bumrah",
+      "Jos Buttler"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sanju Samson was the Player of the Tournament in the 2026 ICC Men's T20 World Cup. Farhan scored the most runs (383) and Bumrah took the most wickets (14).",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "What is the total population of Gandaki Province?",
+    "options": [
+      "11,70,833",
+      "12,95,594",
+      "24,66,427",
+      "6,62,480"
+    ],
+    "correctIndex": 2,
+    "explanation": "Total population = 24,66,427. Male = 11,70,833, Female = 12,95,594, Households = 6,62,480.",
+    "subject": "GK"
+  },
+  {
+    "id": "q45",
+    "question": "Which is the world's largest desert?",
+    "options": [
+      "Arabian Desert",
+      "Antarctica Desert",
+      "Kalahari Desert",
+      "Sahara Desert"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sahara is the world's largest hot desert. Arabian = largest sandy desert, Antarctica = largest polar desert, Thar = largest in South Asia.",
+    "subject": "GK"
+  },
+  {
+    "id": "q46",
+    "question": "Which is the only SAARC country without a river?",
+    "options": [
+      "Maldives",
+      "Bhutan",
+      "Pakistan",
+      "Bangladesh"
+    ],
+    "correctIndex": 0,
+    "explanation": "Maldives is the only SAARC country without a river. Bhutan = no written constitution. Pakistan = first SAARC country to implement VAT. Bangladesh = first SAARC country to ban plastic.",
+    "subject": "GK"
+  },
+  {
+    "id": "q47",
+    "question": "Which is Nepal's most recently listed World Heritage Site?",
+    "options": [
+      "Swayambhunath",
+      "Sagarmatha National Park",
+      "Boudhanath",
+      "Lumbini Area"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lumbini (1997). Sagarmatha was the first (1979).",
+    "subject": "GK"
+  },
+  {
+    "id": "q48",
+    "question": "Which district is Chaurjahari Airport located in?",
+    "options": [
+      "Jajarkot",
+      "Rukum West",
+      "Salyan",
+      "Dang"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chaurjahari Airport is in Rukum West district. Bhadrapur = Jhapa, Bharatpur = Chitwan, Biratnagar = Morang, Birendranagar = Surkhet.",
+    "subject": "GK"
+  },
+  {
+    "id": "q49",
+    "question": "Which conference established the Green Climate Fund?",
+    "options": [
+      "COP 15",
+      "COP 16",
+      "COP 21",
+      "COP 26"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Green Climate Fund was established by COP 16.",
     "subject": "GK"
   },
   {
     "id": "q50",
-    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
+    "question": "Which place is famous for ChunDunga fruit?",
     "options": [
-      "96",
-      "48",
-      "32",
-      "64"
+      "Kakani",
+      "Phulchoki",
+      "Shivapuri",
+      "Chandragiri"
     ],
-    "correctIndex": 0,
-    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
-    "subject": "IQ"
+    "correctIndex": 1,
+    "explanation": "Phulchoki is famous for ChunDunga.",
+    "subject": "GK"
   }
 ]
