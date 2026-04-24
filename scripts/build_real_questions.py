@@ -417,33 +417,52 @@ def make_json_question_ne(q, idx):
     }
 
 
-def build_set(all_questions, set_num, seed_offset=0):
-    """Build a balanced 50-question set with proper subject distribution"""
-    random.seed(42 + set_num * 7 + seed_offset)
+def build_set(all_questions, set_num, seed_offset=0, cat_idx=0):
+    """Build a balanced 50-question set with proper subject distribution.
+    Uses a fixed base shuffle + rotating offsets to ensure all questions
+    appear across the 12 generated sets (3 sets x 4 categories)."""
     
     # Lok Sewa Paper 1: ~30 GK + 20 IQ (IQ includes MATH)
     # We distribute as: GK 22, CONSTITUTION 6, SCIENCE 4, IQ 12, MATH 6
     targets = {"GK": 22, "CONSTITUTION": 6, "SCIENCE": 4, "IQ": 12, "MATH": 6}
     
-    # Group and shuffle each subject
+    # Group questions by subject
     by_subject = {"GK": [], "IQ": [], "MATH": [], "SCIENCE": [], "CONSTITUTION": []}
     for q in all_questions:
         sub = q["subject"]
         if sub in by_subject:
             by_subject[sub].append(q)
     
+    # Use a FIXED seed to create consistent base ordering across all sets
+    random.seed(999)
     for sub in by_subject:
         random.shuffle(by_subject[sub])
     
     result = []
     for sub, count in targets.items():
-        picked = by_subject[sub][:count]
-        # If not enough, cycle
-        while len(picked) < count:
-            picked.extend(by_subject[sub])
-        result.extend(picked[:count])
+        sub_list = by_subject[sub]
+        if len(sub_list) == 0:
+            continue
+        
+        if len(sub_list) <= count:
+            # Not enough questions — cycle through all of them
+            picked = sub_list[:]
+            while len(picked) < count:
+                picked.extend(sub_list)
+            result.extend(picked[:count])
+        else:
+            # Rotating window: global set index 0-11 ensures full coverage
+            global_idx = cat_idx * 3 + (set_num - 1)  # 0 to 11
+            offset = (global_idx * count) % len(sub_list)
+            picked = []
+            i = 0
+            while len(picked) < count:
+                picked.append(sub_list[(offset + i) % len(sub_list)])
+                i += 1
+            result.extend(picked)
     
-    # Shuffle all 50
+    # Shuffle within the set for variety (different seed per category+set)
+    random.seed(42 + set_num * 7 + seed_offset)
     random.shuffle(result)
     
     # Balance answers
@@ -474,9 +493,9 @@ def main():
     categories = ["kharidar", "subbha", "adhikrit", "police"]
     all_balances = []
     
-    for cat in categories:
+    for cat_idx, cat in enumerate(categories):
         for set_num in range(1, 4):
-            en_bank, ne_bank, counts = build_set(ALL_QUESTIONS, set_num, hash(cat) % 100)
+            en_bank, ne_bank, counts = build_set(ALL_QUESTIONS, set_num, hash(cat) % 100, cat_idx)
             
             save_json(en_bank, f"../data/en/{cat}/set{set_num}.json")
             save_json(ne_bank, f"../data/ne/{cat}/set{set_num}.json")
