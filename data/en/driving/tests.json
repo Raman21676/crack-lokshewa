@@ -1,0 +1,82 @@
+[
+    {
+        "id": "set1",
+        "title": "Driving License Model Set 1",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": false
+    },
+    {
+        "id": "set2",
+        "title": "Driving License Model Set 2",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Medium",
+        "locked": false
+    },
+    {
+        "id": "set3",
+        "title": "Driving License Model Set 3",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": true
+    },
+    {
+        "id": "set4",
+        "title": "Driving License Model Set 4",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": true
+    },
+    {
+        "id": "set5",
+        "title": "Driving License Model Set 5",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Medium",
+        "locked": true
+    },
+    {
+        "id": "set6",
+        "title": "Driving License Model Set 6",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": true
+    },
+    {
+        "id": "set7",
+        "title": "Driving License Model Set 7",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": true
+    },
+    {
+        "id": "set8",
+        "title": "Driving License Model Set 8",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Medium",
+        "locked": true
+    },
+    {
+        "id": "set9",
+        "title": "Driving License Model Set 9",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": true
+    },
+    {
+        "id": "set10",
+        "title": "Driving License Model Set 10",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": true
+    }
+]

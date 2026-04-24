@@ -1,0 +1,51 @@
+[
+    {
+        "id": "kharidar",
+        "title": { "en": "Kharidar", "ne": "खरिदार" },
+        "description": { "en": "Non-gazetted second-class officer level exams.", "ne": "अगजेटेड द्वितीय श्रेणी अधिकृत स्तरको परीक्षा।" },
+        "icon": "📝",
+        "color": "#3b82f6"
+    },
+    {
+        "id": "subbha",
+        "title": { "en": "Nayab Subba", "ne": "नायब सुब्बा" },
+        "description": { "en": "Non-gazetted first-class officer level exams.", "ne": "अगजेटेड प्रथम श्रेणी अधिकृत स्तरको परीक्षा।" },
+        "icon": "📚",
+        "color": "#10b981"
+    },
+    {
+        "id": "adhikrit",
+        "title": { "en": "Section Officer (Adhikrit)", "ne": "शाखा अधिकृत" },
+        "description": { "en": "Gazetted third-class officer level exams.", "ne": "गजेटेड तृतीय श्रेणी अधिकृत स्तरको परीक्षा।" },
+        "icon": "🎓",
+        "color": "#8b5cf6"
+    },
+    {
+        "id": "police",
+        "title": { "en": "Nepal Police", "ne": "नेपाल प्रहरी" },
+        "description": { "en": "Inspector, ASI, and Jawan positions.", "ne": "इन्स्पेक्टर, सहायक निरीक्षक र जवान पदहरू।" },
+        "icon": "👮",
+        "color": "#f59e0b"
+    },
+    {
+        "id": "driving",
+        "title": { "en": "Driving License", "ne": "सवारी चालक अनुमतिपत्र" },
+        "description": { "en": "Written exam preparation for driving license.", "ne": "सवारी चालक अनुमतिपत्रको लिखित परीक्षा तयारी।" },
+        "icon": "🚗",
+        "color": "#ef4444"
+    },
+    {
+        "id": "nursing",
+        "title": { "en": "Staff Nurse", "ne": "स्टाफ नर्स" },
+        "description": { "en": "Lok Sewa exams for nursing positions.", "ne": "नर्सिङ पदहरूको लागि लोक सेवा परीक्षा।" },
+        "icon": "⚕️",
+        "color": "#ec4899"
+    },
+    {
+        "id": "it",
+        "title": { "en": "IT Officer / Assistant", "ne": "आईटी अधिकृत / सहायक" },
+        "description": { "en": "Computer operator and IT officer exams.", "ne": "कम्प्युटर सञ्चालक र आईटी अधिकृत परीक्षाहरू।" },
+        "icon": "💻",
+        "color": "#14b8a6"
+    }
+]

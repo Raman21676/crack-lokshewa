@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "If 8 workers repair a road in 10 days, how many days for 16 workers?",
+    "options": [
+      "4",
+      "8",
+      "6",
+      "5"
+    ],
+    "correctIndex": 3,
+    "explanation": "Total work=80 man-days. 16 workers: 80/16=5.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q2",
+    "question": "What is the safe following distance in normal conditions?",
+    "options": [
+      "1 second",
+      "2 seconds",
+      "3 seconds",
+      "5 seconds"
+    ],
+    "correctIndex": 1,
+    "explanation": "2-second rule is the safe following distance.",
+    "subject": "GK"
+  },
+  {
+    "id": "q3",
+    "question": "If 4 tires cost Rs. 24000, what is the cost of 1 tire?",
+    "options": [
+      "5000",
+      "6000",
+      "5500",
+      "6500"
+    ],
+    "correctIndex": 1,
+    "explanation": "24000/4=6000.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q4",
+    "question": "If 3 mechanics repair 6 vehicles in 4 hours, how many vehicles can 6 mechanics repair in 8 hours?",
+    "options": [
+      "12",
+      "18",
+      "30",
+      "24"
+    ],
+    "correctIndex": 3,
+    "explanation": "3 mechanics 4 hours = 6 vehicles. 6 mechanics 8 hours = 6×2×2=24.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q5",
+    "question": "If a car's speed is 60 km/h, how far does it travel in 15 minutes?",
+    "options": [
+      "10",
+      "15",
+      "12",
+      "20"
+    ],
+    "correctIndex": 1,
+    "explanation": "In 15 min (1/4 hour), distance=60/4=15 km.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q6",
+    "question": "What does a no-parking sign look like?",
+    "options": [
+      "Green triangle",
+      "Blue circle",
+      "Red circle with diagonal line",
+      "Yellow square"
+    ],
+    "correctIndex": 2,
+    "explanation": "No-parking is a red circle with a diagonal line.",
+    "subject": "GK"
+  },
+  {
+    "id": "q7",
+    "question": "What should you do when an emergency vehicle approaches with siren?",
+    "options": [
+      "Speed up",
+      "Give way",
+      "Stop immediately",
+      "Honk back"
+    ],
+    "correctIndex": 1,
+    "explanation": "You should give way to emergency vehicles.",
+    "subject": "GK"
+  },
+  {
+    "id": "q8",
+    "question": "What is 25% of 800?",
+    "options": [
+      "150",
+      "175",
+      "200",
+      "225"
+    ],
+    "correctIndex": 2,
+    "explanation": "25% of 800 = 200.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q9",
+    "question": "What is the purpose of seat belts?",
+    "options": [
+      "Comfort only",
+      "Increase speed",
+      "Reduce injury in accidents",
+      "Style"
+    ],
+    "correctIndex": 2,
+    "explanation": "Seat belts reduce injury in accidents.",
+    "subject": "GK"
+  },
+  {
+    "id": "q10",
+    "question": "Which fluid is used in hydraulic brakes?",
+    "options": [
+      "Water",
+      "Engine oil",
+      "Petrol",
+      "Brake fluid"
+    ],
+    "correctIndex": 3,
+    "explanation": "Brake fluid is used in hydraulic brakes.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q11",
+    "question": "What does a circular sign with red border mean?",
+    "options": [
+      "Mandatory",
+      "Warning",
+      "Prohibitory",
+      "Information"
+    ],
+    "correctIndex": 2,
+    "explanation": "Circular red border signs are prohibitory.",
+    "subject": "GK"
+  },
+  {
+    "id": "q12",
+    "question": "If 15 buses carry 600 passengers, how many passengers per bus?",
+    "options": [
+      "35",
+      "40",
+      "38",
+      "42"
+    ],
+    "correctIndex": 1,
+    "explanation": "600/15=40.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q13",
+    "question": "What does a stop sign with a hand symbol mean?",
+    "options": [
+      "Slow down",
+      "No entry",
+      "Proceed with caution",
+      "Stop completely"
+    ],
+    "correctIndex": 3,
+    "explanation": "It means stop completely.",
+    "subject": "GK"
+  },
+  {
+    "id": "q14",
+    "question": "If a vehicle covers 240 km in 4 hours, what is its speed?",
+    "options": [
+      "50",
+      "55",
+      "65",
+      "60"
+    ],
+    "correctIndex": 3,
+    "explanation": "Speed=240/4=60 km/h.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q15",
+    "question": "What should you do when approaching a school zone?",
+    "options": [
+      "Speed up",
+      "Slow down and watch for children",
+      "Honk continuously",
+      "Overtake slowly"
+    ],
+    "correctIndex": 1,
+    "explanation": "Slow down and watch for children.",
+    "subject": "GK"
+  },
+  {
+    "id": "q16",
+    "question": "What is the minimum age to obtain a driving license for a car in Nepal?",
+    "options": [
+      "18",
+      "16",
+      "20",
+      "21"
+    ],
+    "correctIndex": 0,
+    "explanation": "Minimum age for car license is 18.",
+    "subject": "GK"
+  },
+  {
+    "id": "q17",
+    "question": "Which lane should slow-moving vehicles use?",
+    "options": [
+      "Any lane",
+      "Right lane",
+      "Middle lane",
+      "Left lane"
+    ],
+    "correctIndex": 3,
+    "explanation": "Slow vehicles should use the left lane.",
+    "subject": "GK"
+  },
+  {
+    "id": "q18",
+    "question": "If a motorcycle travels 90 km in 2 hours, what is its speed?",
+    "options": [
+      "40",
+      "42",
+      "48",
+      "45"
+    ],
+    "correctIndex": 3,
+    "explanation": "Speed=90/2=45 km/h.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q19",
+    "question": "What does a green arrow traffic light mean?",
+    "options": [
+      "Stop",
+      "Go in direction shown",
+      "Caution",
+      "Speed up"
+    ],
+    "correctIndex": 1,
+    "explanation": "Green arrow means go in the shown direction.",
+    "subject": "GK"
+  },
+  {
+    "id": "q20",
+    "question": "If petrol costs Rs. 130 per liter, how much for 15 liters?",
+    "options": [
+      "1950",
+      "1900",
+      "1850",
+      "2000"
+    ],
+    "correctIndex": 0,
+    "explanation": "130×15=1950.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q21",
+    "question": "What does a broken white line on the road mean?",
+    "options": [
+      "No overtaking",
+      "Parking zone",
+      "Overtaking allowed when safe",
+      "Stop line"
+    ],
+    "correctIndex": 2,
+    "explanation": "Broken white line means overtaking allowed when safe.",
+    "subject": "GK"
+  },
+  {
+    "id": "q22",
+    "question": "What is the maximum speed limit in urban areas of Nepal?",
+    "options": [
+      "50 km/h",
+      "40 km/h",
+      "60 km/h",
+      "80 km/h"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maximum speed in urban areas is 40 km/h.",
+    "subject": "GK"
+  },
+  {
+    "id": "q23",
+    "question": "What should be the tire pressure for a car?",
+    "options": [
+      "30-35 PSI",
+      "20-25 PSI",
+      "40-45 PSI",
+      "50-55 PSI"
+    ],
+    "correctIndex": 0,
+    "explanation": "Recommended tire pressure is 30-35 PSI.",
+    "subject": "GK"
+  },
+  {
+    "id": "q24",
+    "question": "What is the fine for driving without a license in Nepal?",
+    "options": [
+      "Rs. 1000",
+      "Rs. 5000",
+      "Rs. 2000",
+      "Rs. 10000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fine for driving without license is Rs. 5000.",
+    "subject": "GK"
+  },
+  {
+    "id": "q25",
+    "question": "What is 20% of 450?",
+    "options": [
+      "80",
+      "85",
+      "90",
+      "95"
+    ],
+    "correctIndex": 2,
+    "explanation": "20% of 450 = 90.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q26",
+    "question": "What does a zebra crossing indicate?",
+    "options": [
+      "No parking",
+      "Speed limit",
+      "Pedestrian crossing",
+      "U-turn allowed"
+    ],
+    "correctIndex": 2,
+    "explanation": "Zebra crossing is for pedestrian crossing.",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "Which brake is most effective in a motorcycle?",
+    "options": [
+      "Rear brake",
+      "Front brake",
+      "Both equally",
+      "Engine brake"
+    ],
+    "correctIndex": 1,
+    "explanation": "Front brake provides about 70% of stopping power.",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "What does a U-turn sign indicate?",
+    "options": [
+      "No entry",
+      "Stop",
+      "U-turn allowed",
+      "One way"
+    ],
+    "correctIndex": 2,
+    "explanation": "U-turn sign means U-turn is allowed.",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "What is the purpose of a catalytic converter?",
+    "options": [
+      "Reduce emissions",
+      "Increase speed",
+      "Save fuel",
+      "Increase power"
+    ],
+    "correctIndex": 0,
+    "explanation": "It reduces harmful emissions.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q30",
+    "question": "If a driver drives 8 hours daily at 50 km/h, how far in 5 days?",
+    "options": [
+      "2000",
+      "1900",
+      "1800",
+      "2100"
+    ],
+    "correctIndex": 0,
+    "explanation": "Daily distance=50×8=400. 5 days=2000 km.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q31",
+    "question": "If 12 liters of petrol cost Rs. 1560, what is the cost of 8 liters?",
+    "options": [
+      "1040",
+      "1000",
+      "960",
+      "1080"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 liter=130. 8 liters=1040.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q32",
+    "question": "What should you check before starting a long journey?",
+    "options": [
+      "Only fuel",
+      "Only engine oil",
+      "Tires, brakes, lights, fuel",
+      "Only water"
+    ],
+    "correctIndex": 2,
+    "explanation": "Check tires, brakes, lights, and fuel.",
+    "subject": "GK"
+  },
+  {
+    "id": "q33",
+    "question": "What does a yellow diamond sign indicate?",
+    "options": [
+      "Mandatory",
+      "Prohibitory",
+      "Warning",
+      "Information"
+    ],
+    "correctIndex": 2,
+    "explanation": "Yellow diamond signs are warning signs.",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "What is the main cause of road accidents in Nepal?",
+    "options": [
+      "Vehicle condition",
+      "Weather",
+      "Over speeding",
+      "Road design"
+    ],
+    "correctIndex": 2,
+    "explanation": "Over speeding is the main cause.",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "Which number is missing: 3, 6, 12, 24, ?",
+    "options": [
+      "48",
+      "42",
+      "36",
+      "54"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each number is multiplied by 2.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q36",
+    "question": "When should you use the hazard lights?",
+    "options": [
+      "While parking",
+      "At green light",
+      "While overtaking",
+      "When vehicle is broken down"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hazard lights are used when vehicle is broken down.",
+    "subject": "GK"
+  },
+  {
+    "id": "q37",
+    "question": "What is the octane rating of petrol commonly used in Nepal?",
+    "options": [
+      "87",
+      "90",
+      "93",
+      "95"
+    ],
+    "correctIndex": 0,
+    "explanation": "Regular petrol has 87 octane rating.",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "What is the legal blood alcohol limit for driving in Nepal?",
+    "options": [
+      "0.05%",
+      "0.03%",
+      "0%",
+      "0.08%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal has zero tolerance for alcohol while driving.",
+    "subject": "GK"
+  },
+  {
+    "id": "q39",
+    "question": "What does ABS stand for in vehicles?",
+    "options": [
+      "Anti-lock Braking System",
+      "Anti-Braking System",
+      "Automatic Braking System",
+      "Advanced Braking System"
+    ],
+    "correctIndex": 0,
+    "explanation": "ABS = Anti-lock Braking System.",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "What does a blue circular sign indicate?",
+    "options": [
+      "Warning",
+      "Mandatory",
+      "Prohibitory",
+      "Information"
+    ],
+    "correctIndex": 1,
+    "explanation": "Blue circular signs are mandatory.",
+    "subject": "GK"
+  },
+  {
+    "id": "q41",
+    "question": "If 5 liters of diesel cost Rs. 650, what is the cost of 12 liters?",
+    "options": [
+      "1560",
+      "1500",
+      "1440",
+      "1620"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 liter=130. 12 liters=1560.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q42",
+    "question": "If a bus travels at 40 km/h for 3 hours, what distance does it cover?",
+    "options": [
+      "120",
+      "110",
+      "100",
+      "130"
+    ],
+    "correctIndex": 0,
+    "explanation": "Distance=40×3=120 km.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q43",
+    "question": "If a car's engine has 4 cylinders, how many strokes in one cycle?",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "4"
+    ],
+    "correctIndex": 3,
+    "explanation": "Four-stroke engine has 4 strokes per cycle.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q44",
+    "question": "Which side of the road should vehicles drive on in Nepal?",
+    "options": [
+      "Right",
+      "Left",
+      "Center",
+      "Any side"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vehicles drive on the left side in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q45",
+    "question": "If a car travels 150 km in 3 hours, what is its average speed?",
+    "options": [
+      "40",
+      "45",
+      "55",
+      "50"
+    ],
+    "correctIndex": 3,
+    "explanation": "Speed=150/3=50 km/h.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q46",
+    "question": "What does a hospital sign look like?",
+    "options": [
+      "Red cross on white",
+      "Yellow circle",
+      "Green triangle",
+      "Blue 'H'"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hospital signs typically show a blue 'H'.",
+    "subject": "GK"
+  },
+  {
+    "id": "q47",
+    "question": "What does a solid white line on the road mean?",
+    "options": [
+      "Overtaking allowed",
+      "No overtaking",
+      "Parking allowed",
+      "Stop line"
+    ],
+    "correctIndex": 1,
+    "explanation": "Solid white line means no overtaking.",
+    "subject": "GK"
+  },
+  {
+    "id": "q48",
+    "question": "What does a triangular sign with red border indicate?",
+    "options": [
+      "Warning",
+      "Mandatory",
+      "Prohibitory",
+      "Information"
+    ],
+    "correctIndex": 0,
+    "explanation": "Triangular signs with red border are warning signs.",
+    "subject": "GK"
+  },
+  {
+    "id": "q49",
+    "question": "If a vehicle accelerates from 0 to 60 km/h in 10 seconds, what is its acceleration?",
+    "options": [
+      "4 m/s²",
+      "2.5 m/s²",
+      "3 m/s²",
+      "1.67 m/s²"
+    ],
+    "correctIndex": 3,
+    "explanation": "60 km/h = 16.67 m/s. a = 16.67/10 = 1.67 m/s².",
+    "subject": "MATH"
+  },
+  {
+    "id": "q50",
+    "question": "What is the next number: 2, 5, 10, 17, 26, ?",
+    "options": [
+      "35",
+      "36",
+      "38",
+      "37"
+    ],
+    "correctIndex": 3,
+    "explanation": "Pattern: n²+1. 6²+1=37.",
+    "subject": "IQ"
+  }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "id": "set1",
+        "title": "आईटी अधिकृत मॉडल सेट 1",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": false
+    },
+    {
+        "id": "set2",
+        "title": "आईटी अधिकृत मॉडल सेट 2",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Medium",
+        "locked": false
+    },
+    {
+        "id": "set3",
+        "title": "आईटी अधिकृत मॉडल सेट 3",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": true
+    },
+    {
+        "id": "set4",
+        "title": "आईटी अधिकृत मॉडल सेट 4",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": true
+    },
+    {
+        "id": "set5",
+        "title": "आईटी अधिकृत मॉडल सेट 5",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Medium",
+        "locked": true
+    },
+    {
+        "id": "set6",
+        "title": "आईटी अधिकृत मॉडल सेट 6",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": true
+    },
+    {
+        "id": "set7",
+        "title": "आईटी अधिकृत मॉडल सेट 7",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": true
+    },
+    {
+        "id": "set8",
+        "title": "आईटी अधिकृत मॉडल सेट 8",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Medium",
+        "locked": true
+    },
+    {
+        "id": "set9",
+        "title": "आईटी अधिकृत मॉडल सेट 9",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": true
+    },
+    {
+        "id": "set10",
+        "title": "आईटी अधिकृत मॉडल सेट 10",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": true
+    }
+]

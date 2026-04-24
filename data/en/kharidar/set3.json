@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "Who wrote the Mahabharata?",
+    "options": [
+      "Vyasa",
+      "Valmiki",
+      "Tulsidas",
+      "Kalidasa"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mahabharata is attributed to Vyasa.",
+    "subject": "GK"
+  },
+  {
+    "id": "q2",
+    "question": "Ram said 'She is daughter of my grandfather's only son.' Relation?",
+    "options": [
+      "Sister",
+      "Cousin",
+      "Daughter",
+      "Niece"
+    ],
+    "correctIndex": 0,
+    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q3",
+    "question": "Who composed the music of Nepal's national anthem?",
+    "options": [
+      "Byakul Maila",
+      "Amber Gurung",
+      "Narayan Gopal",
+      "Ram Krishna Dhakal"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lyrics by Byakul Maila, music by Amber Gurung.",
+    "subject": "GK"
+  },
+  {
+    "id": "q4",
+    "question": "Which vitamin is produced by skin in sunlight?",
+    "options": [
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin C",
+      "Vitamin B"
+    ],
+    "correctIndex": 1,
+    "explanation": "Skin produces Vitamin D when exposed to sunlight.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q5",
+    "question": "Which metal is liquid at room temperature?",
+    "options": [
+      "Iron",
+      "Copper",
+      "Mercury",
+      "Silver"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mercury is liquid at room temperature.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q6",
+    "question": "Train 150m long passes a pole in 15s. Speed in km/h?",
+    "options": [
+      "36",
+      "30",
+      "40",
+      "45"
+    ],
+    "correctIndex": 0,
+    "explanation": "Speed=150/15=10 m/s = 36 km/h.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q7",
+    "question": "Chemical formula of water?",
+    "options": [
+      "HO2",
+      "H2O2",
+      "OH",
+      "H2O"
+    ],
+    "correctIndex": 3,
+    "explanation": "Water is H2O.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q8",
+    "question": "A is brother of B; B is sister of C; C is father of D. How is D related to A?",
+    "options": [
+      "Cousin",
+      "Brother/Sister",
+      "Nephew/Niece",
+      "Son/Daughter"
+    ],
+    "correctIndex": 2,
+    "explanation": "A is C's brother, C is D's father. So D is A's nephew/niece.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q9",
+    "question": "Value of pi (π) approximately?",
+    "options": [
+      "3.12",
+      "3.14",
+      "3.16",
+      "3.18"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pi ≈ 3.14159.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q10",
+    "question": "How many members in National Assembly?",
+    "options": [
+      "56",
+      "71",
+      "63",
+      "59"
+    ],
+    "correctIndex": 3,
+    "explanation": "National Assembly has 59 members.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q11",
+    "question": "Ratio of A and B is 3:5 and sum is 48. B's age?",
+    "options": [
+      "30",
+      "24",
+      "18",
+      "36"
+    ],
+    "correctIndex": 0,
+    "explanation": "3x+5x=48, x=6. B=5×6=30.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q12",
+    "question": "Next prime number after 13?",
+    "options": [
+      "14",
+      "17",
+      "16",
+      "15"
+    ],
+    "correctIndex": 1,
+    "explanation": "17 is the next prime.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q13",
+    "question": "Who invented the telephone?",
+    "options": [
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Alexander Graham Bell",
+      "Guglielmo Marconi"
+    ],
+    "correctIndex": 2,
+    "explanation": "Bell invented telephone in 1876.",
+    "subject": "GK"
+  },
+  {
+    "id": "q14",
+    "question": "What is the HCF of 24 and 36?",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "18"
+    ],
+    "correctIndex": 2,
+    "explanation": "HCF of 24 and 36 is 12.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q15",
+    "question": "Odd one out: Chair, Table, Sofa, Banana",
+    "options": [
+      "Chair",
+      "Banana",
+      "Sofa",
+      "Table"
+    ],
+    "correctIndex": 1,
+    "explanation": "Banana is a fruit; rest are furniture.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q16",
+    "question": "Choose the odd one out: Apple, Mango, Potato, Orange",
+    "options": [
+      "Apple",
+      "Mango",
+      "Potato",
+      "Orange"
+    ],
+    "correctIndex": 2,
+    "explanation": "Potato is a vegetable; others are fruits.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q17",
+    "question": "When was Jana Andolan 2046?",
+    "options": [
+      "1990",
+      "1989",
+      "1991",
+      "1992"
+    ],
+    "correctIndex": 0,
+    "explanation": "Jana Andolan 2046 was in 1990 AD.",
+    "subject": "GK"
+  },
+  {
+    "id": "q18",
+    "question": "A shopkeeper sells at Rs. 2400 at 20% loss. Cost price?",
+    "options": [
+      "2800",
+      "3500",
+      "3200",
+      "3000"
+    ],
+    "correctIndex": 3,
+    "explanation": "CP = 2400 × 100/80 = 3000.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q19",
+    "question": "If INDIA=914491, what is NEPAL?",
+    "options": [
+      "145121",
+      "514112",
+      "145112",
+      "514121"
+    ],
+    "correctIndex": 2,
+    "explanation": "Alphabet position numbers.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q20",
+    "question": "'I have no brother or sister but that man's father is my father's son.' Whose photo?",
+    "options": [
+      "His own",
+      "His nephew's",
+      "His father's",
+      "His son's"
+    ],
+    "correctIndex": 3,
+    "explanation": "'My father's son' = himself. So that man is his son.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q21",
+    "question": "Complete: A, C, F, J, O, ?",
+    "options": [
+      "P",
+      "Q",
+      "U",
+      "R"
+    ],
+    "correctIndex": 2,
+    "explanation": "A(+2)=C, C(+3)=F, F(+4)=J, J(+5)=O, O(+6)=U.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q22",
+    "question": "When was Lumbini listed as UNESCO World Heritage Site?",
+    "options": [
+      "1979",
+      "1997",
+      "2006",
+      "2002"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lumbini was inscribed in 1997.",
+    "subject": "GK"
+  },
+  {
+    "id": "q23",
+    "question": "What is the full form of ROM?",
+    "options": [
+      "Random Output Memory",
+      "Random Only Memory",
+      "Read Output Memory",
+      "Read Only Memory"
+    ],
+    "correctIndex": 3,
+    "explanation": "ROM = Read Only Memory.",
+    "subject": "GK"
+  },
+  {
+    "id": "q24",
+    "question": "SAARC headquarters is in?",
+    "options": [
+      "Kathmandu",
+      "Islamabad",
+      "New Delhi",
+      "Dhaka"
+    ],
+    "correctIndex": 0,
+    "explanation": "SAARC HQ is in Kathmandu.",
+    "subject": "GK"
+  },
+  {
+    "id": "q25",
+    "question": "3 men complete work in 8 days. 4 men take?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "Total work=24 man-days. 4 men: 24/4=6 days.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q26",
+    "question": "Which is the hottest planet in our solar system?",
+    "options": [
+      "Mercury",
+      "Mars",
+      "Venus",
+      "Jupiter"
+    ],
+    "correctIndex": 2,
+    "explanation": "Venus is hottest due to greenhouse effect.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q27",
+    "question": "Universal donor blood group?",
+    "options": [
+      "A+",
+      "B+",
+      "AB+",
+      "O-"
+    ],
+    "correctIndex": 3,
+    "explanation": "O negative is the universal donor.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q28",
+    "question": "When was Nepal declared a secular state?",
+    "options": [
+      "2006",
+      "2007",
+      "2008",
+      "2015"
+    ],
+    "correctIndex": 0,
+    "explanation": "Declared secular in 2006 (2063 BS) by interim constitution.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q29",
+    "question": "If day before yesterday was Thursday, day after tomorrow?",
+    "options": [
+      "Sunday",
+      "Friday",
+      "Saturday",
+      "Monday"
+    ],
+    "correctIndex": 3,
+    "explanation": "Day before yesterday=Thu→Today=Sat→Day after tomorrow=Mon.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q30",
+    "question": "Deepest ocean in the world?",
+    "options": [
+      "Atlantic",
+      "Pacific",
+      "Arctic",
+      "Indian"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pacific Ocean is the deepest.",
+    "subject": "GK"
+  },
+  {
+    "id": "q31",
+    "question": "Doctor : Hospital :: Teacher : ?",
+    "options": [
+      "Book",
+      "Student",
+      "School",
+      "Class"
+    ],
+    "correctIndex": 2,
+    "explanation": "A Doctor works in Hospital; Teacher works in School.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q32",
+    "question": "Which number comes next: 2, 6, 12, 20, 30, ...?",
+    "options": [
+      "40",
+      "42",
+      "44",
+      "48"
+    ],
+    "correctIndex": 1,
+    "explanation": "Differences: +4,+6,+8,+10,+12. So 30+12=42.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q33",
+    "question": "When was Poverty Alleviation Fund (PAF) established?",
+    "options": [
+      "2050 BS",
+      "2065 BS",
+      "2070 BS",
+      "2060 BS"
+    ],
+    "correctIndex": 3,
+    "explanation": "PAF was established in 2060 BS (2003 AD).",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "Who is the Father of the Nation in Nepal?",
+    "options": [
+      "Tribhuvan Shah",
+      "Mahendra Shah",
+      "Prithvi Narayan Shah",
+      "Birendra Shah"
+    ],
+    "correctIndex": 2,
+    "explanation": "Prithvi Narayan Shah is the Father of the Nation.",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "Who was the first President of Nepal?",
+    "options": [
+      "Bidya Devi Bhandari",
+      "Nanda Kishor Pun",
+      "Parmananda Jha",
+      "Ram Baran Yadav"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dr. Ram Baran Yadav became first President in 2008.",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "Simplify (2³)²",
+    "options": [
+      "32",
+      "64",
+      "128",
+      "16"
+    ],
+    "correctIndex": 1,
+    "explanation": "(2³)²=2⁶=64.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q37",
+    "question": "What is the currency of Japan?",
+    "options": [
+      "Won",
+      "Yen",
+      "Yuan",
+      "Ringgit"
+    ],
+    "correctIndex": 1,
+    "explanation": "Japanese currency is Yen.",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "Which is the highest altitude lake in Nepal?",
+    "options": [
+      "Rara",
+      "Phoksundo",
+      "Tilicho",
+      "She-Phoksundo"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tilicho Lake in Manang at 4919m is the highest.",
+    "subject": "GK"
+  },
+  {
+    "id": "q39",
+    "question": "During Lichhavi period, the education department was called?",
+    "options": [
+      "Adhikaran",
+      "Bhatt",
+      "Lingbal",
+      "Agrahar"
+    ],
+    "correctIndex": 3,
+    "explanation": "During Lichhavi period, it was called Agrahar.",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "Smallest continent by area?",
+    "options": [
+      "Australia",
+      "Europe",
+      "Antarctica",
+      "South America"
+    ],
+    "correctIndex": 0,
+    "explanation": "Australia is the smallest continent.",
+    "subject": "GK"
+  },
+  {
+    "id": "q41",
+    "question": "What is the LCM of 12 and 18?",
+    "options": [
+      "36",
+      "24",
+      "48",
+      "72"
+    ],
+    "correctIndex": 0,
+    "explanation": "LCM of 12 and 18 is 36.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q42",
+    "question": "If today is Monday, what day after 65 days?",
+    "options": [
+      "Tuesday",
+      "Friday",
+      "Thursday",
+      "Wednesday"
+    ],
+    "correctIndex": 3,
+    "explanation": "65÷7=9 weeks+2 days. Monday+2=Wednesday.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q43",
+    "question": "When was Treaty of Sugauli signed?",
+    "options": [
+      "1814",
+      "1815",
+      "1817",
+      "1816"
+    ],
+    "correctIndex": 3,
+    "explanation": "Signed Dec 2, 1815; ratified 1816.",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "If 20% of a number is 40, what is the number?",
+    "options": [
+      "200",
+      "150",
+      "100",
+      "250"
+    ],
+    "correctIndex": 0,
+    "explanation": "x × 20/100 = 40, so x = 200.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q45",
+    "question": "Which layer generates Earth's magnetic field?",
+    "options": [
+      "Crust",
+      "Outer Core",
+      "Mantle",
+      "Inner Core"
+    ],
+    "correctIndex": 1,
+    "explanation": "Liquid outer core generates magnetic field.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q46",
+    "question": "Which is the national flower of Nepal?",
+    "options": [
+      "Rhododendron",
+      "Lotus",
+      "Sunflower",
+      "Rose"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rhododendron (Laligurans) is Nepal's national flower.",
+    "subject": "GK"
+  },
+  {
+    "id": "q47",
+    "question": "Which is the largest continent?",
+    "options": [
+      "Asia",
+      "North America",
+      "Africa",
+      "Europe"
+    ],
+    "correctIndex": 0,
+    "explanation": "Asia is largest by area and population.",
+    "subject": "GK"
+  },
+  {
+    "id": "q48",
+    "question": "Which district of Nepal is known as the 'District with Volcanic Signs'?",
+    "options": [
+      "Mustang",
+      "Dailekh",
+      "Taplejung",
+      "Rasuwa"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dailekh is known for Shristhan and Navisthan, considered volcanic signs.",
+    "subject": "GK"
+  },
+  {
+    "id": "q49",
+    "question": "Which is the largest gland in the human body?",
+    "options": [
+      "Pancreas",
+      "Thyroid",
+      "Liver",
+      "Adrenal"
+    ],
+    "correctIndex": 2,
+    "explanation": "Liver is the largest gland.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q50",
+    "question": "The Chure range is also known as?",
+    "options": [
+      "Himalaya",
+      "Mahabharat",
+      "Langtang",
+      "Sivalik"
+    ],
+    "correctIndex": 3,
+    "explanation": "Chure is also called Sivalik Hills.",
+    "subject": "GK"
+  }
+]

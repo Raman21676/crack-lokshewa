@@ -1,0 +1,82 @@
+[
+    {
+        "id": "set1",
+        "title": "Kharidar Model Set 1",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": false
+    },
+    {
+        "id": "set2",
+        "title": "Kharidar Model Set 2",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Medium",
+        "locked": false
+    },
+    {
+        "id": "set3",
+        "title": "Kharidar Model Set 3",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": false
+    },
+    {
+        "id": "set4",
+        "title": "Kharidar Model Set 4",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": true
+    },
+    {
+        "id": "set5",
+        "title": "Kharidar Model Set 5",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Medium",
+        "locked": true
+    },
+    {
+        "id": "set6",
+        "title": "Kharidar Model Set 6",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": true
+    },
+    {
+        "id": "set7",
+        "title": "Kharidar Model Set 7",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": true
+    },
+    {
+        "id": "set8",
+        "title": "Kharidar Model Set 8",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Medium",
+        "locked": true
+    },
+    {
+        "id": "set9",
+        "title": "Kharidar Model Set 9",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": true
+    },
+    {
+        "id": "set10",
+        "title": "Kharidar Model Set 10",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": true
+    }
+]

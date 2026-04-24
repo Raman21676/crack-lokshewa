@@ -19,3 +19,10 @@ node_modules/
 
 # Temporary files
 *.tmp
+
+# Python generators (not needed in production)
+generate_all.py
+generate_data.py
+fix_banks.py
+__pycache__/
+*.pyc

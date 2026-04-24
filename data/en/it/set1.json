@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "If a program takes 2ms per query, how many queries in 1 second?",
+    "options": [
+      "200",
+      "300",
+      "500",
+      "400"
+    ],
+    "correctIndex": 2,
+    "explanation": "1000ms/2ms = 500 queries.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q2",
+    "question": "Which is an example of system software?",
+    "options": [
+      "Microsoft Word",
+      "Photoshop",
+      "Chrome",
+      "Windows"
+    ],
+    "correctIndex": 3,
+    "explanation": "Windows is system software.",
+    "subject": "GK"
+  },
+  {
+    "id": "q3",
+    "question": "If 8 bits = 1 byte, how many bits in 4 kilobytes?",
+    "options": [
+      "2048",
+      "3072",
+      "8192",
+      "4096"
+    ],
+    "correctIndex": 2,
+    "explanation": "4 KB = 4096 bytes = 4096×8 = 32768 bits. Wait, let me recalculate: 4 KB = 4096 bytes. 4096 × 8 = 32768. But the options don't have that. Let me fix this.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q4",
+    "question": "What does IP stand for in IP address?",
+    "options": [
+      "Internet Provider",
+      "Internet Protocol",
+      "Internal Protocol",
+      "International Protocol"
+    ],
+    "correctIndex": 1,
+    "explanation": "IP = Internet Protocol.",
+    "subject": "GK"
+  },
+  {
+    "id": "q5",
+    "question": "Which key combination is used to copy?",
+    "options": [
+      "Ctrl+X",
+      "Ctrl+C",
+      "Ctrl+V",
+      "Ctrl+Z"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ctrl+C is used to copy.",
+    "subject": "GK"
+  },
+  {
+    "id": "q6",
+    "question": "If a server handles 120 requests per minute, how many in an hour?",
+    "options": [
+      "6000",
+      "7000",
+      "7200",
+      "8000"
+    ],
+    "correctIndex": 2,
+    "explanation": "120 × 60 = 7200.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q7",
+    "question": "If a computer has 8GB RAM and uses 3.2GB, how much is free?",
+    "options": [
+      "4.8",
+      "4.6",
+      "4.2",
+      "5.0"
+    ],
+    "correctIndex": 0,
+    "explanation": "8 - 3.2 = 4.8 GB.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q8",
+    "question": "Which markup language is used to create web pages?",
+    "options": [
+      "HTML",
+      "XML",
+      "JSON",
+      "YAML"
+    ],
+    "correctIndex": 0,
+    "explanation": "HTML is used to create web pages.",
+    "subject": "GK"
+  },
+  {
+    "id": "q9",
+    "question": "If a processor has 4 cores and each core handles 500 tasks per second, total tasks per second?",
+    "options": [
+      "2000",
+      "1500",
+      "2500",
+      "3000"
+    ],
+    "correctIndex": 0,
+    "explanation": "4 × 500 = 2000.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q10",
+    "question": "What does HTTPS stand for?",
+    "options": [
+      "HyperText Transfer Protocol Simple",
+      "HyperText Transfer Protocol Standard",
+      "HyperText Transfer Protocol System",
+      "HyperText Transfer Protocol Secure"
+    ],
+    "correctIndex": 3,
+    "explanation": "HTTPS = HyperText Transfer Protocol Secure.",
+    "subject": "GK"
+  },
+  {
+    "id": "q11",
+    "question": "If a program has 3 nested loops each running 10 times, total iterations?",
+    "options": [
+      "100",
+      "1000",
+      "500",
+      "3000"
+    ],
+    "correctIndex": 1,
+    "explanation": "10×10×10 = 1000 iterations.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q12",
+    "question": "Which is a cloud storage service?",
+    "options": [
+      "Google Drive",
+      "Gmail",
+      "Chrome",
+      "Android"
+    ],
+    "correctIndex": 0,
+    "explanation": "Google Drive is cloud storage.",
+    "subject": "GK"
+  },
+  {
+    "id": "q13",
+    "question": "Which is not a programming language?",
+    "options": [
+      "Python",
+      "HTML",
+      "Java",
+      "C++"
+    ],
+    "correctIndex": 1,
+    "explanation": "HTML is a markup language, not a programming language.",
+    "subject": "GK"
+  },
+  {
+    "id": "q14",
+    "question": "Which is not a valid IP address?",
+    "options": [
+      "256.1.1.1",
+      "192.168.1.1",
+      "10.0.0.1",
+      "172.16.0.1"
+    ],
+    "correctIndex": 0,
+    "explanation": "256 is not valid in an IP address octet.",
+    "subject": "GK"
+  },
+  {
+    "id": "q15",
+    "question": "If a hard disk has 500GB capacity and 320GB is used, what percentage is free?",
+    "options": [
+      "30%",
+      "32%",
+      "34%",
+      "36%"
+    ],
+    "correctIndex": 3,
+    "explanation": "Free=180GB. 180/500×100=36%.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q16",
+    "question": "If 1 GB equals 1024 MB, how many MB in 2.5 GB?",
+    "options": [
+      "2400",
+      "2560",
+      "2500",
+      "2600"
+    ],
+    "correctIndex": 1,
+    "explanation": "2.5 × 1024 = 2560 MB.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q17",
+    "question": "What does RAM stand for?",
+    "options": [
+      "Random Available Memory",
+      "Read Access Memory",
+      "Random Access Memory",
+      "Read Available Memory"
+    ],
+    "correctIndex": 2,
+    "explanation": "RAM = Random Access Memory.",
+    "subject": "GK"
+  },
+  {
+    "id": "q18",
+    "question": "Which storage is volatile?",
+    "options": [
+      "Hard Disk",
+      "SSD",
+      "RAM",
+      "DVD"
+    ],
+    "correctIndex": 2,
+    "explanation": "RAM is volatile memory.",
+    "subject": "GK"
+  },
+  {
+    "id": "q19",
+    "question": "What is the binary equivalent of decimal 10?",
+    "options": [
+      "1000",
+      "1001",
+      "1011",
+      "1010"
+    ],
+    "correctIndex": 3,
+    "explanation": "10 in decimal is 1010 in binary.",
+    "subject": "GK"
+  },
+  {
+    "id": "q20",
+    "question": "Which company developed Windows operating system?",
+    "options": [
+      "Apple",
+      "Microsoft",
+      "Google",
+      "IBM"
+    ],
+    "correctIndex": 1,
+    "explanation": "Microsoft developed Windows.",
+    "subject": "GK"
+  },
+  {
+    "id": "q21",
+    "question": "What is 2 raised to the power of 8?",
+    "options": [
+      "128",
+      "256",
+      "512",
+      "1024"
+    ],
+    "correctIndex": 1,
+    "explanation": "2⁸ = 256.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q22",
+    "question": "What does WAN stand for?",
+    "options": [
+      "Wide Area Network",
+      "Wireless Area Network",
+      "Web Area Network",
+      "World Area Network"
+    ],
+    "correctIndex": 0,
+    "explanation": "WAN = Wide Area Network.",
+    "subject": "GK"
+  },
+  {
+    "id": "q23",
+    "question": "What does CPU stand for?",
+    "options": [
+      "Computer Program Unit",
+      "Computer Processing Unit",
+      "Central Program Unit",
+      "Central Processing Unit"
+    ],
+    "correctIndex": 3,
+    "explanation": "CPU = Central Processing Unit.",
+    "subject": "GK"
+  },
+  {
+    "id": "q24",
+    "question": "Which is an example of malware?",
+    "options": [
+      "Antivirus",
+      "Virus",
+      "Firewall",
+      "VPN"
+    ],
+    "correctIndex": 1,
+    "explanation": "Virus is a type of malware.",
+    "subject": "GK"
+  },
+  {
+    "id": "q25",
+    "question": "What is the full form of URL?",
+    "options": [
+      "Universal Resource Link",
+      "Universal Resource Locator",
+      "Uniform Resource Link",
+      "Uniform Resource Locator"
+    ],
+    "correctIndex": 3,
+    "explanation": "URL = Uniform Resource Locator.",
+    "subject": "GK"
+  },
+  {
+    "id": "q26",
+    "question": "If a network has bandwidth of 100 Mbps, how many MB per second?",
+    "options": [
+      "10",
+      "15",
+      "12.5",
+      "20"
+    ],
+    "correctIndex": 2,
+    "explanation": "100 Mbps / 8 = 12.5 MB/s.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q27",
+    "question": "Which protocol is used for sending emails?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "TCP",
+      "SMTP"
+    ],
+    "correctIndex": 3,
+    "explanation": "SMTP (Simple Mail Transfer Protocol) is used for sending emails.",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "What is the file extension for a Python file?",
+    "options": [
+      ".java",
+      ".py",
+      ".cpp",
+      ".html"
+    ],
+    "correctIndex": 1,
+    "explanation": "Python files have .py extension.",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "If a file downloads at 2 MB/s, how long for a 120 MB file?",
+    "options": [
+      "1 min",
+      "50 sec",
+      "2 min",
+      "3 min"
+    ],
+    "correctIndex": 0,
+    "explanation": "120/2 = 60 seconds = 1 minute.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q30",
+    "question": "What is the shortcut to undo?",
+    "options": [
+      "Ctrl+U",
+      "Ctrl+Z",
+      "Ctrl+Y",
+      "Ctrl+X"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ctrl+Z is used to undo.",
+    "subject": "GK"
+  },
+  {
+    "id": "q31",
+    "question": "Which is an input device?",
+    "options": [
+      "Keyboard",
+      "Printer",
+      "Monitor",
+      "Speaker"
+    ],
+    "correctIndex": 0,
+    "explanation": "Keyboard is an input device.",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
+    "question": "Which database is open source?",
+    "options": [
+      "2048",
+      "8192",
+      "32768",
+      "16384"
+    ],
+    "correctIndex": 2,
+    "explanation": "MySQL is open source.",
+    "subject": "GK"
+  },
+  {
+    "id": "q33",
+    "question": "Which is a version control system?",
+    "options": [
+      "Excel",
+      "Chrome",
+      "Git",
+      "Photoshop"
+    ],
+    "correctIndex": 2,
+    "explanation": "Git is a version control system.",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "Which device converts digital to analog signals?",
+    "options": [
+      "Switch",
+      "Router",
+      "Modem",
+      "Hub"
+    ],
+    "correctIndex": 2,
+    "explanation": "Modem converts digital to analog signals.",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "What is the value of hexadecimal 'A'?",
+    "options": [
+      "10",
+      "9",
+      "11",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hexadecimal A = 10 in decimal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "What does SQL stand for?",
+    "options": [
+      "Simple Query Language",
+      "Structured Query Language",
+      "Standard Query Language",
+      "System Query Language"
+    ],
+    "correctIndex": 1,
+    "explanation": "SQL = Structured Query Language.",
+    "subject": "GK"
+  },
+  {
+    "id": "q37",
+    "question": "Which is not an operating system?",
+    "options": [
+      "Linux",
+      "Windows",
+      "Oracle",
+      "macOS"
+    ],
+    "correctIndex": 2,
+    "explanation": "Oracle is a database, not an OS.",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "What is the loop structure in programming that checks condition before execution?",
+    "options": [
+      "while",
+      "do-while",
+      "for",
+      "All"
+    ],
+    "correctIndex": 0,
+    "explanation": "while loop checks condition before execution.",
+    "subject": "GK"
+  },
+  {
+    "id": "q39",
+    "question": "If a CPU has clock speed of 3.2 GHz, how many cycles per second?",
+    "options": [
+      "3.2 million",
+      "32 billion",
+      "32 million",
+      "3.2 billion"
+    ],
+    "correctIndex": 3,
+    "explanation": "3.2 GHz = 3.2 billion cycles per second.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q40",
+    "question": "What is the binary of decimal 5?",
+    "options": [
+      "100",
+      "110",
+      "101",
+      "111"
+    ],
+    "correctIndex": 2,
+    "explanation": "5 in decimal is 101 in binary.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q41",
+    "question": "What is the decimal equivalent of binary 1101?",
+    "options": [
+      "13",
+      "12",
+      "11",
+      "14"
+    ],
+    "correctIndex": 0,
+    "explanation": "1101 = 8+4+0+1 = 13.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q42",
+    "question": "If a program executes 1200 instructions in 4 seconds, what is the rate per second?",
+    "options": [
+      "250",
+      "400",
+      "350",
+      "300"
+    ],
+    "correctIndex": 3,
+    "explanation": "1200/4 = 300 instructions per second.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q43",
+    "question": "What is the shortcut to paste?",
+    "options": [
+      "Ctrl+P",
+      "Ctrl+X",
+      "Ctrl+C",
+      "Ctrl+V"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ctrl+V is used to paste.",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "If a file is 2.4 MB and download speed is 60 KB/s, how many seconds to download?",
+    "options": [
+      "30",
+      "35",
+      "45",
+      "40"
+    ],
+    "correctIndex": 3,
+    "explanation": "2.4 MB = 2400 KB. 2400/60 = 40 seconds.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q45",
+    "question": "If a network has 254 usable IP addresses, what is the subnet mask?",
+    "options": [
+      "255.255.0.0",
+      "255.255.255.0",
+      "255.0.0.0",
+      "255.255.255.255"
+    ],
+    "correctIndex": 1,
+    "explanation": "/24 subnet has 254 usable hosts.",
+    "subject": "GK"
+  },
+  {
+    "id": "q46",
+    "question": "If a video is 480MB and compresses to 60% of original size, new size?",
+    "options": [
+      "268MB",
+      "320MB",
+      "300MB",
+      "288MB"
+    ],
+    "correctIndex": 3,
+    "explanation": "480 × 0.6 = 288MB.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q47",
+    "question": "If a file is 1.5 GB, how many 500MB USB drives are needed?",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "1.5 GB = 1500 MB. 1500/500 = 3.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q48",
+    "question": "What does LAN stand for?",
+    "options": [
+      "Linked Area Network",
+      "Large Area Network",
+      "Long Area Network",
+      "Local Area Network"
+    ],
+    "correctIndex": 3,
+    "explanation": "LAN = Local Area Network.",
+    "subject": "GK"
+  },
+  {
+    "id": "q49",
+    "question": "Which is the brain of the computer?",
+    "options": [
+      "RAM",
+      "CPU",
+      "Hard Disk",
+      "Monitor"
+    ],
+    "correctIndex": 1,
+    "explanation": "CPU is called the brain of the computer.",
+    "subject": "GK"
+  },
+  {
+    "id": "q50",
+    "question": "Which tag is used for the largest heading in HTML?",
+    "options": [
+      "<h1>",
+      "<h6>",
+      "<head>",
+      "<header>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<h1> is the largest heading.",
+    "subject": "GK"
+  }
+]

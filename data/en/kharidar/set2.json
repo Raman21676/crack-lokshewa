@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "Find the odd one: Triangle, Square, Circle, Rectangle",
+    "options": [
+      "Triangle",
+      "Square",
+      "Rectangle",
+      "Circle"
+    ],
+    "correctIndex": 3,
+    "explanation": "Circle has no sides; others are polygons.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q2",
+    "question": "Bus goes at 60 km/h and returns at 40 km/h. Average speed?",
+    "options": [
+      "45",
+      "48",
+      "50",
+      "52"
+    ],
+    "correctIndex": 1,
+    "explanation": "Average=2×60×40/(60+40)=48 km/h.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q3",
+    "question": "Which article guarantees Right to Equality?",
+    "options": [
+      "Article 16",
+      "Article 18",
+      "Article 17",
+      "Article 19"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 18 guarantees Right to Equality.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q4",
+    "question": "Square root of 576?",
+    "options": [
+      "22",
+      "24",
+      "23",
+      "25"
+    ],
+    "correctIndex": 1,
+    "explanation": "24×24=576.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q5",
+    "question": "Pashupatinath temple is on the banks of?",
+    "options": [
+      "Manohara",
+      "Vishnumati",
+      "Bishnumati",
+      "Bagmati"
+    ],
+    "correctIndex": 3,
+    "explanation": "Pashupatinath is on the Bagmati River.",
+    "subject": "GK"
+  },
+  {
+    "id": "q6",
+    "question": "Which organ produces insulin?",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Kidney",
+      "Stomach"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pancreas produces insulin.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q7",
+    "question": "25% of 480?",
+    "options": [
+      "120",
+      "110",
+      "100",
+      "130"
+    ],
+    "correctIndex": 0,
+    "explanation": "25% of 480 = 120.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q8",
+    "question": "Missing number: 5, 25, 125, ?, 3125",
+    "options": [
+      "250",
+      "625",
+      "1025",
+      "500"
+    ],
+    "correctIndex": 1,
+    "explanation": "Each multiplied by 5: 125×5=625.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q9",
+    "question": "If 15 workers can build a wall in 20 days, how many days for 25 workers?",
+    "options": [
+      "10",
+      "18",
+      "15",
+      "12"
+    ],
+    "correctIndex": 3,
+    "explanation": "Total work=300 man-days. 25 workers: 300/25=12.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q10",
+    "question": "According to Constitution of Nepal 2072, how many directive principles of the state are there?",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Part 4, Article 50 mentions 4 directive principles.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q11",
+    "question": "If WATER is YCVGT, what is TABLE?",
+    "options": [
+      "VCDN G",
+      "VBDNG",
+      "VCDNG",
+      "UCDNG"
+    ],
+    "correctIndex": 2,
+    "explanation": "Each letter shifted forward by 2.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q12",
+    "question": "If PEN is ODM, then BOOK is?",
+    "options": [
+      "ANNK",
+      "CNNJ",
+      "ANNJ",
+      "BNNJ"
+    ],
+    "correctIndex": 2,
+    "explanation": "Each letter shifted back by 1.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q13",
+    "question": "If 5 books cost Rs. 125, what is the cost of 8 books?",
+    "options": [
+      "180",
+      "200",
+      "190",
+      "210"
+    ],
+    "correctIndex": 1,
+    "explanation": "1 book=25. 8 books=200.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q14",
+    "question": "Odd one out: 8, 27, 64, 100, 125",
+    "options": [
+      "100",
+      "27",
+      "64",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "8=2³, 27=3³, 64=4³, 125=5³. 100 is not a perfect cube.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q15",
+    "question": "If 2x + 5 = 17, what is x?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 2,
+    "explanation": "2x=12, so x=6. Wait, 2x=12, x=6. Hmm option 0 is 4. Let me recalc: 2x+5=17, 2x=12, x=6. Option 2 is 6.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q16",
+    "question": "Which province of Nepal has the largest area?",
+    "options": [
+      "Sudurpashchim",
+      "Karnali",
+      "Lumbini",
+      "Gandaki"
+    ],
+    "correctIndex": 1,
+    "explanation": "Karnali Province has the largest area.",
+    "subject": "GK"
+  },
+  {
+    "id": "q17",
+    "question": "If CAT=24, DOG=26, then BIRD=?",
+    "options": [
+      "31",
+      "32",
+      "34",
+      "33"
+    ],
+    "correctIndex": 3,
+    "explanation": "B(2)+I(9)+R(18)+D(4)=33.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q18",
+    "question": "Average of first 10 natural numbers?",
+    "options": [
+      "5",
+      "6",
+      "5.5",
+      "6.5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Average=55/10=5.5.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q19",
+    "question": "When did Nepal's first Five-Year Plan start?",
+    "options": [
+      "2012 BS",
+      "2015 BS",
+      "2010 BS",
+      "2013 BS"
+    ],
+    "correctIndex": 3,
+    "explanation": "First Five-Year Plan started in 2013 BS (1956 AD).",
+    "subject": "GK"
+  },
+  {
+    "id": "q20",
+    "question": "How many districts in Bagmati Province?",
+    "options": [
+      "11",
+      "14",
+      "13",
+      "12"
+    ],
+    "correctIndex": 2,
+    "explanation": "Bagmati Province has 13 districts.",
+    "subject": "GK"
+  },
+  {
+    "id": "q21",
+    "question": "Which gas is most abundant in the atmosphere?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon Dioxide",
+      "Argon"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nitrogen is about 78% of the atmosphere.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q22",
+    "question": "The Mahabharat range is located in which region?",
+    "options": [
+      "Mid-hills",
+      "Central Nepal",
+      "Eastern Nepal",
+      "Terai"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mahabharat range is in the mid-hills region.",
+    "subject": "GK"
+  },
+  {
+    "id": "q23",
+    "question": "What is the capital of Gandaki Province?",
+    "options": [
+      "Baglung",
+      "Syangja",
+      "Gorkha",
+      "Pokhara"
+    ],
+    "correctIndex": 3,
+    "explanation": "Pokhara is the capital of Gandaki Province.",
+    "subject": "GK"
+  },
+  {
+    "id": "q24",
+    "question": "Which is the longest river in Nepal?",
+    "options": [
+      "Karnali",
+      "Gandaki",
+      "Koshi",
+      "Narayani"
+    ],
+    "correctIndex": 0,
+    "explanation": "Karnali is the longest river in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q25",
+    "question": "When was SAARC established?",
+    "options": [
+      "Dec 8, 1985",
+      "Aug 8, 1984",
+      "Jan 1, 1986",
+      "Dec 15, 1985"
+    ],
+    "correctIndex": 0,
+    "explanation": "Established on December 8, 1985 in Dhaka, Bangladesh.",
+    "subject": "GK"
+  },
+  {
+    "id": "q26",
+    "question": "When was Prithvi Narayan Shah born?",
+    "options": [
+      "1779 Poush 27",
+      "1780 Poush 27",
+      "1769 Poush 27",
+      "1750 Poush 27"
+    ],
+    "correctIndex": 0,
+    "explanation": "Born on 1779 Poush 27 (Jan 7, 1723 AD).",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "Who wrote the Mahabharata?",
+    "options": [
+      "Valmiki",
+      "Tulsidas",
+      "Vyasa",
+      "Kalidasa"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mahabharata is attributed to Vyasa.",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "Ram said 'She is daughter of my grandfather's only son.' Relation?",
+    "options": [
+      "Cousin",
+      "Sister",
+      "Daughter",
+      "Niece"
+    ],
+    "correctIndex": 1,
+    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q29",
+    "question": "Who composed the music of Nepal's national anthem?",
+    "options": [
+      "Byakul Maila",
+      "Narayan Gopal",
+      "Amber Gurung",
+      "Ram Krishna Dhakal"
+    ],
+    "correctIndex": 2,
+    "explanation": "Lyrics by Byakul Maila, music by Amber Gurung.",
+    "subject": "GK"
+  },
+  {
+    "id": "q30",
+    "question": "Which vitamin is produced by skin in sunlight?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin D",
+      "Vitamin C"
+    ],
+    "correctIndex": 2,
+    "explanation": "Skin produces Vitamin D when exposed to sunlight.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q31",
+    "question": "Which metal is liquid at room temperature?",
+    "options": [
+      "Iron",
+      "Copper",
+      "Mercury",
+      "Silver"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mercury is liquid at room temperature.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q32",
+    "question": "Train 150m long passes a pole in 15s. Speed in km/h?",
+    "options": [
+      "30",
+      "45",
+      "40",
+      "36"
+    ],
+    "correctIndex": 3,
+    "explanation": "Speed=150/15=10 m/s = 36 km/h.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q33",
+    "question": "Chemical formula of water?",
+    "options": [
+      "HO2",
+      "H2O",
+      "H2O2",
+      "OH"
+    ],
+    "correctIndex": 1,
+    "explanation": "Water is H2O.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q34",
+    "question": "A is brother of B; B is sister of C; C is father of D. How is D related to A?",
+    "options": [
+      "Cousin",
+      "Brother/Sister",
+      "Nephew/Niece",
+      "Son/Daughter"
+    ],
+    "correctIndex": 2,
+    "explanation": "A is C's brother, C is D's father. So D is A's nephew/niece.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q35",
+    "question": "Value of pi (π) approximately?",
+    "options": [
+      "3.14",
+      "3.12",
+      "3.16",
+      "3.18"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pi ≈ 3.14159.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q36",
+    "question": "How many members in National Assembly?",
+    "options": [
+      "56",
+      "71",
+      "63",
+      "59"
+    ],
+    "correctIndex": 3,
+    "explanation": "National Assembly has 59 members.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q37",
+    "question": "Ratio of A and B is 3:5 and sum is 48. B's age?",
+    "options": [
+      "30",
+      "24",
+      "18",
+      "36"
+    ],
+    "correctIndex": 0,
+    "explanation": "3x+5x=48, x=6. B=5×6=30.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q38",
+    "question": "Next prime number after 13?",
+    "options": [
+      "17",
+      "15",
+      "16",
+      "14"
+    ],
+    "correctIndex": 0,
+    "explanation": "17 is the next prime.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q39",
+    "question": "Who invented the telephone?",
+    "options": [
+      "Thomas Edison",
+      "Guglielmo Marconi",
+      "Nikola Tesla",
+      "Alexander Graham Bell"
+    ],
+    "correctIndex": 3,
+    "explanation": "Bell invented telephone in 1876.",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "What is the HCF of 24 and 36?",
+    "options": [
+      "12",
+      "8",
+      "6",
+      "18"
+    ],
+    "correctIndex": 0,
+    "explanation": "HCF of 24 and 36 is 12.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q41",
+    "question": "Odd one out: Chair, Table, Sofa, Banana",
+    "options": [
+      "Chair",
+      "Table",
+      "Sofa",
+      "Banana"
+    ],
+    "correctIndex": 3,
+    "explanation": "Banana is a fruit; rest are furniture.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q42",
+    "question": "Choose the odd one out: Apple, Mango, Potato, Orange",
+    "options": [
+      "Apple",
+      "Mango",
+      "Potato",
+      "Orange"
+    ],
+    "correctIndex": 2,
+    "explanation": "Potato is a vegetable; others are fruits.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q43",
+    "question": "When was Jana Andolan 2046?",
+    "options": [
+      "1989",
+      "1991",
+      "1990",
+      "1992"
+    ],
+    "correctIndex": 2,
+    "explanation": "Jana Andolan 2046 was in 1990 AD.",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "A shopkeeper sells at Rs. 2400 at 20% loss. Cost price?",
+    "options": [
+      "2800",
+      "3500",
+      "3200",
+      "3000"
+    ],
+    "correctIndex": 3,
+    "explanation": "CP = 2400 × 100/80 = 3000.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q45",
+    "question": "If INDIA=914491, what is NEPAL?",
+    "options": [
+      "145112",
+      "514112",
+      "145121",
+      "514121"
+    ],
+    "correctIndex": 0,
+    "explanation": "Alphabet position numbers.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q46",
+    "question": "'I have no brother or sister but that man's father is my father's son.' Whose photo?",
+    "options": [
+      "His own",
+      "His nephew's",
+      "His father's",
+      "His son's"
+    ],
+    "correctIndex": 3,
+    "explanation": "'My father's son' = himself. So that man is his son.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q47",
+    "question": "Complete: A, C, F, J, O, ?",
+    "options": [
+      "P",
+      "U",
+      "R",
+      "Q"
+    ],
+    "correctIndex": 1,
+    "explanation": "A(+2)=C, C(+3)=F, F(+4)=J, J(+5)=O, O(+6)=U.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q48",
+    "question": "When was Lumbini listed as UNESCO World Heritage Site?",
+    "options": [
+      "1979",
+      "2002",
+      "2006",
+      "1997"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lumbini was inscribed in 1997.",
+    "subject": "GK"
+  },
+  {
+    "id": "q49",
+    "question": "What is the full form of ROM?",
+    "options": [
+      "Random Only Memory",
+      "Read Only Memory",
+      "Read Output Memory",
+      "Random Output Memory"
+    ],
+    "correctIndex": 1,
+    "explanation": "ROM = Read Only Memory.",
+    "subject": "GK"
+  },
+  {
+    "id": "q50",
+    "question": "SAARC headquarters is in?",
+    "options": [
+      "New Delhi",
+      "Kathmandu",
+      "Islamabad",
+      "Dhaka"
+    ],
+    "correctIndex": 1,
+    "explanation": "SAARC HQ is in Kathmandu.",
+    "subject": "GK"
+  }
+]

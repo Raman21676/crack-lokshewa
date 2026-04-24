@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the pH of normal blood?",
+    "options": [
+      "6.5-7.0",
+      "7.35-7.45",
+      "7.5-8.0",
+      "8.0-8.5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Normal blood pH is 7.35-7.45.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q2",
+    "question": "If a drug dose is 0.5mg/kg for a 70kg patient, what is the dose?",
+    "options": [
+      "30",
+      "35",
+      "40",
+      "45"
+    ],
+    "correctIndex": 1,
+    "explanation": "70 × 0.5 = 35mg.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q3",
+    "question": "Which disease is caused by insulin deficiency?",
+    "options": [
+      "Diabetes",
+      "Hypertension",
+      "Asthma",
+      "Tuberculosis"
+    ],
+    "correctIndex": 0,
+    "explanation": "Diabetes is caused by insulin deficiency.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q4",
+    "question": "If 1 ml contains 10 drops, how many drops in 250ml?",
+    "options": [
+      "2500",
+      "2250",
+      "2000",
+      "2750"
+    ],
+    "correctIndex": 0,
+    "explanation": "250 × 10 = 2500 drops.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q5",
+    "question": "Which part of the eye controls light entry?",
+    "options": [
+      "Iris",
+      "Lens",
+      "Retina",
+      "Cornea"
+    ],
+    "correctIndex": 0,
+    "explanation": "Iris controls the amount of light entering the eye.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q6",
+    "question": "What does RBC stand for?",
+    "options": [
+      "Right Blood Cell",
+      "Rare Blood Cell",
+      "Regular Blood Cell",
+      "Red Blood Cell"
+    ],
+    "correctIndex": 3,
+    "explanation": "RBC = Red Blood Cell.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q7",
+    "question": "Which part of the brain controls balance?",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Medulla",
+      "Thalamus"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cerebellum controls balance and coordination.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q8",
+    "question": "What is the normal duration of pregnancy?",
+    "options": [
+      "36 weeks",
+      "38 weeks",
+      "40 weeks",
+      "42 weeks"
+    ],
+    "correctIndex": 2,
+    "explanation": "Normal pregnancy lasts about 40 weeks.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q9",
+    "question": "Which gland regulates metabolism?",
+    "options": [
+      "Pituitary",
+      "Adrenal",
+      "Thyroid",
+      "Pancreas"
+    ],
+    "correctIndex": 2,
+    "explanation": "Thyroid gland regulates metabolism.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q10",
+    "question": "Which part of the cell contains genetic material?",
+    "options": [
+      "Cytoplasm",
+      "Ribosome",
+      "Membrane",
+      "Nucleus"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nucleus contains DNA/genetic material.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q11",
+    "question": "If a solution is 20% glucose and you need 40g glucose, how much solution?",
+    "options": [
+      "150ml",
+      "180ml",
+      "220ml",
+      "200ml"
+    ],
+    "correctIndex": 3,
+    "explanation": "40g is 20% of 200ml.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q12",
+    "question": "Which blood component carries oxygen?",
+    "options": [
+      "White blood cells",
+      "Plasma",
+      "Platelets",
+      "Red blood cells"
+    ],
+    "correctIndex": 3,
+    "explanation": "Red blood cells contain hemoglobin which carries oxygen.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q13",
+    "question": "What is the first step in CPR?",
+    "options": [
+      "Check for responsiveness",
+      "Give breaths",
+      "Start compressions",
+      "Call for help"
+    ],
+    "correctIndex": 0,
+    "explanation": "First check if the person is responsive.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q14",
+    "question": "Which antibody is found in breast milk?",
+    "options": [
+      "IgE",
+      "IgG",
+      "IgM",
+      "IgA"
+    ],
+    "correctIndex": 3,
+    "explanation": "IgA is the main antibody in breast milk.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q15",
+    "question": "Which bone protects the brain?",
+    "options": [
+      "Spine",
+      "Skull",
+      "Rib cage",
+      "Pelvis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Skull protects the brain.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q16",
+    "question": "If a patient weighs 60kg and needs 2mg/kg of a drug, what is the total dose?",
+    "options": [
+      "100mg",
+      "110mg",
+      "130mg",
+      "120mg"
+    ],
+    "correctIndex": 3,
+    "explanation": "60 × 2 = 120mg.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q17",
+    "question": "If a patient receives 1.2 liters in 6 hours, what is the rate in ml/hour?",
+    "options": [
+      "150",
+      "180",
+      "200",
+      "220"
+    ],
+    "correctIndex": 2,
+    "explanation": "1200ml/6 = 200 ml/hour.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q18",
+    "question": "What is the normal heart rate for adults?",
+    "options": [
+      "40-60 bpm",
+      "60-100 bpm",
+      "100-120 bpm",
+      "120-140 bpm"
+    ],
+    "correctIndex": 1,
+    "explanation": "Normal heart rate is 60-100 bpm.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q19",
+    "question": "Which disease is caused by a deficiency of Vitamin C?",
+    "options": [
+      "Beriberi",
+      "Rickets",
+      "Scurvy",
+      "Night blindness"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vitamin C deficiency causes scurvy.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q20",
+    "question": "What is the normal range for blood sugar (fasting)?",
+    "options": [
+      "70-100 mg/dL",
+      "100-140 mg/dL",
+      "140-180 mg/dL",
+      "180-220 mg/dL"
+    ],
+    "correctIndex": 0,
+    "explanation": "Normal fasting blood sugar is 70-100 mg/dL.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q21",
+    "question": "What is normal hemoglobin for adult females?",
+    "options": [
+      "10-12",
+      "18-20",
+      "16-18",
+      "12-16"
+    ],
+    "correctIndex": 3,
+    "explanation": "Normal Hb for adult females is 12-16 g/dL.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q22",
+    "question": "What does BMI stand for?",
+    "options": [
+      "Blood Measurement Index",
+      "Body Mass Index",
+      "Bone Mass Index",
+      "Brain Measurement Index"
+    ],
+    "correctIndex": 1,
+    "explanation": "BMI = Body Mass Index.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q23",
+    "question": "What is the function of hemoglobin?",
+    "options": [
+      "Fight infection",
+      "Carry oxygen",
+      "Clot blood",
+      "Digest food"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hemoglobin carries oxygen in blood.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q24",
+    "question": "What does HIV stand for?",
+    "options": [
+      "Human Immunodeficiency Virus",
+      "Human Immunity Virus",
+      "Host Immune Virus",
+      "Human Infectious Virus"
+    ],
+    "correctIndex": 0,
+    "explanation": "HIV = Human Immunodeficiency Virus.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q25",
+    "question": "Which hormone is known as the 'stress hormone'?",
+    "options": [
+      "Insulin",
+      "Adrenaline",
+      "Thyroxine",
+      "Estrogen"
+    ],
+    "correctIndex": 1,
+    "explanation": "Adrenaline is the stress hormone.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q26",
+    "question": "What is the function of platelets?",
+    "options": [
+      "Carry oxygen",
+      "Fight infection",
+      "Blood clotting",
+      "Transport nutrients"
+    ],
+    "correctIndex": 2,
+    "explanation": "Platelets help in blood clotting.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q27",
+    "question": "If 1 tablet contains 250mg paracetamol, how many tablets for 1g?",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "4"
+    ],
+    "correctIndex": 3,
+    "explanation": "1g = 1000mg. 1000/250 = 4 tablets.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q28",
+    "question": "Which vitamin is essential for blood clotting?",
+    "options": [
+      "Vitamin K",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin A"
+    ],
+    "correctIndex": 0,
+    "explanation": "Vitamin K is essential for blood clotting.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q29",
+    "question": "If a patient needs 2 liters of fluid in 8 hours, what is the drip rate per hour?",
+    "options": [
+      "200",
+      "225",
+      "275",
+      "250"
+    ],
+    "correctIndex": 3,
+    "explanation": "2000ml/8hours = 250 ml/hour.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q30",
+    "question": "Which mineral is essential for strong bones?",
+    "options": [
+      "Iron",
+      "Magnesium",
+      "Zinc",
+      "Calcium"
+    ],
+    "correctIndex": 3,
+    "explanation": "Calcium is essential for strong bones.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q31",
+    "question": "If a solution contains 5g of salt in 250ml, what is the concentration in g/100ml?",
+    "options": [
+      "2",
+      "1",
+      "2.5",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "5g/250ml = 2g/100ml.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q32",
+    "question": "What is the normal blood pressure range?",
+    "options": [
+      "90/60",
+      "160/100",
+      "140/90",
+      "120/80"
+    ],
+    "correctIndex": 3,
+    "explanation": "Normal BP is around 120/80 mmHg.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q33",
+    "question": "If patient needs 1500ml in 24 hours, hourly rate?",
+    "options": [
+      "50",
+      "55",
+      "62.5",
+      "60"
+    ],
+    "correctIndex": 2,
+    "explanation": "1500/24 = 62.5 ml/hour.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q34",
+    "question": "What is the largest artery in the human body?",
+    "options": [
+      "Carotid artery",
+      "Pulmonary artery",
+      "Aorta",
+      "Coronary artery"
+    ],
+    "correctIndex": 2,
+    "explanation": "Aorta is the largest artery.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q35",
+    "question": "If a drug is given every 6 hours, how many doses in 24 hours?",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "24/6 = 4 doses.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q36",
+    "question": "If a patient receives 500ml every 4 hours, how much in 24 hours?",
+    "options": [
+      "3000",
+      "2500",
+      "2000",
+      "3500"
+    ],
+    "correctIndex": 0,
+    "explanation": "24/4 = 6 doses. 6×500 = 3000ml.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q37",
+    "question": "Which organ filters blood and produces urine?",
+    "options": [
+      "Liver",
+      "Heart",
+      "Kidney",
+      "Lungs"
+    ],
+    "correctIndex": 2,
+    "explanation": "Kidneys filter blood and produce urine.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q38",
+    "question": "Which chamber of the heart pumps blood to the lungs?",
+    "options": [
+      "Right ventricle",
+      "Right atrium",
+      "Left ventricle",
+      "Left atrium"
+    ],
+    "correctIndex": 0,
+    "explanation": "Right ventricle pumps blood to the lungs.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q39",
+    "question": "If a nurse administers 500mg tablets and the dose is 1.5g, how many tablets?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "1.5g = 1500mg. 1500/500 = 3 tablets.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q40",
+    "question": "If a patient needs 75mg of a drug and tablets are 25mg each, how many tablets?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "75/25 = 3 tablets.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q41",
+    "question": "What is the normal body temperature?",
+    "options": [
+      "96.4°F",
+      "100.4°F",
+      "99.8°F",
+      "98.6°F"
+    ],
+    "correctIndex": 3,
+    "explanation": "Normal body temperature is 98.6°F (37°C).",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q42",
+    "question": "If 2g of medicine is dissolved in 500ml, what is the concentration in mg/ml?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "2g=2000mg. 2000/500 = 4 mg/ml.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q43",
+    "question": "What is the normal respiratory rate for adults?",
+    "options": [
+      "8-12/min",
+      "12-20/min",
+      "20-30/min",
+      "30-40/min"
+    ],
+    "correctIndex": 1,
+    "explanation": "Normal respiratory rate is 12-20 breaths per minute.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q44",
+    "question": "How many bones are in the adult human body?",
+    "options": [
+      "206",
+      "196",
+      "216",
+      "226"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adult human body has 206 bones.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q45",
+    "question": "If a patient receives 1 liter in 4 hours, what is the rate in ml/hour?",
+    "options": [
+      "200",
+      "220",
+      "280",
+      "250"
+    ],
+    "correctIndex": 3,
+    "explanation": "1000ml/4 = 250 ml/hour.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q46",
+    "question": "What is the percentage of water in the human body?",
+    "options": [
+      "50-55%",
+      "70-75%",
+      "60-65%",
+      "80-85%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Human body is about 60-65% water.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q47",
+    "question": "Which system fights diseases in the body?",
+    "options": [
+      "Nervous system",
+      "Digestive system",
+      "Immune system",
+      "Respiratory system"
+    ],
+    "correctIndex": 2,
+    "explanation": "Immune system fights diseases.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q48",
+    "question": "If a drug dosage is 0.25mg and the stock is 0.5mg/2ml, how many ml to administer?",
+    "options": [
+      "0.5",
+      "1",
+      "1.5",
+      "2"
+    ],
+    "correctIndex": 1,
+    "explanation": "0.25/0.5 × 2 = 1 ml.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q49",
+    "question": "If a nurse mixes 1 part medicine with 4 parts water, what is the ratio?",
+    "options": [
+      "4:1",
+      "1:5",
+      "1:4",
+      "5:1"
+    ],
+    "correctIndex": 2,
+    "explanation": "Medicine:Water = 1:4.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q50",
+    "question": "What is the normal pulse rate for adults?",
+    "options": [
+      "40-60 bpm",
+      "60-100 bpm",
+      "100-120 bpm",
+      "120-140 bpm"
+    ],
+    "correctIndex": 1,
+    "explanation": "Normal pulse rate is 60-100 beats per minute.",
+    "subject": "SCIENCE"
+  }
+]

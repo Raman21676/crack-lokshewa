@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "वेब पेज स्टाइलिङका लागि कुन भाषा प्रयोग हुन्छ?",
+    "options": [
+      "HTML",
+      "JavaScript",
+      "PHP",
+      "CSS"
+    ],
+    "correctIndex": 3,
+    "explanation": "CSS वेब पेज स्टाइलिङका लागि प्रयोग हुन्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q2",
+    "question": "प्रोग्राम औसतमा हरेक १५ मिनेटमा क्र्यास हुन्छ। ५ घण्टामा कति पटक?",
+    "options": [
+      "१५",
+      "२०",
+      "१८",
+      "२२"
+    ],
+    "correctIndex": 1,
+    "explanation": "५ घण्टा = ३०० मिनेट। ३००/१५ = २०।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q3",
+    "question": "GUI को अर्थ के हो?",
+    "options": [
+      "Graphic User Integration",
+      "General User Interface",
+      "Global User Interface",
+      "Graphical User Interface"
+    ],
+    "correctIndex": 3,
+    "explanation": "GUI = Graphical User Interface हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q4",
+    "question": "कुन खोज इन्जिन हो?",
+    "options": [
+      "Facebook",
+      "WhatsApp",
+      "Google",
+      "Instagram"
+    ],
+    "correctIndex": 2,
+    "explanation": "Google खोज इन्जिन हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q5",
+    "question": "कम्प्युटरलाई नेटवर्कमा जोड्न कुन उपकरण प्रयोग हुन्छ?",
+    "options": [
+      "मोडेम",
+      "राउटर",
+      "स्विच",
+      "माथिका सबै"
+    ],
+    "correctIndex": 3,
+    "explanation": "मोडेम, राउटर र स्विच सबै नेटवर्कमा जोड्छन्।",
+    "subject": "GK"
+  },
+  {
+    "id": "q6",
+    "question": "कम्प्युटरले २० सेकेन्डमा ८००० कार्य गर्छ। प्रति सेकेन्ड कति?",
+    "options": [
+      "४००",
+      "३८०",
+      "३५०",
+      "४२०"
+    ],
+    "correctIndex": 0,
+    "explanation": "८०००/२० = ४००।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q7",
+    "question": "Android अपरेटिङ सिस्टम कुन कम्पनीले बनायो?",
+    "options": [
+      "Apple",
+      "Microsoft",
+      "Samsung",
+      "Google"
+    ],
+    "correctIndex": 3,
+    "explanation": "Google ले Android बनायो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q8",
+    "question": "प्रोग्रामले प्रत्येक अनुरोधमा २ ms लिन्छ। १ सेकेन्डमा कति अनुरोध?",
+    "options": [
+      "५००",
+      "३००",
+      "४००",
+      "२००"
+    ],
+    "correctIndex": 0,
+    "explanation": "१००० मिलि/२ मिलि = ५०० अनुरोध।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q9",
+    "question": "कुन सिस्टम सफ्टवेयरको उदाहरण हो?",
+    "options": [
+      "Microsoft Word",
+      "Chrome",
+      "Windows",
+      "Photoshop"
+    ],
+    "correctIndex": 2,
+    "explanation": "Windows सिस्टम सफ्टवेयर हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q10",
+    "question": "यदि ८ बिट = १ बाइट भए ४ किलोबाइटमा कति बिट?",
+    "options": [
+      "८१९२",
+      "३०७२",
+      "४०९६",
+      "२०४८"
+    ],
+    "correctIndex": 0,
+    "explanation": "४ KB = ४०९६ बाइट = ४०९६×८ = ३२७६८ बिट।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q11",
+    "question": "IP ठेगानामा IP को अर्थ के हो?",
+    "options": [
+      "Internal Protocol",
+      "Internet Provider",
+      "Internet Protocol",
+      "International Protocol"
+    ],
+    "correctIndex": 2,
+    "explanation": "IP = Internet Protocol हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q12",
+    "question": "कपी गर्न कुन कुञ्जी संयोजन प्रयोग हुन्छ?",
+    "options": [
+      "Ctrl+X",
+      "Ctrl+C",
+      "Ctrl+V",
+      "Ctrl+Z"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ctrl+C ले कपी गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q13",
+    "question": "सर्भरले १ मिनेटमा १२० अनुरोध गर्छ। १ घण्टामा कति?",
+    "options": [
+      "६०००",
+      "७२००",
+      "७०००",
+      "८०००"
+    ],
+    "correctIndex": 1,
+    "explanation": "१२० × ६० = ७२००।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q14",
+    "question": "कम्प्युटरमा ८ GB RAM र ३.२ GB प्रयोग भए खाली कति?",
+    "options": [
+      "४.२",
+      "४.८",
+      "४.६",
+      "५.०"
+    ],
+    "correctIndex": 1,
+    "explanation": "८ - ३.२ = ४.८ GB।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q15",
+    "question": "वेब पेज बनाउन कुन मार्कअप भाषा प्रयोग हुन्छ?",
+    "options": [
+      "XML",
+      "YAML",
+      "JSON",
+      "HTML"
+    ],
+    "correctIndex": 3,
+    "explanation": "HTML वेब पेज बनाउन प्रयोग हुन्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q16",
+    "question": "प्रोसेसरमा ४ कोर र प्रत्येकले ५०० कार्य प्रति सेकेन्ड गर्छ। कुल कति?",
+    "options": [
+      "१५००",
+      "२०००",
+      "२५००",
+      "३०००"
+    ],
+    "correctIndex": 1,
+    "explanation": "४ × ५०० = २०००।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q17",
+    "question": "HTTPS को अर्थ के हो?",
+    "options": [
+      "HyperText Transfer Protocol Simple",
+      "HyperText Transfer Protocol Standard",
+      "HyperText Transfer Protocol System",
+      "HyperText Transfer Protocol Secure"
+    ],
+    "correctIndex": 3,
+    "explanation": "HTTPS = HyperText Transfer Protocol Secure हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q18",
+    "question": "३ वटा नेस्टेड लूप प्रत्येक १० पटक चल्छन्। कुल पटक कति?",
+    "options": [
+      "१०००",
+      "५००",
+      "१००",
+      "३०००"
+    ],
+    "correctIndex": 0,
+    "explanation": "१०×१०×१० = १००० पटक।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q19",
+    "question": "कुन क्लाउड भण्डारण सेवा हो?",
+    "options": [
+      "Gmail",
+      "Chrome",
+      "Google Drive",
+      "Android"
+    ],
+    "correctIndex": 2,
+    "explanation": "Google Drive क्लाउड भण्डारण हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q20",
+    "question": "कुन प्रोग्रामिङ भाषा होइन?",
+    "options": [
+      "Python",
+      "Java",
+      "HTML",
+      "C++"
+    ],
+    "correctIndex": 2,
+    "explanation": "HTML मार्कअप भाषा हो, प्रोग्रामिङ भाषा होइन।",
+    "subject": "GK"
+  },
+  {
+    "id": "q21",
+    "question": "कुन मान्य IP ठेगाना होइन?",
+    "options": [
+      "256.1.1.1",
+      "192.168.1.1",
+      "10.0.0.1",
+      "172.16.0.1"
+    ],
+    "correctIndex": 0,
+    "explanation": "२५६ IP ठेगानाको अंशमा मान्य छैन।",
+    "subject": "GK"
+  },
+  {
+    "id": "q22",
+    "question": "हार्ड डिस्क ५०० GB क्षमता र ३२० GB प्रयोग भए खाली प्रतिशत कति?",
+    "options": [
+      "३०%",
+      "३२%",
+      "३६%",
+      "३४%"
+    ],
+    "correctIndex": 2,
+    "explanation": "खाली=१८० GB। १८०/५००×१००=३६%।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q23",
+    "question": "यदि १ GB = १०२४ MB भए २.५ GB मा कति MB?",
+    "options": [
+      "२४००",
+      "२५६०",
+      "२५००",
+      "२६००"
+    ],
+    "correctIndex": 1,
+    "explanation": "२.५ × १०२४ = २५६० MB।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q24",
+    "question": "RAM को अर्थ के हो?",
+    "options": [
+      "Read Available Memory",
+      "Read Access Memory",
+      "Random Available Memory",
+      "Random Access Memory"
+    ],
+    "correctIndex": 3,
+    "explanation": "RAM = Random Access Memory हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q25",
+    "question": "कुन भण्डारण अस्थायी (volatile) हो?",
+    "options": [
+      "हार्ड डिस्क",
+      "SSD",
+      "DVD",
+      "RAM"
+    ],
+    "correctIndex": 3,
+    "explanation": "RAM अस्थायी मेमोरी हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q26",
+    "question": "दशमलव १० को बाइनरी बराबर के हो?",
+    "options": [
+      "१०००",
+      "१००१",
+      "१०१०",
+      "१०११"
+    ],
+    "correctIndex": 2,
+    "explanation": "दशमलव १० बाइनरीमा १०१० हुन्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "Windows अपरेटिङ सिस्टम कुन कम्पनीले बनायो?",
+    "options": [
+      "Apple",
+      "Google",
+      "Microsoft",
+      "IBM"
+    ],
+    "correctIndex": 2,
+    "explanation": "Microsoft ले Windows बनायो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "२ को घात ८ कति हुन्छ?",
+    "options": [
+      "२५६",
+      "१२८",
+      "५१२",
+      "१०२४"
+    ],
+    "correctIndex": 0,
+    "explanation": "२⁸ = २५६।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q29",
+    "question": "WAN को अर्थ के हो?",
+    "options": [
+      "Web Area Network",
+      "Wireless Area Network",
+      "Wide Area Network",
+      "World Area Network"
+    ],
+    "correctIndex": 2,
+    "explanation": "WAN = Wide Area Network हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q30",
+    "question": "CPU को अर्थ के हो?",
+    "options": [
+      "Computer Processing Unit",
+      "Central Processing Unit",
+      "Central Program Unit",
+      "Computer Program Unit"
+    ],
+    "correctIndex": 1,
+    "explanation": "CPU = Central Processing Unit हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q31",
+    "question": "कुन मालवेयरको उदाहरण हो?",
+    "options": [
+      "एन्टिभाइरस",
+      "फायरवाल",
+      "VPN",
+      "भाइरस"
+    ],
+    "correctIndex": 3,
+    "explanation": "भाइरस मालवेयरको एक प्रकार हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
+    "question": "URL को पूर्ण रूप के हो?",
+    "options": [
+      "Uniform Resource Link",
+      "Universal Resource Locator",
+      "Uniform Resource Locator",
+      "Universal Resource Link"
+    ],
+    "correctIndex": 2,
+    "explanation": "URL = Uniform Resource Locator हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q33",
+    "question": "नेटवर्कको ब्यान्डविथ १०० Mbps भए प्रति सेकेन्ड कति MB?",
+    "options": [
+      "१०",
+      "१२.५",
+      "१५",
+      "२०"
+    ],
+    "correctIndex": 1,
+    "explanation": "१०० Mbps / ८ = १२.५ MB/s।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q34",
+    "question": "इमेल पठाउन कुन प्रोटोकल प्रयोग हुन्छ?",
+    "options": [
+      "SMTP",
+      "FTP",
+      "HTTP",
+      "TCP"
+    ],
+    "correctIndex": 0,
+    "explanation": "SMTP इमेल पठाउन प्रयोग हुन्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "Python फाइलको एक्सटेन्सन के हो?",
+    "options": [
+      ".java",
+      ".html",
+      ".cpp",
+      ".py"
+    ],
+    "correctIndex": 3,
+    "explanation": "Python फाइलको .py एक्सटेन्सन हुन्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "डाउनलोड गति २ MB/s भए १२० MB फाइल कति समयमा?",
+    "options": [
+      "५० सेकेन्ड",
+      "१ मिनेट",
+      "२ मिनेट",
+      "३ मिनेट"
+    ],
+    "correctIndex": 1,
+    "explanation": "१२०/२ = ६० सेकेन्ड = १ मिनेट।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q37",
+    "question": "अन्डू गर्न सर्टकट के हो?",
+    "options": [
+      "Ctrl+U",
+      "Ctrl+Z",
+      "Ctrl+Y",
+      "Ctrl+X"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ctrl+Z ले अन्डू गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "कुन इनपुट उपकरण हो?",
+    "options": [
+      "मनिटर",
+      "किबोर्ड",
+      "प्रिन्टर",
+      "स्पिकर"
+    ],
+    "correctIndex": 1,
+    "explanation": "किबोर्ड इनपुट उपकरण हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q39",
+    "question": "कुन डेटाबेस खुला स्रोत (open source) हो?",
+    "options": [
+      "३२७६८",
+      "८१९२",
+      "१६३८४",
+      "२०४८"
+    ],
+    "correctIndex": 0,
+    "explanation": "MySQL खुला स्रोत हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "कुन भर्सन नियन्त्रण प्रणाली हो?",
+    "options": [
+      "Chrome",
+      "Git",
+      "Excel",
+      "Photoshop"
+    ],
+    "correctIndex": 1,
+    "explanation": "Git भर्सन नियन्त्रण प्रणाली हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q41",
+    "question": "कुन उपकरणले डिजिटललाई एनालग सङ्केतमा रूपान्तरण गर्छ?",
+    "options": [
+      "मोडेम",
+      "राउटर",
+      "स्विच",
+      "हब"
+    ],
+    "correctIndex": 0,
+    "explanation": "मोडेमले डिजिटललाई एनालगमा रूपान्तरण गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q42",
+    "question": "हेक्साडेसिमल 'A' को मान कति हुन्छ?",
+    "options": [
+      "१०",
+      "९",
+      "११",
+      "१२"
+    ],
+    "correctIndex": 0,
+    "explanation": "हेक्साडेसिमल A = दशमलव १०।",
+    "subject": "GK"
+  },
+  {
+    "id": "q43",
+    "question": "SQL को अर्थ के हो?",
+    "options": [
+      "Simple Query Language",
+      "Structured Query Language",
+      "Standard Query Language",
+      "System Query Language"
+    ],
+    "correctIndex": 1,
+    "explanation": "SQL = Structured Query Language हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "कुन अपरेटिङ सिस्टम होइन?",
+    "options": [
+      "Oracle",
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Oracle डेटाबेस हो, OS होइन।",
+    "subject": "GK"
+  },
+  {
+    "id": "q45",
+    "question": "कुन लूप अवचार अनुमान पहिले जाँच्छ?",
+    "options": [
+      "do-while",
+      "for",
+      "while",
+      "All"
+    ],
+    "correctIndex": 2,
+    "explanation": "while लूप अनुमान पहिले जाँच्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q46",
+    "question": "CPU क्लक स्पिड ३.२ GHz भए प्रति सेकेन्ड कति चक्र?",
+    "options": [
+      "३.२ मिलियन",
+      "३२ बिलियन",
+      "३२ मिलियन",
+      "३.२ बिलियन"
+    ],
+    "correctIndex": 3,
+    "explanation": "३.२ GHz = ३.२ बिलियन चक्र प्रति सेकेन्ड।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q47",
+    "question": "दशमलव ५ को बाइनरी के हो?",
+    "options": [
+      "१००",
+      "१११",
+      "११०",
+      "१०१"
+    ],
+    "correctIndex": 3,
+    "explanation": "दशमलव ५ बाइनरीमा १०१ हुन्छ।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q48",
+    "question": "बाइनरी ११०१ को दशमलव बराबर के हो?",
+    "options": [
+      "११",
+      "१२",
+      "१४",
+      "१३"
+    ],
+    "correctIndex": 3,
+    "explanation": "११०१ = ८+४+०+१ = १३।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q49",
+    "question": "प्रोग्रामले ४ सेकेन्डमा १२०० निर्देशन कार्यान्वयन गर्छ। प्रति सेकेन्ड कति?",
+    "options": [
+      "३००",
+      "२५०",
+      "३५०",
+      "४००"
+    ],
+    "correctIndex": 0,
+    "explanation": "१२००/४ = ३०० निर्देशन प्रति सेकेन्ड।",
+    "subject": "MATH"
+  },
+  {
+    "id": "q50",
+    "question": "पेस्ट गर्न सर्टकट के हो?",
+    "options": [
+      "Ctrl+P",
+      "Ctrl+C",
+      "Ctrl+V",
+      "Ctrl+X"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ctrl+V ले पेस्ट गर्छ।",
+    "subject": "GK"
+  }
+]

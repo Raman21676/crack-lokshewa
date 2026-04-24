@@ -1,0 +1,82 @@
+[
+    {
+        "id": "set1",
+        "title": "स्टाफ नर्स मॉडल सेट 1",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": false
+    },
+    {
+        "id": "set2",
+        "title": "स्टाफ नर्स मॉडल सेट 2",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Medium",
+        "locked": false
+    },
+    {
+        "id": "set3",
+        "title": "स्टाफ नर्स मॉडल सेट 3",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": true
+    },
+    {
+        "id": "set4",
+        "title": "स्टाफ नर्स मॉडल सेट 4",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": true
+    },
+    {
+        "id": "set5",
+        "title": "स्टाफ नर्स मॉडल सेट 5",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Medium",
+        "locked": true
+    },
+    {
+        "id": "set6",
+        "title": "स्टाफ नर्स मॉडल सेट 6",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": true
+    },
+    {
+        "id": "set7",
+        "title": "स्टाफ नर्स मॉडल सेट 7",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": true
+    },
+    {
+        "id": "set8",
+        "title": "स्टाफ नर्स मॉडल सेट 8",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Medium",
+        "locked": true
+    },
+    {
+        "id": "set9",
+        "title": "स्टाफ नर्स मॉडल सेट 9",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": true
+    },
+    {
+        "id": "set10",
+        "title": "स्टाफ नर्स मॉडल सेट 10",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": true
+    }
+]

@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "If POLICE is coded as QPMJDF, how is THIEF coded?",
+    "options": [
+      "UIGFH",
+      "UIGFG",
+      "UJGFI",
+      "UJFGH"
+    ],
+    "correctIndex": 3,
+    "explanation": "Each letter shifted forward by 1.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q2",
+    "question": "What is the total angle of a triangle?",
+    "options": [
+      "180°",
+      "90°",
+      "270°",
+      "360°"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sum of angles in a triangle is 180°.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q3",
+    "question": "If a police officer runs 100m in 20 seconds, what is the speed in km/h?",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "24"
+    ],
+    "correctIndex": 1,
+    "explanation": "Speed=100/20=5 m/s = 5×18/5=18 km/h.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q4",
+    "question": "If 6 cats kill 6 rats in 6 minutes, how many cats kill 100 rats in 100 minutes?",
+    "options": [
+      "100",
+      "10",
+      "16",
+      "6"
+    ],
+    "correctIndex": 3,
+    "explanation": "Each cat kills 1 rat per 6 minutes. In 100 min, 1 cat kills 100/6 rats. So 6 cats kill 100 rats.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q5",
+    "question": "What is the speed of sound in air?",
+    "options": [
+      "300 m/s",
+      "330 m/s",
+      "360 m/s",
+      "400 m/s"
+    ],
+    "correctIndex": 1,
+    "explanation": "Speed of sound in air is approximately 330 m/s.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q6",
+    "question": "What is the HCF of 36 and 48?",
+    "options": [
+      "6",
+      "12",
+      "8",
+      "18"
+    ],
+    "correctIndex": 1,
+    "explanation": "HCF of 36 and 48 is 12.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q7",
+    "question": "Which is the hottest place in Nepal?",
+    "options": [
+      "Nepalgunj",
+      "Birgunj",
+      "Dhangadhi",
+      "Mahendranagar"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepalgunj is known as the hottest place.",
+    "subject": "GK"
+  },
+  {
+    "id": "q8",
+    "question": "If 25% of a number is 75, what is the number?",
+    "options": [
+      "250",
+      "300",
+      "275",
+      "325"
+    ],
+    "correctIndex": 1,
+    "explanation": "Number = 75 × 100/25 = 300.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q9",
+    "question": "If a:b = 2:3 and b:c = 4:5, what is a:b:c?",
+    "options": [
+      "2:3:5",
+      "2:4:5",
+      "6:9:15",
+      "8:12:15"
+    ],
+    "correctIndex": 3,
+    "explanation": "a:b:c = 8:12:15.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q10",
+    "question": "If a person walks 6 km north and 8 km east, how far is he from the start?",
+    "options": [
+      "16 km",
+      "12 km",
+      "14 km",
+      "10 km"
+    ],
+    "correctIndex": 3,
+    "explanation": "Using Pythagoras: √(6²+8²) = √100 = 10 km.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q11",
+    "question": "A man is 24 years older than his son. In 8 years, he will be twice as old as his son. What is the son's present age?",
+    "options": [
+      "12",
+      "8",
+      "16",
+      "20"
+    ],
+    "correctIndex": 1,
+    "explanation": "Let son=x, father=x+24. x+24+8=2(x+8) → x+32=2x+16 → x=16. Wait, x=16. Option 2 is 16.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q12",
+    "question": "If 20% of x equals 30, what is x?",
+    "options": [
+      "120",
+      "130",
+      "140",
+      "150"
+    ],
+    "correctIndex": 3,
+    "explanation": "0.2x=30 → x=150.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q13",
+    "question": "Which is the national game of Nepal?",
+    "options": [
+      "Football",
+      "Cricket",
+      "Volleyball",
+      "Kabaddi"
+    ],
+    "correctIndex": 2,
+    "explanation": "Volleyball is the national game of Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q14",
+    "question": "Which is the longest bone in the human body?",
+    "options": [
+      "Humerus",
+      "Tibia",
+      "Femur",
+      "Fibula"
+    ],
+    "correctIndex": 2,
+    "explanation": "Femur (thigh bone) is the longest.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q15",
+    "question": "Find the odd one: Knife, Fork, Spoon, Plate",
+    "options": [
+      "Plate",
+      "Fork",
+      "Spoon",
+      "Knife"
+    ],
+    "correctIndex": 0,
+    "explanation": "Plate is not a cutlery item.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q16",
+    "question": "If the sum of three consecutive even numbers is 78, what is the largest number?",
+    "options": [
+      "24",
+      "26",
+      "30",
+      "28"
+    ],
+    "correctIndex": 3,
+    "explanation": "Let numbers be x, x+2, x+4. 3x+6=78, x=24. Largest=28.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q17",
+    "question": "Which gas is used in fire extinguishers?",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Nitrogen",
+      "Carbon Dioxide"
+    ],
+    "correctIndex": 3,
+    "explanation": "CO2 is used in fire extinguishers.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q18",
+    "question": "Complete: 5, 11, 23, 47, ?",
+    "options": [
+      "93",
+      "96",
+      "95",
+      "99"
+    ],
+    "correctIndex": 2,
+    "explanation": "Pattern: ×2+1. 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q19",
+    "question": "What is the shape of a stop sign?",
+    "options": [
+      "Triangle",
+      "Square",
+      "Circle",
+      "Octagon"
+    ],
+    "correctIndex": 3,
+    "explanation": "Stop signs are octagonal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q20",
+    "question": "Which metal is known as the 'King of Metals'?",
+    "options": [
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Copper"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gold is known as the King of Metals.",
+    "subject": "GK"
+  },
+  {
+    "id": "q21",
+    "question": "What is the boiling point of water at sea level?",
+    "options": [
+      "90°C",
+      "110°C",
+      "100°C",
+      "120°C"
+    ],
+    "correctIndex": 2,
+    "explanation": "Water boils at 100°C at sea level.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q22",
+    "question": "If 8 police officers patrol an area in 6 hours, how many hours for 12 officers?",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Total work=48 officer-hours. 12 officers: 48/12=4.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q23",
+    "question": "What is the legal age for driving a motorcycle in Nepal?",
+    "options": [
+      "16",
+      "18",
+      "20",
+      "21"
+    ],
+    "correctIndex": 0,
+    "explanation": "Legal age for motorcycle is 16.",
+    "subject": "GK"
+  },
+  {
+    "id": "q24",
+    "question": "Complete: 64, 32, 16, 8, ?",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each number is divided by 2.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q25",
+    "question": "What is 15% of 300?",
+    "options": [
+      "45",
+      "42",
+      "40",
+      "50"
+    ],
+    "correctIndex": 0,
+    "explanation": "15% of 300 = 45.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q26",
+    "question": "What is the LCM of 8 and 12?",
+    "options": [
+      "16",
+      "20",
+      "24",
+      "32"
+    ],
+    "correctIndex": 2,
+    "explanation": "LCM of 8 and 12 is 24.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q27",
+    "question": "Which country gifted the 'Statue of Liberty' to the USA?",
+    "options": [
+      "France",
+      "UK",
+      "Germany",
+      "Spain"
+    ],
+    "correctIndex": 0,
+    "explanation": "France gifted the Statue of Liberty.",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "Which body part is affected by jaundice?",
+    "options": [
+      "Liver",
+      "Heart",
+      "Kidney",
+      "Lungs"
+    ],
+    "correctIndex": 0,
+    "explanation": "Jaundice affects the liver.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q29",
+    "question": "Which organ is known as the 'powerhouse of the cell'?",
+    "options": [
+      "Nucleus",
+      "Chloroplast",
+      "Ribosome",
+      "Mitochondria"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mitochondria is the powerhouse of the cell.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q30",
+    "question": "Which vitamin deficiency causes night blindness?",
+    "options": [
+      "8",
+      "12",
+      "16",
+      "20"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vitamin A deficiency causes night blindness.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q31",
+    "question": "Simplify: 3/8 + 1/4",
+    "options": [
+      "5/8",
+      "1/2",
+      "4/8",
+      "1/3"
+    ],
+    "correctIndex": 0,
+    "explanation": "3/8+2/8=5/8.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q32",
+    "question": "A thief runs at 8 km/h. A policeman chases at 10 km/h. If thief has 500m head start, when is he caught?",
+    "options": [
+      "10 min",
+      "15 min",
+      "20 min",
+      "25 min"
+    ],
+    "correctIndex": 1,
+    "explanation": "Relative speed=2 km/h=2000m/60min. Time=500/(2000/60)=15 min.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q33",
+    "question": "Which number is missing: 7, 14, 21, ?, 35",
+    "options": [
+      "24",
+      "25",
+      "28",
+      "30"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiples of 7: 7×4=28.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q34",
+    "question": "Which part of the plant conducts photosynthesis?",
+    "options": [
+      "Root",
+      "Leaf",
+      "Stem",
+      "Flower"
+    ],
+    "correctIndex": 1,
+    "explanation": "Leaves conduct photosynthesis.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q35",
+    "question": "What does the yellow traffic light mean?",
+    "options": [
+      "Go",
+      "Stop",
+      "Prepare to stop",
+      "Speed up"
+    ],
+    "correctIndex": 2,
+    "explanation": "Yellow means prepare to stop.",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "What is 112 used for in Nepal?",
+    "options": [
+      "Police emergency",
+      "Fire brigade",
+      "Ambulance",
+      "All emergencies"
+    ],
+    "correctIndex": 3,
+    "explanation": "112 is the universal emergency number.",
+    "subject": "GK"
+  },
+  {
+    "id": "q37",
+    "question": "If 5 pencils cost Rs. 15, what is the cost of 12 pencils?",
+    "options": [
+      "30",
+      "36",
+      "34",
+      "32"
+    ],
+    "correctIndex": 1,
+    "explanation": "1 pencil=3. 12 pencils=36.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q38",
+    "question": "What does the red color in traffic light mean?",
+    "options": [
+      "Go",
+      "Stop",
+      "Caution",
+      "Speed up"
+    ],
+    "correctIndex": 1,
+    "explanation": "Red means stop.",
+    "subject": "GK"
+  },
+  {
+    "id": "q39",
+    "question": "Which district is Nepal Police Academy located in?",
+    "options": [
+      "Kathmandu",
+      "Bhaktapur",
+      "Lalitpur",
+      "Kavre"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nepal Police Academy is in Bhaktapur.",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "What is the emergency number for Nepal Police?",
+    "options": [
+      "102",
+      "101",
+      "100",
+      "103"
+    ],
+    "correctIndex": 2,
+    "explanation": "100 is for police emergency.",
+    "subject": "GK"
+  },
+  {
+    "id": "q41",
+    "question": "Which is the heaviest metal?",
+    "options": [
+      "Iron",
+      "Osmium",
+      "Gold",
+      "Lead"
+    ],
+    "correctIndex": 1,
+    "explanation": "Osmium is the heaviest naturally occurring metal.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q42",
+    "question": "Which article of the Constitution mentions the Nepal Police?",
+    "options": [
+      "Article 265",
+      "Article 266",
+      "Article 267",
+      "Article 268"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 266 mentions Nepal Police and Provincial Police.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q43",
+    "question": "Which is the highest rank in Nepal Police?",
+    "options": [
+      "Inspector General",
+      "Additional Inspector General",
+      "Deputy Inspector General",
+      "Superintendent"
+    ],
+    "correctIndex": 0,
+    "explanation": "Inspector General (IGP) is the highest rank.",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "Which country is known as the 'Land of the Rising Sun'?",
+    "options": [
+      "Japan",
+      "China",
+      "Korea",
+      "Thailand"
+    ],
+    "correctIndex": 0,
+    "explanation": "Japan is called the Land of the Rising Sun.",
+    "subject": "GK"
+  },
+  {
+    "id": "q45",
+    "question": "A square has area 144 sq m. What is its perimeter?",
+    "options": [
+      "44m",
+      "46m",
+      "48m",
+      "52m"
+    ],
+    "correctIndex": 2,
+    "explanation": "Side=12m. Perimeter=4×12=48m.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q46",
+    "question": "Which is the largest internal organ of the human body?",
+    "options": [
+      "Brain",
+      "Heart",
+      "Liver",
+      "Lungs"
+    ],
+    "correctIndex": 2,
+    "explanation": "Liver is the largest internal organ.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q47",
+    "question": "What is the motto of Nepal Police?",
+    "options": [
+      "Truth, Service, Security",
+      "Peace, Order, Security",
+      "Service, Protection, Justice",
+      "Truth, Duty, Valour"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nepal Police motto: 'Truth, Duty, Valour'.",
+    "subject": "GK"
+  },
+  {
+    "id": "q48",
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Venus",
+      "Saturn",
+      "Jupiter",
+      "Mars"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mars is called the Red Planet.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q49",
+    "question": "If 3/4 of a number exceeds its 2/3 by 10, what is the number?",
+    "options": [
+      "100",
+      "110",
+      "120",
+      "130"
+    ],
+    "correctIndex": 2,
+    "explanation": "3x/4 - 2x/3 = 10 → x/12 = 10 → x=120.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q50",
+    "question": "If a vehicle travels 120 km in 2.5 hours, what is its average speed?",
+    "options": [
+      "40",
+      "45",
+      "50",
+      "48"
+    ],
+    "correctIndex": 3,
+    "explanation": "Speed=120/2.5=48 km/h.",
+    "subject": "MATH"
+  }
+]

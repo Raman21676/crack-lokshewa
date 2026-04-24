@@ -1,0 +1,286 @@
+{
+    "home_title": {
+        "en": "Lok Sewa Mock Tests",
+        "ne": "लोक सेवा मॉक टेस्ट"
+    },
+    "home_subtitle": {
+        "en": "Choose your exam category and start practicing for free.",
+        "ne": "आफ्नो परीक्षा श्रेणी छनोट गर्नुहोस् र निःशुल्क अभ्यास सुरु गर्नुहोस्।"
+    },
+    "select_language": {
+        "en": "Select Your Language",
+        "ne": "आफ्नो भाषा छनोट गर्नुहोस्"
+    },
+    "language_en": {
+        "en": "English",
+        "ne": "English"
+    },
+    "language_ne": {
+        "en": "नेपाली",
+        "ne": "नेपाली"
+    },
+    "continue": {
+        "en": "Continue",
+        "ne": "अगाडि बढ्नुहोस्"
+    },
+    "view_tests": {
+        "en": "View Tests",
+        "ne": "टेस्ट हेर्नुहोस्"
+    },
+    "back_home": {
+        "en": "Back to Home",
+        "ne": "गृहपृष्ठमा फर्किनुहोस्"
+    },
+    "back": {
+        "en": "Back",
+        "ne": "पछाडि"
+    },
+    "select_test": {
+        "en": "Select a mock test set to begin.",
+        "ne": "सुरु गर्न मॉक टेस्ट सेट छनोट गर्नुहोस्।"
+    },
+    "questions": {
+        "en": "Questions",
+        "ne": "प्रश्नहरू"
+    },
+    "min": {
+        "en": "min",
+        "ne": "मिनेट"
+    },
+    "start_test": {
+        "en": "Start Test",
+        "ne": "परीक्षा सुरु गर्नुहोस्"
+    },
+    "coming_soon": {
+        "en": "Coming Soon",
+        "ne": "छिट्टै आउँदैछ"
+    },
+    "question": {
+        "en": "Question",
+        "ne": "प्रश्न"
+    },
+    "of": {
+        "en": "of",
+        "ne": "मध्ये"
+    },
+    "answered": {
+        "en": "answered",
+        "ne": "उत्तर दिइएको"
+    },
+    "exit": {
+        "en": "Exit",
+        "ne": "बाहिर निस्कनुहोस्"
+    },
+    "previous": {
+        "en": "Previous",
+        "ne": "अघिल्लो"
+    },
+    "next": {
+        "en": "Next",
+        "ne": "अर्को"
+    },
+    "submit_test": {
+        "en": "Submit Test",
+        "ne": "परीक्षा बुझाउनुहोस्"
+    },
+    "mark_review": {
+        "en": "Mark for Review",
+        "ne": "समीक्षाको लागि चिन्ह लगाउनुहोस्"
+    },
+    "unmark_review": {
+        "en": "Unmark Review",
+        "ne": "चिन्ह हटाउनुहोस्"
+    },
+    "palette": {
+        "en": "Question Palette",
+        "ne": "प्रश्न प्यालेट"
+    },
+    "not_visited": {
+        "en": "Not visited",
+        "ne": "हेरिएको छैन"
+    },
+    "not_answered": {
+        "en": "Not answered",
+        "ne": "उत्तर दिइएको छैन"
+    },
+    "answered_status": {
+        "en": "Answered",
+        "ne": "उत्तर दिइएको"
+    },
+    "marked_review": {
+        "en": "Marked for review",
+        "ne": "समीक्षाको लागि चिन्ह लगाइएको"
+    },
+    "time_up": {
+        "en": "Time is up! Your test is being submitted automatically.",
+        "ne": "समय सकियो! तपाईंको परीक्षा स्वचालित रूपमा बुझाइँदैछ।"
+    },
+    "confirm_exit": {
+        "en": "Are you sure you want to exit? Your progress will be lost.",
+        "ne": "के तपाईं बाहिर निस्कन निश्चित हुनुहुन्छ? तपाईंको प्रगति हराउनेछ।"
+    },
+    "confirm_submit_unanswered": {
+        "en": "You have {n} unanswered question(s). Submit anyway?",
+        "ne": "तपाईंसँग {n} वटा अनुत्तरित प्रश्न(हरू) छन्। जे भए पनि बुझाउने?"
+    },
+    "confirm_submit": {
+        "en": "Are you sure you want to submit?",
+        "ne": "के तपाईं बुझाउन निश्चित हुनुहुन्छ?"
+    },
+    "test_results": {
+        "en": "Test Results",
+        "ne": "परीक्षा परिणाम"
+    },
+    "score": {
+        "en": "Score",
+        "ne": "अंक"
+    },
+    "excellent": {
+        "en": "Excellent!",
+        "ne": "उत्कृष्ट!"
+    },
+    "good": {
+        "en": "Good!",
+        "ne": "राम्रो!"
+    },
+    "pass": {
+        "en": "Pass",
+        "ne": "उत्तीर्ण"
+    },
+    "needs_work": {
+        "en": "Needs Work",
+        "ne": "अझै मेहनत चाहिन्छ"
+    },
+    "passing_mark": {
+        "en": "Lok Sewa passing mark: 45 out of 100",
+        "ne": "लोक सेवा उत्तीर्ण अंक: १०० मा ४५"
+    },
+    "retry": {
+        "en": "Retry",
+        "ne": "पुनः प्रयास गर्नुहोस्"
+    },
+    "more_tests": {
+        "en": "More Tests",
+        "ne": "अरु टेस्टहरू"
+    },
+    "detailed_review": {
+        "en": "Detailed Review",
+        "ne": "विस्तृत समीक्षा"
+    },
+    "correct": {
+        "en": "Correct",
+        "ne": "सही"
+    },
+    "incorrect": {
+        "en": "Incorrect",
+        "ne": "गलत"
+    },
+    "skipped": {
+        "en": "Skipped",
+        "ne": "छोडिएको"
+    },
+    "explanation": {
+        "en": "Explanation",
+        "ne": "व्याख्या"
+    },
+    "about_title": {
+        "en": "About CrackLokshewa",
+        "ne": "CrackLokshewa बारे"
+    },
+    "about_subtitle": {
+        "en": "Your free mock test platform for Nepal Lok Sewa Aayog exams.",
+        "ne": "नेपाल लोक सेवा आयोग परीक्षाको लागि तपाईंको निःशुल्क मॉक टेस्ट प्लेटफर्म।"
+    },
+    "about_what": {
+        "en": "What is this?",
+        "ne": "यो के हो?"
+    },
+    "about_desc": {
+        "en": "CrackLokshewa provides free, realistic MCQ practice tests for Lok Sewa candidates. Our questions are modeled after the actual First Paper (Paper 1) format used by the Public Service Commission (PSC).",
+        "ne": "CrackLokshewa ले लोक सेवा उम्मेदवारहरूको लागि निःशुल्क, यथार्थपरक MCQ अभ्यास परीक्षाहरू प्रदान गर्छ। हाम्रा प्रश्नहरू लोक सेवा आयोग (PSC) ले प्रयोग गर्ने वास्तविक पहिलो पत्र (पेपर १) ढाँचामा आधारित छन्।"
+    },
+    "about_format": {
+        "en": "First Paper Format",
+        "ne": "पहिलो पत्रको ढाँचा"
+    },
+    "about_format_1": {
+        "en": "50 MCQ questions x 2 marks = 100 total marks",
+        "ne": "५० वटा MCQ प्रश्न x २ अंक = कुल १०० अंक"
+    },
+    "about_format_2": {
+        "en": "Time limit: 45 minutes",
+        "ne": "समय सीमा: ४५ मिनेट"
+    },
+    "about_format_3": {
+        "en": "Pass mark: 45 out of 100",
+        "ne": "उत्तीर्ण अंक: १०० मा ४५"
+    },
+    "about_format_4": {
+        "en": "Negative marking: 20% deduction per wrong answer",
+        "ne": "नकारात्मक अंकन: प्रत्येक गलत उत्तरमा २०% कट्टी"
+    },
+    "about_format_5": {
+        "en": "Syllabus: General Knowledge (60%) + IQ/Mental Ability (40%)",
+        "ne": "पाठ्यक्रम: सामान्य ज्ञान (६०%) + IQ/मानसिक क्षमता (४०%)"
+    },
+    "about_disclaimer": {
+        "en": "Disclaimer",
+        "ne": "अस्वीकरण"
+    },
+    "about_disclaimer_text": {
+        "en": "This is an independent educational project and is not affiliated with the official Lok Sewa Aayog (PSC). Questions are curated for practice purposes only.",
+        "ne": "यो एक स्वतन्त्र शैक्षिक परियोजना हो र यो आधिकारिक लोक सेवा आयोग (PSC) सँग सम्बद्ध छैन। प्रश्नहरू केवल अभ्यास उद्देश्यका लागि संकलन गरिएका हुन्।"
+    },
+    "correct_count": {
+        "en": "Correct",
+        "ne": "सही"
+    },
+    "wrong_count": {
+        "en": "Wrong",
+        "ne": "गलत"
+    },
+    "skipped_count": {
+        "en": "Skipped",
+        "ne": "छोडिएको"
+    },
+    "marks_obtained": {
+        "en": "Marks Obtained",
+        "ne": "प्राप्त अंक"
+    },
+    "negative_marks": {
+        "en": "Negative Marks",
+        "ne": "नकारात्मक अंक"
+    },
+    "footer_text": {
+        "en": "Best of luck for your exams!",
+        "ne": "तपाईंको परीक्षाको लागि शुभकामना!"
+    },
+    "no_tests": {
+        "en": "No tests found for this category yet.",
+        "ne": "यस श्रेणीको लागि अहिलेसम्म कुनै टेस्ट फेला परेन।"
+    },
+    "adding_soon": {
+        "en": "We are adding content soon. Check back later!",
+        "ne": "हामी छिट्टै सामग्री थप्दैछौं। पछि फर्केर हेर्नुहोस्!"
+    },
+    "load_error": {
+        "en": "Could not load categories. Please open this site through a local server.",
+        "ne": "श्रेणीहरू लोड गर्न सकिएन। कृपया यो साइट स्थानीय सर्वरबाट खोल्नुहोस्।"
+    },
+    "test_error": {
+        "en": "Could not load questions. This test may not have content yet.",
+        "ne": "प्रश्नहरू लोड गर्न सकिएन। यस टेस्टमा अझै सामग्री नहुन सक्छ।"
+    },
+    "change_language": {
+        "en": "Change Language",
+        "ne": "भाषा परिवर्तन गर्नुहोस्"
+    },
+    "home": {
+        "en": "Home",
+        "ne": "गृहपृष्ठ"
+    },
+    "about": {
+        "en": "About",
+        "ne": "बारेमा"
+    }
+}

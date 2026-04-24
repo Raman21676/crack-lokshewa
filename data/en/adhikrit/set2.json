@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "If 40% of A equals 60% of B, what is A:B?",
+    "options": [
+      "3:2",
+      "2:3",
+      "4:6",
+      "6:4"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.4A = 0.6B → A/B = 0.6/0.4 = 3/2.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q2",
+    "question": "If 15 workers build a wall in 20 days, how many for 12 days?",
+    "options": [
+      "25",
+      "22",
+      "20",
+      "30"
+    ],
+    "correctIndex": 0,
+    "explanation": "Total=300 man-days. 300/12=25.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q3",
+    "question": "What is the full form of WTO?",
+    "options": [
+      "World Trade Organization",
+      "World Transport Organization",
+      "World Tourism Organization",
+      "World Treaty Organization"
+    ],
+    "correctIndex": 0,
+    "explanation": "WTO = World Trade Organization.",
+    "subject": "GK"
+  },
+  {
+    "id": "q4",
+    "question": "A man walks 5 km north, then 3 km east, then 5 km south. How far from start?",
+    "options": [
+      "0 km",
+      "5 km",
+      "3 km",
+      "8 km"
+    ],
+    "correctIndex": 2,
+    "explanation": "North and south cancel out. Only 3 km east remains.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q5",
+    "question": "If all Bloops are Bleeps and all Bleeps are Blips, which is true?",
+    "options": [
+      "Some Bloops are not Blips",
+      "All Blips are Bloops",
+      "All Bloops are Blips",
+      "None"
+    ],
+    "correctIndex": 2,
+    "explanation": "By syllogism: All Bloops are Blips.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q6",
+    "question": "Which fundamental right includes the right against exploitation?",
+    "options": [
+      "Right to Freedom",
+      "Right to Equality",
+      "Right to Religion",
+      "Right against Exploitation"
+    ],
+    "correctIndex": 3,
+    "explanation": "Article 29 guarantees Right against Exploitation.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q7",
+    "question": "A trader marks his goods 20% above cost price and allows 10% discount. What is his gain percent?",
+    "options": [
+      "6%",
+      "8%",
+      "10%",
+      "12%"
+    ],
+    "correctIndex": 1,
+    "explanation": "CP=100, MP=120, SP=108. Profit=8%.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q8",
+    "question": "If perimeter of square is 48cm, what is its area?",
+    "options": [
+      "121",
+      "169",
+      "144",
+      "196"
+    ],
+    "correctIndex": 2,
+    "explanation": "Side=12cm. Area=144 sq cm.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q9",
+    "question": "If a:b = 3:4 and b:c = 8:9, find a:c.",
+    "options": [
+      "3:4",
+      "2:3",
+      "2:3",
+      "2:3"
+    ],
+    "correctIndex": 1,
+    "explanation": "a:b:c = 6:8:9, so a:c = 6:9 = 2:3.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q10",
+    "question": "Which schedule of the Constitution contains the distribution of powers between federation, province and local level?",
+    "options": [
+      "Schedule 5",
+      "Schedule 6",
+      "Schedule 7",
+      "Schedule 9"
+    ],
+    "correctIndex": 2,
+    "explanation": "Schedule 7 contains the concurrent/shared powers list.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q11",
+    "question": "If the length of a rectangle is increased by 20% and breadth decreased by 20%, what is the change in area?",
+    "options": [
+      "No change",
+      "4% increase",
+      "8% decrease",
+      "4% decrease"
+    ],
+    "correctIndex": 3,
+    "explanation": "New area = 1.2 × 0.8 = 0.96 of original. So 4% decrease.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q12",
+    "question": "A sum of money triples itself in 15 years at simple interest. What is the rate of interest?",
+    "options": [
+      "10%",
+      "12%",
+      "13.33%",
+      "15%"
+    ],
+    "correctIndex": 2,
+    "explanation": "If amount=3P, SI=2P. Rate = (2P×100)/(P×15) = 13.33%.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q13",
+    "question": "Who is the ex-officio chairperson of the National Planning Commission?",
+    "options": [
+      "President",
+      "Finance Minister",
+      "Prime Minister",
+      "Vice President"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Prime Minister is the ex-officio chairperson.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q14",
+    "question": "Which article guarantees the Right to Constitutional Remedy?",
+    "options": [
+      "Article 46",
+      "Article 45",
+      "Article 47",
+      "Article 48"
+    ],
+    "correctIndex": 0,
+    "explanation": "Article 46 guarantees Right to Constitutional Remedy.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q15",
+    "question": "Which body is responsible for auditing government accounts in Nepal?",
+    "options": [
+      "Finance Ministry",
+      "Public Accounts Committee",
+      "Office of the Auditor General",
+      "National Planning Commission"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Office of the Auditor General audits government accounts.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q16",
+    "question": "Which schedule contains the list of federal powers?",
+    "options": [
+      "Schedule 5",
+      "Schedule 6",
+      "Schedule 7",
+      "Schedule 9"
+    ],
+    "correctIndex": 0,
+    "explanation": "Schedule 5 contains the federal list.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q17",
+    "question": "When was the current constitution promulgated?",
+    "options": [
+      "2014",
+      "2016",
+      "2015",
+      "2017"
+    ],
+    "correctIndex": 2,
+    "explanation": "Promulgated on September 20, 2015.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q18",
+    "question": "Which country is Nepal's largest trading partner?",
+    "options": [
+      "China",
+      "India",
+      "USA",
+      "Japan"
+    ],
+    "correctIndex": 1,
+    "explanation": "India is Nepal's largest trading partner.",
+    "subject": "GK"
+  },
+  {
+    "id": "q19",
+    "question": "Which is the permanent secretariat of BIMSTEC?",
+    "options": [
+      "New Delhi",
+      "Kathmandu",
+      "Dhaka",
+      "Bangkok"
+    ],
+    "correctIndex": 2,
+    "explanation": "BIMSTEC permanent secretariat is in Dhaka.",
+    "subject": "GK"
+  },
+  {
+    "id": "q20",
+    "question": "What is the main objective of the 15th Plan of Nepal?",
+    "options": [
+      "Prosperous Nepal, Happy Nepali",
+      "Digital Nepal",
+      "Green Nepal",
+      "Educated Nepal"
+    ],
+    "correctIndex": 0,
+    "explanation": "The motto is 'Prosperous Nepal, Happy Nepali'.",
+    "subject": "GK"
+  },
+  {
+    "id": "q21",
+    "question": "Complete: 81, 27, 9, 3, ?",
+    "options": [
+      "0",
+      "1/9",
+      "1/3",
+      "1"
+    ],
+    "correctIndex": 3,
+    "explanation": "Each divided by 3.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q22",
+    "question": "Complete: 121, 144, 169, 196, ?",
+    "options": [
+      "289",
+      "216",
+      "256",
+      "225"
+    ],
+    "correctIndex": 3,
+    "explanation": "11²=121, 12²=144, 13²=169, 14²=196, 15²=225.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q23",
+    "question": "What is the main function of the Public Service Commission (Lok Sewa Aayog)?",
+    "options": [
+      "Make laws",
+      "Conduct exams for civil service",
+      "Collect taxes",
+      "Manage foreign affairs"
+    ],
+    "correctIndex": 1,
+    "explanation": "PSC conducts examinations for civil service appointments.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q24",
+    "question": "The Election Commission is a:",
+    "options": [
+      "Executive body",
+      "Constitutional body",
+      "Statutory body",
+      "Private body"
+    ],
+    "correctIndex": 1,
+    "explanation": "Election Commission is a constitutional body.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q25",
+    "question": "If 20 men can complete a work in 15 days, how many days for 25 men?",
+    "options": [
+      "10",
+      "12",
+      "11",
+      "13"
+    ],
+    "correctIndex": 1,
+    "explanation": "Total work=300 man-days. 25 men: 300/25=12.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q26",
+    "question": "What is the quorum required for a meeting of the House of Representatives?",
+    "options": [
+      "One-third",
+      "One-fourth",
+      "One-half",
+      "Two-thirds"
+    ],
+    "correctIndex": 1,
+    "explanation": "One-fourth of total members is the quorum.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q27",
+    "question": "Who is the head of government in Nepal?",
+    "options": [
+      "President",
+      "Prime Minister",
+      "Chief Justice",
+      "Speaker"
+    ],
+    "correctIndex": 1,
+    "explanation": "Prime Minister is head of government.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q28",
+    "question": "Which article of the Constitution deals with the formation of the Constitutional Council?",
+    "options": [
+      "Article 154",
+      "Article 153",
+      "Article 155",
+      "Article 156"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 153 deals with the Constitutional Council.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q29",
+    "question": "What is 3/5 as a percentage?",
+    "options": [
+      "60%",
+      "55%",
+      "50%",
+      "65%"
+    ],
+    "correctIndex": 0,
+    "explanation": "3/5 × 100 = 60%.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q30",
+    "question": "Which schedule of the Constitution lists the powers of local level?",
+    "options": [
+      "Schedule 5",
+      "Schedule 6",
+      "Schedule 7",
+      "Schedule 8"
+    ],
+    "correctIndex": 3,
+    "explanation": "Schedule 8 lists local level powers.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q31",
+    "question": "Find the odd one: Newspaper, Television, Radio, Car",
+    "options": [
+      "Newspaper",
+      "Car",
+      "Radio",
+      "Television"
+    ],
+    "correctIndex": 1,
+    "explanation": "Car is not a mass media.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q32",
+    "question": "How many members in House of Representatives?",
+    "options": [
+      "265",
+      "295",
+      "285",
+      "275"
+    ],
+    "correctIndex": 3,
+    "explanation": "There are 275 members.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q33",
+    "question": "What is the tenure of a member of the National Assembly?",
+    "options": [
+      "4 years",
+      "6 years",
+      "5 years",
+      "Until dissolution"
+    ],
+    "correctIndex": 1,
+    "explanation": "National Assembly members serve 6-year terms.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q34",
+    "question": "If 20% of x = 50, what is x?",
+    "options": [
+      "250",
+      "220",
+      "240",
+      "200"
+    ],
+    "correctIndex": 0,
+    "explanation": "x = 50 × 100/20 = 250.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q35",
+    "question": "If A is coded as 1, B as 2, ..., Z as 26, what is the code for ZEBRA?",
+    "options": [
+      "2651812",
+      "2652181",
+      "2625181",
+      "2651821"
+    ],
+    "correctIndex": 3,
+    "explanation": "Z=26, E=5, B=2, R=18, A=1 → 2651821.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q36",
+    "question": "Complete the series: 2, 5, 10, 17, 26, ?",
+    "options": [
+      "35",
+      "38",
+      "37",
+      "40"
+    ],
+    "correctIndex": 2,
+    "explanation": "Pattern: n²+1. 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, 6²+1=37.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q37",
+    "question": "If the day after tomorrow is Sunday, what day was yesterday?",
+    "options": [
+      "Wednesday",
+      "Saturday",
+      "Friday",
+      "Thursday"
+    ],
+    "correctIndex": 3,
+    "explanation": "Day after tomorrow=Sun → Today=Fri → Yesterday=Thu.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q38",
+    "question": "If 12 men earn Rs. 240 in 4 days, how much will 8 men earn in 6 days?",
+    "options": [
+      "Rs. 180",
+      "Rs. 200",
+      "Rs. 220",
+      "Rs. 240"
+    ],
+    "correctIndex": 3,
+    "explanation": "1 man 1 day = 240/(12×4)=5. 8 men 6 days = 5×8×6=240.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q39",
+    "question": "Which international treaty deals with climate change?",
+    "options": [
+      "Kyoto Protocol",
+      "Geneva Convention",
+      "Vienna Convention",
+      "Hague Convention"
+    ],
+    "correctIndex": 0,
+    "explanation": "Kyoto Protocol deals with climate change.",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "What is square of 25?",
+    "options": [
+      "625",
+      "600",
+      "525",
+      "650"
+    ],
+    "correctIndex": 0,
+    "explanation": "25² = 625.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q41",
+    "question": "Who appoints the judges of the Supreme Court of Nepal?",
+    "options": [
+      "President on recommendation of Judicial Council",
+      "Prime Minister",
+      "Parliament",
+      "Chief Justice"
+    ],
+    "correctIndex": 0,
+    "explanation": "President appoints on recommendation of Judicial Council.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q42",
+    "question": "Which article guarantees Right to Property?",
+    "options": [
+      "Article 24",
+      "Article 25",
+      "Article 26",
+      "Article 27"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 26 guarantees Right to Property.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q43",
+    "question": "The average of 5 numbers is 25. If one number is excluded, the average becomes 20. What is the excluded number?",
+    "options": [
+      "35",
+      "40",
+      "50",
+      "45"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sum of 5 = 125. Sum of 4 = 80. Excluded = 125-80=45.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q44",
+    "question": "Which international organization has Nepal as a founding member?",
+    "options": [
+      "ASEAN",
+      "SAARC",
+      "EU",
+      "OPEC"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nepal is a founding member of SAARC.",
+    "subject": "GK"
+  },
+  {
+    "id": "q45",
+    "question": "Which river is known as Sorrow of Bihar?",
+    "options": [
+      "Karnali",
+      "Gandak",
+      "Koshi",
+      "Ghaghra"
+    ],
+    "correctIndex": 2,
+    "explanation": "Koshi is called Sorrow of Bihar.",
+    "subject": "GK"
+  },
+  {
+    "id": "q46",
+    "question": "If the selling price of an article is 4/3 of its cost price, what is the profit percentage?",
+    "options": [
+      "25%",
+      "50%",
+      "40%",
+      "33.33%"
+    ],
+    "correctIndex": 3,
+    "explanation": "CP=3, SP=4. Profit=1. Profit% = 1/3 × 100 = 33.33%.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q47",
+    "question": "Who is the current Chief Justice of Nepal (as of 2025)?",
+    "options": [
+      "Bishowambhar Prasad Shrestha",
+      "Hari Krishna Karki",
+      "Cholendra Shumsher Rana",
+      "Prakash Man Singh Raut"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bishowambhar Prasad Shrestha is the current Chief Justice.",
+    "subject": "GK"
+  },
+  {
+    "id": "q48",
+    "question": "Who appoints the Chief Election Commissioner of Nepal?",
+    "options": [
+      "Chief Justice",
+      "Prime Minister",
+      "Parliament",
+      "President on recommendation of Constitutional Council"
+    ],
+    "correctIndex": 3,
+    "explanation": "President appoints on recommendation of Constitutional Council.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q49",
+    "question": "If ENTRY is coded as 12345 and STEADY as 931785, what is the code for TENANT?",
+    "options": [
+      "213815",
+      "213851",
+      "213581",
+      "231581"
+    ],
+    "correctIndex": 1,
+    "explanation": "Each letter maps to a digit based on the given words.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q50",
+    "question": "If the compound interest on a sum for 2 years at 10% per annum is Rs. 420, what is the principal?",
+    "options": [
+      "Rs. 2400",
+      "Rs. 2100",
+      "Rs. 2200",
+      "Rs. 2000"
+    ],
+    "correctIndex": 3,
+    "explanation": "CI = P[(1.1)²-1] = 0.21P. So P = 420/0.21 = 2000.",
+    "subject": "MATH"
+  }
+]

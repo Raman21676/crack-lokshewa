@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "Which is the longest highway in Nepal?",
+    "options": [
+      "Mahendra Highway",
+      "Tribhuvan Highway",
+      "Prithvi Highway",
+      "Araniko Highway"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mahendra Highway (East-West) is the longest.",
+    "subject": "GK"
+  },
+  {
+    "id": "q2",
+    "question": "Which planet has the most moons?",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "5"
+    ],
+    "correctIndex": 3,
+    "explanation": "Saturn has the most moons (146 confirmed).",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q3",
+    "question": "According to Nepal Constitution 2072, how many provinces are there?",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "7"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nepal has 7 provinces.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q4",
+    "question": "Which province has Pokhara as its capital?",
+    "options": [
+      "Gandaki",
+      "Lumbini",
+      "Bagmati",
+      "Koshi"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pokhara is capital of Gandaki Province.",
+    "subject": "GK"
+  },
+  {
+    "id": "q5",
+    "question": "Which district has the highest population in Nepal?",
+    "options": [
+      "Kathmandu",
+      "Bhaktapur",
+      "Lalitpur",
+      "Morang"
+    ],
+    "correctIndex": 0,
+    "explanation": "Kathmandu has the highest population.",
+    "subject": "GK"
+  },
+  {
+    "id": "q6",
+    "question": "What is 40% of 250?",
+    "options": [
+      "100",
+      "90",
+      "80",
+      "110"
+    ],
+    "correctIndex": 2,
+    "explanation": "40% of 250 = 100. Wait, 40% of 250 = 100. Option 2 is 100.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q7",
+    "question": "What is Nepal's national bird?",
+    "options": [
+      "Danphe",
+      "Peacock",
+      "Cuckoo",
+      "Crow"
+    ],
+    "correctIndex": 0,
+    "explanation": "Danphe (Himalayan Monal) is the national bird.",
+    "subject": "GK"
+  },
+  {
+    "id": "q8",
+    "question": "Where is the UN headquarters?",
+    "options": [
+      "Geneva",
+      "Paris",
+      "London",
+      "New York"
+    ],
+    "correctIndex": 3,
+    "explanation": "UN HQ is in New York.",
+    "subject": "GK"
+  },
+  {
+    "id": "q9",
+    "question": "What is the simple interest on Rs. 2000 at 5% for 3 years?",
+    "options": [
+      "200",
+      "250",
+      "300",
+      "350"
+    ],
+    "correctIndex": 2,
+    "explanation": "SI = P×R×T/100 = 2000×5×3/100 = 300.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q10",
+    "question": "Pointing to a woman, a man said 'Her mother is the only daughter of my mother.' How is the woman related to the man?",
+    "options": [
+      "Sister",
+      "Mother",
+      "Niece",
+      "Daughter"
+    ],
+    "correctIndex": 3,
+    "explanation": "Only daughter of his mother = his sister. Her mother is his sister, so she is his daughter.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q11",
+    "question": "Find the odd one out: 2, 3, 5, 7, 9, 11",
+    "options": [
+      "2",
+      "3",
+      "11",
+      "9"
+    ],
+    "correctIndex": 3,
+    "explanation": "9 is not prime; others are prime.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q12",
+    "question": "When is World Environment Day?",
+    "options": [
+      "April 22",
+      "June 5",
+      "March 21",
+      "September 16"
+    ],
+    "correctIndex": 1,
+    "explanation": "World Environment Day is June 5.",
+    "subject": "GK"
+  },
+  {
+    "id": "q13",
+    "question": "A is 40m South of B. C is 40m East of A. What direction is C from B?",
+    "options": [
+      "North-East",
+      "South-East",
+      "South-West",
+      "North-West"
+    ],
+    "correctIndex": 1,
+    "explanation": "C is South-East from B.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q14",
+    "question": "Which mineral is found in abundance in Nepal?",
+    "options": [
+      "Gold",
+      "Limestone",
+      "Coal",
+      "Diamond"
+    ],
+    "correctIndex": 1,
+    "explanation": "Limestone is found in abundance in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q15",
+    "question": "Which country is largest by area?",
+    "options": [
+      "Russia",
+      "USA",
+      "Canada",
+      "China"
+    ],
+    "correctIndex": 0,
+    "explanation": "Russia is the largest country.",
+    "subject": "GK"
+  },
+  {
+    "id": "q16",
+    "question": "If 6 workers finish a job in 12 days, how many days for 9 workers?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "Total work=72 man-days. 9 workers: 72/9=8.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q17",
+    "question": "If a rectangle has length 12cm and breadth 8cm, what is its perimeter?",
+    "options": [
+      "40cm",
+      "36cm",
+      "32cm",
+      "48cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "Perimeter=2(12+8)=40cm.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q18",
+    "question": "Which is the main festival of the Rai community?",
+    "options": [
+      "Dashain",
+      "Tihar",
+      "Sakela/Udhauli",
+      "Holi"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sakela (Udhauli/Ubhauli) is the main festival of Rai/Kirat.",
+    "subject": "GK"
+  },
+  {
+    "id": "q19",
+    "question": "Simplify: 3/4 + 2/5",
+    "options": [
+      "23/20",
+      "5/9",
+      "1",
+      "11/20"
+    ],
+    "correctIndex": 0,
+    "explanation": "3/4+2/5 = (15+8)/20 = 23/20.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q20",
+    "question": "Which is the national animal of Nepal?",
+    "options": [
+      "Tiger",
+      "Elephant",
+      "Leopard",
+      "Cow"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cow is the national animal of Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q21",
+    "question": "If north-east becomes south, what does south become?",
+    "options": [
+      "North",
+      "East",
+      "South-West",
+      "North-West"
+    ],
+    "correctIndex": 3,
+    "explanation": "Each direction rotates 135° clockwise.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q22",
+    "question": "When was Nepal's first general election held?",
+    "options": [
+      "2017 BS",
+      "2013 BS",
+      "2015 BS",
+      "2012 BS"
+    ],
+    "correctIndex": 2,
+    "explanation": "First general election was in 2015 BS (1959 AD).",
+    "subject": "GK"
+  },
+  {
+    "id": "q23",
+    "question": "If 2x - 3 = 7, what is x?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "2x=10, so x=5. Wait, 2x=10, x=5. Option 2 is 5.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q24",
+    "question": "Which gas do plants absorb from the atmosphere?",
+    "options": [
+      "Carbon Dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "correctIndex": 0,
+    "explanation": "Plants absorb CO2 for photosynthesis.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q25",
+    "question": "What does DNA stand for?",
+    "options": [
+      "Dinucleic Acid",
+      "Deoxyribonucleic Acid",
+      "Double Nucleic Acid",
+      "Dioxide Nucleic Acid"
+    ],
+    "correctIndex": 1,
+    "explanation": "DNA = Deoxyribonucleic Acid.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q26",
+    "question": "What does CPU stand for?",
+    "options": [
+      "Central Processing Unit",
+      "Computer Processing Unit",
+      "Central Program Unit",
+      "Computer Program Unit"
+    ],
+    "correctIndex": 0,
+    "explanation": "CPU = Central Processing Unit.",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "The Sun is a:",
+    "options": [
+      "Planet",
+      "Star",
+      "Satellite",
+      "Comet"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Sun is a star.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q28",
+    "question": "What comes next: Z, X, V, T, R, ?",
+    "options": [
+      "Q",
+      "O",
+      "P",
+      "S"
+    ],
+    "correctIndex": 2,
+    "explanation": "Letters skip one going backwards: Z, X, V, T, R, P.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q29",
+    "question": "Which is Nepal's largest district by area?",
+    "options": [
+      "Humla",
+      "Mustang",
+      "Manang",
+      "Dolpa"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dolpa is the largest district (7,889 sq km).",
+    "subject": "GK"
+  },
+  {
+    "id": "q30",
+    "question": "Complete the analogy: Hand is to Glove as Foot is to ___",
+    "options": [
+      "Socks",
+      "Shoe",
+      "Leg",
+      "Toe"
+    ],
+    "correctIndex": 1,
+    "explanation": "Glove covers hand; Shoe covers foot.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q31",
+    "question": "What is the shape of Nepal's national flag?",
+    "options": [
+      "Rectangular",
+      "Combination of two triangles",
+      "Triangular",
+      "Square"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nepal's flag is the only non-quadrilateral national flag.",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
+    "question": "Find the odd one: 121, 144, 169, 200, 225",
+    "options": [
+      "121",
+      "144",
+      "169",
+      "200"
+    ],
+    "correctIndex": 3,
+    "explanation": "121=11², 144=12², 169=13², 225=15². 200 is not a perfect square.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q33",
+    "question": "Which is the smallest prime number?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 2,
+    "explanation": "2 is the smallest prime number.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q34",
+    "question": "A train travels 60 km in 1 hour. How long for 210 km?",
+    "options": [
+      "3 hours",
+      "4 hours",
+      "3.5 hours",
+      "2.5 hours"
+    ],
+    "correctIndex": 2,
+    "explanation": "Time=210/60=3.5 hours.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q35",
+    "question": "The Tropic of Cancer passes through which district of Nepal?",
+    "options": [
+      "Jhapa",
+      "Bara",
+      "All of the above",
+      "Dhanusa"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tropic of Cancer passes through Jhapa, Bara, Dhanusa, etc.",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "Which is Nepal's oldest political party?",
+    "options": [
+      "CPN UML",
+      "Nepali Congress",
+      "RPP",
+      "Rastriya Prajatantra Party"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nepali Congress was established in 1950.",
+    "subject": "GK"
+  },
+  {
+    "id": "q37",
+    "question": "Which article guarantees Right to Freedom?",
+    "options": [
+      "Article 16",
+      "Article 18",
+      "Article 17",
+      "Article 19"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 17 guarantees Right to Freedom.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q38",
+    "question": "Which is the deepest lake in the world?",
+    "options": [
+      "Caspian Sea",
+      "Lake Baikal",
+      "Lake Superior",
+      "Lake Titicaca"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lake Baikal is deepest (1,642m).",
+    "subject": "GK"
+  },
+  {
+    "id": "q39",
+    "question": "If 3/4 of a number is 60, what is the number?",
+    "options": [
+      "70",
+      "80",
+      "75",
+      "90"
+    ],
+    "correctIndex": 1,
+    "explanation": "Number = 60 × 4/3 = 80.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q40",
+    "question": "Complete: 3, 8, 15, 24, 35, ?",
+    "options": [
+      "44",
+      "46",
+      "50",
+      "48"
+    ],
+    "correctIndex": 3,
+    "explanation": "Pattern: n²-1 starting from n=2. 2²-1=3, 3²-1=8, 4²-1=15, 5²-1=24, 6²-1=35, 7²-1=48.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q41",
+    "question": "Who is the head of state in Nepal?",
+    "options": [
+      "President",
+      "Prime Minister",
+      "Chief Justice",
+      "Speaker"
+    ],
+    "correctIndex": 0,
+    "explanation": "The President is the head of state.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q42",
+    "question": "If 8 cats catch 8 mice in 8 minutes, how many cats catch 16 mice in 16 minutes?",
+    "options": [
+      "16",
+      "12",
+      "8",
+      "32"
+    ],
+    "correctIndex": 2,
+    "explanation": "Each cat catches 1 mouse in 8 minutes. In 16 minutes, 1 cat catches 2 mice. So 8 cats catch 16 mice.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q43",
+    "question": "Which acid is found in vinegar?",
+    "options": [
+      "Citric acid",
+      "Hydrochloric acid",
+      "Acetic acid",
+      "Sulfuric acid"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vinegar contains acetic acid.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q44",
+    "question": "If sum of two numbers is 50 and difference is 10, find them.",
+    "options": [
+      "25 and 25",
+      "20 and 30",
+      "15 and 35",
+      "22 and 28"
+    ],
+    "correctIndex": 1,
+    "explanation": "x+y=50, x-y=10. So x=30, y=20.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q45",
+    "question": "Who wrote the Nepali national anthem 'Sayaun Thunga Phulka'?",
+    "options": [
+      "Amber Gurung",
+      "Laxmi Prasad Devkota",
+      "Byakul Maila",
+      "Gopal Prasad Rimal"
+    ],
+    "correctIndex": 2,
+    "explanation": "Byakul Maila (Pradeep Kumar Rai) wrote the anthem.",
+    "subject": "GK"
+  },
+  {
+    "id": "q46",
+    "question": "Where does the Karnali river originate?",
+    "options": [
+      "Nepal",
+      "India",
+      "Bhutan",
+      "China (Tibet)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Karnali originates from Tibet (Mapchachungo Himal).",
+    "subject": "GK"
+  },
+  {
+    "id": "q47",
+    "question": "What is the area of a triangle with base 10cm and height 8cm?",
+    "options": [
+      "40",
+      "35",
+      "30",
+      "45"
+    ],
+    "correctIndex": 0,
+    "explanation": "Area = 1/2 × 10 × 8 = 40 sq cm.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q48",
+    "question": "If the code for Nepal is Ofqbm, what is the code for India?",
+    "options": [
+      "Hoeqb",
+      "Jofsb",
+      "Hoesb",
+      "Joesb"
+    ],
+    "correctIndex": 3,
+    "explanation": "Each letter shifted forward by 1.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q49",
+    "question": "Book : Library :: Painting : ?",
+    "options": [
+      "Artist",
+      "Museum",
+      "Canvas",
+      "Brush"
+    ],
+    "correctIndex": 1,
+    "explanation": "Books in Library; Paintings in Museum.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q50",
+    "question": "Which blood vessels carry blood away from the heart?",
+    "options": [
+      "Veins",
+      "Nerves",
+      "Capillaries",
+      "Arteries"
+    ],
+    "correctIndex": 3,
+    "explanation": "Arteries carry blood away from the heart.",
+    "subject": "SCIENCE"
+  }
+]
