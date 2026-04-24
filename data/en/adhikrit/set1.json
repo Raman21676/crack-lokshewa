@@ -1,487 +1,123 @@
 [
   {
     "id": "q1",
-    "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
+    "question": "Which district is Chaurjahari Airport located in?",
     "options": [
-      "100m",
-      "150m",
-      "200m",
-      "250m"
+      "Salyan",
+      "Dang",
+      "Jajarkot",
+      "Rukum West"
     ],
-    "correctIndex": 0,
-    "explanation": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q2",
-    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
-    "options": [
-      "3",
-      "14",
-      "17",
-      "21"
-    ],
-    "correctIndex": 1,
-    "explanation": "14 is the only even number.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q3",
-    "question": "According to Economic Survey 2081/82, what is Koshi Province's contribution to Nepal's GDP?",
-    "options": [
-      "13.9%",
-      "15.9%",
-      "17.2%",
-      "12.5%"
-    ],
-    "correctIndex": 1,
-    "explanation": "Koshi Province contributes 15.9% to Nepal's GDP according to the Economic Survey 2081/82.",
+    "correctIndex": 3,
+    "explanation": "Chaurjahari Airport is in Rukum West district. Bhadrapur = Jhapa, Bharatpur = Chitwan, Biratnagar = Morang, Birendranagar = Surkhet.",
     "subject": "GK"
   },
   {
-    "id": "q4",
-    "question": "Who became the new Prime Minister of Bangladesh in 2026?",
+    "id": "q2",
+    "question": "Which place is called 'Nepal's Nainital'?",
     "options": [
-      "Khaleda Zia",
-      "Sheikh Hasina",
-      "Mohammad Yunus",
-      "Tariq Rahman"
+      "Lomathang",
+      "Jumla",
+      "Manaslu",
+      "Trivenidham"
     ],
     "correctIndex": 3,
-    "explanation": "Tariq Rahman was appointed Prime Minister on February 17, 2026.",
+    "explanation": "Trivenidham is called Nepal's Nainital. Lomathang = Nepal's city of clay (in Mustang). Jumla = Nepal's Darjeeling/Kashmir. Manaslu = Nepal's Mount Fuji.",
+    "subject": "GK"
+  },
+  {
+    "id": "q3",
+    "question": "What is 25% of 25% of 400?",
+    "options": [
+      "30",
+      "40",
+      "20",
+      "25"
+    ],
+    "correctIndex": 3,
+    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q4",
+    "question": "Who scored the first century in NPL 2025 (2nd edition)?",
+    "options": [
+      "Mark Watt",
+      "Martin Guptill",
+      "Adam Rossington",
+      "Andre Gayle"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mark Watt scored the first century in NPL 2025. Adam Rossington scored the second century in 2025. Andre Gayle scored the first century in NPL 2024 (1st edition).",
     "subject": "GK"
   },
   {
     "id": "q5",
-    "question": "Which of the following is NOT a communicable disease?",
+    "question": "Which is the smallest Ramsar wetland site in Nepal?",
     "options": [
-      "Measles",
-      "Cholera",
-      "Pneumonia",
-      "Asthma"
+      "Gokyo Lake",
+      "Rara Lake",
+      "Ghodaghodi Lake",
+      "Maipokhari"
     ],
     "correctIndex": 3,
-    "explanation": "Asthma is NOT a communicable disease. Measles, cholera, and pneumonia are all communicable (infectious) diseases.",
-    "subject": "SCIENCE"
+    "explanation": "Maipokhari (Ilam) is the smallest Ramsar site in Nepal. There are 10 Ramsar sites. Largest = Pokhara Valley 9 lakes. First listed = Koshi Tappu (Sunsari).",
+    "subject": "GK"
   },
   {
     "id": "q6",
-    "question": "What percentage of water is found in the human body?",
+    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
     "options": [
-      "4-6 liters",
-      "5-6 liters",
-      "2.5-3 liters",
-      "66%"
+      "96",
+      "48",
+      "32",
+      "64"
     ],
-    "correctIndex": 3,
-    "explanation": "About 66% of the human body is water. Blood volume = 4-6 liters (male 5-6L, female 4-5L). Plasma volume = 2.5-3 liters.",
-    "subject": "SCIENCE"
+    "correctIndex": 0,
+    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
+    "subject": "IQ"
   },
   {
     "id": "q7",
-    "question": "When was the Nepal Red Cross Society established?",
+    "question": "How many official languages does ASEAN have?",
     "options": [
-      "2020 Bhadra 19",
-      "2033 Saun 12",
-      "2039 Bhadra 21",
-      "2068 Saun 22"
+      "10",
+      "2",
+      "3",
+      "24"
     ],
     "correctIndex": 0,
-    "explanation": "Nepal Red Cross Society was established on 2020 Bhadra 19. Blood transfusion service started on 2033 Saun 12. Nepal Cancer Relief Society = 2039 Bhadra 21. Public smoking ban = 2068 Saun 22.",
+    "explanation": "ASEAN has 10 official languages. 2 = UN official languages. 24 = EU official languages.",
     "subject": "GK"
   },
   {
     "id": "q8",
-    "question": "When did Nepal Telecom start robot technology for customer service?",
+    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
     "options": [
-      "2081 Mangsir 1",
-      "2081 Mangsir 2",
-      "2081 Mangsir 3",
-      "2082 Mangsir 1"
+      "32",
+      "40",
+      "20",
+      "24"
     ],
-    "correctIndex": 1,
-    "explanation": "Nepal Telecom started robot technology for customer service on 2081 Mangsir 2.",
-    "subject": "GK"
+    "correctIndex": 3,
+    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
+    "subject": "MATH"
   },
   {
     "id": "q9",
-    "question": "When did Shahid Shukraraj Shastri die?",
+    "question": "Which district of Gandaki has the highest population density?",
     "options": [
-      "1997 Magh 10",
-      "1997 Magh 12",
-      "1997 Magh 24",
-      "1997 Magh 25"
+      "Gorkha",
+      "Syangja",
+      "Manang",
+      "Kaski"
     ],
-    "correctIndex": 0,
-    "explanation": "Shahid Shukraraj Shastri died on 1997 Magh 10. Dharmabhakta Mathema = 1997 Magh 12. Dashrath Chand and Gangalal Shrestha = 1997 Magh 24.",
+    "correctIndex": 3,
+    "explanation": "Kaski = 297 people/sq km (highest). Manang = 3 people/sq km (lowest). Lowest sex ratio = Syangja (85.57). Highest sex ratio = Manang (129.44).",
     "subject": "GK"
   },
   {
     "id": "q10",
-    "question": "What is the area of Karnali Province (the largest province)?",
-    "options": [
-      "27,984 sq km",
-      "26,984 sq km",
-      "25,984 sq km",
-      "24,984 sq km"
-    ],
-    "correctIndex": 0,
-    "explanation": "Karnali Province area = 27,984 sq km (19.01% of Nepal). Largest district = Dolpa (7,889 sq km). Smallest district = Rukum West (1,213.49 sq km). Most populous = Surkhet. Least populous = Dolpa.",
-    "subject": "GK"
-  },
-  {
-    "id": "q11",
-    "question": "Which country is known as the 'Land of Thousand Lakes'?",
-    "options": [
-      "New Zealand",
-      "Laos",
-      "Thailand",
-      "Finland"
-    ],
-    "correctIndex": 3,
-    "explanation": "Finland is called the Land of Thousand Lakes. New Zealand = Britain of the South, Laos = Land of Thousand Elephants, Thailand = Land of White Elephants.",
-    "subject": "GK"
-  },
-  {
-    "id": "q12",
-    "question": "Which is Nepal's highest mountain peak?",
-    "options": [
-      "K2",
-      "Kanchenjunga",
-      "Lhotse",
-      "Mount Everest"
-    ],
-    "correctIndex": 3,
-    "explanation": "Mount Everest at 8,848.86 meters.",
-    "subject": "GK"
-  },
-  {
-    "id": "q13",
-    "question": "Who was the first person to travel to space?",
-    "options": [
-      "Neil Armstrong",
-      "Yuri Gagarin",
-      "Magellan",
-      "George Washington"
-    ],
-    "correctIndex": 1,
-    "explanation": "Yuri Gagarin of Russia was the first person in space. Washington = 1st US President. Armstrong = first on the moon. Magellan = first world circumnavigation.",
-    "subject": "GK"
-  },
-  {
-    "id": "q14",
-    "question": "Which was the first country to establish diplomatic relations with Nepal?",
-    "options": [
-      "Britain",
-      "India",
-      "China",
-      "France"
-    ],
-    "correctIndex": 0,
-    "explanation": "Britain was the first country.",
-    "subject": "GK"
-  },
-  {
-    "id": "q15",
-    "question": "When did the Sepoy Mutiny occur in India?",
-    "options": [
-      "1863",
-      "1804",
-      "1865",
-      "1857"
-    ],
-    "correctIndex": 3,
-    "explanation": "The Sepoy Mutiny (Indian Rebellion) occurred in 1857. 1863 = Abolition of slavery in America. 1865 = Assassination of Abraham Lincoln. 1804 = Napoleon declared Emperor of France.",
-    "subject": "GK"
-  },
-  {
-    "id": "q16",
-    "question": "Which community has the tradition of cutting the dead body and feeding it to vultures?",
-    "options": [
-      "Satar",
-      "Tamang",
-      "Lepcha",
-      "Dolpo"
-    ],
-    "correctIndex": 3,
-    "explanation": "The Dolpo community has the tradition of cutting the dead body and feeding it to vultures (sky burial). Satar = widow goes to in-laws' house after father-in-law's death. Tamang = 108 lamps in death ceremony. Lepcha = buried facing Kanchenjunga.",
-    "subject": "GK"
-  },
-  {
-    "id": "q17",
-    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
-    "options": [
-      "MINISTER",
-      "RATION",
-      "STATION",
-      "TRADITION"
-    ],
-    "correctIndex": 0,
-    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q18",
-    "question": "Who was the last king of the Kirat period?",
-    "options": [
-      "Jayakamadev",
-      "Aakshay Gupta",
-      "Bhuvan Singh",
-      "Gasti"
-    ],
-    "correctIndex": 3,
-    "explanation": "Gasti was the last king of the Kirat period. Bhuvan Singh = last king of Maheshpal dynasty. Aakshay Gupta = last king of Gopal dynasty. Jayakamadev = last king of Lichhavi period.",
-    "subject": "GK"
-  },
-  {
-    "id": "q19",
-    "question": "Which country did the Industrial Revolution start from?",
-    "options": [
-      "Germany",
-      "America",
-      "France",
-      "Britain"
-    ],
-    "correctIndex": 3,
-    "explanation": "The Industrial Revolution started from Britain.",
-    "subject": "GK"
-  },
-  {
-    "id": "q20",
-    "question": "How many constituencies were there in the first general election of 2015 BS?",
-    "options": [
-      "108",
-      "109",
-      "110",
-      "111"
-    ],
-    "correctIndex": 1,
-    "explanation": "The first general election in 2015 BS had 109 constituencies. It was held from 2015 Falgun 7 to 2016 Baisakh 16. Nepali Congress won 74 seats. BP Koirala became the first elected Prime Minister.",
-    "subject": "GK"
-  },
-  {
-    "id": "q21",
-    "question": "Which article guarantees Right to Equality?",
-    "options": [
-      "Article 16",
-      "Article 17",
-      "Article 18",
-      "Article 20"
-    ],
-    "correctIndex": 2,
-    "explanation": "Article 18 guarantees Right to Equality.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q22",
-    "question": "After Brazil, which country has the most biodiversity in the world?",
-    "options": [
-      "Indonesia",
-      "Colombia",
-      "China",
-      "America"
-    ],
-    "correctIndex": 0,
-    "explanation": "Indonesia has the second most biodiversity after Brazil. Top 5: 1. Brazil, 2. Indonesia, 3. Colombia, 4. China, 5. Mexico.",
-    "subject": "GK"
-  },
-  {
-    "id": "q23",
-    "question": "Approximately how many civilians were killed in World War II?",
-    "options": [
-      "1 crore",
-      "2 crore",
-      "3 crore",
-      "4 crore"
-    ],
-    "correctIndex": 0,
-    "explanation": "About 1 crore civilians were killed. Soldiers killed = 1 crore 46 lakh. Wounded = 3 crore 40 lakh. Lives lost = 2 crore 20 lakh. Expenditure = 11,92,000 crore dollars.",
-    "subject": "GK"
-  },
-  {
-    "id": "q24",
-    "question": "What is the term length of Nepal's President?",
-    "options": [
-      "3 years",
-      "4 years",
-      "5 years",
-      "6 years"
-    ],
-    "correctIndex": 2,
-    "explanation": "5 years.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q25",
-    "question": "Which country was the runner-up in the 9th South Asian Karate Championship?",
-    "options": [
-      "Sri Lanka",
-      "Maldives",
-      "Nepal",
-      "India"
-    ],
-    "correctIndex": 2,
-    "explanation": "Nepal was the runner-up in the 9th South Asian Karate Championship held in Colombo, Sri Lanka in July 2022. India was the winner.",
-    "subject": "GK"
-  },
-  {
-    "id": "q26",
-    "question": "How many articles are in the Constitution of Nepal 2072?",
-    "options": [
-      "280",
-      "295",
-      "308",
-      "325"
-    ],
-    "correctIndex": 2,
-    "explanation": "308 articles, 35 parts, 9 schedules.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q27",
-    "question": "Who first used the term 'ecosystem'?",
-    "options": [
-      "A.G. Tansley",
-      "Ernest Haeckel",
-      "J.C. Farman",
-      "Barbara Ward"
-    ],
-    "correctIndex": 0,
-    "explanation": "A.G. Tansley first used the term 'ecosystem' and is known as the 'Father of Ecosystem'. Ernest Haeckel = first used 'ecology'. J.C. Farman = discovered the ozone layer. Barbara Ward = first used 'sustainable development'.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q28",
-    "question": "Which country has the world's largest national park?",
-    "options": [
-      "Canada",
-      "America",
-      "Mexico",
-      "Greenland"
-    ],
-    "correctIndex": 3,
-    "explanation": "Greenland has the world's largest national park (Northeast Greenland National Park, 972,000 sq km). 2nd largest = Great Limpopo Transfrontier Park (South Africa).",
-    "subject": "GK"
-  },
-  {
-    "id": "q29",
-    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
-    "options": [
-      "35",
-      "40",
-      "45",
-      "50"
-    ],
-    "correctIndex": 2,
-    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q30",
-    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
-    "options": [
-      "Cousin",
-      "Sister",
-      "Daughter",
-      "Niece"
-    ],
-    "correctIndex": 1,
-    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q31",
-    "question": "How many provincial assemblies are there in Nepal?",
-    "options": [
-      "5",
-      "6",
-      "7",
-      "8"
-    ],
-    "correctIndex": 2,
-    "explanation": "7 provincial assemblies.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q32",
-    "question": "When is the FIFA World Cup 2026 final scheduled?",
-    "options": [
-      "July 17, 2026",
-      "July 18, 2026",
-      "July 19, 2026",
-      "July 20, 2026"
-    ],
-    "correctIndex": 2,
-    "explanation": "The FIFA World Cup 2026 final is scheduled for July 19, 2026. It is the 23rd edition, from June 11 to July 19, with 48 participating countries (previously 32).",
-    "subject": "GK"
-  },
-  {
-    "id": "q33",
-    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
-    "options": [
-      "Sound",
-      "Hearing",
-      "Noise",
-      "Music"
-    ],
-    "correctIndex": 1,
-    "explanation": "Eye is for vision, Ear is for hearing.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q34",
-    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
-    "options": [
-      "Rs. 25000",
-      "Rs. 30000",
-      "Rs. 35000",
-      "Rs. 40000"
-    ],
-    "correctIndex": 1,
-    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q35",
-    "question": "Next in series: 2, 6, 12, 20, 30, ?",
-    "options": [
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "correctIndex": 2,
-    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q36",
-    "question": "Which is the lowest point in Australia?",
-    "options": [
-      "Lake Assal",
-      "Dead Sea",
-      "Lake Eyre",
-      "Death Valley"
-    ],
-    "correctIndex": 2,
-    "explanation": "Lake Eyre is the lowest point in Australia. Lake Assal = Africa, Dead Sea = Asia, Death Valley = South America.",
-    "subject": "GK"
-  },
-  {
-    "id": "q37",
-    "question": "Which province has the highest number of schools in Nepal?",
-    "options": [
-      "Karnali",
-      "Bagmati",
-      "Koshi",
-      "Madhesh"
-    ],
-    "correctIndex": 2,
-    "explanation": "Koshi Province has the most schools. Karnali has the fewest, Bagmati has the most teachers, and Madhesh has the most students.",
-    "subject": "GK"
-  },
-  {
-    "id": "q38",
     "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
     "options": [
       "18 days",
@@ -494,59 +130,228 @@
     "subject": "MATH"
   },
   {
-    "id": "q39",
-    "question": "What is the Dhimal priest called?",
+    "id": "q11",
+    "question": "Which district is Halesi Mahadev located in?",
     "options": [
-      "Guju",
-      "Bhusal",
-      "Lama",
-      "Barang"
+      "Khotang",
+      "Okhaldhunga",
+      "Bhojpur",
+      "Solukhumbu"
     ],
-    "correctIndex": 3,
-    "explanation": "Dhimal priest = Barang. Newar=Guju, Magar=Bhusal, Tamang=Lama.",
+    "correctIndex": 0,
+    "explanation": "Halesi Mahadev is located in Khotang district of Koshi Province.",
     "subject": "GK"
   },
   {
-    "id": "q40",
-    "question": "Who invented the television?",
+    "id": "q12",
+    "question": "What is the fear of books called?",
     "options": [
-      "Martin Cooper",
-      "John Baird",
-      "Johannes Gutenberg",
-      "Alfred Nobel"
+      "Amrophobia",
+      "Pyrophobia",
+      "Bibliophobia",
+      "Gamophobia"
     ],
-    "correctIndex": 1,
-    "explanation": "John Baird invented the television. Martin Cooper = mobile phone. Johannes Gutenberg = printing press. Alfred Nobel = dynamite.",
+    "correctIndex": 2,
+    "explanation": "Bibliophobia = fear of books. Pyrophobia = fear of fire. Amrophobia = fear of rain. Gamophobia = fear of marriage.",
     "subject": "SCIENCE"
   },
   {
-    "id": "q41",
-    "question": "Which body prevents corruption in Nepal?",
+    "id": "q13",
+    "question": "Which community counts a child as one year old immediately after birth?",
     "options": [
-      "Election Commission",
-      "Public Service Commission",
-      "CIAA",
-      "NHRC"
+      "Danuwar",
+      "Sherpa",
+      "Dura",
+      "Byasi"
     ],
-    "correctIndex": 2,
-    "explanation": "CIAA (Commission for Investigation of Abuse of Authority).",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q42",
-    "question": "The Chhath festival is mainly celebrated by which community?",
-    "options": [
-      "Maithili community",
-      "Hindus",
-      "Buddhists",
-      "Sherpa community"
-    ],
-    "correctIndex": 0,
-    "explanation": "The Chhath festival is mainly celebrated by the Maithili community. Hindus = Dashain, Tihar, etc. Buddhists = Buddha Jayanti. Sherpas = Losar.",
+    "correctIndex": 1,
+    "explanation": "Sherpa counts child as 1 year at birth. Danuwar=chicken blood wash, Dura=rooster/hen.",
     "subject": "GK"
   },
   {
-    "id": "q43",
+    "id": "q14",
+    "question": "What is the average life expectancy in Koshi Province?",
+    "options": [
+      "61.5 years",
+      "80.8 years",
+      "70.4 years",
+      "82 years"
+    ],
+    "correctIndex": 2,
+    "explanation": "Average life expectancy in Koshi Province is 70.4 years. 61.5 = family planning usage rate. 80.8 = full immunization rate. 82 = institutional delivery rate.",
+    "subject": "GK"
+  },
+  {
+    "id": "q15",
+    "question": "What does the term 'Kariya Mochan' refer to?",
+    "options": [
+      "Sati Pratha",
+      "Slavery (Das Pratha)",
+      "Child Marriage",
+      "Polygamy"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Kariya Mochan' refers to the abolition of the slavery (Das Pratha) system in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q16",
+    "question": "When was the Panchayat system formally started in Nepal?",
+    "options": [
+      "2017 Push 1",
+      "2019 Push 1",
+      "2015 Falgun 7",
+      "2046 Chaitra 26"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Panchayat system was formally started on 2019 Push 1. 2017 Push 1 = royal coup by Mahendra. 2015 Falgun 7 = Democracy Day. 2046 Chaitra 26 = 1990 democracy movement.",
+    "subject": "GK"
+  },
+  {
+    "id": "q17",
+    "question": "What percentage of Provincial Assembly members are elected proportionally?",
+    "options": [
+      "40%",
+      "60%",
+      "50%",
+      "33%"
+    ],
+    "correctIndex": 0,
+    "explanation": "40% of Provincial Assembly members are elected through proportional representation. 60% are directly elected.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q18",
+    "question": "Where was the 9th Indian Ocean Conference 2026 held?",
+    "options": [
+      "Laos",
+      "India",
+      "Mauritius",
+      "Nepal"
+    ],
+    "correctIndex": 2,
+    "explanation": "Held in Mauritius, April 10-12, 2026.",
+    "subject": "GK"
+  },
+  {
+    "id": "q19",
+    "question": "What is the scientific name of Vitamin A?",
+    "options": [
+      "Thiamine",
+      "Retinol",
+      "Tocopherol",
+      "Calciferol"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vitamin A's scientific name is Retinol. Vitamin B = Thiamine, Vitamin E = Tocopherol, Vitamin D = Calciferol.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q20",
+    "question": "When was Shey Phoksundo National Park (Nepal's largest) established?",
+    "options": [
+      "2040 BS",
+      "2050 BS",
+      "2045 BS",
+      "2035 BS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Shey Phoksundo National Park was established in 2040 BS. It is Nepal's largest national park (2,712 sq km, Dolpa district). The smallest is Rara National Park (106 sq km, Mugu district), established in 2032 BS.",
+    "subject": "GK"
+  },
+  {
+    "id": "q21",
+    "question": "Who became the new Prime Minister of Bangladesh in 2026?",
+    "options": [
+      "Khaleda Zia",
+      "Sheikh Hasina",
+      "Mohammad Yunus",
+      "Tariq Rahman"
+    ],
+    "correctIndex": 3,
+    "explanation": "Tariq Rahman was appointed Prime Minister on February 17, 2026.",
+    "subject": "GK"
+  },
+  {
+    "id": "q22",
+    "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
+    "options": [
+      "214673",
+      "246173",
+      "214763",
+      "216473"
+    ],
+    "correctIndex": 0,
+    "explanation": "R=6,O=8,S=2,E=1,C=7,H=3,A=4,I=5,P=9. SEARCH=S(2)+E(1)+A(4)+R(6)+C(7)+H(3)=214673.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q23",
+    "question": "Which country has three capital cities?",
+    "options": [
+      "Indonesia",
+      "Cape Verde",
+      "Mauritius",
+      "South Africa"
+    ],
+    "correctIndex": 3,
+    "explanation": "South Africa has three capital cities: Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial).",
+    "subject": "GK"
+  },
+  {
+    "id": "q24",
+    "question": "Which article guarantees Right to Equality?",
+    "options": [
+      "Article 16",
+      "Article 17",
+      "Article 18",
+      "Article 20"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 18 guarantees Right to Equality.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q25",
+    "question": "In which district is Kamini Lake located?",
+    "options": [
+      "Rupandehi",
+      "Palpa",
+      "Nawalparasi",
+      "Bara"
+    ],
+    "correctIndex": 3,
+    "explanation": "Kamini Lake is located in Bara district.",
+    "subject": "GK"
+  },
+  {
+    "id": "q26",
+    "question": "Which is Nepal's largest province by area?",
+    "options": [
+      "Bagmati",
+      "Lumbini",
+      "Karnali",
+      "Sudurpashchim"
+    ],
+    "correctIndex": 2,
+    "explanation": "Karnali (27,984 sq km, 19% of Nepal).",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "How many districts are there in Gandaki Province?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gandaki Province has 11 districts.",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
     "question": "If A is brother of B, B is sister of C, C is father of D. How is A related to D?",
     "options": [
       "Uncle",
@@ -559,94 +364,289 @@
     "subject": "IQ"
   },
   {
-    "id": "q44",
-    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
+    "id": "q29",
+    "question": "Which Lichhavi king went to take refuge in Tibet?",
     "options": [
-      "20",
-      "24",
-      "32",
-      "40"
+      "Gunakamadev",
+      "Narendra Dev",
+      "Uday Dev",
+      "Shivadev Pratham"
+    ],
+    "correctIndex": 2,
+    "explanation": "Uday Dev went to Tibet for refuge. Narendra Dev = started window decoration tradition. Gunakamadev = settled Kantipur (built Kathmandu). Shivadev Pratham = settled Kirtipur.",
+    "subject": "GK"
+  },
+  {
+    "id": "q30",
+    "question": "What is Nepal's area in square miles?",
+    "options": [
+      "48,006.67 sq miles",
+      "56,287 sq miles",
+      "249,917 sq miles",
+      "56,278 sq miles"
     ],
     "correctIndex": 1,
-    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
+    "explanation": "Nepal's area is 56,287 square miles (approximately 147,181 sq km). 249,917 sq km was Nepal's area before the Sugauli Treaty.",
+    "subject": "GK"
+  },
+  {
+    "id": "q31",
+    "question": "What is the area of Kanchenjunga Conservation Area?",
+    "options": [
+      "1835 sq km",
+      "1935 sq km",
+      "2035 sq km",
+      "2135 sq km"
+    ],
+    "correctIndex": 2,
+    "explanation": "Kanchenjunga Conservation Area covers 2035 square kilometers.",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
+    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
+    "options": [
+      "3",
+      "14",
+      "17",
+      "21"
+    ],
+    "correctIndex": 1,
+    "explanation": "14 is the only even number.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q33",
+    "question": "When was Nepal declared untouchability-free?",
+    "options": [
+      "2063 Jestha 20",
+      "2063 Jestha 21",
+      "2063 Jestha 22",
+      "2063 Jestha 23"
+    ],
+    "correctIndex": 1,
+    "explanation": "Declared on 2063 Jestha 21.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q34",
+    "question": "What is the hardest natural substance on Earth?",
+    "options": [
+      "Gold",
+      "Iron",
+      "Diamond",
+      "Platinum"
+    ],
+    "correctIndex": 2,
+    "explanation": "Diamond is the hardest natural substance.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q35",
+    "question": "Which is the lowest point in Australia?",
+    "options": [
+      "Lake Assal",
+      "Dead Sea",
+      "Lake Eyre",
+      "Death Valley"
+    ],
+    "correctIndex": 2,
+    "explanation": "Lake Eyre is the lowest point in Australia. Lake Assal = Africa, Dead Sea = Asia, Death Valley = South America.",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "Which continent has been most researched by scientists?",
+    "options": [
+      "Africa",
+      "North America",
+      "Antarctica",
+      "South America"
+    ],
+    "correctIndex": 2,
+    "explanation": "Antarctica is the most researched continent by scientists. Africa = largest diamond mines, North America = most coastline, South America = continent of birds.",
+    "subject": "GK"
+  },
+  {
+    "id": "q37",
+    "question": "Who started the Rato Machhindranath Jatra (festival)?",
+    "options": [
+      "Pratap Malla",
+      "Narendradev",
+      "Ratna Malla",
+      "Bhupatindra Malla"
+    ],
+    "correctIndex": 1,
+    "explanation": "Narendradev started the Rato Machhindranath Jatra. Pratap Malla = started Seto Machhindranath Jatra. Ratna Malla = introduced copper coins. Bhupatindra Malla = built 55-window palace in Bhaktapur.",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "Which country has the world's shortest constitution?",
+    "options": [
+      "America",
+      "Britain",
+      "India",
+      "China"
+    ],
+    "correctIndex": 0,
+    "explanation": "America has the world's shortest constitution with only 7 articles. Article 1 = Legislature, Article 7 = Ratification.",
+    "subject": "GK"
+  },
+  {
+    "id": "q39",
+    "question": "Which place is Nepal's southernmost point?",
+    "options": [
+      "Jhapa's Dhulabari",
+      "Jhapa's Lodabari",
+      "Jhapa's Godawari",
+      "Jhapa's Urlabari"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nepal's southernmost point is Jhapa's Lodabari. Eastern = Taplejung's Leleph. Western = Kanchanpur's Dodhara. Northern = Humla's Chemla.",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "Who was the last king of the Kirat period?",
+    "options": [
+      "Jayakamadev",
+      "Aakshay Gupta",
+      "Bhuvan Singh",
+      "Gasti"
+    ],
+    "correctIndex": 3,
+    "explanation": "Gasti was the last king of the Kirat period. Bhuvan Singh = last king of Maheshpal dynasty. Aakshay Gupta = last king of Gopal dynasty. Jayakamadev = last king of Lichhavi period.",
+    "subject": "GK"
+  },
+  {
+    "id": "q41",
+    "question": "How many languages are used in Gorkhapatra?",
+    "options": [
+      "46",
+      "48",
+      "24",
+      "26"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gorkhapatra now publishes in 48 languages. 47th was Santhali, 48th was Hayu.",
+    "subject": "GK"
+  },
+  {
+    "id": "q42",
+    "question": "If x + 1/x = 3, what is x² + 1/x²?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "11"
+    ],
+    "correctIndex": 0,
+    "explanation": "(x+1/x)² = x²+2+1/x² = 9. So x²+1/x² = 7.",
     "subject": "MATH"
   },
   {
-    "id": "q45",
-    "question": "Which country surrendered first in World War II?",
+    "id": "q43",
+    "question": "What is the contribution of agriculture to Koshi Province's GDP?",
     "options": [
-      "Germany",
-      "Portugal",
-      "Japan",
-      "Italy"
+      "34.05%",
+      "25.16%",
+      "16.05%",
+      "49.9%"
+    ],
+    "correctIndex": 0,
+    "explanation": "Agriculture contributes 34.05% to Koshi's GDP. Nepal's agriculture = 25.16%. Koshi industry = 16.05%. Koshi service = 49.9%. Koshi primary sector = 34.4%.",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "Which of the following economic behaviors has Nepal's economy NOT adopted?",
+    "options": [
+      "Liberal economic policy",
+      "Market economy",
+      "Mixed economy",
+      "State controlling behavior"
     ],
     "correctIndex": 3,
-    "explanation": "Italy surrendered first. Germany was second. Japan surrendered last on August 14, 1945.",
+    "explanation": "Nepal has not adopted state controlling behavior. It follows a mixed economy with liberal and market-oriented policies.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q45",
+    "question": "What is the length of Tribhuvan Highway in kilometers?",
+    "options": [
+      "1027.67 km",
+      "188.79 km",
+      "181.22 km",
+      "112.83 km"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tribhuvan Highway is 188.79 km. Mahendra Highway = 1027.67 km, Siddhartha Highway = 181.22 km, Araniko Highway = 112.83 km.",
     "subject": "GK"
   },
   {
     "id": "q46",
-    "question": "When was the World Health Organization (WHO) established?",
+    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
     "options": [
-      "April 7, 1948",
-      "April 7, 1953",
-      "April 10, 1953",
-      "April 10, 1948"
+      "35",
+      "40",
+      "45",
+      "50"
     ],
-    "correctIndex": 0,
-    "explanation": "WHO was established on April 7, 1948. Headquarters = Geneva, Switzerland. Nepal became a member in 1953.",
-    "subject": "GK"
+    "correctIndex": 2,
+    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
+    "subject": "MATH"
   },
   {
     "id": "q47",
-    "question": "Which is the rainiest place in Nepal?",
+    "question": "Approximately how many civilians were killed in World War II?",
     "options": [
-      "Pokhara",
-      "Lumle",
-      "Kathmandu",
-      "Biratnagar"
+      "1 crore",
+      "2 crore",
+      "3 crore",
+      "4 crore"
     ],
-    "correctIndex": 1,
-    "explanation": "Lumle in Kaski district.",
+    "correctIndex": 0,
+    "explanation": "About 1 crore civilians were killed. Soldiers killed = 1 crore 46 lakh. Wounded = 3 crore 40 lakh. Lives lost = 2 crore 20 lakh. Expenditure = 11,92,000 crore dollars.",
     "subject": "GK"
   },
   {
     "id": "q48",
-    "question": "When was Gandaki Province named?",
+    "question": "When was Nepal selected for the T20 World Cup for the 3rd time?",
     "options": [
-      "2075 Asar 18",
-      "2075 Asar 19",
-      "2075 Asar 22",
-      "2075 Asar 23"
+      "October 15, 2025",
+      "October 13, 2025",
+      "October 11, 2025",
+      "October 9, 2025"
     ],
-    "correctIndex": 2,
-    "explanation": "Named on 2075 Asar 22. On 2075 Asar 18, Pokhara was declared the permanent capital.",
+    "correctIndex": 0,
+    "explanation": "Nepal was selected for the T20 World Cup for the 3rd time on October 15, 2025. Previously selected in 2013 and 2024.",
     "subject": "GK"
   },
   {
     "id": "q49",
-    "question": "Which of the following is the bow of Lord Shiva?",
+    "question": "Which Buddha Jayanti was celebrated in 2082 BS?",
     "options": [
-      "Trishul (Pinak)",
-      "Saarang",
-      "Ajgav",
-      "Gandiv"
+      "2566th",
+      "2577th",
+      "2578th",
+      "2569th"
     ],
-    "correctIndex": 0,
-    "explanation": "Trishul (also called Pinak) is the bow of Lord Shiva. Saarang = bow of Vishnu. Ajgav = bow of Ram. Gandiv = bow of Arjun.",
+    "correctIndex": 3,
+    "explanation": "The 2569th Buddha Jayanti was celebrated in 2082 BS. This commemorates the birth of Siddhartha Gautam (Buddha).",
     "subject": "GK"
   },
   {
     "id": "q50",
-    "question": "When was the first amendment to the Magna Carta made?",
+    "question": "Which gas is most abundant in Earth's atmosphere?",
     "options": [
-      "Feb 11, 1225",
-      "Feb 17, 1217",
-      "Feb 16, 1216",
-      "Feb 10, 1127"
+      "Oxygen",
+      "Carbon Dioxide",
+      "Nitrogen",
+      "Hydrogen"
     ],
     "correctIndex": 2,
-    "explanation": "The first amendment to the Magna Carta was made on February 16, 1216 by Henry III. 2nd amendment = Feb 17, 1217. 3rd amendment = Feb 11, 1225.",
-    "subject": "GK"
+    "explanation": "Nitrogen makes up about 78% of Earth's atmosphere.",
+    "subject": "SCIENCE"
   }
 ]

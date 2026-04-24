@@ -1,175 +1,318 @@
 [
   {
     "id": "q1",
-    "question": "India is the ____th country to enter space.",
+    "question": "What is 25% of 25% of 400?",
     "options": [
-      "5th",
-      "14th",
-      "3rd",
-      "6th"
+      "20",
+      "25",
+      "30",
+      "40"
     ],
-    "correctIndex": 3,
-    "explanation": "India is the 6th country to enter space. Order: Russia, USA, France, Japan, China, India. India is also the 5th country to reach the Moon.",
-    "subject": "GK"
+    "correctIndex": 1,
+    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
+    "subject": "MATH"
   },
   {
     "id": "q2",
-    "question": "When is Language Day celebrated in Nepal?",
+    "question": "What is the average north-south width of Nepal in kilometers?",
     "options": [
-      "Chaitra 30",
-      "Chaitra 28",
-      "Baisakh 1",
-      "Chaitra 29"
+      "200 km",
+      "185 km",
+      "210 km",
+      "193 km"
     ],
     "correctIndex": 3,
-    "explanation": "Language Day is celebrated on Chaitra 29 for Nepali language promotion.",
+    "explanation": "Nepal's average north-south width is approximately 193 kilometers.",
     "subject": "GK"
   },
   {
     "id": "q3",
-    "question": "Which article guarantees Right to Equality?",
+    "question": "Where is the headquarters of Greenpeace located?",
     "options": [
-      "Article 16",
-      "Article 17",
-      "Article 18",
-      "Article 20"
+      "London",
+      "Amsterdam",
+      "New York",
+      "Paris"
     ],
-    "correctIndex": 2,
-    "explanation": "Article 18 guarantees Right to Equality.",
-    "subject": "CONSTITUTION"
+    "correctIndex": 1,
+    "explanation": "The headquarters of Greenpeace is in Amsterdam, Netherlands.",
+    "subject": "GK"
   },
   {
     "id": "q4",
-    "question": "Where was the FATF meeting held in 2026?",
+    "question": "Manghim and Silauti are religious places of which religion?",
     "options": [
-      "Paris",
-      "London",
-      "Bangkok",
-      "Washington DC"
+      "Sikh",
+      "Jewish",
+      "Jain",
+      "Kirant"
     ],
-    "correctIndex": 2,
-    "explanation": "The FATF meeting in 2026 was held in Bangkok, Thailand on January 6. Nepal was represented by Bishwanath Paudel.",
+    "correctIndex": 3,
+    "explanation": "Kirant. Sikh=Gurudwara, Jewish=Fire Temple, Jain=Jain Temple.",
     "subject": "GK"
   },
   {
     "id": "q5",
-    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
+    "question": "According to the 7th Agriculture Census 2078, what percentage of families are engaged in agriculture?",
     "options": [
-      "STATION",
-      "TRADITION",
-      "MINISTER",
-      "RATION"
+      "4.4%",
+      "70.4%",
+      "11.7%",
+      "62%"
     ],
-    "correctIndex": 2,
-    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
-    "subject": "IQ"
+    "correctIndex": 3,
+    "explanation": "62% of families are engaged in agriculture. 4.4% have crop insurance, 70.4% have agriculture as main source, 11.7% took loans for agriculture.",
+    "subject": "GK"
   },
   {
     "id": "q6",
-    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
+    "question": "Who propounded the Laws of Heredity?",
     "options": [
-      "32",
-      "40",
-      "20",
-      "24"
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "Alexander Fleming"
     ],
-    "correctIndex": 3,
-    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
-    "subject": "MATH"
+    "correctIndex": 1,
+    "explanation": "Gregor Mendel propounded the Laws of Heredity through his experiments with pea plants.",
+    "subject": "SCIENCE"
   },
   {
     "id": "q7",
-    "question": "When was Nepal's first AI center established?",
+    "question": "In which district is the Lepcha community's main settlement?",
     "options": [
-      "2082 Kartik 25",
-      "2082 Kartik 26",
-      "2082 Kartik 23",
-      "2082 Kartik 24"
+      "Morang",
+      "Gorkha",
+      "Jhapa",
+      "Ilam"
     ],
     "correctIndex": 3,
-    "explanation": "Established on 2082 Kartik 24 by Jagadish Kharel.",
+    "explanation": "Lepcha in Ilam. Dhimal in Morang, Chonara in Gorkha, Kisan in Jhapa.",
     "subject": "GK"
   },
   {
     "id": "q8",
-    "question": "When was the Narcotic Drugs Control Act enacted?",
+    "question": "Which place is known as the meeting point of six hills in Koshi Province?",
     "options": [
-      "2045 BS",
-      "2050 BS",
-      "2028 BS",
-      "2033 BS"
+      "Kichak Badhai",
+      "Salleri",
+      "Bhedetar",
+      "Namche Bazaar"
     ],
-    "correctIndex": 3,
-    "explanation": "The Narcotic Drugs Control Act was enacted in 2033 BS.",
-    "subject": "CONSTITUTION"
+    "correctIndex": 2,
+    "explanation": "Bhedetar in Dhankuta is known as the meeting point of six hills.",
+    "subject": "GK"
   },
   {
     "id": "q9",
-    "question": "Which country won the first Kho Kho World Cup 2025?",
+    "question": "Which is the hottest place in Nepal?",
     "options": [
-      "Sri Lanka",
-      "Pakistan",
-      "Nepal",
-      "India"
+      "Birgunj",
+      "Nepalgunj",
+      "Bhairahawa",
+      "Janakpur"
     ],
-    "correctIndex": 3,
-    "explanation": "India won the first Kho Kho World Cup 2025 in both men's and women's categories. Nepal was the runner-up in both.",
+    "correctIndex": 1,
+    "explanation": "Nepalgunj is the hottest.",
     "subject": "GK"
   },
   {
     "id": "q10",
-    "question": "Which event is considered the starting point of World War II?",
+    "question": "How many articles are in the Constitution of Nepal 2072?",
     "options": [
-      "Battle of Stalingrad",
-      "D-Day landing",
-      "Attack on Pearl Harbor",
-      "Germany's invasion of Poland"
+      "280",
+      "295",
+      "308",
+      "325"
     ],
-    "correctIndex": 3,
-    "explanation": "Germany's invasion of Poland on September 1, 1939 is considered the starting point of WWII.",
-    "subject": "GK"
+    "correctIndex": 2,
+    "explanation": "308 articles, 35 parts, 9 schedules.",
+    "subject": "CONSTITUTION"
   },
   {
     "id": "q11",
-    "question": "With which SAARC country does Nepal have the maximum time difference?",
+    "question": "When did Iran's Supreme Leader Ayatollah Ali Khamenei pass away?",
     "options": [
-      "Sri Lanka",
-      "Maldives",
-      "Pakistan",
-      "Afghanistan"
+      "March 5, 2026",
+      "March 9, 2026",
+      "February 28, 2026",
+      "March 1, 2026"
     ],
     "correctIndex": 3,
-    "explanation": "Afghanistan has the maximum time difference with Nepal (1 hour 15 minutes behind). Pakistan = 45 min behind, Sri Lanka = 15 min behind, India = 15 min behind, Maldives = 45 min behind.",
+    "explanation": "Ayatollah Khamenei passed away on March 1, 2026. USA-Israel attacked Iran on Feb 28, and his son was chosen as new leader on March 9.",
     "subject": "GK"
   },
   {
     "id": "q12",
-    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
+    "question": "Who was the Prime Minister when Nepal was divided into 7 districts ( provinces)?",
     "options": [
-      "35",
-      "40",
-      "45",
-      "50"
+      "Sher Bahadur Deuba",
+      "Pushpa Kamal Dahal",
+      "KP Sharma Oli",
+      "Sushil Koirala"
     ],
-    "correctIndex": 2,
-    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
-    "subject": "MATH"
+    "correctIndex": 0,
+    "explanation": "Sher Bahadur Deuba was PM when 7 districts were established on 2074 Bhadra 5. Sushil Koirala was PM when 7 provinces were established on 2072 Asar 3.",
+    "subject": "GK"
   },
   {
     "id": "q13",
-    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
+    "question": "Which is the only SAARC country without a river?",
     "options": [
-      "DIBJT",
-      "DJBIS",
-      "DIBJS",
-      "BDJIS"
+      "Maldives",
+      "Bhutan",
+      "Pakistan",
+      "Bangladesh"
     ],
-    "correctIndex": 2,
-    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
-    "subject": "IQ"
+    "correctIndex": 0,
+    "explanation": "Maldives is the only SAARC country without a river. Bhutan = no written constitution. Pakistan = first SAARC country to implement VAT. Bangladesh = first SAARC country to ban plastic.",
+    "subject": "GK"
   },
   {
     "id": "q14",
+    "question": "In which community do people drink alcohol after carrying a dead body?",
+    "options": [
+      "Kushbadia",
+      "Raute",
+      "Thami",
+      "Lepcha"
+    ],
+    "correctIndex": 0,
+    "explanation": "Kushbadia = drink after burial. Raute=move place, Thami=chautara, Lepcha=water wash.",
+    "subject": "GK"
+  },
+  {
+    "id": "q15",
+    "question": "Where will the 10th National Games be held?",
+    "options": [
+      "Koshi Province",
+      "Bagmati Province",
+      "Lumbini Province",
+      "Karnali Province"
+    ],
+    "correctIndex": 3,
+    "explanation": "The 10th National Games will be held in Karnali Province.",
+    "subject": "GK"
+  },
+  {
+    "id": "q16",
+    "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
+    "options": [
+      "214673",
+      "246173",
+      "214763",
+      "216473"
+    ],
+    "correctIndex": 0,
+    "explanation": "R=6,O=8,S=2,E=1,C=7,H=3,A=4,I=5,P=9. SEARCH=S(2)+E(1)+A(4)+R(6)+C(7)+H(3)=214673.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q17",
+    "question": "Which of the following industrial areas was built with India's help?",
+    "options": [
+      "Bhaktapur Industrial Area",
+      "Hetauda Industrial Area",
+      "Patan Industrial Area",
+      "Birendranagar Industrial Area"
+    ],
+    "correctIndex": 2,
+    "explanation": "Patan Industrial Area was built with India's help.",
+    "subject": "GK"
+  },
+  {
+    "id": "q18",
+    "question": "Who was the Emerging Player in NPL 2025 (2nd edition)?",
+    "options": [
+      "Sher Malla",
+      "Sandeep Lamichhane",
+      "Rohit Paudel",
+      "Avinash Bohara"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sher Malla was the Emerging Player. Sandeep=Best Bowler, Rohit=Best Batsman.",
+    "subject": "GK"
+  },
+  {
+    "id": "q19",
+    "question": "Which philosopher said 'Religion is knowledge and knowledge is religion'?",
+    "options": [
+      "Plato",
+      "Socrates",
+      "Aristotle",
+      "Confucius"
+    ],
+    "correctIndex": 1,
+    "explanation": "Socrates said this.",
+    "subject": "GK"
+  },
+  {
+    "id": "q20",
+    "question": "Who was appointed as the first female chairperson of the Nepal Insurance Authority?",
+    "options": [
+      "Chandrakala Paudel",
+      "Sabita Sharma",
+      "Rama Ghimire",
+      "Manju Devkota"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chandrakala Paudel was appointed as the first female chairperson of Nepal Insurance Authority on 2082 Magh 13.",
+    "subject": "GK"
+  },
+  {
+    "id": "q21",
+    "question": "Where was the 22nd International Tax Conference 2025 held?",
+    "options": [
+      "Nepal",
+      "India",
+      "Sri Lanka",
+      "Maldives"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 22nd International Tax Conference 2025 was held in Nepal from 2082 Mangsir 2 to 5.",
+    "subject": "GK"
+  },
+  {
+    "id": "q22",
+    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
+    "options": [
+      "3",
+      "14",
+      "17",
+      "21"
+    ],
+    "correctIndex": 1,
+    "explanation": "14 is the only even number.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q23",
+    "question": "Under the OVOP program, which district was selected for turmeric (besar)?",
+    "options": [
+      "Bajura",
+      "Salyan",
+      "Banke",
+      "Sunsari"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sunsari was selected for turmeric. Bajura = olive, Salyan = ginger (also Palpa), Banke = lentils (musuro).",
+    "subject": "GK"
+  },
+  {
+    "id": "q24",
+    "question": "Which is the world's largest peninsula?",
+    "options": [
+      "Indian Peninsula",
+      "Arabian Peninsula",
+      "Malay Peninsula",
+      "Iberian Peninsula"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Arabian Peninsula is the world's largest peninsula.",
+    "subject": "GK"
+  },
+  {
+    "id": "q25",
     "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
     "options": [
       "A",
@@ -182,225 +325,82 @@
     "subject": "IQ"
   },
   {
-    "id": "q15",
-    "question": "Where was the Rio+5 Summit held?",
-    "options": [
-      "Brazil",
-      "Japan",
-      "Indonesia",
-      "South Africa"
-    ],
-    "correctIndex": 1,
-    "explanation": "The Rio+5 Summit was held in Japan. Rio+10 = Brazil (Rio de Janeiro), Rio+50 = Indonesia (Bali), Rio+10 (Johannesburg) = South Africa.",
-    "subject": "GK"
-  },
-  {
-    "id": "q16",
-    "question": "What was the slogan of World Health Day 2026?",
-    "options": [
-      "Our Planet Our Earth",
-      "Support Nurses and Midwives",
-      "Together for Health, Stand with Science",
-      "Help for All"
-    ],
-    "correctIndex": 2,
-    "explanation": "World Health Day is celebrated every year on April 7 since 1950.",
-    "subject": "GK"
-  },
-  {
-    "id": "q17",
-    "question": "Which body prevents corruption in Nepal?",
-    "options": [
-      "Election Commission",
-      "Public Service Commission",
-      "CIAA",
-      "NHRC"
-    ],
-    "correctIndex": 2,
-    "explanation": "CIAA (Commission for Investigation of Abuse of Authority).",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q18",
-    "question": "When did Prithvi Narayan Shah attack Patan?",
-    "options": [
-      "Vikram Sambat 1825 Aswin 24",
-      "Vikram Sambat 1826 Mangshir 1",
-      "Vikram Sambat 1826 Chaitra 10",
-      "Vikram Sambat 1831 Magh 1"
-    ],
-    "correctIndex": 0,
-    "explanation": "Prithvi Narayan Shah attacked Patan on Vikram Sambat 1825 Aswin 24. Attacked Bhaktapur on 1826 Mangshir 1. Declared Kathmandu as capital on 1826 Chaitra 10. Died on 1831 Magh 1 at Devighat, Nuwakot due to a tiger attack.",
-    "subject": "GK"
-  },
-  {
-    "id": "q19",
-    "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
-    "options": [
-      "RTSIFD",
-      "RTSHFD",
-      "RTSIEC",
-      "RTSIFC"
-    ],
-    "correctIndex": 0,
-    "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q20",
-    "question": "How many provincial assemblies are there in Nepal?",
-    "options": [
-      "5",
-      "6",
-      "7",
-      "8"
-    ],
-    "correctIndex": 2,
-    "explanation": "7 provincial assemblies.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q21",
-    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
-    "options": [
-      "Rs. 25000",
-      "Rs. 30000",
-      "Rs. 35000",
-      "Rs. 40000"
-    ],
-    "correctIndex": 1,
-    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q22",
-    "question": "In which community do families fight during marriage?",
-    "options": [
-      "Thami",
-      "Limbu",
-      "Kumal",
-      "Jhangad"
-    ],
-    "correctIndex": 2,
-    "explanation": "Kumal = fight during marriage. Thami=marriage after death, Limbu=fire guns, Jhangad=exchange sindur.",
-    "subject": "GK"
-  },
-  {
-    "id": "q23",
-    "question": "Who was the King of Britain during the Glorious Revolution?",
-    "options": [
-      "James II",
-      "Nicholas II",
-      "Charles II",
-      "John II"
-    ],
-    "correctIndex": 0,
-    "explanation": "James II was King during the Glorious Revolution (1688). Nicholas II was Russian Tsar during the Russian Revolution.",
-    "subject": "GK"
-  },
-  {
-    "id": "q24",
-    "question": "Which country won the most medals in the Winter Olympics 2026?",
-    "options": [
-      "Norway",
-      "USA",
-      "Netherlands",
-      "Canada"
-    ],
-    "correctIndex": 0,
-    "explanation": "Norway won the most medals. USA was 2nd, Netherlands 3rd. Hosted by Italy from Feb 6-22, 2026.",
-    "subject": "GK"
-  },
-  {
-    "id": "q25",
-    "question": "What is the average north-south width of Nepal in kilometers?",
-    "options": [
-      "193 km",
-      "200 km",
-      "185 km",
-      "210 km"
-    ],
-    "correctIndex": 0,
-    "explanation": "Nepal's average north-south width is approximately 193 kilometers.",
-    "subject": "GK"
-  },
-  {
     "id": "q26",
-    "question": "Which district has Nepal's narrowest airport?",
+    "question": "What is the highest peak of the Chure (Siwalik) range in Nepal?",
     "options": [
-      "Solukhumbu",
-      "Dolakha",
-      "Mugu",
-      "Mustang"
+      "Fusang",
+      "Haripur",
+      "Langtang",
+      "Garba"
     ],
-    "correctIndex": 1,
-    "explanation": "Dolakha has Nepal's narrowest airport (Jiri Airport, only 18 meters wide). Highest airport = Syangboche (Solukhumbu). Most dangerous = Lukla (Solukhumbu). Lowest = Biratnagar (Morang).",
+    "correctIndex": 3,
+    "explanation": "Garba is the highest peak of the Chure (Siwalik) range in Nepal.",
     "subject": "GK"
   },
   {
     "id": "q27",
-    "question": "What is the term length of Nepal's President?",
+    "question": "In which Asian country is the world's largest hydropower project?",
     "options": [
-      "3 years",
-      "4 years",
-      "5 years",
-      "6 years"
+      "India",
+      "Nepal",
+      "China",
+      "Bhutan"
     ],
     "correctIndex": 2,
-    "explanation": "5 years.",
-    "subject": "CONSTITUTION"
+    "explanation": "China has the world's largest hydropower project.",
+    "subject": "GK"
   },
   {
     "id": "q28",
-    "question": "How many physiographic regions is Nepal divided into?",
+    "question": "Who led the Russian Revolution of 1905?",
     "options": [
-      "5",
-      "3",
-      "7",
-      "4"
+      "Nicholas II",
+      "Father Gapon",
+      "Bolshevik Party",
+      "Lenin's Red Army"
     ],
     "correctIndex": 1,
-    "explanation": "Physiographically, Nepal is divided into 3 regions: Mountain (Himal), Hill (Pahad), and Terai (Plain).",
+    "explanation": "Father Gapon led the Russian Revolution of 1905. Nicholas II = Tsar at the time. Bolshevik Party = heroes of the revolution. Red Army = Lenin's army.",
     "subject": "GK"
   },
   {
     "id": "q29",
-    "question": "If square area = 625 sq.m, what is the perimeter?",
+    "question": "When was Gandaki Province named?",
     "options": [
-      "80m",
-      "90m",
-      "100m",
-      "120m"
+      "2075 Asar 18",
+      "2075 Asar 19",
+      "2075 Asar 22",
+      "2075 Asar 23"
     ],
     "correctIndex": 2,
-    "explanation": "Side=25m. Perimeter=4×25=100m.",
-    "subject": "MATH"
+    "explanation": "Named on 2075 Asar 22. On 2075 Asar 18, Pokhara was declared the permanent capital.",
+    "subject": "GK"
   },
   {
     "id": "q30",
-    "question": "When did the Kathmandu-Bhaktapur trolley bus service start?",
+    "question": "Which Malla king is known by the title 'Kavi Chunamani Samrat'?",
     "options": [
-      "2030 BS Push 14",
-      "2032 BS Push 14",
-      "2035 BS Push 14",
-      "2040 BS Push 14"
+      "Pratap Malla",
+      "Yaksha Malla",
+      "Jayasthiti Malla",
+      "Bhupalendra Malla"
     ],
-    "correctIndex": 1,
-    "explanation": "The trolley bus service started on 2032 BS Push 14.",
+    "correctIndex": 3,
+    "explanation": "Bhupalendra Malla = Kavi Chunamani Samrat. Pratap Malla = scholar of 15 languages, wrote 'Kavindra'. Yaksha Malla = Nepal Mandaleshwar. Jayasthiti Malla = social reformer.",
     "subject": "GK"
   },
   {
     "id": "q31",
-    "question": "What is the powerhouse of the cell?",
+    "question": "The deepest part of the Indian Ocean is near which country?",
     "options": [
-      "Nucleus",
-      "Ribosome",
-      "Mitochondria",
-      "Golgi body"
+      "America",
+      "Philippines",
+      "Indonesia",
+      "Russia"
     ],
     "correctIndex": 2,
-    "explanation": "Mitochondria produces ATP.",
-    "subject": "SCIENCE"
+    "explanation": "Java Trench (Indian Ocean's deepest) is near Indonesia. Puerto Rico Trench = Atlantic (near America). Mariana Trench = Pacific (near Philippines). Molloy Deep = Arctic (near Russia).",
+    "subject": "GK"
   },
   {
     "id": "q32",
@@ -417,149 +417,175 @@
   },
   {
     "id": "q33",
-    "question": "Which country is called the 'Buffer Zone of Europe'?",
+    "question": "If x + 1/x = 3, what is x² + 1/x²?",
     "options": [
-      "Britain",
-      "Turkey",
-      "Switzerland",
-      "Belgium"
+      "7",
+      "8",
+      "9",
+      "11"
     ],
-    "correctIndex": 3,
-    "explanation": "Belgium is called the Buffer Zone of Europe. Britain = Queen of the Seas, Turkey = Sick Man of Europe, Switzerland = Playground of Europe.",
-    "subject": "GK"
+    "correctIndex": 0,
+    "explanation": "(x+1/x)² = x²+2+1/x² = 9. So x²+1/x² = 7.",
+    "subject": "MATH"
   },
   {
     "id": "q34",
-    "question": "Who built the Changunarayan Temple?",
+    "question": "Palam is a folk song of which community?",
     "options": [
-      "Mandev",
-      "Amshuverma",
-      "Bhrikuti",
-      "Narasingh Dev"
+      "Sherpa",
+      "Tamang",
+      "Limbu",
+      "Gandharva"
     ],
-    "correctIndex": 0,
-    "explanation": "Changunarayan Temple was built by King Mandev.",
+    "correctIndex": 2,
+    "explanation": "Palam is a Limbu folk song. Sherpa=Syabu, Tamang=Selo, Gandharva=Karkha.",
     "subject": "GK"
   },
   {
     "id": "q35",
-    "question": "When was Nepal selected for the T20 World Cup for the 3rd time?",
+    "question": "How many members are there in Koshi Province Assembly?",
     "options": [
-      "October 15, 2025",
-      "October 13, 2025",
-      "October 11, 2025",
-      "October 9, 2025"
+      "93",
+      "110",
+      "56",
+      "60"
     ],
     "correctIndex": 0,
-    "explanation": "Nepal was selected for the T20 World Cup for the 3rd time on October 15, 2025. Previously selected in 2013 and 2024.",
-    "subject": "GK"
+    "explanation": "Koshi Province Assembly has 93 members: 56 directly elected and 37 proportionally elected.",
+    "subject": "CONSTITUTION"
   },
   {
     "id": "q36",
-    "question": "What was the district cooperative office called during the Lichhavi period?",
+    "question": "Who is the new Deputy Governor of Nepal Rastra Bank?",
     "options": [
-      "Gram",
-      "Vishaya",
-      "Tal",
-      "Charbaat"
+      "Vishwanath Paudel",
+      "Himalaya Shamsher",
+      "Raj Bahadur Budha",
+      "Kiran Pandit"
     ],
-    "correctIndex": 1,
-    "explanation": "District cooperative office was called 'Vishaya'. Gram = small village. Tal = developed village. Charbaat = police.",
+    "correctIndex": 3,
+    "explanation": "Kiran Pandit appointed on 2082 Chaitra 24. Vishwanath Paudel is the 18th Governor.",
     "subject": "GK"
   },
   {
     "id": "q37",
-    "question": "When were diplomatic relations established between Nepal and Kiribati?",
+    "question": "Which place is known as the gateway to Sagarmatha?",
     "options": [
-      "July 17, 2024",
-      "June 17, 2024",
-      "December 17, 2024",
-      "July 18, 2024"
+      "Bhedetar",
+      "Namche Bazaar",
+      "Kichak Badhai",
+      "Salleri"
     ],
-    "correctIndex": 0,
-    "explanation": "Diplomatic relations were established on July 17, 2024. Kiribati is the 183rd country to establish relations with Nepal. Nauru = 182nd (May 2023).",
+    "correctIndex": 1,
+    "explanation": "Namche Bazaar is known as the gateway to Sagarmatha (Mount Everest).",
     "subject": "GK"
   },
   {
     "id": "q38",
-    "question": "Who is known as the 'Father of Experiment'?",
+    "question": "Which planet is called the 'Golden Planet'?",
     "options": [
-      "Charles Babbage",
-      "Archimedes",
-      "Michael Faraday",
-      "Albert Einstein"
+      "Saturn",
+      "Neptune",
+      "Uranus",
+      "Jupiter"
     ],
-    "correctIndex": 1,
-    "explanation": "Archimedes is known as the Father of Experiment. Charles Babbage = Father of Computer. Michael Faraday = Father of Electronics.",
+    "correctIndex": 0,
+    "explanation": "Saturn is called the Golden Planet. Neptune = planet of the water god, Uranus = failed star, Jupiter = God of sky and lightning.",
     "subject": "SCIENCE"
   },
   {
     "id": "q39",
-    "question": "Bel marriage (Ihi) is a tradition of which caste?",
+    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
     "options": [
-      "Gurung",
-      "Newar",
-      "Tamang",
-      "Magar"
+      "20",
+      "24",
+      "32",
+      "40"
     ],
     "correctIndex": 1,
-    "explanation": "Bel marriage (Ihi) is a Newar tradition.",
-    "subject": "GK"
+    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
+    "subject": "MATH"
   },
   {
     "id": "q40",
-    "question": "Which SAARC country has never hosted a SAARC Summit so far?",
+    "question": "What is the term length of Nepal's President?",
     "options": [
-      "Bhutan",
-      "Afghanistan",
-      "Pakistan",
-      "Nepal"
+      "3 years",
+      "4 years",
+      "5 years",
+      "6 years"
     ],
-    "correctIndex": 1,
-    "explanation": "Afghanistan has never hosted a SAARC Summit. Bhutan = hosted once. Pakistan = hosted twice. Nepal = hosted three times (11th, 18th, etc.).",
-    "subject": "GK"
+    "correctIndex": 2,
+    "explanation": "5 years.",
+    "subject": "CONSTITUTION"
   },
   {
     "id": "q41",
-    "question": "Who was the Emerging Player in NPL 2025 (2nd edition)?",
+    "question": "Which establishment day did the Commission for the Investigation of Abuse of Authority (CIAA) celebrate in 2082 BS?",
     "options": [
-      "Sher Malla",
-      "Sandeep Lamichhane",
-      "Rohit Paudel",
-      "Avinash Bohara"
+      "40th",
+      "35th",
+      "30th",
+      "25th"
     ],
-    "correctIndex": 0,
-    "explanation": "Sher Malla was the Emerging Player. Sandeep=Best Bowler, Rohit=Best Batsman.",
+    "correctIndex": 2,
+    "explanation": "CIAA celebrated its 30th establishment day in 2082 BS on Magh 28.",
     "subject": "GK"
   },
   {
     "id": "q42",
-    "question": "Who was the first Governor of Gandaki Province?",
+    "question": "Who is the 18th Governor of Nepal Rastra Bank?",
     "options": [
-      "Baburam Kuwar",
-      "Krishna Chandra Pokharel",
-      "Netranath Adhikari",
-      "Bishnu Prasad Nepal"
+      "Yuba Raj Khatiwada",
+      "Maha Prasad Adhikari",
+      "Vishwanath Paudel",
+      "Himalaya Shamsher"
     ],
-    "correctIndex": 0,
-    "explanation": "Baburam Kuwar was the first Governor. Krishna Chandra Pokharel = first CM, Netranath Adhikari = first Speaker, Bishnu Prasad Nepal = current Lok Sewa Aayog Chairman.",
+    "correctIndex": 2,
+    "explanation": "Vishwanath Paudel is the 18th Governor.",
     "subject": "GK"
   },
   {
     "id": "q43",
-    "question": "Manghim and Silauti are religious places of which religion?",
+    "question": "Which of the following is NOT a communicable disease?",
     "options": [
-      "Sikh",
-      "Jewish",
-      "Jain",
-      "Kirant"
+      "Measles",
+      "Cholera",
+      "Pneumonia",
+      "Asthma"
     ],
     "correctIndex": 3,
-    "explanation": "Kirant. Sikh=Gurudwara, Jewish=Fire Temple, Jain=Jain Temple.",
-    "subject": "GK"
+    "explanation": "Asthma is NOT a communicable disease. Measles, cholera, and pneumonia are all communicable (infectious) diseases.",
+    "subject": "SCIENCE"
   },
   {
     "id": "q44",
+    "question": "What is the maximum duration of a lunar eclipse?",
+    "options": [
+      "2 hours",
+      "4 hours",
+      "6 hours",
+      "8 hours"
+    ],
+    "correctIndex": 1,
+    "explanation": "A lunar eclipse can last up to 4 hours. A solar eclipse can last up to 8 minutes at most.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q45",
+    "question": "If square area = 625 sq.m, what is the perimeter?",
+    "options": [
+      "80m",
+      "90m",
+      "100m",
+      "120m"
+    ],
+    "correctIndex": 2,
+    "explanation": "Side=25m. Perimeter=4×25=100m.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q46",
     "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
     "options": [
       "96",
@@ -572,81 +598,55 @@
     "subject": "IQ"
   },
   {
-    "id": "q45",
-    "question": "How many times was the veto power used in UN Security Council in 2025?",
-    "options": [
-      "One time",
-      "Two times",
-      "Three times",
-      "Four times"
-    ],
-    "correctIndex": 1,
-    "explanation": "The veto power was used 2 times in 2025.",
-    "subject": "GK"
-  },
-  {
-    "id": "q46",
-    "question": "What was the slogan of Tax Day 2082?",
-    "options": [
-      "Tax system is the foundation of investment",
-      "Tax system is the essence, investment is the foundation",
-      "Investment is the foundation, tax system",
-      "Tax system, investment foundation"
-    ],
-    "correctIndex": 1,
-    "explanation": "Slogan: 'Tax system is the essence, investment is the foundation'. Observed on Mangsir 1.",
-    "subject": "GK"
-  },
-  {
     "id": "q47",
-    "question": "Glass is mainly made from which substance?",
+    "question": "What is the total population of Koshi Province according to Census 2078?",
     "options": [
-      "Sand",
-      "Clay",
-      "Limestone",
-      "Soil"
+      "4,961,412",
+      "6,116,868",
+      "5,102,078",
+      "2,916,457"
     ],
     "correctIndex": 0,
-    "explanation": "Glass is mainly made from sand. Clay + limestone = cement. Soil = ceramics.",
-    "subject": "SCIENCE"
+    "explanation": "Koshi Province's population is 4,961,412 according to Census 2078, which is 17.01% of Nepal's total population.",
+    "subject": "GK"
   },
   {
     "id": "q48",
-    "question": "Which vitamin is produced when skin is exposed to sunlight?",
+    "question": "Ending hunger is which Sustainable Development Goal (SDG)?",
     "options": [
-      "Vitamin A",
-      "Vitamin B",
-      "Vitamin C",
-      "Vitamin D"
+      "Goal 2",
+      "Goal 3",
+      "Goal 4",
+      "Goal 1"
     ],
-    "correctIndex": 3,
-    "explanation": "Vitamin D from UVB radiation.",
-    "subject": "SCIENCE"
+    "correctIndex": 0,
+    "explanation": "Ending hunger is SDG Goal 2. Goal 1 = No Poverty, Goal 3 = Good Health and Well-being, Goal 4 = Quality Education.",
+    "subject": "GK"
   },
   {
     "id": "q49",
-    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
+    "question": "How many fundamental rights are in Nepal's Constitution?",
     "options": [
-      "3",
-      "14",
-      "17",
-      "21"
+      "28",
+      "30",
+      "31",
+      "35"
     ],
-    "correctIndex": 1,
-    "explanation": "14 is the only even number.",
-    "subject": "IQ"
+    "correctIndex": 2,
+    "explanation": "The Constitution guarantees 31 fundamental rights.",
+    "subject": "CONSTITUTION"
   },
   {
     "id": "q50",
-    "question": "When did the One Village One Product (OVOP) program start in Nepal?",
+    "question": "Which is the most recently established national park in Nepal?",
     "options": [
-      "2063 BS",
-      "2036 BS",
-      "2071 BS",
-      "2073 BS"
+      "Shivapuri Nagarjun",
+      "Shuklaphanta",
+      "Makalu Barun",
+      "Banke"
     ],
-    "correctIndex": 0,
-    "explanation": "OVOP started in 2063 BS. First district was Dolakha (from lotta/potato farming), now in 42 districts, logo unveiled on 2071 Aswin 12.",
+    "correctIndex": 1,
+    "explanation": "Shuklaphanta National Park is the most recently established (2073 BS). Shivapuri Nagarjun = 2058 BS, Makalu Barun = 2049 BS, Banke = 2067-68 BS.",
     "subject": "GK"
   }
 ]

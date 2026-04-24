@@ -1,318 +1,32 @@
 [
   {
     "id": "q1",
-    "question": "What was the slogan of the American War of Independence?",
+    "question": "Which is Africa's largest landlocked country?",
     "options": [
-      "Unity in Diversity",
-      "Equality, Liberty and Fraternity",
-      "Bread for Survival",
-      "Give me liberty or give me death"
+      "Kazakhstan",
+      "Belarus",
+      "Bolivia",
+      "Chad"
     ],
     "correctIndex": 3,
-    "explanation": "'Give me liberty or give me death' was the slogan. 'Bread for Survival' = Russian Revolution. 'Equality, Liberty, Fraternity' = French Revolution. 'Unity in Diversity' = European Union.",
+    "explanation": "Chad is Africa's largest landlocked country. Belarus = Europe's largest, Bolivia = South America's largest, Kazakhstan = Asia's largest, Switzerland = smallest landlocked.",
     "subject": "GK"
   },
   {
     "id": "q2",
-    "question": "When was the Narcotic Drugs Control Act enacted?",
+    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
     "options": [
-      "2045 BS",
-      "2050 BS",
-      "2028 BS",
-      "2033 BS"
+      "Cousin",
+      "Sister",
+      "Daughter",
+      "Niece"
     ],
-    "correctIndex": 3,
-    "explanation": "The Narcotic Drugs Control Act was enacted in 2033 BS.",
-    "subject": "CONSTITUTION"
+    "correctIndex": 1,
+    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
+    "subject": "IQ"
   },
   {
     "id": "q3",
-    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
-    "options": [
-      "STATION",
-      "TRADITION",
-      "MINISTER",
-      "RATION"
-    ],
-    "correctIndex": 2,
-    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q4",
-    "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
-    "options": [
-      "150m",
-      "200m",
-      "250m",
-      "100m"
-    ],
-    "correctIndex": 3,
-    "explanation": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q5",
-    "question": "Which country experienced the largest volcanic eruption in 2025?",
-    "options": [
-      "Argentina",
-      "Chile",
-      "Japan",
-      "Ethiopia"
-    ],
-    "correctIndex": 3,
-    "explanation": "Ethiopia experienced the largest volcanic eruption in 2025. The volcano is named Haili Guppi (Hayli Guppi) and erupted on November 23, 2025.",
-    "subject": "GK"
-  },
-  {
-    "id": "q6",
-    "question": "Which edition of Miss Nepal did Luna Luitel win in 2025?",
-    "options": [
-      "32nd",
-      "33rd",
-      "30th",
-      "31st"
-    ],
-    "correctIndex": 3,
-    "explanation": "Luna Luitel won the 31st edition of Miss Nepal in 2025.",
-    "subject": "GK"
-  },
-  {
-    "id": "q7",
-    "question": "How many local levels are there in Nepal?",
-    "options": [
-      "744",
-      "753",
-      "761",
-      "775"
-    ],
-    "correctIndex": 1,
-    "explanation": "753: 6 metros, 11 sub-metros, 276 municipalities, 460 rural municipalities.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q8",
-    "question": "Which is the deepest river in Nepal?",
-    "options": [
-      "Koshi",
-      "Narayani",
-      "Gandaki",
-      "Karnali"
-    ],
-    "correctIndex": 2,
-    "explanation": "The Gandaki River is considered the deepest river in Nepal.",
-    "subject": "GK"
-  },
-  {
-    "id": "q9",
-    "question": "If x + 1/x = 3, what is x² + 1/x²?",
-    "options": [
-      "7",
-      "8",
-      "9",
-      "11"
-    ],
-    "correctIndex": 0,
-    "explanation": "(x+1/x)² = x²+2+1/x² = 9. So x²+1/x² = 7.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q10",
-    "question": "Who was the first Indian to go to space?",
-    "options": [
-      "Rakesh Sharma",
-      "Gherman Titov",
-      "Dennis Tito",
-      "Anousheh Ansari"
-    ],
-    "correctIndex": 0,
-    "explanation": "Rakesh Sharma was the first Indian in space. Gherman Titov = youngest astronaut. Dennis Tito = first space tourist (American). Anousheh Ansari = first female space tourist (Iranian).",
-    "subject": "GK"
-  },
-  {
-    "id": "q11",
-    "question": "Which science studies climate?",
-    "options": [
-      "Pedology",
-      "Orology",
-      "Climatology",
-      "Ornithology"
-    ],
-    "correctIndex": 2,
-    "explanation": "Climatology studies climate. Pedology = study of soil. Orology = study of mountains. Ornithology = study of birds.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q12",
-    "question": "If square area = 625 sq.m, what is the perimeter?",
-    "options": [
-      "80m",
-      "90m",
-      "100m",
-      "120m"
-    ],
-    "correctIndex": 2,
-    "explanation": "Side=25m. Perimeter=4×25=100m.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q13",
-    "question": "Which famous building was constructed by Anshu Varma?",
-    "options": [
-      "Pashupatinath",
-      "Kailashkut",
-      "Bhadradhiwas",
-      "Managriha"
-    ],
-    "correctIndex": 1,
-    "explanation": "Kailashkut was built by Anshu Varma. Pashupatinath = Prachanda Dev. Bhadradhiwas = Narendra Dev. Managriha = Manadev.",
-    "subject": "GK"
-  },
-  {
-    "id": "q14",
-    "question": "Next in series: 2, 6, 12, 20, 30, ?",
-    "options": [
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "correctIndex": 2,
-    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q15",
-    "question": "What is the term length of Nepal's President?",
-    "options": [
-      "3 years",
-      "4 years",
-      "5 years",
-      "6 years"
-    ],
-    "correctIndex": 2,
-    "explanation": "5 years.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q16",
-    "question": "The Kyoto Protocol is related to which field?",
-    "options": [
-      "Trade",
-      "Human Rights",
-      "Environment",
-      "Defense"
-    ],
-    "correctIndex": 2,
-    "explanation": "The Kyoto Protocol is related to environment and climate change.",
-    "subject": "GK"
-  },
-  {
-    "id": "q17",
-    "question": "If A is brother of B, B is sister of C, C is father of D. How is A related to D?",
-    "options": [
-      "Uncle",
-      "Father",
-      "Brother",
-      "Nephew"
-    ],
-    "correctIndex": 0,
-    "explanation": "C is D's father. B is C's sister. A is B's brother, so A is D's uncle.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q18",
-    "question": "What is the unemployment rate of Gandaki Province?",
-    "options": [
-      "23.9%",
-      "13.3%",
-      "20.9%",
-      "7.40%"
-    ],
-    "correctIndex": 3,
-    "explanation": "Unemployment rate = 7.40%. 23.9% = below 14 years, 13.3% = above 60 years, 20.9% = disabled population.",
-    "subject": "GK"
-  },
-  {
-    "id": "q19",
-    "question": "What is 25% of 25% of 400?",
-    "options": [
-      "20",
-      "25",
-      "30",
-      "40"
-    ],
-    "correctIndex": 1,
-    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q20",
-    "question": "When is Energy Day celebrated in Nepal?",
-    "options": [
-      "Baisakh 9",
-      "Jestha 9",
-      "Ashoj 9",
-      "Magh 9"
-    ],
-    "correctIndex": 1,
-    "explanation": "Energy Day is celebrated on Jestha 9.",
-    "subject": "GK"
-  },
-  {
-    "id": "q21",
-    "question": "When was Nepal declared untouchability-free?",
-    "options": [
-      "2063 Jestha 20",
-      "2063 Jestha 21",
-      "2063 Jestha 22",
-      "2063 Jestha 23"
-    ],
-    "correctIndex": 1,
-    "explanation": "Declared on 2063 Jestha 21.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q22",
-    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
-    "options": [
-      "3",
-      "14",
-      "17",
-      "21"
-    ],
-    "correctIndex": 1,
-    "explanation": "14 is the only even number.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q23",
-    "question": "Which district headquarters was the 77th to get road access in Nepal?",
-    "options": [
-      "Dunai",
-      "Simikot",
-      "Gamgadhi",
-      "Dipayal"
-    ],
-    "correctIndex": 1,
-    "explanation": "Simikot (Humla) was the 77th district headquarters to get road access on 2082 Asar 22. Now all 77 district HQs have road access.",
-    "subject": "GK"
-  },
-  {
-    "id": "q24",
-    "question": "Which is the 5th country to land a spacecraft on the moon?",
-    "options": [
-      "India",
-      "China",
-      "Russia",
-      "Japan"
-    ],
-    "correctIndex": 3,
-    "explanation": "Japan is the 5th country.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q25",
     "question": "When did Indian singer Asha Bhosle pass away?",
     "options": [
       "2082 Jestha 5",
@@ -325,215 +39,20 @@
     "subject": "GK"
   },
   {
-    "id": "q26",
-    "question": "Which country is known as the 'Country of Canals'?",
+    "id": "q4",
+    "question": "How many cooperatives are there in Koshi Province?",
     "options": [
-      "Italy",
-      "Netherlands",
-      "Thailand",
-      "Bangladesh"
-    ],
-    "correctIndex": 1,
-    "explanation": "Netherlands is known as the 'Country of Canals'.",
-    "subject": "GK"
-  },
-  {
-    "id": "q27",
-    "question": "What was Nepal's rank in the March 2026 Henley Passport Index?",
-    "options": [
-      "96th",
-      "97th",
-      "98th",
-      "95th"
-    ],
-    "correctIndex": 0,
-    "explanation": "Nepal ranked 96th in the March 2026 Henley Passport Index.",
-    "subject": "GK"
-  },
-  {
-    "id": "q28",
-    "question": "When will the National Economic Census 2083 begin?",
-    "options": [
-      "2083 Baisakh 1",
-      "2083 Baisakh 2",
-      "2083 Baisakh 3",
-      "2083 Baisakh 7"
-    ],
-    "correctIndex": 2,
-    "explanation": "The National Economic Census 2083 will begin on Baisakh 3 and continue until Asar 7. Slogan: 'Economic Census for Measuring the Economy'.",
-    "subject": "GK"
-  },
-  {
-    "id": "q29",
-    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
-    "options": [
-      "35",
-      "40",
-      "45",
-      "50"
-    ],
-    "correctIndex": 2,
-    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q30",
-    "question": "What is Earth's equatorial diameter?",
-    "options": [
-      "12,756 km",
-      "12,714 km",
-      "12,735 km",
-      "12,500 km"
-    ],
-    "correctIndex": 0,
-    "explanation": "Earth's equatorial diameter is 12,756 km. Polar diameter = 12,714 km. Average diameter = 12,735 km.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q31",
-    "question": "Which district of Gandaki has the lowest population?",
-    "options": [
-      "Manang",
-      "Mustang",
-      "Myagdi",
-      "Kaski"
-    ],
-    "correctIndex": 0,
-    "explanation": "Manang has the lowest population (5,658). Second lowest = Mustang, Third = Myagdi. Highest = Kaski (6,51,000).",
-    "subject": "GK"
-  },
-  {
-    "id": "q32",
-    "question": "What is Nepal's rank among Asian countries by area?",
-    "options": [
-      "24th",
-      "25th",
-      "26th",
-      "27th"
-    ],
-    "correctIndex": 2,
-    "explanation": "Nepal is the 26th largest country in Asia. World rank = 93rd. SAARC rank = 5th. Landlocked countries rank = 21st.",
-    "subject": "GK"
-  },
-  {
-    "id": "q33",
-    "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
-    "options": [
-      "RTSIFD",
-      "RTSHFD",
-      "RTSIEC",
-      "RTSIFC"
-    ],
-    "correctIndex": 0,
-    "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q34",
-    "question": "Which of the following economic behaviors has Nepal's economy NOT adopted?",
-    "options": [
-      "Liberal economic policy",
-      "Market economy",
-      "Mixed economy",
-      "State controlling behavior"
+      "1081",
+      "3836",
+      "42",
+      "4917"
     ],
     "correctIndex": 3,
-    "explanation": "Nepal has not adopted state controlling behavior. It follows a mixed economy with liberal and market-oriented policies.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q35",
-    "question": "What is the main religious text of Sikhism?",
-    "options": [
-      "Guru Granth",
-      "Tripitak",
-      "Quran",
-      "Bachanamrit"
-    ],
-    "correctIndex": 0,
-    "explanation": "Guru Granth. Tripitak=Buddhism, Quran=Islam, Bachanamrit=Jainism.",
+    "explanation": "There are 4917 cooperatives: 1081 under provincial govt, 3836 under local level. 41.6% are savings & credit, 22.4% agriculture, 15.7% multi-purpose, 20.3% others.",
     "subject": "GK"
   },
   {
-    "id": "q36",
-    "question": "Which currency did Siddhi Narsingh Malla introduce?",
-    "options": [
-      "Leather currency",
-      "Gold currency",
-      "Silver currency",
-      "Copper currency"
-    ],
-    "correctIndex": 0,
-    "explanation": "Siddhi Narsingh Malla introduced leather currency. Sadashiv Malla = gold currency. Mahendra Malla = silver currency + 'mohar'. Ratna Malla = copper currency.",
-    "subject": "GK"
-  },
-  {
-    "id": "q37",
-    "question": "When did the government decide to give two days off per week?",
-    "options": [
-      "2082 Chaitra 20",
-      "2082 Chaitra 22",
-      "2082 Chaitra 24",
-      "2083 Baisakh 1"
-    ],
-    "correctIndex": 1,
-    "explanation": "On 2082 Chaitra 22, the government decided on two days off (Saturday & Sunday) with office hours 9 AM - 5 PM.",
-    "subject": "GK"
-  },
-  {
-    "id": "q38",
-    "question": "Which country surrendered last in World War I?",
-    "options": [
-      "Japan",
-      "Germany",
-      "Italy",
-      "Bulgaria"
-    ],
-    "correctIndex": 1,
-    "explanation": "Germany surrendered last in WWI (May 1945). Bulgaria surrendered first in WWI (Sept 1918). Italy surrendered first in WWII (Sept 1943). Japan surrendered last in WWII (Aug 1945).",
-    "subject": "GK"
-  },
-  {
-    "id": "q39",
-    "question": "When was SAARC established?",
-    "options": [
-      "1983",
-      "1985",
-      "1987",
-      "1990"
-    ],
-    "correctIndex": 1,
-    "explanation": "December 8, 1985. HQ in Kathmandu.",
-    "subject": "GK"
-  },
-  {
-    "id": "q40",
-    "question": "Which is the 21st country to adopt the Euro currency?",
-    "options": [
-      "Estonia",
-      "Portugal",
-      "Serbia",
-      "Bulgaria"
-    ],
-    "correctIndex": 3,
-    "explanation": "Bulgaria adopted the Euro on January 9, 2026. The 20th country was Croatia. Euro was introduced in 2000.",
-    "subject": "GK"
-  },
-  {
-    "id": "q41",
-    "question": "What is the smallest unit of matter?",
-    "options": [
-      "Molecule",
-      "Atom",
-      "Electron",
-      "Proton"
-    ],
-    "correctIndex": 1,
-    "explanation": "Atom is the smallest unit that retains chemical properties.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q42",
+    "id": "q5",
     "question": "When did senior actor Sunil Thapa pass away?",
     "options": [
       "2082 Jestha 18",
@@ -546,7 +65,293 @@
     "subject": "GK"
   },
   {
-    "id": "q43",
+    "id": "q6",
+    "question": "When is Energy Day celebrated in Nepal?",
+    "options": [
+      "Baisakh 9",
+      "Jestha 9",
+      "Ashoj 9",
+      "Magh 9"
+    ],
+    "correctIndex": 1,
+    "explanation": "Energy Day is celebrated on Jestha 9.",
+    "subject": "GK"
+  },
+  {
+    "id": "q7",
+    "question": "What is Nepal's rank among Asian countries by area?",
+    "options": [
+      "24th",
+      "25th",
+      "26th",
+      "27th"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal is the 26th largest country in Asia. World rank = 93rd. SAARC rank = 5th. Landlocked countries rank = 21st.",
+    "subject": "GK"
+  },
+  {
+    "id": "q8",
+    "question": "How many wild animals were declared harmful by the government?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "2 animals: wild monkey (2082 Falgun 11) and red monkey (2082 Magh 29).",
+    "subject": "GK"
+  },
+  {
+    "id": "q9",
+    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
+    "options": [
+      "35",
+      "40",
+      "45",
+      "50"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q10",
+    "question": "Which is the deepest river in Nepal?",
+    "options": [
+      "Karnali",
+      "Koshi",
+      "Narayani",
+      "Gandaki"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Gandaki River is considered the deepest river in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q11",
+    "question": "Which country won the ICC T20 World Cup 2026?",
+    "options": [
+      "New Zealand",
+      "Pakistan",
+      "South Africa",
+      "India"
+    ],
+    "correctIndex": 3,
+    "explanation": "India won the ICC T20 World Cup 2026. New Zealand was runner-up. It was held from Feb 7 to March 8 in India and Sri Lanka, the 10th edition with 55 matches.",
+    "subject": "GK"
+  },
+  {
+    "id": "q12",
+    "question": "Which country won the most medals in the Winter Olympics 2026?",
+    "options": [
+      "Canada",
+      "Norway",
+      "USA",
+      "Netherlands"
+    ],
+    "correctIndex": 1,
+    "explanation": "Norway won the most medals. USA was 2nd, Netherlands 3rd. Hosted by Italy from Feb 6-22, 2026.",
+    "subject": "GK"
+  },
+  {
+    "id": "q13",
+    "question": "The 'Mauri' musical instrument is associated with which community?",
+    "options": [
+      "Newar",
+      "Tamang",
+      "Limbu",
+      "Chhanchal"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Mauri instrument is associated with the Chhanchal community. Newar = Nayi baja. Tamang = Kaling baja. Limbu = Phasphuk.",
+    "subject": "GK"
+  },
+  {
+    "id": "q14",
+    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
+    "options": [
+      "Sound",
+      "Hearing",
+      "Noise",
+      "Music"
+    ],
+    "correctIndex": 1,
+    "explanation": "Eye is for vision, Ear is for hearing.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q15",
+    "question": "Who won the Nobel Peace Prize 2025 and what is her nationality?",
+    "options": [
+      "Venezuela",
+      "Colombia",
+      "Brazil",
+      "Argentina"
+    ],
+    "correctIndex": 0,
+    "explanation": "Maria Corina Machado from Venezuela won the Nobel Peace Prize 2025.",
+    "subject": "GK"
+  },
+  {
+    "id": "q16",
+    "question": "Which district headquarters was the 77th to get road access in Nepal?",
+    "options": [
+      "Dunai",
+      "Simikot",
+      "Gamgadhi",
+      "Dipayal"
+    ],
+    "correctIndex": 1,
+    "explanation": "Simikot (Humla) was the 77th district headquarters to get road access on 2082 Asar 22. Now all 77 district HQs have road access.",
+    "subject": "GK"
+  },
+  {
+    "id": "q17",
+    "question": "What is the speed of light in vacuum?",
+    "options": [
+      "3×10⁸ m/s",
+      "3×10⁶ m/s",
+      "3×10¹⁰ m/s",
+      "3×10⁴ m/s"
+    ],
+    "correctIndex": 0,
+    "explanation": "Speed of light in vacuum is ~3×10⁸ m/s.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q18",
+    "question": "What was Nepal's rank in the March 2026 Henley Passport Index?",
+    "options": [
+      "96th",
+      "97th",
+      "98th",
+      "95th"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepal ranked 96th in the March 2026 Henley Passport Index.",
+    "subject": "GK"
+  },
+  {
+    "id": "q19",
+    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
+    "options": [
+      "DIBJS",
+      "BDJIS",
+      "DIBJT",
+      "DJBIS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q20",
+    "question": "Which constitutional body conducts elections in Nepal?",
+    "options": [
+      "Public Service Commission",
+      "Election Commission",
+      "CIAA",
+      "Auditor General"
+    ],
+    "correctIndex": 1,
+    "explanation": "Election Commission conducts all elections.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q21",
+    "question": "When was Nepal divided into 14 zones and 75 districts?",
+    "options": [
+      "2018 Baisakh 1",
+      "2029 Asar 13",
+      "2037 Aswin 26",
+      "2041 Baisakh 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepal was divided into 14 zones and 75 districts on 2018 Baisakh 1. 4 development regions on 2029 Asar 13, 5 regions on 2037 Aswin 26, standard time on 2041 Baisakh 1, 7 provinces on 2072 Aswin 3, 77 districts on 2074 Bhadra 5.",
+    "subject": "GK"
+  },
+  {
+    "id": "q22",
+    "question": "What is 25% of 25% of 400?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "40"
+    ],
+    "correctIndex": 1,
+    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q23",
+    "question": "Which Election Day was celebrated in 2082 BS?",
+    "options": [
+      "8th",
+      "9th",
+      "10th",
+      "11th"
+    ],
+    "correctIndex": 2,
+    "explanation": "The 10th Election Day was celebrated in 2082 BS. Election Day started being observed from 2073 BS on Falgun 7.",
+    "subject": "GK"
+  },
+  {
+    "id": "q24",
+    "question": "What is the depth of Tilicho Lake, the world's highest lake?",
+    "options": [
+      "167 meters",
+      "650 meters",
+      "200 meters",
+      "10 meters"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tilicho Lake is 200 meters deep. 167m = Rara Lake depth. 650m = Phoksundo Lake depth. 10m = Chorolpa Himal lake depth.",
+    "subject": "GK"
+  },
+  {
+    "id": "q25",
+    "question": "What was the slogan of the American War of Independence?",
+    "options": [
+      "Unity in Diversity",
+      "Equality, Liberty and Fraternity",
+      "Bread for Survival",
+      "Give me liberty or give me death"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Give me liberty or give me death' was the slogan. 'Bread for Survival' = Russian Revolution. 'Equality, Liberty, Fraternity' = French Revolution. 'Unity in Diversity' = European Union.",
+    "subject": "GK"
+  },
+  {
+    "id": "q26",
+    "question": "When will the National Economic Census 2083 begin?",
+    "options": [
+      "2083 Baisakh 1",
+      "2083 Baisakh 2",
+      "2083 Baisakh 3",
+      "2083 Baisakh 7"
+    ],
+    "correctIndex": 2,
+    "explanation": "The National Economic Census 2083 will begin on Baisakh 3 and continue until Asar 7. Slogan: 'Economic Census for Measuring the Economy'.",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "Who is the propounder of the Law of Gravitation?",
+    "options": [
+      "Nicolas Copernicus",
+      "Charles Darwin",
+      "Kelvin",
+      "Sir Isaac Newton"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sir Isaac Newton propounded the Law of Gravitation. Copernicus = heliocentric theory. Darwin = theory of natural selection. Kelvin = kinetic theory of heat.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q28",
     "question": "How many Secretaries-General has the UN had so far?",
     "options": [
       "9",
@@ -559,20 +364,98 @@
     "subject": "GK"
   },
   {
-    "id": "q44",
-    "question": "What is the current Nepal Sambat year in 2082?",
+    "id": "q29",
+    "question": "How many districts in Nepal do NOT touch either China or India?",
     "options": [
-      "NESAM 1146",
-      "NESAM 1145",
-      "NESAM 1144",
-      "NESAM 1143"
+      "37",
+      "36",
+      "35",
+      "34"
     ],
     "correctIndex": 0,
-    "explanation": "The current Nepal Sambat is 1146. It started from Vikram Sambat 936. Founded by Raghavdev and promoted by Shankhadhar Sakhwa.",
+    "explanation": "37 districts do not touch either China or India. Districts touching only China = 13. Districts touching only India = 25. Districts touching both = Taplejung and Darchula.",
     "subject": "GK"
   },
   {
-    "id": "q45",
+    "id": "q30",
+    "question": "Who was the first Indian to go to space?",
+    "options": [
+      "Rakesh Sharma",
+      "Gherman Titov",
+      "Dennis Tito",
+      "Anousheh Ansari"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rakesh Sharma was the first Indian in space. Gherman Titov = youngest astronaut. Dennis Tito = first space tourist (American). Anousheh Ansari = first female space tourist (Iranian).",
+    "subject": "GK"
+  },
+  {
+    "id": "q31",
+    "question": "Which is the 21st country to adopt the Euro currency?",
+    "options": [
+      "Estonia",
+      "Portugal",
+      "Serbia",
+      "Bulgaria"
+    ],
+    "correctIndex": 3,
+    "explanation": "Bulgaria adopted the Euro on January 9, 2026. The 20th country was Croatia. Euro was introduced in 2000.",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
+    "question": "What percentage of water is found in the human body?",
+    "options": [
+      "4-6 liters",
+      "5-6 liters",
+      "2.5-3 liters",
+      "66%"
+    ],
+    "correctIndex": 3,
+    "explanation": "About 66% of the human body is water. Blood volume = 4-6 liters (male 5-6L, female 4-5L). Plasma volume = 2.5-3 liters.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q33",
+    "question": "In which district is Jaljale Pokhari located in Koshi Province?",
+    "options": [
+      "Bhojpur",
+      "Tehrathum",
+      "Panchthar",
+      "Taplejung"
+    ],
+    "correctIndex": 3,
+    "explanation": "Jaljale Pokhari is in Taplejung district. Sijme Lake and Tin Pokhari are also in Taplejung.",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "What is the original homeland of the Chhantel caste?",
+    "options": [
+      "Myagdi",
+      "Mustang",
+      "Manang",
+      "Dolpa"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Chhantel caste's original homeland is Myagdi.",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "Which district is the National Biodiversity Center located in?",
+    "options": [
+      "Kaski",
+      "Lalitpur",
+      "Chitwan",
+      "Dang"
+    ],
+    "correctIndex": 2,
+    "explanation": "The National Biodiversity Center is in Chitwan district. The Biodiversity Park is in Kaski. Center and Park are different.",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
     "question": "When did the Glorious Revolution begin?",
     "options": [
       "1760-1840",
@@ -585,68 +468,185 @@
     "subject": "GK"
   },
   {
-    "id": "q46",
-    "question": "Which country recently declared an energy emergency?",
+    "id": "q37",
+    "question": "Next in series: 2, 6, 12, 20, 30, ?",
     "options": [
-      "Malaysia",
-      "Thailand",
-      "Indonesia",
-      "Philippines"
+      "38",
+      "40",
+      "42",
+      "44"
     ],
-    "correctIndex": 3,
-    "explanation": "Philippines declared energy emergency on March 24, 2026.",
-    "subject": "GK"
-  },
-  {
-    "id": "q47",
-    "question": "When is Election Day celebrated in Nepal?",
-    "options": [
-      "Falgun 7",
-      "Aswin 2",
-      "Poush 1",
-      "Mangshir 1"
-    ],
-    "correctIndex": 0,
-    "explanation": "Election Day is celebrated on Falgun 7. It is also Democracy Day. Education Day = Aswin 2, Flag Day = Poush 1, Tax Day = Mangshir 1.",
-    "subject": "GK"
-  },
-  {
-    "id": "q48",
-    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
-    "options": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "correctIndex": 3,
-    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
+    "correctIndex": 2,
+    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
     "subject": "IQ"
   },
   {
-    "id": "q49",
-    "question": "How many days did the Thailand-Cambodia war last?",
+    "id": "q38",
+    "question": "What is the second most spoken mother tongue in Koshi Province?",
     "options": [
-      "3 days",
-      "4 days",
-      "5 days",
-      "7 days"
+      "Nepali",
+      "Maithili",
+      "Limbu",
+      "Tharu"
     ],
-    "correctIndex": 2,
-    "explanation": "The war lasted 5 days.",
+    "correctIndex": 1,
+    "explanation": "Maithili is the second most spoken mother tongue in Koshi Province. Nepali is first, Limbu is third, and Tharu is fourth.",
     "subject": "GK"
   },
   {
-    "id": "q50",
-    "question": "Who won the Nobel Peace Prize 2025 and what is her nationality?",
+    "id": "q39",
+    "question": "What is the rank of Annapurna Himal in the world?",
     "options": [
-      "Venezuela",
-      "Colombia",
-      "Brazil",
-      "Argentina"
+      "8th",
+      "9th",
+      "10th",
+      "11th"
+    ],
+    "correctIndex": 2,
+    "explanation": "Annapurna is the 10th highest mountain in the world (8,091m) and 8th highest in Nepal. K2 is the 2nd highest (8,611m, in Pakistan).",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "When did the government decide to give two days off per week?",
+    "options": [
+      "2082 Chaitra 20",
+      "2082 Chaitra 22",
+      "2082 Chaitra 24",
+      "2083 Baisakh 1"
+    ],
+    "correctIndex": 1,
+    "explanation": "On 2082 Chaitra 22, the government decided on two days off (Saturday & Sunday) with office hours 9 AM - 5 PM.",
+    "subject": "GK"
+  },
+  {
+    "id": "q41",
+    "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
+    "options": [
+      "100m",
+      "150m",
+      "200m",
+      "250m"
     ],
     "correctIndex": 0,
-    "explanation": "Maria Corina Machado from Venezuela won the Nobel Peace Prize 2025.",
+    "explanation": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q42",
+    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
+    "options": [
+      "Rs. 25000",
+      "Rs. 30000",
+      "Rs. 35000",
+      "Rs. 40000"
+    ],
+    "correctIndex": 1,
+    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q43",
+    "question": "Who won Nepal Idol Season 6?",
+    "options": [
+      "Nita Thapa Magar",
+      "Darshana Gahatraj",
+      "Ganga Sonam",
+      "Karan Pariyar"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ganga Sonam won Nepal Idol Season 6. Season 7 = Nita Thapa Magar, Season 5 = Karan Pariyar, Season 6 runner-up = Babita Thapa Magar, First winner = Buddha Lama.",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "What is the main religious text of Sikhism?",
+    "options": [
+      "Guru Granth",
+      "Tripitak",
+      "Quran",
+      "Bachanamrit"
+    ],
+    "correctIndex": 0,
+    "explanation": "Guru Granth. Tripitak=Buddhism, Quran=Islam, Bachanamrit=Jainism.",
+    "subject": "GK"
+  },
+  {
+    "id": "q45",
+    "question": "What is Nepal's technically feasible solar power capacity?",
+    "options": [
+      "1.5 crore MW",
+      "2.0 crore MW",
+      "2.66 crore MW",
+      "3.0 crore MW"
+    ],
+    "correctIndex": 2,
+    "explanation": "Technically feasible solar capacity is 2.66 crore MW.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q46",
+    "question": "If square area = 625 sq.m, what is the perimeter?",
+    "options": [
+      "80m",
+      "90m",
+      "100m",
+      "120m"
+    ],
+    "correctIndex": 2,
+    "explanation": "Side=25m. Perimeter=4×25=100m.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q47",
+    "question": "How many provincial assemblies are there in Nepal?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "7 provincial assemblies.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q48",
+    "question": "Which of the following economic behaviors has Nepal's economy NOT adopted?",
+    "options": [
+      "Liberal economic policy",
+      "Market economy",
+      "Mixed economy",
+      "State controlling behavior"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nepal has not adopted state controlling behavior. It follows a mixed economy with liberal and market-oriented policies.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q49",
+    "question": "When was the Constitution of Nepal 2072 promulgated?",
+    "options": [
+      "2072 Ashoj 3",
+      "2072 Kartik 15",
+      "2072 Mangsir 1",
+      "2072 Poush 10"
+    ],
+    "correctIndex": 0,
+    "explanation": "September 20, 2015 (2072 Ashoj 3).",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q50",
+    "question": "Which district of Gandaki has the lowest population?",
+    "options": [
+      "Manang",
+      "Mustang",
+      "Myagdi",
+      "Kaski"
+    ],
+    "correctIndex": 0,
+    "explanation": "Manang has the lowest population (5,658). Second lowest = Mustang, Third = Myagdi. Highest = Kaski (6,51,000).",
     "subject": "GK"
   }
 ]
