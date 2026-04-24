@@ -1,136 +1,45 @@
 [
   {
     "id": "q1",
-    "question": "What is Nepal's rank among Asian countries by area?",
+    "question": "How many founding nations were there in SAARC?",
     "options": [
-      "24th",
-      "25th",
-      "26th",
-      "27th"
+      "8",
+      "10",
+      "5",
+      "7"
     ],
-    "correctIndex": 2,
-    "explanation": "Nepal is the 26th largest country in Asia. World rank = 93rd. SAARC rank = 5th. Landlocked countries rank = 21st.",
+    "correctIndex": 3,
+    "explanation": "SAARC was founded by 7 nations.",
     "subject": "GK"
   },
   {
     "id": "q2",
-    "question": "Which constitutional body conducts elections in Nepal?",
+    "question": "When is National Magar Day celebrated every year?",
     "options": [
-      "CIAA",
-      "Auditor General",
-      "Public Service Commission",
-      "Election Commission"
+      "Falgun 10",
+      "Falgun 14",
+      "Falgun 11",
+      "Falgun 15"
     ],
     "correctIndex": 3,
-    "explanation": "Election Commission conducts all elections.",
-    "subject": "CONSTITUTION"
+    "explanation": "National Magar Day is celebrated on Falgun 15 every year, in memory of the Magar Association establishment on 2039 Falgun 15.",
+    "subject": "GK"
   },
   {
     "id": "q3",
-    "question": "Which body prevents corruption in Nepal?",
+    "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
     "options": [
-      "Election Commission",
-      "Public Service Commission",
-      "CIAA",
-      "NHRC"
+      "100m",
+      "150m",
+      "200m",
+      "250m"
     ],
-    "correctIndex": 2,
-    "explanation": "CIAA (Commission for Investigation of Abuse of Authority).",
-    "subject": "CONSTITUTION"
+    "correctIndex": 0,
+    "explanation": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.",
+    "subject": "MATH"
   },
   {
     "id": "q4",
-    "question": "How many constituencies were there in the first general election of 2015 BS?",
-    "options": [
-      "110",
-      "111",
-      "108",
-      "109"
-    ],
-    "correctIndex": 3,
-    "explanation": "The first general election in 2015 BS had 109 constituencies. It was held from 2015 Falgun 7 to 2016 Baisakh 16. Nepali Congress won 74 seats. BP Koirala became the first elected Prime Minister.",
-    "subject": "GK"
-  },
-  {
-    "id": "q5",
-    "question": "Which planet is cold on one side and extremely hot on the other?",
-    "options": [
-      "Mercury",
-      "Uranus",
-      "Earth",
-      "Saturn"
-    ],
-    "correctIndex": 0,
-    "explanation": "Mercury is extremely cold on one side and very hot on the other. Uranus = rises in the west, Earth = highest density planet, Saturn = lowest density planet.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q6",
-    "question": "Next in series: 2, 6, 12, 20, 30, ?",
-    "options": [
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "correctIndex": 2,
-    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q7",
-    "question": "What is the maximum duration of a lunar eclipse?",
-    "options": [
-      "6 hours",
-      "8 hours",
-      "2 hours",
-      "4 hours"
-    ],
-    "correctIndex": 3,
-    "explanation": "A lunar eclipse can last up to 4 hours. A solar eclipse can last up to 8 minutes at most.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q8",
-    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
-    "options": [
-      "17",
-      "21",
-      "3",
-      "14"
-    ],
-    "correctIndex": 3,
-    "explanation": "14 is the only even number.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q9",
-    "question": "How many types of ecosystems are found in Nepal according to the Ministry of Science and Environment?",
-    "options": [
-      "119",
-      "903",
-      "114",
-      "118"
-    ],
-    "correctIndex": 3,
-    "explanation": "According to the Ministry of Science and Environment, there are 118 types of ecosystems in Nepal. 903 = types of birds. 114 = ecosystems per Dobreman.",
-    "subject": "GK"
-  },
-  {
-    "id": "q10",
-    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
-    "options": [
-      "Noise",
-      "Music",
-      "Sound",
-      "Hearing"
-    ],
-    "correctIndex": 3,
-    "explanation": "Eye is for vision, Ear is for hearing.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q11",
     "question": "When was Artemis 2 launched in 2026?",
     "options": [
       "April 3, 2026",
@@ -143,319 +52,111 @@
     "subject": "GK"
   },
   {
-    "id": "q12",
-    "question": "What is Nepal's technically feasible solar power capacity?",
+    "id": "q5",
+    "question": "Who received the Bhanira Shankar Award 2082?",
     "options": [
-      "1.5 crore MW",
-      "2.0 crore MW",
-      "2.66 crore MW",
-      "3.0 crore MW"
+      "Dhanraj Giri",
+      "Madhav Khanal",
+      "Saroj Dhakal",
+      "Muni Shakya"
+    ],
+    "correctIndex": 3,
+    "explanation": "Muni Shakya received the Bhanira Shankar Award 2082. Saroj Dhakal = Bhanira Service Honor Award. Madhav Khanal = Bhanira Pragya Award. Dhanraj Giri = Bhanira Award.",
+    "subject": "GK"
+  },
+  {
+    "id": "q6",
+    "question": "When was the Narcotic Drugs Control Act enacted?",
+    "options": [
+      "2045 BS",
+      "2050 BS",
+      "2028 BS",
+      "2033 BS"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Narcotic Drugs Control Act was enacted in 2033 BS.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q7",
+    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
+    "options": [
+      "STATION",
+      "TRADITION",
+      "MINISTER",
+      "RATION"
     ],
     "correctIndex": 2,
-    "explanation": "Technically feasible solar capacity is 2.66 crore MW.",
-    "subject": "SCIENCE"
+    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q8",
+    "question": "Which is Nepal's smallest province by area?",
+    "options": [
+      "Madhesh",
+      "Bagmati",
+      "Gandaki",
+      "Koshi"
+    ],
+    "correctIndex": 0,
+    "explanation": "Madhesh Province (9,661 sq km).",
+    "subject": "GK"
+  },
+  {
+    "id": "q9",
+    "question": "Next in series: 2, 6, 12, 20, 30, ?",
+    "options": [
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "correctIndex": 2,
+    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q10",
+    "question": "Where was the 6th National Conference of Lok Sewa Aayog held?",
+    "options": [
+      "Biratnagar, Morang",
+      "Birendranagar, Surkhet",
+      "Dhulikhel, Kavre",
+      "Pokhara, Kaski"
+    ],
+    "correctIndex": 3,
+    "explanation": "Held in Pokhara on 2082 Chaitra 29-30. 7th will be in Madhesh Province on 2083 Falgun 23-24.",
+    "subject": "GK"
+  },
+  {
+    "id": "q11",
+    "question": "How many fundamental rights are in Nepal's Constitution?",
+    "options": [
+      "28",
+      "30",
+      "31",
+      "35"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Constitution guarantees 31 fundamental rights.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q12",
+    "question": "When was the SLC (School Leaving Certificate) Board formed?",
+    "options": [
+      "1980 BS",
+      "1987 BS",
+      "1990 BS",
+      "1949 BS"
+    ],
+    "correctIndex": 2,
+    "explanation": "The SLC Board was formed in 1990 BS. In the first SLC exam, the total marks were 800 and the pass mark was 228.",
+    "subject": "GK"
   },
   {
     "id": "q13",
-    "question": "Which element is found in tea?",
-    "options": [
-      "Tannin",
-      "Curcumin",
-      "Gingerol",
-      "Lycopene"
-    ],
-    "correctIndex": 0,
-    "explanation": "Tea contains tannin. Lycopene = found in tomatoes. Curcumin = found in turmeric. Gingerol = found in ginger.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q14",
-    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
-    "options": [
-      "35",
-      "40",
-      "45",
-      "50"
-    ],
-    "correctIndex": 2,
-    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q15",
-    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
-    "options": [
-      "STATION",
-      "TRADITION",
-      "MINISTER",
-      "RATION"
-    ],
-    "correctIndex": 2,
-    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q16",
-    "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
-    "options": [
-      "214673",
-      "246173",
-      "214763",
-      "216473"
-    ],
-    "correctIndex": 0,
-    "explanation": "R=6,O=8,S=2,E=1,C=7,H=3,A=4,I=5,P=9. SEARCH=S(2)+E(1)+A(4)+R(6)+C(7)+H(3)=214673.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q17",
-    "question": "If A is brother of B, B is sister of C, C is father of D. How is A related to D?",
-    "options": [
-      "Uncle",
-      "Father",
-      "Brother",
-      "Nephew"
-    ],
-    "correctIndex": 0,
-    "explanation": "C is D's father. B is C's sister. A is B's brother, so A is D's uncle.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q18",
-    "question": "Which is the upper house of Nepal's Federal Parliament?",
-    "options": [
-      "Provincial Assembly",
-      "Local Assembly",
-      "House of Representatives",
-      "National Assembly"
-    ],
-    "correctIndex": 3,
-    "explanation": "National Assembly (Rashtriya Sabha) is the upper house.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q19",
-    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
-    "options": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "correctIndex": 3,
-    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q20",
-    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
-    "options": [
-      "DIBJS",
-      "BDJIS",
-      "DIBJT",
-      "DJBIS"
-    ],
-    "correctIndex": 0,
-    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q21",
-    "question": "Who became the new Prime Minister of Bangladesh in 2026?",
-    "options": [
-      "Khaleda Zia",
-      "Sheikh Hasina",
-      "Mohammad Yunus",
-      "Tariq Rahman"
-    ],
-    "correctIndex": 3,
-    "explanation": "Tariq Rahman was appointed Prime Minister on February 17, 2026.",
-    "subject": "GK"
-  },
-  {
-    "id": "q22",
-    "question": "When was the Constitution of Nepal 2072 promulgated?",
-    "options": [
-      "2072 Ashoj 3",
-      "2072 Kartik 15",
-      "2072 Mangsir 1",
-      "2072 Poush 10"
-    ],
-    "correctIndex": 0,
-    "explanation": "September 20, 2015 (2072 Ashoj 3).",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q23",
-    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
-    "options": [
-      "20",
-      "24",
-      "32",
-      "40"
-    ],
-    "correctIndex": 1,
-    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q24",
-    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
-    "options": [
-      "Cousin",
-      "Sister",
-      "Daughter",
-      "Niece"
-    ],
-    "correctIndex": 1,
-    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q25",
-    "question": "Which is Nepal's largest province by area?",
-    "options": [
-      "Bagmati",
-      "Lumbini",
-      "Karnali",
-      "Sudurpashchim"
-    ],
-    "correctIndex": 2,
-    "explanation": "Karnali (27,984 sq km, 19% of Nepal).",
-    "subject": "GK"
-  },
-  {
-    "id": "q26",
-    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
-    "options": [
-      "96",
-      "48",
-      "32",
-      "64"
-    ],
-    "correctIndex": 0,
-    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q27",
-    "question": "Which is Nepal's largest statue?",
-    "options": [
-      "Lumbini Buddha",
-      "Kailashnath Mahadev",
-      "Buddha Nilkantha",
-      "Shiva of Pumdikot"
-    ],
-    "correctIndex": 2,
-    "explanation": "Buddha Nilkantha is Nepal's largest statue.",
-    "subject": "GK"
-  },
-  {
-    "id": "q28",
-    "question": "Where was the 22nd International Tax Conference 2025 held?",
-    "options": [
-      "Nepal",
-      "India",
-      "Sri Lanka",
-      "Maldives"
-    ],
-    "correctIndex": 0,
-    "explanation": "The 22nd International Tax Conference 2025 was held in Nepal from 2082 Mangsir 2 to 5.",
-    "subject": "GK"
-  },
-  {
-    "id": "q29",
-    "question": "According to SDG Index 2025, what is Nepal's rank?",
-    "options": [
-      "109",
-      "72",
-      "107",
-      "95"
-    ],
-    "correctIndex": 3,
-    "explanation": "Nepal ranks 95th in SDG Index.",
-    "subject": "GK"
-  },
-  {
-    "id": "q30",
-    "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
-    "options": [
-      "RTSIFD",
-      "RTSHFD",
-      "RTSIEC",
-      "RTSIFC"
-    ],
-    "correctIndex": 0,
-    "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q31",
-    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
-    "options": [
-      "STATION",
-      "TRADITION",
-      "MINISTER",
-      "RATION"
-    ],
-    "correctIndex": 2,
-    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q32",
-    "question": "Who scored the first century in NPL 2025 (2nd edition)?",
-    "options": [
-      "Mark Watt",
-      "Martin Guptill",
-      "Adam Rossington",
-      "Andre Gayle"
-    ],
-    "correctIndex": 0,
-    "explanation": "Mark Watt scored the first century in NPL 2025. Adam Rossington scored the second century in 2025. Andre Gayle scored the first century in NPL 2024 (1st edition).",
-    "subject": "GK"
-  },
-  {
-    "id": "q33",
-    "question": "What is 25% of 25% of 400?",
-    "options": [
-      "20",
-      "25",
-      "30",
-      "40"
-    ],
-    "correctIndex": 1,
-    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q34",
-    "question": "When did the Kathmandu-Bhaktapur trolley bus service start?",
-    "options": [
-      "2030 BS Push 14",
-      "2032 BS Push 14",
-      "2035 BS Push 14",
-      "2040 BS Push 14"
-    ],
-    "correctIndex": 1,
-    "explanation": "The trolley bus service started on 2032 BS Push 14.",
-    "subject": "GK"
-  },
-  {
-    "id": "q35",
-    "question": "How many articles are in the Constitution of Nepal 2072?",
-    "options": [
-      "280",
-      "295",
-      "308",
-      "325"
-    ],
-    "correctIndex": 2,
-    "explanation": "308 articles, 35 parts, 9 schedules.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q36",
     "question": "If x + 1/x = 3, what is x² + 1/x²?",
     "options": [
       "7",
@@ -468,150 +169,85 @@
     "subject": "MATH"
   },
   {
-    "id": "q37",
-    "question": "What is Nepal's rank in the Global Hunger Index?",
+    "id": "q14",
+    "question": "Which science studies climate?",
     "options": [
-      "65th",
-      "66th",
-      "68th",
-      "70th"
+      "Pedology",
+      "Orology",
+      "Climatology",
+      "Ornithology"
     ],
     "correctIndex": 2,
-    "explanation": "Nepal ranks 68th in the Global Hunger Index.",
-    "subject": "GK"
+    "explanation": "Climatology studies climate. Pedology = study of soil. Orology = study of mountains. Ornithology = study of birds.",
+    "subject": "SCIENCE"
   },
   {
-    "id": "q38",
-    "question": "Which famous building was constructed by Anshu Varma?",
+    "id": "q15",
+    "question": "Which was the first spacecraft to land on the Moon's surface?",
     "options": [
-      "Pashupatinath",
-      "Kailashkut",
-      "Bhadradhiwas",
-      "Managriha"
+      "Luna 10",
+      "Skylab",
+      "Luna 1",
+      "Luna 2"
     ],
-    "correctIndex": 1,
-    "explanation": "Kailashkut was built by Anshu Varma. Pashupatinath = Prachanda Dev. Bhadradhiwas = Narendra Dev. Managriha = Manadev.",
+    "correctIndex": 3,
+    "explanation": "Luna 2 was the first spacecraft to land on the Moon's surface. Luna 10 = first to orbit the Moon. Skylab = first manned station for solar study (1974).",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q16",
+    "question": "Which continent has the most countries?",
+    "options": [
+      "Europe",
+      "Australia",
+      "Asia",
+      "Africa"
+    ],
+    "correctIndex": 3,
+    "explanation": "Africa has the most countries (54). Asia = 48, Europe = 44, Australia = 14, South America = 12, North America = 23.",
     "subject": "GK"
   },
   {
-    "id": "q39",
-    "question": "What is the currency of Nepal?",
+    "id": "q17",
+    "question": "When did senior actor Sunil Thapa pass away?",
     "options": [
-      "Rupee",
-      "Taka",
-      "Rupiah",
-      "Yen"
+      "2082 Jestha 18",
+      "2082 Baisakh 10",
+      "2082 Baisakh 23",
+      "2082 Magh 24"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sunil Thapa passed away on 2082 Magh 24.",
+    "subject": "GK"
+  },
+  {
+    "id": "q18",
+    "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
+    "options": [
+      "RTSIFD",
+      "RTSHFD",
+      "RTSIEC",
+      "RTSIFC"
     ],
     "correctIndex": 0,
-    "explanation": "Nepalese Rupee (NPR).",
-    "subject": "GK"
+    "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
+    "subject": "IQ"
   },
   {
-    "id": "q40",
-    "question": "Who is the 18th Governor of Nepal Rastra Bank?",
+    "id": "q19",
+    "question": "When was Nepal's new map (with Lipulekh & Limpiyadhura) passed by the House of Representatives?",
     "options": [
-      "Yuba Raj Khatiwada",
-      "Maha Prasad Adhikari",
-      "Vishwanath Paudel",
-      "Himalaya Shamsher"
+      "2077 Baisakh 7",
+      "2077 Jestha 4",
+      "2077 Jestha 31",
+      "2077 Jestha 5"
     ],
     "correctIndex": 2,
-    "explanation": "Vishwanath Paudel is the 18th Governor.",
+    "explanation": "Passed by House of Representatives on 2077 Jestha 31. Government decision to publish = 2077 Jestha 5. National Assembly passed = 2077 Asar 4.",
     "subject": "GK"
   },
   {
-    "id": "q41",
-    "question": "Who won Nepal Idol Season 6?",
-    "options": [
-      "Nita Thapa Magar",
-      "Darshana Gahatraj",
-      "Ganga Sonam",
-      "Karan Pariyar"
-    ],
-    "correctIndex": 2,
-    "explanation": "Ganga Sonam won Nepal Idol Season 6. Season 7 = Nita Thapa Magar, Season 5 = Karan Pariyar, Season 6 runner-up = Babita Thapa Magar, First winner = Buddha Lama.",
-    "subject": "GK"
-  },
-  {
-    "id": "q42",
-    "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
-    "options": [
-      "18 days",
-      "20 days",
-      "22 days",
-      "25 days"
-    ],
-    "correctIndex": 1,
-    "explanation": "M₁D₁=M₂D₂. 15×24=18×D₂. D₂=360/18=20 days.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q43",
-    "question": "Which edition of Miss Nepal did Luna Luitel win in 2025?",
-    "options": [
-      "30th",
-      "31st",
-      "32nd",
-      "33rd"
-    ],
-    "correctIndex": 1,
-    "explanation": "Luna Luitel won the 31st edition of Miss Nepal in 2025.",
-    "subject": "GK"
-  },
-  {
-    "id": "q44",
-    "question": "How many founding nations were there in SAARC?",
-    "options": [
-      "5",
-      "7",
-      "8",
-      "10"
-    ],
-    "correctIndex": 1,
-    "explanation": "SAARC was founded by 7 nations.",
-    "subject": "GK"
-  },
-  {
-    "id": "q45",
-    "question": "When did the Air India plane crash occur in Ahmedabad?",
-    "options": [
-      "June 10, 2025",
-      "June 12, 2025",
-      "June 15, 2025",
-      "June 20, 2025"
-    ],
-    "correctIndex": 1,
-    "explanation": "The Air India crash occurred on June 12, 2025.",
-    "subject": "GK"
-  },
-  {
-    "id": "q46",
-    "question": "How many local levels are there in Nepal?",
-    "options": [
-      "744",
-      "753",
-      "761",
-      "775"
-    ],
-    "correctIndex": 1,
-    "explanation": "753: 6 metros, 11 sub-metros, 276 municipalities, 460 rural municipalities.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q47",
-    "question": "How many wild animals were declared harmful by the government?",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctIndex": 1,
-    "explanation": "2 animals: wild monkey (2082 Falgun 11) and red monkey (2082 Magh 29).",
-    "subject": "GK"
-  },
-  {
-    "id": "q48",
+    "id": "q20",
     "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
     "options": [
       "Rs. 25000",
@@ -624,20 +260,72 @@
     "subject": "MATH"
   },
   {
-    "id": "q49",
-    "question": "Which Nepali was included in Time Magazine's 2026 list of 100 most influential people?",
+    "id": "q21",
+    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
     "options": [
-      "KP Sharma Oli",
-      "Gagan Thapa",
-      "Pushpa Kamal Dahal",
-      "Balendra Shah"
+      "Cousin",
+      "Sister",
+      "Daughter",
+      "Niece"
     ],
-    "correctIndex": 3,
-    "explanation": "Balendra Shah (Mayor of Kathmandu) was included. List published April 15, 2026.",
-    "subject": "GK"
+    "correctIndex": 1,
+    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
+    "subject": "IQ"
   },
   {
-    "id": "q50",
+    "id": "q22",
+    "question": "If A is brother of B, B is sister of C, C is father of D. How is A related to D?",
+    "options": [
+      "Uncle",
+      "Father",
+      "Brother",
+      "Nephew"
+    ],
+    "correctIndex": 0,
+    "explanation": "C is D's father. B is C's sister. A is B's brother, so A is D's uncle.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q23",
+    "question": "Which constitutional body conducts elections in Nepal?",
+    "options": [
+      "Public Service Commission",
+      "Election Commission",
+      "CIAA",
+      "Auditor General"
+    ],
+    "correctIndex": 1,
+    "explanation": "Election Commission conducts all elections.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q24",
+    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
+    "options": [
+      "DIBJS",
+      "BDJIS",
+      "DIBJT",
+      "DJBIS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q25",
+    "question": "Up to how many decibels can the human ear tolerate?",
+    "options": [
+      "50-55 dB",
+      "60-65 dB",
+      "70-75 dB",
+      "80-85 dB"
+    ],
+    "correctIndex": 2,
+    "explanation": "The human ear can tolerate up to 70-75 decibels.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q26",
     "question": "What is Nepal's national bird?",
     "options": [
       "Peacock",
@@ -647,6 +335,318 @@
     ],
     "correctIndex": 1,
     "explanation": "The Himalayan Monal (Danphe).",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "When did Nepal Telecom start robot technology for customer service?",
+    "options": [
+      "2081 Mangsir 1",
+      "2081 Mangsir 2",
+      "2081 Mangsir 3",
+      "2082 Mangsir 1"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nepal Telecom started robot technology for customer service on 2081 Mangsir 2.",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "Where was the 9th Indian Ocean Conference 2026 held?",
+    "options": [
+      "Laos",
+      "India",
+      "Mauritius",
+      "Nepal"
+    ],
+    "correctIndex": 2,
+    "explanation": "Held in Mauritius, April 10-12, 2026.",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "Where is the headquarters of BIMSTEC located?",
+    "options": [
+      "Nepal",
+      "Belgium",
+      "Bangladesh",
+      "Jakarta"
+    ],
+    "correctIndex": 2,
+    "explanation": "The headquarters of BIMSTEC is in Bangladesh. Nepal = SAARC headquarters. Belgium = EU headquarters. Jakarta = ASEAN headquarters.",
+    "subject": "GK"
+  },
+  {
+    "id": "q30",
+    "question": "When was Gandaki Province named?",
+    "options": [
+      "2075 Asar 18",
+      "2075 Asar 19",
+      "2075 Asar 22",
+      "2075 Asar 23"
+    ],
+    "correctIndex": 2,
+    "explanation": "Named on 2075 Asar 22. On 2075 Asar 18, Pokhara was declared the permanent capital.",
+    "subject": "GK"
+  },
+  {
+    "id": "q31",
+    "question": "Which is the only SAARC country without a river?",
+    "options": [
+      "Maldives",
+      "Bhutan",
+      "Pakistan",
+      "Bangladesh"
+    ],
+    "correctIndex": 0,
+    "explanation": "Maldives is the only SAARC country without a river. Bhutan = no written constitution. Pakistan = first SAARC country to implement VAT. Bangladesh = first SAARC country to ban plastic.",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
+    "question": "In how many languages does Radio Nepal currently broadcast news?",
+    "options": [
+      "24",
+      "25",
+      "23",
+      "26"
+    ],
+    "correctIndex": 1,
+    "explanation": "Radio Nepal broadcasts news in 25 languages. The 25th language is Dhanwar, added on 2081 Asar 30. 24th = Baitadeli, 23rd = Rajbanshi.",
+    "subject": "GK"
+  },
+  {
+    "id": "q33",
+    "question": "Which country recently declared an energy emergency?",
+    "options": [
+      "Malaysia",
+      "Thailand",
+      "Indonesia",
+      "Philippines"
+    ],
+    "correctIndex": 3,
+    "explanation": "Philippines declared energy emergency on March 24, 2026.",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "When was the Constitution of Nepal 2072 promulgated?",
+    "options": [
+      "2072 Ashoj 3",
+      "2072 Kartik 15",
+      "2072 Mangsir 1",
+      "2072 Poush 10"
+    ],
+    "correctIndex": 0,
+    "explanation": "September 20, 2015 (2072 Ashoj 3).",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q35",
+    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
+    "options": [
+      "96",
+      "48",
+      "32",
+      "64"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q36",
+    "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
+    "options": [
+      "18 days",
+      "20 days",
+      "22 days",
+      "25 days"
+    ],
+    "correctIndex": 1,
+    "explanation": "M₁D₁=M₂D₂. 15×24=18×D₂. D₂=360/18=20 days.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q37",
+    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
+    "options": [
+      "3",
+      "14",
+      "17",
+      "21"
+    ],
+    "correctIndex": 1,
+    "explanation": "14 is the only even number.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q38",
+    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
+    "options": [
+      "Sound",
+      "Hearing",
+      "Noise",
+      "Music"
+    ],
+    "correctIndex": 1,
+    "explanation": "Eye is for vision, Ear is for hearing.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q39",
+    "question": "Which is the upper house of Nepal's Federal Parliament?",
+    "options": [
+      "House of Representatives",
+      "National Assembly",
+      "Provincial Assembly",
+      "Local Assembly"
+    ],
+    "correctIndex": 1,
+    "explanation": "National Assembly (Rashtriya Sabha) is the upper house.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q40",
+    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
+    "options": [
+      "Cousin",
+      "Sister",
+      "Daughter",
+      "Niece"
+    ],
+    "correctIndex": 1,
+    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q41",
+    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctIndex": 3,
+    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q42",
+    "question": "How many provincial assemblies are there in Nepal?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "7 provincial assemblies.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q43",
+    "question": "Which is the 5th country to land a spacecraft on the moon?",
+    "options": [
+      "India",
+      "China",
+      "Russia",
+      "Japan"
+    ],
+    "correctIndex": 3,
+    "explanation": "Japan is the 5th country.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q44",
+    "question": "After Brazil, which country has the most biodiversity in the world?",
+    "options": [
+      "Indonesia",
+      "Colombia",
+      "China",
+      "America"
+    ],
+    "correctIndex": 0,
+    "explanation": "Indonesia has the second most biodiversity after Brazil. Top 5: 1. Brazil, 2. Indonesia, 3. Colombia, 4. China, 5. Mexico.",
+    "subject": "GK"
+  },
+  {
+    "id": "q45",
+    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
+    "options": [
+      "20",
+      "24",
+      "32",
+      "40"
+    ],
+    "correctIndex": 1,
+    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q46",
+    "question": "According to the Institute for Economics & Peace report, what is Nepal's rank in the Global Terrorism Index?",
+    "options": [
+      "99th",
+      "59th",
+      "69th",
+      "79th"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepal ranks 99th in the Global Terrorism Index by IEP. Pakistan ranks 1st with a score of 8.574, followed by Burkina Faso with 8.334.",
+    "subject": "GK"
+  },
+  {
+    "id": "q47",
+    "question": "When did Shahid Shukraraj Shastri die?",
+    "options": [
+      "1997 Magh 10",
+      "1997 Magh 12",
+      "1997 Magh 24",
+      "1997 Magh 25"
+    ],
+    "correctIndex": 0,
+    "explanation": "Shahid Shukraraj Shastri died on 1997 Magh 10. Dharmabhakta Mathema = 1997 Magh 12. Dashrath Chand and Gangalal Shrestha = 1997 Magh 24.",
+    "subject": "GK"
+  },
+  {
+    "id": "q48",
+    "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
+    "options": [
+      "214673",
+      "246173",
+      "214763",
+      "216473"
+    ],
+    "correctIndex": 0,
+    "explanation": "R=6,O=8,S=2,E=1,C=7,H=3,A=4,I=5,P=9. SEARCH=S(2)+E(1)+A(4)+R(6)+C(7)+H(3)=214673.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q49",
+    "question": "What is 25% of 25% of 400?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "40"
+    ],
+    "correctIndex": 1,
+    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q50",
+    "question": "Who won Nepal Idol Season 6?",
+    "options": [
+      "Nita Thapa Magar",
+      "Darshana Gahatraj",
+      "Ganga Sonam",
+      "Karan Pariyar"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ganga Sonam won Nepal Idol Season 6. Season 7 = Nita Thapa Magar, Season 5 = Karan Pariyar, Season 6 runner-up = Babita Thapa Magar, First winner = Buddha Lama.",
     "subject": "GK"
   }
 ]

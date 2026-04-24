@@ -1,58 +1,32 @@
 [
   {
     "id": "q1",
-    "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
+    "question": "What is the maximum duration of a lunar eclipse?",
     "options": [
-      "150m",
-      "200m",
-      "250m",
-      "100m"
+      "2 hours",
+      "4 hours",
+      "6 hours",
+      "8 hours"
     ],
-    "correctIndex": 3,
-    "explanation": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.",
-    "subject": "MATH"
+    "correctIndex": 1,
+    "explanation": "A lunar eclipse can last up to 4 hours. A solar eclipse can last up to 8 minutes at most.",
+    "subject": "SCIENCE"
   },
   {
     "id": "q2",
-    "question": "Which revolution is known as the Intellectual Revolution?",
+    "question": "India is the ____th country to enter space.",
     "options": [
-      "Russian Revolution",
-      "Industrial Revolution",
-      "Glorious Revolution of Britain",
-      "French Revolution"
+      "5th",
+      "14th",
+      "3rd",
+      "6th"
     ],
     "correctIndex": 3,
-    "explanation": "The French Revolution is called the Intellectual Revolution. Russian Revolution = October Revolution. Industrial Revolution = Mechanical Revolution. Glorious Revolution = Bloodless Revolution.",
+    "explanation": "India is the 6th country to enter space. Order: Russia, USA, France, Japan, China, India. India is also the 5th country to reach the Moon.",
     "subject": "GK"
   },
   {
     "id": "q3",
-    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
-    "options": [
-      "RATION",
-      "STATION",
-      "TRADITION",
-      "MINISTER"
-    ],
-    "correctIndex": 3,
-    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q4",
-    "question": "Who was the first Governor of Gandaki Province?",
-    "options": [
-      "Krishna Chandra Pokharel",
-      "Netranath Adhikari",
-      "Bishnu Prasad Nepal",
-      "Baburam Kuwar"
-    ],
-    "correctIndex": 3,
-    "explanation": "Baburam Kuwar was the first Governor. Krishna Chandra Pokharel = first CM, Netranath Adhikari = first Speaker, Bishnu Prasad Nepal = current Lok Sewa Aayog Chairman.",
-    "subject": "GK"
-  },
-  {
-    "id": "q5",
     "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
     "options": [
       "20",
@@ -65,189 +39,33 @@
     "subject": "MATH"
   },
   {
-    "id": "q6",
-    "question": "If square area = 625 sq.m, what is the perimeter?",
+    "id": "q4",
+    "question": "What is the rank of Annapurna Himal in the world?",
     "options": [
-      "120m",
-      "80m",
-      "90m",
-      "100m"
+      "11th",
+      "8th",
+      "9th",
+      "10th"
     ],
     "correctIndex": 3,
-    "explanation": "Side=25m. Perimeter=4×25=100m.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q7",
-    "question": "How many fundamental rights are in Nepal's Constitution?",
-    "options": [
-      "35",
-      "28",
-      "30",
-      "31"
-    ],
-    "correctIndex": 3,
-    "explanation": "The Constitution guarantees 31 fundamental rights.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q8",
-    "question": "When was Gandaki Province named?",
-    "options": [
-      "2075 Asar 18",
-      "2075 Asar 19",
-      "2075 Asar 22",
-      "2075 Asar 23"
-    ],
-    "correctIndex": 2,
-    "explanation": "Named on 2075 Asar 22. On 2075 Asar 18, Pokhara was declared the permanent capital.",
+    "explanation": "Annapurna is the 10th highest mountain in the world (8,091m) and 8th highest in Nepal. K2 is the 2nd highest (8,611m, in Pakistan).",
     "subject": "GK"
   },
   {
-    "id": "q9",
-    "question": "Which article guarantees Right to Equality?",
-    "options": [
-      "Article 16",
-      "Article 17",
-      "Article 18",
-      "Article 20"
-    ],
-    "correctIndex": 2,
-    "explanation": "Article 18 guarantees Right to Equality.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q10",
-    "question": "Which district HQ is at the highest altitude?",
-    "options": [
-      "Jomsom",
-      "Simikot",
-      "Dolpa",
-      "Namche"
-    ],
-    "correctIndex": 1,
-    "explanation": "Simikot in Humla district.",
-    "subject": "GK"
-  },
-  {
-    "id": "q11",
-    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
-    "options": [
-      "96",
-      "48",
-      "32",
-      "64"
-    ],
-    "correctIndex": 0,
-    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q12",
-    "question": "When did senior actor Sunil Thapa pass away?",
-    "options": [
-      "2082 Jestha 18",
-      "2082 Baisakh 10",
-      "2082 Baisakh 23",
-      "2082 Magh 24"
-    ],
-    "correctIndex": 3,
-    "explanation": "Sunil Thapa passed away on 2082 Magh 24.",
-    "subject": "GK"
-  },
-  {
-    "id": "q13",
+    "id": "q5",
     "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
     "options": [
-      "214673",
       "246173",
       "214763",
-      "216473"
+      "216473",
+      "214673"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "R=6,O=8,S=2,E=1,C=7,H=3,A=4,I=5,P=9. SEARCH=S(2)+E(1)+A(4)+R(6)+C(7)+H(3)=214673.",
     "subject": "IQ"
   },
   {
-    "id": "q14",
-    "question": "Where was the 6th National Conference of Lok Sewa Aayog held?",
-    "options": [
-      "Dhulikhel, Kavre",
-      "Pokhara, Kaski",
-      "Biratnagar, Morang",
-      "Birendranagar, Surkhet"
-    ],
-    "correctIndex": 1,
-    "explanation": "Held in Pokhara on 2082 Chaitra 29-30. 7th will be in Madhesh Province on 2083 Falgun 23-24.",
-    "subject": "GK"
-  },
-  {
-    "id": "q15",
-    "question": "Which vitamin is produced when skin is exposed to sunlight?",
-    "options": [
-      "Vitamin A",
-      "Vitamin B",
-      "Vitamin C",
-      "Vitamin D"
-    ],
-    "correctIndex": 3,
-    "explanation": "Vitamin D from UVB radiation.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q16",
-    "question": "Which is Nepal's smallest province by area?",
-    "options": [
-      "Madhesh",
-      "Bagmati",
-      "Gandaki",
-      "Koshi"
-    ],
-    "correctIndex": 0,
-    "explanation": "Madhesh Province (9,661 sq km).",
-    "subject": "GK"
-  },
-  {
-    "id": "q17",
-    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
-    "options": [
-      "3",
-      "14",
-      "17",
-      "21"
-    ],
-    "correctIndex": 1,
-    "explanation": "14 is the only even number.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q18",
-    "question": "Which blood group is the universal donor?",
-    "options": [
-      "A+",
-      "B+",
-      "AB+",
-      "O-"
-    ],
-    "correctIndex": 3,
-    "explanation": "O-negative is the universal donor.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q19",
-    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
-    "options": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "correctIndex": 3,
-    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q20",
+    "id": "q6",
     "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
     "options": [
       "DIBJS",
@@ -260,254 +78,46 @@
     "subject": "IQ"
   },
   {
-    "id": "q21",
-    "question": "How many provincial assemblies are there in Nepal?",
+    "id": "q7",
+    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
     "options": [
-      "5",
-      "6",
-      "7",
-      "8"
-    ],
-    "correctIndex": 2,
-    "explanation": "7 provincial assemblies.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q22",
-    "question": "Who is the Minister of Communication and Information Technology in Balendra Shah's cabinet?",
-    "options": [
-      "Sonam Wagley",
-      "Sushmit Pokharel",
-      "Shishir Khanal",
-      "Dr. Bikram Timilsina"
+      "A",
+      "C",
+      "D",
+      "E"
     ],
     "correctIndex": 3,
-    "explanation": "Dr. Bikram Timilsina is the Minister of Communication and IT. Sonam Wagley = Finance Minister, Sushmit Pokharel = Education Minister, Shishir Khanal = Foreign Minister.",
-    "subject": "GK"
-  },
-  {
-    "id": "q23",
-    "question": "If A is brother of B, B is sister of C, C is father of D. How is A related to D?",
-    "options": [
-      "Uncle",
-      "Father",
-      "Brother",
-      "Nephew"
-    ],
-    "correctIndex": 0,
-    "explanation": "C is D's father. B is C's sister. A is B's brother, so A is D's uncle.",
+    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
     "subject": "IQ"
   },
   {
-    "id": "q24",
-    "question": "What is 25% of 25% of 400?",
+    "id": "q8",
+    "question": "Which king was the first to write 'Mall' in his own name?",
     "options": [
-      "20",
-      "25",
-      "30",
-      "40"
+      "Abhay Malla",
+      "Haridev Malla",
+      "Aakshay Malla",
+      "Pratap Malla"
     ],
     "correctIndex": 1,
-    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q25",
-    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
-    "options": [
-      "STATION",
-      "TRADITION",
-      "MINISTER",
-      "RATION"
-    ],
-    "correctIndex": 2,
-    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q26",
-    "question": "What is the total population of Gandaki Province?",
-    "options": [
-      "11,70,833",
-      "12,95,594",
-      "24,66,427",
-      "6,62,480"
-    ],
-    "correctIndex": 2,
-    "explanation": "Total population = 24,66,427. Male = 11,70,833, Female = 12,95,594, Households = 6,62,480.",
+    "explanation": "Haridev Malla was the first king to write 'Mall' in his own name. Abhay Malla = died in an earthquake. Aakshay Malla = built four-sided enclosure of Bhaktapur Durbar. Pratap Malla = imprisoned his father to become king.",
     "subject": "GK"
   },
   {
-    "id": "q27",
-    "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
+    "id": "q9",
+    "question": "What is the powerhouse of the cell?",
     "options": [
-      "RTSIFD",
-      "RTSHFD",
-      "RTSIEC",
-      "RTSIFC"
-    ],
-    "correctIndex": 0,
-    "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q28",
-    "question": "Which country recently declared an energy emergency?",
-    "options": [
-      "Malaysia",
-      "Thailand",
-      "Indonesia",
-      "Philippines"
+      "Golgi body",
+      "Nucleus",
+      "Ribosome",
+      "Mitochondria"
     ],
     "correctIndex": 3,
-    "explanation": "Philippines declared energy emergency on March 24, 2026.",
-    "subject": "GK"
-  },
-  {
-    "id": "q29",
-    "question": "How many judges are in Nepal's Supreme Court?",
-    "options": [
-      "15",
-      "19",
-      "21",
-      "25"
-    ],
-    "correctIndex": 2,
-    "explanation": "21 judges including the Chief Justice.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q30",
-    "question": "When was the Nepal Red Cross Society established?",
-    "options": [
-      "2020 Bhadra 19",
-      "2033 Saun 12",
-      "2039 Bhadra 21",
-      "2068 Saun 22"
-    ],
-    "correctIndex": 0,
-    "explanation": "Nepal Red Cross Society was established on 2020 Bhadra 19. Blood transfusion service started on 2033 Saun 12. Nepal Cancer Relief Society = 2039 Bhadra 21. Public smoking ban = 2068 Saun 22.",
-    "subject": "GK"
-  },
-  {
-    "id": "q31",
-    "question": "According to the IMF World Economic Outlook 2025, which country has the world's third largest economy?",
-    "options": [
-      "Japan",
-      "China",
-      "Germany",
-      "India"
-    ],
-    "correctIndex": 2,
-    "explanation": "Germany has the world's third largest economy ($4.74 trillion). 1st=USA ($30.507T), 2nd=China ($19.231T), 4th=India ($4.187T), 5th=Japan ($4.186T).",
-    "subject": "GK"
-  },
-  {
-    "id": "q32",
-    "question": "Where was the 9th Indian Ocean Conference 2026 held?",
-    "options": [
-      "Laos",
-      "India",
-      "Mauritius",
-      "Nepal"
-    ],
-    "correctIndex": 2,
-    "explanation": "Held in Mauritius, April 10-12, 2026.",
-    "subject": "GK"
-  },
-  {
-    "id": "q33",
-    "question": "How many times larger is Nepal than Vatican City?",
-    "options": [
-      "3,34,500 times",
-      "3,33,500 times",
-      "3,32,500 times",
-      "3,31,500 times"
-    ],
-    "correctIndex": 0,
-    "explanation": "Nepal is about 3,34,500 times larger than Vatican City. Nepal is 116.17 times smaller than Russia (the largest country).",
-    "subject": "GK"
-  },
-  {
-    "id": "q34",
-    "question": "When did the first jet plane land at Tribhuvan International Airport?",
-    "options": [
-      "2023 Falgun 25",
-      "2064 Push 1",
-      "2055 Push 2",
-      "2016 Magh 2"
-    ],
-    "correctIndex": 0,
-    "explanation": "The first jet plane landed at Tribhuvan Airport on 2023 Falgun 25.",
-    "subject": "GK"
-  },
-  {
-    "id": "q35",
-    "question": "What is Nepal's national flower?",
-    "options": [
-      "Lotus",
-      "Rhododendron",
-      "Sunflower",
-      "Rose"
-    ],
-    "correctIndex": 1,
-    "explanation": "Rhododendron (Lali Gurans).",
-    "subject": "GK"
-  },
-  {
-    "id": "q36",
-    "question": "What is the condition of being extremely attracted to boys called?",
-    "options": [
-      "Androphilic",
-      "Gynophobia",
-      "Gynophilic",
-      "Androphobia"
-    ],
-    "correctIndex": 0,
-    "explanation": "Androphilic = attraction to males. Gynophobia = fear of women. Gynophilic = attraction to females. Androphobia = fear of men.",
+    "explanation": "Mitochondria produces ATP.",
     "subject": "SCIENCE"
   },
   {
-    "id": "q37",
-    "question": "Which planet is called the 'Golden Planet'?",
-    "options": [
-      "Saturn",
-      "Neptune",
-      "Uranus",
-      "Jupiter"
-    ],
-    "correctIndex": 0,
-    "explanation": "Saturn is called the Golden Planet. Neptune = planet of the water god, Uranus = failed star, Jupiter = God of sky and lightning.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q38",
-    "question": "Which was the first country where an atomic bomb was dropped?",
-    "options": [
-      "China",
-      "France",
-      "Japan",
-      "America"
-    ],
-    "correctIndex": 2,
-    "explanation": "Japan was the first country (Hiroshima). China = first civil service country. France = first metric system country. America = first constitution country.",
-    "subject": "GK"
-  },
-  {
-    "id": "q39",
-    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
-    "options": [
-      "Cousin",
-      "Sister",
-      "Daughter",
-      "Niece"
-    ],
-    "correctIndex": 1,
-    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q40",
+    "id": "q10",
     "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
     "options": [
       "18 days",
@@ -520,111 +130,215 @@
     "subject": "MATH"
   },
   {
-    "id": "q41",
-    "question": "Who received the Vashu Shashi Sahitya Puraskar 2082?",
+    "id": "q11",
+    "question": "Which country has the world's largest national park?",
     "options": [
-      "Navaraj Adhikari",
-      "Pravin Regmi",
-      "Basant Chaudhary",
-      "Kanshyam Kadell"
+      "Canada",
+      "America",
+      "Mexico",
+      "Greenland"
     ],
-    "correctIndex": 2,
-    "explanation": "Basant Chaudhary received the Vashu Shashi Sahitya Puraskar 2082. Navaraj Adhikari = Lekhnath Cultural Prize. Kanshyam Kadell = Lekhnath Prize 2082.",
+    "correctIndex": 3,
+    "explanation": "Greenland has the world's largest national park (Northeast Greenland National Park, 972,000 sq km). 2nd largest = Great Limpopo Transfrontier Park (South Africa).",
     "subject": "GK"
   },
   {
-    "id": "q42",
-    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
+    "id": "q12",
+    "question": "Which was the first country to establish diplomatic relations with Nepal?",
     "options": [
-      "Rs. 25000",
-      "Rs. 30000",
-      "Rs. 35000",
-      "Rs. 40000"
+      "Britain",
+      "India",
+      "China",
+      "France"
+    ],
+    "correctIndex": 0,
+    "explanation": "Britain was the first country.",
+    "subject": "GK"
+  },
+  {
+    "id": "q13",
+    "question": "If A is brother of B, B is sister of C, C is father of D. How is A related to D?",
+    "options": [
+      "Uncle",
+      "Father",
+      "Brother",
+      "Nephew"
+    ],
+    "correctIndex": 0,
+    "explanation": "C is D's father. B is C's sister. A is B's brother, so A is D's uncle.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q14",
+    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
+    "options": [
+      "RATION",
+      "STATION",
+      "TRADITION",
+      "MINISTER"
+    ],
+    "correctIndex": 3,
+    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q15",
+    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
+    "options": [
+      "Cousin",
+      "Sister",
+      "Daughter",
+      "Niece"
     ],
     "correctIndex": 1,
-    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
+    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q16",
+    "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
+    "options": [
+      "100m",
+      "150m",
+      "200m",
+      "250m"
+    ],
+    "correctIndex": 0,
+    "explanation": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.",
     "subject": "MATH"
   },
   {
-    "id": "q43",
-    "question": "Who was the first President of independent Pakistan?",
+    "id": "q17",
+    "question": "Which ocean has the coldest water?",
     "options": [
-      "Muhammad Ali Jinnah",
-      "Rabindranath Tagore",
-      "Liaquat Ali Khan",
-      "Sarvepalli Radhakrishnan"
+      "Arctic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Southern Ocean"
     ],
     "correctIndex": 0,
-    "explanation": "Muhammad Ali Jinnah was the first President. Tagore gave 'Mahatma' title to Gandhi. Liaquat Ali Khan = first PM of Pakistan. Radhakrishnan = first Vice President of India.",
+    "explanation": "The Arctic Ocean has the coldest water. It is also called the 'Formidable Ocean' and its area increases during winter.",
     "subject": "GK"
   },
   {
-    "id": "q44",
-    "question": "Next in series: 2, 6, 12, 20, 30, ?",
+    "id": "q18",
+    "question": "When did the first jet plane land at Tribhuvan International Airport?",
     "options": [
-      "38",
-      "40",
-      "42",
-      "44"
+      "2023 Falgun 25",
+      "2064 Push 1",
+      "2055 Push 2",
+      "2016 Magh 2"
     ],
-    "correctIndex": 2,
-    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q45",
-    "question": "The world's first cabinet meeting underwater took place in which ocean?",
-    "options": [
-      "Pacific",
-      "Atlantic",
-      "Indian",
-      "Arctic"
-    ],
-    "correctIndex": 2,
-    "explanation": "First underwater cabinet meeting was held in the Indian Ocean (Maldives).",
+    "correctIndex": 0,
+    "explanation": "The first jet plane landed at Tribhuvan Airport on 2023 Falgun 25.",
     "subject": "GK"
   },
   {
-    "id": "q46",
-    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
+    "id": "q19",
+    "question": "Who is known as the 'Father of Experiment'?",
     "options": [
-      "Sound",
-      "Hearing",
-      "Noise",
-      "Music"
+      "Charles Babbage",
+      "Archimedes",
+      "Michael Faraday",
+      "Albert Einstein"
     ],
     "correctIndex": 1,
-    "explanation": "Eye is for vision, Ear is for hearing.",
-    "subject": "IQ"
+    "explanation": "Archimedes is known as the Father of Experiment. Charles Babbage = Father of Computer. Michael Faraday = Father of Electronics.",
+    "subject": "SCIENCE"
   },
   {
-    "id": "q47",
-    "question": "Which philosopher said 'Religion is knowledge and knowledge is religion'?",
+    "id": "q20",
+    "question": "Where was the National Silk Conference 2082 held?",
     "options": [
-      "Plato",
-      "Socrates",
-      "Aristotle",
-      "Confucius"
+      "Kathmandu",
+      "Pokhara",
+      "Chitwan",
+      "Birgunj"
     ],
-    "correctIndex": 1,
-    "explanation": "Socrates said this.",
+    "correctIndex": 0,
+    "explanation": "Held in Kathmandu on 2082 Push 26.",
     "subject": "GK"
   },
   {
-    "id": "q48",
-    "question": "What is the term length of National Assembly members?",
+    "id": "q21",
+    "question": "If square area = 625 sq.m, what is the perimeter?",
     "options": [
+      "120m",
+      "80m",
+      "90m",
+      "100m"
+    ],
+    "correctIndex": 3,
+    "explanation": "Side=25m. Perimeter=4×25=100m.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q22",
+    "question": "Among SAARC countries, which country contributes the highest share to the UN budget?",
+    "options": [
+      "Nepal",
+      "Sri Lanka",
+      "Pakistan",
+      "India"
+    ],
+    "correctIndex": 3,
+    "explanation": "India contributes the highest share (1.044%) to the UN budget among SAARC countries. Pakistan = 0.144% (2nd). Sri Lanka = 0.045% (3rd). Nepal = 0.010%.",
+    "subject": "GK"
+  },
+  {
+    "id": "q23",
+    "question": "What is the term length of Nepal's President?",
+    "options": [
+      "3 years",
       "4 years",
       "5 years",
-      "6 years",
-      "7 years"
+      "6 years"
     ],
     "correctIndex": 2,
-    "explanation": "National Assembly members serve 6 years.",
+    "explanation": "5 years.",
     "subject": "CONSTITUTION"
   },
   {
-    "id": "q49",
+    "id": "q24",
+    "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
+    "options": [
+      "RTSIFD",
+      "RTSHFD",
+      "RTSIEC",
+      "RTSIFC"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q25",
+    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
+    "options": [
+      "3",
+      "14",
+      "17",
+      "21"
+    ],
+    "correctIndex": 1,
+    "explanation": "14 is the only even number.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q26",
+    "question": "When was TikTok registered as a social network in Nepal?",
+    "options": [
+      "2080 Ashoj 14",
+      "2080 Kartik 27",
+      "2081 Kartik 20",
+      "2081 Magh 15"
+    ],
+    "correctIndex": 2,
+    "explanation": "TikTok was registered on 2081 Kartik 20. It was banned on 2080 Kartik 27, and the ban was lifted on 2080 Falgun 24. Viber was registered on 2080 Bhadra 6.",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
     "question": "When was Nepal declared untouchability-free?",
     "options": [
       "2063 Jestha 20",
@@ -637,16 +351,302 @@
     "subject": "CONSTITUTION"
   },
   {
-    "id": "q50",
-    "question": "Where was the G20 Summit 2025 held?",
+    "id": "q28",
+    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
     "options": [
-      "South Africa",
-      "North Africa",
-      "Indonesia",
-      "Africa (general)"
+      "Cousin",
+      "Sister",
+      "Daughter",
+      "Niece"
+    ],
+    "correctIndex": 1,
+    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q29",
+    "question": "Who was the King of Britain during the Glorious Revolution?",
+    "options": [
+      "James II",
+      "Nicholas II",
+      "Charles II",
+      "John II"
     ],
     "correctIndex": 0,
-    "explanation": "The G20 Summit 2025 was held in South Africa on November 22-23, 2025. It was the first time the summit was held in Africa. US President Donald Trump boycotted it.",
+    "explanation": "James II was King during the Glorious Revolution (1688). Nicholas II was Russian Tsar during the Russian Revolution.",
+    "subject": "GK"
+  },
+  {
+    "id": "q30",
+    "question": "Who was the Prime Minister when Nepal was divided into 7 districts ( provinces)?",
+    "options": [
+      "Sher Bahadur Deuba",
+      "Pushpa Kamal Dahal",
+      "KP Sharma Oli",
+      "Sushil Koirala"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sher Bahadur Deuba was PM when 7 districts were established on 2074 Bhadra 5. Sushil Koirala was PM when 7 provinces were established on 2072 Asar 3.",
+    "subject": "GK"
+  },
+  {
+    "id": "q31",
+    "question": "Which country surrendered first in World War II?",
+    "options": [
+      "Germany",
+      "Portugal",
+      "Japan",
+      "Italy"
+    ],
+    "correctIndex": 3,
+    "explanation": "Italy surrendered first. Germany was second. Japan surrendered last on August 14, 1945.",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
+    "question": "If x + 1/x = 3, what is x² + 1/x²?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "11"
+    ],
+    "correctIndex": 0,
+    "explanation": "(x+1/x)² = x²+2+1/x² = 9. So x²+1/x² = 7.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q33",
+    "question": "Which article guarantees Right to Equality?",
+    "options": [
+      "Article 16",
+      "Article 17",
+      "Article 18",
+      "Article 20"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 18 guarantees Right to Equality.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q34",
+    "question": "When did the Colombian air service plane crash occur?",
+    "options": [
+      "March 23, 2026",
+      "March 24, 2026",
+      "March 26, 2026",
+      "March 25, 2026"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Colombian air service plane crash occurred on March 24, 2026. 114 soldiers and 11 crew members were on board. More than 6 people died and dozens were injured.",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "When is the International Day of Happiness celebrated every year?",
+    "options": [
+      "March 15",
+      "March 18",
+      "March 20",
+      "March 22"
+    ],
+    "correctIndex": 2,
+    "explanation": "The International Day of Happiness is celebrated on March 20 every year.",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "Which city became the world's most populous city recently?",
+    "options": [
+      "Beijing",
+      "New Delhi",
+      "Jakarta",
+      "Paris"
+    ],
+    "correctIndex": 2,
+    "explanation": "Jakarta is now the world's most populous city (41.9 million per UN 2025).",
+    "subject": "GK"
+  },
+  {
+    "id": "q37",
+    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
+    "options": [
+      "Sound",
+      "Hearing",
+      "Noise",
+      "Music"
+    ],
+    "correctIndex": 1,
+    "explanation": "Eye is for vision, Ear is for hearing.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q38",
+    "question": "How many articles are in the Constitution of Nepal 2072?",
+    "options": [
+      "280",
+      "295",
+      "308",
+      "325"
+    ],
+    "correctIndex": 2,
+    "explanation": "308 articles, 35 parts, 9 schedules.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q39",
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mars is called the Red Planet due to iron oxide.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q40",
+    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
+    "options": [
+      "35",
+      "40",
+      "45",
+      "50"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q41",
+    "question": "What is the term length of National Assembly members?",
+    "options": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "7 years"
+    ],
+    "correctIndex": 2,
+    "explanation": "National Assembly members serve 6 years.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q42",
+    "question": "Which is the 21st country to adopt the Euro currency?",
+    "options": [
+      "Estonia",
+      "Portugal",
+      "Serbia",
+      "Bulgaria"
+    ],
+    "correctIndex": 3,
+    "explanation": "Bulgaria adopted the Euro on January 9, 2026. The 20th country was Croatia. Euro was introduced in 2000.",
+    "subject": "GK"
+  },
+  {
+    "id": "q43",
+    "question": "Next in series: 2, 6, 12, 20, 30, ?",
+    "options": [
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "correctIndex": 2,
+    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q44",
+    "question": "Which Buddha Jayanti was celebrated in 2082 BS?",
+    "options": [
+      "2566th",
+      "2577th",
+      "2578th",
+      "2569th"
+    ],
+    "correctIndex": 3,
+    "explanation": "The 2569th Buddha Jayanti was celebrated in 2082 BS. This commemorates the birth of Siddhartha Gautam (Buddha).",
+    "subject": "GK"
+  },
+  {
+    "id": "q45",
+    "question": "Which body prevents corruption in Nepal?",
+    "options": [
+      "Election Commission",
+      "Public Service Commission",
+      "CIAA",
+      "NHRC"
+    ],
+    "correctIndex": 2,
+    "explanation": "CIAA (Commission for Investigation of Abuse of Authority).",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q46",
+    "question": "The world's first cabinet meeting underwater took place in which ocean?",
+    "options": [
+      "Pacific",
+      "Atlantic",
+      "Indian",
+      "Arctic"
+    ],
+    "correctIndex": 2,
+    "explanation": "First underwater cabinet meeting was held in the Indian Ocean (Maldives).",
+    "subject": "GK"
+  },
+  {
+    "id": "q47",
+    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
+    "options": [
+      "96",
+      "48",
+      "32",
+      "64"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q48",
+    "question": "Who was the first Governor of Gandaki Province?",
+    "options": [
+      "Baburam Kuwar",
+      "Krishna Chandra Pokharel",
+      "Netranath Adhikari",
+      "Bishnu Prasad Nepal"
+    ],
+    "correctIndex": 0,
+    "explanation": "Baburam Kuwar was the first Governor. Krishna Chandra Pokharel = first CM, Netranath Adhikari = first Speaker, Bishnu Prasad Nepal = current Lok Sewa Aayog Chairman.",
+    "subject": "GK"
+  },
+  {
+    "id": "q49",
+    "question": "Which Lichhavi king went to take refuge in Tibet?",
+    "options": [
+      "Gunakamadev",
+      "Narendra Dev",
+      "Uday Dev",
+      "Shivadev Pratham"
+    ],
+    "correctIndex": 2,
+    "explanation": "Uday Dev went to Tibet for refuge. Narendra Dev = started window decoration tradition. Gunakamadev = settled Kantipur (built Kathmandu). Shivadev Pratham = settled Kirtipur.",
+    "subject": "GK"
+  },
+  {
+    "id": "q50",
+    "question": "In which community do families fight during marriage?",
+    "options": [
+      "Thami",
+      "Limbu",
+      "Kumal",
+      "Jhangad"
+    ],
+    "correctIndex": 2,
+    "explanation": "Kumal = fight during marriage. Thami=marriage after death, Limbu=fire guns, Jhangad=exchange sindur.",
     "subject": "GK"
   }
 ]

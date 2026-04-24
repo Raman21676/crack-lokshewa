@@ -1,552 +1,45 @@
 [
   {
     "id": "q1",
-    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
-    "options": [
-      "RATION",
-      "STATION",
-      "TRADITION",
-      "MINISTER"
-    ],
-    "correctIndex": 3,
-    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q2",
-    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
-    "options": [
-      "50",
-      "35",
-      "40",
-      "45"
-    ],
-    "correctIndex": 3,
-    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q3",
-    "question": "Which is Nepal's most recently listed World Heritage Site?",
-    "options": [
-      "Swayambhunath",
-      "Sagarmatha National Park",
-      "Boudhanath",
-      "Lumbini Area"
-    ],
-    "correctIndex": 3,
-    "explanation": "Lumbini (1997). Sagarmatha was the first (1979).",
-    "subject": "GK"
-  },
-  {
-    "id": "q4",
-    "question": "How many days did the Thailand-Cambodia war last?",
-    "options": [
-      "3 days",
-      "4 days",
-      "5 days",
-      "7 days"
-    ],
-    "correctIndex": 2,
-    "explanation": "The war lasted 5 days.",
-    "subject": "GK"
-  },
-  {
-    "id": "q5",
-    "question": "Which is the upper house of Nepal's Federal Parliament?",
-    "options": [
-      "Provincial Assembly",
-      "Local Assembly",
-      "House of Representatives",
-      "National Assembly"
-    ],
-    "correctIndex": 3,
-    "explanation": "National Assembly (Rashtriya Sabha) is the upper house.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q6",
-    "question": "What is the term length of Nepal's President?",
-    "options": [
-      "3 years",
-      "4 years",
-      "5 years",
-      "6 years"
-    ],
-    "correctIndex": 2,
-    "explanation": "5 years.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q7",
-    "question": "Which is the largest importer of Nepali carpets?",
-    "options": [
-      "UK",
-      "Japan",
-      "USA",
-      "Germany"
-    ],
-    "correctIndex": 3,
-    "explanation": "Germany is the largest importer of Nepali carpets.",
-    "subject": "GK"
-  },
-  {
-    "id": "q8",
-    "question": "How many local levels are there in Nepal?",
-    "options": [
-      "761",
-      "775",
-      "744",
-      "753"
-    ],
-    "correctIndex": 3,
-    "explanation": "753: 6 metros, 11 sub-metros, 276 municipalities, 460 rural municipalities.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q9",
-    "question": "Glass is mainly made from which substance?",
-    "options": [
-      "Sand",
-      "Clay",
-      "Limestone",
-      "Soil"
-    ],
-    "correctIndex": 0,
-    "explanation": "Glass is mainly made from sand. Clay + limestone = cement. Soil = ceramics.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q10",
-    "question": "Which local level was declared Nepal's first model clean rural municipality?",
-    "options": [
-      "Dhulikhel",
-      "Sunawal",
-      "Jwalamukhi",
-      "Bhairabi"
-    ],
-    "correctIndex": 2,
-    "explanation": "Jwalamukhi in Dhading was declared on 2082 Chaitra 29.",
-    "subject": "GK"
-  },
-  {
-    "id": "q11",
-    "question": "If x + 1/x = 3, what is x² + 1/x²?",
-    "options": [
-      "7",
-      "8",
-      "9",
-      "11"
-    ],
-    "correctIndex": 0,
-    "explanation": "(x+1/x)² = x²+2+1/x² = 9. So x²+1/x² = 7.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q12",
-    "question": "How many districts are there in Gandaki Province?",
-    "options": [
-      "11",
-      "12",
-      "13",
-      "10"
-    ],
-    "correctIndex": 0,
-    "explanation": "Gandaki Province has 11 districts.",
-    "subject": "GK"
-  },
-  {
-    "id": "q13",
-    "question": "If square area = 625 sq.m, what is the perimeter?",
-    "options": [
-      "80m",
-      "90m",
-      "100m",
-      "120m"
-    ],
-    "correctIndex": 2,
-    "explanation": "Side=25m. Perimeter=4×25=100m.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q14",
     "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
     "options": [
-      "214673",
-      "246173",
       "214763",
-      "216473"
+      "216473",
+      "214673",
+      "246173"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "R=6,O=8,S=2,E=1,C=7,H=3,A=4,I=5,P=9. SEARCH=S(2)+E(1)+A(4)+R(6)+C(7)+H(3)=214673.",
     "subject": "IQ"
   },
   {
-    "id": "q15",
-    "question": "Next in series: 2, 6, 12, 20, 30, ?",
+    "id": "q2",
+    "question": "What is the scientific name of Vitamin B?",
     "options": [
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "correctIndex": 2,
-    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q16",
-    "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
-    "options": [
-      "RTSIFD",
-      "RTSHFD",
-      "RTSIEC",
-      "RTSIFC"
+      "Thiamine",
+      "Tocopherol",
+      "Retinol",
+      "Calciferol"
     ],
     "correctIndex": 0,
-    "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q17",
-    "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
-    "options": [
-      "100m",
-      "150m",
-      "200m",
-      "250m"
-    ],
-    "correctIndex": 0,
-    "explanation": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q18",
-    "question": "When was the Narcotic Drugs Control Act enacted?",
-    "options": [
-      "2033 BS",
-      "2045 BS",
-      "2050 BS",
-      "2028 BS"
-    ],
-    "correctIndex": 0,
-    "explanation": "The Narcotic Drugs Control Act was enacted in 2033 BS.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q19",
-    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
-    "options": [
-      "Sound",
-      "Hearing",
-      "Noise",
-      "Music"
-    ],
-    "correctIndex": 1,
-    "explanation": "Eye is for vision, Ear is for hearing.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q20",
-    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
-    "options": [
-      "20",
-      "24",
-      "32",
-      "40"
-    ],
-    "correctIndex": 1,
-    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q21",
-    "question": "Which is the world's largest desert?",
-    "options": [
-      "Arabian Desert",
-      "Antarctica Desert",
-      "Kalahari Desert",
-      "Sahara Desert"
-    ],
-    "correctIndex": 3,
-    "explanation": "Sahara is the world's largest hot desert. Arabian = largest sandy desert, Antarctica = largest polar desert, Thar = largest in South Asia.",
-    "subject": "GK"
-  },
-  {
-    "id": "q22",
-    "question": "Which is the longest river in Nepal?",
-    "options": [
-      "Koshi",
-      "Gandaki",
-      "Karnali",
-      "Narayani"
-    ],
-    "correctIndex": 2,
-    "explanation": "Karnali, about 507 km.",
-    "subject": "GK"
-  },
-  {
-    "id": "q23",
-    "question": "Which country has the world's largest national park?",
-    "options": [
-      "Canada",
-      "America",
-      "Mexico",
-      "Greenland"
-    ],
-    "correctIndex": 3,
-    "explanation": "Greenland has the world's largest national park (Northeast Greenland National Park, 972,000 sq km). 2nd largest = Great Limpopo Transfrontier Park (South Africa).",
-    "subject": "GK"
-  },
-  {
-    "id": "q24",
-    "question": "Which district produces the most timur (Sichuan pepper) in Nepal?",
-    "options": [
-      "Baglung",
-      "Salyan",
-      "Siraha",
-      "Rupandehi"
-    ],
-    "correctIndex": 1,
-    "explanation": "Salyan produces the most timur. Baglung = lotta, Siraha = bel, Rupandehi = dairy.",
-    "subject": "GK"
-  },
-  {
-    "id": "q25",
-    "question": "What was Nepal called during the Satya Yuga?",
-    "options": [
-      "Tapovan",
-      "Nepal",
-      "Mukti Sopan",
-      "Satyawati"
-    ],
-    "correctIndex": 3,
-    "explanation": "During Satya Yuga, Nepal was called Satyawati. Tapovan = Treta Yuga. Nepal = Kali Yuga (present). Mukti Sopan = Dwapar Yuga.",
-    "subject": "GK"
-  },
-  {
-    "id": "q26",
-    "question": "Which conference established the Green Climate Fund?",
-    "options": [
-      "COP 15",
-      "COP 16",
-      "COP 21",
-      "COP 26"
-    ],
-    "correctIndex": 1,
-    "explanation": "The Green Climate Fund was established by COP 16.",
-    "subject": "GK"
-  },
-  {
-    "id": "q27",
-    "question": "Which of the following industrial areas was built with India's help?",
-    "options": [
-      "Bhaktapur Industrial Area",
-      "Hetauda Industrial Area",
-      "Patan Industrial Area",
-      "Birendranagar Industrial Area"
-    ],
-    "correctIndex": 2,
-    "explanation": "Patan Industrial Area was built with India's help.",
-    "subject": "GK"
-  },
-  {
-    "id": "q28",
-    "question": "Which body prevents corruption in Nepal?",
-    "options": [
-      "Election Commission",
-      "Public Service Commission",
-      "CIAA",
-      "NHRC"
-    ],
-    "correctIndex": 2,
-    "explanation": "CIAA (Commission for Investigation of Abuse of Authority).",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q29",
-    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
-    "options": [
-      "3",
-      "14",
-      "17",
-      "21"
-    ],
-    "correctIndex": 1,
-    "explanation": "14 is the only even number.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q30",
-    "question": "In which community do people drink alcohol after carrying a dead body?",
-    "options": [
-      "Kushbadia",
-      "Raute",
-      "Thami",
-      "Lepcha"
-    ],
-    "correctIndex": 0,
-    "explanation": "Kushbadia = drink after burial. Raute=move place, Thami=chautara, Lepcha=water wash.",
-    "subject": "GK"
-  },
-  {
-    "id": "q31",
-    "question": "In which Asian country is the world's largest hydropower project?",
-    "options": [
-      "India",
-      "Nepal",
-      "China",
-      "Bhutan"
-    ],
-    "correctIndex": 2,
-    "explanation": "China has the world's largest hydropower project.",
-    "subject": "GK"
-  },
-  {
-    "id": "q32",
-    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
-    "options": [
-      "Rs. 25000",
-      "Rs. 30000",
-      "Rs. 35000",
-      "Rs. 40000"
-    ],
-    "correctIndex": 1,
-    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q33",
-    "question": "In which district is Gosaikunda lake?",
-    "options": [
-      "Sindhupalchok",
-      "Rasuwa",
-      "Nuwakot",
-      "Dhading"
-    ],
-    "correctIndex": 1,
-    "explanation": "Gosaikunda is in Rasuwa district.",
-    "subject": "GK"
-  },
-  {
-    "id": "q34",
-    "question": "Where was the Rio+5 Summit held?",
-    "options": [
-      "Brazil",
-      "Japan",
-      "Indonesia",
-      "South Africa"
-    ],
-    "correctIndex": 1,
-    "explanation": "The Rio+5 Summit was held in Japan. Rio+10 = Brazil (Rio de Janeiro), Rio+50 = Indonesia (Bali), Rio+10 (Johannesburg) = South Africa.",
-    "subject": "GK"
-  },
-  {
-    "id": "q35",
-    "question": "Which was the first spacecraft to land on the Moon's surface?",
-    "options": [
-      "Luna 1",
-      "Luna 2",
-      "Luna 10",
-      "Skylab"
-    ],
-    "correctIndex": 1,
-    "explanation": "Luna 2 was the first spacecraft to land on the Moon's surface. Luna 10 = first to orbit the Moon. Skylab = first manned station for solar study (1974).",
+    "explanation": "Vitamin B = Thiamine. Vitamin E = Tocopherol. Vitamin A = Retinol. Vitamin D = Calciferol. Vitamin C = Ascorbic acid.",
     "subject": "SCIENCE"
   },
   {
-    "id": "q36",
-    "question": "Which is the highest mountain in North America?",
+    "id": "q3",
+    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
     "options": [
-      "Elbrus",
-      "Aconcagua",
-      "McKinley (Denali)",
-      "Kosciuszko"
+      "DIBJS",
+      "BDJIS",
+      "DIBJT",
+      "DJBIS"
     ],
-    "correctIndex": 2,
-    "explanation": "McKinley (Denali) is North America's highest peak. Elbrus = Europe's highest, Aconcagua = South America's highest, Kosciuszko = Australia's highest.",
-    "subject": "GK"
-  },
-  {
-    "id": "q37",
-    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
-    "options": [
-      "Cousin",
-      "Sister",
-      "Daughter",
-      "Niece"
-    ],
-    "correctIndex": 1,
-    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
+    "correctIndex": 0,
+    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
     "subject": "IQ"
   },
   {
-    "id": "q38",
-    "question": "What is Earth's equatorial diameter?",
-    "options": [
-      "12,756 km",
-      "12,714 km",
-      "12,735 km",
-      "12,500 km"
-    ],
-    "correctIndex": 0,
-    "explanation": "Earth's equatorial diameter is 12,756 km. Polar diameter = 12,714 km. Average diameter = 12,735 km.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q39",
-    "question": "Who represented Nepal at COP 30?",
-    "options": [
-      "KP Sharma Oli",
-      "Madan Prasad Pariyar",
-      "Balendra Shah",
-      "Pushpa Kamal Dahal"
-    ],
-    "correctIndex": 1,
-    "explanation": "Madan Prasad Pariyar represented Nepal at COP 30 held in Belem, Brazil (Nov 10-21, 2025). COP 31 will be in Turkey (Nov 9-20, 2026).",
-    "subject": "GK"
-  },
-  {
-    "id": "q40",
-    "question": "Which country experienced the largest volcanic eruption in 2025?",
-    "options": [
-      "Argentina",
-      "Chile",
-      "Japan",
-      "Ethiopia"
-    ],
-    "correctIndex": 3,
-    "explanation": "Ethiopia experienced the largest volcanic eruption in 2025. The volcano is named Haili Guppi (Hayli Guppi) and erupted on November 23, 2025.",
-    "subject": "GK"
-  },
-  {
-    "id": "q41",
-    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
-    "options": [
-      "96",
-      "48",
-      "32",
-      "64"
-    ],
-    "correctIndex": 0,
-    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q42",
-    "question": "Approximately what percentage of the world's population lives in Asia?",
-    "options": [
-      "45.5%",
-      "49.5%",
-      "55.5%",
-      "59.5%"
-    ],
-    "correctIndex": 3,
-    "explanation": "Approximately 59.5% of the world's population lives in Asia.",
-    "subject": "GK"
-  },
-  {
-    "id": "q43",
+    "id": "q4",
     "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
     "options": [
       "STATION",
@@ -559,59 +52,7 @@
     "subject": "IQ"
   },
   {
-    "id": "q44",
-    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
-    "options": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "correctIndex": 3,
-    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q45",
-    "question": "Who won the men's Ballon d'Or 2025?",
-    "options": [
-      "Aitana Bonmati",
-      "Ousmane Dembele",
-      "Lionel Messi",
-      "Rodri"
-    ],
-    "correctIndex": 1,
-    "explanation": "Ousmane Dembele won the men's Ballon d'Or 2025. Aitana Bonmati won the women's award. Rodri = 2024 men's winner. Messi = 2023 men's winner.",
-    "subject": "GK"
-  },
-  {
-    "id": "q46",
-    "question": "What is the hardest natural substance on Earth?",
-    "options": [
-      "Gold",
-      "Iron",
-      "Diamond",
-      "Platinum"
-    ],
-    "correctIndex": 2,
-    "explanation": "Diamond is the hardest natural substance.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q47",
-    "question": "Which constitutional body conducts elections in Nepal?",
-    "options": [
-      "Public Service Commission",
-      "Election Commission",
-      "CIAA",
-      "Auditor General"
-    ],
-    "correctIndex": 1,
-    "explanation": "Election Commission conducts all elections.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q48",
+    "id": "q5",
     "question": "If A is brother of B, B is sister of C, C is father of D. How is A related to D?",
     "options": [
       "Uncle",
@@ -624,29 +65,588 @@
     "subject": "IQ"
   },
   {
-    "id": "q49",
-    "question": "What is the grassland of South America called?",
+    "id": "q6",
+    "question": "If square area = 625 sq.m, what is the perimeter?",
     "options": [
-      "Prairie",
-      "Veldt",
-      "Pampas",
-      "Downs"
+      "80m",
+      "90m",
+      "100m",
+      "120m"
     ],
     "correctIndex": 2,
-    "explanation": "The grassland of South America is called Pampas. Prairie = North America, Veldt = Africa, Downs = Australia, Steppes = Asia & Europe.",
+    "explanation": "Side=25m. Perimeter=4×25=100m.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q7",
+    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
+    "options": [
+      "Daughter",
+      "Niece",
+      "Cousin",
+      "Sister"
+    ],
+    "correctIndex": 3,
+    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q8",
+    "question": "Who won the men's Ballon d'Or 2025?",
+    "options": [
+      "Lionel Messi",
+      "Rodri",
+      "Aitana Bonmati",
+      "Ousmane Dembele"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ousmane Dembele won the men's Ballon d'Or 2025. Aitana Bonmati won the women's award. Rodri = 2024 men's winner. Messi = 2023 men's winner.",
     "subject": "GK"
   },
   {
-    "id": "q50",
-    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
+    "id": "q9",
+    "question": "Which place is Nepal's southernmost point?",
     "options": [
-      "DIBJS",
-      "BDJIS",
-      "DIBJT",
-      "DJBIS"
+      "Jhapa's Urlabari",
+      "Jhapa's Dhulabari",
+      "Jhapa's Lodabari",
+      "Jhapa's Godawari"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal's southernmost point is Jhapa's Lodabari. Eastern = Taplejung's Leleph. Western = Kanchanpur's Dodhara. Northern = Humla's Chemla.",
+    "subject": "GK"
+  },
+  {
+    "id": "q10",
+    "question": "How many districts are there in Gandaki Province?",
+    "options": [
+      "12",
+      "13",
+      "10",
+      "11"
+    ],
+    "correctIndex": 3,
+    "explanation": "Gandaki Province has 11 districts.",
+    "subject": "GK"
+  },
+  {
+    "id": "q11",
+    "question": "What percentage belongs to marginalized indigenous groups per Census 2078?",
+    "options": [
+      "18.7%",
+      "10.5%",
+      "13.94%",
+      "15.2%"
+    ],
+    "correctIndex": 2,
+    "explanation": "13.94% of Nepal's population belongs to marginalized indigenous groups.",
+    "subject": "GK"
+  },
+  {
+    "id": "q12",
+    "question": "Which is Nepal's most recently listed World Heritage Site?",
+    "options": [
+      "Swayambhunath",
+      "Sagarmatha National Park",
+      "Boudhanath",
+      "Lumbini Area"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lumbini (1997). Sagarmatha was the first (1979).",
+    "subject": "GK"
+  },
+  {
+    "id": "q13",
+    "question": "When is Language Day celebrated in Nepal?",
+    "options": [
+      "Chaitra 29",
+      "Chaitra 30",
+      "Chaitra 28",
+      "Baisakh 1"
     ],
     "correctIndex": 0,
-    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
+    "explanation": "Language Day is celebrated on Chaitra 29 for Nepali language promotion.",
+    "subject": "GK"
+  },
+  {
+    "id": "q14",
+    "question": "Next in series: 2, 6, 12, 20, 30, ?",
+    "options": [
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "correctIndex": 2,
+    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
     "subject": "IQ"
+  },
+  {
+    "id": "q15",
+    "question": "Which is the highest policy body of BIMSTEC?",
+    "options": [
+      "Summit",
+      "Council of Ministers",
+      "Secretariat",
+      "Working Group"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Summit is the highest policy body.",
+    "subject": "GK"
+  },
+  {
+    "id": "q16",
+    "question": "In which community do people drink alcohol after carrying a dead body?",
+    "options": [
+      "Kushbadia",
+      "Raute",
+      "Thami",
+      "Lepcha"
+    ],
+    "correctIndex": 0,
+    "explanation": "Kushbadia = drink after burial. Raute=move place, Thami=chautara, Lepcha=water wash.",
+    "subject": "GK"
+  },
+  {
+    "id": "q17",
+    "question": "How many official languages does ASEAN have?",
+    "options": [
+      "10",
+      "2",
+      "3",
+      "24"
+    ],
+    "correctIndex": 0,
+    "explanation": "ASEAN has 10 official languages. 2 = UN official languages. 24 = EU official languages.",
+    "subject": "GK"
+  },
+  {
+    "id": "q18",
+    "question": "What is the chemical formula of water?",
+    "options": [
+      "O₂",
+      "NaCl",
+      "CO₂",
+      "H₂O"
+    ],
+    "correctIndex": 3,
+    "explanation": "H₂O is the chemical formula of water.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q19",
+    "question": "Bel marriage (Ihi) is a tradition of which caste?",
+    "options": [
+      "Magar",
+      "Gurung",
+      "Newar",
+      "Tamang"
+    ],
+    "correctIndex": 2,
+    "explanation": "Bel marriage (Ihi) is a Newar tradition.",
+    "subject": "GK"
+  },
+  {
+    "id": "q20",
+    "question": "Which instrument measures height?",
+    "options": [
+      "Altimeter",
+      "Microscope",
+      "Polygraph",
+      "Pyrheliometer"
+    ],
+    "correctIndex": 0,
+    "explanation": "An altimeter measures height. Microscope = magnifies small objects. Polygraph = lie detector. Pyrheliometer = measures solar radiation.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q21",
+    "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
+    "options": [
+      "RTSIFD",
+      "RTSHFD",
+      "RTSIEC",
+      "RTSIFC"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q22",
+    "question": "Where was the Rio+5 Summit held?",
+    "options": [
+      "Indonesia",
+      "South Africa",
+      "Brazil",
+      "Japan"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Rio+5 Summit was held in Japan. Rio+10 = Brazil (Rio de Janeiro), Rio+50 = Indonesia (Bali), Rio+10 (Johannesburg) = South Africa.",
+    "subject": "GK"
+  },
+  {
+    "id": "q23",
+    "question": "When was the Narcotic Drugs Control Act enacted?",
+    "options": [
+      "2050 BS",
+      "2028 BS",
+      "2033 BS",
+      "2045 BS"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Narcotic Drugs Control Act was enacted in 2033 BS.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q24",
+    "question": "What is 25% of 25% of 400?",
+    "options": [
+      "30",
+      "40",
+      "20",
+      "25"
+    ],
+    "correctIndex": 3,
+    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q25",
+    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
+    "options": [
+      "96",
+      "48",
+      "32",
+      "64"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q26",
+    "question": "Which district is Chaurjahari Airport located in?",
+    "options": [
+      "Salyan",
+      "Dang",
+      "Jajarkot",
+      "Rukum West"
+    ],
+    "correctIndex": 3,
+    "explanation": "Chaurjahari Airport is in Rukum West district. Bhadrapur = Jhapa, Bharatpur = Chitwan, Biratnagar = Morang, Birendranagar = Surkhet.",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctIndex": 3,
+    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q28",
+    "question": "What was the slogan of Tax Day 2082?",
+    "options": [
+      "Tax system is the foundation of investment",
+      "Tax system is the essence, investment is the foundation",
+      "Investment is the foundation, tax system",
+      "Tax system, investment foundation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Slogan: 'Tax system is the essence, investment is the foundation'. Observed on Mangsir 1.",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "Which constitutional body conducts elections in Nepal?",
+    "options": [
+      "Public Service Commission",
+      "Election Commission",
+      "CIAA",
+      "Auditor General"
+    ],
+    "correctIndex": 1,
+    "explanation": "Election Commission conducts all elections.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q30",
+    "question": "How many judges are in Nepal's Supreme Court?",
+    "options": [
+      "15",
+      "19",
+      "21",
+      "25"
+    ],
+    "correctIndex": 2,
+    "explanation": "21 judges including the Chief Justice.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q31",
+    "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
+    "options": [
+      "18 days",
+      "20 days",
+      "22 days",
+      "25 days"
+    ],
+    "correctIndex": 1,
+    "explanation": "M₁D₁=M₂D₂. 15×24=18×D₂. D₂=360/18=20 days.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q32",
+    "question": "From which year is Coffee Day celebrated every year on Mangsir 1?",
+    "options": [
+      "2062 BS",
+      "2053 BS",
+      "2054 BS",
+      "2061 BS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Coffee Day started from 2062 BS. Tea Day started from 2054 BS (Baisakh 15). Donation Day started from 2061 BS (Asar 15).",
+    "subject": "GK"
+  },
+  {
+    "id": "q33",
+    "question": "In which Asian country is the world's largest hydropower project?",
+    "options": [
+      "India",
+      "Nepal",
+      "China",
+      "Bhutan"
+    ],
+    "correctIndex": 2,
+    "explanation": "China has the world's largest hydropower project.",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "When did the government decide to give two days off per week?",
+    "options": [
+      "2082 Chaitra 20",
+      "2082 Chaitra 22",
+      "2082 Chaitra 24",
+      "2083 Baisakh 1"
+    ],
+    "correctIndex": 1,
+    "explanation": "On 2082 Chaitra 22, the government decided on two days off (Saturday & Sunday) with office hours 9 AM - 5 PM.",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "What was the slogan of the American War of Independence?",
+    "options": [
+      "Unity in Diversity",
+      "Equality, Liberty and Fraternity",
+      "Bread for Survival",
+      "Give me liberty or give me death"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Give me liberty or give me death' was the slogan. 'Bread for Survival' = Russian Revolution. 'Equality, Liberty, Fraternity' = French Revolution. 'Unity in Diversity' = European Union.",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "How many founding nations did BIMSTEC have?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "4"
+    ],
+    "correctIndex": 3,
+    "explanation": "BIMSTEC had 4 founding nations: Bangladesh, India, Sri Lanka, and Thailand. 7 = SAARC founding nations. 6 = EU founding nations. 5 = ASEAN founding nations.",
+    "subject": "GK"
+  },
+  {
+    "id": "q37",
+    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
+    "options": [
+      "Rs. 25000",
+      "Rs. 30000",
+      "Rs. 35000",
+      "Rs. 40000"
+    ],
+    "correctIndex": 1,
+    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q38",
+    "question": "Which Social Security Day was celebrated in 2082?",
+    "options": [
+      "7th",
+      "8th",
+      "9th",
+      "10th"
+    ],
+    "correctIndex": 1,
+    "explanation": "8th Social Security Day. Celebrated on Mangsir 11.",
+    "subject": "GK"
+  },
+  {
+    "id": "q39",
+    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
+    "options": [
+      "3",
+      "14",
+      "17",
+      "21"
+    ],
+    "correctIndex": 1,
+    "explanation": "14 is the only even number.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q40",
+    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
+    "options": [
+      "Sound",
+      "Hearing",
+      "Noise",
+      "Music"
+    ],
+    "correctIndex": 1,
+    "explanation": "Eye is for vision, Ear is for hearing.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q41",
+    "question": "Who was the first king of Patan in Nepal's history?",
+    "options": [
+      "Ranjit Malla",
+      "Ray Malla",
+      "Ratna Malla",
+      "Ran Malla"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ran Malla was the first king of Patan. Ranjit Malla = last king of Bhaktapur. Ray Malla = first king of Bhaktapur. Ratna Malla = first king of Kantipur.",
+    "subject": "GK"
+  },
+  {
+    "id": "q42",
+    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
+    "options": [
+      "Cousin",
+      "Sister",
+      "Daughter",
+      "Niece"
+    ],
+    "correctIndex": 1,
+    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q43",
+    "question": "How many local levels are there in Nepal?",
+    "options": [
+      "744",
+      "753",
+      "761",
+      "775"
+    ],
+    "correctIndex": 1,
+    "explanation": "753: 6 metros, 11 sub-metros, 276 municipalities, 460 rural municipalities.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q44",
+    "question": "Which is the upper house of Nepal's Federal Parliament?",
+    "options": [
+      "House of Representatives",
+      "National Assembly",
+      "Provincial Assembly",
+      "Local Assembly"
+    ],
+    "correctIndex": 1,
+    "explanation": "National Assembly (Rashtriya Sabha) is the upper house.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q45",
+    "question": "When was the Constitution of Nepal 2072 promulgated?",
+    "options": [
+      "2072 Ashoj 3",
+      "2072 Kartik 15",
+      "2072 Mangsir 1",
+      "2072 Poush 10"
+    ],
+    "correctIndex": 0,
+    "explanation": "September 20, 2015 (2072 Ashoj 3).",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q46",
+    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
+    "options": [
+      "35",
+      "40",
+      "45",
+      "50"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q47",
+    "question": "Which is the rainiest place in Nepal?",
+    "options": [
+      "Pokhara",
+      "Lumle",
+      "Kathmandu",
+      "Biratnagar"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lumle in Kaski district.",
+    "subject": "GK"
+  },
+  {
+    "id": "q48",
+    "question": "If x + 1/x = 3, what is x² + 1/x²?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "11"
+    ],
+    "correctIndex": 0,
+    "explanation": "(x+1/x)² = x²+2+1/x² = 9. So x²+1/x² = 7.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q49",
+    "question": "What does a light-year measure?",
+    "options": [
+      "Speed",
+      "Time",
+      "Distance",
+      "Acceleration"
+    ],
+    "correctIndex": 2,
+    "explanation": "A light-year measures distance. One light-year is approximately 9.5 trillion km.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q50",
+    "question": "Which Earthquake Safety Day was celebrated in 2082?",
+    "options": [
+      "21st",
+      "22nd",
+      "23rd",
+      "24th"
+    ],
+    "correctIndex": 1,
+    "explanation": "22nd Earthquake Safety Day. Observed on Magh 2.",
+    "subject": "GK"
   }
 ]
