@@ -609,6 +609,57 @@ body.lang-ne .option-text { font-size: 1.05rem; }
     margin-bottom: 2.5rem;
 }
 
+/* Subject-wise analysis */
+.subject-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+.subject-card {
+    background: var(--surface);
+    border-radius: var(--radius-md);
+    padding: 1rem 1.25rem;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border);
+}
+.subject-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.subject-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text-1);
+}
+body.lang-ne .subject-name { font-size: 1rem; }
+.subject-pct {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.subject-bar-bg {
+    height: 6px;
+    background: var(--bg);
+    border-radius: var(--radius-full);
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+.subject-bar-fill {
+    height: 100%;
+    border-radius: var(--radius-full);
+    transition: width 600ms ease;
+}
+.subject-stats {
+    display: flex;
+    gap: 0.75rem;
+    font-size: 0.75rem;
+    color: var(--text-2);
+}
+.subject-stats span { display: flex; align-items: center; gap: 0.2rem; }
+.subject-total { margin-left: auto; font-weight: 600; color: var(--text-3); }
+
 /* Review cards */
 .review-list { display: flex; flex-direction: column; gap: 1.25rem; }
 .review-card {

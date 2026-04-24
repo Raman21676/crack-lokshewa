@@ -488,19 +488,30 @@ function renderResults() {
     var marks   = 0;
     var negMarks = 0;
 
+    var subjectStats = {};
+
     var reviewHTML = state.testData.map(function (q, i) {
         var userAns   = state.answers.hasOwnProperty(i) ? state.answers[i] : null;
         var isSkipped = userAns === null;
         var isCorrect = userAns === q.correctIndex;
+        var subj = q.subject || 'OTHER';
+
+        if (!subjectStats[subj]) {
+            subjectStats[subj] = { correct: 0, wrong: 0, skipped: 0, total: 0 };
+        }
+        subjectStats[subj].total++;
 
         if (isCorrect) {
             correct++;
             marks += 2;
+            subjectStats[subj].correct++;
         } else if (isSkipped) {
             skipped++;
+            subjectStats[subj].skipped++;
         } else {
             wrong++;
             negMarks += 0.4;
+            subjectStats[subj].wrong++;
         }
 
         var opts = q.options.map(function (opt, oi) {
@@ -575,6 +586,7 @@ function renderResults() {
                     '</div>' +
                 '</div>' +
             '</div>' +
+            renderSubjectAnalysis(subjectStats) +
             '<div class="results-actions">' +
                 '<button class="btn btn-secondary" onclick="window.location.hash=\'#test/' + state.currentCategory + '/' + state.currentTest + '\'">🔄 ' + t('retry') + '</button>' +
                 '<button class="btn btn-primary" onclick="window.location.hash=\'#category/' + state.currentCategory + '\'">' + t('more_tests') + '</button>' +
@@ -584,6 +596,37 @@ function renderResults() {
             '<div class="review-list">' + reviewHTML + '</div>' +
         '</div>'
     );
+}
+
+function renderSubjectAnalysis(stats) {
+    var keys = Object.keys(stats);
+    if (keys.length === 0) return '';
+
+    var cards = keys.map(function (k) {
+        var s = stats[k];
+        var subjKey = 'subject_' + k.toLowerCase();
+        var label = t(subjKey);
+        if (label === subjKey) label = k;
+        var pct = s.total > 0 ? Math.round((s.correct / s.total) * 100) : 0;
+        var barColor = pct >= 70 ? 'var(--success)' : (pct >= 45 ? 'var(--warning)' : 'var(--error)');
+
+        return '<div class="subject-card">' +
+            '<div class="subject-header">' +
+                '<span class="subject-name">' + label + '</span>' +
+                '<span class="subject-pct" style="color:' + barColor + '">' + pct + '%</span>' +
+            '</div>' +
+            '<div class="subject-bar-bg"><div class="subject-bar-fill" style="width:' + pct + '%;background:' + barColor + '"></div></div>' +
+            '<div class="subject-stats">' +
+                '<span>✓ ' + s.correct + '</span>' +
+                '<span>✗ ' + s.wrong + '</span>' +
+                '<span>— ' + s.skipped + '</span>' +
+                '<span class="subject-total">/ ' + s.total + '</span>' +
+            '</div>' +
+        '</div>';
+    }).join('');
+
+    return '<h3 class="section-title">📊 ' + t('subject_analysis') + '</h3>' +
+        '<div class="subject-grid">' + cards + '</div>';
 }
 
 // ── ABOUT ─────────────────────────────────────────────────────────────

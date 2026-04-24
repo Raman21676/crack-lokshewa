@@ -282,5 +282,29 @@
     "about": {
         "en": "About",
         "ne": "बारेमा"
+    },
+    "subject_analysis": {
+        "en": "Subject-wise Analysis",
+        "ne": "विषयगत विश्लेषण"
+    },
+    "subject_gk": {
+        "en": "General Knowledge",
+        "ne": "सामान्य ज्ञान"
+    },
+    "subject_iq": {
+        "en": "IQ / Mental Ability",
+        "ne": "IQ / मानसिक क्षमता"
+    },
+    "subject_math": {
+        "en": "Mathematics",
+        "ne": "गणित"
+    },
+    "subject_science": {
+        "en": "Science",
+        "ne": "विज्ञान"
+    },
+    "subject_constitution": {
+        "en": "Constitution",
+        "ne": "संविधान"
     }
 }
