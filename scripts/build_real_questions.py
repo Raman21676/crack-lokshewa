@@ -1,0 +1,318 @@
+#!/usr/bin/env python3
+"""
+Build real Lok Sewa question banks from extracted transcripts.
+Generates both English and Nepali JSON files with balanced answer distribution.
+"""
+
+import json
+import random
+import os
+import copy
+
+# ============================================================
+# ALL QUESTIONS EXTRACTED FROM TRANSCRIPTS + RESEARCH
+# ============================================================
+
+ALL_QUESTIONS = [
+    # === CURRENT AFFAIRS 2083 ===
+    {"q_en": "When did Kathmandu Metropolitan City reopen the open stage (Khulla Manch) for the public?", "q_ne": "काठमाडौँ महानगरपालिकाले सर्वसाधारणका लागि खुल्ला मञ्च कहिले देखि पुनः खुल्ला गर्यो?", "options_en": ["2078 Baisakh 15", "2082 Baisakh 2", "2082 Baisakh 3", "2082 Chaitra 29"], "options_ne": ["२०७८ बैशाख १५", "२०८२ बैशाख २", "२०८२ बैशाख ३", "२०८२ चैत्र २९"], "correct": 2, "explanation_en": "Reopened on 2082 Baisakh 3 after being closed since 2078 Baisakh due to COVID-19.", "explanation_ne": "२०८२ बैशाख ३ गते पुनः खुल्ला गरिएको हो। कोभिड-१९ का कारण २०७८ बैशाखदेखि बन्द थियो।", "subject": "GK"},
+    {"q_en": "Where was the 6th National Conference of Lok Sewa Aayog held?", "q_ne": "लोकसेवा आयोगहरूको छैठौँ राष्ट्रिय सम्मेलन कहाँ सम्पन्न भयो?", "options_en": ["Dhulikhel, Kavre", "Pokhara, Kaski", "Biratnagar, Morang", "Birendranagar, Surkhet"], "options_ne": ["धुलीखेल, काभ्रे", "पोखरा, कास्की", "विराटनगर, मोरङ", "विरेन्द्रनगर, सुर्खेत"], "correct": 1, "explanation_en": "Held in Pokhara on 2082 Chaitra 29-30. 7th will be in Madhesh Province on 2083 Falgun 23-24.", "explanation_ne": "२०८२ चैत्र २९-३० गते पोखरामा। सातौँ २०८३ फागुन २३-२४ मा मधेश प्रदेशमा।", "subject": "GK"},
+    {"q_en": "Who was elected as Speaker of the House of Representatives on BS 2082 Chaitra 27?", "q_ne": "बिक्रम सम्वत् २०८२ चैत्र २७ गते प्रतिनिधि सभाको सभामुखमा को निर्वाचित हुनुभयो?", "options_en": ["Indira Ranamagar", "Pushpa Bhusal", "Ruby Kumari Thakur", "Ansari Gharti"], "options_ne": ["इन्दिरा रानामगर", "पुष्पा भुसाल", "रुबी कुमारी ठाकुर", "अन्सरी घर्ती"], "correct": 2, "explanation_en": "Ruby Kumari Thakur from CPN-UML was elected Speaker.", "explanation_ne": "नेकपा एमालेबाट रुबी कुमारी ठाकुर सभामुखमा निर्वाचित हुनुभयो।", "subject": "GK"},
+    {"q_en": "What was the slogan of World Health Day 2026?", "q_ne": "विश्व स्वास्थ्य दिवस २०२६ को नारा के थियो?", "options_en": ["Together for Health, Stand with Science", "Help for All", "Our Planet Our Earth", "Support Nurses and Midwives"], "options_ne": ["टुगेदर फर हेल्थ, स्ट्यान्ड विथ साइन्स", "हेल्प फर अल", "आवर प्लानेट आवर अर्थ", "सपोर्ट नर्स एण्ड मिडवाइभस"], "correct": 0, "explanation_en": "World Health Day is celebrated every year on April 7 since 1950.", "explanation_ne": "विश्व स्वास्थ्य दिवस प्रत्येक वर्ष अप्रिल ७ मा सन् १९५० देखि मनाइन्छ।", "subject": "GK"},
+    {"q_en": "When is World Autism Awareness Day celebrated every year?", "q_ne": "विश्व अटिजम जागरुकता दिवस प्रत्येक वर्ष कहिले मनाइन्छ?", "options_en": ["April 1", "April 2", "April 3", "April 4"], "options_ne": ["अप्रिल १", "अप्रिल २", "अप्रिल ३", "अप्रिल ४"], "correct": 1, "explanation_en": "April 2 every year. Established by UN on Dec 18, 2007.", "explanation_ne": "प्रत्येक वर्ष अप्रिल २। संयुक्त राष्ट्रसंघले डिसेम्बर १८, २००७ मा स्थापित।", "subject": "GK"},
+    {"q_en": "Which Nepali was included in Time Magazine's 2026 list of 100 most influential people?", "q_ne": "टाइम म्यागजिनको सन् २०२६ को सय प्रभावशाली व्यक्तिहरूको सूचीमा कुन नेपाली परेका छन्?", "options_en": ["KP Sharma Oli", "Gagan Thapa", "Pushpa Kamal Dahal", "Balendra Shah"], "options_ne": ["केपी शर्मा ओली", "गगन थापा", "पुष्पकमल दाहाल", "बालेन्द्र शाह"], "correct": 3, "explanation_en": "Balendra Shah (Mayor of Kathmandu) was included. List published April 15, 2026.", "explanation_ne": "काठमाडौँका मेयर बालेन्द्र शाह। सूची अप्रिल १५, २०२६ मा प्रकाशित।", "subject": "GK"},
+    {"q_en": "When is Language Day celebrated in Nepal?", "q_ne": "नेपालमा भाषा दिवस कुन मितिमा मनाइन्छ?", "options_en": ["Chaitra 29", "Chaitra 30", "Chaitra 28", "Baisakh 1"], "options_ne": ["चैत्र २९", "चैत्र ३०", "चैत्र २८", "बैशाख १"], "correct": 0, "explanation_en": "Language Day is celebrated on Chaitra 29 for Nepali language promotion.", "explanation_ne": "भाषा दिवस चैत्र २९ गते नेपाली भाषाको संरक्षणको लागि मनाइन्छ।", "subject": "GK"},
+    {"q_en": "When did Indian singer Asha Bhosle pass away?", "q_ne": "भारतीय गायिका आशा भोस्लेको निधन कहिले भयो?", "options_en": ["2082 Jestha 5", "2082 Falgun 7", "2082 Chaitra 29", "2083 Baisakh 1"], "options_ne": ["२०८२ जेठ ५", "२०८२ फाल्गुण ७", "२०८२ चैत्र २९", "२०८३ बैशाख १"], "correct": 2, "explanation_en": "Passed away on April 12, 2026 (2082 Chaitra 29) at age 92.", "explanation_ne": "अप्रिल १२, २०२६ (२०८२ चैत्र २९) ९२ वर्षको उमेरमा।", "subject": "GK"},
+    {"q_en": "Which National Unity Day was celebrated in 2083?", "q_ne": "२०८३ सालमा कतिौँ राष्ट्रिय एकता दिवस मनाइयो?", "options_en": ["First", "Second", "Third", "Fourth"], "options_ne": ["पहिलो", "दोस्रो", "तेस्रो", "चौथो"], "correct": 1, "explanation_en": "Second National Unity Day. Observed on Baisakh 7 every year.", "explanation_ne": "दोस्रो राष्ट्रिय एकता दिवस। प्रत्येक वर्ष बैशाख ७ गते मनाइन्छ।", "subject": "GK"},
+    {"q_en": "Who is the new Deputy Governor of Nepal Rastra Bank?", "q_ne": "नेपाल राष्ट्र बैंकका नयाँ डेपुटी गभर्नर को हुन्?", "options_en": ["Vishwanath Paudel", "Himalaya Shamsher", "Raj Bahadur Budha", "Kiran Pandit"], "options_ne": ["विश्वनाथ पौडेल", "हिमालय शमशेर", "राजबहादुर बुढा", "किरण पण्डित"], "correct": 3, "explanation_en": "Kiran Pandit appointed on 2082 Chaitra 24. Vishwanath Paudel is the 18th Governor.", "explanation_ne": "किरण पण्डित २०८२ चैत्र २४ मा नियुक्त। विश्वनाथ पौडेल १८औँ गभर्नर।", "subject": "GK"},
+
+    # === MODEL SET 2083 ===
+    {"q_en": "Where is Nepal's easternmost point located?", "q_ne": "नेपालको सबैभन्दा पूर्वी बिन्दु कहाँ पर्दछ?", "options_en": ["Darchula", "Taplejung", "Ilam", "Panchthar"], "options_ne": ["दार्चुला", "ताप्लेजुङ", "इलाम", "पाँचथर"], "correct": 1, "explanation_en": "Nepal's easternmost point is in Taplejung district.", "explanation_ne": "नेपालको सबैभन्दा पूर्वी बिन्दु ताप्लेजुङ जिल्लामा पर्दछ।", "subject": "GK"},
+    {"q_en": "Which place is famous for ChunDunga fruit?", "q_ne": "चुनडुङाको लागि प्रसिद्ध स्थान कुन हो?", "options_en": ["Kakani", "Phulchoki", "Shivapuri", "Chandragiri"], "options_ne": ["ककनी", "फुलचोकी", "शिवपुरी", "चन्द्रागिरी"], "correct": 1, "explanation_en": "Phulchoki is famous for ChunDunga.", "explanation_ne": "फुलचोकी चुनडुङाको लागि प्रसिद्ध छ।", "subject": "GK"},
+    {"q_en": "Which is the deepest river in Nepal?", "q_ne": "नेपालको सबैभन्दा गहिरो नदी कुन हो?", "options_en": ["Gandaki", "Karnali", "Koshi", "Narayani"], "options_ne": ["गण्डकी", "कर्णाली", "कोशी", "नारायणी"], "correct": 0, "explanation_en": "The Gandaki River is considered the deepest river in Nepal.", "explanation_ne": "गण्डकी नदी नेपालको सबैभन्दा गहिरो नदी मानिन्छ।", "subject": "GK"},
+    {"q_en": "In which Asian country is the world's largest hydropower project?", "q_ne": "संसारको सबैभन्दा ठूलो जलविद्युत आयोजना कुन एसियाली मुलुकमा छ?", "options_en": ["India", "Nepal", "China", "Bhutan"], "options_ne": ["भारत", "नेपाल", "चीन", "भुटान"], "correct": 2, "explanation_en": "China has the world's largest hydropower project.", "explanation_ne": "चीनमा संसारको सबैभन्दा ठूलो जलविद्युत आयोजना रहेको छ।", "subject": "GK"},
+    {"q_en": "When was the Nepal-China Border Protocol Agreement signed?", "q_ne": "नेपाल र चीन बीचमा सीमा प्रोटोकल सम्झौता कहिले भएको थियो?", "options_en": ["1955 AD", "1961 AD", "1970 AD", "1980 AD"], "options_ne": ["सन् १९५५", "सन् १९६१", "सन् १९७०", "सन् १९८०"], "correct": 1, "explanation_en": "The Nepal-China Border Protocol Agreement was signed in 1961 AD.", "explanation_ne": "नेपाल र चीन बीचको सीमा प्रोटोकल सम्झौता सन् १९६१ मा भएको हो।", "subject": "GK"},
+    {"q_en": "When was the Narcotic Drugs Control Act enacted?", "q_ne": "लागुऔषध नियन्त्रण ऐन कहिले आएको हो?", "options_en": ["2028 BS", "2033 BS", "2045 BS", "2050 BS"], "options_ne": ["२०२८", "२०३३", "२०४५", "२०५०"], "correct": 1, "explanation_en": "The Narcotic Drugs Control Act was enacted in 2033 BS.", "explanation_ne": "लागुऔषध नियन्त्रण ऐन २०३३ मा ल्याइएको हो।", "subject": "CONSTITUTION"},
+    {"q_en": "Who was the last Kiranti king?", "q_ne": "अन्तिम किराँती राजा को थिए?", "options_en": ["Yalamber", "Gasti", "Khiguang", "Limbu"], "options_ne": ["यलम्बर", "गस्ती", "खिगुङ", "लिम्बु"], "correct": 1, "explanation_en": "Gasti was the last Kiranti king.", "explanation_ne": "गस्ती अन्तिम किराँती राजा थिए।", "subject": "GK"},
+    {"q_en": "Who was the first female Deputy Speaker in Nepal's history?", "q_ne": "नेपालको पहिलो महिला उपसभामुख को हुन्?", "options_en": ["Dwarika Devi Thakurani", "Pampha Bhusal", "Onsari Gharti", "Pushpa Bhusal"], "options_ne": ["द्वारिकादेवी ठाकुरानी", "पम्फा भुसाल", "ओनसरी घर्ती", "पुष्पा भुसाल"], "correct": 2, "explanation_en": "Onsari Gharti was the first female Deputy Speaker.", "explanation_ne": "ओनसरी घर्ती पहिलो महिला उपसभामुख हुनुभयो।", "subject": "GK"},
+    {"q_en": "When did the Kathmandu-Bhaktapur trolley bus service start?", "q_ne": "काठमाडौँ-भक्तपुर ट्रली बस कहिले देखि सञ्चालनमा आएको हो?", "options_en": ["2030 BS Push 14", "2032 BS Push 14", "2035 BS Push 14", "2040 BS Push 14"], "options_ne": ["२०३० पुष १४", "२०३२ पुष १४", "२०३५ पुष १४", "२०४० पुष १४"], "correct": 1, "explanation_en": "The trolley bus service started on 2032 BS Push 14.", "explanation_ne": "ट्रली बस २०३२ पुष १४ गतेदेखि सञ्चालनमा आएको हो।", "subject": "GK"},
+    {"q_en": "Which is Nepal's largest statue?", "q_ne": "नेपालको सबैभन्दा ठूलो मूर्ति कुन हो?", "options_en": ["Lumbini Buddha", "Kailashnath Mahadev", "Buddha Nilkantha", "Shiva of Pumdikot"], "options_ne": ["लुम्बिनी बुद्ध", "कैलाशनाथ महादेव", "बुद्ध नीलकण्ठ", "पुम्दीकोटका शिव"], "correct": 2, "explanation_en": "Buddha Nilkantha is Nepal's largest statue.", "explanation_ne": "बुद्ध नीलकण्ठ नेपालको सबैभन्दा ठूलो मूर्ति हो।", "subject": "GK"},
+    {"q_en": "Bel marriage (Ihi) is a tradition of which caste?", "q_ne": "बेल विवाह (ईहि) कुन जातिको संस्कार हो?", "options_en": ["Gurung", "Newar", "Tamang", "Magar"], "options_ne": ["गुरुङ", "नेवार", "तामाङ", "मगर"], "correct": 1, "explanation_en": "Bel marriage (Ihi) is a Newar tradition.", "explanation_ne": "बेल विवाह (ईहि) नेवार समुदायको परम्परा हो।", "subject": "GK"},
+    {"q_en": "From which Veda did music originate?", "q_ne": "संगीतको उत्पत्ति कुन वेदबाट भएको मानिन्छ?", "options_en": ["Rigveda", "Samaveda", "Yajurveda", "Atharvaveda"], "options_ne": ["ऋग्वेद", "सामवेद", "यजुर्वेद", "अथर्ववेद"], "correct": 1, "explanation_en": "Music is believed to have originated from Samaveda.", "explanation_ne": "संगीतको उत्पत्ति सामवेदबाट भएको मानिन्छ।", "subject": "GK"},
+    {"q_en": "What is the original homeland of the Chhantel caste?", "q_ne": "छन्तेल जातिको मूल थलो कहाँ हो?", "options_en": ["Myagdi", "Mustang", "Manang", "Dolpa"], "options_ne": ["म्याग्दी", "मुस्ताङ", "मनाङ", "डोल्पा"], "correct": 0, "explanation_en": "The Chhantel caste's original homeland is Myagdi.", "explanation_ne": "छन्तेल जातिको मूल थलो म्याग्दी हो।", "subject": "GK"},
+    {"q_en": "What percentage belongs to marginalized indigenous groups per Census 2078?", "q_ne": "जनगणना २०७८ अनुसार सीमान्तकृत आदिवासी जनजातिको प्रतिशत कति छ?", "options_en": ["10.5%", "13.94%", "15.2%", "18.7%"], "options_ne": ["१०.५%", "१३.९४%", "१५.२%", "१८.७%"], "correct": 1, "explanation_en": "13.94% of Nepal's population belongs to marginalized indigenous groups.", "explanation_ne": "१३.९४% जनसंख्या सीमान्तकृत आदिवासी जनजातिमा पर्दछ।", "subject": "GK"},
+    {"q_en": "When was the Natural and Cultural Heritage Conservation Council established?", "q_ne": "प्राकृतिक तथा सांस्कृतिक सम्पदा संरक्षण परिषद्को स्थापना कहिले भयो?", "options_en": ["1985 AD", "1988 AD", "1990 AD", "1995 AD"], "options_ne": ["सन् १९८५", "सन् १९८८", "सन् १९९०", "सन् १९९५"], "correct": 2, "explanation_en": "Established in 1990 AD.", "explanation_ne": "सन् १९९० मा स्थापना गरिएको हो।", "subject": "GK"},
+    {"q_en": "Up to how many decibels can the human ear tolerate?", "q_ne": "मानिसको कानले कति डेसिबलसम्मको ध्वनि सहन सक्छ?", "options_en": ["50-55 dB", "60-65 dB", "70-75 dB", "80-85 dB"], "options_ne": ["५०-५५ डेसिबल", "६०-६५ डेसिबल", "७०-७५ डेसिबल", "८०-८५ डेसिबल"], "correct": 2, "explanation_en": "The human ear can tolerate up to 70-75 decibels.", "explanation_ne": "मानिसको कानले ७०-७५ डेसिबलसम्मको ध्वनि सहन सक्छ।", "subject": "SCIENCE"},
+    {"q_en": "Match the phobias: Aerophobia, Hydrophobia, Photophobia, Pyrophobia", "q_ne": "जोडा मिलाउनुहोस्: एरोफोबिया, हाइड्रोफोबिया, फोटोफोबिया, पाइरोफोबिया", "options_en": ["Sky/Water/Light/Fire", "Water/Sky/Fire/Light", "Light/Fire/Sky/Water", "Fire/Light/Water/Sky"], "options_ne": ["आकाश/पानी/प्रकाश/आगो", "पानी/आकाश/आगो/प्रकाश", "प्रकाश/आगो/आकाश/पानी", "आगो/प्रकाश/पानी/आकाश"], "correct": 0, "explanation_en": "Aerophobia=Sky, Hydrophobia=Water, Photophobia=Light, Pyrophobia=Fire.", "explanation_ne": "एरोफोबिया=आकाश, हाइड्रोफोबिया=पानी, फोटोफोबिया=प्रकाश, पाइरोफोबिया=आगो।", "subject": "SCIENCE"},
+    {"q_en": "Which conference established the Green Climate Fund?", "q_ne": "हरित जलवायु कोषको स्थापना कुन सम्मेलनले गरेको थियो?", "options_en": ["COP 15", "COP 16", "COP 21", "COP 26"], "options_ne": ["COP १५", "COP १६", "COP २१", "COP २६"], "correct": 1, "explanation_en": "The Green Climate Fund was established by COP 16.", "explanation_ne": "हरित जलवायु कोष COP १६ ले स्थापना गरेको हो।", "subject": "GK"},
+    {"q_en": "By what percentage did farming families increase per 7th Agriculture Census 2078?", "q_ne": "सातौँ कृषि गणना २०७८ अनुसार खेतिपाती गर्ने परिवार कति % ले बढे?", "options_en": ["5%", "6%", "8%", "10%"], "options_ne": ["५%", "६%", "८%", "१०%"], "correct": 2, "explanation_en": "Farming families increased by 8%.", "explanation_ne": "खेतिपाती गर्ने परिवार ८% ले बढेको छ।", "subject": "GK"},
+    {"q_en": "How many types are hydropower projects classified into?", "q_ne": "जलविद्युत आयोजनालाई कति प्रकारमा विभाजित गरिएको छ?", "options_en": ["3 types", "5 types", "7 types", "10 types"], "options_ne": ["३ प्रकार", "५ प्रकार", "७ प्रकार", "१० प्रकार"], "correct": 1, "explanation_en": "Hydropower projects are classified into 5 types.", "explanation_ne": "जलविद्युत आयोजनालाई ५ प्रकारमा विभाजित गरिएको छ।", "subject": "GK"},
+    {"q_en": "What is Nepal's technically feasible solar power capacity?", "q_ne": "नेपालमा प्राविधिक रूपले कति मेगावाट सौर्य शक्ति उत्पादन हुन सक्छ?", "options_en": ["1.5 crore MW", "2.0 crore MW", "2.66 crore MW", "3.0 crore MW"], "options_ne": ["१.५ करोड मेगावाट", "२.० करोड मेगावाट", "२.६६ करोड मेगावाट", "३.० करोड मेगावाट"], "correct": 2, "explanation_en": "Technically feasible solar capacity is 2.66 crore MW.", "explanation_ne": "प्राविधिक रूपले २.६६ करोड मेगावाट सौर्य शक्ति उत्पादन हुन सक्छ।", "subject": "SCIENCE"},
+    {"q_en": "The Kyoto Protocol is related to which field?", "q_ne": "क्योटो प्रोटोकल कससँग सम्बन्धित छ?", "options_en": ["Trade", "Human Rights", "Environment", "Defense"], "options_ne": ["व्यापार", "मानव अधिकार", "वातावरण", "रक्षा"], "correct": 2, "explanation_en": "The Kyoto Protocol is related to environment and climate change.", "explanation_ne": "क्योटो प्रोटोकल वातावरण र जलवायु परिवर्तनसँग सम्बन्धित छ।", "subject": "GK"},
+    {"q_en": "When is Energy Day celebrated in Nepal?", "q_ne": "नेपालमा उर्जा दिवस कहिले मनाइन्छ?", "options_en": ["Baisakh 9", "Jestha 9", "Ashoj 9", "Magh 9"], "options_ne": ["बैशाख ९", "जेठ ९", "असोज ९", "माघ ९"], "correct": 1, "explanation_en": "Energy Day is celebrated on Jestha 9.", "explanation_ne": "उर्जा दिवस जेठ ९ मा मनाइन्छ।", "subject": "GK"},
+    {"q_en": "Nepal ranks 10th in Asia in flowering plant diversity. What is its global rank?", "q_ne": "फुलफुल्ने वनस्पति विविधतामा नेपाल एसियामा दशौँ स्थानमा छ। विश्वमा कतिऔँ?", "options_en": ["20th", "23rd", "25th", "27th"], "options_ne": ["२० औँ", "२३ औँ", "२५ औँ", "२७ औँ"], "correct": 3, "explanation_en": "Nepal ranks 27th globally.", "explanation_ne": "नेपाल विश्वमा २७ औँ स्थानमा छ।", "subject": "GK"},
+    {"q_en": "The world's first cabinet meeting underwater took place in which ocean?", "q_ne": "संसारको पहिलो समुद्रमुनि मन्त्रिपरिषद् बैठक कुन महासागरमा भएको थियो?", "options_en": ["Pacific", "Atlantic", "Indian", "Arctic"], "options_ne": ["प्रशान्त", "अट्लान्टिक", "हिन्द", "आर्कटिक"], "correct": 2, "explanation_en": "First underwater cabinet meeting was held in the Indian Ocean (Maldives).", "explanation_ne": "पहिलो समुद्रमुनि मन्त्रिपरिषद् बैठक हिन्द महासागरमा (मालद्वारा) भएको थियो।", "subject": "GK"},
+    {"q_en": "Which country has withdrawn from the United Nations?", "q_ne": "संयुक्त राष्ट्रसंघको सदस्यता त्याग गर्ने मुलुक कुन हो?", "options_en": ["Switzerland", "Vatican City", "Indonesia", "Taiwan"], "options_ne": ["स्विट्जरल्याण्ड", "भ्याटिकन सिटी", "इन्डोनेसिया", "ताइवान"], "correct": 2, "explanation_en": "Indonesia withdrew in 1965 and rejoined in 1966.", "explanation_ne": "इन्डोनेसियाले १९६५ मा त्यागेको र १९६६ मा पुनः सदस्य बनेको।", "subject": "GK"},
+    {"q_en": "How many times was the veto power used in UN Security Council in 2025?", "q_ne": "सन् २०२५ मा संयुक्त राष्ट्रसंघको सुरक्षा परिषदमा भिटो शक्ति कति पटक प्रयोग भयो?", "options_en": ["One time", "Two times", "Three times", "Four times"], "options_ne": ["एक पटक", "दुई पटक", "तीन पटक", "चार पटक"], "correct": 1, "explanation_en": "The veto power was used 2 times in 2025.", "explanation_ne": "भिटो शक्ति २ पटक प्रयोग भएको छ।", "subject": "GK"},
+    {"q_en": "Which is the largest importer of Nepali carpets?", "q_ne": "नेपालबाट धेरै गलैंचा निर्यात हुने देश कुन हो?", "options_en": ["USA", "Germany", "UK", "Japan"], "options_ne": ["अमेरिका", "जर्मनी", "बेलायत", "जापान"], "correct": 1, "explanation_en": "Germany is the largest importer of Nepali carpets.", "explanation_ne": "जर्मनी नेपाली गलैंचा आयात गर्ने सबैभन्दा ठूलो देश हो।", "subject": "GK"},
+    {"q_en": "Which was the first country to establish diplomatic relations with Nepal?", "q_ne": "नेपालसँग दौंतरी सम्बन्ध कायम राख्ने पहिलो राष्ट्र कुन हो?", "options_en": ["Britain", "India", "China", "France"], "options_ne": ["बेलायत", "भारत", "चीन", "फ्रान्स"], "correct": 0, "explanation_en": "Britain was the first country.", "explanation_ne": "बेलायत पहिलो राष्ट्र हो।", "subject": "GK"},
+    {"q_en": "How many founding nations were there in SAARC?", "q_ne": "सार्कको संस्थापक राष्ट्र कति वटा थिए?", "options_en": ["5", "7", "8", "10"], "options_ne": ["५", "७", "८", "१०"], "correct": 1, "explanation_en": "SAARC was founded by 7 nations.", "explanation_ne": "सार्कको स्थापना ७ वटा राष्ट्रले गरेका हुन्।", "subject": "GK"},
+    {"q_en": "Which philosopher said 'Religion is knowledge and knowledge is religion'?", "q_ne": "'धर्म नै ज्ञान हो र ज्ञान नै धर्म हो' भन्ने दार्शनिक को हुन्?", "options_en": ["Plato", "Socrates", "Aristotle", "Confucius"], "options_ne": ["प्लेटो", "सुक्रात", "अरिस्टोटल", "कन्फुसियस"], "correct": 1, "explanation_en": "Socrates said this.", "explanation_ne": "सुक्रातले यो भनेका हुन्।", "subject": "GK"},
+    {"q_en": "Which Nepali bank won the SAFA Award 2024?", "q_ne": "साफा अवार्ड २०२४ जित्ने नेपाली बैंक कुन हो?", "options_en": ["Nabil Bank", "Global IME Bank", "NIC Asia Bank", "Everest Bank"], "options_ne": ["नबिल बैंक", "ग्लोबल आइएमई बैंक", "एनआइसी एसिया बैंक", "एभरेष्ट बैंक"], "correct": 1, "explanation_en": "Global IME Bank won the SAFA Award 2024.", "explanation_ne": "ग्लोबल आइएमई बैंकले साफा अवार्ड २०२४ जितेको हो।", "subject": "GK"},
+    {"q_en": "How many days did the Thailand-Cambodia war last?", "q_ne": "थाइल्याण्ड र कम्बोडिया बीचको युद्ध कति दिन चलेको थियो?", "options_en": ["3 days", "4 days", "5 days", "7 days"], "options_ne": ["३ दिन", "४ दिन", "५ दिन", "७ दिन"], "correct": 2, "explanation_en": "The war lasted 5 days.", "explanation_ne": "युद्ध ५ दिनसम्म चलेको थियो।", "subject": "GK"},
+    {"q_en": "Who is the 18th Governor of Nepal Rastra Bank?", "q_ne": "नेपाल राष्ट्र बैंकको १८औँ गभर्नर को हुन्?", "options_en": ["Yuba Raj Khatiwada", "Maha Prasad Adhikari", "Vishwanath Paudel", "Himalaya Shamsher"], "options_ne": ["युवराज खतिवडा", "महाप्रसाद अधिकारी", "विश्वनाथ पौडेल", "हिमालय शमशेर"], "correct": 2, "explanation_en": "Vishwanath Paudel is the 18th Governor.", "explanation_ne": "विश्वनाथ पौडेल १८औँ गभर्नर हुन्।", "subject": "GK"},
+    {"q_en": "Which is the 5th country to land a spacecraft on the moon?", "q_ne": "चन्द्रमामा अवतरण गर्ने पाँचौँ देश कुन हो?", "options_en": ["India", "China", "Russia", "Japan"], "options_ne": ["भारत", "चीन", "रूस", "जापान"], "correct": 3, "explanation_en": "Japan is the 5th country.", "explanation_ne": "जापान पाँचौँ देश हो।", "subject": "SCIENCE"},
+    {"q_en": "When did the Air India plane crash occur in Ahmedabad?", "q_ne": "एयर इन्डियाको विमान दुर्घटना अहमदाबादमा कहिले भएको थियो?", "options_en": ["June 10, 2025", "June 12, 2025", "June 15, 2025", "June 20, 2025"], "options_ne": ["जुन १०, २०२५", "जुन १२, २०२५", "जुन १५, २०२५", "जुन २०, २०२५"], "correct": 1, "explanation_en": "The Air India crash occurred on June 12, 2025.", "explanation_ne": "एयर इन्डियाको विमान दुर्घटना जुन १२, २०२५ मा भएको थियो।", "subject": "GK"},
+    {"q_en": "Match: Purnima, Christ, Vishnu Gupta, Karl Marx", "q_ne": "जोडा मिलाउनुहोस्: पूर्णिमा, क्राइस्ट, विष्णु गुप्त, कालमाक्स", "options_en": ["Buddha/Israel/Kautilya/England", "Buddha/Rome/Chanakya/Germany", "Gandhi/Jerusalem/Kautilya/Russia", "Buddha/Israel/Chanakya/Germany"], "options_ne": ["बुद्ध/इजरायल/कौटिल्य/इङ्ल्याण्ड", "बुद्ध/रोम/चाणक्य/जर्मनी", "गान्धी/जेरुसलेम/कौटिल्य/रुस", "बुद्ध/इजरायल/चाणक्य/जर्मनी"], "correct": 0, "explanation_en": "Purnima=Buddha, Christ=Israel, Vishnu Gupta=Kautilya, Karl Marx=England.", "explanation_ne": "पूर्णिमा=बुद्ध, क्राइस्ट=इजरायल, विष्णु गुप्त=कौटिल्य, कालमाक्स=इङ्ल्याण्ड।", "subject": "GK"},
+    {"q_en": "Which is the highest policy body of BIMSTEC?", "q_ne": "बिम्सटेकको सर्वोच्च नीति निर्माण निकाय कुन हो?", "options_en": ["Summit", "Council of Ministers", "Secretariat", "Working Group"], "options_ne": ["शिखर सम्मेलन", "मन्त्रिपरिषद्", "सचिवालय", "कार्य समूह"], "correct": 0, "explanation_en": "The Summit is the highest policy body.", "explanation_ne": "शिखर सम्मेलन सर्वोच्च नीति निर्माण निकाय हो।", "subject": "GK"},
+
+    # === CURRENT AFFAIRS 2082 ===
+    {"q_en": "How many languages are used in Gorkhapatra?", "q_ne": "गोर्खापत्रमा कति भाषामा समाचार प्रकाशन हुन्छ?", "options_en": ["46", "48", "24", "26"], "options_ne": ["४६", "४८", "२४", "२६"], "correct": 1, "explanation_en": "Gorkhapatra now publishes in 48 languages. 47th was Santhali, 48th was Hayu.", "explanation_ne": "गोर्खापत्रमा अहिले ४८ भाषामा समाचार प्रकाशन हुन्छ। ४७औँ सन्थाली र ४८औँ हायु।", "subject": "GK"},
+    {"q_en": "When did senior actor Sunil Thapa pass away?", "q_ne": "बरिष्ठ कलाकार सुनिल थापाको निधन कहिले भयो?", "options_en": ["2082 Jestha 18", "2082 Baisakh 10", "2082 Baisakh 23", "2082 Magh 24"], "options_ne": ["२०८२ जेठ १८", "२०८२ बैशाख १०", "२०८२ बैशाख २३", "२०८२ माघ २४"], "correct": 3, "explanation_en": "Sunil Thapa passed away on 2082 Magh 24.", "explanation_ne": "सुनिल थापाको निधन २०८२ माघ २४ मा भयो।", "subject": "GK"},
+    {"q_en": "Where was the 9th Indian Ocean Conference 2026 held?", "q_ne": "नवौँ हिन्द महासागर सम्मेलन २०२६ कहाँ भएको थियो?", "options_en": ["Laos", "India", "Mauritius", "Nepal"], "options_ne": ["लाओस", "भारत", "मरिसस", "नेपाल"], "correct": 2, "explanation_en": "Held in Mauritius, April 10-12, 2026.", "explanation_ne": "अप्रिल १०-१२, २०२६ मा मरिससमा।", "subject": "GK"},
+    {"q_en": "When was the Nepal-India Biodiversity Agreement signed?", "q_ne": "नेपाल भारत जैविक विविधता सम्झौता कहिले भएको थियो?", "options_en": ["2082 Falgun 12", "2082 Falgun 13", "2082 Falgun 14", "2082 Falgun 15"], "options_ne": ["२०८२ फाल्गुण १२", "२०८२ फाल्गुण १३", "२०८२ फाल्गुण १४", "२०८२ फाल्गुण १५"], "correct": 1, "explanation_en": "Signed on 2082 Falgun 13 (February 25, 2026).", "explanation_ne": "२०८२ फाल्गुण १३ गते (फेब्रुअरी २५, २०२६) मा भएको हो।", "subject": "GK"},
+    {"q_en": "Which Social Security Day was celebrated in 2082?", "q_ne": "२०८२ सालमा कतिौँ सामाजिक सुरक्षा दिवस मनाइयो?", "options_en": ["7th", "8th", "9th", "10th"], "options_ne": ["सातौँ", "आठौँ", "नवौँ", "दशौँ"], "correct": 1, "explanation_en": "8th Social Security Day. Celebrated on Mangsir 11.", "explanation_ne": "आठौँ सामाजिक सुरक्षा दिवस। मंसिर ११ गते मनाइन्छ।", "subject": "GK"},
+    {"q_en": "Which local level was declared Nepal's first model clean rural municipality?", "q_ne": "नेपालकै पहिलो नमुना स्वच्छ गाउँपालिका कुनलाई घोषणा गरिएको छ?", "options_en": ["Dhulikhel", "Sunawal", "Jwalamukhi", "Bhairabi"], "options_ne": ["धुलीखेल", "सुनवल", "ज्वालामुखी", "भैरवी"], "correct": 2, "explanation_en": "Jwalamukhi in Dhading was declared on 2082 Chaitra 29.", "explanation_ne": "धादिङको ज्वालामुखीलाई २०८२ चैत्र २९ गते घोषणा गरिएको हो।", "subject": "GK"},
+    {"q_en": "Which country recently declared an energy emergency?", "q_ne": "हालसालै कुन मुलुकमा उर्जा संकटकाल घोषणा भएको छ?", "options_en": ["Malaysia", "Thailand", "Indonesia", "Philippines"], "options_ne": ["मलेसिया", "थाइल्याण्ड", "इन्डोनेसिया", "फिलिपिन्स"], "correct": 3, "explanation_en": "Philippines declared energy emergency on March 24, 2026.", "explanation_ne": "फिलिपिन्सले मार्च २४, २०२६ मा उर्जा संकटकाल घोषणा गरेको हो।", "subject": "GK"},
+    {"q_en": "Which city became the world's most populous city recently?", "q_ne": "हालसालै विश्वको सबैभन्दा धेरै जनसंख्या भएको सहर कुन बनेको छ?", "options_en": ["Beijing", "New Delhi", "Jakarta", "Paris"], "options_ne": ["बेइजिङ", "नयाँ दिल्ली", "जकार्ता", "पेरिस"], "correct": 2, "explanation_en": "Jakarta is now the world's most populous city (41.9 million per UN 2025).", "explanation_ne": "जकार्ता विश्वको सबैभन्दा धेरै जनसंख्या भएको सहर बनेको छ (UN २०२५ अनुसार ४१.९ मिलियन)।", "subject": "GK"},
+    {"q_en": "Which Earthquake Safety Day was celebrated in 2082?", "q_ne": "२०८२ मा कतिौँ भूकम्प सुरक्षा दिवस मनाइयो?", "options_en": ["21st", "22nd", "23rd", "24th"], "options_ne": ["२१ औँ", "२२ औँ", "२३ औँ", "२४ औँ"], "correct": 1, "explanation_en": "22nd Earthquake Safety Day. Observed on Magh 2.", "explanation_ne": "२२ औँ भूकम्प सुरक्षा दिवस। माघ २ गते मनाइन्छ।", "subject": "GK"},
+    {"q_en": "Where was the National Silk Conference 2082 held?", "q_ne": "राष्ट्रिय रेशम सम्मेलन २०८२ कहाँ सम्पन्न भयो?", "options_en": ["Kathmandu", "Pokhara", "Chitwan", "Birgunj"], "options_ne": ["काठमाडौँ", "पोखरा", "चितवन", "वीरगञ्ज"], "correct": 0, "explanation_en": "Held in Kathmandu on 2082 Push 26.", "explanation_ne": "२०८२ पुष २६ गते काठमाडौँमा।", "subject": "GK"},
+    {"q_en": "What was the slogan of Tax Day 2082?", "q_ne": "कर दिवस २०८२ को नारा के थियो?", "options_en": ["Tax system is the foundation of investment", "Tax system is the essence, investment is the foundation", "Investment is the foundation, tax system", "Tax system, investment foundation"], "options_ne": ["कर प्रणालीको आधार लगानीको सार", "कर प्रणालीको सार लगानीको आधार", "लगानीको आधार कर प्रणाली", "कर प्रणालीमा लगानीको आधार"], "correct": 1, "explanation_en": "Slogan: 'Tax system is the essence, investment is the foundation'. Observed on Mangsir 1.", "explanation_ne": "नारा: 'कर प्रणालीको सार लगानीको आधार'। मंसिर १ गते मनाइन्छ।", "subject": "GK"},
+    {"q_en": "When was Nepal's first AI center established?", "q_ne": "नेपालमा पहिलो एआई केन्द्र कहिले स्थापना भयो?", "options_en": ["2082 Kartik 23", "2082 Kartik 24", "2082 Kartik 25", "2082 Kartik 26"], "options_ne": ["२०८२ कार्तिक २३", "२०८२ कार्तिक २४", "२०८२ कार्तिक २५", "२०८२ कार्तिक २६"], "correct": 1, "explanation_en": "Established on 2082 Kartik 24 by Jagadish Kharel.", "explanation_ne": "२०८२ कार्तिक २४ गते जगदीश खरेलद्वारा स्थापना।", "subject": "GK"},
+    {"q_en": "According to SDG Index 2025, what is Nepal's rank?", "q_ne": "दिगो विकास सूचकांक २०२५ अनुसार नेपाल कतिऔँ स्थानमा छ?", "options_en": ["109", "72", "107", "95"], "options_ne": ["१०९", "७२", "१०७", "९५"], "correct": 3, "explanation_en": "Nepal ranks 95th in SDG Index.", "explanation_ne": "नेपाल दिगो विकास सूचकांकमा ९५ औँ स्थानमा छ।", "subject": "GK"},
+    {"q_en": "Who was the Emerging Player in NPL 2025 (2nd edition)?", "q_ne": "एनपीएल २०२५ मा इमर्जिङ खेलाडी को घोषित भएका थिए?", "options_en": ["Sher Malla", "Sandeep Lamichhane", "Rohit Paudel", "Avinash Bohara"], "options_ne": ["शेर मल्ल", "सन्दीप लामिछाने", "रोहित पौडेल", "अविनाश बोहरा"], "correct": 0, "explanation_en": "Sher Malla was the Emerging Player. Sandeep=Best Bowler, Rohit=Best Batsman.", "explanation_ne": "शेर मल्ल इमर्जिङ खेलाडी। सन्दीप=सर्वोत्कृष्ट बलर, रोहित=सर्वोत्कृष्ट ब्याट्सम्यान।", "subject": "GK"},
+    {"q_en": "How many wild animals were declared harmful by the government?", "q_ne": "सरकारले कति वटा वन्यजन्तुलाई हानिकारक घोषणा गरेको छ?", "options_en": ["1", "2", "3", "4"], "options_ne": ["१", "२", "३", "४"], "correct": 1, "explanation_en": "2 animals: wild monkey (2082 Falgun 11) and red monkey (2082 Magh 29).", "explanation_ne": "२ वटा: जंगली बाँदर (२०८२ फाल्गुण ११) र रातो बाँदर (२०८२ माघ २९)।", "subject": "GK"},
+
+    # === NEPAL SOCIAL & CULTURAL ===
+    {"q_en": "Which is Nepal's most recently listed World Heritage Site?", "q_ne": "नेपालको सबैभन्दा पछिल्लो विश्व सम्पदा सूचिकृत सम्पदा कुन हो?", "options_en": ["Swayambhunath", "Sagarmatha National Park", "Boudhanath", "Lumbini Area"], "options_ne": ["स्वयम्भूनाथ", "सगरमाथा राष्ट्रिय निकुञ्ज", "बौद्धनाथ", "लुम्बिनी क्षेत्र"], "correct": 3, "explanation_en": "Lumbini (1997). Sagarmatha was the first (1979).", "explanation_ne": "लुम्बिनी (सन् १९९७)। सगरमाथा पहिलो (सन् १९७९)।", "subject": "GK"},
+    {"q_en": "Palam is a folk song of which community?", "q_ne": "पालम कुन जातिको लोक गीत हो?", "options_en": ["Sherpa", "Tamang", "Limbu", "Gandharva"], "options_ne": ["शेर्पा", "तामाङ", "लिम्बु", "गन्धर्व"], "correct": 2, "explanation_en": "Palam is a Limbu folk song. Sherpa=Syabu, Tamang=Selo, Gandharva=Karkha.", "explanation_ne": "पालम लिम्बुको लोक गीत हो। शेर्पा=स्याबु, तामाङ=सेलो, गन्धर्व=कर्खा।", "subject": "GK"},
+    {"q_en": "When was Nepal declared untouchability-free?", "q_ne": "नेपाल छुवाछुत मुक्त कहिले घोषणा भयो?", "options_en": ["2063 Jestha 20", "2063 Jestha 21", "2063 Jestha 22", "2063 Jestha 23"], "options_ne": ["२०६३ जेठ २०", "२०६३ जेठ २१", "२०६३ जेठ २२", "२०६३ जेठ २३"], "correct": 1, "explanation_en": "Declared on 2063 Jestha 21.", "explanation_ne": "२०६३ जेठ २१ गते घोषणा भएको हो।", "subject": "CONSTITUTION"},
+    {"q_en": "In which district is the Lepcha community's main settlement?", "q_ne": "लेप्चा जातिको प्रमुख बसोबास कुन जिल्लामा छ?", "options_en": ["Ilam", "Morang", "Gorkha", "Jhapa"], "options_ne": ["इलाम", "मोरङ", "गोरखा", "झापा"], "correct": 0, "explanation_en": "Lepcha in Ilam. Dhimal in Morang, Chonara in Gorkha, Kisan in Jhapa.", "explanation_ne": "लेप्चा इलाममा। धिमाल मोरङमा, चोनार गोरखामा, किसान झापामा।", "subject": "GK"},
+    {"q_en": "What is the Dhimal priest called?", "q_ne": "धिमाल जातिको पुरोहितलाई के भनिन्छ?", "options_en": ["Guju", "Bhusal", "Lama", "Barang"], "options_ne": ["गुबाजु", "भुसाल", "लामा", "बराङ"], "correct": 3, "explanation_en": "Dhimal priest = Barang. Newar=Guju, Magar=Bhusal, Tamang=Lama.", "explanation_ne": "धिमाल=बराङ, नेवार=गुबाजु, मगर=भुसाल, तामाङ=लामा।", "subject": "GK"},
+    {"q_en": "Which community counts a child as one year old immediately after birth?", "q_ne": "जन्मने बित्तिकै एक वर्ष मान्ने चलन कुन जातिमा छ?", "options_en": ["Danuwar", "Sherpa", "Dura", "Byasi"], "options_ne": ["दनुवार", "शेर्पा", "दुरा", "ब्यासी"], "correct": 1, "explanation_en": "Sherpa counts child as 1 year at birth. Danuwar=chicken blood wash, Dura=rooster/hen.", "explanation_ne": "शेर्पाले जन्मने बित्तिकै एक वर्ष मान्छ। दनुवार=कुखुराको रगतले पखाल्ने, दुरा=भाले/पोथी।", "subject": "GK"},
+    {"q_en": "In which community do families fight during marriage?", "q_ne": "विवाहमा सम्धीबीच लडाइँ गर्नुपर्ने जाति कुन हो?", "options_en": ["Thami", "Limbu", "Kumal", "Jhangad"], "options_ne": ["थामी", "लिम्बु", "कुमाल", "झागड"], "correct": 2, "explanation_en": "Kumal = fight during marriage. Thami=marriage after death, Limbu=fire guns, Jhangad=exchange sindur.", "explanation_ne": "कुमाल=विवाहमा लडाइँ। थामी=मरेपछि विवाह, लिम्बु=बन्दुक पड्काउने, झागड=सिन्दुर साट्ने।", "subject": "GK"},
+    {"q_en": "In which community do people drink alcohol after carrying a dead body?", "q_ne": "लास गाडीपछि रक्सी पिउने संस्कार कुन जातिमा छ?", "options_en": ["Kushbadia", "Raute", "Thami", "Lepcha"], "options_ne": ["कुशबाडिया", "राउटे", "थामी", "लेप्चा"], "correct": 0, "explanation_en": "Kushbadia = drink after burial. Raute=move place, Thami=chautara, Lepcha=water wash.", "explanation_ne": "कुशबाडिया=लास गाडीपछि रक्सी। राउटे=ठाउँ सार्ने, थामी=चौतारा, लेप्चा=पानीले नुहाउने।", "subject": "GK"},
+    {"q_en": "Manghim and Silauti are religious places of which religion?", "q_ne": "माङहिम र सिलौटी कुन धर्मको धार्मिक स्थल हुन्?", "options_en": ["Sikh", "Jewish", "Jain", "Kirant"], "options_ne": ["सिख", "यहुदी", "जैन", "किराँत"], "correct": 3, "explanation_en": "Kirant. Sikh=Gurudwara, Jewish=Fire Temple, Jain=Jain Temple.", "explanation_ne": "किराँत। सिख=गुरुद्वार, यहुदी=अग्नि मन्दिर, जैन=जैन मन्दिर।", "subject": "GK"},
+    {"q_en": "What is the main religious text of Sikhism?", "q_ne": "सिख धर्मको प्रमुख धार्मिक ग्रन्थ कुन हो?", "options_en": ["Guru Granth", "Tripitak", "Quran", "Bachanamrit"], "options_ne": ["गुरु ग्रन्थ", "त्रिपिटक", "कुरान", "बचनामृत"], "correct": 0, "explanation_en": "Guru Granth. Tripitak=Buddhism, Quran=Islam, Bachanamrit=Jainism.", "explanation_ne": "गुरु ग्रन्थ। त्रिपिटक=बौद्ध, कुरान=इस्लाम, बचनामृत=जैन।", "subject": "GK"},
+
+    # === EXTRA RESEARCHED ===
+    {"q_en": "Which is the longest river in Nepal?", "q_ne": "नेपालको सबैभन्दा लामो नदी कुन हो?", "options_en": ["Koshi", "Gandaki", "Karnali", "Narayani"], "options_ne": ["कोशी", "गण्डकी", "कर्णाली", "नारायणी"], "correct": 2, "explanation_en": "Karnali, about 507 km.", "explanation_ne": "कर्णाली, लगभग ५०७ किलोमिटर।", "subject": "GK"},
+    {"q_en": "Which is Nepal's largest province by area?", "q_ne": "क्षेत्रफलको हिसाबले नेपालको सबैभन्दा ठूलो प्रदेश कुन हो?", "options_en": ["Bagmati", "Lumbini", "Karnali", "Sudurpashchim"], "options_ne": ["बागमती", "लुम्बिनी", "कर्णाली", "सुदूरपश्चिम"], "correct": 2, "explanation_en": "Karnali (27,984 sq km, 19% of Nepal).", "explanation_ne": "कर्णाली (२७,९८४ वर्ग किमी, नेपालको १९%)।", "subject": "GK"},
+    {"q_en": "Which is the rainiest place in Nepal?", "q_ne": "नेपालको सबैभन्दा वर्षा हुने ठाउँ कुन हो?", "options_en": ["Pokhara", "Lumle", "Kathmandu", "Biratnagar"], "options_ne": ["पोखरा", "लुम्ले", "काठमाडौँ", "विराटनगर"], "correct": 1, "explanation_en": "Lumle in Kaski district.", "explanation_ne": "कास्की जिल्लाको लुम्ले।", "subject": "GK"},
+    {"q_en": "Which is the largest lake in Nepal?", "q_ne": "नेपालको सबैभन्दा ठूलो ताल कुन हो?", "options_en": ["Phewa Lake", "Rara Lake", "Begnas Lake", "Tilicho Lake"], "options_ne": ["फेवा ताल", "रारा ताल", "बेगनास ताल", "तिलिचो ताल"], "correct": 1, "explanation_en": "Rara Lake in Mugu district.", "explanation_ne": "मुगु जिल्लाको रारा ताल।", "subject": "GK"},
+    {"q_en": "Which is Nepal's largest national park?", "q_ne": "नेपालको सबैभन्दा ठूलो राष्ट्रिय निकुञ्ज कुन हो?", "options_en": ["Chitwan", "Sagarmatha", "Shey Phoksundo", "Bardiya"], "options_ne": ["चितवन", "सगरमाथा", "शे-फोक्सुण्डो", "बर्दिया"], "correct": 2, "explanation_en": "Shey Phoksundo in Dolpa district.", "explanation_ne": "डोल्पा जिल्लाको शे-फोक्सुण्डो।", "subject": "GK"},
+    {"q_en": "How many articles are in the Constitution of Nepal 2072?", "q_ne": "नेपालको संविधान २०७२ मा कति धारा छन्?", "options_en": ["280", "295", "308", "325"], "options_ne": ["२८०", "२९५", "३०८", "३२५"], "correct": 2, "explanation_en": "308 articles, 35 parts, 9 schedules.", "explanation_ne": "३०८ धारा, ३५ भाग, ९ अनुसूची।", "subject": "CONSTITUTION"},
+    {"q_en": "Which article guarantees Right to Equality?", "q_ne": "कुन धाराले समानताको अधिकारको ग्यारेन्टी गर्छ?", "options_en": ["Article 16", "Article 17", "Article 18", "Article 20"], "options_ne": ["धारा १६", "धारा १७", "धारा १८", "धारा २०"], "correct": 2, "explanation_en": "Article 18 guarantees Right to Equality.", "explanation_ne": "धारा १८ ले समानताको अधिकारको ग्यारेन्टी गर्छ।", "subject": "CONSTITUTION"},
+    {"q_en": "How many provincial assemblies are there in Nepal?", "q_ne": "नेपालमा कति वटा प्रदेश सभा छन्?", "options_en": ["5", "6", "7", "8"], "options_ne": ["५", "६", "७", "८"], "correct": 2, "explanation_en": "7 provincial assemblies.", "explanation_ne": "७ वटा प्रदेश सभा।", "subject": "CONSTITUTION"},
+    {"q_en": "Which body prevents corruption in Nepal?", "q_ne": "नेपालमा भ्रष्टाचार नियन्त्रणको जिम्मेवारी कुन निकायको हो?", "options_en": ["Election Commission", "Public Service Commission", "CIAA", "NHRC"], "options_ne": ["निर्वाचन आयोग", "लोक सेवा आयोग", "अख्तियार", "मानव अधिकार आयोग"], "correct": 2, "explanation_en": "CIAA (Commission for Investigation of Abuse of Authority).", "explanation_ne": "अख्तियार दुरुपयोग अनुसन्धान आयोग।", "subject": "CONSTITUTION"},
+    {"q_en": "What is the term length of Nepal's President?", "q_ne": "नेपालको राष्ट्रपतिको कार्यकाल कति वर्षको हुन्छ?", "options_en": ["3 years", "4 years", "5 years", "6 years"], "options_ne": ["३ वर्ष", "४ वर्ष", "५ वर्ष", "६ वर्ष"], "correct": 2, "explanation_en": "5 years.", "explanation_ne": "५ वर्ष।", "subject": "CONSTITUTION"},
+    {"q_en": "When was the Constitution of Nepal 2072 promulgated?", "q_ne": "संविधान २०७२ कहिले जारी भएको हो?", "options_en": ["2072 Ashoj 3", "2072 Kartik 15", "2072 Mangsir 1", "2072 Poush 10"], "options_ne": ["२०७२ असोज ३", "२०७२ कात्तिक १५", "२०७२ मंसिर १", "२०७२ पुष १०"], "correct": 0, "explanation_en": "September 20, 2015 (2072 Ashoj 3).", "explanation_ne": "सेप्टेम्बर २०, २०१५ (२०७२ असोज ३)।", "subject": "CONSTITUTION"},
+    {"q_en": "Which is Nepal's highest mountain peak?", "q_ne": "नेपालको सबैभन्दा अग्लो हिमशिखर कुन हो?", "options_en": ["K2", "Kanchenjunga", "Lhotse", "Mount Everest"], "options_ne": ["K२", "कञ्चनजङ्घा", "ल्होत्से", "सगरमाथा"], "correct": 3, "explanation_en": "Mount Everest at 8,848.86 meters.", "explanation_ne": "सगरमाथा, ८,८४८.८६ मिटर।", "subject": "GK"},
+    {"q_en": "Who is known as Nepal's 'Father of the Nation'?", "q_ne": "नेपालका 'राष्ट्रिय पिता' को रूपमा कसलाई चिनिन्छ?", "options_en": ["Prithvi Narayan Shah", "Tribhuvan Bir Bikram Shah", "Mahendra Bir Bikram Shah", "Birendra Bir Bikram Shah"], "options_ne": ["पृथ्वीनारायण शाह", "त्रिभुवन वीर विक्रम शाह", "महेन्द्र वीर विक्रम शाह", "वीरेन्द्र वीर विक्रम शाह"], "correct": 0, "explanation_en": "Prithvi Narayan Shah, who unified Nepal.", "explanation_ne": "नेपाल एकीकरण गर्ने पृथ्वीनारायण शाह।", "subject": "GK"},
+    {"q_en": "Which vitamin is produced when skin is exposed to sunlight?", "q_ne": "छाला घाममा राख्दा कुन भिटामिन उत्पादन हुन्छ?", "options_en": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"], "options_ne": ["भिटामिन A", "भिटामिन B", "भिटामिन C", "भिटामिन D"], "correct": 3, "explanation_en": "Vitamin D from UVB radiation.", "explanation_ne": "अल्ट्राभायोलेट B (UVB) विकिरणबाट भिटामिन D।", "subject": "SCIENCE"},
+    {"q_en": "What is Nepal's national bird?", "q_ne": "नेपालको राष्ट्रिय चरा कुन हो?", "options_en": ["Peacock", "Himalayan Monal", "Eagle", "Crow"], "options_ne": ["मोर", "हिमाली मोनाल", "गरुड", "काग"], "correct": 1, "explanation_en": "The Himalayan Monal (Danphe).", "explanation_ne": "हिमाली मोनाल (डाँफे)।", "subject": "GK"},
+    {"q_en": "What is Nepal's national flower?", "q_ne": "नेपालको राष्ट्रिय फूल कुन हो?", "options_en": ["Lotus", "Rhododendron", "Sunflower", "Rose"], "options_ne": ["कमल", "गुराँस", "सूर्यमुखी", "गुलाफ"], "correct": 1, "explanation_en": "Rhododendron (Lali Gurans).", "explanation_ne": "गुराँस (लाली गुराँस)।", "subject": "GK"},
+    {"q_en": "How many local levels are there in Nepal?", "q_ne": "नेपालमा कति वटा स्थानीय तह छन्?", "options_en": ["744", "753", "761", "775"], "options_ne": ["७४४", "७५३", "७६१", "७७५"], "correct": 1, "explanation_en": "753: 6 metros, 11 sub-metros, 276 municipalities, 460 rural municipalities.", "explanation_ne": "७५३: ६ महानगर, ११ उपमहानगर, २७६ नगरपालिका, ४६० गाउँपालिका।", "subject": "CONSTITUTION"},
+    {"q_en": "When was SAARC established?", "q_ne": "सार्कको स्थापना कहिले भएको हो?", "options_en": ["1983", "1985", "1987", "1990"], "options_ne": ["सन् १९८३", "सन् १९८५", "सन् १९८७", "सन् १९९०"], "correct": 1, "explanation_en": "December 8, 1985. HQ in Kathmandu.", "explanation_ne": "डिसेम्बर ८, सन् १९८५। मुख्यालय काठमाडौँ।", "subject": "GK"},
+    {"q_en": "Which is Nepal's smallest province by area?", "q_ne": "क्षेत्रफलको हिसाबले नेपालको सबैभन्दा सानो प्रदेश कुन हो?", "options_en": ["Madhesh", "Bagmati", "Gandaki", "Koshi"], "options_ne": ["मधेश", "बागमती", "गण्डकी", "कोशी"], "correct": 0, "explanation_en": "Madhesh Province (9,661 sq km).", "explanation_ne": "मधेश प्रदेश (९,६६१ वर्ग किमी)।", "subject": "GK"},
+    {"q_en": "Which metal is liquid at room temperature?", "q_ne": "कोठाको तापक्रममा तरल रहने धातु कुन हो?", "options_en": ["Iron", "Copper", "Mercury", "Silver"], "options_ne": ["फलाम", "तामा", "पारो", "चाँदी"], "correct": 2, "explanation_en": "Mercury is the only liquid metal at room temperature.", "explanation_ne": "पारो मात्रै कोठाको तापक्रममा तरल रहने धातु हो।", "subject": "SCIENCE"},
+    {"q_en": "What is the currency of Nepal?", "q_ne": "नेपालको मुद्रा के हो?", "options_en": ["Rupee", "Taka", "Rupiah", "Yen"], "options_ne": ["रुपैयाँ", "टाका", "रुपिया", "येन"], "correct": 0, "explanation_en": "Nepalese Rupee (NPR).", "explanation_ne": "नेपाली रुपैयाँ (NPR)।", "subject": "GK"},
+    {"q_en": "Which is the hottest place in Nepal?", "q_ne": "नेपालको सबैभन्दा गर्मी ठाउँ कुन हो?", "options_en": ["Birgunj", "Nepalgunj", "Bhairahawa", "Janakpur"], "options_ne": ["वीरगञ्ज", "नेपालगञ्ज", "भैरहवा", "जनकपुर"], "correct": 1, "explanation_en": "Nepalgunj is the hottest.", "explanation_ne": "नेपालगञ्ज सबैभन्दा गर्मी ठाउँ हो।", "subject": "GK"},
+    {"q_en": "Which district HQ is at the highest altitude?", "q_ne": "सबैभन्दा अग्लो स्थानमा रहेको जिल्ला सदरमुकाम कुन हो?", "options_en": ["Jomsom", "Simikot", "Dolpa", "Namche"], "options_ne": ["जोमसोम", "सिमिकोट", "डोल्पा", "नाम्चे"], "correct": 1, "explanation_en": "Simikot in Humla district.", "explanation_ne": "हुम्ला जिल्लाको सिमिकोट।", "subject": "GK"},
+    {"q_en": "In which district is Gosaikunda lake?", "q_ne": "गोसाइकुण्ड ताल कुन जिल्लामा छ?", "options_en": ["Sindhupalchok", "Rasuwa", "Nuwakot", "Dhading"], "options_ne": ["सिन्धुपाल्चोक", "रसुवा", "नुवाकोट", "धादिङ"], "correct": 1, "explanation_en": "Gosaikunda is in Rasuwa district.", "explanation_ne": "गोसाइकुण्ड रसुवा जिल्लामा छ।", "subject": "GK"},
+
+    # === IQ / MATH ===
+    {"q_en": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?", "q_ne": "यदि २+३=१०, ७+२=६३, ६+५=६६, भने ८+४=?", "options_en": ["96", "48", "32", "64"], "options_ne": ["९६", "४८", "३२", "६४"], "correct": 0, "explanation_en": "Pattern: a+b = a×(a+b). So 8×12=96.", "explanation_ne": "ढाँचा: a+b = a×(a+b)। त्यसैले ८×१२=९६।", "subject": "IQ"},
+    {"q_en": "Odd one out: 3, 5, 11, 14, 17, 21", "q_ne": "फरक पहिचान गर्नुहोस्: ३, ५, ११, १४, १७, २१", "options_en": ["3", "14", "17", "21"], "options_ne": ["३", "१४", "१७", "२१"], "correct": 1, "explanation_en": "14 is the only even number.", "explanation_ne": "१४ मात्रै सम संख्या हो।", "subject": "IQ"},
+    {"q_en": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?", "q_ne": "१५० मि रेल ३६ किमि/घण्टामा २५ सेकेन्डमा प्लेटफर्म पार गर्छ। लम्बाइ?", "options_en": ["100m", "150m", "200m", "250m"], "options_ne": ["१०० मिटर", "१५० मिटर", "२०० मिटर", "२५० मिटर"], "correct": 0, "explanation_en": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.", "explanation_ne": "गति=१० मि/से। दूरी=२५० मि। प्लेटफर्म=२५०-१५०=१०० मि।", "subject": "MATH"},
+    {"q_en": "If A is brother of B, B is sister of C, C is father of D. How is A related to D?", "q_ne": "A, B को भाइ। B, C को बहिनी। C, D को बुबा। A ले D लाई के भन्छ?", "options_en": ["Uncle", "Father", "Brother", "Nephew"], "options_ne": ["काका", "बुबा", "भाइ", "भतिज"], "correct": 0, "explanation_en": "C is D's father. B is C's sister. A is B's brother, so A is D's uncle.", "explanation_ne": "C, D का बुबा। B, C की बहिनी। A, B का भाइ भएकाले D का काका।", "subject": "IQ"},
+    {"q_en": "Next in series: 2, 6, 12, 20, 30, ?", "q_ne": "शृङ्खलामा अर्को: २, ६, १२, २०, ३०, ?", "options_en": ["38", "40", "42", "44"], "options_ne": ["३८", "४०", "४२", "४४"], "correct": 2, "explanation_en": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.", "explanation_ne": "n×(n+1): १×२=२, २×३=६... ६×७=४२।", "subject": "IQ"},
+    {"q_en": "If square area = 625 sq.m, what is the perimeter?", "q_ne": "वर्गको क्षेत्रफल ६२५ वर्ग मिटर भने परिमाप?", "options_en": ["80m", "90m", "100m", "120m"], "options_ne": ["८० मिटर", "९० मिटर", "१०० मिटर", "१२० मिटर"], "correct": 2, "explanation_en": "Side=25m. Perimeter=4×25=100m.", "explanation_ne": "भुजा=२५ मि। परिमाप=४×२५=१०० मि।", "subject": "MATH"},
+    {"q_en": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?", "q_ne": "५ संख्याको औसत २५। एउटा हटाइन्छ भने औसत २०। हटाइएको संख्या?", "options_en": ["35", "40", "45", "50"], "options_ne": ["३५", "४०", "४५", "५०"], "correct": 2, "explanation_en": "Sum=125. Sum of 4=80. Excluded=125-80=45.", "explanation_ne": "योग=१२५। ४ को योग=८०। हटाइएको=१२५-८०=४५।", "subject": "MATH"},
+    {"q_en": "Ram: 'She is daughter of my grandfather's only son.' Relation?", "q_ne": "राम: 'उनी मेरो बाजेको एक मात्र छोरोकी छोरी।' सम्बन्ध?", "options_en": ["Cousin", "Sister", "Daughter", "Niece"], "options_ne": ["चेली", "बहिनी", "छोरी", "भतिजी"], "correct": 1, "explanation_en": "Grandfather's only son = Ram's father. His daughter = Ram's sister.", "explanation_ne": "बाजेको एक मात्र छोरो=रामका बुबा। उहाँकी छोरी=रामकी बहिनी।", "subject": "IQ"},
+    {"q_en": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?", "q_ne": "कोड भाषामा TABLE लाई UBCMF लेखिन्छ। CHAIR लाई कसरी लेखिन्छ?", "options_en": ["DIBJS", "BDJIS", "DIBJT", "DJBIS"], "options_ne": ["DIBJS", "BDJIS", "DIBJT", "DJBIS"], "correct": 0, "explanation_en": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.", "explanation_ne": "प्रत्येक अक्षर +१: T→U, A→B आदि। C→D, H→I, A→B, I→J, R→S = DIBJS।", "subject": "IQ"},
+    {"q_en": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?", "q_ne": "यदि SUNDAY लाई XZSIFD लेखिन्छ भने MONDAY लाई कसरी लेखिन्छ?", "options_en": ["RTSIFD", "RTSHFD", "RTSIEC", "RTSIFC"], "options_ne": ["RTSIFD", "RTSHFD", "RTSIEC", "RTSIFC"], "correct": 0, "explanation_en": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.", "explanation_ne": "प्रत्येक अक्षर +५: S→X, U→Z आदि। M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD।", "subject": "IQ"},
+    {"q_en": "Complete the analogy: Eye : Vision :: Ear : ?", "q_ne": "सम्बन्ध पूरा गर्नुहोस्: आँखा : दृष्टि :: कान : ?", "options_en": ["Sound", "Hearing", "Noise", "Music"], "options_ne": ["आवाज", "सुन्नु", "हल्ला", "संगीत"], "correct": 1, "explanation_en": "Eye is for vision, Ear is for hearing.", "explanation_ne": "आँखा दृष्टिको लागि, कान सुन्नको लागि।", "subject": "IQ"},
+    {"q_en": "Which word CANNOT be formed from 'ADMINISTRATION'?", "q_ne": "'ADMINISTRATION' बाट कुन शब्द बनाउन सकिँदैन?", "options_en": ["STATION", "TRADITION", "MINISTER", "RATION"], "options_ne": ["STATION", "TRADITION", "MINISTER", "RATION"], "correct": 2, "explanation_en": "MINISTER requires an 'E' which is not in ADMINISTRATION.", "explanation_ne": "MINISTER मा 'E' चाहिन्छ जुन ADMINISTRATION मा छैन।", "subject": "IQ"},
+    {"q_en": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?", "q_ne": "A, B भन्दा ठूलो तर C भन्दा सानो। D, E भन्दा सानो तर A भन्दा ठूलो। सबैभन्दा ठूलो को?", "options_en": ["A", "C", "D", "E"], "options_ne": ["A", "C", "D", "E"], "correct": 3, "explanation_en": "Order: B < A < D < E and A < C. E is the oldest.", "explanation_ne": "क्रम: B < A < D < E र A < C। E सबैभन्दा ठूलो।", "subject": "IQ"},
+    {"q_en": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?", "q_ne": "ROSE=६८२१, CHAIR=७३४५६, PREACH=९६१४७३ भने SEARCH=?", "options_en": ["214673", "246173", "214763", "216473"], "options_ne": ["२१४६७३", "२४६१७३", "२१४७६३", "२१६४७३"], "correct": 0, "explanation_en": "R=6,O=8,S=2,E=1,C=7,H=3,A=4,I=5,P=9. SEARCH=S(2)+E(1)+A(4)+R(6)+C(7)+H(3)=214673.", "explanation_ne": "R=६, O=८, S=२, E=१, C=७, H=३, A=४, I=५, P=९। SEARCH = २+१+४+६+७+३ = २१४६७३।", "subject": "IQ"},
+    {"q_en": "If x + 1/x = 3, what is x² + 1/x²?", "q_ne": "यदि x + 1/x = ३, भने x² + 1/x² = ?", "options_en": ["7", "8", "9", "11"], "options_ne": ["७", "८", "९", "११"], "correct": 0, "explanation_en": "(x+1/x)² = x²+2+1/x² = 9. So x²+1/x² = 7.", "explanation_ne": "(x+1/x)² = x²+२+1/x² = ९। त्यसैले x²+1/x² = ७।", "subject": "MATH"},
+    {"q_en": "LCM=48, HCF=8. If one number is 16, what is the other?", "q_ne": "लस=४८, मस=८। एउटा संख्या १६ भने अर्को?", "options_en": ["20", "24", "32", "40"], "options_ne": ["२०", "२४", "३२", "४०"], "correct": 1, "explanation_en": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.", "explanation_ne": "लस×मस = संख्याको गुणनफल। ४८×८ = १६×x। x = ३८४/१६ = २४।", "subject": "MATH"},
+    {"q_en": "15 workers complete a job in 24 days. How many days for 18 workers?", "q_ne": "१५ जना मजदुरले २४ दिनमा काम सक्छन् भने १८ जनाले कति दिनमा सक्छन्?", "options_en": ["18 days", "20 days", "22 days", "25 days"], "options_ne": ["१८ दिन", "२० दिन", "२२ दिन", "२५ दिन"], "correct": 1, "explanation_en": "M₁D₁=M₂D₂. 15×24=18×D₂. D₂=360/18=20 days.", "explanation_ne": "M₁D₁=M₂D₂। १५×२४=१८×D₂। D₂=३६०/१८=२० दिन।", "subject": "MATH"},
+    {"q_en": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.", "q_ne": "कुनै रकममा ५% वार्षिक दरले ३ वर्षको साधारण ब्याज रु ४५०० छ। मूलधन?", "options_en": ["Rs. 25000", "Rs. 30000", "Rs. 35000", "Rs. 40000"], "options_ne": ["रु २५०००", "रु ३००००", "रु ३५०००", "रु ४००००"], "correct": 1, "explanation_en": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.", "explanation_ne": "SI=P×R×T/१००। ४५००=P×५×३/१००। P=४५००×१००/१५=३००००।", "subject": "MATH"},
+    {"q_en": "What is 25% of 25% of 400?", "q_ne": "४०० को २५% को २५% कति हुन्छ?", "options_en": ["20", "25", "30", "40"], "options_ne": ["२०", "२५", "३०", "४०"], "correct": 1, "explanation_en": "25% of 400 = 100. 25% of 100 = 25.", "explanation_ne": "४०० को २५% = १००। १०० को २५% = २५।", "subject": "MATH"},
+    {"q_en": "What is the chemical formula of water?", "q_ne": "पानीको रासायनिक सूत्र के हो?", "options_en": ["CO₂", "H₂O", "O₂", "NaCl"], "options_ne": ["CO₂", "H₂O", "O₂", "NaCl"], "correct": 1, "explanation_en": "H₂O is the chemical formula of water.", "explanation_ne": "H₂O पानीको रासायनिक सूत्र हो।", "subject": "SCIENCE"},
+    {"q_en": "Which gas is most abundant in Earth's atmosphere?", "q_ne": "पृथ्वीको वायुमण्डलमा सबैभन्दा धेरै कुन ग्यास छ?", "options_en": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"], "options_ne": ["अक्सिजन", "कार्बन डाइअक्साइड", "नाइट्रोजन", "हाइड्रोजन"], "correct": 2, "explanation_en": "Nitrogen makes up about 78% of Earth's atmosphere.", "explanation_ne": "नाइट्रोजन पृथ्वीको वायुमण्डलको लगभग ७८% हिस्सा ओगट्छ।", "subject": "SCIENCE"},
+    {"q_en": "What is the hardest natural substance on Earth?", "q_ne": "पृथ्वीमा सबैभन्दा कठोर प्राकृतिक पदार्थ कुन हो?", "options_en": ["Gold", "Iron", "Diamond", "Platinum"], "options_ne": ["सुन", "फलाम", "हिरा", "प्लatinum"], "correct": 2, "explanation_en": "Diamond is the hardest natural substance.", "explanation_ne": "हिरा सबैभन्दा कठोर प्राकृतिक पदार्थ हो।", "subject": "SCIENCE"},
+    {"q_en": "What is the speed of light in vacuum?", "q_ne": "निर्वातमा प्रकाशको गति कति हुन्छ?", "options_en": ["3×10⁸ m/s", "3×10⁶ m/s", "3×10¹⁰ m/s", "3×10⁴ m/s"], "options_ne": ["३×१०⁸ मि/से", "३×१०⁶ मि/से", "३×१०¹⁰ मि/से", "३×१०⁴ मि/से"], "correct": 0, "explanation_en": "Speed of light in vacuum is ~3×10⁸ m/s.", "explanation_ne": "निर्वातमा प्रकाशको गति लगभग ३×१०⁸ मिटर/सेकेन्ड हुन्छ।", "subject": "SCIENCE"},
+    {"q_en": "Which planet is known as the Red Planet?", "q_ne": "कुन ग्रहलाई रातो ग्रह भनिन्छ?", "options_en": ["Venus", "Mars", "Jupiter", "Saturn"], "options_ne": ["शुक्र", "मंगल", "बृहस्पति", "शनि"], "correct": 1, "explanation_en": "Mars is called the Red Planet due to iron oxide.", "explanation_ne": "मंगललाई रातो ग्रह भनिन्छ किनभने यसको सतहमा फलामको अक्साइड छ।", "subject": "SCIENCE"},
+    {"q_en": "What is the smallest unit of matter?", "q_ne": "पदार्थको सबैभन्दा सानो एकाइ कुन हो?", "options_en": ["Molecule", "Atom", "Electron", "Proton"], "options_ne": ["अणु", "परमाणु", "इलेक्ट्रोन", "प्रोटोन"], "correct": 1, "explanation_en": "Atom is the smallest unit that retains chemical properties.", "explanation_ne": "परमाणु पदार्थको सबैभन्दा सानो एकाइ हो जसले रासायनिक गुण राख्छ।", "subject": "SCIENCE"},
+    {"q_en": "Which blood group is the universal donor?", "q_ne": "कुन रगत समूहलाई विश्वव्यापी दाता भनिन्छ?", "options_en": ["A+", "B+", "AB+", "O-"], "options_ne": ["A+", "B+", "AB+", "O-"], "correct": 3, "explanation_en": "O-negative is the universal donor.", "explanation_ne": "O-negativ लाई विश्वव्यापी दाता भनिन्छ।", "subject": "SCIENCE"},
+    {"q_en": "What is the powerhouse of the cell?", "q_ne": "कोषको ऊर्जा घर कसलाई भनिन्छ?", "options_en": ["Nucleus", "Ribosome", "Mitochondria", "Golgi body"], "options_ne": ["नाभिक", "राइबोसोम", "माइटोकोन्ड्रिया", "गोल्जी काय"], "correct": 2, "explanation_en": "Mitochondria produces ATP.", "explanation_ne": "माइटोकोन्ड्रियाले ATP उत्पादन गर्छ।", "subject": "SCIENCE"},
+    {"q_en": "How many fundamental rights are in Nepal's Constitution?", "q_ne": "नेपालको संविधानमा कति वटा मौलिक अधिकार छन्?", "options_en": ["28", "30", "31", "35"], "options_ne": ["२८", "३०", "३१", "३५"], "correct": 2, "explanation_en": "The Constitution guarantees 31 fundamental rights.", "explanation_ne": "संविधानले ३१ वटा मौलिक अधिकारको ग्यारेन्टी गर्छ।", "subject": "CONSTITUTION"},
+    {"q_en": "Which is the upper house of Nepal's Federal Parliament?", "q_ne": "नेपालको संघीय संसदको माथिल्लो सदन कुन हो?", "options_en": ["House of Representatives", "National Assembly", "Provincial Assembly", "Local Assembly"], "options_ne": ["प्रतिनिधि सभा", "राष्ट्रिय सभा", "प्रदेश सभा", "स्थानीय सभा"], "correct": 1, "explanation_en": "National Assembly (Rashtriya Sabha) is the upper house.", "explanation_ne": "राष्ट्रिय सभा माथिल्लो सदन हो।", "subject": "CONSTITUTION"},
+    {"q_en": "How many judges are in Nepal's Supreme Court?", "q_ne": "नेपालको सर्वोच्च अदालतमा कति जना न्यायाधीश हुन्छन्?", "options_en": ["15", "19", "21", "25"], "options_ne": ["१५", "१९", "२१", "२५"], "correct": 2, "explanation_en": "21 judges including the Chief Justice.", "explanation_ne": "प्रधान न्यायाधीश सहित २१ जना।", "subject": "CONSTITUTION"},
+    {"q_en": "What is the term length of National Assembly members?", "q_ne": "राष्ट्रिय सभाका सदस्यको कार्यकाल कति वर्षको हुन्छ?", "options_en": ["4 years", "5 years", "6 years", "7 years"], "options_ne": ["४ वर्ष", "५ वर्ष", "६ वर्ष", "७ वर्ष"], "correct": 2, "explanation_en": "National Assembly members serve 6 years.", "explanation_ne": "राष्ट्रिय सभाका सदस्यको कार्यकाल ६ वर्षको हुन्छ।", "subject": "CONSTITUTION"},
+    {"q_en": "Which constitutional body conducts elections in Nepal?", "q_ne": "नेपालमा निर्वाचन गर्ने संवैधानिक निकाय कुन हो?", "options_en": ["Public Service Commission", "Election Commission", "CIAA", "Auditor General"], "options_ne": ["लोक सेवा आयोग", "निर्वाचन आयोग", "अख्तियार", "महालेखा परीक्षक"], "correct": 1, "explanation_en": "Election Commission conducts all elections.", "explanation_ne": "निर्वाचन आयोगले सबै निर्वाचन गर्छ।", "subject": "CONSTITUTION"},
+]
+
+
+def rotate_options(q, target_correct):
+    """Rotate options so the correct answer ends up at target_correct position."""
+    q = copy.deepcopy(q)
+    correct_val_en = q["options_en"][q["correct"]]
+    correct_val_ne = q["options_ne"][q["correct"]]
+    
+    # Calculate how much to shift so correct ends up at target_correct
+    current = q["correct"]
+    shift = (current - target_correct) % 4
+    
+    q["options_en"] = q["options_en"][shift:] + q["options_en"][:shift]
+    q["options_ne"] = q["options_ne"][shift:] + q["options_ne"][:shift]
+    q["correct"] = target_correct
+    
+    # Verify
+    assert q["options_en"][target_correct] == correct_val_en
+    assert q["options_ne"][target_correct] == correct_val_ne
+    
+    return q
+
+
+def balance_questions(questions):
+    """Ensure each answer A/B/C/D appears roughly equally (12-13 each for 50 questions)."""
+    # Count current distribution
+    counts = [0, 0, 0, 0]
+    for q in questions:
+        counts[q["correct"]] += 1
+    
+    target = len(questions) // 4  # 12 or 13
+    
+    # Find which answers are over/under represented
+    for _ in range(200):  # Max iterations
+        counts = [sum(1 for q in questions if q["correct"] == i) for i in range(4)]
+        
+        if all(abs(c - target) <= 1 for c in counts):
+            break
+        
+        # Find most over-represented and under-represented
+        max_idx = max(range(4), key=lambda i: counts[i])
+        min_idx = min(range(4), key=lambda i: counts[i])
+        
+        if counts[max_idx] - counts[min_idx] <= 1:
+            break
+        
+        # Find a question with max answer and rotate it to min
+        for i, q in enumerate(questions):
+            if q["correct"] == max_idx:
+                questions[i] = rotate_options(q, min_idx)
+                break
+    
+    return questions
+
+
+def make_json_question(q, idx):
+    return {
+        "id": f"q{idx+1}",
+        "question": q["q_en"],
+        "options": q["options_en"],
+        "correctIndex": q["correct"],
+        "explanation": q["explanation_en"],
+        "subject": q["subject"]
+    }
+
+
+def make_json_question_ne(q, idx):
+    return {
+        "id": f"q{idx+1}",
+        "question": q["q_ne"],
+        "options": q["options_ne"],
+        "correctIndex": q["correct"],
+        "explanation": q["explanation_ne"],
+        "subject": q["subject"]
+    }
+
+
+def build_set(all_questions, set_num, seed_offset=0):
+    """Build a balanced 50-question set with proper subject distribution"""
+    random.seed(42 + set_num * 7 + seed_offset)
+    
+    # Lok Sewa Paper 1: ~30 GK + 20 IQ (IQ includes MATH)
+    # We distribute as: GK 22, CONSTITUTION 6, SCIENCE 4, IQ 12, MATH 6
+    targets = {"GK": 22, "CONSTITUTION": 6, "SCIENCE": 4, "IQ": 12, "MATH": 6}
+    
+    # Group and shuffle each subject
+    by_subject = {"GK": [], "IQ": [], "MATH": [], "SCIENCE": [], "CONSTITUTION": []}
+    for q in all_questions:
+        sub = q["subject"]
+        if sub in by_subject:
+            by_subject[sub].append(q)
+    
+    for sub in by_subject:
+        random.shuffle(by_subject[sub])
+    
+    result = []
+    for sub, count in targets.items():
+        picked = by_subject[sub][:count]
+        # If not enough, cycle
+        while len(picked) < count:
+            picked.extend(by_subject[sub])
+        result.extend(picked[:count])
+    
+    # Shuffle all 50
+    random.shuffle(result)
+    
+    # Balance answers
+    result = balance_questions(result)
+    
+    counts = [sum(1 for q in result if q["correct"] == i) for i in range(4)]
+    
+    en_bank = [make_json_question(q, i) for i, q in enumerate(result)]
+    ne_bank = [make_json_question_ne(q, i) for i, q in enumerate(result)]
+    
+    return en_bank, ne_bank, counts
+
+
+def save_json(data, path):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def main():
+    print(f"Total questions collected: {len(ALL_QUESTIONS)}")
+    
+    subjects = {}
+    for q in ALL_QUESTIONS:
+        subjects[q["subject"]] = subjects.get(q["subject"], 0) + 1
+    print(f"Subject breakdown: {subjects}")
+    
+    categories = ["kharidar", "subbha", "adhikrit", "police"]
+    all_balances = []
+    
+    for cat in categories:
+        for set_num in range(1, 4):
+            en_bank, ne_bank, counts = build_set(ALL_QUESTIONS, set_num, hash(cat) % 100)
+            
+            save_json(en_bank, f"../data/en/{cat}/set{set_num}.json")
+            save_json(ne_bank, f"../data/ne/{cat}/set{set_num}.json")
+            
+            all_balances.append((cat, set_num, counts))
+            print(f"  {cat}/set{set_num}: A={counts[0]} B={counts[1]} C={counts[2]} D={counts[3]}")
+    
+    print(f"\n✅ Generated 3 sets × 4 categories = 12 question banks (600 questions)")
+    
+    print("\n📊 Answer Distribution Summary:")
+    all_ok = True
+    for cat, sn, c in all_balances:
+        spread = max(c) - min(c)
+        status = "✅" if spread <= 2 else "⚠️"
+        if spread > 2:
+            all_ok = False
+        print(f"  {status} {cat}/set{sn}: A={c[0]} B={c[1]} C={c[2]} D={c[3]} (spread={spread})")
+    
+    if all_ok:
+        print("\n🎉 All sets have balanced answer distribution!")
+
+
+if __name__ == '__main__':
+    main()

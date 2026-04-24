@@ -1,652 +1,652 @@
 [
   {
     "id": "q1",
-    "question": "If all Bloops are Bleeps and all Bleeps are Blips, which is true?",
+    "question": "When was Nepal declared untouchability-free?",
     "options": [
-      "All Blips are Bloops",
-      "All Bloops are Blips",
-      "Some Bloops are not Blips",
-      "None"
+      "2063 Jestha 22",
+      "2063 Jestha 23",
+      "2063 Jestha 20",
+      "2063 Jestha 21"
     ],
-    "correctIndex": 1,
-    "explanation": "By syllogism: All Bloops are Blips.",
-    "subject": "IQ"
+    "correctIndex": 3,
+    "explanation": "Declared on 2063 Jestha 21.",
+    "subject": "CONSTITUTION"
   },
   {
     "id": "q2",
-    "question": "Which fundamental right includes the right against exploitation?",
+    "question": "Which is the deepest river in Nepal?",
     "options": [
-      "Right to Freedom",
-      "Right to Equality",
-      "Right to Religion",
-      "Right against Exploitation"
+      "Gandaki",
+      "Karnali",
+      "Koshi",
+      "Narayani"
     ],
-    "correctIndex": 3,
-    "explanation": "Article 29 guarantees Right against Exploitation.",
-    "subject": "CONSTITUTION"
+    "correctIndex": 0,
+    "explanation": "The Gandaki River is considered the deepest river in Nepal.",
+    "subject": "GK"
   },
   {
     "id": "q3",
-    "question": "A trader marks his goods 20% above cost price and allows 10% discount. What is his gain percent?",
+    "question": "How many local levels are there in Nepal?",
     "options": [
-      "8%",
-      "6%",
-      "10%",
-      "12%"
-    ],
-    "correctIndex": 0,
-    "explanation": "CP=100, MP=120, SP=108. Profit=8%.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q4",
-    "question": "If perimeter of square is 48cm, what is its area?",
-    "options": [
-      "144",
-      "121",
-      "169",
-      "196"
-    ],
-    "correctIndex": 0,
-    "explanation": "Side=12cm. Area=144 sq cm.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q5",
-    "question": "If a:b = 3:4 and b:c = 8:9, find a:c.",
-    "options": [
-      "2:3",
-      "3:4",
-      "2:3",
-      "2:3"
+      "761",
+      "775",
+      "744",
+      "753"
     ],
     "correctIndex": 3,
-    "explanation": "a:b:c = 6:8:9, so a:c = 6:9 = 2:3.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q6",
-    "question": "Which schedule of the Constitution contains the distribution of powers between federation, province and local level?",
-    "options": [
-      "Schedule 5",
-      "Schedule 7",
-      "Schedule 6",
-      "Schedule 9"
-    ],
-    "correctIndex": 1,
-    "explanation": "Schedule 7 contains the concurrent/shared powers list.",
+    "explanation": "753: 6 metros, 11 sub-metros, 276 municipalities, 460 rural municipalities.",
     "subject": "CONSTITUTION"
   },
   {
-    "id": "q7",
-    "question": "If the length of a rectangle is increased by 20% and breadth decreased by 20%, what is the change in area?",
+    "id": "q4",
+    "question": "How many times was the veto power used in UN Security Council in 2025?",
     "options": [
-      "No change",
-      "4% increase",
-      "4% decrease",
-      "8% decrease"
+      "Three times",
+      "Four times",
+      "One time",
+      "Two times"
     ],
-    "correctIndex": 2,
-    "explanation": "New area = 1.2 × 0.8 = 0.96 of original. So 4% decrease.",
-    "subject": "MATH"
+    "correctIndex": 3,
+    "explanation": "The veto power was used 2 times in 2025.",
+    "subject": "GK"
+  },
+  {
+    "id": "q5",
+    "question": "How many provincial assemblies are there in Nepal?",
+    "options": [
+      "8",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 3,
+    "explanation": "7 provincial assemblies.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q6",
+    "question": "Which is the 5th country to land a spacecraft on the moon?",
+    "options": [
+      "India",
+      "China",
+      "Russia",
+      "Japan"
+    ],
+    "correctIndex": 3,
+    "explanation": "Japan is the 5th country.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q7",
+    "question": "Which is Nepal's largest province by area?",
+    "options": [
+      "Sudurpashchim",
+      "Bagmati",
+      "Lumbini",
+      "Karnali"
+    ],
+    "correctIndex": 3,
+    "explanation": "Karnali (27,984 sq km, 19% of Nepal).",
+    "subject": "GK"
   },
   {
     "id": "q8",
-    "question": "A sum of money triples itself in 15 years at simple interest. What is the rate of interest?",
+    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
     "options": [
-      "10%",
-      "13.33%",
-      "12%",
-      "15%"
+      "RATION",
+      "STATION",
+      "TRADITION",
+      "MINISTER"
     ],
-    "correctIndex": 1,
-    "explanation": "If amount=3P, SI=2P. Rate = (2P×100)/(P×15) = 13.33%.",
-    "subject": "MATH"
+    "correctIndex": 3,
+    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
+    "subject": "IQ"
   },
   {
     "id": "q9",
-    "question": "Who is the ex-officio chairperson of the National Planning Commission?",
+    "question": "When was the Narcotic Drugs Control Act enacted?",
     "options": [
-      "President",
-      "Finance Minister",
-      "Prime Minister",
-      "Vice President"
+      "2045 BS",
+      "2050 BS",
+      "2028 BS",
+      "2033 BS"
     ],
-    "correctIndex": 2,
-    "explanation": "The Prime Minister is the ex-officio chairperson.",
+    "correctIndex": 3,
+    "explanation": "The Narcotic Drugs Control Act was enacted in 2033 BS.",
     "subject": "CONSTITUTION"
   },
   {
     "id": "q10",
-    "question": "Which article guarantees the Right to Constitutional Remedy?",
+    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
     "options": [
-      "Article 45",
-      "Article 48",
-      "Article 47",
-      "Article 46"
+      "Noise",
+      "Music",
+      "Sound",
+      "Hearing"
     ],
     "correctIndex": 3,
-    "explanation": "Article 46 guarantees Right to Constitutional Remedy.",
-    "subject": "CONSTITUTION"
+    "explanation": "Eye is for vision, Ear is for hearing.",
+    "subject": "IQ"
   },
   {
     "id": "q11",
-    "question": "Which body is responsible for auditing government accounts in Nepal?",
+    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
     "options": [
-      "Office of the Auditor General",
-      "Public Accounts Committee",
-      "Finance Ministry",
-      "National Planning Commission"
+      "96",
+      "48",
+      "32",
+      "64"
     ],
     "correctIndex": 0,
-    "explanation": "The Office of the Auditor General audits government accounts.",
-    "subject": "CONSTITUTION"
+    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
+    "subject": "IQ"
   },
   {
     "id": "q12",
-    "question": "Which schedule contains the list of federal powers?",
+    "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
     "options": [
-      "Schedule 6",
-      "Schedule 5",
-      "Schedule 7",
-      "Schedule 9"
+      "RTSIFD",
+      "RTSHFD",
+      "RTSIEC",
+      "RTSIFC"
     ],
-    "correctIndex": 1,
-    "explanation": "Schedule 5 contains the federal list.",
-    "subject": "CONSTITUTION"
+    "correctIndex": 0,
+    "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
+    "subject": "IQ"
   },
   {
     "id": "q13",
-    "question": "When was the current constitution promulgated?",
+    "question": "When did Indian singer Asha Bhosle pass away?",
     "options": [
-      "2014",
-      "2016",
-      "2015",
-      "2017"
+      "2082 Jestha 5",
+      "2082 Falgun 7",
+      "2082 Chaitra 29",
+      "2083 Baisakh 1"
     ],
     "correctIndex": 2,
-    "explanation": "Promulgated on September 20, 2015.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q14",
-    "question": "Which country is Nepal's largest trading partner?",
-    "options": [
-      "USA",
-      "China",
-      "India",
-      "Japan"
-    ],
-    "correctIndex": 2,
-    "explanation": "India is Nepal's largest trading partner.",
+    "explanation": "Passed away on April 12, 2026 (2082 Chaitra 29) at age 92.",
     "subject": "GK"
   },
   {
-    "id": "q15",
-    "question": "Which is the permanent secretariat of BIMSTEC?",
+    "id": "q14",
+    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
     "options": [
-      "Dhaka",
-      "New Delhi",
-      "Kathmandu",
-      "Bangkok"
+      "A",
+      "C",
+      "D",
+      "E"
     ],
-    "correctIndex": 0,
-    "explanation": "BIMSTEC permanent secretariat is in Dhaka.",
+    "correctIndex": 3,
+    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q15",
+    "question": "When is World Autism Awareness Day celebrated every year?",
+    "options": [
+      "April 3",
+      "April 4",
+      "April 1",
+      "April 2"
+    ],
+    "correctIndex": 3,
+    "explanation": "April 2 every year. Established by UN on Dec 18, 2007.",
     "subject": "GK"
   },
   {
     "id": "q16",
-    "question": "What is the main objective of the 15th Plan of Nepal?",
+    "question": "What is the original homeland of the Chhantel caste?",
     "options": [
-      "Digital Nepal",
-      "Prosperous Nepal, Happy Nepali",
-      "Green Nepal",
-      "Educated Nepal"
+      "Myagdi",
+      "Mustang",
+      "Manang",
+      "Dolpa"
     ],
-    "correctIndex": 1,
-    "explanation": "The motto is 'Prosperous Nepal, Happy Nepali'.",
+    "correctIndex": 0,
+    "explanation": "The Chhantel caste's original homeland is Myagdi.",
     "subject": "GK"
   },
   {
     "id": "q17",
-    "question": "Complete: 81, 27, 9, 3, ?",
+    "question": "Next in series: 2, 6, 12, 20, 30, ?",
     "options": [
-      "0",
-      "1/9",
-      "1/3",
-      "1"
+      "38",
+      "40",
+      "42",
+      "44"
     ],
-    "correctIndex": 3,
-    "explanation": "Each divided by 3.",
+    "correctIndex": 2,
+    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
     "subject": "IQ"
   },
   {
     "id": "q18",
-    "question": "Complete: 121, 144, 169, 196, ?",
+    "question": "Which gas is most abundant in Earth's atmosphere?",
     "options": [
-      "289",
-      "216",
-      "256",
-      "225"
+      "Oxygen",
+      "Carbon Dioxide",
+      "Nitrogen",
+      "Hydrogen"
     ],
-    "correctIndex": 3,
-    "explanation": "11²=121, 12²=144, 13²=169, 14²=196, 15²=225.",
-    "subject": "IQ"
+    "correctIndex": 2,
+    "explanation": "Nitrogen makes up about 78% of Earth's atmosphere.",
+    "subject": "SCIENCE"
   },
   {
     "id": "q19",
-    "question": "What is the main function of the Public Service Commission (Lok Sewa Aayog)?",
+    "question": "Who was the first female Deputy Speaker in Nepal's history?",
     "options": [
-      "Make laws",
-      "Conduct exams for civil service",
-      "Collect taxes",
-      "Manage foreign affairs"
+      "Dwarika Devi Thakurani",
+      "Pampha Bhusal",
+      "Onsari Gharti",
+      "Pushpa Bhusal"
     ],
-    "correctIndex": 1,
-    "explanation": "PSC conducts examinations for civil service appointments.",
-    "subject": "CONSTITUTION"
+    "correctIndex": 2,
+    "explanation": "Onsari Gharti was the first female Deputy Speaker.",
+    "subject": "GK"
   },
   {
     "id": "q20",
-    "question": "The Election Commission is a:",
+    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
     "options": [
-      "Executive body",
-      "Private body",
-      "Statutory body",
-      "Constitutional body"
+      "Hearing",
+      "Noise",
+      "Music",
+      "Sound"
     ],
-    "correctIndex": 3,
-    "explanation": "Election Commission is a constitutional body.",
-    "subject": "CONSTITUTION"
+    "correctIndex": 0,
+    "explanation": "Eye is for vision, Ear is for hearing.",
+    "subject": "IQ"
   },
   {
     "id": "q21",
-    "question": "If 20 men can complete a work in 15 days, how many days for 25 men?",
+    "question": "Where was the 9th Indian Ocean Conference 2026 held?",
     "options": [
-      "10",
-      "11",
-      "13",
-      "12"
+      "Laos",
+      "India",
+      "Mauritius",
+      "Nepal"
     ],
-    "correctIndex": 3,
-    "explanation": "Total work=300 man-days. 25 men: 300/25=12.",
-    "subject": "MATH"
+    "correctIndex": 2,
+    "explanation": "Held in Mauritius, April 10-12, 2026.",
+    "subject": "GK"
   },
   {
     "id": "q22",
-    "question": "What is the quorum required for a meeting of the House of Representatives?",
+    "question": "Who was the last Kiranti king?",
     "options": [
-      "One-half",
-      "One-third",
-      "One-fourth",
-      "Two-thirds"
+      "Gasti",
+      "Khiguang",
+      "Limbu",
+      "Yalamber"
     ],
-    "correctIndex": 2,
-    "explanation": "One-fourth of total members is the quorum.",
-    "subject": "CONSTITUTION"
+    "correctIndex": 0,
+    "explanation": "Gasti was the last Kiranti king.",
+    "subject": "GK"
   },
   {
     "id": "q23",
-    "question": "Who is the head of government in Nepal?",
+    "question": "Which is the upper house of Nepal's Federal Parliament?",
     "options": [
-      "President",
-      "Chief Justice",
-      "Prime Minister",
-      "Speaker"
+      "National Assembly",
+      "Provincial Assembly",
+      "Local Assembly",
+      "House of Representatives"
     ],
-    "correctIndex": 2,
-    "explanation": "Prime Minister is head of government.",
+    "correctIndex": 0,
+    "explanation": "National Assembly (Rashtriya Sabha) is the upper house.",
     "subject": "CONSTITUTION"
   },
   {
     "id": "q24",
-    "question": "Which article of the Constitution deals with the formation of the Constitutional Council?",
+    "question": "What is Nepal's national bird?",
     "options": [
-      "Article 153",
-      "Article 154",
-      "Article 155",
-      "Article 156"
-    ],
-    "correctIndex": 0,
-    "explanation": "Article 153 deals with the Constitutional Council.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q25",
-    "question": "What is 3/5 as a percentage?",
-    "options": [
-      "50%",
-      "60%",
-      "55%",
-      "65%"
+      "Peacock",
+      "Himalayan Monal",
+      "Eagle",
+      "Crow"
     ],
     "correctIndex": 1,
-    "explanation": "3/5 × 100 = 60%.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q26",
-    "question": "Which schedule of the Constitution lists the powers of local level?",
-    "options": [
-      "Schedule 5",
-      "Schedule 6",
-      "Schedule 8",
-      "Schedule 7"
-    ],
-    "correctIndex": 2,
-    "explanation": "Schedule 8 lists local level powers.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q27",
-    "question": "Find the odd one: Newspaper, Television, Radio, Car",
-    "options": [
-      "Newspaper",
-      "Car",
-      "Radio",
-      "Television"
-    ],
-    "correctIndex": 1,
-    "explanation": "Car is not a mass media.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q28",
-    "question": "How many members in House of Representatives?",
-    "options": [
-      "275",
-      "265",
-      "285",
-      "295"
-    ],
-    "correctIndex": 0,
-    "explanation": "There are 275 members.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q29",
-    "question": "What is the tenure of a member of the National Assembly?",
-    "options": [
-      "4 years",
-      "5 years",
-      "Until dissolution",
-      "6 years"
-    ],
-    "correctIndex": 3,
-    "explanation": "National Assembly members serve 6-year terms.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q30",
-    "question": "If 20% of x = 50, what is x?",
-    "options": [
-      "200",
-      "220",
-      "250",
-      "240"
-    ],
-    "correctIndex": 2,
-    "explanation": "x = 50 × 100/20 = 250.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q31",
-    "question": "If A is coded as 1, B as 2, ..., Z as 26, what is the code for ZEBRA?",
-    "options": [
-      "2625181",
-      "2652181",
-      "2651821",
-      "2651812"
-    ],
-    "correctIndex": 2,
-    "explanation": "Z=26, E=5, B=2, R=18, A=1 → 2651821.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q32",
-    "question": "Complete the series: 2, 5, 10, 17, 26, ?",
-    "options": [
-      "35",
-      "38",
-      "37",
-      "40"
-    ],
-    "correctIndex": 2,
-    "explanation": "Pattern: n²+1. 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, 6²+1=37.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q33",
-    "question": "If the day after tomorrow is Sunday, what day was yesterday?",
-    "options": [
-      "Wednesday",
-      "Friday",
-      "Thursday",
-      "Saturday"
-    ],
-    "correctIndex": 2,
-    "explanation": "Day after tomorrow=Sun → Today=Fri → Yesterday=Thu.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q34",
-    "question": "If 12 men earn Rs. 240 in 4 days, how much will 8 men earn in 6 days?",
-    "options": [
-      "Rs. 240",
-      "Rs. 200",
-      "Rs. 220",
-      "Rs. 180"
-    ],
-    "correctIndex": 0,
-    "explanation": "1 man 1 day = 240/(12×4)=5. 8 men 6 days = 5×8×6=240.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q35",
-    "question": "Which international treaty deals with climate change?",
-    "options": [
-      "Hague Convention",
-      "Geneva Convention",
-      "Vienna Convention",
-      "Kyoto Protocol"
-    ],
-    "correctIndex": 3,
-    "explanation": "Kyoto Protocol deals with climate change.",
+    "explanation": "The Himalayan Monal (Danphe).",
     "subject": "GK"
   },
   {
-    "id": "q36",
-    "question": "What is square of 25?",
+    "id": "q25",
+    "question": "Which is the largest importer of Nepali carpets?",
     "options": [
-      "625",
-      "600",
-      "525",
-      "650"
+      "USA",
+      "Germany",
+      "UK",
+      "Japan"
+    ],
+    "correctIndex": 1,
+    "explanation": "Germany is the largest importer of Nepali carpets.",
+    "subject": "GK"
+  },
+  {
+    "id": "q26",
+    "question": "The Kyoto Protocol is related to which field?",
+    "options": [
+      "Trade",
+      "Human Rights",
+      "Environment",
+      "Defense"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Kyoto Protocol is related to environment and climate change.",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "In which community do families fight during marriage?",
+    "options": [
+      "Thami",
+      "Limbu",
+      "Kumal",
+      "Jhangad"
+    ],
+    "correctIndex": 2,
+    "explanation": "Kumal = fight during marriage. Thami=marriage after death, Limbu=fire guns, Jhangad=exchange sindur.",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "Palam is a folk song of which community?",
+    "options": [
+      "Sherpa",
+      "Tamang",
+      "Limbu",
+      "Gandharva"
+    ],
+    "correctIndex": 2,
+    "explanation": "Palam is a Limbu folk song. Sherpa=Syabu, Tamang=Selo, Gandharva=Karkha.",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
+    "options": [
+      "20",
+      "24",
+      "32",
+      "40"
+    ],
+    "correctIndex": 1,
+    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q30",
+    "question": "By what percentage did farming families increase per 7th Agriculture Census 2078?",
+    "options": [
+      "5%",
+      "6%",
+      "8%",
+      "10%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Farming families increased by 8%.",
+    "subject": "GK"
+  },
+  {
+    "id": "q31",
+    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
+    "options": [
+      "Rs. 25000",
+      "Rs. 30000",
+      "Rs. 35000",
+      "Rs. 40000"
+    ],
+    "correctIndex": 1,
+    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q32",
+    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
+    "options": [
+      "35",
+      "40",
+      "45",
+      "50"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q33",
+    "question": "When was SAARC established?",
+    "options": [
+      "1983",
+      "1985",
+      "1987",
+      "1990"
+    ],
+    "correctIndex": 1,
+    "explanation": "December 8, 1985. HQ in Kathmandu.",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
+    "options": [
+      "214673",
+      "246173",
+      "214763",
+      "216473"
     ],
     "correctIndex": 0,
-    "explanation": "25² = 625.",
+    "explanation": "R=6,O=8,S=2,E=1,C=7,H=3,A=4,I=5,P=9. SEARCH=S(2)+E(1)+A(4)+R(6)+C(7)+H(3)=214673.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q35",
+    "question": "What is the speed of light in vacuum?",
+    "options": [
+      "3×10⁸ m/s",
+      "3×10⁶ m/s",
+      "3×10¹⁰ m/s",
+      "3×10⁴ m/s"
+    ],
+    "correctIndex": 0,
+    "explanation": "Speed of light in vacuum is ~3×10⁸ m/s.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q36",
+    "question": "What is 25% of 25% of 400?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "40"
+    ],
+    "correctIndex": 1,
+    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
     "subject": "MATH"
   },
   {
     "id": "q37",
-    "question": "Who appoints the judges of the Supreme Court of Nepal?",
+    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
     "options": [
-      "Prime Minister",
-      "President on recommendation of Judicial Council",
-      "Parliament",
-      "Chief Justice"
+      "DIBJS",
+      "BDJIS",
+      "DIBJT",
+      "DJBIS"
     ],
-    "correctIndex": 1,
-    "explanation": "President appoints on recommendation of Judicial Council.",
-    "subject": "CONSTITUTION"
+    "correctIndex": 0,
+    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
+    "subject": "IQ"
   },
   {
     "id": "q38",
-    "question": "Which article guarantees Right to Property?",
+    "question": "What is the powerhouse of the cell?",
     "options": [
-      "Article 24",
-      "Article 26",
-      "Article 25",
-      "Article 27"
+      "Nucleus",
+      "Ribosome",
+      "Mitochondria",
+      "Golgi body"
     ],
-    "correctIndex": 1,
-    "explanation": "Article 26 guarantees Right to Property.",
-    "subject": "CONSTITUTION"
+    "correctIndex": 2,
+    "explanation": "Mitochondria produces ATP.",
+    "subject": "SCIENCE"
   },
   {
     "id": "q39",
-    "question": "The average of 5 numbers is 25. If one number is excluded, the average becomes 20. What is the excluded number?",
+    "question": "Which local level was declared Nepal's first model clean rural municipality?",
     "options": [
-      "45",
-      "40",
-      "35",
-      "50"
+      "Dhulikhel",
+      "Sunawal",
+      "Jwalamukhi",
+      "Bhairabi"
     ],
-    "correctIndex": 0,
-    "explanation": "Sum of 5 = 125. Sum of 4 = 80. Excluded = 125-80=45.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q40",
-    "question": "Which international organization has Nepal as a founding member?",
-    "options": [
-      "SAARC",
-      "ASEAN",
-      "EU",
-      "OPEC"
-    ],
-    "correctIndex": 0,
-    "explanation": "Nepal is a founding member of SAARC.",
+    "correctIndex": 2,
+    "explanation": "Jwalamukhi in Dhading was declared on 2082 Chaitra 29.",
     "subject": "GK"
   },
   {
-    "id": "q41",
-    "question": "Which river is known as Sorrow of Bihar?",
+    "id": "q40",
+    "question": "If A is brother of B, B is sister of C, C is father of D. How is A related to D?",
     "options": [
-      "Ghaghra",
-      "Gandak",
-      "Karnali",
-      "Koshi"
+      "Uncle",
+      "Father",
+      "Brother",
+      "Nephew"
     ],
-    "correctIndex": 3,
-    "explanation": "Koshi is called Sorrow of Bihar.",
+    "correctIndex": 0,
+    "explanation": "C is D's father. B is C's sister. A is B's brother, so A is D's uncle.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q41",
+    "question": "How many types are hydropower projects classified into?",
+    "options": [
+      "3 types",
+      "5 types",
+      "7 types",
+      "10 types"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hydropower projects are classified into 5 types.",
     "subject": "GK"
   },
   {
     "id": "q42",
-    "question": "If the selling price of an article is 4/3 of its cost price, what is the profit percentage?",
+    "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
     "options": [
-      "25%",
-      "50%",
-      "40%",
-      "33.33%"
+      "18 days",
+      "20 days",
+      "22 days",
+      "25 days"
     ],
-    "correctIndex": 3,
-    "explanation": "CP=3, SP=4. Profit=1. Profit% = 1/3 × 100 = 33.33%.",
+    "correctIndex": 1,
+    "explanation": "M₁D₁=M₂D₂. 15×24=18×D₂. D₂=360/18=20 days.",
     "subject": "MATH"
   },
   {
     "id": "q43",
-    "question": "Who is the current Chief Justice of Nepal (as of 2025)?",
+    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
     "options": [
-      "Hari Krishna Karki",
-      "Prakash Man Singh Raut",
-      "Cholendra Shumsher Rana",
-      "Bishowambhar Prasad Shrestha"
+      "Cousin",
+      "Sister",
+      "Daughter",
+      "Niece"
     ],
-    "correctIndex": 3,
-    "explanation": "Bishowambhar Prasad Shrestha is the current Chief Justice.",
-    "subject": "GK"
+    "correctIndex": 1,
+    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
+    "subject": "IQ"
   },
   {
     "id": "q44",
-    "question": "Who appoints the Chief Election Commissioner of Nepal?",
+    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
     "options": [
-      "Prime Minister",
-      "President on recommendation of Constitutional Council",
-      "Parliament",
-      "Chief Justice"
+      "3",
+      "14",
+      "17",
+      "21"
     ],
     "correctIndex": 1,
-    "explanation": "President appoints on recommendation of Constitutional Council.",
-    "subject": "CONSTITUTION"
+    "explanation": "14 is the only even number.",
+    "subject": "IQ"
   },
   {
     "id": "q45",
-    "question": "If ENTRY is coded as 12345 and STEADY as 931785, what is the code for TENANT?",
+    "question": "In which district is Gosaikunda lake?",
     "options": [
-      "231581",
-      "213815",
-      "213581",
-      "213851"
+      "Sindhupalchok",
+      "Rasuwa",
+      "Nuwakot",
+      "Dhading"
     ],
-    "correctIndex": 3,
-    "explanation": "Each letter maps to a digit based on the given words.",
-    "subject": "IQ"
+    "correctIndex": 1,
+    "explanation": "Gosaikunda is in Rasuwa district.",
+    "subject": "GK"
   },
   {
     "id": "q46",
-    "question": "If the compound interest on a sum for 2 years at 10% per annum is Rs. 420, what is the principal?",
+    "question": "Which is Nepal's highest mountain peak?",
     "options": [
-      "Rs. 2000",
-      "Rs. 2100",
-      "Rs. 2200",
-      "Rs. 2400"
+      "K2",
+      "Kanchenjunga",
+      "Lhotse",
+      "Mount Everest"
     ],
-    "correctIndex": 0,
-    "explanation": "CI = P[(1.1)²-1] = 0.21P. So P = 420/0.21 = 2000.",
-    "subject": "MATH"
+    "correctIndex": 3,
+    "explanation": "Mount Everest at 8,848.86 meters.",
+    "subject": "GK"
   },
   {
     "id": "q47",
-    "question": "Find odd one: Keyboard, Mouse, Monitor, Scanner",
+    "question": "What is Nepal's national flower?",
     "options": [
-      "Keyboard",
-      "Mouse",
-      "Monitor",
-      "Scanner"
+      "Lotus",
+      "Rhododendron",
+      "Sunflower",
+      "Rose"
     ],
-    "correctIndex": 2,
-    "explanation": "Monitor is output; others are input.",
-    "subject": "IQ"
+    "correctIndex": 1,
+    "explanation": "Rhododendron (Lali Gurans).",
+    "subject": "GK"
   },
   {
     "id": "q48",
-    "question": "What is the tenure of the Speaker of the House of Representatives?",
+    "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
     "options": [
-      "5 years",
-      "4 years",
-      "6 years",
-      "Until dissolution of House"
+      "100m",
+      "150m",
+      "200m",
+      "250m"
     ],
     "correctIndex": 0,
-    "explanation": "The tenure is 5 years.",
-    "subject": "CONSTITUTION"
+    "explanation": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.",
+    "subject": "MATH"
   },
   {
     "id": "q49",
-    "question": "In a certain code, COMPUTER is written as RFUVQNPC. How is MEDICINE written?",
+    "question": "How many wild animals were declared harmful by the government?",
     "options": [
-      "EOJDJFMF",
-      "EOJDJEFM",
-      "FOJDJEFM",
-      "EOJDJFEM"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
     "correctIndex": 1,
-    "explanation": "Letters are reversed in pairs and shifted.",
-    "subject": "IQ"
+    "explanation": "2 animals: wild monkey (2082 Falgun 11) and red monkey (2082 Magh 29).",
+    "subject": "GK"
   },
   {
     "id": "q50",
-    "question": "If a:b=2:3, b:c=3:4, c:d=4:5, find a:d.",
+    "question": "Which body prevents corruption in Nepal?",
     "options": [
-      "3:5",
-      "2:5",
-      "4:5",
-      "2:3"
+      "Election Commission",
+      "Public Service Commission",
+      "CIAA",
+      "NHRC"
     ],
-    "correctIndex": 1,
-    "explanation": "a:b:c:d = 2:3:4:5, so a:d = 2:5.",
-    "subject": "MATH"
+    "correctIndex": 2,
+    "explanation": "CIAA (Commission for Investigation of Abuse of Authority).",
+    "subject": "CONSTITUTION"
   }
 ]
