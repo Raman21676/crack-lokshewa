@@ -1,67 +1,67 @@
 [
   {
     "id": "q1",
-    "question": "Which is the rainiest place in Nepal?",
+    "question": "Who was the Prime Minister when Nepal was divided into 7 districts ( provinces)?",
     "options": [
-      "Kathmandu",
-      "Biratnagar",
-      "Pokhara",
-      "Lumle"
+      "Sher Bahadur Deuba",
+      "Pushpa Kamal Dahal",
+      "KP Sharma Oli",
+      "Sushil Koirala"
     ],
-    "correctIndex": 3,
-    "explanation": "Lumle in Kaski district.",
+    "correctIndex": 0,
+    "explanation": "Sher Bahadur Deuba was PM when 7 districts were established on 2074 Bhadra 5. Sushil Koirala was PM when 7 provinces were established on 2072 Asar 3.",
     "subject": "GK"
   },
   {
     "id": "q2",
-    "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
+    "question": "When was Agriculture Development Bank established?",
     "options": [
-      "214673",
-      "246173",
-      "214763",
-      "216473"
+      "2024 Magh 7",
+      "2062 Mangshir 1",
+      "2073 Poush 7",
+      "2033 Aswin 23"
     ],
     "correctIndex": 0,
-    "explanation": "R=6,O=8,S=2,E=1,C=7,H=3,A=4,I=5,P=9. SEARCH=S(2)+E(1)+A(4)+R(6)+C(7)+H(3)=214673.",
-    "subject": "IQ"
+    "explanation": "Agriculture Development Bank was established on 2024 Magh 7. Coffee Day started on 2062 Mangshir 1, Farmer Commission formed on 2073 Poush 7, Tea Development Corporation on 2033 Aswin 23.",
+    "subject": "GK"
   },
   {
     "id": "q3",
-    "question": "Which is the world's second largest island?",
+    "question": "How many types of ecosystems are found in Nepal according to the Ministry of Science and Environment?",
     "options": [
-      "Borneo",
-      "Madagascar",
-      "Greenland",
-      "New Guinea"
+      "119",
+      "903",
+      "114",
+      "118"
     ],
     "correctIndex": 3,
-    "explanation": "New Guinea is the world's second largest island. 1st = Greenland, 3rd = Borneo, 4th = Madagascar, 5th = Baffin.",
+    "explanation": "According to the Ministry of Science and Environment, there are 118 types of ecosystems in Nepal. 903 = types of birds. 114 = ecosystems per Dobreman.",
     "subject": "GK"
   },
   {
     "id": "q4",
-    "question": "Which constitutional body conducts elections in Nepal?",
+    "question": "Which is the upper house of Nepal's Federal Parliament?",
     "options": [
-      "CIAA",
-      "Auditor General",
-      "Public Service Commission",
-      "Election Commission"
+      "Provincial Assembly",
+      "Local Assembly",
+      "House of Representatives",
+      "National Assembly"
     ],
     "correctIndex": 3,
-    "explanation": "Election Commission conducts all elections.",
+    "explanation": "National Assembly (Rashtriya Sabha) is the upper house.",
     "subject": "CONSTITUTION"
   },
   {
     "id": "q5",
-    "question": "Which continent has the most countries?",
+    "question": "In which country did the Rose Revolution take place?",
     "options": [
-      "Europe",
-      "Australia",
-      "Asia",
-      "Africa"
+      "Ukraine",
+      "Kuwait",
+      "Moldova",
+      "Egypt"
     ],
-    "correctIndex": 3,
-    "explanation": "Africa has the most countries (54). Asia = 48, Europe = 44, Australia = 14, South America = 12, North America = 23.",
+    "correctIndex": 0,
+    "explanation": "The Rose Revolution took place in Ukraine (2003). Blue Revolution = Kuwait (2005). Grape Revolution = Moldova (2009). Lotus Revolution = Egypt (2011).",
     "subject": "GK"
   },
   {
@@ -79,487 +79,19 @@
   },
   {
     "id": "q7",
-    "question": "Which of the following industrial areas was built with India's help?",
+    "question": "What are the two moons of Mars?",
     "options": [
-      "Bhaktapur Industrial Area",
-      "Hetauda Industrial Area",
-      "Patan Industrial Area",
-      "Birendranagar Industrial Area"
+      "Phobos and Deimos",
+      "Phobos and Ganymede",
+      "Deimos and Moon",
+      "Phobos and Callisto"
     ],
-    "correctIndex": 2,
-    "explanation": "Patan Industrial Area was built with India's help.",
-    "subject": "GK"
+    "correctIndex": 0,
+    "explanation": "Mars has two moons: Phobos and Deimos. Ganymede = Jupiter's moon (largest in solar system). Moon = Earth's only natural satellite.",
+    "subject": "SCIENCE"
   },
   {
     "id": "q8",
-    "question": "Nepal ranks 49th globally in biodiversity. What is Nepal's rank in Asia?",
-    "options": [
-      "12th",
-      "21st",
-      "11th",
-      "14th"
-    ],
-    "correctIndex": 2,
-    "explanation": "Nepal ranks 11th in Asia in biodiversity. According to the Nepal Biodiversity Research and Conservation Center, Nepal is 49th globally.",
-    "subject": "GK"
-  },
-  {
-    "id": "q9",
-    "question": "How many articles are in the Constitution of Nepal 2072?",
-    "options": [
-      "280",
-      "295",
-      "308",
-      "325"
-    ],
-    "correctIndex": 2,
-    "explanation": "308 articles, 35 parts, 9 schedules.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q10",
-    "question": "Which place is known as Nepal's 'wind hole'?",
-    "options": [
-      "Mahabharat mountain range",
-      "Inner Madhes",
-      "Bhavar region",
-      "Chure mountain"
-    ],
-    "correctIndex": 0,
-    "explanation": "Mahabharat mountain range is known as Nepal's 'wind hole'. It is also called 'Hill Station of Nepal', 'Low Himalaya', and 'Moddar Parbat'.",
-    "subject": "GK"
-  },
-  {
-    "id": "q11",
-    "question": "How many physiographic regions is Nepal divided into?",
-    "options": [
-      "7",
-      "4",
-      "5",
-      "3"
-    ],
-    "correctIndex": 3,
-    "explanation": "Physiographically, Nepal is divided into 3 regions: Mountain (Himal), Hill (Pahad), and Terai (Plain).",
-    "subject": "GK"
-  },
-  {
-    "id": "q12",
-    "question": "When was Balaju Industrial Area established?",
-    "options": [
-      "2016 BS",
-      "2020 BS",
-      "2029 BS",
-      "2030 BS"
-    ],
-    "correctIndex": 0,
-    "explanation": "Balaju Industrial Area was established in 2016 BS. Hetauda and Patan = 2020, Dharan = 2029, Nepalgunj = 2030.",
-    "subject": "GK"
-  },
-  {
-    "id": "q13",
-    "question": "How many types of ecosystems are found in Nepal according to the Ministry of Science and Environment?",
-    "options": [
-      "119",
-      "903",
-      "114",
-      "118"
-    ],
-    "correctIndex": 3,
-    "explanation": "According to the Ministry of Science and Environment, there are 118 types of ecosystems in Nepal. 903 = types of birds. 114 = ecosystems per Dobreman.",
-    "subject": "GK"
-  },
-  {
-    "id": "q14",
-    "question": "Who was the first person to travel to space?",
-    "options": [
-      "George Washington",
-      "Neil Armstrong",
-      "Yuri Gagarin",
-      "Magellan"
-    ],
-    "correctIndex": 2,
-    "explanation": "Yuri Gagarin of Russia was the first person in space. Washington = 1st US President. Armstrong = first on the moon. Magellan = first world circumnavigation.",
-    "subject": "GK"
-  },
-  {
-    "id": "q15",
-    "question": "Who was the Province Chief when Koshi Province was named?",
-    "options": [
-      "Parshuram Khapung",
-      "Hikmat Kumar Karki",
-      "Kedar Karki",
-      "Somnath Adhikari Pyasi"
-    ],
-    "correctIndex": 0,
-    "explanation": "Parshuram Khapung was the Province Chief when Koshi Province was named on 2079 Falgun 17.",
-    "subject": "GK"
-  },
-  {
-    "id": "q16",
-    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
-    "options": [
-      "35",
-      "40",
-      "45",
-      "50"
-    ],
-    "correctIndex": 2,
-    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q17",
-    "question": "Up to how many decibels can the human ear tolerate?",
-    "options": [
-      "50-55 dB",
-      "60-65 dB",
-      "70-75 dB",
-      "80-85 dB"
-    ],
-    "correctIndex": 2,
-    "explanation": "The human ear can tolerate up to 70-75 decibels.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q18",
-    "question": "When was the Nepal-China Border Protocol Agreement signed?",
-    "options": [
-      "1970 AD",
-      "1980 AD",
-      "1955 AD",
-      "1961 AD"
-    ],
-    "correctIndex": 3,
-    "explanation": "The Nepal-China Border Protocol Agreement was signed in 1961 AD.",
-    "subject": "GK"
-  },
-  {
-    "id": "q19",
-    "question": "What is the priest of the Chepang community called?",
-    "options": [
-      "Lama",
-      "Pandit",
-      "Bhusal",
-      "Pandey"
-    ],
-    "correctIndex": 3,
-    "explanation": "The priest of the Chepang community is called Pandey. Lama = Sherpa priest. Pandit = Brahmin/Kshatriya priest. Bhusal = Magar priest.",
-    "subject": "GK"
-  },
-  {
-    "id": "q20",
-    "question": "Which Buddha Jayanti was celebrated in 2082 BS?",
-    "options": [
-      "2566th",
-      "2577th",
-      "2578th",
-      "2569th"
-    ],
-    "correctIndex": 3,
-    "explanation": "The 2569th Buddha Jayanti was celebrated in 2082 BS. This commemorates the birth of Siddhartha Gautam (Buddha).",
-    "subject": "GK"
-  },
-  {
-    "id": "q21",
-    "question": "If x + 1/x = 3, what is x² + 1/x²?",
-    "options": [
-      "7",
-      "8",
-      "9",
-      "11"
-    ],
-    "correctIndex": 0,
-    "explanation": "(x+1/x)² = x²+2+1/x² = 9. So x²+1/x² = 7.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q22",
-    "question": "How many local levels are there in Koshi Province?",
-    "options": [
-      "137",
-      "140",
-      "145",
-      "135"
-    ],
-    "correctIndex": 0,
-    "explanation": "There are 137 local levels: 1 metropolis, 2 sub-metropolises, 46 municipalities, and 88 rural municipalities. There are also 1,157 wards.",
-    "subject": "GK"
-  },
-  {
-    "id": "q23",
-    "question": "When was Artemis 2 launched in 2026?",
-    "options": [
-      "April 3, 2026",
-      "March 30, 2026",
-      "April 2, 2026",
-      "April 1, 2026"
-    ],
-    "correctIndex": 3,
-    "explanation": "Artemis 2 was launched on April 1, 2026. It is an American mission that traveled 4,20,000 km from Earth - the farthest in history. Christina Koch became the first woman to travel to the moon.",
-    "subject": "GK"
-  },
-  {
-    "id": "q24",
-    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
-    "options": [
-      "Sister",
-      "Daughter",
-      "Niece",
-      "Cousin"
-    ],
-    "correctIndex": 0,
-    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q25",
-    "question": "Which element is found in tea?",
-    "options": [
-      "Lycopene",
-      "Tannin",
-      "Curcumin",
-      "Gingerol"
-    ],
-    "correctIndex": 1,
-    "explanation": "Tea contains tannin. Lycopene = found in tomatoes. Curcumin = found in turmeric. Gingerol = found in ginger.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q26",
-    "question": "What is the smallest unit of matter?",
-    "options": [
-      "Molecule",
-      "Atom",
-      "Electron",
-      "Proton"
-    ],
-    "correctIndex": 1,
-    "explanation": "Atom is the smallest unit that retains chemical properties.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q27",
-    "question": "Ending hunger is which Sustainable Development Goal (SDG)?",
-    "options": [
-      "Goal 2",
-      "Goal 3",
-      "Goal 4",
-      "Goal 1"
-    ],
-    "correctIndex": 0,
-    "explanation": "Ending hunger is SDG Goal 2. Goal 1 = No Poverty, Goal 3 = Good Health and Well-being, Goal 4 = Quality Education.",
-    "subject": "GK"
-  },
-  {
-    "id": "q28",
-    "question": "Which event is considered the starting point of World War II?",
-    "options": [
-      "Attack on Pearl Harbor",
-      "Germany's invasion of Poland",
-      "Battle of Stalingrad",
-      "D-Day landing"
-    ],
-    "correctIndex": 1,
-    "explanation": "Germany's invasion of Poland on September 1, 1939 is considered the starting point of WWII.",
-    "subject": "GK"
-  },
-  {
-    "id": "q29",
-    "question": "What is 25% of 25% of 400?",
-    "options": [
-      "20",
-      "25",
-      "30",
-      "40"
-    ],
-    "correctIndex": 1,
-    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q30",
-    "question": "Which body prevents corruption in Nepal?",
-    "options": [
-      "Election Commission",
-      "Public Service Commission",
-      "CIAA",
-      "NHRC"
-    ],
-    "correctIndex": 2,
-    "explanation": "CIAA (Commission for Investigation of Abuse of Authority).",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q31",
-    "question": "Which Terai district has the highest population growth rate in Nepal?",
-    "options": [
-      "Kathmandu",
-      "Banke",
-      "Khotang",
-      "Morang"
-    ],
-    "correctIndex": 1,
-    "explanation": "Banke has the highest population growth rate in Terai. Bardia = lowest in Terai. Kathmandu = highest in hills. Khotang = lowest in hills. Morang = highest population in Terai. Kalikot = highest in mountains. Manang = lowest in mountains.",
-    "subject": "GK"
-  },
-  {
-    "id": "q32",
-    "question": "Who won the Mr. Nepal 2025 title?",
-    "options": [
-      "Himanchal Raj KC",
-      "Girish Ratna Shakya",
-      "Prakash Chauhan",
-      "Bikash Raj Sake"
-    ],
-    "correctIndex": 0,
-    "explanation": "Himanchal Raj KC won Mr. Nepal 2025. Girish Ratna Shakya = Mr. Global Nepal 2025. Prakash Chauhan = Man of the World 2025.",
-    "subject": "GK"
-  },
-  {
-    "id": "q33",
-    "question": "Which river is also known as 'Uttar Gaya' in Nepal?",
-    "options": [
-      "Sanoberi",
-      "Trishuli",
-      "Rapti",
-      "Karnali"
-    ],
-    "correctIndex": 1,
-    "explanation": "Trishuli is known as 'Uttar Gaya'. Sanoberi = 'Uttar Ganga'. Karnali = fastest flowing river in Nepal.",
-    "subject": "GK"
-  },
-  {
-    "id": "q34",
-    "question": "In which community is the custom of marrying only in the month of Mangsir practiced?",
-    "options": [
-      "Koche",
-      "Thami",
-      "Chepang",
-      "Punye"
-    ],
-    "correctIndex": 1,
-    "explanation": "The Thami community has the custom of marrying only in the month of Mangsir. Koche = bride goes to groom's house after marriage. Chepang = chiuri tree given as dowry. Punye = bride kidnapping custom.",
-    "subject": "GK"
-  },
-  {
-    "id": "q35",
-    "question": "Who was elected in the 2082 Magh National Assembly election?",
-    "options": [
-      "Sunil Bahadur Thapa",
-      "Gagan Thapa",
-      "Bishnu Paudel",
-      "Prakash Man Singh"
-    ],
-    "correctIndex": 0,
-    "explanation": "Sunil Bahadur Thapa was elected in the 2082 Magh National Assembly election.",
-    "subject": "GK"
-  },
-  {
-    "id": "q36",
-    "question": "Who invented the television?",
-    "options": [
-      "Martin Cooper",
-      "John Baird",
-      "Johannes Gutenberg",
-      "Alfred Nobel"
-    ],
-    "correctIndex": 1,
-    "explanation": "John Baird invented the television. Martin Cooper = mobile phone. Johannes Gutenberg = printing press. Alfred Nobel = dynamite.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q37",
-    "question": "Which is the world's largest desert?",
-    "options": [
-      "Arabian Desert",
-      "Antarctica Desert",
-      "Kalahari Desert",
-      "Sahara Desert"
-    ],
-    "correctIndex": 3,
-    "explanation": "Sahara is the world's largest hot desert. Arabian = largest sandy desert, Antarctica = largest polar desert, Thar = largest in South Asia.",
-    "subject": "GK"
-  },
-  {
-    "id": "q38",
-    "question": "Next in series: 2, 6, 12, 20, 30, ?",
-    "options": [
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "correctIndex": 2,
-    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q39",
-    "question": "Who scored the first century in NPL 2025 (2nd edition)?",
-    "options": [
-      "Mark Watt",
-      "Martin Guptill",
-      "Adam Rossington",
-      "Andre Gayle"
-    ],
-    "correctIndex": 0,
-    "explanation": "Mark Watt scored the first century in NPL 2025. Adam Rossington scored the second century in 2025. Andre Gayle scored the first century in NPL 2024 (1st edition).",
-    "subject": "GK"
-  },
-  {
-    "id": "q40",
-    "question": "When was the first amendment to the Magna Carta made?",
-    "options": [
-      "Feb 11, 1225",
-      "Feb 17, 1217",
-      "Feb 16, 1216",
-      "Feb 10, 1127"
-    ],
-    "correctIndex": 2,
-    "explanation": "The first amendment to the Magna Carta was made on February 16, 1216 by Henry III. 2nd amendment = Feb 17, 1217. 3rd amendment = Feb 11, 1225.",
-    "subject": "GK"
-  },
-  {
-    "id": "q41",
-    "question": "Who started the Rato Machhindranath Jatra (festival)?",
-    "options": [
-      "Pratap Malla",
-      "Narendradev",
-      "Ratna Malla",
-      "Bhupatindra Malla"
-    ],
-    "correctIndex": 1,
-    "explanation": "Narendradev started the Rato Machhindranath Jatra. Pratap Malla = started Seto Machhindranath Jatra. Ratna Malla = introduced copper coins. Bhupatindra Malla = built 55-window palace in Bhaktapur.",
-    "subject": "GK"
-  },
-  {
-    "id": "q42",
-    "question": "Which province has the most agriculturally suitable land in Nepal?",
-    "options": [
-      "Koshi Province",
-      "Madhesh Province",
-      "Bagmati Province",
-      "Sudurpashchim Province"
-    ],
-    "correctIndex": 0,
-    "explanation": "Koshi Province has the most agriculturally suitable land in Nepal. Morang district in Koshi is also the largest rice-producing district in the province.",
-    "subject": "GK"
-  },
-  {
-    "id": "q43",
-    "question": "By what percentage did farming families increase per 7th Agriculture Census 2078?",
-    "options": [
-      "5%",
-      "6%",
-      "8%",
-      "10%"
-    ],
-    "correctIndex": 2,
-    "explanation": "Farming families increased by 8%.",
-    "subject": "GK"
-  },
-  {
-    "id": "q44",
     "question": "Where was COP 29 held?",
     "options": [
       "Brazil",
@@ -572,7 +104,215 @@
     "subject": "GK"
   },
   {
-    "id": "q45",
+    "id": "q9",
+    "question": "Who scored the first century in NPL 2025 (2nd edition)?",
+    "options": [
+      "Mark Watt",
+      "Martin Guptill",
+      "Adam Rossington",
+      "Andre Gayle"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mark Watt scored the first century in NPL 2025. Adam Rossington scored the second century in 2025. Andre Gayle scored the first century in NPL 2024 (1st edition).",
+    "subject": "GK"
+  },
+  {
+    "id": "q10",
+    "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
+    "options": [
+      "100m",
+      "150m",
+      "200m",
+      "250m"
+    ],
+    "correctIndex": 0,
+    "explanation": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q11",
+    "question": "What is the total area of Earth?",
+    "options": [
+      "61 crore sq km",
+      "71 crore sq km",
+      "41 crore sq km",
+      "51 crore sq km"
+    ],
+    "correctIndex": 3,
+    "explanation": "The total area of Earth is approximately 51 crore (510 million) square kilometers.",
+    "subject": "GK"
+  },
+  {
+    "id": "q12",
+    "question": "Which of the following industrial areas was built with India's help?",
+    "options": [
+      "Bhaktapur Industrial Area",
+      "Hetauda Industrial Area",
+      "Patan Industrial Area",
+      "Birendranagar Industrial Area"
+    ],
+    "correctIndex": 2,
+    "explanation": "Patan Industrial Area was built with India's help.",
+    "subject": "GK"
+  },
+  {
+    "id": "q13",
+    "question": "Dailekh district is famous for which product?",
+    "options": [
+      "Leather",
+      "Horn",
+      "Fruits",
+      "Grass"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dailekh district is famous for leather production.",
+    "subject": "GK"
+  },
+  {
+    "id": "q14",
+    "question": "Ending hunger is which Sustainable Development Goal (SDG)?",
+    "options": [
+      "Goal 2",
+      "Goal 3",
+      "Goal 4",
+      "Goal 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ending hunger is SDG Goal 2. Goal 1 = No Poverty, Goal 3 = Good Health and Well-being, Goal 4 = Quality Education.",
+    "subject": "GK"
+  },
+  {
+    "id": "q15",
+    "question": "Alexander is the largest island of which ocean?",
+    "options": [
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Atlantic Ocean",
+      "Arctic Ocean"
+    ],
+    "correctIndex": 3,
+    "explanation": "Alexander is the largest island of the Arctic Ocean.",
+    "subject": "GK"
+  },
+  {
+    "id": "q16",
+    "question": "Who won the Mr. Nepal 2025 title?",
+    "options": [
+      "Himanchal Raj KC",
+      "Girish Ratna Shakya",
+      "Prakash Chauhan",
+      "Bikash Raj Sake"
+    ],
+    "correctIndex": 0,
+    "explanation": "Himanchal Raj KC won Mr. Nepal 2025. Girish Ratna Shakya = Mr. Global Nepal 2025. Prakash Chauhan = Man of the World 2025.",
+    "subject": "GK"
+  },
+  {
+    "id": "q17",
+    "question": "By what percentage did farming families increase per 7th Agriculture Census 2078?",
+    "options": [
+      "5%",
+      "6%",
+      "8%",
+      "10%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Farming families increased by 8%.",
+    "subject": "GK"
+  },
+  {
+    "id": "q18",
+    "question": "Nepal ranks 49th globally in biodiversity. What is Nepal's rank in Asia?",
+    "options": [
+      "12th",
+      "21st",
+      "11th",
+      "14th"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal ranks 11th in Asia in biodiversity. According to the Nepal Biodiversity Research and Conservation Center, Nepal is 49th globally.",
+    "subject": "GK"
+  },
+  {
+    "id": "q19",
+    "question": "Who led the Russian Revolution of 1905?",
+    "options": [
+      "Lenin's Red Army",
+      "Nicholas II",
+      "Father Gapon",
+      "Bolshevik Party"
+    ],
+    "correctIndex": 2,
+    "explanation": "Father Gapon led the Russian Revolution of 1905. Nicholas II = Tsar at the time. Bolshevik Party = heroes of the revolution. Red Army = Lenin's army.",
+    "subject": "GK"
+  },
+  {
+    "id": "q20",
+    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctIndex": 3,
+    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q21",
+    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
+    "options": [
+      "Noise",
+      "Music",
+      "Sound",
+      "Hearing"
+    ],
+    "correctIndex": 3,
+    "explanation": "Eye is for vision, Ear is for hearing.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q22",
+    "question": "How many articles are there in the SAARC Charter?",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "The SAARC Charter has 10 articles.",
+    "subject": "GK"
+  },
+  {
+    "id": "q23",
+    "question": "Where was the Rio+5 Summit held?",
+    "options": [
+      "Brazil",
+      "Japan",
+      "Indonesia",
+      "South Africa"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Rio+5 Summit was held in Japan. Rio+10 = Brazil (Rio de Janeiro), Rio+50 = Indonesia (Bali), Rio+10 (Johannesburg) = South Africa.",
+    "subject": "GK"
+  },
+  {
+    "id": "q24",
+    "question": "What is the priest of the Chepang community called?",
+    "options": [
+      "Lama",
+      "Pandit",
+      "Bhusal",
+      "Pandey"
+    ],
+    "correctIndex": 3,
+    "explanation": "The priest of the Chepang community is called Pandey. Lama = Sherpa priest. Pandit = Brahmin/Kshatriya priest. Bhusal = Magar priest.",
+    "subject": "GK"
+  },
+  {
+    "id": "q25",
     "question": "Which district is Chaurjahari Airport located in?",
     "options": [
       "Jajarkot",
@@ -585,7 +325,72 @@
     "subject": "GK"
   },
   {
-    "id": "q46",
+    "id": "q26",
+    "question": "According to the World Bank, what is Nepal's current unemployment rate?",
+    "options": [
+      "21.7%",
+      "22.7%",
+      "23.7%",
+      "24.8%"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nepal's unemployment rate is 22.7% according to the World Bank. This is the highest unemployment rate in South Asia.",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "Which is the world's largest island?",
+    "options": [
+      "Australia",
+      "Greenland",
+      "Madagascar",
+      "Borneo"
+    ],
+    "correctIndex": 1,
+    "explanation": "Greenland is the world's largest island.",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "Which district produces the most timur (Sichuan pepper) in Nepal?",
+    "options": [
+      "Baglung",
+      "Salyan",
+      "Siraha",
+      "Rupandehi"
+    ],
+    "correctIndex": 1,
+    "explanation": "Salyan produces the most timur. Baglung = lotta, Siraha = bel, Rupandehi = dairy.",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "When was the SLC (School Leaving Certificate) Board formed?",
+    "options": [
+      "1980 BS",
+      "1987 BS",
+      "1990 BS",
+      "1949 BS"
+    ],
+    "correctIndex": 2,
+    "explanation": "The SLC Board was formed in 1990 BS. In the first SLC exam, the total marks were 800 and the pass mark was 228.",
+    "subject": "GK"
+  },
+  {
+    "id": "q30",
+    "question": "From which mountain does the large Bheri River originate?",
+    "options": [
+      "Api Himal",
+      "Mukut Himal",
+      "Dhaulagiri Himal",
+      "Saipal Himal"
+    ],
+    "correctIndex": 2,
+    "explanation": "The large Bheri River originates from Dhaulagiri Himal. Api Himal = Mahakali River, Mukut Himal = small Bheri River, Saipal Himal = Seti River.",
+    "subject": "GK"
+  },
+  {
+    "id": "q31",
     "question": "Who represented Nepal at COP 30?",
     "options": [
       "KP Sharma Oli",
@@ -598,7 +403,137 @@
     "subject": "GK"
   },
   {
-    "id": "q47",
+    "id": "q32",
+    "question": "Which gas is mainly responsible for ozone layer depletion?",
+    "options": [
+      "Carbon dioxide",
+      "Methane",
+      "Chlorofluorocarbon (CFC)",
+      "Nitrogen oxide"
+    ],
+    "correctIndex": 2,
+    "explanation": "Chlorofluorocarbon (CFC) is the main gas responsible for ozone layer depletion.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q33",
+    "question": "Which is the rainiest place in Nepal?",
+    "options": [
+      "Pokhara",
+      "Lumle",
+      "Kathmandu",
+      "Biratnagar"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lumle in Kaski district.",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "How many fundamental rights are in Nepal's Constitution?",
+    "options": [
+      "28",
+      "30",
+      "31",
+      "35"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Constitution guarantees 31 fundamental rights.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q35",
+    "question": "Which is the 5th country to land a spacecraft on the moon?",
+    "options": [
+      "India",
+      "China",
+      "Russia",
+      "Japan"
+    ],
+    "correctIndex": 3,
+    "explanation": "Japan is the 5th country.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q36",
+    "question": "When was Jengji declared a martyr by the government?",
+    "options": [
+      "2082 Kartik 17",
+      "2081 Aswin 2",
+      "2082 Mangshir 5",
+      "2083 Jestha 12"
+    ],
+    "correctIndex": 0,
+    "explanation": "Jengji was declared a martyr on 2082 Kartik 17.",
+    "subject": "GK"
+  },
+  {
+    "id": "q37",
+    "question": "What is the second most spoken mother tongue in Koshi Province?",
+    "options": [
+      "Nepali",
+      "Maithili",
+      "Limbu",
+      "Tharu"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maithili is the second most spoken mother tongue in Koshi Province. Nepali is first, Limbu is third, and Tharu is fourth.",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "Who is the Minister of Communication and Information Technology in Balendra Shah's cabinet?",
+    "options": [
+      "Sonam Wagley",
+      "Sushmit Pokharel",
+      "Shishir Khanal",
+      "Dr. Bikram Timilsina"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dr. Bikram Timilsina is the Minister of Communication and IT. Sonam Wagley = Finance Minister, Sushmit Pokharel = Education Minister, Shishir Khanal = Foreign Minister.",
+    "subject": "GK"
+  },
+  {
+    "id": "q39",
+    "question": "When did Nepal get FIFA membership?",
+    "options": [
+      "1968",
+      "1969",
+      "1970",
+      "1971"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nepal got FIFA membership in 1971.",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "Which province has the highest number of schools in Nepal?",
+    "options": [
+      "Karnali",
+      "Bagmati",
+      "Koshi",
+      "Madhesh"
+    ],
+    "correctIndex": 2,
+    "explanation": "Koshi Province has the most schools. Karnali has the fewest, Bagmati has the most teachers, and Madhesh has the most students.",
+    "subject": "GK"
+  },
+  {
+    "id": "q41",
+    "question": "Which is the world's second largest island?",
+    "options": [
+      "Greenland",
+      "New Guinea",
+      "Borneo",
+      "Madagascar"
+    ],
+    "correctIndex": 1,
+    "explanation": "New Guinea is the world's second largest island. 1st = Greenland, 3rd = Borneo, 4th = Madagascar, 5th = Baffin.",
+    "subject": "GK"
+  },
+  {
+    "id": "q42",
     "question": "Which king died during treatment in Switzerland?",
     "options": [
       "Girman Yuddha Bikram Shah",
@@ -611,42 +546,107 @@
     "subject": "GK"
   },
   {
-    "id": "q48",
-    "question": "When was the Narcotic Drugs Control Act enacted?",
+    "id": "q43",
+    "question": "Approximately how many civilians were killed in World War II?",
     "options": [
-      "2028 BS",
-      "2033 BS",
-      "2045 BS",
-      "2050 BS"
+      "1 crore",
+      "2 crore",
+      "3 crore",
+      "4 crore"
+    ],
+    "correctIndex": 0,
+    "explanation": "About 1 crore civilians were killed. Soldiers killed = 1 crore 46 lakh. Wounded = 3 crore 40 lakh. Lives lost = 2 crore 20 lakh. Expenditure = 11,92,000 crore dollars.",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "Glass is mainly made from which substance?",
+    "options": [
+      "Sand",
+      "Clay",
+      "Limestone",
+      "Soil"
+    ],
+    "correctIndex": 0,
+    "explanation": "Glass is mainly made from sand. Clay + limestone = cement. Soil = ceramics.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q45",
+    "question": "When was Artemis 2 launched in 2026?",
+    "options": [
+      "April 2, 2026",
+      "April 1, 2026",
+      "April 3, 2026",
+      "March 30, 2026"
     ],
     "correctIndex": 1,
-    "explanation": "The Narcotic Drugs Control Act was enacted in 2033 BS.",
+    "explanation": "Artemis 2 was launched on April 1, 2026. It is an American mission that traveled 4,20,000 km from Earth - the farthest in history. Christina Koch became the first woman to travel to the moon.",
+    "subject": "GK"
+  },
+  {
+    "id": "q46",
+    "question": "When and where was COP 30 held?",
+    "options": [
+      "Baku, Azerbaijan, 2024 Nov 11-22",
+      "Belem, Brazil, 2025 Nov 10-21",
+      "Antalya, Turkey, 2026 Nov 9-20",
+      "Paris, France, 2025 Dec 1-10"
+    ],
+    "correctIndex": 1,
+    "explanation": "COP 30 was held in Belem, Brazil from November 10-21, 2025. COP 29 was in Baku 2024, COP 31 will be in Antalya 2026.",
+    "subject": "GK"
+  },
+  {
+    "id": "q47",
+    "question": "Which constitutional body conducts elections in Nepal?",
+    "options": [
+      "Public Service Commission",
+      "Election Commission",
+      "CIAA",
+      "Auditor General"
+    ],
+    "correctIndex": 1,
+    "explanation": "Election Commission conducts all elections.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q48",
+    "question": "Which article guarantees Right to Equality?",
+    "options": [
+      "Article 16",
+      "Article 17",
+      "Article 18",
+      "Article 20"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 18 guarantees Right to Equality.",
     "subject": "CONSTITUTION"
   },
   {
     "id": "q49",
-    "question": "Who was the Prime Minister when Nepal was divided into 7 districts ( provinces)?",
+    "question": "When was the Nepal-China Border Protocol Agreement signed?",
     "options": [
-      "Sher Bahadur Deuba",
-      "Pushpa Kamal Dahal",
-      "KP Sharma Oli",
-      "Sushil Koirala"
+      "1955 AD",
+      "1961 AD",
+      "1970 AD",
+      "1980 AD"
     ],
-    "correctIndex": 0,
-    "explanation": "Sher Bahadur Deuba was PM when 7 districts were established on 2074 Bhadra 5. Sushil Koirala was PM when 7 provinces were established on 2072 Asar 3.",
+    "correctIndex": 1,
+    "explanation": "The Nepal-China Border Protocol Agreement was signed in 1961 AD.",
     "subject": "GK"
   },
   {
     "id": "q50",
-    "question": "Where was the Rio+5 Summit held?",
+    "question": "Which is the world's largest desert?",
     "options": [
-      "Brazil",
-      "Japan",
-      "Indonesia",
-      "South Africa"
+      "Arabian Desert",
+      "Antarctica Desert",
+      "Kalahari Desert",
+      "Sahara Desert"
     ],
-    "correctIndex": 1,
-    "explanation": "The Rio+5 Summit was held in Japan. Rio+10 = Brazil (Rio de Janeiro), Rio+50 = Indonesia (Bali), Rio+10 (Johannesburg) = South Africa.",
+    "correctIndex": 3,
+    "explanation": "Sahara is the world's largest hot desert. Arabian = largest sandy desert, Antarctica = largest polar desert, Thar = largest in South Asia.",
     "subject": "GK"
   }
 ]

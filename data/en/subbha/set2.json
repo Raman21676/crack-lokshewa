@@ -1,32 +1,6 @@
 [
   {
     "id": "q1",
-    "question": "If x + 1/x = 3, what is x² + 1/x²?",
-    "options": [
-      "8",
-      "9",
-      "11",
-      "7"
-    ],
-    "correctIndex": 3,
-    "explanation": "(x+1/x)² = x²+2+1/x² = 9. So x²+1/x² = 7.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q2",
-    "question": "Which place is known as the gateway to Sagarmatha?",
-    "options": [
-      "Bhedetar",
-      "Namche Bazaar",
-      "Kichak Badhai",
-      "Salleri"
-    ],
-    "correctIndex": 1,
-    "explanation": "Namche Bazaar is known as the gateway to Sagarmatha (Mount Everest).",
-    "subject": "GK"
-  },
-  {
-    "id": "q3",
     "question": "When was the Constitution of Nepal 2072 promulgated?",
     "options": [
       "2072 Kartik 15",
@@ -39,98 +13,20 @@
     "subject": "CONSTITUTION"
   },
   {
-    "id": "q4",
-    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
+    "id": "q2",
+    "question": "What is the mythological name of the Budhi Gandaki River?",
     "options": [
-      "35",
-      "40",
-      "45",
-      "50"
+      "Gandaki",
+      "Trishuli",
+      "Yasodhara",
+      "Narayani"
     ],
     "correctIndex": 2,
-    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q5",
-    "question": "When was the Panchayat system formally started in Nepal?",
-    "options": [
-      "2017 Push 1",
-      "2019 Push 1",
-      "2015 Falgun 7",
-      "2046 Chaitra 26"
-    ],
-    "correctIndex": 1,
-    "explanation": "The Panchayat system was formally started on 2019 Push 1. 2017 Push 1 = royal coup by Mahendra. 2015 Falgun 7 = Democracy Day. 2046 Chaitra 26 = 1990 democracy movement.",
+    "explanation": "Budhi Gandaki's mythological name is Yasodhara.",
     "subject": "GK"
   },
   {
-    "id": "q6",
-    "question": "Which province has the highest number of schools in Nepal?",
-    "options": [
-      "Karnali",
-      "Bagmati",
-      "Koshi",
-      "Madhesh"
-    ],
-    "correctIndex": 2,
-    "explanation": "Koshi Province has the most schools. Karnali has the fewest, Bagmati has the most teachers, and Madhesh has the most students.",
-    "subject": "GK"
-  },
-  {
-    "id": "q7",
-    "question": "Which is the only SAARC country without a river?",
-    "options": [
-      "Bhutan",
-      "Pakistan",
-      "Bangladesh",
-      "Maldives"
-    ],
-    "correctIndex": 3,
-    "explanation": "Maldives is the only SAARC country without a river. Bhutan = no written constitution. Pakistan = first SAARC country to implement VAT. Bangladesh = first SAARC country to ban plastic.",
-    "subject": "GK"
-  },
-  {
-    "id": "q8",
-    "question": "Who was the Emerging Player in NPL 2025 (2nd edition)?",
-    "options": [
-      "Sandeep Lamichhane",
-      "Rohit Paudel",
-      "Avinash Bohara",
-      "Sher Malla"
-    ],
-    "correctIndex": 3,
-    "explanation": "Sher Malla was the Emerging Player. Sandeep=Best Bowler, Rohit=Best Batsman.",
-    "subject": "GK"
-  },
-  {
-    "id": "q9",
-    "question": "Who is the propounder of the Law of Gravitation?",
-    "options": [
-      "Nicolas Copernicus",
-      "Charles Darwin",
-      "Kelvin",
-      "Sir Isaac Newton"
-    ],
-    "correctIndex": 3,
-    "explanation": "Sir Isaac Newton propounded the Law of Gravitation. Copernicus = heliocentric theory. Darwin = theory of natural selection. Kelvin = kinetic theory of heat.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q10",
-    "question": "When is National Magar Day celebrated every year?",
-    "options": [
-      "Falgun 14",
-      "Falgun 11",
-      "Falgun 15",
-      "Falgun 10"
-    ],
-    "correctIndex": 2,
-    "explanation": "National Magar Day is celebrated on Falgun 15 every year, in memory of the Magar Association establishment on 2039 Falgun 15.",
-    "subject": "GK"
-  },
-  {
-    "id": "q11",
+    "id": "q3",
     "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
     "options": [
       "48",
@@ -143,410 +39,332 @@
     "subject": "IQ"
   },
   {
-    "id": "q12",
-    "question": "When was Nepal selected for the T20 World Cup for the 3rd time?",
+    "id": "q4",
+    "question": "Which district in Koshi Province has the highest population growth rate?",
     "options": [
-      "October 11, 2025",
-      "October 9, 2025",
-      "October 15, 2025",
-      "October 13, 2025"
+      "Ilam",
+      "Jhapa",
+      "Udayapur",
+      "Khotang"
     ],
-    "correctIndex": 2,
-    "explanation": "Nepal was selected for the T20 World Cup for the 3rd time on October 15, 2025. Previously selected in 2013 and 2024.",
+    "correctIndex": 1,
+    "explanation": "Jhapa has the highest population growth rate in Koshi Province at 1.97%. Khotang has the lowest at -1.56%.",
+    "subject": "GK"
+  },
+  {
+    "id": "q5",
+    "question": "What is the average north-south width of Nepal in kilometers?",
+    "options": [
+      "200 km",
+      "185 km",
+      "210 km",
+      "193 km"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nepal's average north-south width is approximately 193 kilometers.",
+    "subject": "GK"
+  },
+  {
+    "id": "q6",
+    "question": "Who was the first Prime Minister to address the UN General Assembly from Nepal?",
+    "options": [
+      "Tank Prasad Acharya",
+      "BP Koirala",
+      "Matrika Prasad Koirala",
+      "Kirtinidhi Bista"
+    ],
+    "correctIndex": 1,
+    "explanation": "BP Koirala was the first Prime Minister to address the UN General Assembly from Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q7",
+    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
+    "options": [
+      "20",
+      "24",
+      "32",
+      "40"
+    ],
+    "correctIndex": 1,
+    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q8",
+    "question": "What is the literacy rate of Koshi Province according to Census 2078?",
+    "options": [
+      "86.33%",
+      "73.91%",
+      "70.4%",
+      "79.60%"
+    ],
+    "correctIndex": 3,
+    "explanation": "Koshi Province's literacy rate is 79.60%. Male = 86.33%, Female = 73.91%.",
+    "subject": "GK"
+  },
+  {
+    "id": "q9",
+    "question": "Who was the Emerging Player in NPL 2025 (2nd edition)?",
+    "options": [
+      "Sher Malla",
+      "Sandeep Lamichhane",
+      "Rohit Paudel",
+      "Avinash Bohara"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sher Malla was the Emerging Player. Sandeep=Best Bowler, Rohit=Best Batsman.",
+    "subject": "GK"
+  },
+  {
+    "id": "q10",
+    "question": "When is National Magar Day celebrated every year?",
+    "options": [
+      "Falgun 15",
+      "Falgun 10",
+      "Falgun 14",
+      "Falgun 11"
+    ],
+    "correctIndex": 0,
+    "explanation": "National Magar Day is celebrated on Falgun 15 every year, in memory of the Magar Association establishment on 2039 Falgun 15.",
+    "subject": "GK"
+  },
+  {
+    "id": "q11",
+    "question": "In which district is Jaljale Pokhari located in Koshi Province?",
+    "options": [
+      "Bhojpur",
+      "Tehrathum",
+      "Panchthar",
+      "Taplejung"
+    ],
+    "correctIndex": 3,
+    "explanation": "Jaljale Pokhari is in Taplejung district. Sijme Lake and Tin Pokhari are also in Taplejung.",
+    "subject": "GK"
+  },
+  {
+    "id": "q12",
+    "question": "What is the infant mortality rate per 1000 in Koshi Province?",
+    "options": [
+      "19",
+      "20",
+      "21",
+      "22"
+    ],
+    "correctIndex": 1,
+    "explanation": "Infant mortality rate in Koshi Province is 20 per 1000. Nepal's rate is 21. Koshi's maternal mortality is 157 per lakh, Nepal's is 151.",
     "subject": "GK"
   },
   {
     "id": "q13",
-    "question": "Dailekh district is famous for which product?",
+    "question": "What is the currency of Nepal?",
     "options": [
-      "Horn",
-      "Fruits",
-      "Grass",
-      "Leather"
+      "Rupee",
+      "Taka",
+      "Rupiah",
+      "Yen"
     ],
-    "correctIndex": 3,
-    "explanation": "Dailekh district is famous for leather production.",
+    "correctIndex": 0,
+    "explanation": "Nepalese Rupee (NPR).",
     "subject": "GK"
   },
   {
     "id": "q14",
-    "question": "What is the total population of Gandaki Province?",
+    "question": "What is the speed of light in vacuum?",
     "options": [
-      "11,70,833",
-      "12,95,594",
-      "24,66,427",
-      "6,62,480"
+      "3×10⁸ m/s",
+      "3×10⁶ m/s",
+      "3×10¹⁰ m/s",
+      "3×10⁴ m/s"
     ],
-    "correctIndex": 2,
-    "explanation": "Total population = 24,66,427. Male = 11,70,833, Female = 12,95,594, Households = 6,62,480.",
-    "subject": "GK"
+    "correctIndex": 0,
+    "explanation": "Speed of light in vacuum is ~3×10⁸ m/s.",
+    "subject": "SCIENCE"
   },
   {
     "id": "q15",
-    "question": "Which district of Gandaki has the highest population density?",
+    "question": "When was Nepal selected for the T20 World Cup for the 3rd time?",
     "options": [
-      "Manang",
-      "Kaski",
-      "Gorkha",
-      "Syangja"
+      "October 15, 2025",
+      "October 13, 2025",
+      "October 11, 2025",
+      "October 9, 2025"
     ],
-    "correctIndex": 1,
-    "explanation": "Kaski = 297 people/sq km (highest). Manang = 3 people/sq km (lowest). Lowest sex ratio = Syangja (85.57). Highest sex ratio = Manang (129.44).",
+    "correctIndex": 0,
+    "explanation": "Nepal was selected for the T20 World Cup for the 3rd time on October 15, 2025. Previously selected in 2013 and 2024.",
     "subject": "GK"
   },
   {
     "id": "q16",
-    "question": "When is Language Day celebrated in Nepal?",
+    "question": "Among SAARC countries, which country contributes the highest share to the UN budget?",
     "options": [
-      "Baisakh 1",
-      "Chaitra 29",
-      "Chaitra 30",
-      "Chaitra 28"
+      "Nepal",
+      "Sri Lanka",
+      "Pakistan",
+      "India"
     ],
-    "correctIndex": 1,
-    "explanation": "Language Day is celebrated on Chaitra 29 for Nepali language promotion.",
+    "correctIndex": 3,
+    "explanation": "India contributes the highest share (1.044%) to the UN budget among SAARC countries. Pakistan = 0.144% (2nd). Sri Lanka = 0.045% (3rd). Nepal = 0.010%.",
     "subject": "GK"
   },
   {
     "id": "q17",
-    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
+    "question": "Which is the hottest place in Nepal?",
     "options": [
-      "Rs. 25000",
-      "Rs. 30000",
-      "Rs. 35000",
-      "Rs. 40000"
+      "Birgunj",
+      "Nepalgunj",
+      "Bhairahawa",
+      "Janakpur"
     ],
     "correctIndex": 1,
-    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
-    "subject": "MATH"
+    "explanation": "Nepalgunj is the hottest.",
+    "subject": "GK"
   },
   {
     "id": "q18",
-    "question": "In which district is the Lepcha community's main settlement?",
+    "question": "Who was the last king of the Lichhavi period?",
     "options": [
-      "Ilam",
-      "Morang",
-      "Gorkha",
-      "Jhapa"
+      "Gasti",
+      "Vijay Kadev",
+      "Jay Kamadev",
+      "Bhuktaman"
     ],
-    "correctIndex": 0,
-    "explanation": "Lepcha in Ilam. Dhimal in Morang, Chonara in Gorkha, Kisan in Jhapa.",
+    "correctIndex": 2,
+    "explanation": "Jay Kamadev was the last king of the Lichhavi period. Gasti = last Kiranti king. Bhuktaman = first king of Gopal dynasty.",
     "subject": "GK"
   },
   {
     "id": "q19",
-    "question": "Which is the upper house of Nepal's Federal Parliament?",
+    "question": "How many cooperatives are there in Koshi Province?",
     "options": [
-      "House of Representatives",
-      "National Assembly",
-      "Provincial Assembly",
-      "Local Assembly"
+      "4917",
+      "1081",
+      "3836",
+      "42"
     ],
-    "correctIndex": 1,
-    "explanation": "National Assembly (Rashtriya Sabha) is the upper house.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q20",
-    "question": "Which district is famous for Junar in Koshi Province?",
-    "options": [
-      "Jhapa",
-      "Dhankuta",
-      "Bhojpur",
-      "Sankhuwasabha"
-    ],
-    "correctIndex": 1,
-    "explanation": "Dhankuta is famous for Junar (a citrus fruit) in Koshi Province.",
+    "correctIndex": 0,
+    "explanation": "There are 4917 cooperatives: 1081 under provincial govt, 3836 under local level. 41.6% are savings & credit, 22.4% agriculture, 15.7% multi-purpose, 20.3% others.",
     "subject": "GK"
   },
   {
-    "id": "q21",
-    "question": "How many members are there in Koshi Province Assembly?",
+    "id": "q20",
+    "question": "What is the term length of Nepal's President?",
     "options": [
-      "93",
-      "110",
-      "56",
-      "60"
+      "3 years",
+      "4 years",
+      "5 years",
+      "6 years"
     ],
-    "correctIndex": 0,
-    "explanation": "Koshi Province Assembly has 93 members: 56 directly elected and 37 proportionally elected.",
+    "correctIndex": 2,
+    "explanation": "5 years.",
     "subject": "CONSTITUTION"
   },
   {
-    "id": "q22",
-    "question": "Next in series: 2, 6, 12, 20, 30, ?",
+    "id": "q21",
+    "question": "Who built Pashupatinath Temple?",
     "options": [
-      "38",
-      "40",
-      "42",
-      "44"
+      "King Dharmaraj",
+      "King Manadev",
+      "King Prachanda Dev",
+      "King Anshuvarma"
     ],
     "correctIndex": 2,
-    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
-    "subject": "IQ"
+    "explanation": "Pashupatinath Temple was built by King Prachanda Dev.",
+    "subject": "GK"
+  },
+  {
+    "id": "q22",
+    "question": "What is Nepal's area in square miles?",
+    "options": [
+      "48,006.67 sq miles",
+      "56,287 sq miles",
+      "249,917 sq miles",
+      "56,278 sq miles"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nepal's area is 56,287 square miles (approximately 147,181 sq km). 249,917 sq km was Nepal's area before the Sugauli Treaty.",
+    "subject": "GK"
   },
   {
     "id": "q23",
-    "question": "When was Jengji declared a martyr by the government?",
+    "question": "When were diplomatic relations established between Nepal and Kiribati?",
     "options": [
-      "2082 Kartik 17",
-      "2081 Aswin 2",
-      "2082 Mangshir 5",
-      "2083 Jestha 12"
+      "July 17, 2024",
+      "June 17, 2024",
+      "December 17, 2024",
+      "July 18, 2024"
     ],
     "correctIndex": 0,
-    "explanation": "Jengji was declared a martyr on 2082 Kartik 17.",
+    "explanation": "Diplomatic relations were established on July 17, 2024. Kiribati is the 183rd country to establish relations with Nepal. Nauru = 182nd (May 2023).",
     "subject": "GK"
   },
   {
     "id": "q24",
-    "question": "When did industrial census start in Nepal?",
+    "question": "How many labor agreement countries does Nepal currently have?",
     "options": [
-      "1968 BS",
-      "1993 BS",
-      "2022 BS",
-      "2029 BS"
+      "11",
+      "12",
+      "13",
+      "14"
     ],
     "correctIndex": 2,
-    "explanation": "Industrial census started in 2022 BS. It is conducted every 5 years. The 10th industrial census was held on 2079 Asar 11.",
+    "explanation": "Nepal currently has labor agreements with 13 countries.",
     "subject": "GK"
   },
   {
     "id": "q25",
-    "question": "Which country won the first Kho Kho World Cup 2025?",
+    "question": "Which Malla king is known by the title 'Kavi Chunamani Samrat'?",
     "options": [
-      "Nepal",
-      "India",
-      "Sri Lanka",
-      "Pakistan"
+      "Pratap Malla",
+      "Yaksha Malla",
+      "Jayasthiti Malla",
+      "Bhupalendra Malla"
     ],
-    "correctIndex": 1,
-    "explanation": "India won the first Kho Kho World Cup 2025 in both men's and women's categories. Nepal was the runner-up in both.",
+    "correctIndex": 3,
+    "explanation": "Bhupalendra Malla = Kavi Chunamani Samrat. Pratap Malla = scholar of 15 languages, wrote 'Kavindra'. Yaksha Malla = Nepal Mandaleshwar. Jayasthiti Malla = social reformer.",
     "subject": "GK"
   },
   {
     "id": "q26",
-    "question": "Which Lichhavi king established the Boudhanath temple?",
+    "question": "Which place is known as the gateway to Sagarmatha?",
     "options": [
-      "Shivadev",
-      "Narendra Dev",
-      "Prachanda Dev",
-      "Anshu Varma"
+      "Bhedetar",
+      "Namche Bazaar",
+      "Kichak Badhai",
+      "Salleri"
     ],
-    "correctIndex": 0,
-    "explanation": "Shivadev established Boudhanath. Narendra Dev = built Bhadradhiwas. Prachanda Dev = built Pashupatinath. Anshu Varma = built Kailashkut.",
+    "correctIndex": 1,
+    "explanation": "Namche Bazaar is known as the gateway to Sagarmatha (Mount Everest).",
     "subject": "GK"
   },
   {
     "id": "q27",
-    "question": "Where was the 6th National Conference of Lok Sewa Aayog held?",
+    "question": "Which planet is called the 'Golden Planet'?",
     "options": [
-      "Dhulikhel, Kavre",
-      "Pokhara, Kaski",
-      "Biratnagar, Morang",
-      "Birendranagar, Surkhet"
+      "Saturn",
+      "Neptune",
+      "Uranus",
+      "Jupiter"
     ],
-    "correctIndex": 1,
-    "explanation": "Held in Pokhara on 2082 Chaitra 29-30. 7th will be in Madhesh Province on 2083 Falgun 23-24.",
-    "subject": "GK"
+    "correctIndex": 0,
+    "explanation": "Saturn is called the Golden Planet. Neptune = planet of the water god, Uranus = failed star, Jupiter = God of sky and lightning.",
+    "subject": "SCIENCE"
   },
   {
     "id": "q28",
-    "question": "What was the district cooperative office called during the Lichhavi period?",
+    "question": "What was Nepal called during the Satya Yuga?",
     "options": [
-      "Gram",
-      "Vishaya",
-      "Tal",
-      "Charbaat"
+      "Tapovan",
+      "Nepal",
+      "Mukti Sopan",
+      "Satyawati"
     ],
-    "correctIndex": 1,
-    "explanation": "District cooperative office was called 'Vishaya'. Gram = small village. Tal = developed village. Charbaat = police.",
+    "correctIndex": 3,
+    "explanation": "During Satya Yuga, Nepal was called Satyawati. Tapovan = Treta Yuga. Nepal = Kali Yuga (present). Mukti Sopan = Dwapar Yuga.",
     "subject": "GK"
   },
   {
     "id": "q29",
-    "question": "From which district was the National Identity Card distribution started in Koshi Province?",
-    "options": [
-      "Solukhumbu",
-      "Taplejung",
-      "Panchthar",
-      "Bhojpur"
-    ],
-    "correctIndex": 2,
-    "explanation": "National Identity Card distribution was started from Panchthar district. Solukhumbu is known as the 'Shangri-La of tourists', Taplejung has the most glacial lakes, and Bhojpur is where commercial Rudraksh farming started.",
-    "subject": "GK"
-  },
-  {
-    "id": "q30",
-    "question": "Where was the 17th BRICS Summit 2025 held?",
-    "options": [
-      "Brazil",
-      "India",
-      "South Africa",
-      "Indonesia"
-    ],
-    "correctIndex": 0,
-    "explanation": "The 17th BRICS Summit 2025 was held in Rio de Janeiro, Brazil from July 6-7, 2025.",
-    "subject": "GK"
-  },
-  {
-    "id": "q31",
-    "question": "Who was the shortest ruling Rana Prime Minister in Nepal's history?",
-    "options": [
-      "Bir Shumsher",
-      "Dev Shumsher",
-      "Chandra Shumsher",
-      "Bhim Shumsher"
-    ],
-    "correctIndex": 1,
-    "explanation": "Dev Shumsher ruled for only 114 days, making him the shortest ruling Rana PM. Bir Shumsher = first to ride a motor vehicle. Chandra Shumsher = replaced Nepal Sambat with Bikram Sambat. Bhim Shumsher = established office hours 10 AM to 4 PM.",
-    "subject": "GK"
-  },
-  {
-    "id": "q32",
-    "question": "Which science studies climate?",
-    "options": [
-      "Pedology",
-      "Orology",
-      "Climatology",
-      "Ornithology"
-    ],
-    "correctIndex": 2,
-    "explanation": "Climatology studies climate. Pedology = study of soil. Orology = study of mountains. Ornithology = study of birds.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q33",
-    "question": "Which country is known as the 'Land of Thousand Lakes'?",
-    "options": [
-      "New Zealand",
-      "Laos",
-      "Thailand",
-      "Finland"
-    ],
-    "correctIndex": 3,
-    "explanation": "Finland is called the Land of Thousand Lakes. New Zealand = Britain of the South, Laos = Land of Thousand Elephants, Thailand = Land of White Elephants.",
-    "subject": "GK"
-  },
-  {
-    "id": "q34",
-    "question": "Which of the following is the bow of Lord Shiva?",
-    "options": [
-      "Trishul (Pinak)",
-      "Saarang",
-      "Ajgav",
-      "Gandiv"
-    ],
-    "correctIndex": 0,
-    "explanation": "Trishul (also called Pinak) is the bow of Lord Shiva. Saarang = bow of Vishnu. Ajgav = bow of Ram. Gandiv = bow of Arjun.",
-    "subject": "GK"
-  },
-  {
-    "id": "q35",
-    "question": "Match: Purnima, Christ, Vishnu Gupta, Karl Marx",
-    "options": [
-      "Buddha/Israel/Kautilya/England",
-      "Buddha/Rome/Chanakya/Germany",
-      "Gandhi/Jerusalem/Kautilya/Russia",
-      "Buddha/Israel/Chanakya/Germany"
-    ],
-    "correctIndex": 0,
-    "explanation": "Purnima=Buddha, Christ=Israel, Vishnu Gupta=Kautilya, Karl Marx=England.",
-    "subject": "GK"
-  },
-  {
-    "id": "q36",
-    "question": "Manghim and Silauti are religious places of which religion?",
-    "options": [
-      "Sikh",
-      "Jewish",
-      "Jain",
-      "Kirant"
-    ],
-    "correctIndex": 3,
-    "explanation": "Kirant. Sikh=Gurudwara, Jewish=Fire Temple, Jain=Jain Temple.",
-    "subject": "GK"
-  },
-  {
-    "id": "q37",
-    "question": "Which blood group is the universal donor?",
-    "options": [
-      "A+",
-      "B+",
-      "AB+",
-      "O-"
-    ],
-    "correctIndex": 3,
-    "explanation": "O-negative is the universal donor.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q38",
-    "question": "What is the condition of being extremely attracted to boys called?",
-    "options": [
-      "Androphilic",
-      "Gynophobia",
-      "Gynophilic",
-      "Androphobia"
-    ],
-    "correctIndex": 0,
-    "explanation": "Androphilic = attraction to males. Gynophobia = fear of women. Gynophilic = attraction to females. Androphobia = fear of men.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q39",
-    "question": "Approximately how many times larger is China than Nepal?",
-    "options": [
-      "65 times",
-      "70 times",
-      "50 times",
-      "55 times"
-    ],
-    "correctIndex": 0,
-    "explanation": "China is approximately 65 times larger than Nepal in terms of area.",
-    "subject": "GK"
-  },
-  {
-    "id": "q40",
-    "question": "How many community forests are there in Koshi Province?",
-    "options": [
-      "2720",
-      "3720",
-      "4720",
-      "5720"
-    ],
-    "correctIndex": 1,
-    "explanation": "There are 3720 community forests. Additionally: 1211 kabuli vana, 2077 private vana, 46 religious vana, and 6 others.",
-    "subject": "GK"
-  },
-  {
-    "id": "q41",
-    "question": "What is the total population of Koshi Province according to Census 2078?",
-    "options": [
-      "4,961,412",
-      "6,116,868",
-      "5,102,078",
-      "2,916,457"
-    ],
-    "correctIndex": 0,
-    "explanation": "Koshi Province's population is 4,961,412 according to Census 2078, which is 17.01% of Nepal's total population.",
-    "subject": "GK"
-  },
-  {
-    "id": "q42",
-    "question": "In which community do families fight during marriage?",
-    "options": [
-      "Thami",
-      "Limbu",
-      "Kumal",
-      "Jhangad"
-    ],
-    "correctIndex": 2,
-    "explanation": "Kumal = fight during marriage. Thami=marriage after death, Limbu=fire guns, Jhangad=exchange sindur.",
-    "subject": "GK"
-  },
-  {
-    "id": "q43",
     "question": "When was Gandaki Province named?",
     "options": [
       "2075 Asar 18",
@@ -559,7 +377,111 @@
     "subject": "GK"
   },
   {
-    "id": "q44",
+    "id": "q30",
+    "question": "When was Nepal declared untouchability-free?",
+    "options": [
+      "2063 Jestha 20",
+      "2063 Jestha 21",
+      "2063 Jestha 22",
+      "2063 Jestha 23"
+    ],
+    "correctIndex": 1,
+    "explanation": "Declared on 2063 Jestha 21.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q31",
+    "question": "Which country is known as the 'Land of Iron'?",
+    "options": [
+      "Iran",
+      "Iraq",
+      "Afghanistan",
+      "Turkey"
+    ],
+    "correctIndex": 2,
+    "explanation": "Afghanistan is known as the 'Land of Iron'.",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
+    "question": "How many articles are in the Constitution of Nepal 2072?",
+    "options": [
+      "280",
+      "295",
+      "308",
+      "325"
+    ],
+    "correctIndex": 2,
+    "explanation": "308 articles, 35 parts, 9 schedules.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q33",
+    "question": "How many female MPs were elected directly in the 2082 BS House of Representatives election?",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correctIndex": 2,
+    "explanation": "14 female MPs were elected directly. 13 from Rastriya Swatantra Party and 1 from Congress (Basana Thapa from Dailekh-1).",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "Which mosquito spreads the dengue virus?",
+    "options": [
+      "Anopheles mosquito",
+      "Aedes aegypti",
+      "Culex mosquito",
+      "Mansonia mosquito"
+    ],
+    "correctIndex": 1,
+    "explanation": "The dengue virus is spread by the Aedes aegypti mosquito.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q35",
+    "question": "Which SAARC country has never hosted a SAARC Summit so far?",
+    "options": [
+      "Bhutan",
+      "Afghanistan",
+      "Pakistan",
+      "Nepal"
+    ],
+    "correctIndex": 1,
+    "explanation": "Afghanistan has never hosted a SAARC Summit. Bhutan = hosted once. Pakistan = hosted twice. Nepal = hosted three times (11th, 18th, etc.).",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "What is the religious scripture of Jainism?",
+    "options": [
+      "Vedas",
+      "Tripitaka",
+      "Bachanamrit",
+      "Agam"
+    ],
+    "correctIndex": 2,
+    "explanation": "Bachanamrit is the religious scripture of Jainism.",
+    "subject": "GK"
+  },
+  {
+    "id": "q37",
+    "question": "Manghim and Silauti are religious places of which religion?",
+    "options": [
+      "Sikh",
+      "Jewish",
+      "Jain",
+      "Kirant"
+    ],
+    "correctIndex": 3,
+    "explanation": "Kirant. Sikh=Gurudwara, Jewish=Fire Temple, Jain=Jain Temple.",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
     "question": "How many founding nations were there in SAARC?",
     "options": [
       "5",
@@ -572,7 +494,98 @@
     "subject": "GK"
   },
   {
+    "id": "q39",
+    "question": "Who received the Bhanira Shankar Award 2082?",
+    "options": [
+      "Dhanraj Giri",
+      "Madhav Khanal",
+      "Saroj Dhakal",
+      "Muni Shakya"
+    ],
+    "correctIndex": 3,
+    "explanation": "Muni Shakya received the Bhanira Shankar Award 2082. Saroj Dhakal = Bhanira Service Honor Award. Madhav Khanal = Bhanira Pragya Award. Dhanraj Giri = Bhanira Award.",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "When was the Nepal Tourism Board established?",
+    "options": [
+      "2019 Baisakh 1",
+      "2033 Falgun 12",
+      "2055 Poush 16",
+      "1993 Asar 20"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal Tourism Board was established on 2055 Poush 16. Mahendra Highway = 2019 Baisakh 1, Tourism Ministry = 2033 Falgun 12, Biratnagar Jute Mill = 1993 Asar 20.",
+    "subject": "GK"
+  },
+  {
+    "id": "q41",
+    "question": "What is the instrument used to check if a driver has consumed alcohol?",
+    "options": [
+      "Speed gun",
+      "Breathalyzer",
+      "Alcometer",
+      "Radar gun"
+    ],
+    "correctIndex": 1,
+    "explanation": "Breathalyzer is the instrument used to check if a driver has consumed alcohol.",
+    "subject": "GK"
+  },
+  {
+    "id": "q42",
+    "question": "When is World TB Day celebrated?",
+    "options": [
+      "March 24",
+      "October 2",
+      "December 15",
+      "December 18"
+    ],
+    "correctIndex": 0,
+    "explanation": "World TB Day is celebrated on March 24. February 2 = Wetlands Day, October 15 = Handwashing Day, December 18 = International Migrants Day.",
+    "subject": "GK"
+  },
+  {
+    "id": "q43",
+    "question": "Which soil has the most arable land in Nepal?",
+    "options": [
+      "Himali soil",
+      "Balaute soil",
+      "Pangmo soil",
+      "Talaiya soil"
+    ],
+    "correctIndex": 2,
+    "explanation": "Pangmo soil has the most arable land. Himali soil = least arable, Balaute soil = unsuitable for agriculture, Talaiya soil = best for agriculture.",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "In which district is the Lepcha community's main settlement?",
+    "options": [
+      "Ilam",
+      "Morang",
+      "Gorkha",
+      "Jhapa"
+    ],
+    "correctIndex": 0,
+    "explanation": "Lepcha in Ilam. Dhimal in Morang, Chonara in Gorkha, Kisan in Jhapa.",
+    "subject": "GK"
+  },
+  {
     "id": "q45",
+    "question": "Which district in Koshi Province has the lowest population density?",
+    "options": [
+      "Morang",
+      "Sunsari",
+      "Udayapur",
+      "Solukhumbu"
+    ],
+    "correctIndex": 3,
+    "explanation": "Solukhumbu has the lowest population density in Koshi Province at 92 people per sq km. Sunsari has the highest at 737 per sq km.",
+    "subject": "GK"
+  },
+  {
+    "id": "q46",
     "question": "At what altitude is the famous pilgrimage site Muktinath located?",
     "options": [
       "3500 meters",
@@ -585,33 +598,46 @@
     "subject": "GK"
   },
   {
-    "id": "q46",
-    "question": "Who was the first female Chief Secretary in Nepal's history?",
-    "options": [
-      "Lila Devi Gadtaula",
-      "Seva Lamsal",
-      "Ansari Gharti",
-      "Sushila Karki"
-    ],
-    "correctIndex": 0,
-    "explanation": "Lila Devi Gadtaula was the first female Chief Secretary. Seva Lamsal = first female Foreign Secretary, Ansari Gharti = first female Speaker, Sushila Karki = first female Chief Justice.",
-    "subject": "GK"
-  },
-  {
     "id": "q47",
-    "question": "Who led the American War of Independence?",
+    "question": "Who is the current SAARC Secretary General?",
     "options": [
-      "George Washington",
-      "George Grenville",
-      "Thomas Jefferson",
-      "Red Indian"
+      "Esala Ruwan Weerakoon",
+      "Golam Sarwar",
+      "Arjun Bahadur Thapa",
+      "Silkant Sharma"
     ],
-    "correctIndex": 0,
-    "explanation": "George Washington led the American War of Independence. Grenville = British King at the time. Jefferson = drafted the Declaration of Independence. Red Indian = Native Americans.",
+    "correctIndex": 1,
+    "explanation": "Golam Sarwar from Bangladesh is the current SAARC Secretary General.",
     "subject": "GK"
   },
   {
     "id": "q48",
+    "question": "Which planet is cold on one side and extremely hot on the other?",
+    "options": [
+      "Mercury",
+      "Uranus",
+      "Earth",
+      "Saturn"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mercury is extremely cold on one side and very hot on the other. Uranus = rises in the west, Earth = highest density planet, Saturn = lowest density planet.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q49",
+    "question": "Who was elected in the 2082 Magh National Assembly election?",
+    "options": [
+      "Sunil Bahadur Thapa",
+      "Gagan Thapa",
+      "Bishnu Paudel",
+      "Prakash Man Singh"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sunil Bahadur Thapa was elected in the 2082 Magh National Assembly election.",
+    "subject": "GK"
+  },
+  {
+    "id": "q50",
     "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
     "options": [
       "RTSIFD",
@@ -622,31 +648,5 @@
     "correctIndex": 0,
     "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
     "subject": "IQ"
-  },
-  {
-    "id": "q49",
-    "question": "How many fundamental rights are in Nepal's Constitution?",
-    "options": [
-      "28",
-      "30",
-      "31",
-      "35"
-    ],
-    "correctIndex": 2,
-    "explanation": "The Constitution guarantees 31 fundamental rights.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q50",
-    "question": "In which district is Kamini Lake located?",
-    "options": [
-      "Rupandehi",
-      "Palpa",
-      "Nawalparasi",
-      "Bara"
-    ],
-    "correctIndex": 3,
-    "explanation": "Kamini Lake is located in Bara district.",
-    "subject": "GK"
   }
 ]

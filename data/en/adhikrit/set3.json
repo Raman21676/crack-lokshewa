@@ -1,97 +1,32 @@
 [
   {
     "id": "q1",
-    "question": "Which instrument measures height?",
+    "question": "How many days did World War II last?",
     "options": [
-      "Microscope",
-      "Polygraph",
-      "Pyrheliometer",
-      "Altimeter"
+      "2191 days",
+      "2291 days",
+      "2391 days",
+      "1561 days"
     ],
-    "correctIndex": 3,
-    "explanation": "An altimeter measures height. Microscope = magnifies small objects. Polygraph = lie detector. Pyrheliometer = measures solar radiation.",
-    "subject": "SCIENCE"
+    "correctIndex": 0,
+    "explanation": "World War II lasted 2191 days. World War I lasted 1561 days.",
+    "subject": "GK"
   },
   {
     "id": "q2",
-    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
+    "question": "When was Koshi Province declared a fully vaccinated province?",
     "options": [
-      "48",
-      "32",
-      "64",
-      "96"
+      "2081 Saun 2",
+      "2081 Asar 29",
+      "2081 Asar 30",
+      "2081 Asar 31"
     ],
     "correctIndex": 3,
-    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
-    "subject": "IQ"
+    "explanation": "Koshi Province was declared fully vaccinated on 2081 Asar 31.",
+    "subject": "GK"
   },
   {
     "id": "q3",
-    "question": "When was the Kamlari (Kamaiya) system abolished in Nepal?",
-    "options": [
-      "Vikram Sambat 2065 Bhadra 21",
-      "Vikram Sambat 1977 Asar 25",
-      "Vikram Sambat 1981 Baisakh 1",
-      "Vikram Sambat 2057 Shrawan 2"
-    ],
-    "correctIndex": 3,
-    "explanation": "The Kamlari (Kamaiya) system was abolished on Vikram Sambat 2057 Shrawan 2. 1977 Asar 25 = Sati pratha abolished. 1981 Baisakh 1 = Slavery (Das) pratha abolished. 2065 Bhadra 21 = Haliya pratha abolished.",
-    "subject": "GK"
-  },
-  {
-    "id": "q4",
-    "question": "When did Iran's Supreme Leader Ayatollah Ali Khamenei pass away?",
-    "options": [
-      "March 5, 2026",
-      "March 9, 2026",
-      "February 28, 2026",
-      "March 1, 2026"
-    ],
-    "correctIndex": 3,
-    "explanation": "Ayatollah Khamenei passed away on March 1, 2026. USA-Israel attacked Iran on Feb 28, and his son was chosen as new leader on March 9.",
-    "subject": "GK"
-  },
-  {
-    "id": "q5",
-    "question": "Which gas is most abundant in Earth's atmosphere?",
-    "options": [
-      "Hydrogen",
-      "Oxygen",
-      "Carbon Dioxide",
-      "Nitrogen"
-    ],
-    "correctIndex": 3,
-    "explanation": "Nitrogen makes up about 78% of Earth's atmosphere.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q6",
-    "question": "Which Earthquake Safety Day was celebrated in 2082?",
-    "options": [
-      "21st",
-      "22nd",
-      "23rd",
-      "24th"
-    ],
-    "correctIndex": 1,
-    "explanation": "22nd Earthquake Safety Day. Observed on Magh 2.",
-    "subject": "GK"
-  },
-  {
-    "id": "q7",
-    "question": "When is World Autism Awareness Day celebrated every year?",
-    "options": [
-      "April 1",
-      "April 2",
-      "April 3",
-      "April 4"
-    ],
-    "correctIndex": 1,
-    "explanation": "April 2 every year. Established by UN on Dec 18, 2007.",
-    "subject": "GK"
-  },
-  {
-    "id": "q8",
     "question": "Who was the first President of independent Pakistan?",
     "options": [
       "Muhammad Ali Jinnah",
@@ -104,280 +39,59 @@
     "subject": "GK"
   },
   {
-    "id": "q9",
-    "question": "What is the scientific name of Vitamin A?",
-    "options": [
-      "Thiamine",
-      "Retinol",
-      "Tocopherol",
-      "Calciferol"
-    ],
-    "correctIndex": 1,
-    "explanation": "Vitamin A's scientific name is Retinol. Vitamin B = Thiamine, Vitamin E = Tocopherol, Vitamin D = Calciferol.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q10",
-    "question": "Which of the following is NOT a main dimension of sustainable development?",
-    "options": [
-      "Economic dimension",
-      "Social dimension",
-      "Environmental dimension",
-      "Political dimension"
-    ],
-    "correctIndex": 3,
-    "explanation": "Political dimension is NOT a main dimension of sustainable development. The three dimensions are: Economic (economically sustainable), Social (socially acceptable), and Environmental (environmentally non-destructive).",
-    "subject": "GK"
-  },
-  {
-    "id": "q11",
-    "question": "When was Nepal's first AI center established?",
-    "options": [
-      "2082 Kartik 23",
-      "2082 Kartik 24",
-      "2082 Kartik 25",
-      "2082 Kartik 26"
-    ],
-    "correctIndex": 1,
-    "explanation": "Established on 2082 Kartik 24 by Jagadish Kharel.",
-    "subject": "GK"
-  },
-  {
-    "id": "q12",
-    "question": "Which country was the runner-up in the 9th South Asian Karate Championship?",
+    "id": "q4",
+    "question": "According to the IMF World Economic Outlook 2025, which country has the world's third largest economy?",
     "options": [
       "India",
-      "Sri Lanka",
-      "Maldives",
-      "Nepal"
+      "Japan",
+      "China",
+      "Germany"
     ],
     "correctIndex": 3,
-    "explanation": "Nepal was the runner-up in the 9th South Asian Karate Championship held in Colombo, Sri Lanka in July 2022. India was the winner.",
+    "explanation": "Germany has the world's third largest economy ($4.74 trillion). 1st=USA ($30.507T), 2nd=China ($19.231T), 4th=India ($4.187T), 5th=Japan ($4.186T).",
     "subject": "GK"
   },
   {
-    "id": "q13",
+    "id": "q5",
     "question": "Which mountain is known as the 'Nepal Himal'?",
     "options": [
+      "Dhaulagiri",
       "Everest",
       "Makalu",
-      "Kanchenjunga",
-      "Dhaulagiri"
+      "Kanchenjunga"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "Kanchenjunga is known as the 'Nepal Himal'.",
     "subject": "GK"
   },
   {
-    "id": "q14",
-    "question": "Which is Nepal's highest mountain peak?",
-    "options": [
-      "K2",
-      "Kanchenjunga",
-      "Lhotse",
-      "Mount Everest"
-    ],
-    "correctIndex": 3,
-    "explanation": "Mount Everest at 8,848.86 meters.",
-    "subject": "GK"
-  },
-  {
-    "id": "q15",
-    "question": "From which Veda did music originate?",
-    "options": [
-      "Rigveda",
-      "Samaveda",
-      "Yajurveda",
-      "Atharvaveda"
-    ],
-    "correctIndex": 1,
-    "explanation": "Music is believed to have originated from Samaveda.",
-    "subject": "GK"
-  },
-  {
-    "id": "q16",
-    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
-    "options": [
-      "DIBJS",
-      "BDJIS",
-      "DIBJT",
-      "DJBIS"
-    ],
-    "correctIndex": 0,
-    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q17",
-    "question": "Which planet is cold on one side and extremely hot on the other?",
-    "options": [
-      "Mercury",
-      "Uranus",
-      "Earth",
-      "Saturn"
-    ],
-    "correctIndex": 0,
-    "explanation": "Mercury is extremely cold on one side and very hot on the other. Uranus = rises in the west, Earth = highest density planet, Saturn = lowest density planet.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q18",
-    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
-    "options": [
-      "20",
-      "24",
-      "32",
-      "40"
-    ],
-    "correctIndex": 1,
-    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q19",
-    "question": "When did the Kathmandu-Bhaktapur trolley bus service start?",
-    "options": [
-      "2030 BS Push 14",
-      "2032 BS Push 14",
-      "2035 BS Push 14",
-      "2040 BS Push 14"
-    ],
-    "correctIndex": 1,
-    "explanation": "The trolley bus service started on 2032 BS Push 14.",
-    "subject": "GK"
-  },
-  {
-    "id": "q20",
-    "question": "Which is the longest glacier (ice river) in Nepal?",
-    "options": [
-      "Sapta Rangi",
-      "Koshi Glacier",
-      "Khumbu",
-      "Rara"
-    ],
-    "correctIndex": 2,
-    "explanation": "The Khumbu Glacier is the longest glacier in Nepal, located in the Everest region.",
-    "subject": "GK"
-  },
-  {
-    "id": "q21",
-    "question": "Who was the first person to be declared Yuvarajadhiraj in Nepal's history?",
-    "options": [
-      "Udayadev",
-      "Anshuvarma",
-      "Basantadev",
-      "Shivadev I"
-    ],
-    "correctIndex": 0,
-    "explanation": "Udayadev was the first person declared as Yuvarajadhiraj. Anshuvarma = first to declare Maharajadhiraj and Yuvarajadhiraj titles.",
-    "subject": "GK"
-  },
-  {
-    "id": "q22",
-    "question": "Who won the men's Ballon d'Or 2025?",
-    "options": [
-      "Aitana Bonmati",
-      "Ousmane Dembele",
-      "Lionel Messi",
-      "Rodri"
-    ],
-    "correctIndex": 1,
-    "explanation": "Ousmane Dembele won the men's Ballon d'Or 2025. Aitana Bonmati won the women's award. Rodri = 2024 men's winner. Messi = 2023 men's winner.",
-    "subject": "GK"
-  },
-  {
-    "id": "q23",
-    "question": "Who took Nepal's first wicket in the T20 World Cup 2026?",
-    "options": [
-      "Sandeep Lamichhane",
-      "Dipendra Singh Airee",
-      "Sompal Kami",
-      "Sher Malla"
-    ],
-    "correctIndex": 3,
-    "explanation": "Sher Malla took Nepal's first wicket in T20 World Cup 2026 against England on February 8. Nepal was in Group C.",
-    "subject": "GK"
-  },
-  {
-    "id": "q24",
+    "id": "q6",
     "question": "From which date is National Film Day celebrated starting 2082 BS?",
     "options": [
+      "Asar 25",
       "Asar 1",
       "Asar 23",
-      "Asar 15",
-      "Asar 25"
+      "Asar 15"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "National Film Day is celebrated on Asar 15 from 2082 BS. The decision was made on 2082 Asar 13. Previously it was on Asar 1. Changed to honor 'Aama' (Nepal's first film).",
     "subject": "GK"
   },
   {
-    "id": "q25",
-    "question": "Which conference established the Green Climate Fund?",
+    "id": "q7",
+    "question": "Where was the First National Education Conference 2082 held?",
     "options": [
-      "COP 15",
-      "COP 16",
-      "COP 21",
-      "COP 26"
+      "Dhangadhi",
+      "Banepa",
+      "Pokhara",
+      "Janakpur"
     ],
-    "correctIndex": 1,
-    "explanation": "The Green Climate Fund was established by COP 16.",
+    "correctIndex": 3,
+    "explanation": "The First National Education Conference 2082 was held in Janakpur on Asar 10-11, 2082 (Vikram Sambat).",
     "subject": "GK"
   },
   {
-    "id": "q26",
-    "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
-    "options": [
-      "18 days",
-      "20 days",
-      "22 days",
-      "25 days"
-    ],
-    "correctIndex": 1,
-    "explanation": "M₁D₁=M₂D₂. 15×24=18×D₂. D₂=360/18=20 days.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q27",
-    "question": "According to National Industrial Survey 2076, which province has the fewest industries?",
-    "options": [
-      "Karnali",
-      "Bagmati",
-      "Koshi",
-      "Gandaki"
-    ],
-    "correctIndex": 0,
-    "explanation": "Karnali has the fewest industries with 1635. Bagmati has the most with 1833 industries.",
-    "subject": "GK"
-  },
-  {
-    "id": "q28",
-    "question": "What is the depth of Tilicho Lake, the world's highest lake?",
-    "options": [
-      "167 meters",
-      "650 meters",
-      "200 meters",
-      "10 meters"
-    ],
-    "correctIndex": 2,
-    "explanation": "Tilicho Lake is 200 meters deep. 167m = Rara Lake depth. 650m = Phoksundo Lake depth. 10m = Chorolpa Himal lake depth.",
-    "subject": "GK"
-  },
-  {
-    "id": "q29",
-    "question": "When is Army Day celebrated in Nepal?",
-    "options": [
-      "Falgun 3",
-      "Baisakh 15",
-      "Aswin 1",
-      "Mangsir 7"
-    ],
-    "correctIndex": 0,
-    "explanation": "Army Day is celebrated on Falgun 3 in Nepal.",
-    "subject": "GK"
-  },
-  {
-    "id": "q30",
+    "id": "q8",
     "question": "What percentage of Nepal's population follows the Kirat religion?",
     "options": [
       "3.17%",
@@ -390,241 +104,137 @@
     "subject": "GK"
   },
   {
-    "id": "q31",
-    "question": "When was Agriculture Development Bank established?",
+    "id": "q9",
+    "question": "What is the mythological name of the Kali Gandaki River?",
     "options": [
-      "2024 Magh 7",
-      "2062 Mangshir 1",
-      "2073 Poush 7",
-      "2033 Aswin 23"
+      "Pancheswari",
+      "Bhadravati",
+      "Yasodhara",
+      "Krishna Gandaki"
+    ],
+    "correctIndex": 3,
+    "explanation": "Kali Gandaki's mythological name is Krishna Gandaki. Bhadravati = Dudh Koshi, Yasodhara = Budhi Gandaki, Pancheswari = Karnali.",
+    "subject": "GK"
+  },
+  {
+    "id": "q10",
+    "question": "Which continent has the most countries?",
+    "options": [
+      "Africa",
+      "Europe",
+      "Australia",
+      "Asia"
     ],
     "correctIndex": 0,
-    "explanation": "Agriculture Development Bank was established on 2024 Magh 7. Coffee Day started on 2062 Mangshir 1, Farmer Commission formed on 2073 Poush 7, Tea Development Corporation on 2033 Aswin 23.",
+    "explanation": "Africa has the most countries (54). Asia = 48, Europe = 44, Australia = 14, South America = 12, North America = 23.",
     "subject": "GK"
   },
   {
-    "id": "q32",
-    "question": "How many judges are in Nepal's Supreme Court?",
+    "id": "q11",
+    "question": "The ozone layer is related to which of the following gases?",
     "options": [
-      "15",
-      "19",
-      "21",
-      "25"
+      "Nitrogen",
+      "Argon",
+      "Oxygen",
+      "Greenhouse gas"
     ],
-    "correctIndex": 2,
-    "explanation": "21 judges including the Chief Justice.",
-    "subject": "CONSTITUTION"
+    "correctIndex": 3,
+    "explanation": "The ozone layer is related to greenhouse gases (CFCs cause ozone depletion).",
+    "subject": "SCIENCE"
   },
   {
-    "id": "q33",
-    "question": "Who was the Prime Minister of Nepal during World War I?",
-    "options": [
-      "Chandra Shumsher",
-      "Juddha Shumsher",
-      "Dev Shumsher",
-      "Bir Shumsher"
-    ],
-    "correctIndex": 0,
-    "explanation": "Chandra Shumsher was the PM during WWI. Juddha Shumsher = PM during WWII and established first industries in Nepal (1993 BS). Bir Shumsher = started women's education.",
-    "subject": "GK"
-  },
-  {
-    "id": "q34",
-    "question": "According to Economic Survey 2081/82, what is Koshi Province's contribution to Nepal's GDP?",
-    "options": [
-      "12.5%",
-      "13.9%",
-      "15.9%",
-      "17.2%"
-    ],
-    "correctIndex": 2,
-    "explanation": "Koshi Province contributes 15.9% to Nepal's GDP according to the Economic Survey 2081/82.",
-    "subject": "GK"
-  },
-  {
-    "id": "q35",
-    "question": "By the end of the 16th plan, what is the target percentage for women's participation in public service policy-making positions?",
-    "options": [
-      "15%",
-      "18%",
-      "20%",
-      "25%"
-    ],
-    "correctIndex": 2,
-    "explanation": "The 16th plan targets 20% women's participation in public service policy-making positions.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q36",
-    "question": "How many times did record-holder Kami Rita Sherpa summit Everest on 2082 Jestha 13?",
-    "options": [
-      "20",
-      "31",
-      "30",
-      "29"
-    ],
-    "correctIndex": 1,
-    "explanation": "Kami Rita Sherpa summited Everest for the 31st time on 2082 Jestha 13. He first summited in 1994.",
-    "subject": "GK"
-  },
-  {
-    "id": "q37",
+    "id": "q12",
     "question": "Which is Nepal's largest national park?",
     "options": [
+      "Bardiya",
       "Chitwan",
       "Sagarmatha",
-      "Shey Phoksundo",
-      "Bardiya"
+      "Shey Phoksundo"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "Shey Phoksundo in Dolpa district.",
     "subject": "GK"
   },
   {
-    "id": "q38",
-    "question": "Which district is famous for coffee farming in Koshi Province?",
+    "id": "q13",
+    "question": "From which Veda did music originate?",
     "options": [
-      "Jhapa",
-      "Dhankuta",
-      "Bhojpur",
-      "Sankhuwasabha"
+      "Samaveda",
+      "Yajurveda",
+      "Atharvaveda",
+      "Rigveda"
     ],
-    "correctIndex": 3,
-    "explanation": "Sankhuwasabha is famous for coffee farming in Koshi Province.",
+    "correctIndex": 0,
+    "explanation": "Music is believed to have originated from Samaveda.",
     "subject": "GK"
   },
   {
-    "id": "q39",
-    "question": "When was the Comprehensive Peace Agreement signed in Nepal?",
+    "id": "q14",
+    "question": "Which hydropower project produces the most electricity in Nepal?",
     "options": [
-      "2063 Bhadra 5",
-      "2062 Chaitra 28",
-      "2061 Magh 1",
-      "2064 Asar 15"
+      "Kali Gandaki A",
+      "Marshyangdi",
+      "Upper Tamakoshi",
+      "Budhigandaki"
     ],
-    "correctIndex": 0,
-    "explanation": "The Comprehensive Peace Agreement was signed on 2063 Bhadra 5 (November 21, 2006).",
+    "correctIndex": 2,
+    "explanation": "Upper Tamakoshi Hydropower Project produces the most electricity in Nepal.",
     "subject": "GK"
   },
   {
-    "id": "q40",
-    "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
+    "id": "q15",
+    "question": "What is the term length of Nepal's President?",
     "options": [
-      "RTSIFD",
-      "RTSHFD",
-      "RTSIEC",
-      "RTSIFC"
+      "3 years",
+      "4 years",
+      "5 years",
+      "6 years"
     ],
-    "correctIndex": 0,
-    "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q41",
-    "question": "When was the Constitution of Nepal 2072 promulgated?",
-    "options": [
-      "2072 Ashoj 3",
-      "2072 Kartik 15",
-      "2072 Mangsir 1",
-      "2072 Poush 10"
-    ],
-    "correctIndex": 0,
-    "explanation": "September 20, 2015 (2072 Ashoj 3).",
+    "correctIndex": 2,
+    "explanation": "5 years.",
     "subject": "CONSTITUTION"
   },
   {
-    "id": "q42",
-    "question": "Who was the first king of Patan in Nepal's history?",
+    "id": "q16",
+    "question": "Which country won the first Kho Kho World Cup 2025?",
     "options": [
-      "Ranjit Malla",
-      "Ray Malla",
-      "Ratna Malla",
-      "Ran Malla"
-    ],
-    "correctIndex": 3,
-    "explanation": "Ran Malla was the first king of Patan. Ranjit Malla = last king of Bhaktapur. Ray Malla = first king of Bhaktapur. Ratna Malla = first king of Kantipur.",
-    "subject": "GK"
-  },
-  {
-    "id": "q43",
-    "question": "Where was the FATF meeting held in 2026?",
-    "options": [
-      "Paris",
-      "London",
-      "Bangkok",
-      "Washington DC"
-    ],
-    "correctIndex": 2,
-    "explanation": "The FATF meeting in 2026 was held in Bangkok, Thailand on January 6. Nepal was represented by Bishwanath Paudel.",
-    "subject": "GK"
-  },
-  {
-    "id": "q44",
-    "question": "When was Nepal declared untouchability-free?",
-    "options": [
-      "2063 Jestha 20",
-      "2063 Jestha 21",
-      "2063 Jestha 22",
-      "2063 Jestha 23"
+      "Nepal",
+      "India",
+      "Sri Lanka",
+      "Pakistan"
     ],
     "correctIndex": 1,
-    "explanation": "Declared on 2063 Jestha 21.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q45",
-    "question": "Where was the First National Education Conference 2082 held?",
-    "options": [
-      "Pokhara",
-      "Janakpur",
-      "Dhangadhi",
-      "Banepa"
-    ],
-    "correctIndex": 1,
-    "explanation": "The First National Education Conference 2082 was held in Janakpur on Asar 10-11, 2082 (Vikram Sambat).",
+    "explanation": "India won the first Kho Kho World Cup 2025 in both men's and women's categories. Nepal was the runner-up in both.",
     "subject": "GK"
   },
   {
-    "id": "q46",
-    "question": "If square area = 625 sq.m, what is the perimeter?",
+    "id": "q17",
+    "question": "How many districts of Nepal do NOT touch both India and China?",
     "options": [
-      "80m",
-      "90m",
-      "100m",
-      "120m"
-    ],
-    "correctIndex": 2,
-    "explanation": "Side=25m. Perimeter=4×25=100m.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q47",
-    "question": "How many labor agreement countries does Nepal currently have?",
-    "options": [
-      "11",
-      "12",
+      "25",
       "13",
-      "14"
+      "37",
+      "2"
     ],
     "correctIndex": 2,
-    "explanation": "Nepal currently has labor agreements with 13 countries.",
+    "explanation": "37 districts do not touch both countries. 25 touch only India, 13 touch only China, and 2 (Taplejung and Darchula) touch both.",
     "subject": "GK"
   },
   {
-    "id": "q48",
-    "question": "According to the IMF World Economic Outlook 2025, which country has the world's third largest economy?",
+    "id": "q18",
+    "question": "According to National Industrial Survey 2076, which province has the fewest industries?",
     "options": [
-      "Japan",
-      "China",
-      "Germany",
-      "India"
+      "Karnali",
+      "Bagmati",
+      "Koshi",
+      "Gandaki"
     ],
-    "correctIndex": 2,
-    "explanation": "Germany has the world's third largest economy ($4.74 trillion). 1st=USA ($30.507T), 2nd=China ($19.231T), 4th=India ($4.187T), 5th=Japan ($4.186T).",
+    "correctIndex": 0,
+    "explanation": "Karnali has the fewest industries with 1635. Bagmati has the most with 1833 industries.",
     "subject": "GK"
   },
   {
-    "id": "q49",
+    "id": "q19",
     "question": "When was TikTok registered as a social network in Nepal?",
     "options": [
       "2080 Ashoj 14",
@@ -637,16 +247,406 @@
     "subject": "GK"
   },
   {
-    "id": "q50",
-    "question": "How many days did World War II last?",
+    "id": "q20",
+    "question": "When is World Autism Awareness Day celebrated every year?",
     "options": [
-      "2191 days",
-      "2291 days",
-      "2391 days",
-      "1561 days"
+      "April 1",
+      "April 2",
+      "April 3",
+      "April 4"
+    ],
+    "correctIndex": 1,
+    "explanation": "April 2 every year. Established by UN on Dec 18, 2007.",
+    "subject": "GK"
+  },
+  {
+    "id": "q21",
+    "question": "What is Nepal's rank in the Global Hunger Index 2025?",
+    "options": [
+      "62nd",
+      "68th",
+      "72nd",
+      "78th"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal ranks 72nd in the Global Hunger Index 2025.",
+    "subject": "GK"
+  },
+  {
+    "id": "q22",
+    "question": "Which country was the runner-up in the 9th South Asian Karate Championship?",
+    "options": [
+      "Sri Lanka",
+      "Maldives",
+      "Nepal",
+      "India"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal was the runner-up in the 9th South Asian Karate Championship held in Colombo, Sri Lanka in July 2022. India was the winner.",
+    "subject": "GK"
+  },
+  {
+    "id": "q23",
+    "question": "Who was the first king of Patan in Nepal's history?",
+    "options": [
+      "Ranjit Malla",
+      "Ray Malla",
+      "Ratna Malla",
+      "Ran Malla"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ran Malla was the first king of Patan. Ranjit Malla = last king of Bhaktapur. Ray Malla = first king of Bhaktapur. Ratna Malla = first king of Kantipur.",
+    "subject": "GK"
+  },
+  {
+    "id": "q24",
+    "question": "When was Nepal's first AI center established?",
+    "options": [
+      "2082 Kartik 23",
+      "2082 Kartik 24",
+      "2082 Kartik 25",
+      "2082 Kartik 26"
+    ],
+    "correctIndex": 1,
+    "explanation": "Established on 2082 Kartik 24 by Jagadish Kharel.",
+    "subject": "GK"
+  },
+  {
+    "id": "q25",
+    "question": "Which instrument is used to observe the Sun?",
+    "options": [
+      "Pyrheliometer",
+      "Helioscope",
+      "Photometer",
+      "Actinometer"
+    ],
+    "correctIndex": 1,
+    "explanation": "A helioscope is used to observe the Sun. Pyrheliometer = measures solar radiation. Photometer = measures light intensity.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q26",
+    "question": "What is the depth of Tilicho Lake, the world's highest lake?",
+    "options": [
+      "167 meters",
+      "650 meters",
+      "200 meters",
+      "10 meters"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tilicho Lake is 200 meters deep. 167m = Rara Lake depth. 650m = Phoksundo Lake depth. 10m = Chorolpa Himal lake depth.",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "Which is Nepal's highest mountain peak?",
+    "options": [
+      "K2",
+      "Kanchenjunga",
+      "Lhotse",
+      "Mount Everest"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mount Everest at 8,848.86 meters.",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "When was the decision to establish Gorkhapatra Academy made?",
+    "options": [
+      "2075 Baisakh 30",
+      "2076 Jestha 15",
+      "2077 Aswin 3",
+      "2082 Mangsir 12"
+    ],
+    "correctIndex": 3,
+    "explanation": "The decision to establish Gorkhapatra Academy was made on 2082 Mangsir 12.",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "Which body prevents corruption in Nepal?",
+    "options": [
+      "Election Commission",
+      "Public Service Commission",
+      "CIAA",
+      "NHRC"
+    ],
+    "correctIndex": 2,
+    "explanation": "CIAA (Commission for Investigation of Abuse of Authority).",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q30",
+    "question": "If square area = 625 sq.m, what is the perimeter?",
+    "options": [
+      "80m",
+      "90m",
+      "100m",
+      "120m"
+    ],
+    "correctIndex": 2,
+    "explanation": "Side=25m. Perimeter=4×25=100m.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q31",
+    "question": "Who built the Changunarayan Temple?",
+    "options": [
+      "Mandev",
+      "Amshuverma",
+      "Bhrikuti",
+      "Narasingh Dev"
     ],
     "correctIndex": 0,
-    "explanation": "World War II lasted 2191 days. World War I lasted 1561 days.",
+    "explanation": "Changunarayan Temple was built by King Mandev.",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
+    "question": "When did the Kathmandu-Bhaktapur trolley bus service start?",
+    "options": [
+      "2030 BS Push 14",
+      "2032 BS Push 14",
+      "2035 BS Push 14",
+      "2040 BS Push 14"
+    ],
+    "correctIndex": 1,
+    "explanation": "The trolley bus service started on 2032 BS Push 14.",
+    "subject": "GK"
+  },
+  {
+    "id": "q33",
+    "question": "Who was the first person to be declared Yuvarajadhiraj in Nepal's history?",
+    "options": [
+      "Udayadev",
+      "Anshuvarma",
+      "Basantadev",
+      "Shivadev I"
+    ],
+    "correctIndex": 0,
+    "explanation": "Udayadev was the first person declared as Yuvarajadhiraj. Anshuvarma = first to declare Maharajadhiraj and Yuvarajadhiraj titles.",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "How many times did record-holder Kami Rita Sherpa summit Everest on 2082 Jestha 13?",
+    "options": [
+      "20",
+      "31",
+      "30",
+      "29"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kami Rita Sherpa summited Everest for the 31st time on 2082 Jestha 13. He first summited in 1994.",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "Who was the Prime Minister of Nepal during World War I?",
+    "options": [
+      "Chandra Shumsher",
+      "Juddha Shumsher",
+      "Dev Shumsher",
+      "Bir Shumsher"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chandra Shumsher was the PM during WWI. Juddha Shumsher = PM during WWII and established first industries in Nepal (1993 BS). Bir Shumsher = started women's education.",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "Hemant Ritu falls in which months?",
+    "options": [
+      "Ashoj-Kartik",
+      "Kartik-Mangsir",
+      "Mangsir-Poush",
+      "Bhadra-Ashoj"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hemant Ritu falls in Kartik and Mangsir months.",
+    "subject": "GK"
+  },
+  {
+    "id": "q37",
+    "question": "Odd one out: 3, 5, 11, 14, 17, 21",
+    "options": [
+      "3",
+      "14",
+      "17",
+      "21"
+    ],
+    "correctIndex": 1,
+    "explanation": "14 is the only even number.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q38",
+    "question": "What percentage of Provincial Assembly members are elected proportionally?",
+    "options": [
+      "40%",
+      "60%",
+      "50%",
+      "33%"
+    ],
+    "correctIndex": 0,
+    "explanation": "40% of Provincial Assembly members are elected through proportional representation. 60% are directly elected.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q39",
+    "question": "Who won the men's Ballon d'Or 2025?",
+    "options": [
+      "Aitana Bonmati",
+      "Ousmane Dembele",
+      "Lionel Messi",
+      "Rodri"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ousmane Dembele won the men's Ballon d'Or 2025. Aitana Bonmati won the women's award. Rodri = 2024 men's winner. Messi = 2023 men's winner.",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "Next in series: 2, 6, 12, 20, 30, ?",
+    "options": [
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "correctIndex": 2,
+    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q41",
+    "question": "Which science studies climate?",
+    "options": [
+      "Pedology",
+      "Orology",
+      "Climatology",
+      "Ornithology"
+    ],
+    "correctIndex": 2,
+    "explanation": "Climatology studies climate. Pedology = study of soil. Orology = study of mountains. Ornithology = study of birds.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q42",
+    "question": "When did Iran's Supreme Leader Ayatollah Ali Khamenei pass away?",
+    "options": [
+      "March 1, 2026",
+      "March 5, 2026",
+      "March 9, 2026",
+      "February 28, 2026"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ayatollah Khamenei passed away on March 1, 2026. USA-Israel attacked Iran on Feb 28, and his son was chosen as new leader on March 9.",
+    "subject": "GK"
+  },
+  {
+    "id": "q43",
+    "question": "What is Earth's equatorial diameter?",
+    "options": [
+      "12,756 km",
+      "12,714 km",
+      "12,735 km",
+      "12,500 km"
+    ],
+    "correctIndex": 0,
+    "explanation": "Earth's equatorial diameter is 12,756 km. Polar diameter = 12,714 km. Average diameter = 12,735 km.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q44",
+    "question": "How many insurance service provider institutions are in Koshi Province?",
+    "options": [
+      "103",
+      "113",
+      "123",
+      "133"
+    ],
+    "correctIndex": 1,
+    "explanation": "There are 113 insurance institutions: 87 government, 21 private, and 5 community-based.",
+    "subject": "GK"
+  },
+  {
+    "id": "q45",
+    "question": "Which of the following is NOT a main dimension of sustainable development?",
+    "options": [
+      "Economic dimension",
+      "Social dimension",
+      "Environmental dimension",
+      "Political dimension"
+    ],
+    "correctIndex": 3,
+    "explanation": "Political dimension is NOT a main dimension of sustainable development. The three dimensions are: Economic (economically sustainable), Social (socially acceptable), and Environmental (environmentally non-destructive).",
+    "subject": "GK"
+  },
+  {
+    "id": "q46",
+    "question": "Which conference established the Green Climate Fund?",
+    "options": [
+      "COP 15",
+      "COP 16",
+      "COP 21",
+      "COP 26"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Green Climate Fund was established by COP 16.",
+    "subject": "GK"
+  },
+  {
+    "id": "q47",
+    "question": "How many local levels are there in Koshi Province?",
+    "options": [
+      "135",
+      "137",
+      "140",
+      "145"
+    ],
+    "correctIndex": 1,
+    "explanation": "There are 137 local levels: 1 metropolis, 2 sub-metropolises, 46 municipalities, and 88 rural municipalities. There are also 1,157 wards.",
+    "subject": "GK"
+  },
+  {
+    "id": "q48",
+    "question": "When was the Narcotic Drugs Control Act enacted?",
+    "options": [
+      "2028 BS",
+      "2033 BS",
+      "2045 BS",
+      "2050 BS"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Narcotic Drugs Control Act was enacted in 2033 BS.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q49",
+    "question": "Where was the FATF meeting held in 2026?",
+    "options": [
+      "Paris",
+      "London",
+      "Bangkok",
+      "Washington DC"
+    ],
+    "correctIndex": 2,
+    "explanation": "The FATF meeting in 2026 was held in Bangkok, Thailand on January 6. Nepal was represented by Bishwanath Paudel.",
+    "subject": "GK"
+  },
+  {
+    "id": "q50",
+    "question": "Which is the longest glacier (ice river) in Nepal?",
+    "options": [
+      "Sapta Rangi",
+      "Koshi Glacier",
+      "Khumbu",
+      "Rara"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Khumbu Glacier is the longest glacier in Nepal, located in the Everest region.",
     "subject": "GK"
   }
 ]
