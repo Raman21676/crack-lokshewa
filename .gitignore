@@ -1,0 +1,21 @@
+# Local planning files
+TODO.md
+ARCHITECTURE.md
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (if ever added)
+node_modules/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
