@@ -1,383 +1,45 @@
 [
   {
     "id": "q1",
-    "question": "Which local level was declared Nepal's first model clean rural municipality?",
+    "question": "When were diplomatic relations established between Nepal and Kiribati?",
     "options": [
-      "Bhairabi",
-      "Dhulikhel",
-      "Sunawal",
-      "Jwalamukhi"
+      "June 17, 2024",
+      "December 17, 2024",
+      "July 18, 2024",
+      "July 17, 2024"
     ],
     "correctIndex": 3,
-    "explanation": "Jwalamukhi in Dhading was declared on 2082 Chaitra 29.",
+    "explanation": "Diplomatic relations were established on July 17, 2024. Kiribati is the 183rd country to establish relations with Nepal. Nauru = 182nd (May 2023).",
     "subject": "GK"
   },
   {
     "id": "q2",
-    "question": "Which constitutional body conducts elections in Nepal?",
-    "options": [
-      "CIAA",
-      "Auditor General",
-      "Public Service Commission",
-      "Election Commission"
-    ],
-    "correctIndex": 3,
-    "explanation": "Election Commission conducts all elections.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q3",
-    "question": "What is the chemical formula of water?",
-    "options": [
-      "CO₂",
-      "H₂O",
-      "O₂",
-      "NaCl"
-    ],
-    "correctIndex": 1,
-    "explanation": "H₂O is the chemical formula of water.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q4",
-    "question": "By what percentage did farming families increase per 7th Agriculture Census 2078?",
-    "options": [
-      "10%",
-      "5%",
-      "6%",
-      "8%"
-    ],
-    "correctIndex": 3,
-    "explanation": "Farming families increased by 8%.",
-    "subject": "GK"
-  },
-  {
-    "id": "q5",
-    "question": "What is the unemployment rate of Gandaki Province?",
-    "options": [
-      "23.9%",
-      "13.3%",
-      "20.9%",
-      "7.40%"
-    ],
-    "correctIndex": 3,
-    "explanation": "Unemployment rate = 7.40%. 23.9% = below 14 years, 13.3% = above 60 years, 20.9% = disabled population.",
-    "subject": "GK"
-  },
-  {
-    "id": "q6",
-    "question": "When was Nepal declared untouchability-free?",
-    "options": [
-      "2063 Jestha 20",
-      "2063 Jestha 21",
-      "2063 Jestha 22",
-      "2063 Jestha 23"
-    ],
-    "correctIndex": 1,
-    "explanation": "Declared on 2063 Jestha 21.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q7",
-    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
-    "options": [
-      "Cousin",
-      "Sister",
-      "Daughter",
-      "Niece"
-    ],
-    "correctIndex": 1,
-    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q8",
-    "question": "How many articles are in the Constitution of Nepal 2072?",
-    "options": [
-      "325",
-      "280",
-      "295",
-      "308"
-    ],
-    "correctIndex": 3,
-    "explanation": "308 articles, 35 parts, 9 schedules.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q9",
-    "question": "If A is brother of B, B is sister of C, C is father of D. How is A related to D?",
-    "options": [
-      "Father",
-      "Brother",
-      "Nephew",
-      "Uncle"
-    ],
-    "correctIndex": 3,
-    "explanation": "C is D's father. B is C's sister. A is B's brother, so A is D's uncle.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q10",
-    "question": "What is the term length of Nepal's President?",
-    "options": [
-      "3 years",
-      "4 years",
-      "5 years",
-      "6 years"
-    ],
-    "correctIndex": 2,
-    "explanation": "5 years.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q11",
-    "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
-    "options": [
-      "18 days",
-      "20 days",
-      "22 days",
-      "25 days"
-    ],
-    "correctIndex": 1,
-    "explanation": "M₁D₁=M₂D₂. 15×24=18×D₂. D₂=360/18=20 days.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q12",
-    "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
-    "options": [
-      "RTSIFD",
-      "RTSHFD",
-      "RTSIEC",
-      "RTSIFC"
-    ],
-    "correctIndex": 0,
-    "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q13",
     "question": "Odd one out: 3, 5, 11, 14, 17, 21",
     "options": [
-      "3",
-      "14",
       "17",
-      "21"
+      "21",
+      "3",
+      "14"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "14 is the only even number.",
     "subject": "IQ"
   },
   {
-    "id": "q14",
-    "question": "Who was the first President of independent Pakistan?",
+    "id": "q3",
+    "question": "Who was the first Governor of Gandaki Province?",
     "options": [
-      "Muhammad Ali Jinnah",
-      "Rabindranath Tagore",
-      "Liaquat Ali Khan",
-      "Sarvepalli Radhakrishnan"
-    ],
-    "correctIndex": 0,
-    "explanation": "Muhammad Ali Jinnah was the first President. Tagore gave 'Mahatma' title to Gandhi. Liaquat Ali Khan = first PM of Pakistan. Radhakrishnan = first Vice President of India.",
-    "subject": "GK"
-  },
-  {
-    "id": "q15",
-    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
-    "options": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "correctIndex": 3,
-    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q16",
-    "question": "What is the main religious text of Sikhism?",
-    "options": [
-      "Guru Granth",
-      "Tripitak",
-      "Quran",
-      "Bachanamrit"
-    ],
-    "correctIndex": 0,
-    "explanation": "Guru Granth. Tripitak=Buddhism, Quran=Islam, Bachanamrit=Jainism.",
-    "subject": "GK"
-  },
-  {
-    "id": "q17",
-    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
-    "options": [
-      "DIBJS",
-      "BDJIS",
-      "DIBJT",
-      "DJBIS"
-    ],
-    "correctIndex": 0,
-    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q18",
-    "question": "Who became the new Prime Minister of Bangladesh in 2026?",
-    "options": [
-      "Khaleda Zia",
-      "Sheikh Hasina",
-      "Mohammad Yunus",
-      "Tariq Rahman"
-    ],
-    "correctIndex": 3,
-    "explanation": "Tariq Rahman was appointed Prime Minister on February 17, 2026.",
-    "subject": "GK"
-  },
-  {
-    "id": "q19",
-    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
-    "options": [
-      "Sound",
-      "Hearing",
-      "Noise",
-      "Music"
-    ],
-    "correctIndex": 1,
-    "explanation": "Eye is for vision, Ear is for hearing.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q20",
-    "question": "Which is the world's largest desert?",
-    "options": [
-      "Arabian Desert",
-      "Antarctica Desert",
-      "Kalahari Desert",
-      "Sahara Desert"
-    ],
-    "correctIndex": 3,
-    "explanation": "Sahara is the world's largest hot desert. Arabian = largest sandy desert, Antarctica = largest polar desert, Thar = largest in South Asia.",
-    "subject": "GK"
-  },
-  {
-    "id": "q21",
-    "question": "If square area = 625 sq.m, what is the perimeter?",
-    "options": [
-      "80m",
-      "90m",
-      "100m",
-      "120m"
+      "Netranath Adhikari",
+      "Bishnu Prasad Nepal",
+      "Baburam Kuwar",
+      "Krishna Chandra Pokharel"
     ],
     "correctIndex": 2,
-    "explanation": "Side=25m. Perimeter=4×25=100m.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q22",
-    "question": "In which Asian country is the world's largest hydropower project?",
-    "options": [
-      "India",
-      "Nepal",
-      "China",
-      "Bhutan"
-    ],
-    "correctIndex": 2,
-    "explanation": "China has the world's largest hydropower project.",
+    "explanation": "Baburam Kuwar was the first Governor. Krishna Chandra Pokharel = first CM, Netranath Adhikari = first Speaker, Bishnu Prasad Nepal = current Lok Sewa Aayog Chairman.",
     "subject": "GK"
   },
   {
-    "id": "q23",
-    "question": "How many fundamental rights are in Nepal's Constitution?",
-    "options": [
-      "28",
-      "30",
-      "31",
-      "35"
-    ],
-    "correctIndex": 2,
-    "explanation": "The Constitution guarantees 31 fundamental rights.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q24",
-    "question": "When is Energy Day celebrated in Nepal?",
-    "options": [
-      "Baisakh 9",
-      "Jestha 9",
-      "Ashoj 9",
-      "Magh 9"
-    ],
-    "correctIndex": 1,
-    "explanation": "Energy Day is celebrated on Jestha 9.",
-    "subject": "GK"
-  },
-  {
-    "id": "q25",
-    "question": "Next in series: 2, 6, 12, 20, 30, ?",
-    "options": [
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "correctIndex": 2,
-    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q26",
-    "question": "When was Gandaki Province named?",
-    "options": [
-      "2075 Asar 18",
-      "2075 Asar 19",
-      "2075 Asar 22",
-      "2075 Asar 23"
-    ],
-    "correctIndex": 2,
-    "explanation": "Named on 2075 Asar 22. On 2075 Asar 18, Pokhara was declared the permanent capital.",
-    "subject": "GK"
-  },
-  {
-    "id": "q27",
-    "question": "What is the speed of light in vacuum?",
-    "options": [
-      "3×10⁸ m/s",
-      "3×10⁶ m/s",
-      "3×10¹⁰ m/s",
-      "3×10⁴ m/s"
-    ],
-    "correctIndex": 0,
-    "explanation": "Speed of light in vacuum is ~3×10⁸ m/s.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q28",
-    "question": "Who was the King of Britain during the Glorious Revolution?",
-    "options": [
-      "James II",
-      "Nicholas II",
-      "Charles II",
-      "John II"
-    ],
-    "correctIndex": 0,
-    "explanation": "James II was King during the Glorious Revolution (1688). Nicholas II was Russian Tsar during the Russian Revolution.",
-    "subject": "GK"
-  },
-  {
-    "id": "q29",
-    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
-    "options": [
-      "Rs. 25000",
-      "Rs. 30000",
-      "Rs. 35000",
-      "Rs. 40000"
-    ],
-    "correctIndex": 1,
-    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q30",
+    "id": "q4",
     "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
     "options": [
       "STATION",
@@ -390,228 +52,98 @@
     "subject": "IQ"
   },
   {
-    "id": "q31",
-    "question": "Which is Nepal's largest national park?",
+    "id": "q5",
+    "question": "How many judges are in Nepal's Supreme Court?",
     "options": [
-      "Chitwan",
-      "Sagarmatha",
-      "Shey Phoksundo",
-      "Bardiya"
+      "15",
+      "19",
+      "21",
+      "25"
     ],
     "correctIndex": 2,
-    "explanation": "Shey Phoksundo in Dolpa district.",
-    "subject": "GK"
-  },
-  {
-    "id": "q32",
-    "question": "What is the total population of Gandaki Province?",
-    "options": [
-      "11,70,833",
-      "12,95,594",
-      "24,66,427",
-      "6,62,480"
-    ],
-    "correctIndex": 2,
-    "explanation": "Total population = 24,66,427. Male = 11,70,833, Female = 12,95,594, Households = 6,62,480.",
-    "subject": "GK"
-  },
-  {
-    "id": "q33",
-    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
-    "options": [
-      "35",
-      "40",
-      "45",
-      "50"
-    ],
-    "correctIndex": 2,
-    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q34",
-    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
-    "options": [
-      "Sound",
-      "Hearing",
-      "Noise",
-      "Music"
-    ],
-    "correctIndex": 1,
-    "explanation": "Eye is for vision, Ear is for hearing.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q35",
-    "question": "Which district of Gandaki has the highest annual population growth rate?",
-    "options": [
-      "Kaski",
-      "Manang",
-      "Gorkha",
-      "Tanahu"
-    ],
-    "correctIndex": 0,
-    "explanation": "Kaski has the highest growth rate at 0.90%. Manang has the lowest at -3.9%.",
-    "subject": "GK"
-  },
-  {
-    "id": "q36",
-    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
-    "options": [
-      "96",
-      "48",
-      "32",
-      "64"
-    ],
-    "correctIndex": 0,
-    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q37",
-    "question": "What is 25% of 25% of 400?",
-    "options": [
-      "20",
-      "25",
-      "30",
-      "40"
-    ],
-    "correctIndex": 1,
-    "explanation": "25% of 400 = 100. 25% of 100 = 25.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q38",
-    "question": "Which was the first country to establish diplomatic relations with Nepal?",
-    "options": [
-      "Britain",
-      "India",
-      "China",
-      "France"
-    ],
-    "correctIndex": 0,
-    "explanation": "Britain was the first country.",
-    "subject": "GK"
-  },
-  {
-    "id": "q39",
-    "question": "Which is the highest policy body of BIMSTEC?",
-    "options": [
-      "Summit",
-      "Council of Ministers",
-      "Secretariat",
-      "Working Group"
-    ],
-    "correctIndex": 0,
-    "explanation": "The Summit is the highest policy body.",
-    "subject": "GK"
-  },
-  {
-    "id": "q40",
-    "question": "Who is the new Deputy Governor of Nepal Rastra Bank?",
-    "options": [
-      "Vishwanath Paudel",
-      "Himalaya Shamsher",
-      "Raj Bahadur Budha",
-      "Kiran Pandit"
-    ],
-    "correctIndex": 3,
-    "explanation": "Kiran Pandit appointed on 2082 Chaitra 24. Vishwanath Paudel is the 18th Governor.",
-    "subject": "GK"
-  },
-  {
-    "id": "q41",
-    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
-    "options": [
-      "20",
-      "24",
-      "32",
-      "40"
-    ],
-    "correctIndex": 1,
-    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q42",
-    "question": "Which is Nepal's smallest province by area?",
-    "options": [
-      "Madhesh",
-      "Bagmati",
-      "Gandaki",
-      "Koshi"
-    ],
-    "correctIndex": 0,
-    "explanation": "Madhesh Province (9,661 sq km).",
-    "subject": "GK"
-  },
-  {
-    "id": "q43",
-    "question": "What was the slogan of the American War of Independence?",
-    "options": [
-      "Unity in Diversity",
-      "Equality, Liberty and Fraternity",
-      "Bread for Survival",
-      "Give me liberty or give me death"
-    ],
-    "correctIndex": 3,
-    "explanation": "'Give me liberty or give me death' was the slogan. 'Bread for Survival' = Russian Revolution. 'Equality, Liberty, Fraternity' = French Revolution. 'Unity in Diversity' = European Union.",
-    "subject": "GK"
-  },
-  {
-    "id": "q44",
-    "question": "When was the Constitution of Nepal 2072 promulgated?",
-    "options": [
-      "2072 Ashoj 3",
-      "2072 Kartik 15",
-      "2072 Mangsir 1",
-      "2072 Poush 10"
-    ],
-    "correctIndex": 0,
-    "explanation": "September 20, 2015 (2072 Ashoj 3).",
+    "explanation": "21 judges including the Chief Justice.",
     "subject": "CONSTITUTION"
   },
   {
-    "id": "q45",
-    "question": "Which gas is most abundant in Earth's atmosphere?",
+    "id": "q6",
+    "question": "Which is the hottest place in Nepal?",
     "options": [
-      "Oxygen",
-      "Carbon Dioxide",
-      "Nitrogen",
-      "Hydrogen"
+      "Bhairahawa",
+      "Janakpur",
+      "Birgunj",
+      "Nepalgunj"
     ],
-    "correctIndex": 2,
-    "explanation": "Nitrogen makes up about 78% of Earth's atmosphere.",
+    "correctIndex": 3,
+    "explanation": "Nepalgunj is the hottest.",
+    "subject": "GK"
+  },
+  {
+    "id": "q7",
+    "question": "What was the slogan of Tax Day 2082?",
+    "options": [
+      "Investment is the foundation, tax system",
+      "Tax system, investment foundation",
+      "Tax system is the foundation of investment",
+      "Tax system is the essence, investment is the foundation"
+    ],
+    "correctIndex": 3,
+    "explanation": "Slogan: 'Tax system is the essence, investment is the foundation'. Observed on Mangsir 1.",
+    "subject": "GK"
+  },
+  {
+    "id": "q8",
+    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctIndex": 3,
+    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q9",
+    "question": "What is the smallest unit of matter?",
+    "options": [
+      "Electron",
+      "Proton",
+      "Molecule",
+      "Atom"
+    ],
+    "correctIndex": 3,
+    "explanation": "Atom is the smallest unit that retains chemical properties.",
     "subject": "SCIENCE"
   },
   {
-    "id": "q46",
-    "question": "When was the Nepal-India Biodiversity Agreement signed?",
+    "id": "q10",
+    "question": "When was Nepal declared untouchability-free?",
     "options": [
-      "2082 Falgun 12",
-      "2082 Falgun 13",
-      "2082 Falgun 14",
-      "2082 Falgun 15"
+      "2063 Jestha 22",
+      "2063 Jestha 23",
+      "2063 Jestha 20",
+      "2063 Jestha 21"
     ],
-    "correctIndex": 1,
-    "explanation": "Signed on 2082 Falgun 13 (February 25, 2026).",
-    "subject": "GK"
+    "correctIndex": 3,
+    "explanation": "Declared on 2063 Jestha 21.",
+    "subject": "CONSTITUTION"
   },
   {
-    "id": "q47",
-    "question": "The world's first cabinet meeting underwater took place in which ocean?",
+    "id": "q11",
+    "question": "Who was the first female Deputy Speaker in Nepal's history?",
     "options": [
-      "Pacific",
-      "Atlantic",
-      "Indian",
-      "Arctic"
+      "Dwarika Devi Thakurani",
+      "Pampha Bhusal",
+      "Onsari Gharti",
+      "Pushpa Bhusal"
     ],
     "correctIndex": 2,
-    "explanation": "First underwater cabinet meeting was held in the Indian Ocean (Maldives).",
+    "explanation": "Onsari Gharti was the first female Deputy Speaker.",
     "subject": "GK"
   },
   {
-    "id": "q48",
+    "id": "q12",
     "question": "Which metal is liquid at room temperature?",
     "options": [
       "Iron",
@@ -624,7 +156,150 @@
     "subject": "SCIENCE"
   },
   {
-    "id": "q49",
+    "id": "q13",
+    "question": "Which constitutional body conducts elections in Nepal?",
+    "options": [
+      "CIAA",
+      "Auditor General",
+      "Public Service Commission",
+      "Election Commission"
+    ],
+    "correctIndex": 3,
+    "explanation": "Election Commission conducts all elections.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q14",
+    "question": "In which district was Red Panda Festival 2082 held?",
+    "options": [
+      "Ilam",
+      "Kaski",
+      "Doti",
+      "Pokhara"
+    ],
+    "correctIndex": 0,
+    "explanation": "Red Panda Festival 2082 was held in Ilam district from Chaitra 20 to 23.",
+    "subject": "GK"
+  },
+  {
+    "id": "q15",
+    "question": "When did newly elected MPs take oath after 2082 Falgun 21 election?",
+    "options": [
+      "2082 Chaitra 10",
+      "2082 Chaitra 11",
+      "2082 Chaitra 12",
+      "2082 Chaitra 13"
+    ],
+    "correctIndex": 2,
+    "explanation": "Newly elected MPs took oath on 2082 Chaitra 12.",
+    "subject": "GK"
+  },
+  {
+    "id": "q16",
+    "question": "Next in series: 2, 6, 12, 20, 30, ?",
+    "options": [
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "correctIndex": 2,
+    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q17",
+    "question": "Which is the rainiest place in Nepal?",
+    "options": [
+      "Kathmandu",
+      "Biratnagar",
+      "Pokhara",
+      "Lumle"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lumle in Kaski district.",
+    "subject": "GK"
+  },
+  {
+    "id": "q18",
+    "question": "What is the current Nepal Sambat year in 2082?",
+    "options": [
+      "NESAM 1146",
+      "NESAM 1145",
+      "NESAM 1144",
+      "NESAM 1143"
+    ],
+    "correctIndex": 0,
+    "explanation": "The current Nepal Sambat is 1146. It started from Vikram Sambat 936. Founded by Raghavdev and promoted by Shankhadhar Sakhwa.",
+    "subject": "GK"
+  },
+  {
+    "id": "q19",
+    "question": "A 150m train crosses a platform in 25 sec at 36 km/h. Platform length?",
+    "options": [
+      "100m",
+      "150m",
+      "200m",
+      "250m"
+    ],
+    "correctIndex": 0,
+    "explanation": "Speed=10 m/s. Distance=250m. Platform=250-150=100m.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q20",
+    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
+    "options": [
+      "96",
+      "48",
+      "32",
+      "64"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q21",
+    "question": "LCM=48, HCF=8. If one number is 16, what is the other?",
+    "options": [
+      "32",
+      "40",
+      "20",
+      "24"
+    ],
+    "correctIndex": 3,
+    "explanation": "LCM×HCF = Product. 48×8 = 16×x. x = 384/16 = 24.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q22",
+    "question": "Ram: 'She is daughter of my grandfather's only son.' Relation?",
+    "options": [
+      "Cousin",
+      "Sister",
+      "Daughter",
+      "Niece"
+    ],
+    "correctIndex": 1,
+    "explanation": "Grandfather's only son = Ram's father. His daughter = Ram's sister.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q23",
+    "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
+    "options": [
+      "18 days",
+      "20 days",
+      "22 days",
+      "25 days"
+    ],
+    "correctIndex": 1,
+    "explanation": "M₁D₁=M₂D₂. 15×24=18×D₂. D₂=360/18=20 days.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q24",
     "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
     "options": [
       "214673",
@@ -637,16 +312,341 @@
     "subject": "IQ"
   },
   {
-    "id": "q50",
-    "question": "When did Nepal Telecom start robot technology for customer service?",
+    "id": "q25",
+    "question": "Up to how many decibels can the human ear tolerate?",
     "options": [
-      "2081 Mangsir 1",
-      "2081 Mangsir 2",
-      "2081 Mangsir 3",
-      "2082 Mangsir 1"
+      "50-55 dB",
+      "60-65 dB",
+      "70-75 dB",
+      "80-85 dB"
+    ],
+    "correctIndex": 2,
+    "explanation": "The human ear can tolerate up to 70-75 decibels.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q26",
+    "question": "Which district HQ is at the highest altitude?",
+    "options": [
+      "Jomsom",
+      "Simikot",
+      "Dolpa",
+      "Namche"
     ],
     "correctIndex": 1,
-    "explanation": "Nepal Telecom started robot technology for customer service on 2081 Mangsir 2.",
+    "explanation": "Simikot in Humla district.",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "When was the Narcotic Drugs Control Act enacted?",
+    "options": [
+      "2028 BS",
+      "2033 BS",
+      "2045 BS",
+      "2050 BS"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Narcotic Drugs Control Act was enacted in 2033 BS.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q28",
+    "question": "When is Energy Day celebrated in Nepal?",
+    "options": [
+      "Baisakh 9",
+      "Jestha 9",
+      "Ashoj 9",
+      "Magh 9"
+    ],
+    "correctIndex": 1,
+    "explanation": "Energy Day is celebrated on Jestha 9.",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "Which was the first country to establish diplomatic relations with Nepal?",
+    "options": [
+      "Britain",
+      "India",
+      "China",
+      "France"
+    ],
+    "correctIndex": 0,
+    "explanation": "Britain was the first country.",
+    "subject": "GK"
+  },
+  {
+    "id": "q30",
+    "question": "If square area = 625 sq.m, what is the perimeter?",
+    "options": [
+      "80m",
+      "90m",
+      "100m",
+      "120m"
+    ],
+    "correctIndex": 2,
+    "explanation": "Side=25m. Perimeter=4×25=100m.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q31",
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mars is called the Red Planet due to iron oxide.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q32",
+    "question": "Who is the 18th Governor of Nepal Rastra Bank?",
+    "options": [
+      "Yuba Raj Khatiwada",
+      "Maha Prasad Adhikari",
+      "Vishwanath Paudel",
+      "Himalaya Shamsher"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vishwanath Paudel is the 18th Governor.",
+    "subject": "GK"
+  },
+  {
+    "id": "q33",
+    "question": "What is Nepal's national flower?",
+    "options": [
+      "Lotus",
+      "Rhododendron",
+      "Sunflower",
+      "Rose"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rhododendron (Lali Gurans).",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "In which district is the Lepcha community's main settlement?",
+    "options": [
+      "Ilam",
+      "Morang",
+      "Gorkha",
+      "Jhapa"
+    ],
+    "correctIndex": 0,
+    "explanation": "Lepcha in Ilam. Dhimal in Morang, Chonara in Gorkha, Kisan in Jhapa.",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
+    "options": [
+      "DIBJS",
+      "BDJIS",
+      "DIBJT",
+      "DJBIS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q36",
+    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctIndex": 3,
+    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q37",
+    "question": "Which famous building was constructed by Anshu Varma?",
+    "options": [
+      "Pashupatinath",
+      "Kailashkut",
+      "Bhadradhiwas",
+      "Managriha"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kailashkut was built by Anshu Varma. Pashupatinath = Prachanda Dev. Bhadradhiwas = Narendra Dev. Managriha = Manadev.",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "If x + 1/x = 3, what is x² + 1/x²?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "11"
+    ],
+    "correctIndex": 0,
+    "explanation": "(x+1/x)² = x²+2+1/x² = 9. So x²+1/x² = 7.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q39",
+    "question": "Which place is called 'Nepal's Nainital'?",
+    "options": [
+      "Trivenidham",
+      "Lomathang",
+      "Jumla",
+      "Manaslu"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trivenidham is called Nepal's Nainital. Lomathang = Nepal's city of clay (in Mustang). Jumla = Nepal's Darjeeling/Kashmir. Manaslu = Nepal's Mount Fuji.",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "If SUNDAY is coded as XZSIFD, how is MONDAY coded?",
+    "options": [
+      "RTSIFD",
+      "RTSHFD",
+      "RTSIEC",
+      "RTSIFC"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each letter +5: S→X, U→Z... So M→R, O→T, N→S, D→I, A→F, Y→D = RTSIFD.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q41",
+    "question": "Which is the upper house of Nepal's Federal Parliament?",
+    "options": [
+      "House of Representatives",
+      "National Assembly",
+      "Provincial Assembly",
+      "Local Assembly"
+    ],
+    "correctIndex": 1,
+    "explanation": "National Assembly (Rashtriya Sabha) is the upper house.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q42",
+    "question": "Which Earthquake Safety Day was celebrated in 2082?",
+    "options": [
+      "21st",
+      "22nd",
+      "23rd",
+      "24th"
+    ],
+    "correctIndex": 1,
+    "explanation": "22nd Earthquake Safety Day. Observed on Magh 2.",
+    "subject": "GK"
+  },
+  {
+    "id": "q43",
+    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
+    "options": [
+      "Rs. 25000",
+      "Rs. 30000",
+      "Rs. 35000",
+      "Rs. 40000"
+    ],
+    "correctIndex": 1,
+    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q44",
+    "question": "If A is brother of B, B is sister of C, C is father of D. How is A related to D?",
+    "options": [
+      "Uncle",
+      "Father",
+      "Brother",
+      "Nephew"
+    ],
+    "correctIndex": 0,
+    "explanation": "C is D's father. B is C's sister. A is B's brother, so A is D's uncle.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q45",
+    "question": "Which country is known as the 'Land of Thousand Lakes'?",
+    "options": [
+      "New Zealand",
+      "Laos",
+      "Thailand",
+      "Finland"
+    ],
+    "correctIndex": 3,
+    "explanation": "Finland is called the Land of Thousand Lakes. New Zealand = Britain of the South, Laos = Land of Thousand Elephants, Thailand = Land of White Elephants.",
+    "subject": "GK"
+  },
+  {
+    "id": "q46",
+    "question": "In which Asian country is the world's largest hydropower project?",
+    "options": [
+      "India",
+      "Nepal",
+      "China",
+      "Bhutan"
+    ],
+    "correctIndex": 2,
+    "explanation": "China has the world's largest hydropower project.",
+    "subject": "GK"
+  },
+  {
+    "id": "q47",
+    "question": "Complete the analogy: Eye : Vision :: Ear : ?",
+    "options": [
+      "Sound",
+      "Hearing",
+      "Noise",
+      "Music"
+    ],
+    "correctIndex": 1,
+    "explanation": "Eye is for vision, Ear is for hearing.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q48",
+    "question": "Where was the 17th BRICS Summit 2025 held?",
+    "options": [
+      "Brazil",
+      "India",
+      "South Africa",
+      "Indonesia"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 17th BRICS Summit 2025 was held in Rio de Janeiro, Brazil from July 6-7, 2025.",
+    "subject": "GK"
+  },
+  {
+    "id": "q49",
+    "question": "Which body prevents corruption in Nepal?",
+    "options": [
+      "Election Commission",
+      "Public Service Commission",
+      "CIAA",
+      "NHRC"
+    ],
+    "correctIndex": 2,
+    "explanation": "CIAA (Commission for Investigation of Abuse of Authority).",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q50",
+    "question": "From which Veda did music originate?",
+    "options": [
+      "Rigveda",
+      "Samaveda",
+      "Yajurveda",
+      "Atharvaveda"
+    ],
+    "correctIndex": 1,
+    "explanation": "Music is believed to have originated from Samaveda.",
     "subject": "GK"
   }
 ]
