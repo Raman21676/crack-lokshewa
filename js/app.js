@@ -36,76 +36,45 @@ if (logoBtn) { logoBtn.onclick = function () { window.location.hash = '#home'; }
 var currentTheme = localStorage.getItem('cl_theme') || 'ocean';
 var currentMode  = localStorage.getItem('cl_mode')  || 'light';
 
+var THEME_COLORS = {
+    ocean:    '#2563eb',
+    royal:    '#b91c1c',
+    midnight: '#7c3aed',
+    sunset:   '#ea580c',
+    emerald:  '#059669'
+};
+
 function applyTheme(theme) {
     currentTheme = theme;
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('cl_theme', theme);
-    // Update meta theme-color
-    var metaTheme = document.querySelector('meta[name="theme-color"]');
-    if (metaTheme) {
-        var colors = {
-            ocean:    '#2563eb',
-            royal:    '#b91c1c',
-            midnight: '#7c3aed',
-            sunset:   '#ea580c',
-            emerald:  '#059669'
-        };
-        metaTheme.setAttribute('content', colors[theme] || colors.ocean);
-    }
-    // Update active state in menu
-    document.querySelectorAll('.theme-menu-item').forEach(function (item) {
-        item.classList.toggle('active', item.getAttribute('data-theme') === theme);
-    });
-    // Update dot on picker button
-    var dot = document.getElementById('theme-current-dot');
-    if (dot) {
-        dot.className = 'theme-dot ' + theme;
-    }
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', THEME_COLORS[theme] || THEME_COLORS.ocean);
+    var sel = document.getElementById('theme-select');
+    if (sel) sel.value = theme;
 }
 
 function applyMode(mode) {
     currentMode = mode;
     document.documentElement.setAttribute('data-mode', mode);
     localStorage.setItem('cl_mode', mode);
-    // Update switch
-    var modeSwitch = document.getElementById('theme-mode-switch');
-    if (modeSwitch) { modeSwitch.classList.toggle('dark', mode === 'dark'); }
-    // Update label
-    var modeLabel = document.getElementById('theme-mode-label');
-    if (modeLabel) { modeLabel.textContent = mode === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode'; }
+    var btn = document.getElementById('mode-btn');
+    if (btn) btn.textContent = mode === 'dark' ? '☀️' : '🌙';
 }
 
 function initTheme() {
     applyTheme(currentTheme);
     applyMode(currentMode);
 
-    // Theme picker menu toggle
-    var pickerBtn = document.getElementById('theme-picker-btn');
-    var themeMenu = document.getElementById('theme-menu');
-    if (pickerBtn && themeMenu) {
-        pickerBtn.onclick = function (e) {
-            e.stopPropagation();
-            themeMenu.classList.toggle('open');
-        };
-        document.addEventListener('click', function (e) {
-            if (!themeMenu.contains(e.target) && e.target !== pickerBtn) {
-                themeMenu.classList.remove('open');
-            }
-        });
+    var sel = document.getElementById('theme-select');
+    if (sel) {
+        sel.value = currentTheme;
+        sel.onchange = function () { applyTheme(this.value); };
     }
 
-    // Theme selection
-    document.querySelectorAll('.theme-menu-item').forEach(function (item) {
-        item.onclick = function () {
-            applyTheme(this.getAttribute('data-theme'));
-        };
-    });
-
-    // Dark mode switch (in dropdown menu)
-    var modeSwitch = document.getElementById('theme-mode-switch');
-    if (modeSwitch) {
-        modeSwitch.onclick = function (e) {
-            e.stopPropagation();
+    var modeBtn = document.getElementById('mode-btn');
+    if (modeBtn) {
+        modeBtn.onclick = function () {
             applyMode(currentMode === 'dark' ? 'light' : 'dark');
         };
     }

@@ -23,11 +23,115 @@
     <meta property="twitter:description" content="Free bilingual mock tests for Nepal government job exams. 50 questions, 45 minutes, negative marking.">
     <meta property="twitter:image" content="https://lokshewa.online/og-image.png">
 
+    <!-- ═══ THEME VARIABLES (inlined to avoid cache issues) ═══ -->
+    <style>
+        :root {
+            --primary: #2563eb; --primary-dark: #1d4ed8; --primary-light: #eff6ff;
+            --success: #10b981; --success-light: #d1fae5; --success-text: #065f46;
+            --error: #ef4444; --error-light: #fee2e2; --error-text: #991b1b;
+            --warning: #f59e0b; --warning-light: #fef3c7; --warning-text: #92400e;
+            --good: #6366f1; --good-light: #ede9fe; --good-text: #4338ca;
+            --bg: #f1f5f9; --surface: #ffffff; --surface-2: #f8fafc;
+            --text-1: #0f172a; --text-2: #475569; --text-3: #94a3b8;
+            --border: #e2e8f0;
+            --font-en: 'Inter', sans-serif; --font-ne: 'Mukta', 'Inter', sans-serif;
+            --radius-sm: 8px; --radius-md: 12px; --radius-lg: 18px; --radius-full: 9999px;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,.08);
+            --shadow-md: 0 4px 12px rgba(0,0,0,.10);
+            --shadow-lg: 0 12px 32px rgba(0,0,0,.12);
+            --transition: 200ms ease;
+            --max-w: 1200px;
+        }
+        [data-theme="royal"] {
+            --primary: #b91c1c; --primary-dark: #991b1b; --primary-light: #fef2f2;
+            --success: #d97706; --success-light: #fffbeb; --success-text: #78350f;
+            --error: #dc2626; --error-light: #fee2e2; --error-text: #7f1d1d;
+            --warning: #f59e0b; --warning-light: #fef3c7; --warning-text: #78350f;
+            --good: #b91c1c; --good-light: #fef2f2; --good-text: #991b1b;
+        }
+        [data-theme="midnight"] {
+            --primary: #7c3aed; --primary-dark: #6d28d9; --primary-light: #f5f3ff;
+            --success: #8b5cf6; --success-light: #ede9fe; --success-text: #5b21b6;
+            --error: #e11d48; --error-light: #ffe4e6; --error-text: #9f1239;
+            --warning: #f59e0b; --warning-light: #fef3c7; --warning-text: #78350f;
+            --good: #7c3aed; --good-light: #f5f3ff; --good-text: #6d28d9;
+        }
+        [data-theme="sunset"] {
+            --primary: #ea580c; --primary-dark: #c2410c; --primary-light: #fff7ed;
+            --success: #0369a1; --success-light: #e0f2fe; --success-text: #0c4a6e;
+            --error: #be123c; --error-light: #ffe4e6; --error-text: #881337;
+            --warning: #f59e0b; --warning-light: #fef3c7; --warning-text: #78350f;
+            --good: #0369a1; --good-light: #e0f2fe; --good-text: #0c4a6e;
+        }
+        [data-theme="emerald"] {
+            --primary: #059669; --primary-dark: #047857; --primary-light: #ecfdf5;
+            --success: #ca8a04; --success-light: #fefce8; --success-text: #713f12;
+            --error: #e11d48; --error-light: #ffe4e6; --error-text: #9f1239;
+            --warning: #d97706; --warning-light: #fffbeb; --warning-text: #78350f;
+            --good: #059669; --good-light: #ecfdf5; --good-text: #047857;
+        }
+        [data-mode="dark"] {
+            --bg: #0f172a; --surface: #1e293b; --surface-2: #334155;
+            --text-1: #f8fafc; --text-2: #cbd5e1; --text-3: #64748b;
+            --border: #334155;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,.30);
+            --shadow-md: 0 4px 12px rgba(0,0,0,.35);
+            --shadow-lg: 0 12px 32px rgba(0,0,0,.40);
+        }
+        [data-theme="royal"][data-mode="dark"] { --primary-light: #450a0a; --success-light: #451a03; --error-light: #450a0a; --warning-light: #451a03; }
+        [data-theme="midnight"][data-mode="dark"] { --primary-light: #2e1065; --success-light: #4c1d95; --error-light: #4c0519; --warning-light: #451a03; }
+        [data-theme="sunset"][data-mode="dark"] { --primary-light: #431407; --success-light: #082f49; --error-light: #4c0519; --warning-light: #451a03; }
+        [data-theme="emerald"][data-mode="dark"] { --primary-light: #022c22; --success-light: #422006; --error-light: #4c0519; --warning-light: #451a03; }
+        [data-theme="ocean"][data-mode="dark"], :root[data-mode="dark"] { --primary-light: #172554; --success-light: #064e3b; --error-light: #450a0a; --warning-light: #451a03; }
+
+        /* Inline theme control styles (also to avoid cache issues) */
+        .theme-bar { display: flex; align-items: center; gap: 0.5rem; }
+        .theme-select {
+            appearance: none; -webkit-appearance: none;
+            background: var(--surface-2);
+            border: 1px solid var(--border);
+            color: var(--text-1);
+            padding: 0.4rem 1.8rem 0.4rem 0.6rem;
+            border-radius: var(--radius-full);
+            font-size: 0.85rem;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2394a3b8' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 0.5rem center;
+        }
+        .theme-select:focus { outline: 2px solid var(--primary); outline-offset: 2px; }
+        .mode-btn {
+            background: var(--surface-2);
+            border: 1px solid var(--border);
+            width: 34px; height: 34px;
+            border-radius: var(--radius-full);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all var(--transition);
+            padding: 0;
+        }
+        .mode-btn:hover { border-color: var(--primary); background: var(--primary-light); }
+    </style>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Mukta:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=5">
+    <link rel="stylesheet" href="css/style.css?v=6">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇳🇵</text></svg>">
+    <script>
+        /* Apply saved theme BEFORE first paint to avoid color flash */
+        (function() {
+            try {
+                var t = localStorage.getItem('cl_theme') || 'ocean';
+                var m = localStorage.getItem('cl_mode') || 'light';
+                document.documentElement.setAttribute('data-theme', t);
+                document.documentElement.setAttribute('data-mode', m);
+            } catch(e) {}
+        })();
+    </script>
 </head>
 <body>
     <header class="app-header" id="app-header" style="display:none">
@@ -39,39 +143,15 @@
             <nav class="main-nav">
                 <a href="#home" class="nav-link" data-i18n="home">Home</a>
                 <a href="#about" class="nav-link" data-i18n="about">About</a>
-                <div class="theme-controls">
-                    <div class="theme-dropdown">
-                        <button class="theme-btn" id="theme-picker-btn" title="Change Theme">
-                            <span id="theme-current-dot" class="theme-dot ocean"></span>
-                        </button>
-                        <div class="theme-menu" id="theme-menu">
-                            <button class="theme-menu-item active" data-theme="ocean">
-                                <span class="theme-dot ocean"></span>
-                                <span>Ocean</span>
-                            </button>
-                            <button class="theme-menu-item" data-theme="royal">
-                                <span class="theme-dot royal"></span>
-                                <span>Royal</span>
-                            </button>
-                            <button class="theme-menu-item" data-theme="midnight">
-                                <span class="theme-dot midnight"></span>
-                                <span>Midnight</span>
-                            </button>
-                            <button class="theme-menu-item" data-theme="sunset">
-                                <span class="theme-dot sunset"></span>
-                                <span>Sunset</span>
-                            </button>
-                            <button class="theme-menu-item" data-theme="emerald">
-                                <span class="theme-dot emerald"></span>
-                                <span>Emerald</span>
-                            </button>
-                            <div class="theme-divider"></div>
-                            <div class="theme-mode-row">
-                                <span id="theme-mode-label">Dark Mode</span>
-                                <button class="theme-toggle-switch" id="theme-mode-switch"></button>
-                            </div>
-                        </div>
-                    </div>
+                <div class="theme-bar">
+                    <select class="theme-select" id="theme-select" title="Choose theme">
+                        <option value="ocean">🔵 Ocean</option>
+                        <option value="royal">🔴 Royal</option>
+                        <option value="midnight">🟣 Midnight</option>
+                        <option value="sunset">🟠 Sunset</option>
+                        <option value="emerald">🟢 Emerald</option>
+                    </select>
+                    <button class="mode-btn" id="mode-btn" title="Toggle dark mode">🌙</button>
                 </div>
                 <button class="lang-toggle" id="lang-toggle" title="Change Language">EN / ने</button>
             </nav>
@@ -91,6 +171,6 @@
         </div>
     </footer>
 
-    <script src="js/app.js?v=5"></script>
+    <script src="js/app.js?v=6"></script>
 </body>
 </html>
