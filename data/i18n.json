@@ -283,6 +283,10 @@
         "en": "About",
         "ne": "बारेमा"
     },
+    "blog": {
+        "en": "Blog",
+        "ne": "ब्लग"
+    },
     "subject_analysis": {
         "en": "Subject-wise Analysis",
         "ne": "विषयगत विश्लेषण"
