@@ -8,7 +8,8 @@
 html { scroll-behavior: smooth; }
 body {
     font-family: var(--font-en);
-    background: var(--bg);
+    background: var(--gradient-body);
+    background-attachment: fixed;
     color: var(--text-1);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
@@ -35,7 +36,7 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ── Header ────────────────────────────────────────────────────────── */
 .app-header {
-    background: var(--surface);
+    background: var(--gradient-card);
     box-shadow: 0 1px 0 var(--border);
     position: sticky;
     top: 0;
@@ -60,7 +61,12 @@ button { font-family: inherit; cursor: pointer; }
     text-decoration: none;
     color: var(--text-1);
 }
-.logo .highlight { color: var(--primary); }
+.logo .highlight {
+    background: var(--gradient-logo);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
 .main-nav { display: flex; align-items: center; gap: 1.25rem; }
 .nav-link {
     text-decoration: none;
@@ -89,7 +95,7 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ── Footer ────────────────────────────────────────────────────────── */
 .app-footer {
-    background: var(--surface);
+    background: var(--gradient-card);
     border-top: 1px solid var(--border);
     padding: 1.25rem 0;
     text-align: center;
@@ -167,11 +173,11 @@ button { font-family: inherit; cursor: pointer; }
 .btn:disabled { opacity: 0.45; pointer-events: none; }
 
 .btn-primary {
-    background: var(--primary);
+    background: var(--gradient-btn);
     color: #fff;
 }
 .btn-primary:hover {
-    background: var(--primary-dark);
+    filter: brightness(1.1);
     transform: translateY(-1px);
     box-shadow: var(--shadow-md);
 }
@@ -231,7 +237,7 @@ button { font-family: inherit; cursor: pointer; }
     justify-content: center;
 }
 .lang-card {
-    background: var(--surface);
+    background: var(--gradient-card);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     padding: 2rem 3rem;
@@ -252,7 +258,24 @@ button { font-family: inherit; cursor: pointer; }
 /* ── Hero & Cards ──────────────────────────────────────────────────── */
 .hero {
     text-align: center;
-    padding: 1.5rem 0 2.5rem;
+    padding: 2.5rem 1.5rem;
+    margin-bottom: 1.5rem;
+    background: var(--gradient-hero);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: var(--gradient-glow);
+    opacity: 0.5;
+    pointer-events: none;
 }
 
 .grid-container {
@@ -261,7 +284,7 @@ button { font-family: inherit; cursor: pointer; }
     gap: 1.25rem;
 }
 .card {
-    background: var(--surface);
+    background: var(--gradient-card);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     padding: 1.5rem;
@@ -278,6 +301,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .category-card:hover, .category-card:focus {
     border-color: var(--primary);
+    background: var(--gradient-card-hover);
     box-shadow: var(--shadow-md);
     transform: translateY(-3px);
 }
@@ -289,7 +313,8 @@ button { font-family: inherit; cursor: pointer; }
     justify-content: center;
     font-size: 1.6rem;
     margin-bottom: 1rem;
-    background: var(--primary-light);
+    background: var(--gradient-icon);
+    border: 1px solid var(--border);
 }
 .card-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.35rem; }
 .card-desc  { font-size: 0.875rem; color: var(--text-2); margin-bottom: 1rem; }
@@ -300,7 +325,7 @@ button { font-family: inherit; cursor: pointer; }
     display: flex;
     align-items: center;
     gap: 1rem;
-    background: var(--surface);
+    background: var(--gradient-card);
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
     padding: 1rem 1.25rem;
@@ -348,7 +373,7 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ── Test Engine ───────────────────────────────────────────────────── */
 .test-topbar {
-    background: var(--surface);
+    background: var(--gradient-card);
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
     padding: 0.75rem 1rem;
@@ -401,7 +426,7 @@ button { font-family: inherit; cursor: pointer; }
 .test-container { display: flex; flex-direction: column; gap: 1.5rem; }
 
 .palette-section {
-    background: var(--surface);
+    background: var(--gradient-card);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     padding: 1rem;
@@ -452,7 +477,7 @@ button { font-family: inherit; cursor: pointer; }
 .legend-dot { width: 10px; height: 10px; border-radius: 2px; }
 
 .question-card {
-    background: var(--surface);
+    background: var(--gradient-card);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     padding: 1.5rem;
@@ -524,7 +549,7 @@ button { font-family: inherit; cursor: pointer; }
 /* ── Results ───────────────────────────────────────────────────────── */
 .results-container { max-width: 780px; margin: 0 auto; }
 .score-card {
-    background: var(--surface);
+    background: var(--gradient-card);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     padding: 2rem;
@@ -599,7 +624,7 @@ button { font-family: inherit; cursor: pointer; }
     margin-bottom: 2rem;
 }
 .subject-card {
-    background: var(--surface);
+    background: var(--gradient-card);
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
     padding: 1rem;
@@ -632,7 +657,7 @@ button { font-family: inherit; cursor: pointer; }
 /* ── Review ────────────────────────────────────────────────────────── */
 .review-list { display: flex; flex-direction: column; gap: 1.25rem; }
 .review-card {
-    background: var(--surface);
+    background: var(--gradient-card);
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
     padding: 1rem 1.25rem;
@@ -716,7 +741,7 @@ button { font-family: inherit; cursor: pointer; }
 /* ── About Page ────────────────────────────────────────────────────── */
 .about-container { max-width: 720px; margin: 0 auto; }
 .about-card {
-    background: var(--surface);
+    background: var(--gradient-card);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     padding: 1.5rem;
