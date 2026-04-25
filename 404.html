@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Crack Lokshewa</title>
+    <title>Page Not Found — Crack Lokshewa</title>
+    <meta name="robots" content="noindex, follow">
     <script>
-        // GitHub Pages SPA redirect: preserve the path in the hash
+        // SPA redirect: preserve the path in the hash for GitHub Pages
         var path = window.location.pathname;
         var repo = '/crack-lokshewa';
         if (path.indexOf(repo) === 0) {
             path = path.slice(repo.length);
         }
         if (path && path !== '/') {
-            window.location.replace(repo + '/#' + path);
+            window.location.replace('/#' + path);
         } else {
-            window.location.replace(repo + '/');
+            window.location.replace('/');
         }
     </script>
 </head>
 <body>
-    <p>Redirecting...</p>
+    <p>Redirecting to the correct page…</p>
 </body>
 </html>

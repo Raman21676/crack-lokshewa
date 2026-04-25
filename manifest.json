@@ -1,0 +1,21 @@
+{
+  "name": "Crack Lokshewa — Nepal Lok Sewa Mock Tests",
+  "short_name": "CrackLokshewa",
+  "description": "Free bilingual mock test platform for Nepal Lok Sewa Aayog exams. Practice Kharidar, Nayab Subba, Adhikrit, Police, Driving, IT, Nursing & more.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#e8f4f8",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["education", "reference"]
+}

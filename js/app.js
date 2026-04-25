@@ -102,7 +102,7 @@ function t(key, replacements) {
 }
 
 // Cache-busting version — increment this after every data/content update
-var DATA_VERSION = 'v11';
+var DATA_VERSION = 'v12';
 
 function fetchJSON(url, callback) {
     var sep = url.indexOf('?') === -1 ? '?' : '&';
@@ -185,6 +185,37 @@ function initRouter() {
     handleRoute();
 }
 
+// ── SEO Helpers ───────────────────────────────────────────────────────
+function updateSEO(title, description) {
+    document.title = title;
+    var metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', description);
+    var ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.setAttribute('content', title);
+    var ogDesc = document.querySelector('meta[property="og:description"]');
+    if (ogDesc) ogDesc.setAttribute('content', description);
+    var twTitle = document.querySelector('meta[name="twitter:title"]');
+    if (twTitle) twTitle.setAttribute('content', title);
+    var twDesc = document.querySelector('meta[name="twitter:description"]');
+    if (twDesc) twDesc.setAttribute('content', description);
+}
+
+function injectBreadcrumbJSONLD(items) {
+    var existing = document.getElementById('breadcrumb-ld');
+    if (existing) existing.remove();
+    var script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.id = 'breadcrumb-ld';
+    script.textContent = JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: items.map(function(item, i) {
+            return { '@type': 'ListItem', position: i + 1, name: item.name, item: item.url };
+        })
+    });
+    document.head.appendChild(script);
+}
+
 function handleRoute() {
     stopTimer();
     var hash  = window.location.hash || '#home';
@@ -213,6 +244,11 @@ window.goHome = goHome;
 // ── HOME ──────────────────────────────────────────────────────────────
 function renderHome() {
     showHeaderFooter(true);
+    updateSEO(
+        'Crack Lokshewa — Free Nepal Lok Sewa Mock Tests | PSC Exam Practice',
+        'Crack Lokshewa is Nepal\'s #1 free bilingual mock test platform for Lok Sewa Aayog exams. Practice Kharidar, Nayab Subba, Adhikrit, Police, Driving, Nursing, IT & more.'
+    );
+    injectBreadcrumbJSONLD([{ name: 'Home', url: 'https://lokshewa.online/#home' }]);
     setHTML('<div class="loading-spinner"><div class="spinner"></div><p>Loading...</p></div>');
 
     function build() {
@@ -301,6 +337,14 @@ function renderCategory(categoryId) {
                        '</div>';
             }).join('');
 
+            updateSEO(
+                catTitle + ' — Free Mock Tests | Crack Lokshewa',
+                'Practice free ' + catTitle + ' mock tests for Nepal Lok Sewa Aayog exams. Multiple sets with timer and negative marking.'
+            );
+            injectBreadcrumbJSONLD([
+                { name: 'Home', url: 'https://lokshewa.online/#home' },
+                { name: catTitle, url: 'https://lokshewa.online/#category/' + categoryId }
+            ]);
             setHTML(
                 '<div class="fade-in">' +
                     '<button class="btn btn-secondary mb-4" onclick="goHome()">← ' + t('back_home') + '</button>' +
@@ -327,7 +371,10 @@ function renderTest(categoryId, testId) {
     showHeaderFooter(true);
     setHTML('<div class="loading-spinner"><div class="spinner"></div><p>Loading...</p></div>');
 
-    function fetchQuestions(timeLimit) {
+    var cat = state.categories.find(function (c) { return c.id === categoryId; });
+    var catName = cat ? (cat.title[state.lang] || cat.title.en) : categoryId;
+
+    function fetchQuestions(timeLimit, testTitle) {
         fetchJSON('data/' + state.lang + '/' + categoryId + '/' + testId + '.json', function (err, data) {
             if (err || !data || data.length === 0) {
                 setHTML(
@@ -338,6 +385,15 @@ function renderTest(categoryId, testId) {
                 );
                 return;
             }
+            updateSEO(
+                (testTitle || 'Mock Test') + ' — ' + catName + ' | Crack Lokshewa',
+                'Take the ' + (testTitle || 'mock test') + ' for ' + catName + '. ' + data.length + ' questions with timer and negative marking. Free practice for Nepal Lok Sewa exams.'
+            );
+            injectBreadcrumbJSONLD([
+                { name: 'Home', url: 'https://lokshewa.online/#home' },
+                { name: catName, url: 'https://lokshewa.online/#category/' + categoryId },
+                { name: testTitle || 'Test', url: 'https://lokshewa.online/#test/' + categoryId + '/' + testId }
+            ]);
             state.testData             = data;
             state.answers              = {};
             state.marked               = {};
@@ -352,16 +408,18 @@ function renderTest(categoryId, testId) {
 
     var cached = state.currentTests && state.currentTests.find(function (t) { return t.id === testId; });
     if (cached && cached.timeLimit && state.currentCategory === categoryId) {
-        fetchQuestions(cached.timeLimit);
+        fetchQuestions(cached.timeLimit, cached.title);
     } else {
         fetchJSON('data/' + state.lang + '/' + categoryId + '/tests.json', function (err, tests) {
             var timeLimit = 45;
+            var testTitle = '';
             if (tests && Array.isArray(tests)) {
                 state.currentTests = tests;
                 var meta = tests.find(function (t) { return t.id === testId; });
                 if (meta && meta.timeLimit) { timeLimit = meta.timeLimit; }
+                if (meta && meta.title) { testTitle = meta.title; }
             }
-            fetchQuestions(timeLimit);
+            fetchQuestions(timeLimit, testTitle);
         });
     }
 }
@@ -539,6 +597,7 @@ window.submitTest = submitTest;
 // ── RESULTS ───────────────────────────────────────────────────────────
 function renderResults() {
     showHeaderFooter(true);
+    updateSEO('Test Results — Crack Lokshewa', 'View your mock test results with detailed score breakdown for Nepal Lok Sewa exam preparation.');
     if (!state.testData || state.testData.length === 0) {
         goHome();
         return;
@@ -695,6 +754,7 @@ function renderSubjectAnalysis(stats) {
 // ── ABOUT ─────────────────────────────────────────────────────────────
 function renderAbout() {
     showHeaderFooter(true);
+    updateSEO('About — Crack Lokshewa | Free Nepal Lok Sewa Mock Tests', 'Learn about Crack Lokshewa, Nepal\'s free bilingual mock test platform for Lok Sewa Aayog exam preparation.');
     setHTML(
         '<div class="fade-in about-container">' +
             '<h1 class="page-title">' + t('about_title') + '</h1>' +
