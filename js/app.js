@@ -102,7 +102,7 @@ function t(key, replacements) {
 }
 
 // Cache-busting version — increment this after every data/content update
-var DATA_VERSION = 'v12';
+var DATA_VERSION = 'v13';
 
 function fetchJSON(url, callback) {
     var sep = url.indexOf('?') === -1 ? '?' : '&';
@@ -245,8 +245,8 @@ window.goHome = goHome;
 function renderHome() {
     showHeaderFooter(true);
     updateSEO(
-        'Crack Lokshewa — Free Nepal Lok Sewa Mock Tests | PSC Exam Practice',
-        'Crack Lokshewa is Nepal\'s #1 free bilingual mock test platform for Lok Sewa Aayog exams. Practice Kharidar, Nayab Subba, Adhikrit, Police, Driving, Nursing, IT & more.'
+        'Crack Lokshewa — Free Lok Sewa Aayog Mock Tests | PSC Nepal Online Practice | Kharidar Nayab Subba Adhikrit',
+        'Crack Lokshewa is Nepal\'s #1 free bilingual Lok Sewa Aayog mock test platform. Practice Kharidar, Nayab Subba, Sakha Adhikrit, Nepal Police, Driving License, Staff Nurse, Computer Operator, IT Officer, GK, Constitution & IQ model sets. 50 MCQs per set, 45 min timer, negative marking. Best online PSC exam preparation & tayari samagri.'
     );
     injectBreadcrumbJSONLD([{ name: 'Home', url: 'https://lokshewa.online/#home' }]);
     setHTML('<div class="loading-spinner"><div class="spinner"></div><p>Loading...</p></div>');
@@ -338,8 +338,8 @@ function renderCategory(categoryId) {
             }).join('');
 
             updateSEO(
-                catTitle + ' — Free Mock Tests | Crack Lokshewa',
-                'Practice free ' + catTitle + ' mock tests for Nepal Lok Sewa Aayog exams. Multiple sets with timer and negative marking.'
+                catTitle + ' — Free Lok Sewa Mock Tests & Model Sets | Crack Lokshewa',
+                'Practice free ' + catTitle + ' mock tests & model sets for Nepal Lok Sewa Aayog (PSC) exams. Online MCQ practice with timer, negative marking & old questions. Best tayari samagri for Sarkari Jagir.'
             );
             injectBreadcrumbJSONLD([
                 { name: 'Home', url: 'https://lokshewa.online/#home' },
@@ -386,8 +386,8 @@ function renderTest(categoryId, testId) {
                 return;
             }
             updateSEO(
-                (testTitle || 'Mock Test') + ' — ' + catName + ' | Crack Lokshewa',
-                'Take the ' + (testTitle || 'mock test') + ' for ' + catName + '. ' + data.length + ' questions with timer and negative marking. Free practice for Nepal Lok Sewa exams.'
+                (testTitle || 'Mock Test') + ' — ' + catName + ' | Crack Lokshewa | Free Lok Sewa Online Practice',
+                'Take the ' + (testTitle || 'mock test') + ' for ' + catName + '. ' + data.length + ' MCQs with 45 min timer & negative marking. Free online Lok Sewa Aayog practice with model sets, old questions & tayari samagri for Sarkari Jagir.'
             );
             injectBreadcrumbJSONLD([
                 { name: 'Home', url: 'https://lokshewa.online/#home' },
@@ -597,7 +597,7 @@ window.submitTest = submitTest;
 // ── RESULTS ───────────────────────────────────────────────────────────
 function renderResults() {
     showHeaderFooter(true);
-    updateSEO('Test Results — Crack Lokshewa', 'View your mock test results with detailed score breakdown for Nepal Lok Sewa exam preparation.');
+    updateSEO('Test Results — Crack Lokshewa | Lok Sewa Aayog Mock Test Score', 'View your Lok Sewa Aayog mock test results with detailed score breakdown. Analyze your performance for Kharidar, Nayab Subba, Adhikrit & other Nepal PSC exam preparation.');
     if (!state.testData || state.testData.length === 0) {
         goHome();
         return;
@@ -754,7 +754,7 @@ function renderSubjectAnalysis(stats) {
 // ── ABOUT ─────────────────────────────────────────────────────────────
 function renderAbout() {
     showHeaderFooter(true);
-    updateSEO('About — Crack Lokshewa | Free Nepal Lok Sewa Mock Tests', 'Learn about Crack Lokshewa, Nepal\'s free bilingual mock test platform for Lok Sewa Aayog exam preparation.');
+    updateSEO('About — Crack Lokshewa | Free Lok Sewa Aayog Mock Tests Nepal', 'Learn about Crack Lokshewa, Nepal\'s #1 free bilingual mock test platform for Lok Sewa Aayog (PSC) exam preparation. Kharidar, Nayab Subba, Sakha Adhikrit, Police, Driving, Nursing, IT, GK & more.');
     setHTML(
         '<div class="fade-in about-container">' +
             '<h1 class="page-title">' + t('about_title') + '</h1>' +
