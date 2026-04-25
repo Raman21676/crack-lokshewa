@@ -1,711 +1,702 @@
-{
-  "setId": "gk-set1",
-  "title": "Set 1: General Knowledge",
-  "description": "50 questions covering Nepal geography, history, politics, international affairs, and science.",
-  "category": "gk",
-  "locked": false,
-  "timeLimit": 1800,
-  "passingScore": 60,
-  "questions": [
-    {
-      "id": 1,
-      "question": "What is the total area of Nepal?",
-      "options": [
-        "1,47,181 sq km",
-        "1,48,181 sq km",
-        "1,46,181 sq km",
-        "1,45,181 sq km"
-      ],
-      "correctIndex": 0,
-      "subject": "GK",
-      "explanation": "Nepal covers an area of 1,47,181 square kilometers (56,827 sq mi), stretching approximately 885 km east-west and 145-241 km north-south.",
-      "reference": "Geography of Nepal"
-    },
-    {
-      "id": 2,
-      "question": "Which is the longest river in Nepal?",
-      "options": [
-        "Karnali",
-        "Koshi",
-        "Gandaki",
-        "Narayani"
-      ],
-      "correctIndex": 0,
-      "subject": "GK",
-      "explanation": "The Karnali River is the longest river in Nepal, stretching approximately 1,080 km in total length.",
-      "reference": "Geography of Nepal"
-    },
-    {
-      "id": 3,
-      "question": "What is the highest peak in Nepal?",
-      "options": [
-        "Kanchenjunga",
-        "Lhotse",
-        "Makalu",
-        "Mount Everest (Sagarmatha)"
-      ],
-      "correctIndex": 3,
-      "subject": "GK",
-      "explanation": "Mount Everest (Sagarmatha) at 8,848.86 meters is the highest peak in Nepal and the world.",
-      "reference": "Geography of Nepal"
-    },
-    {
-      "id": 4,
-      "question": "Which is the largest lake in Nepal?",
-      "options": [
-        "Phewa Lake",
-        "Rara Lake",
-        "Tilicho Lake",
-        "Begnas Lake"
-      ],
-      "correctIndex": 1,
-      "subject": "GK",
-      "explanation": "Rara Lake in Mugu district is the largest lake in Nepal, covering about 10.8 sq km at an altitude of 2,990 meters.",
-      "reference": "Geography of Nepal"
-    },
-    {
-      "id": 5,
-      "question": "Which national park in Nepal is a UNESCO World Heritage Site?",
-      "options": [
-        "Shivapuri Nagarjun",
-        "Chitwan National Park",
-        "Sagarmatha National Park",
-        "Both Chitwan and Sagarmatha"
-      ],
-      "correctIndex": 3,
-      "subject": "GK",
-      "explanation": "Both Chitwan National Park (natural heritage, 1984) and Sagarmatha National Park (natural heritage, 1979) are UNESCO World Heritage Sites.",
-      "reference": "UNESCO World Heritage Sites in Nepal"
-    },
-    {
-      "id": 6,
-      "question": "What is the lowest point in Nepal (in terms of elevation)?",
-      "options": [
-        "Pokhara",
-        "Birgunj",
-        "Kechana Kalan (Jhapa)",
-        "Bhairahawa"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "Kechana Kalan in Jhapa district is the lowest point in Nepal at approximately 59 meters above sea level.",
-      "reference": "Geography of Nepal"
-    },
-    {
-      "id": 7,
-      "question": "How many districts are there in Nepal currently?",
-      "options": [
-        "75",
-        "77",
-        "79",
-        "81"
-      ],
-      "correctIndex": 1,
-      "subject": "GK",
-      "explanation": "Nepal currently has 77 districts, after the addition of Nawalparasi East, Nawalparasi West, Rukum East, and Rukum West during federal restructuring.",
-      "reference": "Administrative divisions of Nepal"
-    },
-    {
-      "id": 8,
-      "question": "Which is the deepest gorge in Nepal?",
-      "options": [
-        "Kali Gandaki Gorge",
-        "Marsyangdi Gorge",
-        "Trishuli Gorge",
-        "Arun Gorge"
-      ],
-      "correctIndex": 0,
-      "subject": "GK",
-      "explanation": "The Kali Gandaki Gorge (Andha Galchi) is considered one of the deepest gorges in the world, between Annapurna and Dhaulagiri massifs.",
-      "reference": "Geography of Nepal"
-    },
-    {
-      "id": 9,
-      "question": "Which region in Nepal receives the highest rainfall?",
-      "options": [
-        "Kathmandu Valley",
-        "Pokhara",
-        "Panchthar",
-        "Biratnagar"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "Panchthar district in Province No. 1 receives the highest rainfall in Nepal, with some areas getting over 5,000 mm annually.",
-      "reference": "Climate of Nepal"
-    },
-    {
-      "id": 10,
-      "question": "What is the largest national park in Nepal by area?",
-      "options": [
-        "Chitwan National Park",
-        "Sagarmatha National Park",
-        "Shey Phoksundo National Park",
-        "Bardia National Park"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "Shey Phoksundo National Park in Dolpa district is the largest national park in Nepal, covering 3,555 sq km.",
-      "reference": "National Parks of Nepal"
-    },
-    {
-      "id": 11,
-      "question": "When was the unification of Nepal completed under Prithvi Narayan Shah?",
-      "options": [
-        "1768",
-        "1769",
-        "1770",
-        "1771"
-      ],
-      "correctIndex": 1,
-      "subject": "GK",
-      "explanation": "Prithvi Narayan Shah completed the unification of Nepal in 1769 (1826 BS) after capturing Kathmandu Valley.",
-      "reference": "History of Nepal"
-    },
-    {
-      "id": 12,
-      "question": "When was the Sugauli Treaty signed between Nepal and British India?",
-      "options": [
-        "1814",
-        "1815",
-        "1816",
-        "1817"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "The Sugauli Treaty was signed on March 4, 1816, after the Anglo-Nepalese War (1814-1816).",
-      "reference": "History of Nepal"
-    },
-    {
-      "id": 13,
-      "question": "When was the People's Movement (Jana Andolan I) that restored multi-party democracy?",
-      "options": [
-        "1989",
-        "1990",
-        "1991",
-        "1992"
-      ],
-      "correctIndex": 1,
-      "subject": "GK",
-      "explanation": "The People's Movement (Jana Andolan I) of 1990 (2046 BS) ended the Panchayat system and restored multi-party democracy.",
-      "reference": "History of Nepal"
-    },
-    {
-      "id": 14,
-      "question": "When was the Comprehensive Peace Agreement (CPA) signed in Nepal?",
-      "options": [
-        "2005",
-        "2006",
-        "2007",
-        "2008"
-      ],
-      "correctIndex": 1,
-      "subject": "GK",
-      "explanation": "The Comprehensive Peace Agreement was signed on November 21, 2006 (Mangsir 5, 2063 BS) between the government and Maoists.",
-      "reference": "History of Nepal"
-    },
-    {
-      "id": 15,
-      "question": "When was the Republic of Nepal declared?",
-      "options": [
-        "May 28, 2008",
-        "April 10, 2008",
-        "January 15, 2007",
-        "December 28, 2007"
-      ],
-      "correctIndex": 0,
-      "subject": "GK",
-      "explanation": "The Federal Democratic Republic of Nepal was declared on May 28, 2008 (Jestha 15, 2065 BS) by the first Constituent Assembly.",
-      "reference": "History of Nepal"
-    },
-    {
-      "id": 16,
-      "question": "Who is known as the 'Father of the Nation' in Nepal?",
-      "options": [
-        "Jung Bahadur Rana",
-        "Prithvi Narayan Shah",
-        "Tribhuvan Bir Bikram Shah",
-        "BP Koirala"
-      ],
-      "correctIndex": 1,
-      "subject": "GK",
-      "explanation": "Prithvi Narayan Shah, who unified Nepal, is regarded as the 'Father of the Nation' (Rashtriya Pita).",
-      "reference": "History of Nepal"
-    },
-    {
-      "id": 17,
-      "question": "When did Nepal become a member of the United Nations?",
-      "options": [
-        "1945",
-        "1950",
-        "1955",
-        "1960"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "Nepal became a member of the United Nations on December 14, 1955.",
-      "reference": "International Relations"
-    },
-    {
-      "id": 18,
-      "question": "Which treaty opened Nepal to foreign trade in 1923?",
-      "options": [
-        "Sugauli Treaty",
-        "Treaty of Peace and Friendship",
-        "Nepal-Britain Treaty of 1923",
-        "Tripartite Agreement"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "The Nepal-Britain Treaty of 1923 recognized Nepal as an independent and sovereign nation and opened trade.",
-      "reference": "History of Nepal"
-    },
-    {
-      "id": 19,
-      "question": "When was the first election held in Nepal?",
-      "options": [
-        "1950",
-        "1958",
-        "1959",
-        "1960"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "The first general election in Nepal was held in 1959 (2015 BS), in which the Nepali Congress won a majority.",
-      "reference": "History of Nepal"
-    },
-    {
-      "id": 20,
-      "question": "When was the Kot Massacre (Kot Parva) that established Rana rule?",
-      "options": [
-        "1844",
-        "1845",
-        "1846",
-        "1847"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "The Kot Massacre occurred on September 14, 1846, after which Jung Bahadur Rana established the Rana oligarchy.",
-      "reference": "History of Nepal"
-    },
-    {
-      "id": 21,
-      "question": "How many provinces were established under the new Constitution of Nepal?",
-      "options": [
-        "Five",
-        "Six",
-        "Seven",
-        "Eight"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "The Constitution of Nepal 2015 established seven provinces for federal governance.",
-      "reference": "Constitution of Nepal"
-    },
-    {
-      "id": 22,
-      "question": "What is the name of Province No. 1 after it was renamed?",
-      "options": [
-        "Bagmati",
-        "Lumbini",
-        "Koshi",
-        "Gandaki"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "Province No. 1 was officially renamed as Koshi Province (Koshi Pradesh) in 2023.",
-      "reference": "Provinces of Nepal"
-    },
-    {
-      "id": 23,
-      "question": "What is the name of Province No. 5 after it was renamed?",
-      "options": [
-        "Madhesh",
-        "Lumbini",
-        "Karnali",
-        "Gandaki"
-      ],
-      "correctIndex": 1,
-      "subject": "GK",
-      "explanation": "Province No. 5 was officially renamed as Lumbini Province (Lumbini Pradesh) in 2020.",
-      "reference": "Provinces of Nepal"
-    },
-    {
-      "id": 24,
-      "question": "Which is the capital city of Gandaki Province?",
-      "options": [
-        "Butwal",
-        "Pokhara",
-        "Damauli",
-        "Baglung"
-      ],
-      "correctIndex": 1,
-      "subject": "GK",
-      "explanation": "Pokhara is the capital city of Gandaki Province, designated in 2020.",
-      "reference": "Provinces of Nepal"
-    },
-    {
-      "id": 25,
-      "question": "Which is the capital city of Sudurpashchim Province?",
-      "options": [
-        "Dipayal",
-        "Mahendranagar",
-        "Godawari",
-        "Dhangadhi"
-      ],
-      "correctIndex": 3,
-      "subject": "GK",
-      "explanation": "Dhangadhi is the capital city of Sudurpashchim Province, designated in 2019.",
-      "reference": "Provinces of Nepal"
-    },
-    {
-      "id": 26,
-      "question": "When was the last census conducted in Nepal?",
-      "options": [
-        "2068 BS (2011)",
-        "2078 BS (2021)",
-        "2081 BS (2024)",
-        "2075 BS (2018)"
-      ],
-      "correctIndex": 1,
-      "subject": "GK",
-      "explanation": "The last National Population and Housing Census was conducted in 2078 BS (2021 AD), recording approximately 29.19 million population.",
-      "reference": "Central Bureau of Statistics, Nepal"
-    },
-    {
-      "id": 27,
-      "question": "What is the population of Nepal according to the 2021 census?",
-      "options": [
-        "26.49 million",
-        "27.49 million",
-        "28.19 million",
-        "29.19 million"
-      ],
-      "correctIndex": 3,
-      "subject": "GK",
-      "explanation": "According to the 2021 census, Nepal's population is approximately 29.19 million.",
-      "reference": "Central Bureau of Statistics, Nepal"
-    },
-    {
-      "id": 28,
-      "question": "Which is the most populous district in Nepal?",
-      "options": [
-        "Kathmandu",
-        "Morang",
-        "Rupandehi",
-        "Jhapa"
-      ],
-      "correctIndex": 0,
-      "subject": "GK",
-      "explanation": "Kathmandu district is the most populous district in Nepal with over 2 million people according to the 2021 census.",
-      "reference": "Central Bureau of Statistics, Nepal"
-    },
-    {
-      "id": 29,
-      "question": "Which is the least populous district in Nepal?",
-      "options": [
-        "Manang",
-        "Dolpa",
-        "Mustang",
-        "Humla"
-      ],
-      "correctIndex": 0,
-      "subject": "GK",
-      "explanation": "Manang district is the least populous district in Nepal with approximately 5,600 people.",
-      "reference": "Central Bureau of Statistics, Nepal"
-    },
-    {
-      "id": 30,
-      "question": "What is the literacy rate of Nepal according to the 2021 census?",
-      "options": [
-        "65.9%",
-        "71.2%",
-        "76.3%",
-        "81.5%"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "The literacy rate of Nepal is approximately 76.3% according to the 2021 census.",
-      "reference": "Central Bureau of Statistics, Nepal"
-    },
-    {
-      "id": 31,
-      "question": "Where is the headquarters of SAARC located?",
-      "options": [
-        "New Delhi",
-        "Dhaka",
-        "Islamabad",
-        "Kathmandu"
-      ],
-      "correctIndex": 3,
-      "subject": "GK",
-      "explanation": "The headquarters of SAARC (South Asian Association for Regional Cooperation) is located in Kathmandu, Nepal.",
-      "reference": "SAARC"
-    },
-    {
-      "id": 32,
-      "question": "How many member states are there in SAARC?",
-      "options": [
-        "Six",
-        "Seven",
-        "Eight",
-        "Nine"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "SAARC has eight member states: Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan, and Sri Lanka.",
-      "reference": "SAARC"
-    },
-    {
-      "id": 33,
-      "question": "Where is the headquarters of the United Nations located?",
-      "options": [
-        "Geneva",
-        "New York",
-        "Vienna",
-        "Paris"
-      ],
-      "correctIndex": 1,
-      "subject": "GK",
-      "explanation": "The headquarters of the United Nations is located in New York City, USA.",
-      "reference": "United Nations"
-    },
-    {
-      "id": 34,
-      "question": "How many permanent members are there in the UN Security Council?",
-      "options": [
-        "Three",
-        "Four",
-        "Five",
-        "Six"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "The UN Security Council has five permanent members: USA, UK, France, Russia, and China.",
-      "reference": "United Nations"
-    },
-    {
-      "id": 35,
-      "question": "Which country is NOT a member of BIMSTEC?",
-      "options": [
-        "Thailand",
-        "Myanmar",
-        "China",
-        "Bhutan"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "BIMSTEC members are Bangladesh, India, Myanmar, Sri Lanka, Thailand, Bhutan, and Nepal. China is not a member.",
-      "reference": "BIMSTEC"
-    },
-    {
-      "id": 36,
-      "question": "When was the United Nations established?",
-      "options": [
-        "1944",
-        "1945",
-        "1946",
-        "1947"
-      ],
-      "correctIndex": 1,
-      "subject": "GK",
-      "explanation": "The United Nations was established on October 24, 1945, after World War II.",
-      "reference": "United Nations"
-    },
-    {
-      "id": 37,
-      "question": "Which is the largest continent in the world by area?",
-      "options": [
-        "Africa",
-        "North America",
-        "Asia",
-        "Europe"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "Asia is the largest continent, covering approximately 44.58 million square kilometers.",
-      "reference": "World Geography"
-    },
-    {
-      "id": 38,
-      "question": "Which is the smallest country in the world by area?",
-      "options": [
-        "Monaco",
-        "Nauru",
-        "Vatican City",
-        "San Marino"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "Vatican City (Holy See) is the smallest country in the world, covering only 0.44 sq km.",
-      "reference": "World Geography"
-    },
-    {
-      "id": 39,
-      "question": "Which river is the longest in the world?",
-      "options": [
-        "Amazon",
-        "Nile",
-        "Yangtze",
-        "Mississippi"
-      ],
-      "correctIndex": 1,
-      "subject": "GK",
-      "explanation": "The Nile River is traditionally considered the longest river at approximately 6,650 km, though the Amazon is close.",
-      "reference": "World Geography"
-    },
-    {
-      "id": 40,
-      "question": "Which ocean is the largest by area?",
-      "options": [
-        "Atlantic Ocean",
-        "Indian Ocean",
-        "Pacific Ocean",
-        "Arctic Ocean"
-      ],
-      "correctIndex": 2,
-      "subject": "GK",
-      "explanation": "The Pacific Ocean is the largest ocean, covering about 165.25 million square kilometers.",
-      "reference": "World Geography"
-    },
-    {
-      "id": 41,
-      "question": "What is the chemical formula of water?",
-      "options": [
-        "CO2",
-        "H2O",
-        "O2",
-        "NaCl"
-      ],
-      "correctIndex": 1,
-      "subject": "SCIENCE",
-      "explanation": "Water is composed of two hydrogen atoms and one oxygen atom, with the chemical formula H2O.",
-      "reference": "Chemistry"
-    },
-    {
-      "id": 42,
-      "question": "Which planet is known as the Red Planet?",
-      "options": [
-        "Venus",
-        "Jupiter",
-        "Mars",
-        "Saturn"
-      ],
-      "correctIndex": 2,
-      "subject": "SCIENCE",
-      "explanation": "Mars is called the Red Planet due to iron oxide (rust) on its surface, which gives it a reddish appearance.",
-      "reference": "Astronomy"
-    },
-    {
-      "id": 43,
-      "question": "What is the speed of light in vacuum?",
-      "options": [
-        "3,00,000 km/s",
-        "3,00,000 m/s",
-        "1,50,000 km/s",
-        "3,00,00,000 km/s"
-      ],
-      "correctIndex": 0,
-      "subject": "SCIENCE",
-      "explanation": "The speed of light in vacuum is approximately 299,792 km/s, commonly rounded to 3,00,000 km/s.",
-      "reference": "Physics"
-    },
-    {
-      "id": 44,
-      "question": "Which gas is most abundant in Earth's atmosphere?",
-      "options": [
-        "Oxygen",
-        "Carbon Dioxide",
-        "Nitrogen",
-        "Hydrogen"
-      ],
-      "correctIndex": 2,
-      "subject": "SCIENCE",
-      "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, followed by oxygen at about 21%.",
-      "reference": "Earth Science"
-    },
-    {
-      "id": 45,
-      "question": "What is the SI unit of electric current?",
-      "options": [
-        "Volt",
-        "Watt",
-        "Ampere",
-        "Ohm"
-      ],
-      "correctIndex": 2,
-      "subject": "SCIENCE",
-      "explanation": "The SI unit of electric current is the Ampere (A), named after André-Marie Ampère.",
-      "reference": "Physics"
-    },
-    {
-      "id": 46,
-      "question": "Who invented the telephone?",
-      "options": [
-        "Thomas Edison",
-        "Alexander Graham Bell",
-        "Nikola Tesla",
-        "Guglielmo Marconi"
-      ],
-      "correctIndex": 1,
-      "subject": "SCIENCE",
-      "explanation": "Alexander Graham Bell is credited with inventing the telephone in 1876.",
-      "reference": "History of Science"
-    },
-    {
-      "id": 47,
-      "question": "What is the hardest natural substance on Earth?",
-      "options": [
-        "Iron",
-        "Gold",
-        "Diamond",
-        "Platinum"
-      ],
-      "correctIndex": 2,
-      "subject": "SCIENCE",
-      "explanation": "Diamond is the hardest known natural material, rated 10 on the Mohs scale of mineral hardness.",
-      "reference": "Geology"
-    },
-    {
-      "id": 48,
-      "question": "Which vitamin is produced when the skin is exposed to sunlight?",
-      "options": [
-        "Vitamin A",
-        "Vitamin C",
-        "Vitamin D",
-        "Vitamin E"
-      ],
-      "correctIndex": 2,
-      "subject": "SCIENCE",
-      "explanation": "Vitamin D is synthesized in the skin when exposed to ultraviolet B (UVB) radiation from sunlight.",
-      "reference": "Biology"
-    },
-    {
-      "id": 49,
-      "question": "What is the largest organ in the human body?",
-      "options": [
-        "Liver",
-        "Brain",
-        "Skin",
-        "Heart"
-      ],
-      "correctIndex": 2,
-      "subject": "SCIENCE",
-      "explanation": "The skin is the largest organ of the human body, with a total area of about 20 square feet in adults.",
-      "reference": "Human Anatomy"
-    },
-    {
-      "id": 50,
-      "question": "Which blood group is known as the universal donor?",
-      "options": [
-        "A+",
-        "B+",
-        "AB+",
-        "O-"
-      ],
-      "correctIndex": 3,
-      "subject": "SCIENCE",
-      "explanation": "O negative (O-) is the universal donor because it lacks A, B, and Rh(D) antigens, making it compatible with all blood types.",
-      "reference": "Biology"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "question": "What is the total area of Nepal?",
+    "options": [
+      "1,47,181 sq km",
+      "1,48,181 sq km",
+      "1,46,181 sq km",
+      "1,45,181 sq km"
+    ],
+    "correctIndex": 0,
+    "subject": "GK",
+    "explanation": "Nepal covers an area of 1,47,181 square kilometers (56,827 sq mi), stretching approximately 885 km east-west and 145-241 km north-south.",
+    "reference": "Geography of Nepal"
+  },
+  {
+    "id": 2,
+    "question": "Which is the longest river in Nepal?",
+    "options": [
+      "Karnali",
+      "Koshi",
+      "Gandaki",
+      "Narayani"
+    ],
+    "correctIndex": 0,
+    "subject": "GK",
+    "explanation": "The Karnali River is the longest river in Nepal, stretching approximately 1,080 km in total length.",
+    "reference": "Geography of Nepal"
+  },
+  {
+    "id": 3,
+    "question": "What is the highest peak in Nepal?",
+    "options": [
+      "Kanchenjunga",
+      "Lhotse",
+      "Makalu",
+      "Mount Everest (Sagarmatha)"
+    ],
+    "correctIndex": 3,
+    "subject": "GK",
+    "explanation": "Mount Everest (Sagarmatha) at 8,848.86 meters is the highest peak in Nepal and the world.",
+    "reference": "Geography of Nepal"
+  },
+  {
+    "id": 4,
+    "question": "Which is the largest lake in Nepal?",
+    "options": [
+      "Phewa Lake",
+      "Rara Lake",
+      "Tilicho Lake",
+      "Begnas Lake"
+    ],
+    "correctIndex": 1,
+    "subject": "GK",
+    "explanation": "Rara Lake in Mugu district is the largest lake in Nepal, covering about 10.8 sq km at an altitude of 2,990 meters.",
+    "reference": "Geography of Nepal"
+  },
+  {
+    "id": 5,
+    "question": "Which national park in Nepal is a UNESCO World Heritage Site?",
+    "options": [
+      "Shivapuri Nagarjun",
+      "Chitwan National Park",
+      "Sagarmatha National Park",
+      "Both Chitwan and Sagarmatha"
+    ],
+    "correctIndex": 3,
+    "subject": "GK",
+    "explanation": "Both Chitwan National Park (natural heritage, 1984) and Sagarmatha National Park (natural heritage, 1979) are UNESCO World Heritage Sites.",
+    "reference": "UNESCO World Heritage Sites in Nepal"
+  },
+  {
+    "id": 6,
+    "question": "What is the lowest point in Nepal (in terms of elevation)?",
+    "options": [
+      "Pokhara",
+      "Birgunj",
+      "Kechana Kalan (Jhapa)",
+      "Bhairahawa"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "Kechana Kalan in Jhapa district is the lowest point in Nepal at approximately 59 meters above sea level.",
+    "reference": "Geography of Nepal"
+  },
+  {
+    "id": 7,
+    "question": "How many districts are there in Nepal currently?",
+    "options": [
+      "75",
+      "77",
+      "79",
+      "81"
+    ],
+    "correctIndex": 1,
+    "subject": "GK",
+    "explanation": "Nepal currently has 77 districts, after the addition of Nawalparasi East, Nawalparasi West, Rukum East, and Rukum West during federal restructuring.",
+    "reference": "Administrative divisions of Nepal"
+  },
+  {
+    "id": 8,
+    "question": "Which is the deepest gorge in Nepal?",
+    "options": [
+      "Kali Gandaki Gorge",
+      "Marsyangdi Gorge",
+      "Trishuli Gorge",
+      "Arun Gorge"
+    ],
+    "correctIndex": 0,
+    "subject": "GK",
+    "explanation": "The Kali Gandaki Gorge (Andha Galchi) is considered one of the deepest gorges in the world, between Annapurna and Dhaulagiri massifs.",
+    "reference": "Geography of Nepal"
+  },
+  {
+    "id": 9,
+    "question": "Which region in Nepal receives the highest rainfall?",
+    "options": [
+      "Kathmandu Valley",
+      "Pokhara",
+      "Panchthar",
+      "Biratnagar"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "Panchthar district in Province No. 1 receives the highest rainfall in Nepal, with some areas getting over 5,000 mm annually.",
+    "reference": "Climate of Nepal"
+  },
+  {
+    "id": 10,
+    "question": "What is the largest national park in Nepal by area?",
+    "options": [
+      "Chitwan National Park",
+      "Sagarmatha National Park",
+      "Shey Phoksundo National Park",
+      "Bardia National Park"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "Shey Phoksundo National Park in Dolpa district is the largest national park in Nepal, covering 3,555 sq km.",
+    "reference": "National Parks of Nepal"
+  },
+  {
+    "id": 11,
+    "question": "When was the unification of Nepal completed under Prithvi Narayan Shah?",
+    "options": [
+      "1768",
+      "1769",
+      "1770",
+      "1771"
+    ],
+    "correctIndex": 1,
+    "subject": "GK",
+    "explanation": "Prithvi Narayan Shah completed the unification of Nepal in 1769 (1826 BS) after capturing Kathmandu Valley.",
+    "reference": "History of Nepal"
+  },
+  {
+    "id": 12,
+    "question": "When was the Sugauli Treaty signed between Nepal and British India?",
+    "options": [
+      "1814",
+      "1815",
+      "1816",
+      "1817"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "The Sugauli Treaty was signed on March 4, 1816, after the Anglo-Nepalese War (1814-1816).",
+    "reference": "History of Nepal"
+  },
+  {
+    "id": 13,
+    "question": "When was the People's Movement (Jana Andolan I) that restored multi-party democracy?",
+    "options": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correctIndex": 1,
+    "subject": "GK",
+    "explanation": "The People's Movement (Jana Andolan I) of 1990 (2046 BS) ended the Panchayat system and restored multi-party democracy.",
+    "reference": "History of Nepal"
+  },
+  {
+    "id": 14,
+    "question": "When was the Comprehensive Peace Agreement (CPA) signed in Nepal?",
+    "options": [
+      "2005",
+      "2006",
+      "2007",
+      "2008"
+    ],
+    "correctIndex": 1,
+    "subject": "GK",
+    "explanation": "The Comprehensive Peace Agreement was signed on November 21, 2006 (Mangsir 5, 2063 BS) between the government and Maoists.",
+    "reference": "History of Nepal"
+  },
+  {
+    "id": 15,
+    "question": "When was the Republic of Nepal declared?",
+    "options": [
+      "May 28, 2008",
+      "April 10, 2008",
+      "January 15, 2007",
+      "December 28, 2007"
+    ],
+    "correctIndex": 0,
+    "subject": "GK",
+    "explanation": "The Federal Democratic Republic of Nepal was declared on May 28, 2008 (Jestha 15, 2065 BS) by the first Constituent Assembly.",
+    "reference": "History of Nepal"
+  },
+  {
+    "id": 16,
+    "question": "Who is known as the 'Father of the Nation' in Nepal?",
+    "options": [
+      "Jung Bahadur Rana",
+      "Prithvi Narayan Shah",
+      "Tribhuvan Bir Bikram Shah",
+      "BP Koirala"
+    ],
+    "correctIndex": 1,
+    "subject": "GK",
+    "explanation": "Prithvi Narayan Shah, who unified Nepal, is regarded as the 'Father of the Nation' (Rashtriya Pita).",
+    "reference": "History of Nepal"
+  },
+  {
+    "id": 17,
+    "question": "When did Nepal become a member of the United Nations?",
+    "options": [
+      "1945",
+      "1950",
+      "1955",
+      "1960"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "Nepal became a member of the United Nations on December 14, 1955.",
+    "reference": "International Relations"
+  },
+  {
+    "id": 18,
+    "question": "Which treaty opened Nepal to foreign trade in 1923?",
+    "options": [
+      "Sugauli Treaty",
+      "Treaty of Peace and Friendship",
+      "Nepal-Britain Treaty of 1923",
+      "Tripartite Agreement"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "The Nepal-Britain Treaty of 1923 recognized Nepal as an independent and sovereign nation and opened trade.",
+    "reference": "History of Nepal"
+  },
+  {
+    "id": 19,
+    "question": "When was the first election held in Nepal?",
+    "options": [
+      "1950",
+      "1958",
+      "1959",
+      "1960"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "The first general election in Nepal was held in 1959 (2015 BS), in which the Nepali Congress won a majority.",
+    "reference": "History of Nepal"
+  },
+  {
+    "id": 20,
+    "question": "When was the Kot Massacre (Kot Parva) that established Rana rule?",
+    "options": [
+      "1844",
+      "1845",
+      "1846",
+      "1847"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "The Kot Massacre occurred on September 14, 1846, after which Jung Bahadur Rana established the Rana oligarchy.",
+    "reference": "History of Nepal"
+  },
+  {
+    "id": 21,
+    "question": "How many provinces were established under the new Constitution of Nepal?",
+    "options": [
+      "Five",
+      "Six",
+      "Seven",
+      "Eight"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "The Constitution of Nepal 2015 established seven provinces for federal governance.",
+    "reference": "Constitution of Nepal"
+  },
+  {
+    "id": 22,
+    "question": "What is the name of Province No. 1 after it was renamed?",
+    "options": [
+      "Bagmati",
+      "Lumbini",
+      "Koshi",
+      "Gandaki"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "Province No. 1 was officially renamed as Koshi Province (Koshi Pradesh) in 2023.",
+    "reference": "Provinces of Nepal"
+  },
+  {
+    "id": 23,
+    "question": "What is the name of Province No. 5 after it was renamed?",
+    "options": [
+      "Madhesh",
+      "Lumbini",
+      "Karnali",
+      "Gandaki"
+    ],
+    "correctIndex": 1,
+    "subject": "GK",
+    "explanation": "Province No. 5 was officially renamed as Lumbini Province (Lumbini Pradesh) in 2020.",
+    "reference": "Provinces of Nepal"
+  },
+  {
+    "id": 24,
+    "question": "Which is the capital city of Gandaki Province?",
+    "options": [
+      "Butwal",
+      "Pokhara",
+      "Damauli",
+      "Baglung"
+    ],
+    "correctIndex": 1,
+    "subject": "GK",
+    "explanation": "Pokhara is the capital city of Gandaki Province, designated in 2020.",
+    "reference": "Provinces of Nepal"
+  },
+  {
+    "id": 25,
+    "question": "Which is the capital city of Sudurpashchim Province?",
+    "options": [
+      "Dipayal",
+      "Mahendranagar",
+      "Godawari",
+      "Dhangadhi"
+    ],
+    "correctIndex": 3,
+    "subject": "GK",
+    "explanation": "Dhangadhi is the capital city of Sudurpashchim Province, designated in 2019.",
+    "reference": "Provinces of Nepal"
+  },
+  {
+    "id": 26,
+    "question": "When was the last census conducted in Nepal?",
+    "options": [
+      "2068 BS (2011)",
+      "2078 BS (2021)",
+      "2081 BS (2024)",
+      "2075 BS (2018)"
+    ],
+    "correctIndex": 1,
+    "subject": "GK",
+    "explanation": "The last National Population and Housing Census was conducted in 2078 BS (2021 AD), recording approximately 29.19 million population.",
+    "reference": "Central Bureau of Statistics, Nepal"
+  },
+  {
+    "id": 27,
+    "question": "What is the population of Nepal according to the 2021 census?",
+    "options": [
+      "26.49 million",
+      "27.49 million",
+      "28.19 million",
+      "29.19 million"
+    ],
+    "correctIndex": 3,
+    "subject": "GK",
+    "explanation": "According to the 2021 census, Nepal's population is approximately 29.19 million.",
+    "reference": "Central Bureau of Statistics, Nepal"
+  },
+  {
+    "id": 28,
+    "question": "Which is the most populous district in Nepal?",
+    "options": [
+      "Kathmandu",
+      "Morang",
+      "Rupandehi",
+      "Jhapa"
+    ],
+    "correctIndex": 0,
+    "subject": "GK",
+    "explanation": "Kathmandu district is the most populous district in Nepal with over 2 million people according to the 2021 census.",
+    "reference": "Central Bureau of Statistics, Nepal"
+  },
+  {
+    "id": 29,
+    "question": "Which is the least populous district in Nepal?",
+    "options": [
+      "Manang",
+      "Dolpa",
+      "Mustang",
+      "Humla"
+    ],
+    "correctIndex": 0,
+    "subject": "GK",
+    "explanation": "Manang district is the least populous district in Nepal with approximately 5,600 people.",
+    "reference": "Central Bureau of Statistics, Nepal"
+  },
+  {
+    "id": 30,
+    "question": "What is the literacy rate of Nepal according to the 2021 census?",
+    "options": [
+      "65.9%",
+      "71.2%",
+      "76.3%",
+      "81.5%"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "The literacy rate of Nepal is approximately 76.3% according to the 2021 census.",
+    "reference": "Central Bureau of Statistics, Nepal"
+  },
+  {
+    "id": 31,
+    "question": "Where is the headquarters of SAARC located?",
+    "options": [
+      "New Delhi",
+      "Dhaka",
+      "Islamabad",
+      "Kathmandu"
+    ],
+    "correctIndex": 3,
+    "subject": "GK",
+    "explanation": "The headquarters of SAARC (South Asian Association for Regional Cooperation) is located in Kathmandu, Nepal.",
+    "reference": "SAARC"
+  },
+  {
+    "id": 32,
+    "question": "How many member states are there in SAARC?",
+    "options": [
+      "Six",
+      "Seven",
+      "Eight",
+      "Nine"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "SAARC has eight member states: Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan, and Sri Lanka.",
+    "reference": "SAARC"
+  },
+  {
+    "id": 33,
+    "question": "Where is the headquarters of the United Nations located?",
+    "options": [
+      "Geneva",
+      "New York",
+      "Vienna",
+      "Paris"
+    ],
+    "correctIndex": 1,
+    "subject": "GK",
+    "explanation": "The headquarters of the United Nations is located in New York City, USA.",
+    "reference": "United Nations"
+  },
+  {
+    "id": 34,
+    "question": "How many permanent members are there in the UN Security Council?",
+    "options": [
+      "Three",
+      "Four",
+      "Five",
+      "Six"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "The UN Security Council has five permanent members: USA, UK, France, Russia, and China.",
+    "reference": "United Nations"
+  },
+  {
+    "id": 35,
+    "question": "Which country is NOT a member of BIMSTEC?",
+    "options": [
+      "Thailand",
+      "Myanmar",
+      "China",
+      "Bhutan"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "BIMSTEC members are Bangladesh, India, Myanmar, Sri Lanka, Thailand, Bhutan, and Nepal. China is not a member.",
+    "reference": "BIMSTEC"
+  },
+  {
+    "id": 36,
+    "question": "When was the United Nations established?",
+    "options": [
+      "1944",
+      "1945",
+      "1946",
+      "1947"
+    ],
+    "correctIndex": 1,
+    "subject": "GK",
+    "explanation": "The United Nations was established on October 24, 1945, after World War II.",
+    "reference": "United Nations"
+  },
+  {
+    "id": 37,
+    "question": "Which is the largest continent in the world by area?",
+    "options": [
+      "Africa",
+      "North America",
+      "Asia",
+      "Europe"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "Asia is the largest continent, covering approximately 44.58 million square kilometers.",
+    "reference": "World Geography"
+  },
+  {
+    "id": 38,
+    "question": "Which is the smallest country in the world by area?",
+    "options": [
+      "Monaco",
+      "Nauru",
+      "Vatican City",
+      "San Marino"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "Vatican City (Holy See) is the smallest country in the world, covering only 0.44 sq km.",
+    "reference": "World Geography"
+  },
+  {
+    "id": 39,
+    "question": "Which river is the longest in the world?",
+    "options": [
+      "Amazon",
+      "Nile",
+      "Yangtze",
+      "Mississippi"
+    ],
+    "correctIndex": 1,
+    "subject": "GK",
+    "explanation": "The Nile River is traditionally considered the longest river at approximately 6,650 km, though the Amazon is close.",
+    "reference": "World Geography"
+  },
+  {
+    "id": 40,
+    "question": "Which ocean is the largest by area?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Arctic Ocean"
+    ],
+    "correctIndex": 2,
+    "subject": "GK",
+    "explanation": "The Pacific Ocean is the largest ocean, covering about 165.25 million square kilometers.",
+    "reference": "World Geography"
+  },
+  {
+    "id": 41,
+    "question": "What is the chemical formula of water?",
+    "options": [
+      "CO2",
+      "H2O",
+      "O2",
+      "NaCl"
+    ],
+    "correctIndex": 1,
+    "subject": "SCIENCE",
+    "explanation": "Water is composed of two hydrogen atoms and one oxygen atom, with the chemical formula H2O.",
+    "reference": "Chemistry"
+  },
+  {
+    "id": 42,
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Venus",
+      "Jupiter",
+      "Mars",
+      "Saturn"
+    ],
+    "correctIndex": 2,
+    "subject": "SCIENCE",
+    "explanation": "Mars is called the Red Planet due to iron oxide (rust) on its surface, which gives it a reddish appearance.",
+    "reference": "Astronomy"
+  },
+  {
+    "id": 43,
+    "question": "What is the speed of light in vacuum?",
+    "options": [
+      "3,00,000 km/s",
+      "3,00,000 m/s",
+      "1,50,000 km/s",
+      "3,00,00,000 km/s"
+    ],
+    "correctIndex": 0,
+    "subject": "SCIENCE",
+    "explanation": "The speed of light in vacuum is approximately 299,792 km/s, commonly rounded to 3,00,000 km/s.",
+    "reference": "Physics"
+  },
+  {
+    "id": 44,
+    "question": "Which gas is most abundant in Earth's atmosphere?",
+    "options": [
+      "Oxygen",
+      "Carbon Dioxide",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "correctIndex": 2,
+    "subject": "SCIENCE",
+    "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, followed by oxygen at about 21%.",
+    "reference": "Earth Science"
+  },
+  {
+    "id": 45,
+    "question": "What is the SI unit of electric current?",
+    "options": [
+      "Volt",
+      "Watt",
+      "Ampere",
+      "Ohm"
+    ],
+    "correctIndex": 2,
+    "subject": "SCIENCE",
+    "explanation": "The SI unit of electric current is the Ampere (A), named after André-Marie Ampère.",
+    "reference": "Physics"
+  },
+  {
+    "id": 46,
+    "question": "Who invented the telephone?",
+    "options": [
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Nikola Tesla",
+      "Guglielmo Marconi"
+    ],
+    "correctIndex": 1,
+    "subject": "SCIENCE",
+    "explanation": "Alexander Graham Bell is credited with inventing the telephone in 1876.",
+    "reference": "History of Science"
+  },
+  {
+    "id": 47,
+    "question": "What is the hardest natural substance on Earth?",
+    "options": [
+      "Iron",
+      "Gold",
+      "Diamond",
+      "Platinum"
+    ],
+    "correctIndex": 2,
+    "subject": "SCIENCE",
+    "explanation": "Diamond is the hardest known natural material, rated 10 on the Mohs scale of mineral hardness.",
+    "reference": "Geology"
+  },
+  {
+    "id": 48,
+    "question": "Which vitamin is produced when the skin is exposed to sunlight?",
+    "options": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin E"
+    ],
+    "correctIndex": 2,
+    "subject": "SCIENCE",
+    "explanation": "Vitamin D is synthesized in the skin when exposed to ultraviolet B (UVB) radiation from sunlight.",
+    "reference": "Biology"
+  },
+  {
+    "id": 49,
+    "question": "What is the largest organ in the human body?",
+    "options": [
+      "Liver",
+      "Brain",
+      "Skin",
+      "Heart"
+    ],
+    "correctIndex": 2,
+    "subject": "SCIENCE",
+    "explanation": "The skin is the largest organ of the human body, with a total area of about 20 square feet in adults.",
+    "reference": "Human Anatomy"
+  },
+  {
+    "id": 50,
+    "question": "Which blood group is known as the universal donor?",
+    "options": [
+      "A+",
+      "B+",
+      "AB+",
+      "O-"
+    ],
+    "correctIndex": 3,
+    "subject": "SCIENCE",
+    "explanation": "O negative (O-) is the universal donor because it lacks A, B, and Rh(D) antigens, making it compatible with all blood types.",
+    "reference": "Biology"
+  }
+]

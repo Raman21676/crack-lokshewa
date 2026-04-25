@@ -1,50 +1,26 @@
-{
-  "category": "constitution",
-  "sets": [
-    {
-      "setId": "constitution-set1",
-      "setNumber": 1,
-      "title": {
-        "en": "Set 1: Constitution of Nepal",
-        "ne": "सेट १: नेपालको संविधान"
-      },
-      "description": {
-        "en": "50 questions on Constitution of Nepal 2072.",
-        "ne": "नेपालको संविधान २०७२ सम्बन्धी ५० प्रश्नहरू।"
-      },
-      "locked": false,
-      "passingScore": 60,
-      "timeLimit": 1800
-    },
-    {
-      "setId": "constitution-set2",
-      "setNumber": 2,
-      "title": {
-        "en": "Set 2: Constitution of Nepal",
-        "ne": "सेट २: नेपालको संविधान"
-      },
-      "description": {
-        "en": "Coming soon.",
-        "ne": "चाँडै आउँदैछ।"
-      },
-      "locked": true,
-      "passingScore": 60,
-      "timeLimit": 1800
-    },
-    {
-      "setId": "constitution-set3",
-      "setNumber": 3,
-      "title": {
-        "en": "Set 3: Constitution of Nepal",
-        "ne": "सेट ३: नेपालको संविधान"
-      },
-      "description": {
-        "en": "Coming soon.",
-        "ne": "चाँडै आउँदैछ।"
-      },
-      "locked": true,
-      "passingScore": 60,
-      "timeLimit": 1800
-    }
-  ]
-}
+[
+  {
+    "id": "set1",
+    "title": "Set 1: Constitution of Nepal",
+    "questionCount": 50,
+    "timeLimit": 1800,
+    "difficulty": "Easy",
+    "locked": false
+  },
+  {
+    "id": "set2",
+    "title": "Set 2: Constitution of Nepal",
+    "questionCount": 50,
+    "timeLimit": 1800,
+    "difficulty": "Easy",
+    "locked": true
+  },
+  {
+    "id": "set3",
+    "title": "Set 3: Constitution of Nepal",
+    "questionCount": 50,
+    "timeLimit": 1800,
+    "difficulty": "Easy",
+    "locked": true
+  }
+]

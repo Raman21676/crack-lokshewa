@@ -1,50 +1,26 @@
-{
-  "category": "gk",
-  "sets": [
-    {
-      "setId": "gk-set1",
-      "setNumber": 1,
-      "title": {
-        "en": "Set 1: General Knowledge",
-        "ne": "सेट १: सामान्य ज्ञान"
-      },
-      "description": {
-        "en": "50 questions on GK.",
-        "ne": "सामान्य ज्ञान सम्बन्धी ५० प्रश्नहरू।"
-      },
-      "locked": false,
-      "passingScore": 60,
-      "timeLimit": 1800
-    },
-    {
-      "setId": "gk-set2",
-      "setNumber": 2,
-      "title": {
-        "en": "Set 2: General Knowledge",
-        "ne": "सेट २: सामान्य ज्ञान"
-      },
-      "description": {
-        "en": "Coming soon.",
-        "ne": "चाँडै आउँदैछ।"
-      },
-      "locked": true,
-      "passingScore": 60,
-      "timeLimit": 1800
-    },
-    {
-      "setId": "gk-set3",
-      "setNumber": 3,
-      "title": {
-        "en": "Set 3: General Knowledge",
-        "ne": "सेट ३: सामान्य ज्ञान"
-      },
-      "description": {
-        "en": "Coming soon.",
-        "ne": "चाँडै आउँदैछ।"
-      },
-      "locked": true,
-      "passingScore": 60,
-      "timeLimit": 1800
-    }
-  ]
-}
+[
+  {
+    "id": "set1",
+    "title": "सेट १: सामान्य ज्ञान",
+    "questionCount": 50,
+    "timeLimit": 1800,
+    "difficulty": "Easy",
+    "locked": false
+  },
+  {
+    "id": "set2",
+    "title": "सेट २: सामान्य ज्ञान",
+    "questionCount": 50,
+    "timeLimit": 1800,
+    "difficulty": "Easy",
+    "locked": true
+  },
+  {
+    "id": "set3",
+    "title": "सेट ३: सामान्य ज्ञान",
+    "questionCount": 50,
+    "timeLimit": 1800,
+    "difficulty": "Easy",
+    "locked": true
+  }
+]

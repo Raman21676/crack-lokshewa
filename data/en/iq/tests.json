@@ -1,50 +1,26 @@
-{
-  "category": "iq",
-  "sets": [
-    {
-      "setId": "iq-set1",
-      "setNumber": 1,
-      "title": {
-        "en": "Set 1: IQ & Reasoning",
-        "ne": "सेट १: आईक्यू र तर्क"
-      },
-      "description": {
-        "en": "30 questions on IQ.",
-        "ne": "आईक्यू सम्बन्धी ३० प्रश्नहरू।"
-      },
-      "locked": false,
-      "passingScore": 60,
-      "timeLimit": 1200
-    },
-    {
-      "setId": "iq-set2",
-      "setNumber": 2,
-      "title": {
-        "en": "Set 2: IQ & Reasoning",
-        "ne": "सेट २: आईक्यू र तर्क"
-      },
-      "description": {
-        "en": "Coming soon.",
-        "ne": "चाँडै आउँदैछ।"
-      },
-      "locked": true,
-      "passingScore": 60,
-      "timeLimit": 1200
-    },
-    {
-      "setId": "iq-set3",
-      "setNumber": 3,
-      "title": {
-        "en": "Set 3: IQ & Reasoning",
-        "ne": "सेट ३: आईक्यू र तर्क"
-      },
-      "description": {
-        "en": "Coming soon.",
-        "ne": "चाँडै आउँदैछ।"
-      },
-      "locked": true,
-      "passingScore": 60,
-      "timeLimit": 1200
-    }
-  ]
-}
+[
+  {
+    "id": "set1",
+    "title": "Set 1: IQ & Reasoning",
+    "questionCount": 30,
+    "timeLimit": 1200,
+    "difficulty": "Easy",
+    "locked": false
+  },
+  {
+    "id": "set2",
+    "title": "Set 2: IQ & Reasoning",
+    "questionCount": 30,
+    "timeLimit": 1200,
+    "difficulty": "Easy",
+    "locked": true
+  },
+  {
+    "id": "set3",
+    "title": "Set 3: IQ & Reasoning",
+    "questionCount": 30,
+    "timeLimit": 1200,
+    "difficulty": "Easy",
+    "locked": true
+  }
+]
