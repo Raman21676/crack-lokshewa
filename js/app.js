@@ -102,7 +102,7 @@ function t(key, replacements) {
 }
 
 // Cache-busting version — increment this after every data/content update
-var DATA_VERSION = 'v15';
+var DATA_VERSION = 'v16';
 
 function fetchJSON(url, callback) {
     var sep = url.indexOf('?') === -1 ? '?' : '&';
@@ -186,18 +186,25 @@ function initRouter() {
 }
 
 // ── SEO Helpers ───────────────────────────────────────────────────────
-function updateSEO(title, description) {
+function updateSEO(title, description, url) {
     document.title = title;
+    var fullUrl = url || 'https://lokshewa.online/';
     var metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', description);
     var ogTitle = document.querySelector('meta[property="og:title"]');
     if (ogTitle) ogTitle.setAttribute('content', title);
     var ogDesc = document.querySelector('meta[property="og:description"]');
     if (ogDesc) ogDesc.setAttribute('content', description);
+    var ogUrl = document.querySelector('meta[property="og:url"]');
+    if (ogUrl) ogUrl.setAttribute('content', fullUrl);
     var twTitle = document.querySelector('meta[name="twitter:title"]');
     if (twTitle) twTitle.setAttribute('content', title);
     var twDesc = document.querySelector('meta[name="twitter:description"]');
     if (twDesc) twDesc.setAttribute('content', description);
+    var twUrl = document.querySelector('meta[name="twitter:url"]');
+    if (twUrl) twUrl.setAttribute('content', fullUrl);
+    var canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) canonical.setAttribute('href', fullUrl);
 }
 
 function injectBreadcrumbJSONLD(items) {
@@ -214,6 +221,67 @@ function injectBreadcrumbJSONLD(items) {
         })
     });
     document.head.appendChild(script);
+}
+
+function injectQuizJSONLD(testName, categoryName, questionCount) {
+    var existing = document.getElementById('quiz-ld');
+    if (existing) existing.remove();
+    var script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.id = 'quiz-ld';
+    script.textContent = JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Quiz',
+        name: testName,
+        about: { '@type': 'Thing', name: categoryName },
+        educationalLevel: 'Undergraduate',
+        assesses: categoryName,
+        learningResourceType: 'Quiz',
+        numberOfQuestions: questionCount || 50,
+        timeRequired: 'PT45M',
+        inLanguage: state.lang === 'ne' ? 'ne' : 'en',
+        isAccessibleForFree: true,
+        provider: {
+            '@type': 'Organization',
+            name: 'Crack Lokshewa',
+            url: 'https://lokshewa.online'
+        }
+    });
+    document.head.appendChild(script);
+}
+
+function removeQuizJSONLD() {
+    var existing = document.getElementById('quiz-ld');
+    if (existing) existing.remove();
+}
+
+function shareResults(score, total, pct, grade) {
+    var text = 'I scored ' + score + '/' + total + ' (' + pct + '%) on a Lok Sewa Aayog mock test! ' + grade + ' Try free mock tests at';
+    var url = 'https://lokshewa.online';
+    return {
+        facebook: 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url) + '&quote=' + encodeURIComponent(text),
+        twitter: 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text + ' ' + url),
+        whatsapp: 'https://wa.me/?text=' + encodeURIComponent(text + ' ' + url),
+        copy: url
+    };
+}
+
+function copyToClipboard(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function() {
+            alert(t('copied'));
+        });
+    } else {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        alert(t('copied'));
+    }
 }
 
 function handleRoute() {
@@ -246,7 +314,8 @@ function renderHome() {
     showHeaderFooter(true);
     updateSEO(
         'Crack Lokshewa — Free Lok Sewa Aayog Mock Tests | PSC Nepal Online Practice | Kharidar Nayab Subba Adhikrit',
-        'Crack Lokshewa is Nepal\'s #1 free bilingual Lok Sewa Aayog mock test platform. Practice Kharidar, Nayab Subba, Sakha Adhikrit, Nepal Police, Driving License, Staff Nurse, Computer Operator, IT Officer, GK, Constitution & IQ model sets. 50 MCQs per set, 45 min timer, negative marking. Best online PSC exam preparation & tayari samagri.'
+        'Crack Lokshewa is Nepal\'s #1 free bilingual Lok Sewa Aayog mock test platform. Practice Kharidar, Nayab Subba, Sakha Adhikrit, Nepal Police, Driving License, Staff Nurse, Computer Operator, IT Officer, GK, Constitution & IQ model sets. 50 MCQs per set, 45 min timer, negative marking. Best online PSC exam preparation & tayari samagri.',
+        'https://lokshewa.online/#home'
     );
     injectBreadcrumbJSONLD([{ name: 'Home', url: 'https://lokshewa.online/#home' }]);
     setHTML('<div class="loading-spinner"><div class="spinner"></div><p>Loading...</p></div>');
@@ -265,6 +334,23 @@ function renderHome() {
                    '</div>';
         }).join('');
 
+        var blogCards = [
+            { icon: '📝', title: 'Kharidar Exam Guide', desc: 'Complete preparation guide, syllabus & study plan.', url: '/blog/kharidar-exam-preparation-guide.html', color: '#3b82f6' },
+            { icon: '📋', title: 'Nayab Subba Guide', desc: '6th level exam: stages, syllabus & strategy.', url: '/blog/nayab-subba-exam-preparation.html', color: '#10b981' },
+            { icon: '🏛️', title: 'Adhikrit (SO) Guide', desc: '7th/8th level: preliminary, main & interview tips.', url: '/blog/section-officer-adhikrit-preparation.html', color: '#8b5cf6' },
+            { icon: '🎓', title: 'How to Pass Lok Sewa', desc: 'Proven 6-month strategy for first attempt success.', url: '/blog/how-to-pass-lok-sewa-exam.html', color: '#f59e0b' },
+            { icon: '📚', title: 'Best Books for Lok Sewa', desc: 'Recommended books for every exam level & subject.', url: '/blog/best-books-for-lok-sewa-preparation.html', color: '#ec4899' },
+            { icon: '📄', title: 'Complete Syllabus 2082', desc: 'Subject-wise syllabus for Kharidar, Subba & Adhikrit.', url: '/blog/lok-sewa-exam-syllabus.html', color: '#14b8a6' }
+        ];
+        var blogHTML = blogCards.map(function(b) {
+            return '<div class="card category-card" tabindex="0" role="link" onclick="window.location=\'' + b.url + '\'" style="cursor:pointer">' +
+                '<div class="card-icon" style="background:' + b.color + '18;color:' + b.color + ';">' + b.icon + '</div>' +
+                '<h2 class="card-title" style="font-size:1rem">' + b.title + '</h2>' +
+                '<p class="card-desc" style="font-size:0.8rem">' + b.desc + '</p>' +
+                '<span class="card-action" style="color:' + b.color + ';">' + t('read_more') + ' →</span>' +
+            '</div>';
+        }).join('');
+
         setHTML(
             '<div class="fade-in">' +
                 '<div class="hero">' +
@@ -272,6 +358,14 @@ function renderHome() {
                     '<p class="page-subtitle">' + t('home_subtitle') + '</p>' +
                 '</div>' +
                 '<div class="grid-container">' + cards + '</div>' +
+                '<div style="margin-top:2.5rem;text-align:center">' +
+                    '<h2 style="font-size:1.25rem;margin-bottom:0.25rem">📖 ' + t('study_guides') + '</h2>' +
+                    '<p style="color:var(--text-3);font-size:0.9rem;margin-bottom:1rem">' + t('study_guides_sub') + '</p>' +
+                '</div>' +
+                '<div class="grid-container">' + blogHTML + '</div>' +
+                '<div style="text-align:center;margin-top:1rem">' +
+                    '<a href="/blog/" class="btn btn-secondary">' + t('view_all_guides') + ' →</a>' +
+                '</div>' +
             '</div>'
         );
     }
@@ -339,7 +433,8 @@ function renderCategory(categoryId) {
 
             updateSEO(
                 catTitle + ' — Free Lok Sewa Mock Tests & Model Sets | Crack Lokshewa',
-                'Practice free ' + catTitle + ' mock tests & model sets for Nepal Lok Sewa Aayog (PSC) exams. Online MCQ practice with timer, negative marking & old questions. Best tayari samagri for Sarkari Jagir.'
+                'Practice free ' + catTitle + ' mock tests & model sets for Nepal Lok Sewa Aayog (PSC) exams. Online MCQ practice with timer, negative marking & old questions. Best tayari samagri for Sarkari Jagir.',
+                'https://lokshewa.online/#category/' + categoryId
             );
             injectBreadcrumbJSONLD([
                 { name: 'Home', url: 'https://lokshewa.online/#home' },
@@ -387,13 +482,15 @@ function renderTest(categoryId, testId) {
             }
             updateSEO(
                 (testTitle || 'Mock Test') + ' — ' + catName + ' | Crack Lokshewa | Free Lok Sewa Online Practice',
-                'Take the ' + (testTitle || 'mock test') + ' for ' + catName + '. ' + data.length + ' MCQs with 45 min timer & negative marking. Free online Lok Sewa Aayog practice with model sets, old questions & tayari samagri for Sarkari Jagir.'
+                'Take the ' + (testTitle || 'mock test') + ' for ' + catName + '. ' + data.length + ' MCQs with 45 min timer & negative marking. Free online Lok Sewa Aayog practice with model sets, old questions & tayari samagri for Sarkari Jagir.',
+                'https://lokshewa.online/#test/' + categoryId + '/' + testId
             );
             injectBreadcrumbJSONLD([
                 { name: 'Home', url: 'https://lokshewa.online/#home' },
                 { name: catName, url: 'https://lokshewa.online/#category/' + categoryId },
                 { name: testTitle || 'Test', url: 'https://lokshewa.online/#test/' + categoryId + '/' + testId }
             ]);
+            injectQuizJSONLD(testTitle || 'Mock Test', catName, data.length);
             state.testData             = data;
             state.answers              = {};
             state.marked               = {};
@@ -597,7 +694,8 @@ window.submitTest = submitTest;
 // ── RESULTS ───────────────────────────────────────────────────────────
 function renderResults() {
     showHeaderFooter(true);
-    updateSEO('Test Results — Crack Lokshewa | Lok Sewa Aayog Mock Test Score', 'View your Lok Sewa Aayog mock test results with detailed score breakdown. Analyze your performance for Kharidar, Nayab Subba, Adhikrit & other Nepal PSC exam preparation.');
+    updateSEO('Test Results — Crack Lokshewa | Lok Sewa Aayog Mock Test Score', 'View your Lok Sewa Aayog mock test results with detailed score breakdown. Analyze your performance for Kharidar, Nayab Subba, Adhikrit & other Nepal PSC exam preparation.', 'https://lokshewa.online/#results');
+    removeQuizJSONLD();
     if (!state.testData || state.testData.length === 0) {
         goHome();
         return;
@@ -714,6 +812,15 @@ function renderResults() {
                 '<button class="btn btn-primary" onclick="window.location.hash=\'#category/' + state.currentCategory + '\'">' + t('more_tests') + '</button>' +
                 '<button class="btn btn-secondary" onclick="goHome()">🏠 ' + t('home') + '</button>' +
             '</div>' +
+            '<div class="share-section" style="text-align:center;margin:1.5rem 0;padding:1.25rem;background:var(--card);border-radius:12px;border:1px solid var(--border)">' +
+                '<h4 style="margin-bottom:0.75rem;font-size:1rem">📢 ' + t('share_results') + '</h4>' +
+                '<div class="share-buttons" style="display:flex;gap:0.5rem;justify-content:center;flex-wrap:wrap">' +
+                    '<a href="' + shareResults(finalMarks.toFixed(1), total * 2, pct, grade).facebook + '" target="_blank" rel="noopener" class="btn btn-secondary" style="background:#1877f2;color:#fff;border:none">📘 Facebook</a>' +
+                    '<a href="' + shareResults(finalMarks.toFixed(1), total * 2, pct, grade).twitter + '" target="_blank" rel="noopener" class="btn btn-secondary" style="background:#1da1f2;color:#fff;border:none">🐦 Twitter</a>' +
+                    '<a href="' + shareResults(finalMarks.toFixed(1), total * 2, pct, grade).whatsapp + '" target="_blank" rel="noopener" class="btn btn-secondary" style="background:#25d366;color:#fff;border:none">💬 WhatsApp</a>' +
+                    '<button class="btn btn-secondary" onclick="copyToClipboard(\'https://lokshewa.online\')">📋 ' + t('copy_link') + '</button>' +
+                '</div>' +
+            '</div>' +
             '<h3 class="section-title mt-8">📋 ' + t('detailed_review') + '</h3>' +
             '<div class="review-list">' + reviewHTML + '</div>' +
         '</div>'
@@ -754,7 +861,7 @@ function renderSubjectAnalysis(stats) {
 // ── ABOUT ─────────────────────────────────────────────────────────────
 function renderAbout() {
     showHeaderFooter(true);
-    updateSEO('About — Crack Lokshewa | Free Lok Sewa Aayog Mock Tests Nepal', 'Learn about Crack Lokshewa, Nepal\'s #1 free bilingual mock test platform for Lok Sewa Aayog (PSC) exam preparation. Kharidar, Nayab Subba, Sakha Adhikrit, Police, Driving, Nursing, IT, GK & more.');
+    updateSEO('About — Crack Lokshewa | Free Lok Sewa Aayog Mock Tests Nepal', 'Learn about Crack Lokshewa, Nepal\'s #1 free bilingual mock test platform for Lok Sewa Aayog (PSC) exam preparation. Kharidar, Nayab Subba, Sakha Adhikrit, Police, Driving, Nursing, IT, GK & more.', 'https://lokshewa.online/#about');
     setHTML(
         '<div class="fade-in about-container">' +
             '<h1 class="page-title">' + t('about_title') + '</h1>' +

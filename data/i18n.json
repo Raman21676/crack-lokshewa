@@ -287,6 +287,34 @@
         "en": "Blog",
         "ne": "ब्लग"
     },
+    "share_results": {
+        "en": "Share Your Results",
+        "ne": "आफ्नो परिणाम साझा गर्नुहोस्"
+    },
+    "copy_link": {
+        "en": "Copy Link",
+        "ne": "लिङ्क कपी गर्नुहोस्"
+    },
+    "copied": {
+        "en": "Link copied to clipboard!",
+        "ne": "लिङ्क क्लिपबोर्डमा कपी गरियो!"
+    },
+    "read_more": {
+        "en": "Read More",
+        "ne": "थप पढ्नुहोस्"
+    },
+    "study_guides": {
+        "en": "Study Guides & Resources",
+        "ne": "अध्ययन मार्गदर्शन र स्रोतहरू"
+    },
+    "study_guides_sub": {
+        "en": "Free exam preparation guides, syllabus breakdowns, and tips.",
+        "ne": "निःशुल्क परीक्षा तयारी मार्गदर्शन, पाठ्यक्रम विश्लेषण र सुझावहरू।"
+    },
+    "view_all_guides": {
+        "en": "View All Guides",
+        "ne": "सबै मार्गदर्शन हेर्नुहोस्"
+    },
     "subject_analysis": {
         "en": "Subject-wise Analysis",
         "ne": "विषयगत विश्लेषण"
