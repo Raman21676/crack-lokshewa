@@ -1,7 +1,11 @@
-# Local planning files
+# Local planning files (AI session logs — NEVER commit to public repo)
 TODO.md
 ARCHITECTURE.md
 PROJECT_LOG.md
+AGENTS.md
+SESSION_LOG.md
+*.private.md
+local-notes/
 
 # macOS
 .DS_Store
