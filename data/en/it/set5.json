@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "question": "Which one is true for password?",
+    "options": [
+      "Passwords are case sensitive",
+      "Has fixed length",
+      "Can contain letters, numbers and symbols",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "subject": "Computer Security",
+    "explanation": "Passwords are case sensitive, can have variable length, and contain letters, numbers and symbols."
+  },
+  {
+    "id": 2,
+    "question": "Which is not an operator?",
+    "options": [
+      ";",
+      "%",
+      "/",
+      ","
+    ],
+    "correctIndex": 0,
+    "subject": "Programming",
+    "explanation": "Semicolon is a statement terminator, not an operator."
+  },
+  {
+    "id": 3,
+    "question": "The orientation of the page in which the printed lines run the width of the page is called..........",
+    "options": [
+      "Landscape",
+      "Inverted",
+      "Normal",
+      "Portrait"
+    ],
+    "correctIndex": 0,
+    "subject": "Word Processing",
+    "explanation": "Landscape orientation has lines running across the width."
+  },
+  {
+    "id": 4,
+    "question": "The labels defining in a worksheet structure",
+    "options": [
+      "Contain letters, numbers and symbols",
+      "Are comprised of numbers and the equals sign",
+      "Include function",
+      "Begin with and equals sign"
+    ],
+    "correctIndex": 3,
+    "subject": "Spreadsheet",
+    "explanation": "Labels in worksheet begin with an equals sign (=)."
+  },
+  {
+    "id": 5,
+    "question": "To move to the last column in a worksheet, press..........",
+    "options": [
+      "Ctrl+Home",
+      "Ctrl+End",
+      "Alt+Right Arrow",
+      "Alt+Down Arrow"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Ctrl+End moves to the last used cell."
+  },
+  {
+    "id": 6,
+    "question": "What will be happen when you click the border between two columns?",
+    "options": [
+      "Widen the column width as contents",
+      "Widen the row height as contents",
+      "Hide the row",
+      "Both (A) and (C)"
+    ],
+    "correctIndex": 0,
+    "subject": "Spreadsheet",
+    "explanation": "Double-clicking column border auto-fits column width."
+  },
+  {
+    "id": 7,
+    "question": "A worksheet contains approximately how many rows?",
+    "options": [
+      "256",
+      "65535",
+      "65635",
+      "65536"
+    ],
+    "correctIndex": 3,
+    "subject": "Spreadsheet",
+    "explanation": "Excel worksheet contains 65536 rows."
+  },
+  {
+    "id": 8,
+    "question": "To select multiple, non-adjacent worksheets in a workbook.",
+    "options": [
+      "Press Ctrl and click another tab",
+      "Press Alt and click another tab",
+      "Press Shift and click another tab",
+      "Drag the mouse pointer through the tabs"
+    ],
+    "correctIndex": 0,
+    "subject": "Spreadsheet",
+    "explanation": "Ctrl+Click selects non-adjacent worksheet tabs."
+  },
+  {
+    "id": 9,
+    "question": "By default, how is text horizontal aligned inside a cell in Excel?",
+    "options": [
+      "Left aligned",
+      "Center",
+      "Right aligned",
+      "Justified"
+    ],
+    "correctIndex": 0,
+    "subject": "Spreadsheet",
+    "explanation": "Text is left-aligned by default in Excel."
+  },
+  {
+    "id": 10,
+    "question": "Which option restrict the values that can be entered into a cell?",
+    "options": [
+      "Data > Validation",
+      "Data > Filter > Advanced Filter",
+      "Format > Cells",
+      "Format > Conditional Formatting"
+    ],
+    "correctIndex": 0,
+    "subject": "Spreadsheet",
+    "explanation": "Data Validation restricts cell input values."
+  },
+  {
+    "id": 11,
+    "question": "To display the heading as slanted text to save space..........",
+    "options": [
+      "Select slanted Text on the font tab",
+      "Select Text Orientation on the Alignment tab",
+      "Superscript on the font tab",
+      "Center Across selection on the Alignment tab"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Text Orientation on Alignment tab allows slanted headings."
+  },
+  {
+    "id": 12,
+    "question": "What will be the correct answer, if user enters the 3 P into a cell?",
+    "options": [
+      "3.00",
+      "3:00 PM",
+      "3 P",
+      "None of above"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Excel interprets '3 P' as 3:00 PM time format."
+  },
+  {
+    "id": 13,
+    "question": "The formula uses its own reference is called..........",
+    "options": [
+      "Absolute reference",
+      "Mixed reference",
+      "External reference",
+      "Circular reference"
+    ],
+    "correctIndex": 3,
+    "subject": "Spreadsheet",
+    "explanation": "A formula referring to its own cell creates a circular reference."
+  },
+  {
+    "id": 14,
+    "question": "What is the function of text to column?",
+    "options": [
+      "Allows you to separate delimited text across the columns automatically",
+      "Converts the selected text to table",
+      "It automatically resizes the cell size whenever a large text is added in the cell",
+      "None of the above"
+    ],
+    "correctIndex": 0,
+    "subject": "Spreadsheet",
+    "explanation": "Text to Columns splits delimited text into separate columns."
+  },
+  {
+    "id": 15,
+    "question": "The maximum number of characters can be stored in a cell is..........",
+    "options": [
+      "256",
+      "32000",
+      "65000",
+      "None of the above"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Excel cell can store up to 32000 characters."
+  },
+  {
+    "id": 16,
+    "question": "Goal Seek appears at the.......... Menu",
+    "options": [
+      "File",
+      "Data",
+      "Tools",
+      "Format"
+    ],
+    "correctIndex": 2,
+    "subject": "Spreadsheet",
+    "explanation": "Goal Seek is found in the Tools menu."
+  },
+  {
+    "id": 17,
+    "question": "Which shortcut key is used to hide column?",
+    "options": [
+      "Alt+9",
+      "Ctrl+9",
+      "Alt+0",
+      "Ctrl+0"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Ctrl+9 hides the selected column in Excel."
+  },
+  {
+    "id": 18,
+    "question": "The maximum length of formula is..........",
+    "options": [
+      "1024 characters",
+      "255 characters",
+      "2000 characters",
+      "Depends upon internal memory"
+    ],
+    "correctIndex": 0,
+    "subject": "Spreadsheet",
+    "explanation": "Maximum formula length in Excel is 1024 characters."
+  },
+  {
+    "id": 19,
+    "question": "The shortcut key define name is..........",
+    "options": [
+      "Ctrl+F2",
+      "Ctrl+F3",
+      "Ctrl+F4",
+      "Ctrl+F9"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Ctrl+F3 opens the Define Name dialog."
+  },
+  {
+    "id": 20,
+    "question": "The maximum number of sheet within any workbook is..........",
+    "options": [
+      "100",
+      "200",
+      "255",
+      "Unlimited"
+    ],
+    "correctIndex": 3,
+    "subject": "Spreadsheet",
+    "explanation": "Modern Excel allows unlimited sheets (previously 255)."
+  },
+  {
+    "id": 21,
+    "question": "The format dddd in date will display..........",
+    "options": [
+      "Sund",
+      "Sun",
+      "Sunday",
+      "None of the above"
+    ],
+    "correctIndex": 2,
+    "subject": "Spreadsheet",
+    "explanation": "dddd format displays full day name like Sunday."
+  },
+  {
+    "id": 22,
+    "question": "The key press moves the cell pointer on pane of another pane in split window.",
+    "options": [
+      "F5",
+      "F6",
+      "F9",
+      "F11"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "F6 moves between panes in a split window."
+  },
+  {
+    "id": 23,
+    "question": "The referencing styles used in Excel..........",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Excel uses A1 and R1C1 referencing styles (2 styles)."
+  },
+  {
+    "id": 24,
+    "question": "To insert Auto sum function, one can press..........",
+    "options": [
+      "Alt++",
+      "Alt+=",
+      "Alt+Enter",
+      "Alt+;"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Alt+= inserts the AutoSum function."
+  },
+  {
+    "id": 25,
+    "question": "The category axis is also called a..........",
+    "options": [
+      "X-Axis",
+      "Y-Axis",
+      "Secondary Axis",
+      "Value Axis"
+    ],
+    "correctIndex": 0,
+    "subject": "Spreadsheet",
+    "explanation": "Category axis is also known as X-Axis."
+  },
+  {
+    "id": 26,
+    "question": "The shortcut key is used to create default chart is..........",
+    "options": [
+      "F11",
+      "Alt+F1",
+      "F10",
+      "A & B"
+    ],
+    "correctIndex": 3,
+    "subject": "Spreadsheet",
+    "explanation": "Both F11 and Alt+F1 create default charts in Excel."
+  },
+  {
+    "id": 27,
+    "question": "The file extension of workspace file is..........",
+    "options": [
+      ".xls",
+      ".xlt",
+      ".xlw",
+      ".xls"
+    ],
+    "correctIndex": 2,
+    "subject": "Spreadsheet",
+    "explanation": "Excel workspace file extension is .xlw."
+  },
+  {
+    "id": 28,
+    "question": "The shortcut key is used to switch contents in to the edit mode..........",
+    "options": [
+      "F2",
+      "F3",
+      "F4",
+      "F6"
+    ],
+    "correctIndex": 0,
+    "subject": "Spreadsheet",
+    "explanation": "F2 switches cell to edit mode."
+  },
+  {
+    "id": 29,
+    "question": "Which one of Excel window allows you to enter values in worksheet?",
+    "options": [
+      "Title Bar",
+      "Menu Bar",
+      "Formula Bar",
+      "Standard Tool Bar"
+    ],
+    "correctIndex": 2,
+    "subject": "Spreadsheet",
+    "explanation": "Formula Bar allows entering values directly."
+  },
+  {
+    "id": 30,
+    "question": "A typical worksheet has number of columns.",
+    "options": [
+      "23",
+      "256",
+      "255",
+      "1024"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Excel worksheet has 256 columns."
+  },
+  {
+    "id": 31,
+    "question": "Comments put in cells are called..........",
+    "options": [
+      "Smart Tip",
+      "Cell Tip",
+      "Web Tip",
+      "Soft Tip"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Cell comments appear as Cell Tips on hover."
+  },
+  {
+    "id": 32,
+    "question": "Getting data from a cell located in a different sheet is called..........",
+    "options": [
+      "Accessing",
+      "Referencing",
+      "Updating",
+      "Functioning"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Getting data from another sheet is called referencing."
+  },
+  {
+    "id": 33,
+    "question": "Which of the following is not a valid data type in Excel?",
+    "options": [
+      "Number",
+      "Hyperlink",
+      "Label",
+      "Date/Time"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Hyperlink is not a data type; it is an object/feature."
+  },
+  {
+    "id": 34,
+    "question": "Which elements of a worksheet can be protected from accidental modification?",
+    "options": [
+      "Contents",
+      "Object",
+      "Scenarios",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "subject": "Spreadsheet",
+    "explanation": "Contents, objects, and scenarios can all be protected."
+  },
+  {
+    "id": 35,
+    "question": "A numeric value can be treated as a label value if it is preceded with..........",
+    "options": [
+      "'",
+      "!",
+      "\"",
+      "~"
+    ],
+    "correctIndex": 0,
+    "subject": "Spreadsheet",
+    "explanation": "Preceding a number with apostrophe treats it as text/label."
+  },
+  {
+    "id": 36,
+    "question": "Which is text operator?",
+    "options": [
+      "Apostrophe",
+      "Exclamation",
+      "Hash",
+      "Ampersand"
+    ],
+    "correctIndex": 3,
+    "subject": "Spreadsheet",
+    "explanation": "Ampersand (&) is the text concatenation operator in Excel."
+  },
+  {
+    "id": 37,
+    "question": "Which formula returns multiple results from single formula?",
+    "options": [
+      "Standard Formula",
+      "Array Formula",
+      "Mixed Formula",
+      "Smart Formula"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Array formulas can return multiple results from a single formula."
+  },
+  {
+    "id": 38,
+    "question": "Which is not tool for what-if analysis?",
+    "options": [
+      "Table",
+      "Goal Seek",
+      "Pivot table",
+      "Scenario"
+    ],
+    "correctIndex": 2,
+    "subject": "Spreadsheet",
+    "explanation": "Pivot table is for data summarization, not what-if analysis."
+  },
+  {
+    "id": 39,
+    "question": "Data can be added from different sheet within a workbook using..........",
+    "options": [
+      "Data outline",
+      "Data consolidate",
+      "Data Subtotal",
+      "Scenario"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Data Consolidate combines data from multiple sheets."
+  },
+  {
+    "id": 40,
+    "question": "The Edit > Delete command will delete..........",
+    "options": [
+      "Delete sheet",
+      "Clear contents",
+      "Delete cell",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "subject": "Spreadsheet",
+    "explanation": "Edit > Delete can delete sheet, contents, or cells."
+  },
+  {
+    "id": 41,
+    "question": "Data of sheet can be printed on center of page using..........",
+    "options": [
+      "Page setup / Margin",
+      "Print / Center",
+      "Page setup / Layout",
+      "Page setup / Sheet"
+    ],
+    "correctIndex": 0,
+    "subject": "Spreadsheet",
+    "explanation": "Page Setup > Margin settings center content on page."
+  },
+  {
+    "id": 42,
+    "question": "To import data for database in excel using..........",
+    "options": [
+      "Data / Import external data",
+      "Tools / Get external data",
+      "Tools / Import external data",
+      "None of the above"
+    ],
+    "correctIndex": 0,
+    "subject": "Spreadsheet",
+    "explanation": "Data > Import External Data is used to import database data."
+  },
+  {
+    "id": 43,
+    "question": "The mode of operations can be display at..........",
+    "options": [
+      "Formula bar",
+      "Status bar",
+      "Display bar",
+      "Scroll bar"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Status bar displays the current mode of operation."
+  },
+  {
+    "id": 44,
+    "question": "AutoSum button appears at the toolbar.",
+    "options": [
+      "Standard",
+      "Formula",
+      "Formatting",
+      "Border"
+    ],
+    "correctIndex": 0,
+    "subject": "Spreadsheet",
+    "explanation": "AutoSum button appears on the Standard toolbar."
+  },
+  {
+    "id": 45,
+    "question": "You can enable auto save feature using..........",
+    "options": [
+      "Add-ins",
+      "Attachment",
+      "Option",
+      "None of the above"
+    ],
+    "correctIndex": 2,
+    "subject": "Spreadsheet",
+    "explanation": "AutoSave settings are found in Options."
+  },
+  {
+    "id": 46,
+    "question": "The insert function appears at the..........",
+    "options": [
+      "Standard toolbar",
+      "Formula palette",
+      "Formatting toolbar",
+      "None of the above"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Insert Function appears in the Formula palette."
+  },
+  {
+    "id": 47,
+    "question": "Which command will display the subset of data from list?",
+    "options": [
+      "Pivot Table",
+      "Filter",
+      "Goal Seek",
+      "Scenario"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Filter command displays a subset of data from a list."
+  },
+  {
+    "id": 48,
+    "question": "Which one you can search by find command?",
+    "options": [
+      "Formula",
+      "Value",
+      "Comment",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "subject": "Spreadsheet",
+    "explanation": "Find command can search formulas, values, and comments."
+  },
+  {
+    "id": 49,
+    "question": "Which will affects the column width of entire worksheet?",
+    "options": [
+      "Column width",
+      "Standard width",
+      "Global width",
+      "All of the above"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "Standard width affects the default column width of entire worksheet."
+  },
+  {
+    "id": 50,
+    "question": "Which symbol will display when your number is too larger than column width?",
+    "options": [
+      "$",
+      "#",
+      "@",
+      "*"
+    ],
+    "correctIndex": 1,
+    "subject": "Spreadsheet",
+    "explanation": "# symbols appear when a number is too wide for the column."
+  }
+]

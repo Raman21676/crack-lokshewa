@@ -21,6 +21,14 @@
     "questionCount": 50,
     "timeLimit": 45,
     "difficulty": "Hard",
-    "locked": true
+    "locked": false
+  },
+  {
+    "id": "set4",
+    "title": "Set 4: Current Affairs & Constitution",
+    "questionCount": 50,
+    "timeLimit": 45,
+    "difficulty": "Medium",
+    "locked": false
   }
 ]

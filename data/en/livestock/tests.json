@@ -13,7 +13,7 @@
     "questionCount": 50,
     "timeLimit": 45,
     "difficulty": "Hard",
-    "locked": true
+    "locked": false
   },
   {
     "id": "set3",
@@ -21,6 +21,6 @@
     "questionCount": 50,
     "timeLimit": 45,
     "difficulty": "Easy",
-    "locked": true
+    "locked": false
   }
 ]

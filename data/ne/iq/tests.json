@@ -21,6 +21,6 @@
     "questionCount": 30,
     "timeLimit": 30,
     "difficulty": "Hard",
-    "locked": true
+    "locked": false
   }
 ]

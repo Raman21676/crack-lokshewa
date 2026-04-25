@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "question": "Most common cause of Diabetic ketoacidosis is due to",
+    "options": [
+      "Emotional stress",
+      "Presence of infection",
+      "Increased insulin dose",
+      "Inadequate food intake"
+    ],
+    "correctIndex": 1,
+    "subject": "Pathology",
+    "explanation": "Infection is the most common cause of diabetic ketoacidosis."
+  },
+  {
+    "id": 2,
+    "question": "Breast milk is rich in all except",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correctIndex": 3,
+    "subject": "Nutrition",
+    "explanation": "Breast milk is low in Vitamin D."
+  },
+  {
+    "id": 3,
+    "question": "Breast Cancer is epidemiologically common with",
+    "options": [
+      "Multiparity",
+      "Nulliparity",
+      "Alcoholic",
+      "Married woman"
+    ],
+    "correctIndex": 1,
+    "subject": "Oncology",
+    "explanation": "Nulliparity (never having given birth) is a risk factor for breast cancer."
+  },
+  {
+    "id": 4,
+    "question": "Pediatric AIDS is mainly due to",
+    "options": [
+      "Blood transfusion",
+      "Transplacental",
+      "Sexual intercourse",
+      "Organ transplantation"
+    ],
+    "correctIndex": 1,
+    "subject": "Pediatrics",
+    "explanation": "Pediatric AIDS is mainly transmitted from mother to child (transplacental)."
+  },
+  {
+    "id": 5,
+    "question": "Another name of hook worm infestation is",
+    "options": [
+      "Ascariasis",
+      "Ancylostomiasis",
+      "Salinatolysis",
+      "Leishmaniasis"
+    ],
+    "correctIndex": 1,
+    "subject": "Parasitology",
+    "explanation": "Hookworm infestation is called ancylostomiasis."
+  },
+  {
+    "id": 6,
+    "question": "Active management of third stage of labour is",
+    "options": [
+      "Uterine massage, CCT and oxytocin",
+      "CCT, massage, oxytocin",
+      "CCT, oxytocin and massage",
+      "Oxytocin, CCT and uterine massage"
+    ],
+    "correctIndex": 3,
+    "subject": "Midwifery",
+    "explanation": "Active management includes oxytocin, controlled cord traction (CCT), and uterine massage."
+  },
+  {
+    "id": 7,
+    "question": "The commonest site of hydatid cyst is",
+    "options": [
+      "Brain",
+      "Lungs",
+      "Spleen",
+      "Liver"
+    ],
+    "correctIndex": 3,
+    "subject": "Pathology",
+    "explanation": "Liver is the most common site for hydatid cyst."
+  },
+  {
+    "id": 8,
+    "question": "To be able to estimate and predict the future outcome is called",
+    "options": [
+      "Forecasting",
+      "Programming",
+      "Budgeting",
+      "Scheduling"
+    ],
+    "correctIndex": 0,
+    "subject": "Nursing Management",
+    "explanation": "Forecasting is estimating and predicting future outcomes."
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is not an acute respiratory infection",
+    "options": [
+      "Sore throat",
+      "Bronchial asthma",
+      "Common cold",
+      "Pneumonia"
+    ],
+    "correctIndex": 1,
+    "subject": "Respiratory",
+    "explanation": "Bronchial asthma is a chronic condition, not an acute respiratory infection."
+  },
+  {
+    "id": 10,
+    "question": "Jeevan jal contains",
+    "options": [
+      "NaCl, NaHCO3, KCl and glucose",
+      "NaCl, KHCO3, KCl, Glucose",
+      "NaCl, NaHCO3, CaCl2, Glucose",
+      "NaCl, KCl, lactate, glucose"
+    ],
+    "correctIndex": 0,
+    "subject": "Pharmacology",
+    "explanation": "Jeevan jal contains sodium chloride, sodium bicarbonate, potassium chloride and glucose."
+  },
+  {
+    "id": 11,
+    "question": "The life span of the Erythrocytes in the Circulation is",
+    "options": [
+      "120 Days",
+      "100 Days",
+      "90 days",
+      "80 days"
+    ],
+    "correctIndex": 0,
+    "subject": "Physiology",
+    "explanation": "Erythrocytes circulate for about 120 days."
+  },
+  {
+    "id": 12,
+    "question": "The pulmonary artery carries",
+    "options": [
+      "Oxygenated blood",
+      "Deoxygenated blood",
+      "Calcium",
+      "Protein"
+    ],
+    "correctIndex": 1,
+    "subject": "Anatomy",
+    "explanation": "Pulmonary artery carries deoxygenated blood from heart to lungs."
+  },
+  {
+    "id": 13,
+    "question": "These are female gonads and they lie in a shallow fossa on the lateral walls of the pelvis",
+    "options": [
+      "Fallopian tubes",
+      "Ovaries",
+      "Uterus",
+      "Ligaments"
+    ],
+    "correctIndex": 1,
+    "subject": "Anatomy",
+    "explanation": "Ovaries are the female gonads located in the pelvic cavity."
+  },
+  {
+    "id": 14,
+    "question": "A structured plan which provides clear picture about the problem, reason, objectives, and action for nurses to render nursing care is",
+    "options": [
+      "Lesson plan",
+      "Nursing care plan",
+      "Treatment plan",
+      "Admission plan"
+    ],
+    "correctIndex": 1,
+    "subject": "Nursing Process",
+    "explanation": "Nursing care plan outlines problems, objectives and nursing actions."
+  },
+  {
+    "id": 15,
+    "question": "It is the palpable bounding of blood flow noted at various points on the body",
+    "options": [
+      "Temperature",
+      "Pulse",
+      "Heart rate",
+      "Blood pressure"
+    ],
+    "correctIndex": 1,
+    "subject": "Vital Signs",
+    "explanation": "Pulse is the palpable bounding of blood flow in arteries."
+  },
+  {
+    "id": 16,
+    "question": "Patient is often kept in side lying position post operation to",
+    "options": [
+      "Clear airway",
+      "Clear Circulation",
+      "Prevent from vomiting",
+      "Electrolyte balancing"
+    ],
+    "correctIndex": 2,
+    "subject": "Surgical Nursing",
+    "explanation": "Side-lying position helps prevent aspiration from vomiting post-surgery."
+  },
+  {
+    "id": 17,
+    "question": "An infection and inflammation of the lungs with consolidation and exudation is",
+    "options": [
+      "Pulmonary tuberculosis",
+      "Pleurisy",
+      "Pneumonia",
+      "Bronchitis"
+    ],
+    "correctIndex": 2,
+    "subject": "Respiratory",
+    "explanation": "Pneumonia involves lung inflammation with consolidation and exudation."
+  },
+  {
+    "id": 18,
+    "question": "Associated with rapidly progression of infection has high fever, dyspnea rapid pulse heart murmur is",
+    "options": [
+      "Myocarditis",
+      "Bronchitis",
+      "Acute infective endocarditis",
+      "Cardiac failure"
+    ],
+    "correctIndex": 2,
+    "subject": "Cardiology",
+    "explanation": "Acute infective endocarditis presents with fever, dyspnea and heart murmur."
+  },
+  {
+    "id": 19,
+    "question": "In a discussion, 4-8 persons who are qualified to talk about sit and discuss a given probable is",
+    "options": [
+      "Panel discussion",
+      "Workshop",
+      "Group Discussion",
+      "Symposium"
+    ],
+    "correctIndex": 0,
+    "subject": "Nursing Education",
+    "explanation": "Panel discussion involves 4-8 qualified persons discussing a topic."
+  },
+  {
+    "id": 20,
+    "question": "It is unpleasant experience of life, causes may be internal, person may experience changing environment, job, loss of family members etc.",
+    "options": [
+      "Stress",
+      "Psychosis",
+      "Anxiety",
+      "Depression"
+    ],
+    "correctIndex": 0,
+    "subject": "Mental Health",
+    "explanation": "Stress is an unpleasant experience caused by various life changes."
+  },
+  {
+    "id": 21,
+    "question": "The uterus is about between halfway between the symphysis pubis and umbilicus at",
+    "options": [
+      "12 weeks",
+      "22 Weeks",
+      "16 Weeks",
+      "20 weeks"
+    ],
+    "correctIndex": 2,
+    "subject": "Obstetrics",
+    "explanation": "At 16 weeks, uterus is midway between symphysis pubis and umbilicus."
+  },
+  {
+    "id": 22,
+    "question": "Contraction increase to more than 40 seconds and fetal descends begin in",
+    "options": [
+      "4th stage of labour",
+      "2nd stage of labour",
+      "3rd stage of labour",
+      "1st stage of labour"
+    ],
+    "correctIndex": 3,
+    "subject": "Obstetrics",
+    "explanation": "In first stage of labour, contractions exceed 40 seconds and fetus descends."
+  },
+  {
+    "id": 23,
+    "question": "The uterus may be at the level of the umbilicus or slightly above the umbilicus in",
+    "options": [
+      "6 days of postpartum",
+      "6 weeks of postpartum",
+      "24 hours after birth",
+      "Immediate after birth"
+    ],
+    "correctIndex": 2,
+    "subject": "Postpartum",
+    "explanation": "Uterus is at umbilicus level 24 hours after birth."
+  },
+  {
+    "id": 24,
+    "question": "A child who has committed an offence (disobedient, behaviour problem, and indulge antisocial practices) can be seen in",
+    "options": [
+      "Juvenile delinquency",
+      "Psychosis",
+      "Depression",
+      "Drug addiction"
+    ],
+    "correctIndex": 0,
+    "subject": "Mental Health",
+    "explanation": "Juvenile delinquency refers to antisocial behavior in children."
+  },
+  {
+    "id": 25,
+    "question": "The person lives in dream world of his own, this condition is...",
+    "options": [
+      "Neurosis",
+      "Psychosis",
+      "Depression",
+      "Drug addiction"
+    ],
+    "correctIndex": 1,
+    "subject": "Mental Health",
+    "explanation": "Psychosis involves loss of contact with reality and living in a dream world."
+  },
+  {
+    "id": 26,
+    "question": "A client is receiving anticoagulant the nursing care should include the observation for",
+    "options": [
+      "Nausea",
+      "Epistaxis",
+      "Headache",
+      "Chest pain and vomiting"
+    ],
+    "correctIndex": 1,
+    "subject": "Pharmacology",
+    "explanation": "Epistaxis (nosebleed) is a sign of anticoagulant overdose."
+  },
+  {
+    "id": 27,
+    "question": "A client is receiving anticoagulant the nursing care should include the observation for",
+    "options": [
+      "Nausea",
+      "Ecchymosis and petechiae",
+      "Painful menstruation and backache",
+      "Early osteoporosis"
+    ],
+    "correctIndex": 1,
+    "subject": "Pharmacology",
+    "explanation": "Ecchymosis and petechiae indicate bleeding due to anticoagulants."
+  },
+  {
+    "id": 28,
+    "question": "Antibodies are produced by",
+    "options": [
+      "Eosinophils",
+      "Plasma cells",
+      "Erythrocytes",
+      "Lymphocytes"
+    ],
+    "correctIndex": 1,
+    "subject": "Immunology",
+    "explanation": "Plasma cells (differentiated B cells) produce antibodies."
+  },
+  {
+    "id": 29,
+    "question": "Endometriosis is characterized by",
+    "options": [
+      "Amenorrhea",
+      "Ecchymosis and petechiae",
+      "Painful menstruation and backache",
+      "Early osteoporosis"
+    ],
+    "correctIndex": 2,
+    "subject": "Gynecology",
+    "explanation": "Endometriosis causes painful menstruation (dysmenorrhea) and backache."
+  },
+  {
+    "id": 30,
+    "question": "The clients with hepatitis are instructed never to",
+    "options": [
+      "Drink unboiled water",
+      "Donate blood",
+      "Smoke",
+      "Take fatty blood"
+    ],
+    "correctIndex": 1,
+    "subject": "Communicable Diseases",
+    "explanation": "Hepatitis patients should never donate blood to prevent transmission."
+  },
+  {
+    "id": 31,
+    "question": "Sharp instruments are sterilized under",
+    "options": [
+      "Dry heat",
+      "Boiling",
+      "Fumigation",
+      "Radiation"
+    ],
+    "correctIndex": 0,
+    "subject": "Nursing Procedures",
+    "explanation": "Sharp instruments are sterilized using dry heat to prevent damage."
+  },
+  {
+    "id": 32,
+    "question": "Most spontaneous abortion are mainly caused by",
+    "options": [
+      "Embryonic defect",
+      "Congenital defect",
+      "Psychological trauma",
+      "Physical trauma"
+    ],
+    "correctIndex": 0,
+    "subject": "Obstetrics",
+    "explanation": "Most spontaneous abortions are caused by embryonic chromosomal defects."
+  },
+  {
+    "id": 33,
+    "question": "In fetal blood vessels the oxygen content is high in the",
+    "options": [
+      "Ductus arteriosus",
+      "Pulmonary artery",
+      "Ductus venosus",
+      "Umbilical artery"
+    ],
+    "correctIndex": 2,
+    "subject": "Embryology",
+    "explanation": "Ductus venosus carries oxygenated blood from umbilical vein to inferior vena cava."
+  },
+  {
+    "id": 34,
+    "question": "Effective communication with client means",
+    "options": [
+      "Clearly writing",
+      "Smoothly talking with the client",
+      "Listening quietly",
+      "Patient feedback of your question"
+    ],
+    "correctIndex": 3,
+    "subject": "Communication",
+    "explanation": "Effective communication involves getting patient feedback."
+  },
+  {
+    "id": 35,
+    "question": "The first steps of counseling is",
+    "options": [
+      "Finding the situation",
+      "Discuss about alternatives",
+      "Sharing of necessary knowledge",
+      "Building a good relationship and trust"
+    ],
+    "correctIndex": 3,
+    "subject": "Counseling",
+    "explanation": "First step of counseling is building rapport and trust."
+  },
+  {
+    "id": 36,
+    "question": "Which of the following in Nepalese context is a cold food?",
+    "options": [
+      "Green leafy vegetables",
+      "Beans",
+      "Pulses",
+      "Turmeric"
+    ],
+    "correctIndex": 0,
+    "subject": "Nutrition",
+    "explanation": "Green leafy vegetables are considered cold foods in Nepalese context."
+  },
+  {
+    "id": 37,
+    "question": "Deficiency of calcium in older adults causes",
+    "options": [
+      "Night blindness",
+      "Gingivitis",
+      "Stomatitis",
+      "Osteoporosis"
+    ],
+    "correctIndex": 3,
+    "subject": "Nutrition",
+    "explanation": "Calcium deficiency leads to osteoporosis in older adults."
+  },
+  {
+    "id": 38,
+    "question": "Occurrence of lice is greater in",
+    "options": [
+      "Older people",
+      "Children",
+      "Mainly women",
+      "Adolescents"
+    ],
+    "correctIndex": 1,
+    "subject": "Community Health",
+    "explanation": "Lice infestation is more common in children."
+  },
+  {
+    "id": 39,
+    "question": "Prior to the pelvic examination the client should be encouraged to",
+    "options": [
+      "Take a soap water enema",
+      "Have the vulva and perineum",
+      "Clean the Vulva",
+      "Empty the bladder"
+    ],
+    "correctIndex": 3,
+    "subject": "Gynecology",
+    "explanation": "Patient should empty bladder before pelvic examination."
+  },
+  {
+    "id": 40,
+    "question": "Epidemiological triad is",
+    "options": [
+      "Agent host and environment",
+      "Vector host and environment",
+      "Environment and vector",
+      "Agent"
+    ],
+    "correctIndex": 0,
+    "subject": "Epidemiology",
+    "explanation": "Epidemiological triad consists of agent, host, and environment."
+  },
+  {
+    "id": 41,
+    "question": "Tranquilizers are substances mainly used for the treatment of",
+    "options": [
+      "Cancer",
+      "Mental illness",
+      "Physical disorder",
+      "During wound illness"
+    ],
+    "correctIndex": 1,
+    "subject": "Pharmacology",
+    "explanation": "Tranquilizers are used to treat mental illness and anxiety."
+  },
+  {
+    "id": 42,
+    "question": "Aspirin is the name of organic compound",
+    "options": [
+      "Hydroxyl benzoic acid",
+      "Phenylsalicylate",
+      "Acetyl salicylic acid",
+      "Ethyl salicylate"
+    ],
+    "correctIndex": 2,
+    "subject": "Pharmacology",
+    "explanation": "Aspirin is acetylsalicylic acid."
+  },
+  {
+    "id": 43,
+    "question": "Excessive vomiting during pregnancy is called",
+    "options": [
+      "Morning sickness",
+      "Nephrotic syndrome",
+      "Hyperemesis gravidarum",
+      "Ectopic pregnancy"
+    ],
+    "correctIndex": 2,
+    "subject": "Obstetrics",
+    "explanation": "Hyperemesis gravidarum is severe vomiting during pregnancy."
+  },
+  {
+    "id": 44,
+    "question": "Denominator in perinatal mortality is",
+    "options": [
+      "Still birth",
+      "Live Birth",
+      "All births",
+      "All of the above"
+    ],
+    "correctIndex": 2,
+    "subject": "Epidemiology",
+    "explanation": "Perinatal mortality denominator includes all births (still + live)."
+  },
+  {
+    "id": 45,
+    "question": "A Client has a temperature of 99.8 degree F. This temperature can be converted to",
+    "options": [
+      "36.5 C",
+      "37 C",
+      "37.7 C",
+      "38.2 C"
+    ],
+    "correctIndex": 2,
+    "subject": "Vital Signs",
+    "explanation": "99.8 F = (99.8-32)*5/9 = 37.7 C."
+  },
+  {
+    "id": 46,
+    "question": "The major route of transmission of hepatitis A is",
+    "options": [
+      "Perinatal transmission",
+      "Sexual transmission",
+      "Fecal-oral transmission",
+      "Parenteral transmission"
+    ],
+    "correctIndex": 2,
+    "subject": "Communicable Diseases",
+    "explanation": "Hepatitis A is transmitted through fecal-oral route."
+  },
+  {
+    "id": 47,
+    "question": "Road to health indicates that a child is",
+    "options": [
+      "Mentally healthy",
+      "Completed the immunization",
+      "Growing normally",
+      "Free from Communicable disease"
+    ],
+    "correctIndex": 2,
+    "subject": "Pediatrics",
+    "explanation": "Road to Health card indicates normal growth of a child."
+  },
+  {
+    "id": 48,
+    "question": "Coffee and tea contains caffeine so they are",
+    "options": [
+      "Sedatives",
+      "Hypnotics",
+      "Stimulant",
+      "Depression"
+    ],
+    "correctIndex": 2,
+    "subject": "Pharmacology",
+    "explanation": "Caffeine is a central nervous system stimulant."
+  },
+  {
+    "id": 49,
+    "question": "Sand flies transmitted the disease",
+    "options": [
+      "Typhoid",
+      "Kala-azar",
+      "Typhus fever",
+      "Cholera"
+    ],
+    "correctIndex": 1,
+    "subject": "Communicable Diseases",
+    "explanation": "Sand flies transmit kala-azar (visceral leishmaniasis)."
+  },
+  {
+    "id": 50,
+    "question": "Protein requirement is highest for",
+    "options": [
+      "Menstruating women",
+      "Sick person",
+      "Pregnant women",
+      "Lactating women"
+    ],
+    "correctIndex": 3,
+    "subject": "Nutrition",
+    "explanation": "Lactating women have the highest protein requirement."
+  }
+]

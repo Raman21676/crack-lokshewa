@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "question": "Which is the largest muscle?",
+    "options": [
+      "Gluteus maximus",
+      "Sartorius",
+      "Masseter",
+      "Stapedius"
+    ],
+    "correctIndex": 0,
+    "subject": "Anatomy",
+    "explanation": "Gluteus maximus is the largest muscle in the human body."
+  },
+  {
+    "id": 2,
+    "question": "Which is not a special sense organ in the sensory system?",
+    "options": [
+      "Teeth",
+      "Skin",
+      "Tongue",
+      "Eye"
+    ],
+    "correctIndex": 0,
+    "subject": "Anatomy",
+    "explanation": "Teeth are not classified as special sense organs."
+  },
+  {
+    "id": 3,
+    "question": "Which is the longest organ of the digestive system in the human body?",
+    "options": [
+      "Oesophagus",
+      "Stomach",
+      "Small intestine",
+      "Large intestine"
+    ],
+    "correctIndex": 2,
+    "subject": "Anatomy",
+    "explanation": "Small intestine is the longest organ of the digestive system."
+  },
+  {
+    "id": 4,
+    "question": "What are the main activities of digestive system?",
+    "options": [
+      "Ingestion",
+      "Digestion",
+      "Both (A) and (B)",
+      "Expression"
+    ],
+    "correctIndex": 2,
+    "subject": "Physiology",
+    "explanation": "Digestive system performs ingestion and digestion."
+  },
+  {
+    "id": 5,
+    "question": "Length of female urethra is",
+    "options": [
+      "18 cm",
+      "12 cm",
+      "8 cm",
+      "4 cm"
+    ],
+    "correctIndex": 3,
+    "subject": "Anatomy",
+    "explanation": "Female urethra is approximately 4 cm long."
+  },
+  {
+    "id": 6,
+    "question": "The life span of erythrocytes is",
+    "options": [
+      "60 Days",
+      "90 Days",
+      "120 Days",
+      "125 Days"
+    ],
+    "correctIndex": 2,
+    "subject": "Physiology",
+    "explanation": "Red blood cells (erythrocytes) live about 120 days."
+  },
+  {
+    "id": 7,
+    "question": "The process of Bone formation is called",
+    "options": [
+      "Ossification",
+      "Calcification",
+      "Osteoid formation",
+      "Epiphyseal plate"
+    ],
+    "correctIndex": 0,
+    "subject": "Anatomy",
+    "explanation": "Ossification is the process of bone formation."
+  },
+  {
+    "id": 8,
+    "question": "What are the sign of Cushing Syndrome?",
+    "options": [
+      "Large thighs",
+      "Pendulous abdomen",
+      "Large upper arms",
+      "Posterior neck fat pad and thin extremities"
+    ],
+    "correctIndex": 3,
+    "subject": "Pathology",
+    "explanation": "Cushing syndrome features buffalo hump and thin extremities."
+  },
+  {
+    "id": 9,
+    "question": "Which of the following disease is not included in the respiratory system?",
+    "options": [
+      "Epilepsy",
+      "Bronchitis",
+      "Pulmonary TB",
+      "Pleurisy"
+    ],
+    "correctIndex": 0,
+    "subject": "Disease Classification",
+    "explanation": "Epilepsy is a neurological disorder, not respiratory."
+  },
+  {
+    "id": 10,
+    "question": "How many steps should be followed for home delivery services?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "10"
+    ],
+    "correctIndex": 0,
+    "subject": "Midwifery",
+    "explanation": "Home delivery service follows 3 main steps."
+  },
+  {
+    "id": 11,
+    "question": "Which is not the major killer disease?",
+    "options": [
+      "Diarrhoea",
+      "Measles",
+      "Tuberculosis",
+      "Scabies"
+    ],
+    "correctIndex": 3,
+    "subject": "Community Health",
+    "explanation": "Scabies is not a major killer disease."
+  },
+  {
+    "id": 12,
+    "question": "When was the national health policy adopted in BS?",
+    "options": [
+      "2046",
+      "2048",
+      "2050",
+      "2063"
+    ],
+    "correctIndex": 1,
+    "subject": "Health Policy",
+    "explanation": "National health policy was adopted in 2048 BS."
+  },
+  {
+    "id": 13,
+    "question": "What are the Sources of the data collection?",
+    "options": [
+      "Patient",
+      "Patient's family",
+      "Patient's charts and Records",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "subject": "Nursing Research",
+    "explanation": "Data can be collected from patient, family, and records."
+  },
+  {
+    "id": 14,
+    "question": "Where is the remittent fever seen?",
+    "options": [
+      "Typhoid fever",
+      "Rheumatic fever",
+      "TB",
+      "Malaria"
+    ],
+    "correctIndex": 0,
+    "subject": "Pathology",
+    "explanation": "Remittent fever is characteristic of typhoid."
+  },
+  {
+    "id": 15,
+    "question": "When is world health day celebrated?",
+    "options": [
+      "7th April Each Year",
+      "10th April Each Year",
+      "15th April Each Year",
+      "20th April Each year"
+    ],
+    "correctIndex": 0,
+    "subject": "Health Awareness",
+    "explanation": "World Health Day is celebrated on 7th April."
+  },
+  {
+    "id": 16,
+    "question": "Full liquid diet contains",
+    "options": [
+      "Carbohydrate",
+      "Fat",
+      "Protein",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "subject": "Nutrition",
+    "explanation": "Full liquid diet contains carbohydrates, fats, and proteins."
+  },
+  {
+    "id": 17,
+    "question": "The Yellow fever is transmitted by the bite of",
+    "options": [
+      "Mites",
+      "Rat",
+      "Aedes Mosquito",
+      "Lice"
+    ],
+    "correctIndex": 2,
+    "subject": "Communicable Diseases",
+    "explanation": "Yellow fever is transmitted by Aedes mosquito."
+  },
+  {
+    "id": 18,
+    "question": "What is the study of fungus called?",
+    "options": [
+      "Fungology",
+      "Mycology",
+      "Mythology",
+      "Algology"
+    ],
+    "correctIndex": 1,
+    "subject": "Microbiology",
+    "explanation": "Mycology is the study of fungi."
+  },
+  {
+    "id": 19,
+    "question": "What are the signs of severe dehydration?",
+    "options": [
+      "Skin pinch goes back slowly",
+      "Lethargic or unconscious baby",
+      "Thirsty",
+      "All of the above"
+    ],
+    "correctIndex": 1,
+    "subject": "Pediatrics",
+    "explanation": "Lethargy or unconsciousness indicates severe dehydration."
+  },
+  {
+    "id": 20,
+    "question": "Inflammation of the brain tissue is called",
+    "options": [
+      "Meningitis",
+      "Encephalitis",
+      "Encephalosis",
+      "Epilepsy"
+    ],
+    "correctIndex": 1,
+    "subject": "Neurology",
+    "explanation": "Encephalitis is inflammation of brain tissue."
+  },
+  {
+    "id": 21,
+    "question": "In Nepal, DOTS programme was successfully implemented throughout the country in",
+    "options": [
+      "2000",
+      "2001",
+      "2002",
+      "2003"
+    ],
+    "correctIndex": 1,
+    "subject": "Health Program",
+    "explanation": "DOTS programme was implemented throughout Nepal in 2001."
+  },
+  {
+    "id": 22,
+    "question": "The influenza is caused by",
+    "options": [
+      "Virus",
+      "Bacteria",
+      "Protozoa",
+      "Fungi"
+    ],
+    "correctIndex": 0,
+    "subject": "Microbiology",
+    "explanation": "Influenza is caused by influenza virus."
+  },
+  {
+    "id": 23,
+    "question": "All organs are affected in hypertension except?",
+    "options": [
+      "Eye",
+      "Brain",
+      "Liver",
+      "Heart"
+    ],
+    "correctIndex": 2,
+    "subject": "Cardiology",
+    "explanation": "Liver is not primarily affected by hypertension."
+  },
+  {
+    "id": 24,
+    "question": "Rainbow like vision is seen in",
+    "options": [
+      "Trachoma",
+      "Glaucoma",
+      "Cataract",
+      "Corneal ulcer"
+    ],
+    "correctIndex": 1,
+    "subject": "Ophthalmology",
+    "explanation": "Rainbow halos around lights are a sign of glaucoma."
+  },
+  {
+    "id": 25,
+    "question": "The Study of epidemiology is called",
+    "options": [
+      "Disease Frequency",
+      "Disease study",
+      "Disease control only",
+      "Data analysis"
+    ],
+    "correctIndex": 0,
+    "subject": "Epidemiology",
+    "explanation": "Epidemiology studies disease frequency in populations."
+  },
+  {
+    "id": 26,
+    "question": "IUCD works for family planning for",
+    "options": [
+      "5 Years",
+      "8 Years",
+      "10 Years",
+      "12 Years"
+    ],
+    "correctIndex": 2,
+    "subject": "Family Planning",
+    "explanation": "Intrauterine Contraceptive Device (IUCD) typically works for 10 years."
+  },
+  {
+    "id": 27,
+    "question": "How many tools are included in the supervision activities in Nursing programme?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctIndex": 1,
+    "subject": "Nursing Management",
+    "explanation": "Nursing supervision activities include 10 tools."
+  },
+  {
+    "id": 28,
+    "question": "How many Steps should be followed for community diagnosis?",
+    "options": [
+      "8",
+      "10",
+      "15",
+      "7"
+    ],
+    "correctIndex": 1,
+    "subject": "Community Health",
+    "explanation": "Community diagnosis follows 10 steps."
+  },
+  {
+    "id": 29,
+    "question": "How many sources are used in health information system in health sector?",
+    "options": [
+      "9",
+      "10",
+      "15",
+      "20"
+    ],
+    "correctIndex": 0,
+    "subject": "Health Information",
+    "explanation": "Health information system uses 9 sources."
+  },
+  {
+    "id": 30,
+    "question": "All are killed vaccine except",
+    "options": [
+      "BCG",
+      "IPV",
+      "Meningitis",
+      "Rabies vaccine"
+    ],
+    "correctIndex": 0,
+    "subject": "Immunization",
+    "explanation": "BCG is a live attenuated vaccine; others listed are killed vaccines."
+  },
+  {
+    "id": 31,
+    "question": "When was the first case of AIDS detected in Nepal?",
+    "options": [
+      "1978",
+      "1988",
+      "1998",
+      "1968"
+    ],
+    "correctIndex": 1,
+    "subject": "Epidemiology",
+    "explanation": "First AIDS case in Nepal was detected in 1988."
+  },
+  {
+    "id": 32,
+    "question": "It is formed by the two innominate bones which articulate anteriorly at the symphasis pubis and posteriorly with the sacrum.",
+    "options": [
+      "Humerus",
+      "Femur",
+      "The pelvis",
+      "Thoracic cage"
+    ],
+    "correctIndex": 2,
+    "subject": "Anatomy",
+    "explanation": "The pelvis is formed by innominate bones and sacrum."
+  },
+  {
+    "id": 33,
+    "question": "Caput succedaneum of a neonate disappears after how many hours after birth?",
+    "options": [
+      "40 hrs",
+      "24 Hrs",
+      "80 hrs",
+      "90 hrs"
+    ],
+    "correctIndex": 2,
+    "subject": "Neonatology",
+    "explanation": "Caput succedaneum typically resolves within 80 hours."
+  },
+  {
+    "id": 34,
+    "question": "When was the national safe motherhood programme initiated?",
+    "options": [
+      "1996",
+      "1997",
+      "1990",
+      "2000"
+    ],
+    "correctIndex": 1,
+    "subject": "Health Program",
+    "explanation": "National Safe Motherhood Programme was initiated in 1997."
+  },
+  {
+    "id": 35,
+    "question": "For non-immunized pregnant woman 2 doses of 0.5ml of TT is given at",
+    "options": [
+      "20-24 Weeks",
+      "30-36 Weeks",
+      "12-16 Weeks",
+      "8-12 Weeks"
+    ],
+    "correctIndex": 0,
+    "subject": "Immunization",
+    "explanation": "TT vaccine for non-immunized pregnant women is given at 20-24 weeks."
+  },
+  {
+    "id": 36,
+    "question": "At birth, the length of the baby measures about",
+    "options": [
+      "25 cm",
+      "50 cm",
+      "75 cm",
+      "100 cm"
+    ],
+    "correctIndex": 1,
+    "subject": "Neonatology",
+    "explanation": "Average birth length of a baby is about 50 cm."
+  },
+  {
+    "id": 37,
+    "question": "In teaching deep breathing and coughing exercise to a client which teaching method can be best used?",
+    "options": [
+      "Role play",
+      "Discussion",
+      "Exhibition",
+      "Demonstration"
+    ],
+    "correctIndex": 3,
+    "subject": "Nursing Education",
+    "explanation": "Demonstration is the best method for teaching breathing exercises."
+  },
+  {
+    "id": 38,
+    "question": "Abortion is defined as the loss of pregnancy before the fetal is weeks of gestation",
+    "options": [
+      "20 weeks",
+      "22 Weeks",
+      "28 Weeks",
+      "36 Weeks"
+    ],
+    "correctIndex": 1,
+    "subject": "Obstetrics",
+    "explanation": "Abortion is defined as pregnancy loss before 22 weeks."
+  },
+  {
+    "id": 39,
+    "question": "Which of the following selects the female community health volunteer?",
+    "options": [
+      "VDC Chairman",
+      "Member of mother group",
+      "MCHW",
+      "VHW"
+    ],
+    "correctIndex": 1,
+    "subject": "Community Health",
+    "explanation": "Female Community Health Volunteers are selected by mother groups."
+  },
+  {
+    "id": 40,
+    "question": "What incentive to the mother is given after delivery at health facilities?",
+    "options": [
+      "Rs.1500 in mountains, Rs.1000 in hill, Rs 500 in tarai",
+      "Rs.500 in mountain, Rs 1000 in hills, Rs 1500 in tarai",
+      "Rs.1000 in Mountain, Rs 500 in hill, Rs.1500 in tarai",
+      "Rs.800 in Mountain, Rs.1000 in hill, Rs.500 in tarai"
+    ],
+    "correctIndex": 0,
+    "subject": "Health Policy",
+    "explanation": "Delivery incentives vary by region: Rs.1500 (mountain), Rs.1000 (hill), Rs.500 (tarai)."
+  },
+  {
+    "id": 41,
+    "question": "Within 3 minutes after birth, the normal heart rate of the infant may range between",
+    "options": [
+      "100-130 Beats per minute",
+      "100-180 beats per minute",
+      "120-160 Beats per minute",
+      "130-170 Beats per minute"
+    ],
+    "correctIndex": 2,
+    "subject": "Neonatology",
+    "explanation": "Normal newborn heart rate is 120-160 bpm."
+  },
+  {
+    "id": 42,
+    "question": "One of the most common cause of hypotonic uterine dystocia is?",
+    "options": [
+      "Twin gestation",
+      "Maternal anemia",
+      "Pelvic contracture",
+      "Pregnancy induced hypertension"
+    ],
+    "correctIndex": 0,
+    "subject": "Obstetrics",
+    "explanation": "Twin gestation is a common cause of hypotonic uterine dystocia."
+  },
+  {
+    "id": 43,
+    "question": "Which of the following is antipsychiatric drug?",
+    "options": [
+      "Diazepam",
+      "Chlorpromazine",
+      "Librium",
+      "Lithium bicarbonate"
+    ],
+    "correctIndex": 1,
+    "subject": "Pharmacology",
+    "explanation": "Chlorpromazine is an antipsychotic drug."
+  },
+  {
+    "id": 44,
+    "question": "A positive nursing action when caring for a middle aged depressed client is to?",
+    "options": [
+      "Play chess with the client",
+      "Allow the client to make personal decision",
+      "Give company to client as often as possible",
+      "Provide the client with frequent period of thinking time"
+    ],
+    "correctIndex": 2,
+    "subject": "Psychiatric Nursing",
+    "explanation": "Providing company is a positive nursing action for depressed clients."
+  },
+  {
+    "id": 45,
+    "question": "The process of influencing group activities towards accomplishment of goals in a given situation is:",
+    "options": [
+      "Leader",
+      "Leadership",
+      "Management",
+      "Manager"
+    ],
+    "correctIndex": 1,
+    "subject": "Nursing Management",
+    "explanation": "Leadership is influencing group activities toward goal accomplishment."
+  },
+  {
+    "id": 46,
+    "question": "Muscle tone is recorded by the",
+    "options": [
+      "Electro Encephalo Graphy (EEG)",
+      "Electro Cardio Graphy (ECG)",
+      "Electro Oculo Graphy (EoG)",
+      "Electro Myo Graphy (EMG)"
+    ],
+    "correctIndex": 3,
+    "subject": "Diagnostic Tests",
+    "explanation": "EMG records muscle tone and electrical activity."
+  },
+  {
+    "id": 47,
+    "question": "Following vaccines are live attenuated vaccines except",
+    "options": [
+      "BCG",
+      "Oral polio",
+      "Japanese encephalitis",
+      "Tetanus"
+    ],
+    "correctIndex": 3,
+    "subject": "Immunization",
+    "explanation": "Tetanus toxoid is not a live attenuated vaccine."
+  },
+  {
+    "id": 48,
+    "question": "Trachoma is a chronic infectious disease caused by chlamydia trachomatis, it is a disease of",
+    "options": [
+      "Eye",
+      "Lungs",
+      "Nose",
+      "Ear"
+    ],
+    "correctIndex": 0,
+    "subject": "Ophthalmology",
+    "explanation": "Trachoma is an eye disease caused by Chlamydia trachomatis."
+  },
+  {
+    "id": 49,
+    "question": "The study of osteology is called",
+    "options": [
+      "Bone",
+      "Joint",
+      "Muscle",
+      "Nerve"
+    ],
+    "correctIndex": 0,
+    "subject": "Anatomy",
+    "explanation": "Osteology is the study of bones."
+  },
+  {
+    "id": 50,
+    "question": "Endometriosis is characterized by",
+    "options": [
+      "Amenorrhoea and insomnia",
+      "Ecchymosis and petechiae",
+      "Painful menstruation and backache",
+      "Early osteoporosis and pelvic inflammations"
+    ],
+    "correctIndex": 2,
+    "subject": "Gynecology",
+    "explanation": "Endometriosis is characterized by painful menstruation and backache."
+  }
+]

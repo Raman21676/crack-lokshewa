@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "When was the Constitution of Nepal 2072 promulgated?",
+    "options": [
+      "April 2015",
+      "September 20, 2015",
+      "January 2016",
+      "May 2015"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Constitution was promulgated on September 20, 2015.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q2",
+    "question": "How many parts are in the Constitution of Nepal?",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Constitution has 35 parts.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q3",
+    "question": "Which part of the Constitution deals with Fundamental Rights?",
+    "options": [
+      "Part 1",
+      "Part 2",
+      "Part 3",
+      "Part 4"
+    ],
+    "correctIndex": 2,
+    "explanation": "Part 3 contains Fundamental Rights.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q4",
+    "question": "Article 18 of the Constitution guarantees which right?",
+    "options": [
+      "Right to Freedom",
+      "Right to Equality",
+      "Right to Property",
+      "Right to Education"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 18 guarantees Right to Equality.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q5",
+    "question": "Which article guarantees Right to Freedom?",
+    "options": [
+      "Article 15",
+      "Article 16",
+      "Article 17",
+      "Article 19"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 17 guarantees Right to Freedom.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q6",
+    "question": "Article 24 deals with which right?",
+    "options": [
+      "Right to Privacy",
+      "Right against Untouchability and Discrimination",
+      "Right to Information",
+      "Right to Religion"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 24 guarantees Right against Untouchability and Discrimination.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q7",
+    "question": "Which article contains Directive Principles, Policies and Responsibilities of the State?",
+    "options": [
+      "Article 48",
+      "Article 50",
+      "Article 51",
+      "Article 55"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 51 contains Directive Principles and Policies.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q8",
+    "question": "Article 50 deals with:",
+    "options": [
+      "State Policies",
+      "Directive Principles",
+      "Right to Employment",
+      "Right to Food"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 50 deals with Directive Principles of the State.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q9",
+    "question": "Which articles deal with the President of Nepal?",
+    "options": [
+      "Articles 55-60",
+      "Articles 61-69",
+      "Articles 70-75",
+      "Articles 80-85"
+    ],
+    "correctIndex": 1,
+    "explanation": "Articles 61-69 deal with the President.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q10",
+    "question": "Which articles deal with the Vice President?",
+    "options": [
+      "Articles 60-65",
+      "Articles 66-70",
+      "Articles 68-72",
+      "Articles 70-74"
+    ],
+    "correctIndex": 1,
+    "explanation": "Articles 66-70 deal with the Vice President.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q11",
+    "question": "Which articles deal with the Prime Minister and Council of Ministers?",
+    "options": [
+      "Articles 70-74",
+      "Articles 75-82",
+      "Articles 83-90",
+      "Articles 95-100"
+    ],
+    "correctIndex": 1,
+    "explanation": "Articles 75-82 deal with the PM and Council of Ministers.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q12",
+    "question": "Which articles deal with the Federal Parliament?",
+    "options": [
+      "Articles 75-82",
+      "Articles 83-101",
+      "Articles 102-110",
+      "Articles 115-120"
+    ],
+    "correctIndex": 1,
+    "explanation": "Articles 83-101 deal with the Federal Parliament.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q13",
+    "question": "Which articles deal with the Supreme Court?",
+    "options": [
+      "Articles 120-127",
+      "Articles 128-137",
+      "Articles 138-145",
+      "Articles 150-160"
+    ],
+    "correctIndex": 1,
+    "explanation": "Articles 128-137 deal with the Supreme Court.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q14",
+    "question": "Which article establishes the Public Service Commission?",
+    "options": [
+      "Article 238",
+      "Article 240",
+      "Article 242",
+      "Article 245"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 242 establishes the Public Service Commission.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q15",
+    "question": "Which articles deal with the Public Service Commission?",
+    "options": [
+      "Articles 238-240",
+      "Articles 242-245",
+      "Articles 248-250",
+      "Articles 252-255"
+    ],
+    "correctIndex": 1,
+    "explanation": "Articles 242-245 deal with PSC.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q16",
+    "question": "Which article establishes the Commission for Investigation of Abuse of Authority (CIAA)?",
+    "options": [
+      "Article 235",
+      "Article 236",
+      "Article 238",
+      "Article 240"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 238 establishes CIAA.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q17",
+    "question": "Which article deals with the Election Commission?",
+    "options": [
+      "Article 238",
+      "Article 240",
+      "Article 242",
+      "Article 245"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 240 deals with the Election Commission.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q18",
+    "question": "Which article deals with the Auditor General?",
+    "options": [
+      "Article 238",
+      "Article 240",
+      "Article 242",
+      "Article 246"
+    ],
+    "correctIndex": 3,
+    "explanation": "Article 246 deals with the Auditor General.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q19",
+    "question": "Which article deals with the Attorney General?",
+    "options": [
+      "Article 150",
+      "Article 155",
+      "Article 157",
+      "Article 160"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 157 deals with the Attorney General.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q20",
+    "question": "Which article deals with the Judicial Council?",
+    "options": [
+      "Article 145",
+      "Article 150",
+      "Article 153",
+      "Article 155"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 153 deals with the Judicial Council.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q21",
+    "question": "Which article deals with the National Human Rights Commission?",
+    "options": [
+      "Article 280",
+      "Article 282",
+      "Article 285",
+      "Article 290"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 282 deals with NHRC.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q22",
+    "question": "Which article deals with Emergency Powers?",
+    "options": [
+      "Article 270",
+      "Article 273",
+      "Article 275",
+      "Article 278"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 273 deals with Emergency Powers.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q23",
+    "question": "Which article deals with Amendment of the Constitution?",
+    "options": [
+      "Article 270",
+      "Article 274",
+      "Article 278",
+      "Article 280"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 274 deals with constitutional amendment.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q24",
+    "question": "Which articles deal with Citizenship?",
+    "options": [
+      "Articles 8-12",
+      "Articles 10-15",
+      "Articles 12-18",
+      "Articles 15-20"
+    ],
+    "correctIndex": 1,
+    "explanation": "Articles 10-15 deal with citizenship.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q25",
+    "question": "Which article deals with Right to Information?",
+    "options": [
+      "Article 25",
+      "Article 27",
+      "Article 29",
+      "Article 31"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 27 guarantees Right to Information.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q26",
+    "question": "Which article deals with Right to Property?",
+    "options": [
+      "Article 22",
+      "Article 24",
+      "Article 26",
+      "Article 28"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 26 guarantees Right to Property.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q27",
+    "question": "Which article guarantees Right to Employment?",
+    "options": [
+      "Article 30",
+      "Article 32",
+      "Article 33",
+      "Article 35"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 33 guarantees Right to Employment.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q28",
+    "question": "Which article guarantees Right to Education?",
+    "options": [
+      "Article 30",
+      "Article 31",
+      "Article 32",
+      "Article 34"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 31 guarantees Right to Education.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q29",
+    "question": "Which article guarantees Right to Food Sovereignty?",
+    "options": [
+      "Article 34",
+      "Article 35",
+      "Article 36",
+      "Article 38"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 36 guarantees Right to Food Sovereignty.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q30",
+    "question": "Which article guarantees Right to Health?",
+    "options": [
+      "Article 33",
+      "Article 35",
+      "Article 37",
+      "Article 39"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 35 guarantees Right to Health.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q31",
+    "question": "Which article guarantees Right of Women?",
+    "options": [
+      "Article 36",
+      "Article 37",
+      "Article 38",
+      "Article 40"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 38 guarantees Rights of Women.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q32",
+    "question": "Which article guarantees Right of Children?",
+    "options": [
+      "Article 37",
+      "Article 38",
+      "Article 39",
+      "Article 41"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 39 guarantees Rights of Children.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q33",
+    "question": "Which article guarantees Right of Dalit?",
+    "options": [
+      "Article 38",
+      "Article 40",
+      "Article 42",
+      "Article 44"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 40 guarantees Rights of Dalit.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q34",
+    "question": "Which article guarantees Right to Social Justice?",
+    "options": [
+      "Article 38",
+      "Article 40",
+      "Article 42",
+      "Article 44"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 42 guarantees Right to Social Justice.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q35",
+    "question": "Which articles deal with Provincial Assembly?",
+    "options": [
+      "Articles 170-175",
+      "Articles 175-182",
+      "Articles 185-190",
+      "Articles 195-200"
+    ],
+    "correctIndex": 1,
+    "explanation": "Articles 175-182 deal with Provincial Assembly.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q36",
+    "question": "Which articles deal with Local Level structure?",
+    "options": [
+      "Articles 200-210",
+      "Articles 215-220",
+      "Articles 225-230",
+      "Articles 235-240"
+    ],
+    "correctIndex": 1,
+    "explanation": "Articles 215-220 deal with Local Level.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q37",
+    "question": "Which article establishes the National Natural Resources and Fiscal Commission?",
+    "options": [
+      "Article 245",
+      "Article 248",
+      "Article 250-251",
+      "Article 255"
+    ],
+    "correctIndex": 2,
+    "explanation": "Articles 250-251 establish NNRFC.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q38",
+    "question": "Which schedule deals with the distribution of powers between Federation, State and Local Level?",
+    "options": [
+      "Schedule 5",
+      "Schedule 7",
+      "Schedule 8",
+      "Schedule 9"
+    ],
+    "correctIndex": 3,
+    "explanation": "Schedule 9 deals with concurrent powers.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q39",
+    "question": "Which schedule lists the powers of the Federation?",
+    "options": [
+      "Schedule 5",
+      "Schedule 6",
+      "Schedule 7",
+      "Schedule 8"
+    ],
+    "correctIndex": 0,
+    "explanation": "Schedule 5 lists federal powers.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q40",
+    "question": "Which schedule lists the powers of the State?",
+    "options": [
+      "Schedule 5",
+      "Schedule 6",
+      "Schedule 7",
+      "Schedule 8"
+    ],
+    "correctIndex": 1,
+    "explanation": "Schedule 6 lists state powers.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q41",
+    "question": "Which schedule lists the powers of the Local Level?",
+    "options": [
+      "Schedule 5",
+      "Schedule 6",
+      "Schedule 7",
+      "Schedule 8"
+    ],
+    "correctIndex": 2,
+    "explanation": "Schedule 7 lists local level powers.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q42",
+    "question": "Which article deals with the formation of the Judicial Service Commission?",
+    "options": [
+      "Article 150",
+      "Article 152",
+      "Article 154",
+      "Article 156"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 154 deals with Judicial Service Commission.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q43",
+    "question": "Which article guarantees Right to Privacy?",
+    "options": [
+      "Article 26",
+      "Article 28",
+      "Article 30",
+      "Article 32"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 28 guarantees Right to Privacy.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q44",
+    "question": "Which article guarantees Right to Religion?",
+    "options": [
+      "Article 24",
+      "Article 25",
+      "Article 26",
+      "Article 27"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 25 guarantees Right to Religion.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q45",
+    "question": "Which article deals with the oath of office by the President?",
+    "options": [
+      "Article 60",
+      "Article 62",
+      "Article 64",
+      "Article 66"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 62 deals with the President's oath.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q46",
+    "question": "Which article deals with the oath of office by the Prime Minister?",
+    "options": [
+      "Article 76",
+      "Article 78",
+      "Article 80",
+      "Article 82"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 78 deals with the PM's oath.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q47",
+    "question": "Which article deals with the oath of office by Judges?",
+    "options": [
+      "Article 135",
+      "Article 137",
+      "Article 139",
+      "Article 141"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 137 deals with judges' oath.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q48",
+    "question": "Which article guarantees Right against Torture?",
+    "options": [
+      "Article 27",
+      "Article 29",
+      "Article 31",
+      "Article 33"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 29 guarantees Right against Torture.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q49",
+    "question": "Which article guarantees Right against Preventive Detention?",
+    "options": [
+      "Article 28",
+      "Article 30",
+      "Article 32",
+      "Article 34"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 30 guarantees this right.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q50",
+    "question": "Which article guarantees Right against Exploitation?",
+    "options": [
+      "Article 27",
+      "Article 29",
+      "Article 31",
+      "Article 33"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 29 also includes Right against Exploitation.",
+    "subject": "CONSTITUTION"
+  }
+]

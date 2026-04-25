@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the normal range of body temperature?",
+    "options": [
+      "35-36\u00b0C",
+      "36.5-37.5\u00b0C",
+      "38-39\u00b0C",
+      "40-41\u00b0C"
+    ],
+    "correctIndex": 1,
+    "explanation": "Normal body temperature is 36.5-37.5\u00b0C (97.7-99.5\u00b0F).",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q2",
+    "question": "Which vitamin is produced when skin is exposed to sunlight?",
+    "options": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin E"
+    ],
+    "correctIndex": 2,
+    "explanation": "Skin produces Vitamin D when exposed to UVB radiation.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q3",
+    "question": "What is the normal adult pulse rate per minute?",
+    "options": [
+      "40-60",
+      "60-100",
+      "100-120",
+      "120-140"
+    ],
+    "correctIndex": 1,
+    "explanation": "Normal resting pulse rate is 60-100 beats per minute.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q4",
+    "question": "Which organ filters blood and produces urine?",
+    "options": [
+      "Liver",
+      "Heart",
+      "Kidney",
+      "Lung"
+    ],
+    "correctIndex": 2,
+    "explanation": "Kidneys filter blood and produce urine.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q5",
+    "question": "What does CPR stand for?",
+    "options": [
+      "Cardiopulmonary Resuscitation",
+      "Cardiac Pressure Release",
+      "Critical Patient Recovery",
+      "Cardiovascular Pulse Rate"
+    ],
+    "correctIndex": 0,
+    "explanation": "CPR = Cardiopulmonary Resuscitation",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q6",
+    "question": "Which blood type is the universal donor?",
+    "options": [
+      "A+",
+      "B+",
+      "AB+",
+      "O-"
+    ],
+    "correctIndex": 3,
+    "explanation": "O-negative is the universal donor blood type.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q7",
+    "question": "What is the normal blood pressure range?",
+    "options": [
+      "90/60 mmHg",
+      "120/80 mmHg",
+      "140/90 mmHg",
+      "160/100 mmHg"
+    ],
+    "correctIndex": 1,
+    "explanation": "Normal blood pressure is around 120/80 mmHg.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q8",
+    "question": "Which hormone regulates blood sugar levels?",
+    "options": [
+      "Insulin",
+      "Adrenaline",
+      "Thyroxine",
+      "Estrogen"
+    ],
+    "correctIndex": 0,
+    "explanation": "Insulin regulates blood glucose levels.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q9",
+    "question": "What is the first step in the nursing process?",
+    "options": [
+      "Planning",
+      "Assessment",
+      "Implementation",
+      "Evaluation"
+    ],
+    "correctIndex": 1,
+    "explanation": "The nursing process begins with assessment.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q10",
+    "question": "Which is the largest organ of the human body?",
+    "options": [
+      "Heart",
+      "Brain",
+      "Liver",
+      "Skin"
+    ],
+    "correctIndex": 3,
+    "explanation": "Skin is the largest organ of the human body.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q11",
+    "question": "What does BMI stand for?",
+    "options": [
+      "Body Mass Index",
+      "Body Measurement Indicator",
+      "Baseline Medical Index",
+      "Body Metabolism Index"
+    ],
+    "correctIndex": 0,
+    "explanation": "BMI = Body Mass Index",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q12",
+    "question": "Which disease is caused by a deficiency of Vitamin C?",
+    "options": [
+      "Rickets",
+      "Scurvy",
+      "Beriberi",
+      "Anemia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vitamin C deficiency causes scurvy.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q13",
+    "question": "What is the normal respiratory rate for an adult?",
+    "options": [
+      "8-12/min",
+      "12-20/min",
+      "20-30/min",
+      "30-40/min"
+    ],
+    "correctIndex": 1,
+    "explanation": "Normal adult respiratory rate is 12-20 breaths per minute.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q14",
+    "question": "Which vaccine is given to prevent tuberculosis?",
+    "options": [
+      "MMR",
+      "BCG",
+      "DPT",
+      "OPV"
+    ],
+    "correctIndex": 1,
+    "explanation": "BCG vaccine protects against tuberculosis.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q15",
+    "question": "What is the medical term for high blood pressure?",
+    "options": [
+      "Hypotension",
+      "Hypertension",
+      "Bradycardia",
+      "Tachycardia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hypertension = high blood pressure.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q16",
+    "question": "Which bone is also known as the thigh bone?",
+    "options": [
+      "Tibia",
+      "Fibula",
+      "Femur",
+      "Humerus"
+    ],
+    "correctIndex": 2,
+    "explanation": "Femur is the thigh bone, the longest bone in the body.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q17",
+    "question": "What is the primary function of red blood cells?",
+    "options": [
+      "Fight infection",
+      "Transport oxygen",
+      "Clot blood",
+      "Produce antibodies"
+    ],
+    "correctIndex": 1,
+    "explanation": "RBCs contain hemoglobin which transports oxygen.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q18",
+    "question": "Which nursing theorist developed the Environmental Theory?",
+    "options": [
+      "Florence Nightingale",
+      "Virginia Henderson",
+      "Dorothea Orem",
+      "Hildegard Peplau"
+    ],
+    "correctIndex": 0,
+    "explanation": "Florence Nightingale developed the Environmental Theory.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q19",
+    "question": "What is a nosocomial infection?",
+    "options": [
+      "Community-acquired infection",
+      "Hospital-acquired infection",
+      "Viral infection",
+      "Fungal infection"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nosocomial infections are acquired in healthcare settings.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q20",
+    "question": "Which electrolyte is most abundant in extracellular fluid?",
+    "options": [
+      "Potassium",
+      "Sodium",
+      "Calcium",
+      "Magnesium"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sodium is the major extracellular cation.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q21",
+    "question": "What is the pH range of normal urine?",
+    "options": [
+      "4.5-8.0",
+      "2.0-4.0",
+      "8.0-10.0",
+      "1.0-2.0"
+    ],
+    "correctIndex": 0,
+    "explanation": "Normal urine pH ranges from 4.5 to 8.0.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q22",
+    "question": "Which gland is known as the 'master gland'?",
+    "options": [
+      "Thyroid",
+      "Adrenal",
+      "Pituitary",
+      "Pancreas"
+    ],
+    "correctIndex": 2,
+    "explanation": "Pituitary gland controls other endocrine glands.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q23",
+    "question": "What is the correct hand hygiene duration recommended by WHO?",
+    "options": [
+      "10 seconds",
+      "20-30 seconds",
+      "1 minute",
+      "2 minutes"
+    ],
+    "correctIndex": 1,
+    "explanation": "WHO recommends 20-30 seconds of hand rubbing.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q24",
+    "question": "Which position is used for pelvic examination?",
+    "options": [
+      "Supine",
+      "Prone",
+      "Lithotomy",
+      "Trendelenburg"
+    ],
+    "correctIndex": 2,
+    "explanation": "Lithotomy position is used for pelvic examinations.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q25",
+    "question": "What does the term 'dyspnea' mean?",
+    "options": [
+      "Difficulty breathing",
+      "Excessive thirst",
+      "Chest pain",
+      "Rapid heartbeat"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dyspnea = difficulty breathing or shortness of breath.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q26",
+    "question": "Which virus causes AIDS?",
+    "options": [
+      "HBV",
+      "HCV",
+      "HIV",
+      "HPV"
+    ],
+    "correctIndex": 2,
+    "explanation": "HIV (Human Immunodeficiency Virus) causes AIDS.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q27",
+    "question": "What is the normal range for hemoglobin in adult males?",
+    "options": [
+      "8-10 g/dL",
+      "10-12 g/dL",
+      "13.5-17.5 g/dL",
+      "18-20 g/dL"
+    ],
+    "correctIndex": 2,
+    "explanation": "Normal Hb for adult males is 13.5-17.5 g/dL.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q28",
+    "question": "Which route of medication administration has the fastest effect?",
+    "options": [
+      "Oral",
+      "Intramuscular",
+      "Subcutaneous",
+      "Intravenous"
+    ],
+    "correctIndex": 3,
+    "explanation": "IV administration delivers drugs directly to bloodstream.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q29",
+    "question": "What is the purpose of the Papanicolaou (Pap) test?",
+    "options": [
+      "Detect breast cancer",
+      "Detect cervical cancer",
+      "Detect ovarian cancer",
+      "Detect uterine cancer"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pap smear detects cervical cancer and precancerous changes.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q30",
+    "question": "Which condition is characterized by high blood sugar?",
+    "options": [
+      "Hypoglycemia",
+      "Hyperglycemia",
+      "Hypertension",
+      "Hypotension"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hyperglycemia = high blood glucose levels.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q31",
+    "question": "What does RICE stand for in injury management?",
+    "options": [
+      "Rest, Ice, Compression, Elevation",
+      "Run, Ice, Compress, Exercise",
+      "Rest, Immobilize, Compress, Elevate",
+      "Rest, Ice, Cover, Evaluate"
+    ],
+    "correctIndex": 0,
+    "explanation": "RICE = Rest, Ice, Compression, Elevation",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q32",
+    "question": "Which cranial nerve is responsible for smell?",
+    "options": [
+      "Optic",
+      "Olfactory",
+      "Vagus",
+      "Facial"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cranial nerve I (Olfactory) controls smell.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q33",
+    "question": "What is the ideal storage temperature for vaccines?",
+    "options": [
+      "-20\u00b0C",
+      "2-8\u00b0C",
+      "15-25\u00b0C",
+      "30-37\u00b0C"
+    ],
+    "correctIndex": 1,
+    "explanation": "Most vaccines require cold chain storage at 2-8\u00b0C.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q34",
+    "question": "Which type of immunity is acquired through vaccination?",
+    "options": [
+      "Natural active",
+      "Natural passive",
+      "Artificial active",
+      "Artificial passive"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vaccines provide artificial active immunity.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q35",
+    "question": "What is the leading cause of maternal mortality in developing countries?",
+    "options": [
+      "Cancer",
+      "Hemorrhage",
+      "Diabetes",
+      "Accidents"
+    ],
+    "correctIndex": 1,
+    "explanation": "Postpartum hemorrhage is a leading cause of maternal death.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q36",
+    "question": "Which artery is commonly used to measure blood pressure?",
+    "options": [
+      "Carotid artery",
+      "Radial artery",
+      "Brachial artery",
+      "Femoral artery"
+    ],
+    "correctIndex": 2,
+    "explanation": "Brachial artery is used for blood pressure measurement.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q37",
+    "question": "What does TPR stand for in nursing documentation?",
+    "options": [
+      "Temperature, Pulse, Respiration",
+      "Total Patient Record",
+      "Treatment Plan Review",
+      "Test Progress Report"
+    ],
+    "correctIndex": 0,
+    "explanation": "TPR = Temperature, Pulse, Respiration",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q38",
+    "question": "Which mineral is essential for thyroid hormone production?",
+    "options": [
+      "Iron",
+      "Calcium",
+      "Iodine",
+      "Zinc"
+    ],
+    "correctIndex": 2,
+    "explanation": "Iodine is essential for thyroid hormone synthesis.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q39",
+    "question": "What is the correct compression-to-ventilation ratio in adult CPR?",
+    "options": [
+      "15:2",
+      "30:2",
+      "20:2",
+      "40:2"
+    ],
+    "correctIndex": 1,
+    "explanation": "Adult CPR uses 30 compressions to 2 ventilations.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q40",
+    "question": "Which layer of skin contains blood vessels and nerves?",
+    "options": [
+      "Epidermis",
+      "Dermis",
+      "Subcutaneous",
+      "Hypodermis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dermis contains blood vessels, nerves, and hair follicles.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q41",
+    "question": "What is the recommended daily water intake for adults?",
+    "options": [
+      "1 liter",
+      "1.5-2 liters",
+      "3-4 liters",
+      "5 liters"
+    ],
+    "correctIndex": 1,
+    "explanation": "Adults should drink about 1.5-2 liters of water daily.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q42",
+    "question": "Which bacteria causes peptic ulcers?",
+    "options": [
+      "E. coli",
+      "H. pylori",
+      "Salmonella",
+      "Streptococcus"
+    ],
+    "correctIndex": 1,
+    "explanation": "Helicobacter pylori causes most peptic ulcers.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q43",
+    "question": "What is orthostatic hypotension?",
+    "options": [
+      "High blood pressure when lying down",
+      "Low blood pressure when standing up",
+      "Normal blood pressure",
+      "High heart rate"
+    ],
+    "correctIndex": 1,
+    "explanation": "Orthostatic hypotension is BP drop upon standing.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q44",
+    "question": "Which organ produces bile?",
+    "options": [
+      "Pancreas",
+      "Gallbladder",
+      "Liver",
+      "Stomach"
+    ],
+    "correctIndex": 2,
+    "explanation": "Liver produces bile; gallbladder stores it.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q45",
+    "question": "What is the primary goal of palliative care?",
+    "options": [
+      "Cure the disease",
+      "Provide comfort and quality of life",
+      "Perform surgery",
+      "Administer chemotherapy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Palliative care focuses on comfort and quality of life.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q46",
+    "question": "Which vitamin is essential for blood clotting?",
+    "options": [
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin K",
+      "Vitamin E"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vitamin K is essential for blood clotting.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q47",
+    "question": "What is the term for low white blood cell count?",
+    "options": [
+      "Anemia",
+      "Leukopenia",
+      "Thrombocytopenia",
+      "Polycythemia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Leukopenia = low WBC count.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q48",
+    "question": "Which gas is primarily responsible for the greenhouse effect?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Hydrogen"
+    ],
+    "correctIndex": 2,
+    "explanation": "CO2 is the main greenhouse gas.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q49",
+    "question": "What is the normal duration of a menstrual cycle?",
+    "options": [
+      "14 days",
+      "21-35 days",
+      "45 days",
+      "60 days"
+    ],
+    "correctIndex": 1,
+    "explanation": "Normal menstrual cycle is 21-35 days.",
+    "subject": "NURSING"
+  },
+  {
+    "id": "q50",
+    "question": "Which professional body regulates nursing in Nepal?",
+    "options": [
+      "Nepal Medical Council",
+      "Nepal Nursing Council",
+      "CTEVT",
+      "NMA"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nepal Nursing Council (NNC) regulates nursing practice.",
+    "subject": "NURSING"
+  }
+]

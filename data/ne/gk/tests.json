@@ -21,6 +21,14 @@
     "questionCount": 50,
     "timeLimit": 45,
     "difficulty": "Hard",
-    "locked": true
+    "locked": false
+  },
+  {
+    "id": "set4",
+    "title": "\u0938\u0947\u091f \u096a: \u0938\u092e\u0938\u093e\u092e\u092f\u093f\u0915 \u0935\u093f\u0937\u092f \u0930 \u0938\u0902\u0935\u093f\u0927\u093e\u0928",
+    "questionCount": 50,
+    "timeLimit": 45,
+    "difficulty": "Medium",
+    "locked": false
   }
 ]

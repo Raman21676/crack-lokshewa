@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "question": "The VLSI was used in .......... generation computers.",
+    "options": [
+      "First",
+      "Second",
+      "Third",
+      "Fourth"
+    ],
+    "correctIndex": 3,
+    "subject": "Computer Fundamentals",
+    "explanation": "VLSI (Very Large Scale Integration) was used in fourth generation computers."
+  },
+  {
+    "id": 2,
+    "question": "Which symbol is used to represent group of any characters?",
+    "options": [
+      "?",
+      "#",
+      "*",
+      "@"
+    ],
+    "correctIndex": 2,
+    "subject": "Computer Fundamentals",
+    "explanation": "Asterisk (*) represents any group of characters."
+  },
+  {
+    "id": 3,
+    "question": "When was the CRAY-I super computer built?",
+    "options": [
+      "1960",
+      "1976",
+      "1980",
+      "1985"
+    ],
+    "correctIndex": 1,
+    "subject": "Computer History",
+    "explanation": "CRAY-I supercomputer was built in 1976."
+  },
+  {
+    "id": 4,
+    "question": "Which switch will be used in Dir to see a screenful contents of disk at a time?",
+    "options": [
+      "/p",
+      " /.w",
+      "/s",
+      "/b"
+    ],
+    "correctIndex": 0,
+    "subject": "DOS Commands",
+    "explanation": "/p switch shows one screen at a time."
+  },
+  {
+    "id": 5,
+    "question": "When was the P4 computer introduced?",
+    "options": [
+      "1980",
+      "1990",
+      "2000",
+      "2004"
+    ],
+    "correctIndex": 2,
+    "subject": "Computer History",
+    "explanation": "Pentium 4 was introduced in 2000."
+  },
+  {
+    "id": 6,
+    "question": "Which is not invalid user file name?",
+    "options": [
+      "Raj.exe",
+      "Ram.txt",
+      "Kumar.sys",
+      "Rajan.com"
+    ],
+    "correctIndex": 1,
+    "subject": "Operating System",
+    "explanation": "Ram.txt is a valid filename."
+  },
+  {
+    "id": 7,
+    "question": "The memory serves as a buffer between processor and memory is..........",
+    "options": [
+      "Virtual memory",
+      "Flash memory",
+      "Cache memory",
+      "RAM"
+    ],
+    "correctIndex": 2,
+    "subject": "Computer Memory",
+    "explanation": "Cache memory acts as a buffer between CPU and main memory."
+  },
+  {
+    "id": 8,
+    "question": "Which is not valid alphabet for attribute setting?",
+    "options": [
+      "R",
+      "S",
+      "H",
+      "C"
+    ],
+    "correctIndex": 3,
+    "subject": "DOS Commands",
+    "explanation": "C is not a valid attribute letter (R=Read-only, S=System, H=Hidden)."
+  },
+  {
+    "id": 9,
+    "question": "The memory which allocate space for DOS and application is called..........",
+    "options": [
+      "Expanded memory",
+      "Cache memory",
+      "Virtual memory",
+      "Conventional memory"
+    ],
+    "correctIndex": 3,
+    "subject": "Computer Memory",
+    "explanation": "Conventional memory is used by DOS and applications."
+  },
+  {
+    "id": 10,
+    "question": "Which will not create a sub directory on disk?",
+    "options": [
+      "Mkdir",
+      "Md",
+      "Chdir",
+      "All of the above"
+    ],
+    "correctIndex": 2,
+    "subject": "DOS Commands",
+    "explanation": "Chdir (cd) only changes directory, does not create one."
+  },
+  {
+    "id": 11,
+    "question": "The data density of tape is measured in..........",
+    "options": [
+      "Bits per inch",
+      "Bytes per inch",
+      "Record per inch",
+      "None"
+    ],
+    "correctIndex": 0,
+    "subject": "Storage Devices",
+    "explanation": "Tape density is measured in bits per inch (BPI)."
+  },
+  {
+    "id": 12,
+    "question": "The command sorts the fragments of file and enhanced the performance of disk is..........",
+    "options": [
+      "Scandisk",
+      "Chkdsk",
+      "Defrag",
+      "Sys"
+    ],
+    "correctIndex": 2,
+    "subject": "DOS Commands",
+    "explanation": "Defrag defragments files to improve disk performance."
+  },
+  {
+    "id": 13,
+    "question": "Which directory can not be created by MD command?",
+    "options": [
+      "Sub directory",
+      "Root Directory",
+      "Child Directory",
+      "None"
+    ],
+    "correctIndex": 1,
+    "subject": "DOS Commands",
+    "explanation": "Root directory already exists and cannot be created by MD."
+  },
+  {
+    "id": 14,
+    "question": "Which is the system software?",
+    "options": [
+      "Operating system",
+      "Compiler",
+      "Utilities",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "subject": "System Software",
+    "explanation": "Operating system, compiler and utilities are all system software."
+  },
+  {
+    "id": 15,
+    "question": "The command allows you to show the status of disk.",
+    "options": [
+      "Vol",
+      "Diskcomp",
+      "Chkdsk",
+      "Defrag"
+    ],
+    "correctIndex": 2,
+    "subject": "DOS Commands",
+    "explanation": "Chkdsk checks disk status and file system integrity."
+  },
+  {
+    "id": 16,
+    "question": "The most of the input devices consist .......... for signal conversion.",
+    "options": [
+      "Encoder",
+      "Decoder",
+      "Modem",
+      "None"
+    ],
+    "correctIndex": 0,
+    "subject": "Input Devices",
+    "explanation": "Input devices use encoders to convert signals."
+  },
+  {
+    "id": 17,
+    "question": "What will be the command if you want to copy ra.doc file that resides in the floppy disk into work sub-directory of hard-disk while you are in c-prompt.",
+    "options": [
+      "Copy c:/ra.doc a:/work",
+      "Copy a:/ra.doc c:/work",
+      "Copy ra.doc c:/work",
+      "Copy c:/work a:/ra.doc"
+    ],
+    "correctIndex": 1,
+    "subject": "DOS Commands",
+    "explanation": "Copy from source a:/ra.doc to destination c:/work."
+  },
+  {
+    "id": 18,
+    "question": "The latest 16-bit Unicode can represent the .......... symbols.",
+    "options": [
+      "256",
+      "32567",
+      "40000",
+      "65536"
+    ],
+    "correctIndex": 3,
+    "subject": "Computer Fundamentals",
+    "explanation": "16-bit Unicode can represent 2^16 = 65536 symbols."
+  },
+  {
+    "id": 19,
+    "question": "The system files are resides in the .......... after booting process.",
+    "options": [
+      "ROM",
+      "Processor",
+      "RAM",
+      "Hard disk"
+    ],
+    "correctIndex": 2,
+    "subject": "Computer Memory",
+    "explanation": "System files are loaded into RAM after booting."
+  },
+  {
+    "id": 20,
+    "question": "The input device is used for examination paper.",
+    "options": [
+      "OMR",
+      "Light pen",
+      "OCR",
+      "MICR"
+    ],
+    "correctIndex": 0,
+    "subject": "Input Devices",
+    "explanation": "OMR (Optical Mark Recognition) is used for reading examination papers."
+  },
+  {
+    "id": 21,
+    "question": "The break checking command is..........",
+    "options": [
+      "Ctrl+C",
+      "Ctrl+B",
+      "Ctrl+Z",
+      "All of the above"
+    ],
+    "correctIndex": 0,
+    "subject": "DOS Commands",
+    "explanation": "Ctrl+C is used to break/terminate a running command."
+  },
+  {
+    "id": 22,
+    "question": "The full form of MICR is..........",
+    "options": [
+      "Magnetic Ink Character Reader",
+      "Magnetic Ink Character Recognition",
+      "Magnetic Ink Coding Reader",
+      "Magnet Ink Character Recognition"
+    ],
+    "correctIndex": 1,
+    "subject": "Input Devices",
+    "explanation": "MICR = Magnetic Ink Character Recognition."
+  },
+  {
+    "id": 23,
+    "question": "The .......... enables the user to load device drivers and programs into upper memory area while running DOS in 386 or higher microprocessor.",
+    "options": [
+      "Himem.sys",
+      "Emm386.exe",
+      "Config.sys",
+      "All of the above"
+    ],
+    "correctIndex": 1,
+    "subject": "DOS Configuration",
+    "explanation": "Emm386.exe manages extended memory and upper memory blocks."
+  },
+  {
+    "id": 24,
+    "question": "Which one is fast accessible?",
+    "options": [
+      "RAM",
+      "Register",
+      "Hard disk",
+      "Tape"
+    ],
+    "correctIndex": 1,
+    "subject": "Computer Memory",
+    "explanation": "CPU registers are the fastest accessible memory."
+  },
+  {
+    "id": 25,
+    "question": "The command will display the history of operating system.",
+    "options": [
+      "Chkdsk",
+      "Mem",
+      "Vol",
+      "Ver"
+    ],
+    "correctIndex": 3,
+    "subject": "DOS Commands",
+    "explanation": "Ver command displays the DOS version information."
+  },
+  {
+    "id": 26,
+    "question": "The branch of science that deals with helping machine to solve complex problems like human fashion.",
+    "options": [
+      "Genetic Science",
+      "Artificial Intelligence",
+      "Computer Science",
+      "All of the above"
+    ],
+    "correctIndex": 1,
+    "subject": "Computer Science",
+    "explanation": "Artificial Intelligence deals with machine problem-solving like humans."
+  },
+  {
+    "id": 27,
+    "question": "The Highest digit symbol of hexadecimal is..........",
+    "options": [
+      "9",
+      "16",
+      "F",
+      "E"
+    ],
+    "correctIndex": 2,
+    "subject": "Number Systems",
+    "explanation": "Hexadecimal digits go from 0-9 and A-F; F is the highest (15)."
+  },
+  {
+    "id": 28,
+    "question": "The data transfer rate of USB cable is measured in terms of .......... bit per second.",
+    "options": [
+      "Mega",
+      "Kilo",
+      "Giga",
+      "Milli"
+    ],
+    "correctIndex": 0,
+    "subject": "Computer Hardware",
+    "explanation": "USB data transfer rate is measured in Megabits per second (Mbps)."
+  },
+  {
+    "id": 29,
+    "question": "Which is an internal command?",
+    "options": [
+      "Label",
+      "Mem",
+      "Path",
+      "Sys"
+    ],
+    "correctIndex": 2,
+    "subject": "DOS Commands",
+    "explanation": "Path is an internal DOS command."
+  },
+  {
+    "id": 30,
+    "question": "The output device is used for meeting and conference.",
+    "options": [
+      "Monitor",
+      "Printer",
+      "Plotter",
+      "LCD projector"
+    ],
+    "correctIndex": 3,
+    "subject": "Output Devices",
+    "explanation": "LCD projector is used for presentations in meetings and conferences."
+  },
+  {
+    "id": 31,
+    "question": "The system software which translates an instruction at a time from source program and execute it.",
+    "options": [
+      "Translator",
+      "Compiler",
+      "Interpreter",
+      "Assembler"
+    ],
+    "correctIndex": 2,
+    "subject": "System Software",
+    "explanation": "Interpreter translates and executes one instruction at a time."
+  },
+  {
+    "id": 32,
+    "question": "The multi-user operating system is..........",
+    "options": [
+      "Linux",
+      "Unix",
+      "Windows 2000",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "subject": "Operating System",
+    "explanation": "Linux, Unix and Windows 2000 all support multiple users."
+  },
+  {
+    "id": 33,
+    "question": "Which is not function of operating system?",
+    "options": [
+      "Managing application",
+      "Detecting errors",
+      "Managing memory and files",
+      "Detecting virus"
+    ],
+    "correctIndex": 3,
+    "subject": "Operating System",
+    "explanation": "Detecting virus is the function of antivirus software, not the OS."
+  },
+  {
+    "id": 34,
+    "question": "The software are made available free of charge on trial based software are called..........",
+    "options": [
+      "Firmware",
+      "Shareware",
+      "Application software",
+      "System Software"
+    ],
+    "correctIndex": 1,
+    "subject": "Software Types",
+    "explanation": "Shareware is trial-based software available for free initially."
+  },
+  {
+    "id": 35,
+    "question": "When was MS-Windows introduced?",
+    "options": [
+      "1975",
+      "1980",
+      "1985",
+      "1995"
+    ],
+    "correctIndex": 2,
+    "subject": "Computer History",
+    "explanation": "Microsoft Windows was introduced in 1985 (Windows 1.0)."
+  },
+  {
+    "id": 36,
+    "question": "The second generation computer is..........",
+    "options": [
+      "IBM-702",
+      "IBM-1400",
+      "IBM system/360",
+      "IBM system/370"
+    ],
+    "correctIndex": 1,
+    "subject": "Computer History",
+    "explanation": "IBM-1400 series belongs to second generation computers."
+  },
+  {
+    "id": 37,
+    "question": "Which is the backup storage device?",
+    "options": [
+      "ROM",
+      "RAM",
+      "Floppy",
+      "Register"
+    ],
+    "correctIndex": 2,
+    "subject": "Storage Devices",
+    "explanation": "Floppy disk is a backup/storage device."
+  },
+  {
+    "id": 38,
+    "question": "The command fixes the errors of disk.",
+    "options": [
+      "ErrorFix",
+      "Scandisk",
+      "Chkdsk",
+      "Defrag"
+    ],
+    "correctIndex": 1,
+    "subject": "DOS Commands",
+    "explanation": "Scandisk checks and fixes disk errors."
+  },
+  {
+    "id": 39,
+    "question": "The command is used to remove sub-directory which contains some files.",
+    "options": [
+      "RD",
+      "RMDir",
+      "Deltree",
+      "Erase"
+    ],
+    "correctIndex": 2,
+    "subject": "DOS Commands",
+    "explanation": "Deltree removes directories including their contents."
+  },
+  {
+    "id": 40,
+    "question": "The high speed and capable to support large number of devices is..........",
+    "options": [
+      "USB",
+      "Parallel",
+      "Serial",
+      "SCSI"
+    ],
+    "correctIndex": 0,
+    "subject": "Computer Hardware",
+    "explanation": "USB supports high speed and multiple devices."
+  },
+  {
+    "id": 41,
+    "question": "Which command is used to go to parent directory from its sub-directory?",
+    "options": [
+      "Cd",
+      "CD/",
+      "Cd..",
+      "None"
+    ],
+    "correctIndex": 2,
+    "subject": "DOS Commands",
+    "explanation": "Cd.. moves to the parent directory."
+  },
+  {
+    "id": 42,
+    "question": "The microprocessor contains the millions of..........",
+    "options": [
+      "Registers",
+      "Transistors",
+      "Capacitors",
+      "All of the above"
+    ],
+    "correctIndex": 1,
+    "subject": "Computer Hardware",
+    "explanation": "Modern microprocessors contain millions of transistors."
+  },
+  {
+    "id": 43,
+    "question": "Which is the characteristic of computer?",
+    "options": [
+      "Accuracy",
+      "Reliability",
+      "Speed",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "subject": "Computer Fundamentals",
+    "explanation": "Accuracy, reliability and speed are all characteristics of computers."
+  },
+  {
+    "id": 44,
+    "question": "The term Gigabytes refers to..........",
+    "options": [
+      "1024 bytes",
+      "1024 kilobytes",
+      "1024 megabytes",
+      "1024 megabits"
+    ],
+    "correctIndex": 2,
+    "subject": "Computer Memory",
+    "explanation": "1 GB = 1024 MB (megabytes)."
+  },
+  {
+    "id": 45,
+    "question": "The assembly language uses the..........",
+    "options": [
+      "Machine code",
+      "Rough code",
+      "Human code",
+      "Mnemonic code"
+    ],
+    "correctIndex": 3,
+    "subject": "Programming",
+    "explanation": "Assembly language uses mnemonic codes."
+  },
+  {
+    "id": 46,
+    "question": "The video display adapter does not support..........",
+    "options": [
+      "4-bit",
+      "8-bit",
+      "12-bit",
+      "16-bit"
+    ],
+    "correctIndex": 2,
+    "subject": "Computer Hardware",
+    "explanation": "12-bit is not a standard video display adapter mode."
+  },
+  {
+    "id": 47,
+    "question": "Which is not input device?",
+    "options": [
+      "Digitizer",
+      "Data glove",
+      "Sensors",
+      "Voice synthesis"
+    ],
+    "correctIndex": 3,
+    "subject": "Input/Output Devices",
+    "explanation": "Voice synthesis is an output device, not input."
+  },
+  {
+    "id": 48,
+    "question": "The most popular keyboard type is..........",
+    "options": [
+      "QWERTY",
+      "PQRSTY",
+      "Ergonomic",
+      "IBM"
+    ],
+    "correctIndex": 0,
+    "subject": "Input Devices",
+    "explanation": "QWERTY is the most popular keyboard layout."
+  },
+  {
+    "id": 49,
+    "question": "The permanent memory which exhibits characteristics of RAM is..........",
+    "options": [
+      "Cache memory",
+      "Virtual memory",
+      "Base memory",
+      "Internal memory"
+    ],
+    "correctIndex": 1,
+    "subject": "Computer Memory",
+    "explanation": "Virtual memory uses disk space like RAM."
+  },
+  {
+    "id": 50,
+    "question": "Which is not true for speed of CPU?",
+    "options": [
+      "System Clock rate",
+      "Bus width",
+      "Word length",
+      "Price of CPU"
+    ],
+    "correctIndex": 3,
+    "subject": "Computer Hardware",
+    "explanation": "Price of CPU does not determine its speed."
+  }
+]

@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "What does CPU stand for?",
+    "options": [
+      "Central Processing Unit",
+      "Computer Personal Unit",
+      "Central Process Unit",
+      "Central Processor Unit"
+    ],
+    "correctIndex": 0,
+    "explanation": "CPU = Central Processing Unit",
+    "subject": "IT"
+  },
+  {
+    "id": "q2",
+    "question": "Which of the following is NOT an operating system?",
+    "options": [
+      "Linux",
+      "Windows",
+      "Oracle",
+      "macOS"
+    ],
+    "correctIndex": 2,
+    "explanation": "Oracle is a database management system, not an OS.",
+    "subject": "IT"
+  },
+  {
+    "id": "q3",
+    "question": "What is the full form of RAM?",
+    "options": [
+      "Random Access Memory",
+      "Read Access Memory",
+      "Random Allocation Memory",
+      "Read Allocation Memory"
+    ],
+    "correctIndex": 0,
+    "explanation": "RAM = Random Access Memory",
+    "subject": "IT"
+  },
+  {
+    "id": "q4",
+    "question": "Which programming language is primarily used for Android app development?",
+    "options": [
+      "Swift",
+      "Kotlin",
+      "C#",
+      "Ruby"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kotlin is the primary language for Android development.",
+    "subject": "IT"
+  },
+  {
+    "id": "q5",
+    "question": "What does HTTP stand for?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "HyperText Transmission Protocol",
+      "HighText Transfer Protocol",
+      "HyperText Transport Protocol"
+    ],
+    "correctIndex": 0,
+    "explanation": "HTTP = HyperText Transfer Protocol",
+    "subject": "IT"
+  },
+  {
+    "id": "q6",
+    "question": "Which of the following is a valid IP address?",
+    "options": [
+      "192.168.1.1",
+      "256.100.1.1",
+      "192.168.1",
+      "192.168.1.256"
+    ],
+    "correctIndex": 0,
+    "explanation": "IP addresses use octets 0-255.",
+    "subject": "IT"
+  },
+  {
+    "id": "q7",
+    "question": "What is the function of a router?",
+    "options": [
+      "Store files",
+      "Route network traffic",
+      "Display output",
+      "Process data"
+    ],
+    "correctIndex": 1,
+    "explanation": "Routers forward data packets between computer networks.",
+    "subject": "IT"
+  },
+  {
+    "id": "q8",
+    "question": "Which key combination is used to copy selected text?",
+    "options": [
+      "Ctrl+X",
+      "Ctrl+C",
+      "Ctrl+V",
+      "Ctrl+P"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ctrl+C copies selected content.",
+    "subject": "IT"
+  },
+  {
+    "id": "q9",
+    "question": "What is phishing?",
+    "options": [
+      "A type of fish",
+      "A cyber attack using deceptive emails",
+      "A programming language",
+      "A networking protocol"
+    ],
+    "correctIndex": 1,
+    "explanation": "Phishing is a cyber attack that uses disguised emails to steal data.",
+    "subject": "IT"
+  },
+  {
+    "id": "q10",
+    "question": "Which company developed the Windows operating system?",
+    "options": [
+      "Apple",
+      "Microsoft",
+      "IBM",
+      "Google"
+    ],
+    "correctIndex": 1,
+    "explanation": "Microsoft developed Windows.",
+    "subject": "IT"
+  },
+  {
+    "id": "q11",
+    "question": "What does SQL stand for?",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "System Query Language",
+      "Standard Query Language"
+    ],
+    "correctIndex": 0,
+    "explanation": "SQL = Structured Query Language",
+    "subject": "IT"
+  },
+  {
+    "id": "q12",
+    "question": "Which of the following is an input device?",
+    "options": [
+      "Monitor",
+      "Printer",
+      "Keyboard",
+      "Speaker"
+    ],
+    "correctIndex": 2,
+    "explanation": "Keyboard is an input device.",
+    "subject": "IT"
+  },
+  {
+    "id": "q13",
+    "question": "What is the maximum value of a single byte?",
+    "options": [
+      "128",
+      "255",
+      "256",
+      "512"
+    ],
+    "correctIndex": 1,
+    "explanation": "A byte (8 bits) can represent 0-255 = 256 values.",
+    "subject": "IT"
+  },
+  {
+    "id": "q14",
+    "question": "Which protocol is used to send emails?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "SMTP",
+      "TCP"
+    ],
+    "correctIndex": 2,
+    "explanation": "SMTP = Simple Mail Transfer Protocol",
+    "subject": "IT"
+  },
+  {
+    "id": "q15",
+    "question": "What is a firewall?",
+    "options": [
+      "A wall made of fire",
+      "A security system for networks",
+      "A type of virus",
+      "A programming tool"
+    ],
+    "correctIndex": 1,
+    "explanation": "Firewalls monitor and control network traffic.",
+    "subject": "IT"
+  },
+  {
+    "id": "q16",
+    "question": "Which of the following is a type of malware?",
+    "options": [
+      "Firewall",
+      "Antivirus",
+      "Ransomware",
+      "Router"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ransomware is malicious software that encrypts files.",
+    "subject": "IT"
+  },
+  {
+    "id": "q17",
+    "question": "What does GUI stand for?",
+    "options": [
+      "General User Interface",
+      "Graphical User Interface",
+      "Global User Interface",
+      "Guided User Interface"
+    ],
+    "correctIndex": 1,
+    "explanation": "GUI = Graphical User Interface",
+    "subject": "IT"
+  },
+  {
+    "id": "q18",
+    "question": "Which storage device has no moving parts?",
+    "options": [
+      "HDD",
+      "CD-ROM",
+      "SSD",
+      "DVD"
+    ],
+    "correctIndex": 2,
+    "explanation": "SSD = Solid State Drive, no moving parts.",
+    "subject": "IT"
+  },
+  {
+    "id": "q19",
+    "question": "What is the binary equivalent of decimal 5?",
+    "options": [
+      "100",
+      "101",
+      "110",
+      "111"
+    ],
+    "correctIndex": 1,
+    "explanation": "5 in decimal = 101 in binary.",
+    "subject": "IT"
+  },
+  {
+    "id": "q20",
+    "question": "Which of the following is a relational database?",
+    "options": [
+      "MongoDB",
+      "MySQL",
+      "Redis",
+      "Cassandra"
+    ],
+    "correctIndex": 1,
+    "explanation": "MySQL is a relational database management system.",
+    "subject": "IT"
+  },
+  {
+    "id": "q21",
+    "question": "What does VPN stand for?",
+    "options": [
+      "Virtual Public Network",
+      "Virtual Private Network",
+      "Very Private Network",
+      "Virtual Protocol Network"
+    ],
+    "correctIndex": 1,
+    "explanation": "VPN = Virtual Private Network",
+    "subject": "IT"
+  },
+  {
+    "id": "q22",
+    "question": "Which cloud service provider is NOT among the big three?",
+    "options": [
+      "AWS",
+      "Azure",
+      "Google Cloud",
+      "Oracle Cloud"
+    ],
+    "correctIndex": 3,
+    "explanation": "AWS, Azure, and Google Cloud are the big three.",
+    "subject": "IT"
+  },
+  {
+    "id": "q23",
+    "question": "What is the purpose of a DNS server?",
+    "options": [
+      "Store files",
+      "Translate domain names to IP addresses",
+      "Send emails",
+      "Compress data"
+    ],
+    "correctIndex": 1,
+    "explanation": "DNS translates human-readable domain names to IP addresses.",
+    "subject": "IT"
+  },
+  {
+    "id": "q24",
+    "question": "Which of the following is an output device?",
+    "options": [
+      "Scanner",
+      "Microphone",
+      "Monitor",
+      "Webcam"
+    ],
+    "correctIndex": 2,
+    "explanation": "Monitor displays output.",
+    "subject": "IT"
+  },
+  {
+    "id": "q25",
+    "question": "What is the full form of PDF?",
+    "options": [
+      "Portable Document Format",
+      "Personal Document Format",
+      "Printable Document Format",
+      "Public Document Format"
+    ],
+    "correctIndex": 0,
+    "explanation": "PDF = Portable Document Format",
+    "subject": "IT"
+  },
+  {
+    "id": "q26",
+    "question": "Which programming language is known as the 'language of the web'?",
+    "options": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "C++"
+    ],
+    "correctIndex": 2,
+    "explanation": "JavaScript is the primary scripting language for web browsers.",
+    "subject": "IT"
+  },
+  {
+    "id": "q27",
+    "question": "What is two-factor authentication (2FA)?",
+    "options": [
+      "Using two passwords",
+      "Verifying identity with two methods",
+      "Logging in twice",
+      "Using two devices"
+    ],
+    "correctIndex": 1,
+    "explanation": "2FA requires two different verification methods.",
+    "subject": "IT"
+  },
+  {
+    "id": "q28",
+    "question": "Which of the following is NOT a version of Windows?",
+    "options": [
+      "Windows 10",
+      "Windows XP",
+      "Windows Vista",
+      "Windows Nova"
+    ],
+    "correctIndex": 3,
+    "explanation": "Windows Nova does not exist.",
+    "subject": "IT"
+  },
+  {
+    "id": "q29",
+    "question": "What is the main function of the ALU in a CPU?",
+    "options": [
+      "Store data",
+      "Perform arithmetic and logical operations",
+      "Control data flow",
+      "Manage memory"
+    ],
+    "correctIndex": 1,
+    "explanation": "ALU = Arithmetic Logic Unit",
+    "subject": "IT"
+  },
+  {
+    "id": "q30",
+    "question": "Which file extension indicates a Python script?",
+    "options": [
+      ".java",
+      ".py",
+      ".cpp",
+      ".js"
+    ],
+    "correctIndex": 1,
+    "explanation": "Python files use .py extension.",
+    "subject": "IT"
+  },
+  {
+    "id": "q31",
+    "question": "What is a DDoS attack?",
+    "options": [
+      "Data deletion attack",
+      "Distributed Denial of Service attack",
+      "Direct Database access attack",
+      "Digital Document sabotage"
+    ],
+    "correctIndex": 1,
+    "explanation": "DDoS floods a server with traffic to make it unavailable.",
+    "subject": "IT"
+  },
+  {
+    "id": "q32",
+    "question": "Which of the following is a spreadsheet software?",
+    "options": [
+      "Word",
+      "PowerPoint",
+      "Excel",
+      "Access"
+    ],
+    "correctIndex": 2,
+    "explanation": "Microsoft Excel is spreadsheet software.",
+    "subject": "IT"
+  },
+  {
+    "id": "q33",
+    "question": "What does BIOS stand for?",
+    "options": [
+      "Basic Input Output System",
+      "Binary Input Output System",
+      "Basic Internal Operating System",
+      "Built-in Operating System"
+    ],
+    "correctIndex": 0,
+    "explanation": "BIOS = Basic Input Output System",
+    "subject": "IT"
+  },
+  {
+    "id": "q34",
+    "question": "Which topology connects all devices to a central hub?",
+    "options": [
+      "Bus",
+      "Ring",
+      "Star",
+      "Mesh"
+    ],
+    "correctIndex": 2,
+    "explanation": "Star topology uses a central hub/switch.",
+    "subject": "IT"
+  },
+  {
+    "id": "q35",
+    "question": "What is the default port for HTTPS?",
+    "options": [
+      "80",
+      "21",
+      "443",
+      "25"
+    ],
+    "correctIndex": 2,
+    "explanation": "HTTPS uses port 443.",
+    "subject": "IT"
+  },
+  {
+    "id": "q36",
+    "question": "Which of the following is an open-source operating system?",
+    "options": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "iOS"
+    ],
+    "correctIndex": 2,
+    "explanation": "Linux is open-source.",
+    "subject": "IT"
+  },
+  {
+    "id": "q37",
+    "question": "What is the purpose of a cache memory?",
+    "options": [
+      "Permanent storage",
+      "Temporary high-speed storage",
+      "Backup storage",
+      "External storage"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cache stores frequently accessed data for fast retrieval.",
+    "subject": "IT"
+  },
+  {
+    "id": "q38",
+    "question": "Which of the following is a social engineering attack?",
+    "options": [
+      "DDoS",
+      "Phishing",
+      "SQL Injection",
+      "Man-in-the-middle"
+    ],
+    "correctIndex": 1,
+    "explanation": "Phishing manipulates people into revealing information.",
+    "subject": "IT"
+  },
+  {
+    "id": "q39",
+    "question": "What does USB stand for?",
+    "options": [
+      "Universal Serial Bus",
+      "Universal System Bus",
+      "Unified Serial Bus",
+      "Universal Storage Bus"
+    ],
+    "correctIndex": 0,
+    "explanation": "USB = Universal Serial Bus",
+    "subject": "IT"
+  },
+  {
+    "id": "q40",
+    "question": "Which database operation is used to retrieve data?",
+    "options": [
+      "INSERT",
+      "UPDATE",
+      "DELETE",
+      "SELECT"
+    ],
+    "correctIndex": 3,
+    "explanation": "SELECT retrieves data from a database.",
+    "subject": "IT"
+  },
+  {
+    "id": "q41",
+    "question": "What is the primary purpose of an antivirus software?",
+    "options": [
+      "Speed up computer",
+      "Detect and remove malware",
+      "Compress files",
+      "Manage passwords"
+    ],
+    "correctIndex": 1,
+    "explanation": "Antivirus detects and removes malicious software.",
+    "subject": "IT"
+  },
+  {
+    "id": "q42",
+    "question": "Which of the following is a web browser?",
+    "options": [
+      "Apache",
+      "Nginx",
+      "Chrome",
+      "MySQL"
+    ],
+    "correctIndex": 2,
+    "explanation": "Google Chrome is a web browser.",
+    "subject": "IT"
+  },
+  {
+    "id": "q43",
+    "question": "What is the binary number 1010 in decimal?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correctIndex": 2,
+    "explanation": "1010 binary = 8+2 = 10 decimal.",
+    "subject": "IT"
+  },
+  {
+    "id": "q44",
+    "question": "Which layer of the OSI model handles routing?",
+    "options": [
+      "Transport",
+      "Network",
+      "Data Link",
+      "Session"
+    ],
+    "correctIndex": 1,
+    "explanation": "Network layer (Layer 3) handles routing.",
+    "subject": "IT"
+  },
+  {
+    "id": "q45",
+    "question": "What is the full form of HTML?",
+    "options": [
+      "HyperText Markup Language",
+      "HighText Markup Language",
+      "HyperText Makeup Language",
+      "HyperTransfer Markup Language"
+    ],
+    "correctIndex": 0,
+    "explanation": "HTML = HyperText Markup Language",
+    "subject": "IT"
+  },
+  {
+    "id": "q46",
+    "question": "Which of the following is a presentation software?",
+    "options": [
+      "Excel",
+      "Word",
+      "PowerPoint",
+      "Access"
+    ],
+    "correctIndex": 2,
+    "explanation": "Microsoft PowerPoint is presentation software.",
+    "subject": "IT"
+  },
+  {
+    "id": "q47",
+    "question": "What is a Trojan horse in computing?",
+    "options": [
+      "A hardware device",
+      "Malware disguised as legitimate software",
+      "A network protocol",
+      "A type of firewall"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trojan horses appear legitimate but contain malware.",
+    "subject": "IT"
+  },
+  {
+    "id": "q48",
+    "question": "Which of the following is a primary key characteristic?",
+    "options": [
+      "Can be NULL",
+      "Must be unique",
+      "Can be duplicate",
+      "Is optional"
+    ],
+    "correctIndex": 1,
+    "explanation": "Primary keys must uniquely identify each record.",
+    "subject": "IT"
+  },
+  {
+    "id": "q49",
+    "question": "What does IoT stand for?",
+    "options": [
+      "Internet of Things",
+      "Internet of Technology",
+      "Intranet of Things",
+      "Internet of Tools"
+    ],
+    "correctIndex": 0,
+    "explanation": "IoT = Internet of Things",
+    "subject": "IT"
+  },
+  {
+    "id": "q50",
+    "question": "Which of the following is a valid email format?",
+    "options": [
+      "user@domain",
+      "user.domain.com",
+      "user@domain.com",
+      "user@.com"
+    ],
+    "correctIndex": 2,
+    "explanation": "user@domain.com is a valid email format.",
+    "subject": "IT"
+  }
+]

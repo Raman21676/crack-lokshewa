@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "\u0915\u092e\u094d\u092a\u094d\u092f\u0941\u091f\u0930\u092e\u093e CPU \u0915\u094b \u092a\u0942\u0930\u094d\u0923\u0930\u0942\u092a \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "Central Process Unit",
+      "Central Processing Unit",
+      "Computer Personal Unit",
+      "Central Processor Unit"
+    ],
+    "correctIndex": 1,
+    "explanation": "CPU \u0915\u094b \u092e\u0924\u0932\u092c Central Processing Unit \u0939\u094b\u0964",
+    "subject": "FUNDAMENTALS"
+  },
+  {
+    "id": "q2",
+    "question": "\u0967 \u092c\u093e\u0907\u091f\u092e\u093e \u0915\u0924\u093f \u092c\u093f\u091f \u0939\u0941\u0928\u094d\u091b?",
+    "options": [
+      "\u096a",
+      "\u096e",
+      "\u0967\u096c",
+      "\u0969\u0968"
+    ],
+    "correctIndex": 1,
+    "explanation": "\u0967 \u092c\u093e\u0907\u091f = \u096e \u092c\u093f\u091f \u0939\u0941\u0928\u094d\u091b\u0964",
+    "subject": "FUNDAMENTALS"
+  },
+  {
+    "id": "q3",
+    "question": "RAM \u0915\u094b \u092a\u0942\u0930\u094d\u0923\u0930\u0942\u092a \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "Random Access Memory",
+      "Read Access Memory",
+      "Random Available Memory",
+      "Read Available Memory"
+    ],
+    "correctIndex": 0,
+    "explanation": "RAM \u0915\u094b \u092e\u0924\u0932\u092c Random Access Memory \u0939\u094b\u0964",
+    "subject": "FUNDAMENTALS"
+  },
+  {
+    "id": "q4",
+    "question": "\u0915\u0941\u0928 \u0938\u094d\u091f\u094b\u0930\u0947\u091c \u0921\u093f\u092d\u093e\u0907\u0938 \u0928\u0928-\u092d\u094b\u0932\u091f\u093e\u0907\u0932 \u0939\u094b?",
+    "options": [
+      "RAM",
+      "Cache",
+      "ROM",
+      "Register"
+    ],
+    "correctIndex": 2,
+    "explanation": "ROM (Read Only Memory) \u0928\u0928-\u092d\u094b\u0932\u091f\u093e\u0907\u0932 \u0939\u094b\u0964",
+    "subject": "FUNDAMENTALS"
+  },
+  {
+    "id": "q5",
+    "question": "OS \u0915\u094b \u092a\u0942\u0930\u094d\u0923\u0930\u0942\u092a \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "Open System",
+      "Operating System",
+      "Operation Software",
+      "Optical System"
+    ],
+    "correctIndex": 1,
+    "explanation": "OS \u0915\u094b \u092e\u0924\u0932\u092c Operating System \u0939\u094b\u0964",
+    "subject": "OS"
+  },
+  {
+    "id": "q6",
+    "question": "\u0932\u093f\u0928\u0915\u094d\u0938 \u0915\u093f\u0938\u094d\u092e\u0915\u094b \u0939\u094b?",
+    "options": [
+      "Application Software",
+      "Operating System",
+      "Utility Software",
+      "Programming Language"
+    ],
+    "correctIndex": 1,
+    "explanation": "\u0932\u093f\u0928\u0915\u094d\u0938 \u090f\u0915 Operating System \u0939\u094b\u0964",
+    "subject": "OS"
+  },
+  {
+    "id": "q7",
+    "question": "\u092e\u093e\u0907\u0915\u094d\u0930\u094b\u0938\u092b\u094d\u091f\u0915\u094b \u0921\u0947\u0938\u094d\u0915\u091f\u092a OS \u0915\u094b \u0928\u093e\u092e \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "Linux",
+      "macOS",
+      "Windows",
+      "Android"
+    ],
+    "correctIndex": 2,
+    "explanation": "\u092e\u093e\u0907\u0915\u094d\u0930\u094b\u0938\u092b\u094d\u091f\u0915\u094b OS Windows \u0939\u094b\u0964",
+    "subject": "OS"
+  },
+  {
+    "id": "q8",
+    "question": "IP \u0915\u094b \u092a\u0942\u0930\u094d\u0923\u0930\u0942\u092a \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "Internet Protocol",
+      "Internet Process",
+      "Internal Protocol",
+      "International Protocol"
+    ],
+    "correctIndex": 0,
+    "explanation": "IP \u0915\u094b \u092e\u0924\u0932\u092c Internet Protocol \u0939\u094b\u0964",
+    "subject": "NETWORKING"
+  },
+  {
+    "id": "q9",
+    "question": "HTTP \u0915\u094b \u092a\u0942\u0930\u094d\u0923\u0930\u0942\u092a \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "HyperText Transmission Protocol",
+      "HighText Transfer Protocol",
+      "HyperTransfer Text Protocol"
+    ],
+    "correctIndex": 0,
+    "explanation": "HTTP \u0915\u094b \u092e\u0924\u0932\u092c HyperText Transfer Protocol \u0939\u094b\u0964",
+    "subject": "NETWORKING"
+  },
+  {
+    "id": "q10",
+    "question": "WWW \u0915\u094b \u092a\u0942\u0930\u094d\u0923\u0930\u0942\u092a \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "World Wide Web",
+      "World Web Wide",
+      "Wide World Web",
+      "Web World Wide"
+    ],
+    "correctIndex": 0,
+    "explanation": "WWW \u0915\u094b \u092e\u0924\u0932\u092c World Wide Web \u0939\u094b\u0964",
+    "subject": "NETWORKING"
+  },
+  {
+    "id": "q11",
+    "question": "\u0915\u0941\u0928 \u092a\u094b\u0930\u094d\u091f HTTP \u092a\u094d\u0930\u092f\u094b\u0917 \u0917\u0930\u094d\u091b?",
+    "options": [
+      "\u0968\u0967",
+      "\u0968\u096b",
+      "\u096e\u0966",
+      "\u096a\u096a\u0969"
+    ],
+    "correctIndex": 2,
+    "explanation": "HTTP \u092a\u094b\u0930\u094d\u091f \u096e\u0966 \u092a\u094d\u0930\u092f\u094b\u0917 \u0917\u0930\u094d\u091b\u0964",
+    "subject": "NETWORKING"
+  },
+  {
+    "id": "q12",
+    "question": "HTTPS \u0915\u094b \u092a\u0942\u0930\u094d\u0923\u0930\u0942\u092a \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "HyperText Transfer Protocol Secure",
+      "HyperText Transfer Protocol Standard",
+      "HighText Transfer Protocol Secure",
+      "HyperTransfer Text Protocol Secure"
+    ],
+    "correctIndex": 0,
+    "explanation": "HTTPS \u0915\u094b \u092e\u0924\u0932\u092c HyperText Transfer Protocol Secure \u0939\u094b\u0964",
+    "subject": "NETWORKING"
+  },
+  {
+    "id": "q13",
+    "question": "\u092e\u093e\u0932\u0935\u0947\u092f\u0930 \u092d\u0928\u0947\u0915\u094b \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "\u0930\u093e\u092e\u094d\u0930\u094b \u0938\u092b\u094d\u091f\u0935\u0947\u092f\u0930",
+      "\u0939\u093e\u0928\u093f\u0915\u093e\u0930\u0915 \u0938\u092b\u094d\u091f\u0935\u0947\u092f\u0930",
+      "\u092b\u094d\u0930\u093f \u0938\u092b\u094d\u091f\u0935\u0947\u092f\u0930",
+      "\u0913\u092a\u0928 \u0938\u094b\u0930\u094d\u0938 \u0938\u092b\u094d\u091f\u0935\u0947\u092f\u0930"
+    ],
+    "correctIndex": 1,
+    "explanation": "\u092e\u093e\u0932\u0935\u0947\u092f\u0930 \u0939\u093e\u0928\u093f\u0915\u093e\u0930\u0915 \u0938\u092b\u094d\u091f\u0935\u0947\u092f\u0930 \u0939\u094b\u0964",
+    "subject": "SECURITY"
+  },
+  {
+    "id": "q14",
+    "question": "\u092b\u093f\u0938\u093f\u0919 \u0915\u093f\u0938\u094d\u092e\u0915\u094b \u0939\u094b?",
+    "options": [
+      "\u092d\u093e\u0907\u0930\u0938",
+      "\u092e\u093e\u0932\u0935\u0947\u092f\u0930",
+      "\u0938\u093e\u0907\u092c\u0930 \u0906\u0915\u094d\u0930\u092e\u0923",
+      "\u092b\u093e\u092f\u0930\u0935\u093e\u0932"
+    ],
+    "correctIndex": 2,
+    "explanation": "\u092b\u093f\u0938\u093f\u0919 \u090f\u0915 \u0938\u093e\u0907\u092c\u0930 \u0906\u0915\u094d\u0930\u092e\u0923 \u0939\u094b\u0964",
+    "subject": "SECURITY"
+  },
+  {
+    "id": "q15",
+    "question": "SQL \u0907\u0928\u094d\u091c\u0947\u0915\u094d\u0936\u0928 \u0915\u0941\u0928 \u092a\u094d\u0930\u0915\u093e\u0930\u0915\u094b \u0906\u0915\u094d\u0930\u092e\u0923 \u0939\u094b?",
+    "options": [
+      "Network Attack",
+      "Database Attack",
+      "Physical Attack",
+      "Social Engineering"
+    ],
+    "correctIndex": 1,
+    "explanation": "SQL \u0907\u0928\u094d\u091c\u0947\u0915\u094d\u0936\u0928 \u090f\u0915 \u0921\u0947\u091f\u093e\u092c\u0947\u0938 \u0906\u0915\u094d\u0930\u092e\u0923 \u0939\u094b\u0964",
+    "subject": "SECURITY"
+  },
+  {
+    "id": "q16",
+    "question": "DBMS \u0915\u094b \u092a\u0942\u0930\u094d\u0923\u0930\u0942\u092a \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "Database Management System",
+      "Data Backup Management System",
+      "Database Management Software",
+      "Data Base Main System"
+    ],
+    "correctIndex": 0,
+    "explanation": "DBMS \u0915\u094b \u092e\u0924\u0932\u092c Database Management System \u0939\u094b\u0964",
+    "subject": "DBMS"
+  },
+  {
+    "id": "q17",
+    "question": "SQL \u092e\u093e SELECT \u0935\u093f\u0935\u0930\u0923 \u0915\u0938\u0930\u0940 \u092a\u094d\u0930\u092f\u094b\u0917 \u0917\u0930\u093f\u0928\u094d\u091b?",
+    "options": [
+      "\u0921\u0947\u091f\u093e \u0939\u091f\u093e\u0909\u0928",
+      "\u0921\u0947\u091f\u093e \u0905\u092a\u0921\u0947\u091f \u0917\u0930\u094d\u0928",
+      "\u0921\u0947\u091f\u093e \u092a\u094d\u0930\u0936\u094d\u0928 \u0917\u0930\u094d\u0928",
+      "\u0921\u0947\u091f\u093e\u092c\u0947\u0938 \u092c\u0928\u093e\u0909\u0928"
+    ],
+    "correctIndex": 2,
+    "explanation": "SELECT \u0935\u093f\u0935\u0930\u0923 \u0921\u0947\u091f\u093e \u092a\u094d\u0930\u0936\u094d\u0928 \u0917\u0930\u094d\u0928 \u092a\u094d\u0930\u092f\u094b\u0917 \u0917\u0930\u093f\u0928\u094d\u091b\u0964",
+    "subject": "DBMS"
+  },
+  {
+    "id": "q18",
+    "question": "\u092a\u094d\u0930\u093e\u0907\u092e\u0930\u0940 \u0915\u0940 \u0915\u094b \u0915\u093e\u092e \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "\u0921\u0947\u091f\u093e \u091b\u093e\u0928\u094d\u0928",
+      "\u0921\u0947\u091f\u093e \u0905\u092a\u0921\u0947\u091f \u0917\u0930\u094d\u0928",
+      "\u0905\u0926\u094d\u0935\u093f\u0924\u0940\u092f \u0930\u0942\u092a\u092e\u093e \u092a\u0939\u093f\u091a\u093e\u0928 \u0917\u0930\u094d\u0928",
+      "\u0921\u0947\u091f\u093e \u092e\u0947\u091f\u093e\u0909\u0928"
+    ],
+    "correctIndex": 2,
+    "explanation": "\u092a\u094d\u0930\u093e\u0907\u092e\u0930\u0940 \u0915\u0940 \u0905\u0926\u094d\u0935\u093f\u0924\u0940\u092f \u0930\u0942\u092a\u092e\u093e \u092a\u0939\u093f\u091a\u093e\u0928 \u0917\u0930\u094d\u091b\u0964",
+    "subject": "DBMS"
+  },
+  {
+    "id": "q19",
+    "question": "HTML \u0915\u094b \u092a\u0942\u0930\u094d\u0923\u0930\u0942\u092a \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "HyperText Markup Language",
+      "HyperText Makeup Language",
+      "HighText Markup Language",
+      "HyperTransfer Markup Language"
+    ],
+    "correctIndex": 0,
+    "explanation": "HTML \u0915\u094b \u092e\u0924\u0932\u092c HyperText Markup Language \u0939\u094b\u0964",
+    "subject": "WEB"
+  },
+  {
+    "id": "q20",
+    "question": "CSS \u0915\u094b \u092a\u0942\u0930\u094d\u0923\u0930\u0942\u092a \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "Computer Style Sheets",
+      "Creative Style Sheets",
+      "Cascading Style Sheets",
+      "Colorful Style Sheets"
+    ],
+    "correctIndex": 2,
+    "explanation": "CSS \u0915\u094b \u092e\u0924\u0932\u092c Cascading Style Sheets \u0939\u094b\u0964",
+    "subject": "WEB"
+  },
+  {
+    "id": "q21",
+    "question": "HTTP \u0930 HTTPS \u092c\u0940\u091a \u0915\u0947 \u092b\u0930\u0915 \u091b?",
+    "options": [
+      "HTTP \u091b\u093f\u091f\u094b \u0939\u0941\u0928\u094d\u091b",
+      "HTTPS \u090f\u0928\u094d\u0915\u094d\u0930\u093f\u092a\u094d\u091f\u0947\u0921 \u0939\u0941\u0928\u094d\u091b",
+      "HTTP \u092c\u0947\u0938\u0930 \u0939\u0941\u0928\u094d\u091b",
+      "\u0915\u0941\u0928\u0948 \u092b\u0930\u0915 \u091b\u0948\u0928"
+    ],
+    "correctIndex": 1,
+    "explanation": "HTTPS \u090f\u0928\u094d\u0915\u094d\u0930\u093f\u092a\u094d\u091f\u0947\u0921 \u0939\u0941\u0928\u094d\u091b\u0964",
+    "subject": "NETWORKING"
+  },
+  {
+    "id": "q22",
+    "question": "DNS \u0915\u094b \u092a\u0942\u0930\u094d\u0923\u0930\u0942\u092a \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "Domain Name System",
+      "Digital Network System",
+      "Data Name Server",
+      "Domain Network Service"
+    ],
+    "correctIndex": 0,
+    "explanation": "DNS \u0915\u094b \u092e\u0924\u0932\u092c Domain Name System \u0939\u094b\u0964",
+    "subject": "NETWORKING"
+  },
+  {
+    "id": "q23",
+    "question": "LAN \u0915\u094b \u092a\u0942\u0930\u094d\u0923\u0930\u0942\u092a \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "Large Area Network",
+      "Local Area Network",
+      "Long Area Network",
+      "Light Access Network"
+    ],
+    "correctIndex": 1,
+    "explanation": "LAN \u0915\u094b \u092e\u0924\u0932\u092c Local Area Network \u0939\u094b\u0964",
+    "subject": "NETWORKING"
+  },
+  {
+    "id": "q24",
+    "question": "WAN \u0915\u094b \u092a\u0942\u0930\u094d\u0923\u0930\u0942\u092a \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "Wide Area Network",
+      "World Area Network",
+      "Wireless Area Network",
+      "Web Area Network"
+    ],
+    "correctIndex": 0,
+    "explanation": "WAN \u0915\u094b \u092e\u0924\u0932\u092c Wide Area Network \u0939\u094b\u0964",
+    "subject": "NETWORKING"
+  },
+  {
+    "id": "q25",
+    "question": "\u092b\u093e\u092f\u0930\u0935\u093e\u0932\u0915\u094b \u0915\u093e\u092e \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "\u092d\u093e\u0907\u0930\u0938 \u0939\u091f\u093e\u0909\u0928",
+      "\u0928\u0947\u091f\u0935\u0930\u094d\u0915 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0917\u0930\u094d\u0928",
+      "\u092b\u093e\u0907\u0932 \u092c\u094d\u092f\u093e\u0915\u0905\u092a \u0917\u0930\u094d\u0928",
+      "\u0907\u0928\u094d\u091f\u0930\u0928\u0947\u091f \u091b\u093f\u091f\u094b \u092c\u0928\u093e\u0909\u0928"
+    ],
+    "correctIndex": 1,
+    "explanation": "\u092b\u093e\u092f\u0930\u0935\u093e\u0932 \u0928\u0947\u091f\u0935\u0930\u094d\u0915 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0917\u0930\u094d\u091b\u0964",
+    "subject": "SECURITY"
+  },
+  {
+    "id": "q26",
+    "question": "\u092d\u093e\u0907\u0930\u0938 \u0930 \u0935\u0930\u094d\u092e \u092c\u0940\u091a \u0915\u0947 \u092b\u0930\u0915 \u091b?",
+    "options": [
+      "\u092d\u093e\u0907\u0930\u0938 \u0906\u092b\u0948\u0902 \u092b\u0948\u0932\u093f\u0928\u094d\u091b",
+      "\u0935\u0930\u094d\u092e \u0906\u092b\u0948\u0902 \u092b\u0948\u0932\u093f\u0928\u094d\u091b",
+      "\u0915\u0941\u0928\u0948 \u092b\u0930\u0915 \u091b\u0948\u0928",
+      "\u092d\u093e\u0907\u0930\u0938 \u092c\u0922\u0940 \u0939\u093e\u0928\u093f\u0915\u093e\u0930\u0915 \u0939\u0941\u0928\u094d\u091b"
+    ],
+    "correctIndex": 1,
+    "explanation": "\u0935\u0930\u094d\u092e \u0906\u092b\u0948\u0902 \u092b\u0948\u0932\u093f\u0928\u094d\u091b, \u092d\u093e\u0907\u0930\u0938 \u0939\u094b\u0938\u094d\u091f \u091a\u093e\u0939\u093f\u0928\u094d\u091b\u0964",
+    "subject": "SECURITY"
+  },
+  {
+    "id": "q27",
+    "question": "\u0915\u0941\u0928 \u092d\u093e\u0937\u093e \u0921\u0947\u091f\u093e\u092c\u0947\u0938 \u092a\u094d\u0930\u0936\u094d\u0928\u0915\u093e \u0932\u093e\u0917\u093f \u092a\u094d\u0930\u092f\u094b\u0917 \u0917\u0930\u093f\u0928\u094d\u091b?",
+    "options": [
+      "HTML",
+      "CSS",
+      "SQL",
+      "Python"
+    ],
+    "correctIndex": 2,
+    "explanation": "SQL \u0921\u0947\u091f\u093e\u092c\u0947\u0938 \u092a\u094d\u0930\u0936\u094d\u0928\u0915\u093e \u0932\u093e\u0917\u093f \u092a\u094d\u0930\u092f\u094b\u0917 \u0917\u0930\u093f\u0928\u094d\u091b\u0964",
+    "subject": "DBMS"
+  },
+  {
+    "id": "q28",
+    "question": "\u091c\u093e\u092d\u093e\u0938\u094d\u0915\u094d\u0930\u093f\u092a\u094d\u091f \u0915\u093f\u0938\u094d\u092e\u0915\u094b \u0939\u094b?",
+    "options": [
+      "Markup Language",
+      "Programming Language",
+      "Database",
+      "Operating System"
+    ],
+    "correctIndex": 1,
+    "explanation": "\u091c\u093e\u092d\u093e\u0938\u094d\u0915\u094d\u0930\u093f\u092a\u094d\u091f \u090f\u0915 Programming Language \u0939\u094b\u0964",
+    "subject": "WEB"
+  },
+  {
+    "id": "q29",
+    "question": "\u0915\u0941\u0928 \u0915\u0941\u091e\u094d\u091c\u0940 F5 \u0915\u094b \u0915\u093e\u092e \u0939\u094b?",
+    "options": [
+      "Save",
+      "Refresh",
+      "Copy",
+      "Print"
+    ],
+    "correctIndex": 1,
+    "explanation": "F5 \u092a\u0947\u091c \u0930\u093f\u092b\u094d\u0930\u0947\u0938 \u0917\u0930\u094d\u091b\u0964",
+    "subject": "FUNDAMENTALS"
+  },
+  {
+    "id": "q30",
+    "question": "Ctrl+C \u0915\u094b \u0915\u093e\u092e \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "\u0915\u092a\u0940",
+      "\u0915\u091f",
+      "\u092a\u0947\u0938\u094d\u091f",
+      "\u0905\u0928\u094d\u0921\u0941"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ctrl+C \u0915\u092a\u0940 \u0917\u0930\u094d\u091b\u0964",
+    "subject": "FUNDAMENTALS"
+  },
+  {
+    "id": "q31",
+    "question": "Ctrl+V \u0915\u094b \u0915\u093e\u092e \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "\u0915\u092a\u0940",
+      "\u0915\u091f",
+      "\u092a\u0947\u0938\u094d\u091f",
+      "\u0938\u0947\u092d"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ctrl+V \u092a\u0947\u0938\u094d\u091f \u0917\u0930\u094d\u091b\u0964",
+    "subject": "FUNDAMENTALS"
+  },
+  {
+    "id": "q32",
+    "question": "Ctrl+X \u0915\u094b \u0915\u093e\u092e \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "\u0915\u092a\u0940",
+      "\u0915\u091f",
+      "\u092a\u0947\u0938\u094d\u091f",
+      "\u0930\u093f\u0921\u0941"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ctrl+X \u0915\u091f \u0917\u0930\u094d\u091b\u0964",
+    "subject": "FUNDAMENTALS"
+  },
+  {
+    "id": "q33",
+    "question": "Ctrl+Z \u0915\u094b \u0915\u093e\u092e \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "\u0915\u092a\u0940",
+      "\u0915\u091f",
+      "\u092a\u0947\u0938\u094d\u091f",
+      "\u0905\u0928\u094d\u0921\u0941"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ctrl+Z \u0905\u0928\u094d\u0921\u0941 \u0917\u0930\u094d\u091b\u0964",
+    "subject": "FUNDAMENTALS"
+  },
+  {
+    "id": "q34",
+    "question": "Ctrl+S \u0915\u094b \u0915\u093e\u092e \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "\u0915\u092a\u0940",
+      "\u0915\u091f",
+      "\u092a\u0947\u0938\u094d\u091f",
+      "\u0938\u0947\u092d"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ctrl+S \u0938\u0947\u092d \u0917\u0930\u094d\u091b\u0964",
+    "subject": "FUNDAMENTALS"
+  },
+  {
+    "id": "q35",
+    "question": "Ctrl+P \u0915\u094b \u0915\u093e\u092e \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "\u0915\u092a\u0940",
+      "\u0915\u091f",
+      "\u092a\u0947\u0938\u094d\u091f",
+      "\u092a\u094d\u0930\u093f\u0928\u094d\u091f"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ctrl+P \u092a\u094d\u0930\u093f\u0928\u094d\u091f \u0917\u0930\u094d\u091b\u0964",
+    "subject": "FUNDAMENTALS"
+  },
+  {
+    "id": "q36",
+    "question": "Ctrl+A \u0915\u094b \u0915\u093e\u092e \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "\u0938\u092c\u0948 \u091a\u092f\u0928 \u0917\u0930\u094d\u0928",
+      "\u0938\u0947\u092d \u0917\u0930\u094d\u0928",
+      "\u0915\u092a\u0940 \u0917\u0930\u094d\u0928",
+      "\u0915\u094d\u0932\u094b\u091c \u0917\u0930\u094d\u0928"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ctrl+A \u0938\u092c\u0948 \u091a\u092f\u0928 \u0917\u0930\u094d\u091b\u0964",
+    "subject": "FUNDAMENTALS"
+  },
+  {
+    "id": "q37",
+    "question": "Alt+F4 \u0915\u094b \u0915\u093e\u092e \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "\u092b\u093e\u0907\u0932 \u0938\u0947\u092d",
+      "\u0935\u093f\u0928\u094d\u0921\u094b \u092c\u0928\u094d\u0926",
+      "\u0915\u092a\u0940",
+      "\u092a\u0947\u0938\u094d\u091f"
+    ],
+    "correctIndex": 1,
+    "explanation": "Alt+F4 \u0935\u093f\u0928\u094d\u0921\u094b \u092c\u0928\u094d\u0926 \u0917\u0930\u094d\u091b\u0964",
+    "subject": "FUNDAMENTALS"
+  },
+  {
+    "id": "q38",
+    "question": "Ctrl+Shift+Esc \u0932\u0947 \u0915\u0947 \u0916\u094b\u0932\u094d\u091b?",
+    "options": [
+      "File Explorer",
+      "Task Manager",
+      "Control Panel",
+      "Settings"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ctrl+Shift+Esc Task Manager \u0916\u094b\u0932\u094d\u091b\u0964",
+    "subject": "FUNDAMENTALS"
+  },
+  {
+    "id": "q39",
+    "question": "IP \u0920\u0947\u0917\u093e\u0928\u093e\u092e\u093e \u0915\u0924\u093f \u0928\u092e\u094d\u092c\u0930 \u0939\u0941\u0928\u094d\u091b?",
+    "options": [
+      "\u0968",
+      "\u0969",
+      "\u096a",
+      "\u096b"
+    ],
+    "correctIndex": 2,
+    "explanation": "IPv4 \u092e\u093e \u096a \u0928\u092e\u094d\u092c\u0930 \u0939\u0941\u0928\u094d\u091b (\u091c\u0938\u094d\u0924\u0948 192.168.1.1)\u0964",
+    "subject": "NETWORKING"
+  },
+  {
+    "id": "q40",
+    "question": "\u0938\u094d\u092a\u093e\u0907\u0935\u0947\u092f\u0930 \u092d\u0928\u0947\u0915\u094b \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "\u0930\u093e\u092e\u094d\u0930\u094b \u0938\u092b\u094d\u091f\u0935\u0947\u092f\u0930",
+      "\u091c\u093e\u0938\u0942\u0938\u0940 \u0938\u092b\u094d\u091f\u0935\u0947\u092f\u0930",
+      "\u092b\u094d\u0930\u093f \u0938\u092b\u094d\u091f\u0935\u0947\u092f\u0930",
+      "\u0913\u092a\u0928 \u0938\u094b\u0930\u094d\u0938"
+    ],
+    "correctIndex": 1,
+    "explanation": "\u0938\u094d\u092a\u093e\u0907\u0935\u0947\u092f\u0930 \u091c\u093e\u0938\u0942\u0938\u0940 \u0938\u092b\u094d\u091f\u0935\u0947\u092f\u0930 \u0939\u094b\u0964",
+    "subject": "SECURITY"
+  },
+  {
+    "id": "q41",
+    "question": "\u092b\u093e\u092f\u0930\u0935\u093e\u0932 \u0915\u0941\u0928 \u0938\u094d\u0924\u0930\u092e\u093e \u0915\u093e\u092e \u0917\u0930\u094d\u091b?",
+    "options": [
+      "Physical",
+      "Network",
+      "Application",
+      "Data Link"
+    ],
+    "correctIndex": 1,
+    "explanation": "\u092b\u093e\u092f\u0930\u0935\u093e\u0932 Network \u0938\u094d\u0924\u0930\u092e\u093e \u0915\u093e\u092e \u0917\u0930\u094d\u091b\u0964",
+    "subject": "SECURITY"
+  },
+  {
+    "id": "q42",
+    "question": "\u0938\u093e\u092e\u093e\u0928\u094d\u092f\u0924\u092f\u093e \u0938\u092c\u0948\u092d\u0928\u094d\u0926\u093e \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u092a\u093e\u0938\u0935\u0930\u094d\u0921 \u0915\u0938\u094d\u0924\u094b \u0939\u0941\u0928\u094d\u091b?",
+    "options": [
+      "\u091b\u094b\u091f\u094b \u0930 \u0938\u091c\u093f\u0932\u094b",
+      "\u0932\u093e\u092e\u094b \u0930 \u091c\u091f\u093f\u0932",
+      "\u092b\u094b\u0928 \u0928\u092e\u094d\u092c\u0930",
+      "\u091c\u0928\u094d\u092e \u092e\u093f\u0924\u093f"
+    ],
+    "correctIndex": 1,
+    "explanation": "\u0932\u093e\u092e\u094b \u0930 \u091c\u091f\u093f\u0932 \u092a\u093e\u0938\u0935\u0930\u094d\u0921 \u0938\u092c\u0948\u092d\u0928\u094d\u0926\u093e \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0939\u0941\u0928\u094d\u091b\u0964",
+    "subject": "SECURITY"
+  },
+  {
+    "id": "q43",
+    "question": "HTML \u092e\u093e <a> \u091f\u094d\u092f\u093e\u0917 \u0915\u0947\u0915\u094b \u0932\u093e\u0917\u093f \u0939\u094b?",
+    "options": [
+      "Image",
+      "Link",
+      "Table",
+      "List"
+    ],
+    "correctIndex": 1,
+    "explanation": "<a> \u091f\u094d\u092f\u093e\u0917 \u0932\u093f\u0919\u094d\u0915\u0915\u093e \u0932\u093e\u0917\u093f \u0939\u094b\u0964",
+    "subject": "WEB"
+  },
+  {
+    "id": "q44",
+    "question": "HTML \u092e\u093e <img> \u091f\u094d\u092f\u093e\u0917 \u0915\u0947\u0915\u094b \u0932\u093e\u0917\u093f \u0939\u094b?",
+    "options": [
+      "Image",
+      "Link",
+      "Table",
+      "List"
+    ],
+    "correctIndex": 0,
+    "explanation": "<img> \u091f\u094d\u092f\u093e\u0917 \u091a\u093f\u0924\u094d\u0930\u0915\u093e \u0932\u093e\u0917\u093f \u0939\u094b\u0964",
+    "subject": "WEB"
+  },
+  {
+    "id": "q45",
+    "question": "\u0905\u092a\u0930\u0947\u091f\u093f\u0919 \u0938\u093f\u0938\u094d\u091f\u092e\u0915\u094b \u092e\u0941\u0916\u094d\u092f \u0915\u093e\u092e \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "\u0917\u0947\u092e \u0916\u0947\u0932\u094d\u0928",
+      "\u0939\u093e\u0930\u094d\u0921\u0935\u0947\u092f\u0930 \u0930 \u0938\u092b\u094d\u091f\u0935\u0947\u092f\u0930 \u0935\u094d\u092f\u0935\u0938\u094d\u0925\u093e\u092a\u0928",
+      "\u0907\u0928\u094d\u091f\u0930\u0928\u0947\u091f \u091a\u0932\u093e\u0909\u0928",
+      "\u092b\u093e\u0907\u0932 \u0921\u093e\u0909\u0928\u0932\u094b\u0921 \u0917\u0930\u094d\u0928"
+    ],
+    "correctIndex": 1,
+    "explanation": "OS \u0932\u0947 \u0939\u093e\u0930\u094d\u0921\u0935\u0947\u092f\u0930 \u0930 \u0938\u092b\u094d\u091f\u0935\u0947\u092f\u0930 \u0935\u094d\u092f\u0935\u0938\u094d\u0925\u093e\u092a\u0928 \u0917\u0930\u094d\u091b\u0964",
+    "subject": "OS"
+  },
+  {
+    "id": "q46",
+    "question": "\u0915\u0941\u0928 \u092b\u093e\u0907\u0932 \u090f\u0915\u094d\u0938\u091f\u0947\u0928\u094d\u0938\u0928 \u091c\u093e\u092d\u093e\u0938\u094d\u0915\u094d\u0930\u093f\u092a\u094d\u091f \u092b\u093e\u0907\u0932 \u0939\u094b?",
+    "options": [
+      "html",
+      "css",
+      "js",
+      "php"
+    ],
+    "correctIndex": 2,
+    "explanation": ".js \u091c\u093e\u092d\u093e\u0938\u094d\u0915\u094d\u0930\u093f\u092a\u094d\u091f \u092b\u093e\u0907\u0932 \u0939\u094b\u0964",
+    "subject": "WEB"
+  },
+  {
+    "id": "q47",
+    "question": "\u0915\u0941\u0928 \u092b\u093e\u0907\u0932 \u090f\u0915\u094d\u0938\u091f\u0947\u0928\u094d\u0938\u0928 CSS \u092b\u093e\u0907\u0932 \u0939\u094b?",
+    "options": [
+      "html",
+      "css",
+      "js",
+      "txt"
+    ],
+    "correctIndex": 1,
+    "explanation": ".css CSS \u092b\u093e\u0907\u0932 \u0939\u094b\u0964",
+    "subject": "WEB"
+  },
+  {
+    "id": "q48",
+    "question": "\u092b\u093e\u0907\u0932 \u090f\u0915\u094d\u0938\u091f\u0947\u0928\u094d\u0938\u0928 .pdf \u0915\u0941\u0928 \u092b\u093e\u0907\u0932 \u0939\u094b?",
+    "options": [
+      "Word",
+      "Excel",
+      "PDF",
+      "Image"
+    ],
+    "correctIndex": 2,
+    "explanation": ".pdf Portable Document Format \u0939\u094b\u0964",
+    "subject": "FUNDAMENTALS"
+  },
+  {
+    "id": "q49",
+    "question": "URL \u0915\u094b \u092a\u0942\u0930\u094d\u0923\u0930\u0942\u092a \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "Uniform Resource Locator",
+      "Universal Resource Locator",
+      "Uniform Resource Link",
+      "Universal Resource Link"
+    ],
+    "correctIndex": 0,
+    "explanation": "URL \u0915\u094b \u092e\u0924\u0932\u092c Uniform Resource Locator \u0939\u094b\u0964",
+    "subject": "NETWORKING"
+  },
+  {
+    "id": "q50",
+    "question": "SMTP \u0915\u094b \u092a\u0942\u0930\u094d\u0923\u0930\u0942\u092a \u0915\u0947 \u0939\u094b?",
+    "options": [
+      "Simple Mail Transfer Protocol",
+      "Secure Mail Transfer Protocol",
+      "Simple Message Transfer Protocol",
+      "Secure Message Transfer Protocol"
+    ],
+    "correctIndex": 0,
+    "explanation": "SMTP \u0915\u094b \u092e\u0924\u0932\u092c Simple Mail Transfer Protocol \u0939\u094b\u0964",
+    "subject": "NETWORKING"
+  }
+]

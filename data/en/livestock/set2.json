@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the gestation period of a cow?",
+    "options": [
+      "9 months",
+      "10 months",
+      "11 months",
+      "12 months"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cow gestation is about 9 months (280 days).",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q2",
+    "question": "Which vitamin is essential for calcium absorption in animals?",
+    "options": [
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin E",
+      "Vitamin K"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vitamin D is essential for calcium absorption.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q3",
+    "question": "What is the normal body temperature of a buffalo?",
+    "options": [
+      "98\u00b0F",
+      "100\u00b0F",
+      "101.5\u00b0F",
+      "103\u00b0F"
+    ],
+    "correctIndex": 2,
+    "explanation": "Buffalo normal temperature is about 101.5\u00b0F (38.6\u00b0C).",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q4",
+    "question": "Which disease in poultry is caused by a virus?",
+    "options": [
+      "Coccidiosis",
+      "Newcastle disease",
+      "Aspergillosis",
+      "Botulism"
+    ],
+    "correctIndex": 1,
+    "explanation": "Newcastle disease is a viral infection in poultry.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q5",
+    "question": "What is the main function of rumen in cattle?",
+    "options": [
+      "Water absorption",
+      "Protein digestion",
+      "Fermentation of cellulose",
+      "Fat digestion"
+    ],
+    "correctIndex": 2,
+    "explanation": "Rumen ferments cellulose through microbial action.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q6",
+    "question": "Which breed of goat is known for high milk production?",
+    "options": [
+      "Jamunapari",
+      "Barbari",
+      "Beetal",
+      "Sirohi"
+    ],
+    "correctIndex": 0,
+    "explanation": "Jamunapari is a high milk-producing goat breed.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q7",
+    "question": "What is culling in animal husbandry?",
+    "options": [
+      "Breeding",
+      "Feeding",
+      "Removing undesirable animals",
+      "Vaccination"
+    ],
+    "correctIndex": 2,
+    "explanation": "Culling removes low-performing or diseased animals.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q8",
+    "question": "Which mineral deficiency causes milk fever in cows?",
+    "options": [
+      "Iron",
+      "Calcium",
+      "Zinc",
+      "Copper"
+    ],
+    "correctIndex": 1,
+    "explanation": "Milk fever is caused by calcium deficiency.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q9",
+    "question": "What is the average lactation period of a dairy cow?",
+    "options": [
+      "6 months",
+      "10 months",
+      "12 months",
+      "18 months"
+    ],
+    "correctIndex": 1,
+    "explanation": "Average lactation period is about 10 months (305 days).",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q10",
+    "question": "Which parasite causes tick fever in cattle?",
+    "options": [
+      "Babesia",
+      "Fasciola",
+      "Ascaris",
+      "Taenia"
+    ],
+    "correctIndex": 0,
+    "explanation": "Babesia is a protozoan parasite causing tick fever.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q11",
+    "question": "What is the ideal protein content in broiler starter feed?",
+    "options": [
+      "10-12%",
+      "15-17%",
+      "20-23%",
+      "25-28%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Broiler starter feed should have 20-23% protein.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q12",
+    "question": "Which hormone is used to induce labor in animals?",
+    "options": [
+      "Insulin",
+      "Oxytocin",
+      "Adrenaline",
+      "Thyroxine"
+    ],
+    "correctIndex": 1,
+    "explanation": "Oxytocin stimulates uterine contractions.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q13",
+    "question": "What is the breeding age of a gilt (young female pig)?",
+    "options": [
+      "3-4 months",
+      "6-8 months",
+      "10-12 months",
+      "14-16 months"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gilts are typically bred at 6-8 months of age.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q14",
+    "question": "Which disease is also known as 'mad cow disease'?",
+    "options": [
+      "Foot and mouth",
+      "BSE",
+      "Anthrax",
+      "Brucellosis"
+    ],
+    "correctIndex": 1,
+    "explanation": "BSE (Bovine Spongiform Encephalopathy) = mad cow disease.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q15",
+    "question": "What is the gestation period of a sow (pig)?",
+    "options": [
+      "3 months, 3 weeks, 3 days",
+      "4 months",
+      "5 months",
+      "6 months"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pig gestation is 3 months, 3 weeks, 3 days (114 days).",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q16",
+    "question": "Which feed ingredient is a good source of energy for poultry?",
+    "options": [
+      "Fish meal",
+      "Maize",
+      "Bone meal",
+      "Salt"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maize is a primary energy source in poultry feed.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q17",
+    "question": "What is the term for giving birth in sheep?",
+    "options": [
+      "Farrowing",
+      "Calving",
+      "Lambing",
+      "Kidding"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sheep give birth through lambing.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q18",
+    "question": "Which vaccination is given to prevent foot-and-mouth disease?",
+    "options": [
+      "HS vaccine",
+      "FMD vaccine",
+      "Anthrax vaccine",
+      "Brucella vaccine"
+    ],
+    "correctIndex": 1,
+    "explanation": "FMD vaccine prevents foot-and-mouth disease.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q19",
+    "question": "What is the normal pulse rate of an adult horse?",
+    "options": [
+      "20-30/min",
+      "28-40/min",
+      "60-70/min",
+      "80-100/min"
+    ],
+    "correctIndex": 1,
+    "explanation": "Adult horse pulse rate is 28-40 beats per minute.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q20",
+    "question": "Which vitamin deficiency causes night blindness in cattle?",
+    "options": [
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin E",
+      "Vitamin B12"
+    ],
+    "correctIndex": 0,
+    "explanation": "Vitamin A deficiency causes night blindness.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q21",
+    "question": "What is AI in animal breeding?",
+    "options": [
+      "Artificial Intelligence",
+      "Artificial Insemination",
+      "Animal Improvement",
+      "Advanced Integration"
+    ],
+    "correctIndex": 1,
+    "explanation": "AI = Artificial Insemination",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q22",
+    "question": "Which poultry disease causes respiratory distress and drop in egg production?",
+    "options": [
+      "Newcastle disease",
+      "Infectious Bronchitis",
+      "Marek's disease",
+      "Coccidiosis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Infectious Bronchitis affects respiratory system and egg production.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q23",
+    "question": "What is the average lifespan of a dairy cow?",
+    "options": [
+      "2-3 years",
+      "5-6 years",
+      "10-12 years",
+      "15-20 years"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dairy cows typically live 5-6 productive years.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q24",
+    "question": "Which mineral is essential for thyroid function in animals?",
+    "options": [
+      "Iron",
+      "Calcium",
+      "Iodine",
+      "Zinc"
+    ],
+    "correctIndex": 2,
+    "explanation": "Iodine is essential for thyroid hormone production.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q25",
+    "question": "What is colostrum?",
+    "options": [
+      "Regular milk",
+      "First milk after birth",
+      "Processed feed",
+      "Vaccine"
+    ],
+    "correctIndex": 1,
+    "explanation": "Colostrum is the first milk rich in antibodies.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q26",
+    "question": "Which breed of cattle is known for draft power in Nepal?",
+    "options": [
+      "Jersey",
+      "Holstein",
+      "Murrah",
+      "Local hill cattle"
+    ],
+    "correctIndex": 3,
+    "explanation": "Local hill cattle are used for draft power in Nepal.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q27",
+    "question": "What is the primary cause of mastitis in dairy animals?",
+    "options": [
+      "Viral infection",
+      "Bacterial infection",
+      "Fungal infection",
+      "Parasitic infection"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mastitis is primarily caused by bacterial infection.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q28",
+    "question": "Which hormone regulates milk ejection during milking?",
+    "options": [
+      "Progesterone",
+      "Oxytocin",
+      "Estrogen",
+      "Testosterone"
+    ],
+    "correctIndex": 1,
+    "explanation": "Oxytocin triggers milk ejection (let-down reflex).",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q29",
+    "question": "What is the weaning age of piglets?",
+    "options": [
+      "2-3 weeks",
+      "4-8 weeks",
+      "10-12 weeks",
+      "14-16 weeks"
+    ],
+    "correctIndex": 1,
+    "explanation": "Piglets are typically weaned at 4-8 weeks.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q30",
+    "question": "Which disease in birds is characterized by green diarrhea?",
+    "options": [
+      "Fowl pox",
+      "Pullorum disease",
+      "Coccidiosis",
+      "Newcastle"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pullorum disease causes white/green diarrhea in chicks.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q31",
+    "question": "What is the purpose of a teaser ram?",
+    "options": [
+      "For meat",
+      "To detect estrus in ewes",
+      "For wool production",
+      "For fighting"
+    ],
+    "correctIndex": 1,
+    "explanation": "Teaser rams (vasectomized) detect heat in ewes.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q32",
+    "question": "Which anthelmintic is commonly used to deworm cattle?",
+    "options": [
+      "Penicillin",
+      "Albendazole",
+      "Streptomycin",
+      "Tetracycline"
+    ],
+    "correctIndex": 1,
+    "explanation": "Albendazole is a broad-spectrum dewormer.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q33",
+    "question": "What is the fat percentage in buffalo milk?",
+    "options": [
+      "3-4%",
+      "5-7%",
+      "8-10%",
+      "10-12%"
+    ],
+    "correctIndex": 1,
+    "explanation": "Buffalo milk has 5-7% fat, higher than cow milk.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q34",
+    "question": "Which layer of poultry is known for high egg production?",
+    "options": [
+      "Broiler",
+      "Layer",
+      "Cockerel",
+      "Capon"
+    ],
+    "correctIndex": 1,
+    "explanation": "Layers are bred specifically for egg production.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q35",
+    "question": "What is tannery waste used for in animal feed?",
+    "options": [
+      "Protein source",
+      "Energy source",
+      "Mineral source",
+      "Fiber source"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tannery waste (after processing) can be a protein source.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q36",
+    "question": "Which disease causes abortion in pregnant cattle?",
+    "options": [
+      "FMD",
+      "Brucellosis",
+      "Anthrax",
+      "HS"
+    ],
+    "correctIndex": 1,
+    "explanation": "Brucellosis (Bang's disease) causes abortion in cattle.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q37",
+    "question": "What is the term for a castrated male cattle?",
+    "options": [
+      "Bull",
+      "Steer",
+      "Heifer",
+      "Calf"
+    ],
+    "correctIndex": 1,
+    "explanation": "A castrated male cattle is called a steer.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q38",
+    "question": "Which vitamin is synthesized by rumen bacteria?",
+    "options": [
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin B12",
+      "Vitamin C"
+    ],
+    "correctIndex": 2,
+    "explanation": "Rumen microbes synthesize B vitamins including B12.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q39",
+    "question": "What is the ideal stocking density for broiler chickens?",
+    "options": [
+      "5 birds/sq ft",
+      "10-12 birds/sq ft",
+      "20 birds/sq ft",
+      "30 birds/sq ft"
+    ],
+    "correctIndex": 1,
+    "explanation": "Broilers are stocked at about 10-12 birds per sq ft.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q40",
+    "question": "Which disease in goats causes neurological symptoms and is fatal?",
+    "options": [
+      "PPR",
+      "Enterotoxemia",
+      "Coccidiosis",
+      "Mastitis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Enterotoxemia (overeating disease) causes sudden death.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q41",
+    "question": "What is silage?",
+    "options": [
+      "Dried hay",
+      "Fermented green fodder",
+      "Concentrate feed",
+      "Mineral supplement"
+    ],
+    "correctIndex": 1,
+    "explanation": "Silage is fermented, high-moisture stored fodder.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q42",
+    "question": "Which hormone is used for estrus synchronization?",
+    "options": [
+      "Oxytocin",
+      "Prostaglandin",
+      "Insulin",
+      "Thyroxine"
+    ],
+    "correctIndex": 1,
+    "explanation": "Prostaglandin is used for estrus synchronization.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q43",
+    "question": "What is the normal pH of rumen fluid?",
+    "options": [
+      "4.0-5.0",
+      "6.0-7.0",
+      "8.0-9.0",
+      "3.0-4.0"
+    ],
+    "correctIndex": 1,
+    "explanation": "Normal rumen pH is 6.0-7.0.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q44",
+    "question": "Which external parasite causes mange in animals?",
+    "options": [
+      "Ticks",
+      "Lice",
+      "Mites",
+      "Fleas"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mites cause mange (scabies) in animals.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q45",
+    "question": "What is the term for a group of sheep?",
+    "options": [
+      "Herd",
+      "Flock",
+      "Pack",
+      "School"
+    ],
+    "correctIndex": 1,
+    "explanation": "A group of sheep is called a flock.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q46",
+    "question": "Which vaccine is given to prevent Hemorrhagic Septicemia (HS)?",
+    "options": [
+      "FMD vaccine",
+      "HS vaccine",
+      "Anthrax vaccine",
+      "Brucella vaccine"
+    ],
+    "correctIndex": 1,
+    "explanation": "HS vaccine prevents Hemorrhagic Septicemia.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q47",
+    "question": "What is the average litter size of rabbits?",
+    "options": [
+      "1-2",
+      "4-12",
+      "15-20",
+      "25-30"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rabbits have litters of 4-12 kits on average.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q48",
+    "question": "Which method is used for pregnancy diagnosis in cattle?",
+    "options": [
+      "Blood test only",
+      "Rectal palpation",
+      "X-ray",
+      "Urine test only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rectal palpation is commonly used for pregnancy check.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q49",
+    "question": "What is the purpose of debeaking in poultry?",
+    "options": [
+      "Improve feed intake",
+      "Prevent cannibalism and feather pecking",
+      "Increase egg size",
+      "Reduce water intake"
+    ],
+    "correctIndex": 1,
+    "explanation": "Debeaking prevents cannibalism in poultry.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q50",
+    "question": "Which act regulates livestock health in Nepal?",
+    "options": [
+      "Animal Welfare Act",
+      "Livestock Health and Livestock Service Act",
+      "Forest Act",
+      "National Parks Act"
+    ],
+    "correctIndex": 1,
+    "explanation": "Livestock Health and Livestock Service Act regulates animal health.",
+    "subject": "LIVESTOCK"
+  }
+]

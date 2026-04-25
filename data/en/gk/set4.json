@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "Who became Prime Minister of Nepal in July 2024?",
+    "options": [
+      "Pushpa Kamal Dahal",
+      "KP Sharma Oli",
+      "Sher Bahadur Deuba",
+      "Rabi Lamichhane"
+    ],
+    "correctIndex": 1,
+    "explanation": "KP Sharma Oli became PM in July 2024.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q2",
+    "question": "Which country did PM KP Oli visit first after becoming PM in 2024?",
+    "options": [
+      "India",
+      "China",
+      "USA",
+      "Bangladesh"
+    ],
+    "correctIndex": 1,
+    "explanation": "Oli visited China in December 2024.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q3",
+    "question": "When did the 'Gen Z' protests occur in Nepal?",
+    "options": [
+      "January 2025",
+      "March 2025",
+      "September 2025",
+      "December 2025"
+    ],
+    "correctIndex": 2,
+    "explanation": "Major Gen Z protests happened in September 2025.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q4",
+    "question": "Who was appointed as interim Prime Minister after the 2025 protests?",
+    "options": [
+      "Pushpa Kamal Dahal",
+      "Sushila Karki",
+      "Balendra Shah",
+      "KP Sharma Oli"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sushila Karki became interim PM on September 12, 2025.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q5",
+    "question": "Which social media platforms were banned by Nepal government in September 2025?",
+    "options": [
+      "Only Facebook",
+      "Only TikTok",
+      "26 platforms including Facebook, Instagram, YouTube",
+      "Only Twitter"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal banned 26 social media platforms including Facebook, Instagram, YouTube.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q6",
+    "question": "Which mayor led the Rastriya Swatantra Party to victory in 2026 elections?",
+    "options": [
+      "Rabi Lamichhane",
+      "Balendra Shah",
+      "Sushila Karki",
+      "KP Sharma Oli"
+    ],
+    "correctIndex": 1,
+    "explanation": "Balendra 'Balen' Shah led RSP to victory.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q7",
+    "question": "Which trilateral power export agreement was inaugurated in 2024?",
+    "options": [
+      "Nepal-India-China",
+      "Nepal-India-Bangladesh",
+      "Nepal-China-Bhutan",
+      "Nepal-India-Pakistan"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nepal-Bangladesh-India trilateral power export began.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q8",
+    "question": "How much electricity can Nepal export to Bangladesh via India?",
+    "options": [
+      "10 MW",
+      "20 MW",
+      "40 MW",
+      "100 MW"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal can export up to 40 MW to Bangladesh via Indian grid.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q9",
+    "question": "Who visited Nepal in January 2024 as Indian Foreign Minister?",
+    "options": [
+      "Narendra Modi",
+      "S. Jaishankar",
+      "Amit Shah",
+      "Rahul Gandhi"
+    ],
+    "correctIndex": 1,
+    "explanation": "S. Jaishankar visited Nepal on January 4-5, 2024.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q10",
+    "question": "When was the Constitution of Nepal 2072 promulgated?",
+    "options": [
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "correctIndex": 1,
+    "explanation": "Constitution of Nepal was promulgated on September 20, 2015 (2072).",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q11",
+    "question": "How many articles are in the Constitution of Nepal 2072?",
+    "options": [
+      "200",
+      "250",
+      "308",
+      "350"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Constitution has 308 articles.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q12",
+    "question": "How many provinces does Nepal have under the 2072 Constitution?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal has 7 provinces.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q13",
+    "question": "Which article of the Constitution deals with Right to Equality?",
+    "options": [
+      "Article 17",
+      "Article 18",
+      "Article 24",
+      "Article 42"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 18 guarantees Right to Equality.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q14",
+    "question": "Which article contains the Directive Principles and Policies of the State?",
+    "options": [
+      "Article 48",
+      "Article 50",
+      "Article 51",
+      "Article 55"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 51 contains Directive Principles and Policies.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q15",
+    "question": "Who was arrested in October 2024 on cooperative fraud charges?",
+    "options": [
+      "KP Sharma Oli",
+      "Rabi Lamichhane",
+      "Pushpa Kamal Dahal",
+      "Sher Bahadur Deuba"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rabi Lamichhane was arrested in October 2024.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q16",
+    "question": "Which constitutional body is mentioned in Article 242-245?",
+    "options": [
+      "Election Commission",
+      "Public Service Commission",
+      "Commission for Investigation of Abuse of Authority",
+      "Auditor General"
+    ],
+    "correctIndex": 1,
+    "explanation": "Articles 242-245 deal with Public Service Commission.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q17",
+    "question": "What is the passing mark for Nayab Subba preliminary exam as of 2082?",
+    "options": [
+      "40",
+      "45",
+      "50",
+      "55"
+    ],
+    "correctIndex": 1,
+    "explanation": "Passing mark was raised to 45 in 2082.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q18",
+    "question": "Which article deals with the Right to Freedom?",
+    "options": [
+      "Article 15",
+      "Article 16",
+      "Article 17",
+      "Article 19"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 17 guarantees Right to Freedom.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q19",
+    "question": "How many schedules are in the Constitution of Nepal?",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "11"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Constitution has 9 schedules.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q20",
+    "question": "Which country signed the BRI framework with Nepal in 2024?",
+    "options": [
+      "India",
+      "China",
+      "USA",
+      "Japan"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nepal and China signed the BRI framework in 2024.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q21",
+    "question": "What is the total number of local levels in Nepal?",
+    "options": [
+      "753",
+      "755",
+      "761",
+      "780"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepal has 753 local levels.",
+    "subject": "GK"
+  },
+  {
+    "id": "q22",
+    "question": "Which article deals with Citizenship provisions?",
+    "options": [
+      "Articles 8-15",
+      "Articles 10-15",
+      "Articles 12-18",
+      "Articles 15-20"
+    ],
+    "correctIndex": 1,
+    "explanation": "Articles 10-15 deal with citizenship.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q23",
+    "question": "Which Nepali player scored the first century in T20 International cricket?",
+    "options": [
+      "Paras Khadka",
+      "Kushal Bhurtel",
+      "Rohit Paudel",
+      "Dipendra Singh Airee"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dipendra Singh Airee scored Nepal's first T20I century.",
+    "subject": "SPORTS"
+  },
+  {
+    "id": "q24",
+    "question": "Which article deals with Emergency Powers?",
+    "options": [
+      "Article 270",
+      "Article 273",
+      "Article 275",
+      "Article 278"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 273 deals with emergency powers.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q25",
+    "question": "When were parliamentary elections held in Nepal after the 2025 protests?",
+    "options": [
+      "January 2026",
+      "March 2026",
+      "May 2026",
+      "July 2026"
+    ],
+    "correctIndex": 1,
+    "explanation": "Elections were held on March 5, 2026.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q26",
+    "question": "Which is the newest province of Nepal by formation?",
+    "options": [
+      "Bagmati",
+      "Koshi",
+      "Madhesh",
+      "Sudurpashchim"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bagmati Province was recently renamed and reorganized.",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "Which article deals with the Supreme Court of Nepal?",
+    "options": [
+      "Articles 120-127",
+      "Articles 128-137",
+      "Articles 138-145",
+      "Articles 150-160"
+    ],
+    "correctIndex": 1,
+    "explanation": "Articles 128-137 deal with the Supreme Court.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q28",
+    "question": "Which Nepali mountain was recently remeasured for height?",
+    "options": [
+      "Annapurna",
+      "Kanchenjunga",
+      "Mount Everest",
+      "Makalu"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mount Everest's height was officially remeasured.",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "What is the official height of Mount Everest?",
+    "options": [
+      "8,840 m",
+      "8,848 m",
+      "8,848.86 m",
+      "8,850 m"
+    ],
+    "correctIndex": 2,
+    "explanation": "New official height is 8,848.86 meters.",
+    "subject": "GK"
+  },
+  {
+    "id": "q30",
+    "question": "Which article establishes the Commission for Investigation of Abuse of Authority (CIAA)?",
+    "options": [
+      "Article 238",
+      "Article 240",
+      "Article 242",
+      "Article 245"
+    ],
+    "correctIndex": 0,
+    "explanation": "Article 238 establishes CIAA.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q31",
+    "question": "Which district in Nepal was affected by a transboundary glacial flood in July 2024?",
+    "options": [
+      "Mustang",
+      "Rasuwa",
+      "Solu",
+      "Taplejung"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rasuwa district was hit by a transboundary glacial flood.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q32",
+    "question": "Which article deals with the President of Nepal?",
+    "options": [
+      "Articles 55-60",
+      "Articles 61-69",
+      "Articles 70-75",
+      "Articles 80-85"
+    ],
+    "correctIndex": 1,
+    "explanation": "Articles 61-69 deal with the President.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q33",
+    "question": "Which is the longest highway in Nepal?",
+    "options": [
+      "Mahendra Highway",
+      "Tribhuvan Highway",
+      "Araniko Highway",
+      "Siddhartha Highway"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mahendra Highway (East-West Highway) is the longest.",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "Which article deals with the Prime Minister and Council of Ministers?",
+    "options": [
+      "Articles 70-74",
+      "Articles 75-82",
+      "Articles 83-90",
+      "Articles 95-100"
+    ],
+    "correctIndex": 1,
+    "explanation": "Articles 75-82 deal with the Prime Minister.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q35",
+    "question": "Which Nepali sportsperson won a gold medal at the Asian Games?",
+    "options": [
+      "Paras Khadka",
+      "Gaurika Singh",
+      "Aruna Shahi",
+      "No Nepali won gold"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nepal has not won a gold medal at the Asian Games yet.",
+    "subject": "SPORTS"
+  },
+  {
+    "id": "q36",
+    "question": "Which article deals with the Federal Parliament?",
+    "options": [
+      "Articles 75-82",
+      "Articles 83-101",
+      "Articles 102-110",
+      "Articles 115-120"
+    ],
+    "correctIndex": 1,
+    "explanation": "Articles 83-101 deal with Federal Parliament.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q37",
+    "question": "What is the literacy rate of Nepal as per recent data?",
+    "options": [
+      "About 55%",
+      "About 65%",
+      "About 76%",
+      "About 85%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal's literacy rate is about 76%.",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "Which article deals with Amendment of the Constitution?",
+    "options": [
+      "Article 270",
+      "Article 274",
+      "Article 278",
+      "Article 280"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 274 deals with constitutional amendment.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q39",
+    "question": "Which river forms the western border of Nepal with India?",
+    "options": [
+      "Koshi",
+      "Gandak",
+      "Karnali",
+      "Mahakali"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mahakali River forms the western border.",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "Which article guarantees Right against Untouchability and Discrimination?",
+    "options": [
+      "Article 22",
+      "Article 24",
+      "Article 26",
+      "Article 28"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 24 guarantees this right.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q41",
+    "question": "Which country is Nepal's largest trading partner?",
+    "options": [
+      "China",
+      "India",
+      "USA",
+      "Japan"
+    ],
+    "correctIndex": 1,
+    "explanation": "India is Nepal's largest trading partner.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q42",
+    "question": "Which article deals with Local Level (Municipality) structure?",
+    "options": [
+      "Articles 200-210",
+      "Articles 215-220",
+      "Articles 225-230",
+      "Articles 235-240"
+    ],
+    "correctIndex": 1,
+    "explanation": "Articles 215-220 deal with Local Level structure.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q43",
+    "question": "What percentage of Nepal's GDP comes from remittances?",
+    "options": [
+      "About 10%",
+      "About 20%",
+      "About 30%",
+      "About 40%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Remittances contribute about 30% of Nepal's GDP.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q44",
+    "question": "Which article deals with National Natural Resources and Fiscal Commission?",
+    "options": [
+      "Article 245",
+      "Article 248",
+      "Article 250-251",
+      "Article 255"
+    ],
+    "correctIndex": 2,
+    "explanation": "Articles 250-251 establish this commission.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q45",
+    "question": "Which is the largest man-made lake in Nepal?",
+    "options": [
+      "Rara Lake",
+      "Phewa Lake",
+      "Kulekhani Lake",
+      "Begnas Lake"
+    ],
+    "correctIndex": 2,
+    "explanation": "Kulekhani (Indrasarovar) is the largest man-made lake.",
+    "subject": "GK"
+  },
+  {
+    "id": "q46",
+    "question": "Which article guarantees Right to Social Justice?",
+    "options": [
+      "Article 38",
+      "Article 40",
+      "Article 42",
+      "Article 44"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 42 guarantees Right to Social Justice.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q47",
+    "question": "Which Nepali was appointed as UN Under-Secretary-General?",
+    "options": [
+      "Gauri Karki",
+      "Arjun Karki",
+      "Gyan Chandra Acharya",
+      "Kul Chandra Gautam"
+    ],
+    "correctIndex": 2,
+    "explanation": "Gyan Chandra Acharya served as UN Under-Secretary-General.",
+    "subject": "CURRENT"
+  },
+  {
+    "id": "q48",
+    "question": "Which article deals with the National Human Rights Commission?",
+    "options": [
+      "Article 280",
+      "Article 282",
+      "Article 285",
+      "Article 290"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 282 establishes NHRC.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q49",
+    "question": "Which national park in Nepal is known for one-horned rhinoceros?",
+    "options": [
+      "Sagarmatha",
+      "Chitwan",
+      "Langtang",
+      "Bardia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chitwan National Park is famous for one-horned rhinos.",
+    "subject": "GK"
+  },
+  {
+    "id": "q50",
+    "question": "Which article deals with the Attorney General of Nepal?",
+    "options": [
+      "Article 150",
+      "Article 155",
+      "Article 157",
+      "Article 160"
+    ],
+    "correctIndex": 1,
+    "explanation": "Article 157 deals with the Attorney General.",
+    "subject": "CONSTITUTION"
+  }
+]

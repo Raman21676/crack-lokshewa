@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "What does a red traffic light mean?",
+    "options": [
+      "Go",
+      "Slow down",
+      "Stop",
+      "Yield"
+    ],
+    "correctIndex": 2,
+    "explanation": "Red light means complete stop.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q2",
+    "question": "What is the speed limit in school zones in Nepal?",
+    "options": [
+      "30 km/h",
+      "40 km/h",
+      "50 km/h",
+      "60 km/h"
+    ],
+    "correctIndex": 0,
+    "explanation": "School zones typically have 30 km/h limit.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q3",
+    "question": "What does a triangular sign with red border indicate?",
+    "options": [
+      "Mandatory instruction",
+      "Warning",
+      "Prohibition",
+      "Information"
+    ],
+    "correctIndex": 1,
+    "explanation": "Triangular signs with red borders are warning signs.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q4",
+    "question": "When should you use hazard lights?",
+    "options": [
+      "When parking",
+      "When driving fast",
+      "When vehicle is stopped due to emergency",
+      "When overtaking"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hazard lights warn others of emergency situations.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q5",
+    "question": "What is the legal blood alcohol limit for drivers in Nepal?",
+    "options": [
+      "0.00%",
+      "0.03%",
+      "0.05%",
+      "0.08%"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepal has zero tolerance for drinking and driving.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q6",
+    "question": "What does a solid yellow line on the road mean?",
+    "options": [
+      "Overtaking allowed",
+      "No overtaking",
+      "Parking allowed",
+      "One-way street"
+    ],
+    "correctIndex": 1,
+    "explanation": "Solid yellow lines indicate no overtaking.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q7",
+    "question": "Which side of the road should you drive on in Nepal?",
+    "options": [
+      "Left",
+      "Right",
+      "Center",
+      "Any side"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepal follows left-hand traffic.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q8",
+    "question": "What does a circular blue sign with a white arrow indicate?",
+    "options": [
+      "Warning",
+      "Prohibition",
+      "Mandatory direction",
+      "Information"
+    ],
+    "correctIndex": 2,
+    "explanation": "Blue circular signs with white symbols are mandatory.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q9",
+    "question": "When approaching a pedestrian crossing, you should:",
+    "options": [
+      "Speed up",
+      "Stop if pedestrians are crossing",
+      "Honk and continue",
+      "Change lane"
+    ],
+    "correctIndex": 1,
+    "explanation": "Drivers must stop for pedestrians at crossings.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q10",
+    "question": "What is the purpose of ABS in vehicles?",
+    "options": [
+      "Increase speed",
+      "Prevent wheels from locking during braking",
+      "Save fuel",
+      "Improve steering"
+    ],
+    "correctIndex": 1,
+    "explanation": "ABS = Anti-lock Braking System",
+    "subject": "VEHICLE"
+  },
+  {
+    "id": "q11",
+    "question": "What does a 'No U-turn' sign look like?",
+    "options": [
+      "Blue circle with U arrow",
+      "Red circle with U arrow crossed out",
+      "Yellow triangle",
+      "Green rectangle"
+    ],
+    "correctIndex": 1,
+    "explanation": "Prohibitory signs are red circles with crossed symbols.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q12",
+    "question": "What should you do when an ambulance is behind you with sirens?",
+    "options": [
+      "Speed up",
+      "Pull over to the side",
+      "Ignore it",
+      "Block the road"
+    ],
+    "correctIndex": 1,
+    "explanation": "Emergency vehicles have right of way.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q13",
+    "question": "Which vehicle has the right of way at an uncontrolled intersection?",
+    "options": [
+      "The larger vehicle",
+      "The vehicle on the right",
+      "The vehicle on the left",
+      "The faster vehicle"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vehicle on the right has priority at uncontrolled intersections.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q14",
+    "question": "What does engine overheating indicate?",
+    "options": [
+      "Low fuel",
+      "Coolant system problem",
+      "Brake failure",
+      "Low oil"
+    ],
+    "correctIndex": 1,
+    "explanation": "Overheating usually indicates cooling system issues.",
+    "subject": "VEHICLE"
+  },
+  {
+    "id": "q15",
+    "question": "What is the safe following distance in normal conditions?",
+    "options": [
+      "1 second",
+      "2 seconds",
+      "5 seconds",
+      "10 seconds"
+    ],
+    "correctIndex": 1,
+    "explanation": "The 2-second rule is recommended for safe following distance.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q16",
+    "question": "What does a flashing yellow traffic light mean?",
+    "options": [
+      "Stop",
+      "Proceed with caution",
+      "Speed up",
+      "Road closed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Flashing yellow means proceed with caution.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q17",
+    "question": "When parking uphill on a road with a curb, which way should you turn your wheels?",
+    "options": [
+      "Toward the curb",
+      "Away from the curb",
+      "Straight",
+      "Does not matter"
+    ],
+    "correctIndex": 1,
+    "explanation": "Turn wheels away from curb to prevent rolling into traffic.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q18",
+    "question": "What does a white rectangular sign with black text indicate?",
+    "options": [
+      "Warning",
+      "Regulation",
+      "Information",
+      "Prohibition"
+    ],
+    "correctIndex": 2,
+    "explanation": "White rectangular signs provide information.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q19",
+    "question": "What should you check before starting a long journey?",
+    "options": [
+      "Only fuel",
+      "Tire pressure, oil, coolant, and fuel",
+      "Only brakes",
+      "Only lights"
+    ],
+    "correctIndex": 1,
+    "explanation": "Comprehensive vehicle check is essential before long trips.",
+    "subject": "VEHICLE"
+  },
+  {
+    "id": "q20",
+    "question": "What is the penalty for using a mobile phone while driving in Nepal?",
+    "options": [
+      "NPR 500",
+      "NPR 1,000",
+      "NPR 2,000",
+      "NPR 5,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Using mobile while driving attracts NPR 1,000 fine.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q21",
+    "question": "What does a 'Slippery Road' sign indicate?",
+    "options": [
+      "Road under construction",
+      "Road may be slippery",
+      "Road closed",
+      "Speed bump ahead"
+    ],
+    "correctIndex": 1,
+    "explanation": "Warning sign for potentially slippery surface.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q22",
+    "question": "What should you do if your brakes fail?",
+    "options": [
+      "Jump out",
+      "Use handbrake gradually and downshift",
+      "Speed up",
+      "Close eyes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gradually apply handbrake and downshift to slow down.",
+    "subject": "VEHICLE"
+  },
+  {
+    "id": "q23",
+    "question": "What is the meaning of a red octagonal sign?",
+    "options": [
+      "Yield",
+      "Stop",
+      "Do not enter",
+      "No parking"
+    ],
+    "correctIndex": 1,
+    "explanation": "Octagonal red signs are stop signs.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q24",
+    "question": "How often should you check tire pressure?",
+    "options": [
+      "Once a year",
+      "Once a month",
+      "Only when flat",
+      "Never"
+    ],
+    "correctIndex": 1,
+    "explanation": "Monthly tire pressure checks are recommended.",
+    "subject": "VEHICLE"
+  },
+  {
+    "id": "q25",
+    "question": "What does a 'Give Way' sign look like?",
+    "options": [
+      "Red octagon",
+      "Red triangle pointing down",
+      "Blue circle",
+      "Yellow diamond"
+    ],
+    "correctIndex": 1,
+    "explanation": "Give way is an inverted red triangle.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q26",
+    "question": "What is the primary cause of road accidents in Nepal?",
+    "options": [
+      "Vehicle defects",
+      "Human error",
+      "Weather",
+      "Road conditions"
+    ],
+    "correctIndex": 1,
+    "explanation": "Human error is the leading cause of road accidents globally and in Nepal.",
+    "subject": "SAFETY"
+  },
+  {
+    "id": "q27",
+    "question": "When should you dim your headlights?",
+    "options": [
+      "In fog",
+      "When approaching oncoming traffic",
+      "In rain",
+      "At all times"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dim headlights to avoid dazzling oncoming drivers.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q28",
+    "question": "What is the purpose of a catalytic converter?",
+    "options": [
+      "Increase power",
+      "Reduce exhaust emissions",
+      "Improve fuel efficiency",
+      "Cool the engine"
+    ],
+    "correctIndex": 1,
+    "explanation": "Catalytic converters reduce harmful exhaust emissions.",
+    "subject": "VEHICLE"
+  },
+  {
+    "id": "q29",
+    "question": "What does a 'No Parking' sign show?",
+    "options": [
+      "Red circle with blue background and red cross",
+      "Blue circle with P",
+      "Green rectangle",
+      "Yellow triangle"
+    ],
+    "correctIndex": 0,
+    "explanation": "No parking is indicated by a red circle with crossed P.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q30",
+    "question": "What should you do if you see an accident?",
+    "options": [
+      "Drive away quickly",
+      "Stop and help if safe, call emergency",
+      "Take photos only",
+      "Ignore it"
+    ],
+    "correctIndex": 1,
+    "explanation": "Stop to help and call emergency services if safe to do so.",
+    "subject": "SAFETY"
+  },
+  {
+    "id": "q31",
+    "question": "What is the function of engine oil?",
+    "options": [
+      "Only cooling",
+      "Lubrication and cooling",
+      "Only cleaning",
+      "Only fuel efficiency"
+    ],
+    "correctIndex": 1,
+    "explanation": "Engine oil lubricates and helps cool engine parts.",
+    "subject": "VEHICLE"
+  },
+  {
+    "id": "q32",
+    "question": "What does a zebra crossing indicate?",
+    "options": [
+      "Parking area",
+      "Pedestrian crossing",
+      "Speed limit",
+      "No entry"
+    ],
+    "correctIndex": 1,
+    "explanation": "Zebra crossings are designated pedestrian crossings.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q33",
+    "question": "When is it safe to overtake?",
+    "options": [
+      "On a curve",
+      "When road is clear and visibility is good",
+      "Near a junction",
+      "In heavy rain"
+    ],
+    "correctIndex": 1,
+    "explanation": "Overtake only when road is clear with good visibility.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q34",
+    "question": "What does black smoke from exhaust indicate?",
+    "options": [
+      "Normal operation",
+      "Engine burning too much fuel",
+      "Coolant leak",
+      "Low oil"
+    ],
+    "correctIndex": 1,
+    "explanation": "Black smoke indicates rich fuel mixture or engine problems.",
+    "subject": "VEHICLE"
+  },
+  {
+    "id": "q35",
+    "question": "What is the purpose of seat belts?",
+    "options": [
+      "Comfort only",
+      "Prevent occupants from being thrown in collision",
+      "Styling",
+      "Reduce noise"
+    ],
+    "correctIndex": 1,
+    "explanation": "Seat belts keep occupants in place during collisions.",
+    "subject": "SAFETY"
+  },
+  {
+    "id": "q36",
+    "question": "What does a 'School Ahead' sign look like?",
+    "options": [
+      "Red circle",
+      "Yellow diamond with school symbol",
+      "Blue rectangle",
+      "Green circle"
+    ],
+    "correctIndex": 1,
+    "explanation": "School ahead is a warning sign (yellow diamond).",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q37",
+    "question": "What should you do when driving in fog?",
+    "options": [
+      "Use high beam",
+      "Use low beam and fog lights",
+      "Speed up",
+      "Turn off lights"
+    ],
+    "correctIndex": 1,
+    "explanation": "Low beams and fog lights reduce glare in fog.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q38",
+    "question": "What is the minimum tread depth for tires?",
+    "options": [
+      "1 mm",
+      "1.6 mm",
+      "3 mm",
+      "5 mm"
+    ],
+    "correctIndex": 1,
+    "explanation": "Minimum legal tread depth is 1.6 mm.",
+    "subject": "VEHICLE"
+  },
+  {
+    "id": "q39",
+    "question": "What does a continuous beeping sound while driving indicate?",
+    "options": [
+      "Radio on",
+      "Seat belt not fastened",
+      "Low fuel",
+      "Door open"
+    ],
+    "correctIndex": 1,
+    "explanation": "Most cars beep for unfastened seat belts.",
+    "subject": "VEHICLE"
+  },
+  {
+    "id": "q40",
+    "question": "What is defensive driving?",
+    "options": [
+      "Driving fast",
+      "Anticipating hazards and driving safely",
+      "Ignoring traffic rules",
+      "Driving aggressively"
+    ],
+    "correctIndex": 1,
+    "explanation": "Defensive driving means anticipating and avoiding hazards.",
+    "subject": "SAFETY"
+  },
+  {
+    "id": "q41",
+    "question": "What does a 'One Way' sign indicate?",
+    "options": [
+      "Road closed",
+      "Traffic flows only in indicated direction",
+      "No overtaking",
+      "Speed limit"
+    ],
+    "correctIndex": 1,
+    "explanation": "One way signs indicate single-direction traffic flow.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q42",
+    "question": "What should you do if your tire bursts while driving?",
+    "options": [
+      "Brake hard immediately",
+      "Grip steering firmly, do not brake suddenly",
+      "Accelerate",
+      "Turn off engine"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maintain control, don't brake suddenly during a blowout.",
+    "subject": "VEHICLE"
+  },
+  {
+    "id": "q43",
+    "question": "Which light indicates engine problems?",
+    "options": [
+      "Oil light",
+      "Battery light",
+      "Check engine light",
+      "Brake light"
+    ],
+    "correctIndex": 2,
+    "explanation": "Check engine light indicates engine/emission problems.",
+    "subject": "VEHICLE"
+  },
+  {
+    "id": "q44",
+    "question": "What is the purpose of side mirrors?",
+    "options": [
+      "Decoration",
+      "See vehicles in blind spots",
+      "Adjust lighting",
+      "Store items"
+    ],
+    "correctIndex": 1,
+    "explanation": "Side mirrors help see vehicles in adjacent lanes.",
+    "subject": "VEHICLE"
+  },
+  {
+    "id": "q45",
+    "question": "What does a 'Roundabout Ahead' sign indicate?",
+    "options": [
+      "Stop immediately",
+      "Circular intersection ahead",
+      "Road ends",
+      "Bridge ahead"
+    ],
+    "correctIndex": 1,
+    "explanation": "Warning sign indicating a roundabout/circular intersection.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q46",
+    "question": "What is the first thing to do after an accident?",
+    "options": [
+      "Leave the scene",
+      "Check for injuries and call for help",
+      "Argue with other driver",
+      "Move vehicle immediately"
+    ],
+    "correctIndex": 1,
+    "explanation": "First priority is checking for injuries and calling emergency services.",
+    "subject": "SAFETY"
+  },
+  {
+    "id": "q47",
+    "question": "What does green traffic light mean?",
+    "options": [
+      "Stop",
+      "Proceed if way is clear",
+      "Slow down",
+      "Yield"
+    ],
+    "correctIndex": 1,
+    "explanation": "Green means go if the intersection is clear.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q48",
+    "question": "When should you use low beam headlights?",
+    "options": [
+      "Only at night",
+      "In fog, rain, and when approaching vehicles",
+      "Only in tunnels",
+      "Never"
+    ],
+    "correctIndex": 1,
+    "explanation": "Low beams are used in poor visibility and when approaching traffic.",
+    "subject": "TRAFFIC"
+  },
+  {
+    "id": "q49",
+    "question": "What is the function of a shock absorber?",
+    "options": [
+      "Increase speed",
+      "Stabilize vehicle and absorb bumps",
+      "Improve braking",
+      "Reduce noise"
+    ],
+    "correctIndex": 1,
+    "explanation": "Shock absorbers dampen bumps and stabilize the vehicle.",
+    "subject": "VEHICLE"
+  },
+  {
+    "id": "q50",
+    "question": "What does a 'Speed Limit 50' sign mean?",
+    "options": [
+      "Minimum speed 50",
+      "Maximum speed 50",
+      "Average speed 50",
+      "Recommended speed 50"
+    ],
+    "correctIndex": 1,
+    "explanation": "Speed limit signs indicate maximum legal speed.",
+    "subject": "TRAFFIC"
+  }
+]

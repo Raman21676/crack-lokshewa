@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the average lifespan of a chicken?",
+    "options": [
+      "1-2 years",
+      "5-10 years",
+      "15-20 years",
+      "25-30 years"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chickens typically live 5-10 years.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q2",
+    "question": "Which breed of duck is famous for egg production?",
+    "options": [
+      "Muscovy",
+      "Khaki Campbell",
+      "Pekin",
+      "Rouen"
+    ],
+    "correctIndex": 1,
+    "explanation": "Khaki Campbell ducks are excellent egg layers.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q3",
+    "question": "What is the primary cause of bloat in ruminants?",
+    "options": [
+      "Viral infection",
+      "Excess gas production in rumen",
+      "Mineral deficiency",
+      "Parasites"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bloat is caused by excessive gas accumulation in rumen.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q4",
+    "question": "Which trace mineral is essential for hoof health in cattle?",
+    "options": [
+      "Iron",
+      "Zinc",
+      "Copper",
+      "Manganese"
+    ],
+    "correctIndex": 1,
+    "explanation": "Zinc is important for skin and hoof health.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q5",
+    "question": "What is the incubation period of chicken eggs?",
+    "options": [
+      "14 days",
+      "21 days",
+      "28 days",
+      "35 days"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chicken eggs incubate for 21 days.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q6",
+    "question": "Which disease causes swelling of the udder in goats?",
+    "options": [
+      "Mastitis",
+      "Mange",
+      "PPR",
+      "Enterotoxemia"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mastitis causes udder inflammation.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q7",
+    "question": "What is the term for a young female horse?",
+    "options": [
+      "Colt",
+      "Filly",
+      "Mare",
+      "Gelding"
+    ],
+    "correctIndex": 1,
+    "explanation": "A young female horse is called a filly.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q8",
+    "question": "Which grass is commonly grown for fodder in Nepal?",
+    "options": [
+      "Bermuda grass",
+      "Napier grass",
+      "Kentucky bluegrass",
+      "Fescue"
+    ],
+    "correctIndex": 1,
+    "explanation": "Napier grass is popular fodder in Nepal.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q9",
+    "question": "What is the gestation period of a rabbit?",
+    "options": [
+      "21 days",
+      "30-32 days",
+      "45 days",
+      "60 days"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rabbit gestation is about 30-32 days.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q10",
+    "question": "Which vitamin is known as the 'anti-sterility vitamin'?",
+    "options": [
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin E",
+      "Vitamin K"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vitamin E is called the anti-sterility vitamin.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q11",
+    "question": "What is the purpose of ear notching in pigs?",
+    "options": [
+      "Decoration",
+      "Identification",
+      "Treatment",
+      "Feeding"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ear notching is used for pig identification.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q12",
+    "question": "Which disease is caused by Clostridium tetani?",
+    "options": [
+      "Anthrax",
+      "Tetanus",
+      "Botulism",
+      "Blackleg"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tetanus is caused by Clostridium tetani.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q13",
+    "question": "What is the average daily milk yield of a Murrah buffalo?",
+    "options": [
+      "2-3 liters",
+      "5-8 liters",
+      "10-15 liters",
+      "20-25 liters"
+    ],
+    "correctIndex": 1,
+    "explanation": "Murrah buffaloes yield 5-8 liters daily on average.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q14",
+    "question": "Which antiparasitic drug is used against liver fluke?",
+    "options": [
+      "Albendazole",
+      "Triclabendazole",
+      "Ivermectin",
+      "Levamisole"
+    ],
+    "correctIndex": 1,
+    "explanation": "Triclabendazole is effective against liver fluke.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q15",
+    "question": "What is the optimal temperature for broiler house?",
+    "options": [
+      "10-15\u00b0C",
+      "18-22\u00b0C",
+      "25-30\u00b0C",
+      "35-40\u00b0C"
+    ],
+    "correctIndex": 2,
+    "explanation": "Broiler houses are maintained at 25-30\u00b0C initially.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q16",
+    "question": "Which reproductive technology involves embryo transfer?",
+    "options": [
+      "AI",
+      "ET",
+      "IVF",
+      "MOET"
+    ],
+    "correctIndex": 1,
+    "explanation": "ET = Embryo Transfer",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q17",
+    "question": "What is the chief symptom of milk fever?",
+    "options": [
+      "Fever",
+      "Paralysis and recumbency",
+      "Diarrhea",
+      "Coughing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Milk fever causes paralysis and inability to stand.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q18",
+    "question": "Which fish is commonly cultured in Nepal?",
+    "options": [
+      "Salmon",
+      "Tuna",
+      "Rohu (Common carp)",
+      "Shark"
+    ],
+    "correctIndex": 2,
+    "explanation": "Rohu and common carp are widely cultured in Nepal.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q19",
+    "question": "What is the purpose of creep feeding?",
+    "options": [
+      "Feeding adult animals",
+      "Feeding young animals separately",
+      "Feeding during drought",
+      "Feeding at night"
+    ],
+    "correctIndex": 1,
+    "explanation": "Creep feeding provides supplemental feed to young animals.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q20",
+    "question": "Which disease causes 'limberneck' in poultry?",
+    "options": [
+      "Newcastle disease",
+      "Botulism",
+      "Coccidiosis",
+      "Fowl cholera"
+    ],
+    "correctIndex": 1,
+    "explanation": "Botulism causes limberneck (flaccid paralysis of neck).",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q21",
+    "question": "What is the term for the first milk produced by a mammal after giving birth?",
+    "options": [
+      "Whey",
+      "Colostrum",
+      "Buttermilk",
+      "Cream"
+    ],
+    "correctIndex": 1,
+    "explanation": "Colostrum is the antibody-rich first milk.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q22",
+    "question": "Which sheep breed is known for wool production?",
+    "options": [
+      "Dorset",
+      "Merino",
+      "Suffolk",
+      "Hampshire"
+    ],
+    "correctIndex": 1,
+    "explanation": "Merino sheep produce fine quality wool.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q23",
+    "question": "What is the main ingredient in urea-molasses block?",
+    "options": [
+      "Protein",
+      "Urea and molasses",
+      "Fat",
+      "Fiber"
+    ],
+    "correctIndex": 1,
+    "explanation": "UMB contains urea, molasses, and minerals.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q24",
+    "question": "Which bacterial disease causes blackleg in cattle?",
+    "options": [
+      "Clostridium chauvoei",
+      "Brucella abortus",
+      "Mycobacterium bovis",
+      "Salmonella"
+    ],
+    "correctIndex": 0,
+    "explanation": "Blackleg is caused by Clostridium chauvoei.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q25",
+    "question": "What is the dry period in dairy animals?",
+    "options": [
+      "Period of no milking before next calving",
+      "Period of high milk production",
+      "Period of illness",
+      "Period of pregnancy"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dry period is the non-lactating period before next calving.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q26",
+    "question": "Which poultry disease is caused by a herpesvirus?",
+    "options": [
+      "Newcastle",
+      "Marek's disease",
+      "Infectious bronchitis",
+      "Coccidiosis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Marek's disease is caused by a herpesvirus.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q27",
+    "question": "What is the normal rectal temperature of a pig?",
+    "options": [
+      "98\u00b0F",
+      "100\u00b0F",
+      "102.5\u00b0F (39.2\u00b0C)",
+      "105\u00b0F"
+    ],
+    "correctIndex": 2,
+    "explanation": "Normal pig temperature is about 102.5\u00b0F (39.2\u00b0C).",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q28",
+    "question": "Which reproductive hormone is produced by the corpus luteum?",
+    "options": [
+      "Estrogen",
+      "Progesterone",
+      "FSH",
+      "LH"
+    ],
+    "correctIndex": 1,
+    "explanation": "Corpus luteum produces progesterone.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q29",
+    "question": "What is the purpose of quarantine in animal husbandry?",
+    "options": [
+      "Isolate sick animals",
+      "Isolate newly introduced animals",
+      "Separate males and females",
+      "Feed animals separately"
+    ],
+    "correctIndex": 1,
+    "explanation": "Quarantine isolates new animals to prevent disease spread.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q30",
+    "question": "Which cattle breed is known as the 'Holstein-Friesian'?",
+    "options": [
+      "Beef breed",
+      "Dual-purpose breed",
+      "High milk-producing dairy breed",
+      "Draft breed"
+    ],
+    "correctIndex": 2,
+    "explanation": "Holstein-Friesian is a high milk-producing dairy breed.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q31",
+    "question": "What is the cause of coccidiosis in poultry?",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Protozoa",
+      "Fungi"
+    ],
+    "correctIndex": 2,
+    "explanation": "Coccidiosis is caused by Eimeria protozoa.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q32",
+    "question": "Which mineral is most abundant in animal bones?",
+    "options": [
+      "Iron",
+      "Calcium",
+      "Sodium",
+      "Potassium"
+    ],
+    "correctIndex": 1,
+    "explanation": "Calcium is the major mineral in bones.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q33",
+    "question": "What is the term for an adult female sheep?",
+    "options": [
+      "Ewe",
+      "Ram",
+      "Lamb",
+      "Wether"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adult female sheep is called a ewe.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q34",
+    "question": "Which disease causes 'water belly' in broiler chickens?",
+    "options": [
+      "Ascites",
+      "Coccidiosis",
+      "Newcastle",
+      "IBD"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ascites (pulmonary hypertension) causes fluid accumulation.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q35",
+    "question": "What is the gestation period of a mare (horse)?",
+    "options": [
+      "9 months",
+      "10 months",
+      "11 months",
+      "12 months"
+    ],
+    "correctIndex": 2,
+    "explanation": "Horse gestation is about 11 months (340 days).",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q36",
+    "question": "Which feeding practice involves restricting feed intake?",
+    "options": [
+      "Ad libitum",
+      "Restricted feeding",
+      "Creep feeding",
+      "Free choice"
+    ],
+    "correctIndex": 1,
+    "explanation": "Restricted feeding limits daily feed intake.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q37",
+    "question": "What is the primary vector of East Coast Fever in cattle?",
+    "options": [
+      "Mosquito",
+      "Tick",
+      "Fly",
+      "Louse"
+    ],
+    "correctIndex": 1,
+    "explanation": "East Coast Fever is transmitted by ticks.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q38",
+    "question": "Which enzyme helps digest starch in animal feed?",
+    "options": [
+      "Protease",
+      "Lipase",
+      "Amylase",
+      "Cellulase"
+    ],
+    "correctIndex": 2,
+    "explanation": "Amylase breaks down starch into sugars.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q39",
+    "question": "What is the purpose of a farrier?",
+    "options": [
+      "Animal doctor",
+      "Hoof care specialist",
+      "Feed supplier",
+      "Breeding specialist"
+    ],
+    "correctIndex": 1,
+    "explanation": "A farrier specializes in equine hoof care.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q40",
+    "question": "Which poultry disease causes tumors in nerves and organs?",
+    "options": [
+      "Newcastle",
+      "Marek's disease",
+      "Avian influenza",
+      "Coccidiosis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Marek's disease causes lymphoid tumors.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q41",
+    "question": "What is the milk production cycle of a dairy cow called?",
+    "options": [
+      "Gestation",
+      "Lactation",
+      "Dry period",
+      "Parturition"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lactation is the milk production period.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q42",
+    "question": "Which parasite causes 'screw-worm' infestation?",
+    "options": [
+      "Tick",
+      "Mite",
+      "Fly larvae",
+      "Lice"
+    ],
+    "correctIndex": 2,
+    "explanation": "Screw-worm is caused by fly larvae (myiasis).",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q43",
+    "question": "What is the term for castrated male poultry?",
+    "options": [
+      "Rooster",
+      "Capon",
+      "Drake",
+      "Tom"
+    ],
+    "correctIndex": 1,
+    "explanation": "Capon is a castrated male chicken.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q44",
+    "question": "Which vitamin deficiency causes rickets in young animals?",
+    "options": [
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin E",
+      "Vitamin K"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vitamin D deficiency causes rickets.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q45",
+    "question": "What is the approximate water content of milk?",
+    "options": [
+      "50%",
+      "65%",
+      "87%",
+      "95%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Milk contains about 87% water.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q46",
+    "question": "Which organization in Nepal is responsible for livestock development?",
+    "options": [
+      "Department of Agriculture",
+      "Department of Livestock Services",
+      "Nepal Veterinary Council",
+      "Ministry of Health"
+    ],
+    "correctIndex": 1,
+    "explanation": "Department of Livestock Services (DLS) oversees livestock.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q47",
+    "question": "What is the term for an animal that eats both plants and meat?",
+    "options": [
+      "Herbivore",
+      "Carnivore",
+      "Omnivore",
+      "Insectivore"
+    ],
+    "correctIndex": 2,
+    "explanation": "Omnivores eat both plant and animal matter.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q48",
+    "question": "Which breeding method involves mating related animals?",
+    "options": [
+      "Outcrossing",
+      "Crossbreeding",
+      "Inbreeding",
+      "Grading up"
+    ],
+    "correctIndex": 2,
+    "explanation": "Inbreeding involves mating related individuals.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q49",
+    "question": "What is the main symptom of foot rot in sheep?",
+    "options": [
+      "Lameness and hoof lesions",
+      "Coughing",
+      "Diarrhea",
+      "Fever"
+    ],
+    "correctIndex": 0,
+    "explanation": "Foot rot causes lameness and hoof decay.",
+    "subject": "LIVESTOCK"
+  },
+  {
+    "id": "q50",
+    "question": "Which nutrient provides the most energy per gram?",
+    "options": [
+      "Protein",
+      "Carbohydrate",
+      "Fat",
+      "Fiber"
+    ],
+    "correctIndex": 2,
+    "explanation": "Fat provides 9 kcal/g, more than protein or carbs (4 kcal/g).",
+    "subject": "LIVESTOCK"
+  }
+]
