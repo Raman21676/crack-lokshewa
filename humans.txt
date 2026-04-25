@@ -1,0 +1,14 @@
+/* TEAM */
+Creator: Crack Lokshewa Team
+Site: https://lokshewa.online
+Location: Nepal
+
+/* THANKS */
+Nepal Lok Sewa Aayog (Public Service Commission) — for the exam framework
+All Lok Sewa aspirants — for the motivation to build this platform
+
+/* SITE */
+Last update: 2026-04-25
+Standards: HTML5, CSS3, ES5
+Components: Vanilla JS SPA, GitHub Pages
+Software: None (static site)
