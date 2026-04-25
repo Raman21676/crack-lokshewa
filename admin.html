@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — Crack Lokshewa</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="css/style.css?v=11">
+<style>
+.admin-wrap {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+.admin-card {
+    background: var(--gradient-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    width: 100%;
+    max-width: 420px;
+    padding: 2rem;
+    text-align: center;
+}
+.admin-card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+    color: var(--accent);
+}
+.admin-card p {
+    color: var(--text-2);
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+}
+.admin-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--surface);
+    color: var(--text-1);
+    font-size: 1rem;
+    transition: border-color var(--transition);
+}
+.admin-input:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+.admin-btn {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: var(--radius-sm);
+    background: var(--accent);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity var(--transition), transform var(--transition);
+}
+.admin-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+.admin-err {
+    color: #ef4444;
+    font-size: 0.875rem;
+    margin-top: 0.75rem;
+    min-height: 1.2em;
+}
+
+/* Dashboard */
+.dash-wrap {
+    display: none;
+    width: 100%;
+    max-width: 960px;
+    padding: 2rem 1rem;
+}
+.dash-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.dash-header h1 {
+    font-size: 1.5rem;
+    color: var(--accent);
+}
+.dash-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.dash-card {
+    background: var(--gradient-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+}
+.dash-card .num {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 0.25rem;
+}
+.dash-card .label {
+    font-size: 0.8rem;
+    color: var(--text-2);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.dash-section {
+    background: var(--gradient-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow);
+}
+.dash-section h3 {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-1);
+}
+.dash-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+}
+.dash-table th,
+.dash-table td {
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+.dash-table th {
+    color: var(--text-2);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+}
+.dash-table td { color: var(--text-1); }
+.logout-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: transparent;
+    color: var(--text-2);
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+.logout-btn:hover { color: var(--accent); border-color: var(--accent); }
+
+.note {
+    font-size: 0.75rem;
+    color: var(--text-2);
+    margin-top: 0.5rem;
+}
+</style>
+</head>
+<body data-theme="ocean" data-mode="light">
+<script>
+(function() {
+    var t = localStorage.getItem('cl_theme') || 'ocean';
+    var m = localStorage.getItem('cl_mode') || 'light';
+    document.body.setAttribute('data-theme', t);
+    document.body.setAttribute('data-mode', m);
+})();
+</script>
+
+<!-- Login -->
+<div id="login-wrap" class="admin-wrap">
+    <div class="admin-card">
+        <h1>🔒 Admin Panel</h1>
+        <p>Crack Lokshewa — Traffic Monitor</p>
+        <input type="text"     id="a-user" class="admin-input" placeholder="Username" autocomplete="off">
+        <input type="password" id="a-pass" class="admin-input" placeholder="Password">
+        <button class="admin-btn" onclick="doLogin()">Sign In</button>
+        <div id="a-err" class="admin-err"></div>
+    </div>
+</div>
+
+<!-- Dashboard -->
+<div id="dash-wrap" class="admin-wrap">
+    <div class="dash-wrap">
+        <div class="dash-header">
+            <h1>📊 Traffic Overview</h1>
+            <button class="logout-btn" onclick="doLogout()">Logout</button>
+        </div>
+
+        <div class="dash-grid">
+            <div class="dash-card">
+                <div class="num" id="stat-total">—</div>
+                <div class="label">Total Hits</div>
+            </div>
+            <div class="dash-card">
+                <div class="num" id="stat-today">—</div>
+                <div class="label">This Browser Today</div>
+            </div>
+            <div class="dash-card">
+                <div class="num" id="stat-sess">—</div>
+                <div class="label">Pages This Session</div>
+            </div>
+        </div>
+
+        <div class="dash-section">
+            <h3>📁 Hits by Category</h3>
+            <table class="dash-table">
+                <thead><tr><th>Category</th><th>Hits</th></tr></thead>
+                <tbody id="cat-table"></tbody>
+            </table>
+        </div>
+
+        <div class="dash-section">
+            <h3>🕐 Recent Activity (This Browser)</h3>
+            <table class="dash-table">
+                <thead><tr><th>Page</th><th>Category</th><th>Time</th></tr></thead>
+                <tbody id="recent-table"></tbody>
+            </table>
+        </div>
+
+        <p class="note">Global stats are aggregated via CountAPI (free tier). Session stats are local to this browser only.</p>
+    </div>
+</div>
+
+<script src="js/admin.js?v=1"></script>
+</body>
+</html>
