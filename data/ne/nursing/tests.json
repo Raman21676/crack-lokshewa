@@ -1,7 +1,7 @@
 [
     {
         "id": "set1",
-        "title": "स्टाफ नर्स मॉडल सेट 1",
+        "title": "\u0938\u094d\u091f\u093e\u092b \u0928\u0930\u094d\u0938 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 1",
         "questionCount": 50,
         "timeLimit": 45,
         "difficulty": "Easy",
@@ -9,7 +9,7 @@
     },
     {
         "id": "set2",
-        "title": "स्टाफ नर्स मॉडल सेट 2",
+        "title": "\u0938\u094d\u091f\u093e\u092b \u0928\u0930\u094d\u0938 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 2",
         "questionCount": 50,
         "timeLimit": 45,
         "difficulty": "Medium",
@@ -17,7 +17,7 @@
     },
     {
         "id": "set3",
-        "title": "स्टाफ नर्स मॉडल सेट 3",
+        "title": "\u0938\u094d\u091f\u093e\u092b \u0928\u0930\u094d\u0938 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 3",
         "questionCount": 50,
         "timeLimit": 45,
         "difficulty": "Hard",
@@ -25,7 +25,7 @@
     },
     {
         "id": "set4",
-        "title": "स्टाफ नर्स मॉडल सेट 4",
+        "title": "\u0938\u094d\u091f\u093e\u092b \u0928\u0930\u094d\u0938 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 4",
         "questionCount": 50,
         "timeLimit": 45,
         "difficulty": "Easy",
@@ -33,50 +33,10 @@
     },
     {
         "id": "set5",
-        "title": "स्टाफ नर्स मॉडल सेट 5",
+        "title": "\u0938\u094d\u091f\u093e\u092b \u0928\u0930\u094d\u0938 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 5",
         "questionCount": 50,
         "timeLimit": 45,
         "difficulty": "Medium",
-        "locked": false
-    },
-    {
-        "id": "set6",
-        "title": "स्टाफ नर्स मॉडल सेट 6",
-        "questionCount": 50,
-        "timeLimit": 45,
-        "difficulty": "Hard",
-        "locked": false
-    },
-    {
-        "id": "set7",
-        "title": "स्टाफ नर्स मॉडल सेट 7",
-        "questionCount": 50,
-        "timeLimit": 45,
-        "difficulty": "Easy",
-        "locked": false
-    },
-    {
-        "id": "set8",
-        "title": "स्टाफ नर्स मॉडल सेट 8",
-        "questionCount": 50,
-        "timeLimit": 45,
-        "difficulty": "Medium",
-        "locked": false
-    },
-    {
-        "id": "set9",
-        "title": "स्टाफ नर्स मॉडल सेट 9",
-        "questionCount": 50,
-        "timeLimit": 45,
-        "difficulty": "Hard",
-        "locked": false
-    },
-    {
-        "id": "set10",
-        "title": "स्टाफ नर्स मॉडल सेट 10",
-        "questionCount": 50,
-        "timeLimit": 45,
-        "difficulty": "Easy",
         "locked": false
     }
 ]

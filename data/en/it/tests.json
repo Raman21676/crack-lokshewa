@@ -38,45 +38,5 @@
         "timeLimit": 45,
         "difficulty": "Medium",
         "locked": false
-    },
-    {
-        "id": "set6",
-        "title": "IT Officer Model Set 6",
-        "questionCount": 50,
-        "timeLimit": 45,
-        "difficulty": "Hard",
-        "locked": false
-    },
-    {
-        "id": "set7",
-        "title": "IT Officer Model Set 7",
-        "questionCount": 50,
-        "timeLimit": 45,
-        "difficulty": "Easy",
-        "locked": false
-    },
-    {
-        "id": "set8",
-        "title": "IT Officer Model Set 8",
-        "questionCount": 50,
-        "timeLimit": 45,
-        "difficulty": "Medium",
-        "locked": false
-    },
-    {
-        "id": "set9",
-        "title": "IT Officer Model Set 9",
-        "questionCount": 50,
-        "timeLimit": 45,
-        "difficulty": "Hard",
-        "locked": false
-    },
-    {
-        "id": "set10",
-        "title": "IT Officer Model Set 10",
-        "questionCount": 50,
-        "timeLimit": 45,
-        "difficulty": "Easy",
-        "locked": false
     }
 ]

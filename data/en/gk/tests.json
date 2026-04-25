@@ -1,34 +1,34 @@
 [
-  {
-    "id": "set1",
-    "title": "Set 1: General Knowledge",
-    "questionCount": 50,
-    "timeLimit": 45,
-    "difficulty": "Easy",
-    "locked": false
-  },
-  {
-    "id": "set2",
-    "title": "Set 2: General Knowledge",
-    "questionCount": 50,
-    "timeLimit": 45,
-    "difficulty": "Medium",
-    "locked": false
-  },
-  {
-    "id": "set3",
-    "title": "Set 3: General Knowledge",
-    "questionCount": 50,
-    "timeLimit": 45,
-    "difficulty": "Hard",
-    "locked": false
-  },
-  {
-    "id": "set4",
-    "title": "Set 4: Current Affairs & Constitution",
-    "questionCount": 50,
-    "timeLimit": 45,
-    "difficulty": "Medium",
-    "locked": false
-  }
+    {
+        "id": "set1",
+        "title": "Set 1: General Knowledge",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": false
+    },
+    {
+        "id": "set2",
+        "title": "Set 2: General Knowledge",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Medium",
+        "locked": false
+    },
+    {
+        "id": "set3",
+        "title": "Set 3: General Knowledge",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": false
+    },
+    {
+        "id": "set4",
+        "title": "Set 4: Current Affairs & Constitution",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Medium",
+        "locked": false
+    }
 ]

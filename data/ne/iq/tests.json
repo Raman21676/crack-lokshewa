@@ -1,26 +1,26 @@
 [
-  {
-    "id": "set1",
-    "title": "Set 1: IQ & Reasoning",
-    "questionCount": 30,
-    "timeLimit": 30,
-    "difficulty": "Easy",
-    "locked": false
-  },
-  {
-    "id": "set2",
-    "title": "Set 2: IQ & Reasoning",
-    "questionCount": 30,
-    "timeLimit": 30,
-    "difficulty": "Medium",
-    "locked": false
-  },
-  {
-    "id": "set3",
-    "title": "Set 3: IQ & Reasoning",
-    "questionCount": 30,
-    "timeLimit": 30,
-    "difficulty": "Hard",
-    "locked": false
-  }
+    {
+        "id": "set1",
+        "title": "Set 1: IQ & Reasoning",
+        "questionCount": 30,
+        "timeLimit": 30,
+        "difficulty": "Easy",
+        "locked": false
+    },
+    {
+        "id": "set2",
+        "title": "Set 2: IQ & Reasoning",
+        "questionCount": 30,
+        "timeLimit": 30,
+        "difficulty": "Medium",
+        "locked": false
+    },
+    {
+        "id": "set3",
+        "title": "Set 3: IQ & Reasoning",
+        "questionCount": 30,
+        "timeLimit": 30,
+        "difficulty": "Hard",
+        "locked": false
+    }
 ]

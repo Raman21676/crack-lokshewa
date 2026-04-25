@@ -1,34 +1,34 @@
 [
-  {
-    "id": "set1",
-    "title": "Set 1: Constitution of Nepal",
-    "questionCount": 50,
-    "timeLimit": 45,
-    "difficulty": "Easy",
-    "locked": false
-  },
-  {
-    "id": "set2",
-    "title": "Set 2: Constitution of Nepal",
-    "questionCount": 50,
-    "timeLimit": 45,
-    "difficulty": "Medium",
-    "locked": false
-  },
-  {
-    "id": "set3",
-    "title": "Set 3: Constitution of Nepal",
-    "questionCount": 50,
-    "timeLimit": 45,
-    "difficulty": "Hard",
-    "locked": false
-  },
-  {
-    "id": "set4",
-    "title": "\u0938\u0947\u091f \u096a: \u0938\u0902\u0935\u093f\u0927\u093e\u0928 \u0917\u0939\u093f\u0930\u094b \u0905\u0927\u094d\u092f\u092f\u0928",
-    "questionCount": 50,
-    "timeLimit": 45,
-    "difficulty": "Hard",
-    "locked": false
-  }
+    {
+        "id": "set1",
+        "title": "Set 1: Constitution of Nepal",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": false
+    },
+    {
+        "id": "set2",
+        "title": "Set 2: Constitution of Nepal",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Medium",
+        "locked": false
+    },
+    {
+        "id": "set3",
+        "title": "Set 3: Constitution of Nepal",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": false
+    },
+    {
+        "id": "set4",
+        "title": "\u0938\u0947\u091f \u096a: \u0938\u0902\u0935\u093f\u0927\u093e\u0928 \u0917\u0939\u093f\u0930\u094b \u0905\u0927\u094d\u092f\u092f\u0928",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": false
+    }
 ]

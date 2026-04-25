@@ -1,26 +1,26 @@
 [
-  {
-    "id": "set1",
-    "title": "\u092a\u0936\u0941 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u092a\u094d\u0930\u093e\u0935\u093f\u0927\u093f\u0915 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 1",
-    "questionCount": 50,
-    "timeLimit": 45,
-    "difficulty": "Medium",
-    "locked": false
-  },
-  {
-    "id": "set2",
-    "title": "\u092a\u0936\u0941 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u092a\u094d\u0930\u093e\u0935\u093f\u0927\u093f\u0915 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 2",
-    "questionCount": 50,
-    "timeLimit": 45,
-    "difficulty": "Hard",
-    "locked": false
-  },
-  {
-    "id": "set3",
-    "title": "\u092a\u0936\u0941 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u092a\u094d\u0930\u093e\u0935\u093f\u0927\u093f\u0915 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 3",
-    "questionCount": 50,
-    "timeLimit": 45,
-    "difficulty": "Easy",
-    "locked": false
-  }
+    {
+        "id": "set1",
+        "title": "\u092a\u0936\u0941 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u092a\u094d\u0930\u093e\u0935\u093f\u0927\u093f\u0915 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 1",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Medium",
+        "locked": false
+    },
+    {
+        "id": "set2",
+        "title": "\u092a\u0936\u0941 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u092a\u094d\u0930\u093e\u0935\u093f\u0927\u093f\u0915 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 2",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": false
+    },
+    {
+        "id": "set3",
+        "title": "\u092a\u0936\u0941 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u092a\u094d\u0930\u093e\u0935\u093f\u0927\u093f\u0915 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 3",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Easy",
+        "locked": false
+    }
 ]

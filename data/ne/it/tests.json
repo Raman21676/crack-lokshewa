@@ -1,7 +1,7 @@
 [
     {
         "id": "set1",
-        "title": "आईटी अधिकृत मॉडल सेट 1",
+        "title": "\u0906\u0908\u091f\u0940 \u0905\u0927\u093f\u0915\u0943\u0924 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 1",
         "questionCount": 50,
         "timeLimit": 45,
         "difficulty": "Easy",
@@ -9,7 +9,7 @@
     },
     {
         "id": "set2",
-        "title": "आईटी अधिकृत मॉडल सेट 2",
+        "title": "\u0906\u0908\u091f\u0940 \u0905\u0927\u093f\u0915\u0943\u0924 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 2",
         "questionCount": 50,
         "timeLimit": 45,
         "difficulty": "Medium",
@@ -17,7 +17,7 @@
     },
     {
         "id": "set3",
-        "title": "आईटी अधिकृत मॉडल सेट 3",
+        "title": "\u0906\u0908\u091f\u0940 \u0905\u0927\u093f\u0915\u0943\u0924 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 3",
         "questionCount": 50,
         "timeLimit": 45,
         "difficulty": "Hard",
@@ -25,7 +25,7 @@
     },
     {
         "id": "set4",
-        "title": "आईटी अधिकृत मॉडल सेट 4",
+        "title": "\u0906\u0908\u091f\u0940 \u0905\u0927\u093f\u0915\u0943\u0924 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 4",
         "questionCount": 50,
         "timeLimit": 45,
         "difficulty": "Easy",
@@ -33,50 +33,10 @@
     },
     {
         "id": "set5",
-        "title": "आईटी अधिकृत मॉडल सेट 5",
+        "title": "\u0906\u0908\u091f\u0940 \u0905\u0927\u093f\u0915\u0943\u0924 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 5",
         "questionCount": 50,
         "timeLimit": 45,
         "difficulty": "Medium",
-        "locked": false
-    },
-    {
-        "id": "set6",
-        "title": "आईटी अधिकृत मॉडल सेट 6",
-        "questionCount": 50,
-        "timeLimit": 45,
-        "difficulty": "Hard",
-        "locked": false
-    },
-    {
-        "id": "set7",
-        "title": "आईटी अधिकृत मॉडल सेट 7",
-        "questionCount": 50,
-        "timeLimit": 45,
-        "difficulty": "Easy",
-        "locked": false
-    },
-    {
-        "id": "set8",
-        "title": "आईटी अधिकृत मॉडल सेट 8",
-        "questionCount": 50,
-        "timeLimit": 45,
-        "difficulty": "Medium",
-        "locked": false
-    },
-    {
-        "id": "set9",
-        "title": "आईटी अधिकृत मॉडल सेट 9",
-        "questionCount": 50,
-        "timeLimit": 45,
-        "difficulty": "Hard",
-        "locked": false
-    },
-    {
-        "id": "set10",
-        "title": "आईटी अधिकृत मॉडल सेट 10",
-        "questionCount": 50,
-        "timeLimit": 45,
-        "difficulty": "Easy",
         "locked": false
     }
 ]
