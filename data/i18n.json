@@ -306,5 +306,17 @@
     "subject_constitution": {
         "en": "Constitution",
         "ne": "संविधान"
+    },
+    "theme": {
+        "en": "Theme",
+        "ne": "थिम"
+    },
+    "dark_mode": {
+        "en": "Dark Mode",
+        "ne": "अँध्यारो मोड"
+    },
+    "light_mode": {
+        "en": "Light Mode",
+        "ne": "उज्यालो मोड"
     }
 }

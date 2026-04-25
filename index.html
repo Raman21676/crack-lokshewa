@@ -39,6 +39,40 @@
             <nav class="main-nav">
                 <a href="#home" class="nav-link" data-i18n="home">Home</a>
                 <a href="#about" class="nav-link" data-i18n="about">About</a>
+                <div class="theme-controls">
+                    <div class="theme-dropdown">
+                        <button class="theme-btn" id="theme-picker-btn" title="Change Theme">
+                            <span id="theme-current-dot" class="theme-dot ocean"></span>
+                        </button>
+                        <div class="theme-menu" id="theme-menu">
+                            <button class="theme-menu-item active" data-theme="ocean">
+                                <span class="theme-dot ocean"></span>
+                                <span>Ocean</span>
+                            </button>
+                            <button class="theme-menu-item" data-theme="royal">
+                                <span class="theme-dot royal"></span>
+                                <span>Royal</span>
+                            </button>
+                            <button class="theme-menu-item" data-theme="midnight">
+                                <span class="theme-dot midnight"></span>
+                                <span>Midnight</span>
+                            </button>
+                            <button class="theme-menu-item" data-theme="sunset">
+                                <span class="theme-dot sunset"></span>
+                                <span>Sunset</span>
+                            </button>
+                            <button class="theme-menu-item" data-theme="emerald">
+                                <span class="theme-dot emerald"></span>
+                                <span>Emerald</span>
+                            </button>
+                            <div class="theme-divider"></div>
+                            <div class="theme-mode-row">
+                                <span id="theme-mode-label">Dark Mode</span>
+                                <button class="theme-toggle-switch" id="theme-mode-switch"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <button class="lang-toggle" id="lang-toggle" title="Change Language">EN / ने</button>
             </nav>
         </div>
