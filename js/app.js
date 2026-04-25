@@ -53,9 +53,13 @@ function t(key, replacements) {
     return str;
 }
 
+// Cache-busting version — increment this after every data/content update
+var DATA_VERSION = 'v2';
+
 function fetchJSON(url, callback) {
+    var sep = url.indexOf('?') === -1 ? '?' : '&';
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', url, true);
+    xhr.open('GET', url + sep + '_cb=' + DATA_VERSION, true);
     xhr.onload = function () {
         if (xhr.status >= 200 && xhr.status < 300) {
             try { callback(null, JSON.parse(xhr.responseText)); }
