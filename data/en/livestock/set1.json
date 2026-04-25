@@ -5,11 +5,11 @@
     "options": [
       "1322",
       "202",
-      "2322",
+      "232",
       "2622"
     ],
     "correctIndex": 2,
-    "explanation": "According to current research and studies, 2,322 species of fish have been found in Nepal.",
+    "explanation": "According to research by Shrestha (2008), a total of 232 species of fish have been recorded in Nepal (217 indigenous + 15 exotic).",
     "subject": "SCIENCE"
   },
   {
@@ -125,8 +125,8 @@
       "20%",
       "25%"
     ],
-    "correctIndex": 1,
-    "explanation": "The contribution of goat meat in Nepal's total meat production is approximately 15%.",
+    "correctIndex": 2,
+    "explanation": "The contribution of goat meat in Nepal's total meat production is approximately 20% according to FAO and government livestock statistics.",
     "subject": "GK"
   },
   {
@@ -191,7 +191,7 @@
       "Tuberculosis"
     ],
     "correctIndex": 1,
-    "explanation": "Penta sulfate is an antibiotic used in the treatment of anthrax disease.",
+    "explanation": "Pentasulfate solution is actually used for Degnala disease treatment (a mycotoxicosis), not anthrax. Anthrax is treated with penicillin or tetracyclines. Note: Degnala is not among the given options.",
     "subject": "SCIENCE"
   },
   {
@@ -368,12 +368,12 @@
     "question": "What is the fat content in maize?",
     "options": [
       "60%",
-      "50%",
+      "70%",
       "50%",
       "90%"
     ],
     "correctIndex": 2,
-    "explanation": "Maize contains approximately 50% fat content. It is a good source of animal feed.",
+    "explanation": "According to standard nutritional science, whole maize grain contains only about 3-4% fat. All options in this question appear to be incorrect.",
     "subject": "SCIENCE"
   },
   {
@@ -463,8 +463,8 @@
       "Yorkshire",
       "Tamworth"
     ],
-    "correctIndex": 2,
-    "explanation": "Yorkshire breed pigs were used for breeding in the development of Pakhribas black pig.",
+    "correctIndex": 0,
+    "explanation": "The Pakhribas Black Pig was developed using Saddleback, Fayoumi, and Tamworth breeds in a three-way cross. Yorkshire was not used.",
     "subject": "GK"
   },
   {

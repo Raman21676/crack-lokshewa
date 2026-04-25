@@ -8,8 +8,8 @@ import json, os
 QUESTIONS_NE = [
     {
         "id": "q1", "question": "नेपालमा हालसम्मको अध्ययन र अनुसन्धानअनुसार कति जातका माछाहरू पाइएको छ?",
-        "options": ["१३२२", "२०२", "२३२२", "२६२२"], "correctIndex": 2,
-        "explanation": "नेपालमा हालसम्मको अध्ययन र अनुसन्धानअनुसार २,३२२ जातका माछाहरू पाइएको छ।", "subject": "SCIENCE"
+        "options": ["१३२२", "२०२", "२३२", "२६२२"], "correctIndex": 2,
+        "explanation": "नेपालमा हालसम्मको अध्ययन र अनुसन्धानअनुसार २३२ जातका माछाहरू पाइएको छ (श्रेष्ठ, २००८)।", "subject": "SCIENCE"
     },
     {
         "id": "q2", "question": "नेपालमा जल संरक्षण ऐन कति सालमा बनेको हो?",
@@ -53,8 +53,8 @@ QUESTIONS_NE = [
     },
     {
         "id": "q10", "question": "नेपालमा कुल मासु उत्पादनको हिस्सामा बाख्राको मासुको हिस्सा कति प्रतिशत छ?",
-        "options": ["१०%", "१५%", "२०%", "२५%"], "correctIndex": 1,
-        "explanation": "नेपालमा कुल मासु उत्पादनको हिस्सामा बाख्राको मासुको योगदान लगभग १५% रहेको छ।", "subject": "GK"
+        "options": ["१०%", "१५%", "२०%", "२५%"], "correctIndex": 2,
+        "explanation": "नेपालमा कुल मासु उत्पादनको हिस्सामा बाख्राको मासुको योगदान लगभग २०% रहेको छ (FAO तथा सरकारी तथ्याङ्क अनुसार)।", "subject": "GK"
     },
     {
         "id": "q11", "question": "दाना जाँचकीको नियुक्ति कसले गर्दछ?",
@@ -79,7 +79,7 @@ QUESTIONS_NE = [
     {
         "id": "q15", "question": "Penta sulfate कुन रोगमा प्रयोग गरिन्छ?",
         "options": ["पिका", "खेर", "किटोसिस", "क्षयरोग"], "correctIndex": 1,
-        "explanation": "Penta sulfate (पेन्टा सल्फेट) खेर (anthrax) रोगको उपचारमा प्रयोग गरिने एन्टिबायोटिक हो।", "subject": "SCIENCE"
+        "explanation": "पेन्टा सल्फेट डेगनाला रोगको उपचारमा प्रयोग गरिन्छ, तर यस प्रश्नमा डेगनाला विकल्पमा छैन। खेर (anthrax) रोगको उपचारमा पेनिसिलिन वा टेट्रासाइक्लिन प्रयोग गरिन्छ।", "subject": "SCIENCE"
     },
     {
         "id": "q16", "question": "कुखुराको कुन रोगमा शरीरको रोगसँग लड्ने क्षमतामा पूर्ण ह्रास आउने गरी नोक्सानी गर्छ?",
@@ -148,8 +148,8 @@ QUESTIONS_NE = [
     },
     {
         "id": "q29", "question": "मकैमा चिल्लो पदार्थको मात्रा कति हुन्छ?",
-        "options": ["६०%", "५०%", "५०%", "९०%"], "correctIndex": 2,
-        "explanation": "मकैमा चिल्लो पदार्थ (fat) को मात्रा लगभग ५०% हुन्छ। यो पशु आहारको राम्रो स्रोत हो।", "subject": "SCIENCE"
+        "options": ["६०%", "७०%", "५०%", "९०%"], "correctIndex": 2,
+        "explanation": "वास्तविक पोषण विज्ञान अनुसार मकैमा चिल्लो पदार्थ (fat) को मात्रा लगभग ३-४% मात्र हुन्छ। यस प्रश्नका सबै विकल्पहरू त्रुटिपूर्ण देखिन्छन्।", "subject": "SCIENCE"
     },
     {
         "id": "q30", "question": "बहुउद्देशीय (Multipurpose use of eggs and meat) को लागि कुन जातको विकास कुखुरा सिफारिस गरिएको छ?",
@@ -183,8 +183,8 @@ QUESTIONS_NE = [
     },
     {
         "id": "q36", "question": "पाकिबास कालो बंगुर विकास गर्दा तल उल्लेखित कुन बंगुरलाई प्रजनन गराइएको विवरण?",
-        "options": ["स्याउलब्याक", "फायुन", "योर्कसायर", "टेमवर्थ"], "correctIndex": 2,
-        "explanation": "पाकिबास कालो बंगुर विकास गर्दा योर्कसायर (Yorkshire) जातको बंगुरलाई प्रजननमा प्रयोग गरिएको हो।", "subject": "GK"
+        "options": ["स्याउलब्याक", "फायुन", "योर्कसायर", "टेमवर्थ"], "correctIndex": 0,
+        "explanation": "पाकिबास कालो बंगुर विकास गर्दा स्याउलब्याक (Saddleback), फायुन (Fayoumi) र टेमवर्थ (Tamworth) जातका बंगुरहरू प्रयोग गरिएका थिए। योर्कसायर प्रयोग गरिएको थिएन।", "subject": "GK"
     },
     {
         "id": "q37", "question": "बरसिम घाँस खेती गर्न बिउ कति कि.ग्रा./हेक्टर हुनुपर्छ?",
@@ -262,8 +262,8 @@ QUESTIONS_NE = [
 QUESTIONS_EN = [
     {
         "id": "q1", "question": "According to current research and studies, how many species of fish are found in Nepal?",
-        "options": ["1322", "202", "2322", "2622"], "correctIndex": 2,
-        "explanation": "According to current research and studies, 2,322 species of fish have been found in Nepal.", "subject": "SCIENCE"
+        "options": ["1322", "202", "232", "2622"], "correctIndex": 2,
+        "explanation": "According to research by Shrestha (2008), a total of 232 species of fish have been recorded in Nepal (217 indigenous + 15 exotic).", "subject": "SCIENCE"
     },
     {
         "id": "q2", "question": "In which year was the Water Conservation Act enacted in Nepal?",
@@ -307,8 +307,8 @@ QUESTIONS_EN = [
     },
     {
         "id": "q10", "question": "What is the share of goat meat in Nepal's total meat production?",
-        "options": ["10%", "15%", "20%", "25%"], "correctIndex": 1,
-        "explanation": "The contribution of goat meat in Nepal's total meat production is approximately 15%.", "subject": "GK"
+        "options": ["10%", "15%", "20%", "25%"], "correctIndex": 2,
+        "explanation": "The contribution of goat meat in Nepal's total meat production is approximately 20% according to FAO and government livestock statistics.", "subject": "GK"
     },
     {
         "id": "q11", "question": "Who appoints the feed inspector?",
@@ -333,7 +333,7 @@ QUESTIONS_EN = [
     {
         "id": "q15", "question": "Penta sulfate is used for which disease?",
         "options": ["Pica", "Anthrax", "Ketosis", "Tuberculosis"], "correctIndex": 1,
-        "explanation": "Penta sulfate is an antibiotic used in the treatment of anthrax disease.", "subject": "SCIENCE"
+        "explanation": "Pentasulfate solution is actually used for Degnala disease treatment (a mycotoxicosis), not anthrax. Anthrax is treated with penicillin or tetracyclines. Note: Degnala is not among the given options.", "subject": "SCIENCE"
     },
     {
         "id": "q16", "question": "In which disease of chicken does the body's ability to fight disease completely deteriorate?",
@@ -402,8 +402,8 @@ QUESTIONS_EN = [
     },
     {
         "id": "q29", "question": "What is the fat content in maize?",
-        "options": ["60%", "50%", "50%", "90%"], "correctIndex": 2,
-        "explanation": "Maize contains approximately 50% fat content. It is a good source of animal feed.", "subject": "SCIENCE"
+        "options": ["60%", "70%", "50%", "90%"], "correctIndex": 2,
+        "explanation": "According to standard nutritional science, whole maize grain contains only about 3-4% fat. All options in this question appear to be incorrect.", "subject": "SCIENCE"
     },
     {
         "id": "q30", "question": "Which breed of chicken has been developed for multipurpose use (eggs and meat)?",
@@ -437,8 +437,8 @@ QUESTIONS_EN = [
     },
     {
         "id": "q36", "question": "For developing Pakhribas black pig, which breed was used for breeding?",
-        "options": ["Saulbak", "Fayun", "Yorkshire", "Tamworth"], "correctIndex": 2,
-        "explanation": "Yorkshire breed pigs were used for breeding in the development of Pakhribas black pig.", "subject": "GK"
+        "options": ["Saulbak", "Fayun", "Yorkshire", "Tamworth"], "correctIndex": 0,
+        "explanation": "The Pakhribas Black Pig was developed using Saddleback, Fayoumi, and Tamworth breeds in a three-way cross. Yorkshire was not used.", "subject": "GK"
     },
     {
         "id": "q37", "question": "How many kg of seed per hectare is required for Berseem grass cultivation?",
