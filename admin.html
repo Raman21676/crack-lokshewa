@@ -5,8 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Admin — Crack Lokshewa</title>
 <meta name="robots" content="noindex, nofollow">
-<link rel="stylesheet" href="css/style.css?v=11">
+<link rel="stylesheet" href="css/style.css?v=13">
 <style>
+:root {
+    --bg: #e8f4f8; --bg-gradient: #d6e8f0;
+    --surface: #ffffff; --surface-2: #eef6fa; --surface-3: #e0f0f7;
+    --primary: #0ea5e9; --primary-dark: #0284c7; --primary-light: #e0f2fe;
+    --text-1: #0f172a; --text-2: #475569; --text-3: #94a3b8;
+    --border: #cbe2ee;
+    --radius-sm: 8px; --radius-lg: 18px; --radius-full: 9999px;
+    --shadow-md: 0 4px 12px rgba(0,0,0,.10);
+    --shadow-lg: 0 12px 32px rgba(0,0,0,.12);
+    --gradient-body: linear-gradient(160deg, var(--bg) 0%, var(--bg-gradient) 100%);
+    --gradient-card: linear-gradient(145deg, var(--surface) 0%, var(--surface-2) 100%);
+    --font-en: 'Inter', sans-serif;
+}
+body { background: var(--gradient-body); font-family: var(--font-en); }
+
 .admin-wrap {
     min-height: 100vh;
     display: flex;
@@ -18,8 +33,8 @@
 .admin-card {
     background: var(--gradient-card);
     border: 1px solid var(--border);
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
     width: 100%;
     max-width: 420px;
     padding: 2rem;
@@ -28,7 +43,7 @@
 .admin-card h1 {
     font-size: 1.5rem;
     margin-bottom: 0.25rem;
-    color: var(--accent);
+    color: var(--primary);
 }
 .admin-card p {
     color: var(--text-2);
@@ -48,14 +63,14 @@
 }
 .admin-input:focus {
     outline: none;
-    border-color: var(--accent);
+    border-color: var(--primary);
 }
 .admin-btn {
     width: 100%;
     padding: 0.75rem;
     border: none;
     border-radius: var(--radius-sm);
-    background: var(--accent);
+    background: var(--primary);
     color: #fff;
     font-size: 1rem;
     font-weight: 600;
@@ -85,7 +100,7 @@
 }
 .dash-header h1 {
     font-size: 1.5rem;
-    color: var(--accent);
+    color: var(--primary);
 }
 .dash-grid {
     display: grid;
@@ -96,15 +111,15 @@
 .dash-card {
     background: var(--gradient-card);
     border: 1px solid var(--border);
-    border-radius: var(--radius);
+    border-radius: var(--radius-lg);
     padding: 1.25rem;
     text-align: center;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-md);
 }
 .dash-card .num {
     font-size: 2rem;
     font-weight: 700;
-    color: var(--accent);
+    color: var(--primary);
     line-height: 1;
     margin-bottom: 0.25rem;
 }
@@ -117,10 +132,10 @@
 .dash-section {
     background: var(--gradient-card);
     border: 1px solid var(--border);
-    border-radius: var(--radius);
+    border-radius: var(--radius-lg);
     padding: 1.25rem;
     margin-bottom: 1rem;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-md);
 }
 .dash-section h3 {
     font-size: 1rem;
@@ -155,7 +170,7 @@
     cursor: pointer;
     font-size: 0.875rem;
 }
-.logout-btn:hover { color: var(--accent); border-color: var(--accent); }
+.logout-btn:hover { color: var(--primary); border-color: var(--primary); }
 
 .note {
     font-size: 0.75rem;
