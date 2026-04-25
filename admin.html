@@ -86,8 +86,8 @@ body { background: var(--gradient-body); font-family: var(--font-en); }
 }
 
 /* Dashboard */
-.dash-wrap {
-    display: none;
+.dash-inner {
+    display: block;
     width: 100%;
     max-width: 960px;
     padding: 2rem 1rem;
@@ -203,7 +203,7 @@ body { background: var(--gradient-body); font-family: var(--font-en); }
 
 <!-- Dashboard -->
 <div id="dash-wrap" class="admin-wrap">
-    <div class="dash-wrap">
+    <div class="dash-inner">
         <div class="dash-header">
             <h1>📊 Traffic Overview</h1>
             <button class="logout-btn" onclick="doLogout()">Logout</button>
@@ -244,6 +244,6 @@ body { background: var(--gradient-body); font-family: var(--font-en); }
     </div>
 </div>
 
-<script src="js/admin.js?v=1"></script>
+<script src="js/admin.js?v=2"></script>
 </body>
 </html>
