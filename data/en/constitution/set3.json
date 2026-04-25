@@ -443,15 +443,15 @@
   },
   {
     "id": 35,
-    "question": "Which event is considered the starting point of World War II?",
+    "question": "When did Kathmandu Metropolitan City reopen the open stage (Khulla Manch) for the public?",
     "options": [
-      "Attack on Pearl Harbor",
-      "Germany's invasion of Poland",
-      "Battle of Stalingrad",
-      "D-Day landing"
+      "2078 Baisakh 15",
+      "2082 Baisakh 2",
+      "2082 Baisakh 3",
+      "2082 Chaitra 29"
     ],
-    "correctIndex": 1,
-    "explanation": "Germany's invasion of Poland on September 1, 1939 is considered the starting point of WWII.",
+    "correctIndex": 2,
+    "explanation": "Reopened on 2082 Baisakh 3 after being closed since 2078 Baisakh due to COVID-19.",
     "subject": "GK"
   },
   {

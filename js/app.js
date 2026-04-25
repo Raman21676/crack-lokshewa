@@ -74,6 +74,16 @@ function fetchJSON(url, callback) {
 
 function setHTML(html) { appContainer.innerHTML = html; }
 
+function escapeHTML(str) {
+    if (str == null) return '';
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+}
+
 function showHeaderFooter(show) {
     if (appHeader) appHeader.style.display = show ? 'block' : 'none';
     if (appFooter) appFooter.style.display = show ? 'block' : 'none';
@@ -231,7 +241,7 @@ function renderCategory(categoryId) {
                 return '<div class="card test-card">' +
                             '<div class="test-card-num" style="background:' + catColor + '18;color:' + catColor + ';">' + (i + 1) + '</div>' +
                             '<div class="test-info">' +
-                                '<h3 class="test-title">' + lockIcon + test.title + '</h3>' +
+                                '<h3 class="test-title">' + lockIcon + escapeHTML(test.title) + '</h3>' +
                                 '<div class="test-meta">' +
                                     '<span class="meta-tag">📝 ' + test.questionCount + ' ' + t('questions') + '</span>' +
                                     '<span class="meta-tag">⏱ ' + test.timeLimit + ' ' + t('min') + '</span>' +
@@ -324,7 +334,7 @@ function renderQuestionUI() {
         return '<label class="option-label' + (isSelected ? ' selected' : '') +
                     '" onclick="selectOption(' + idx + ')">' +
                 '<span class="option-letter">' + String.fromCharCode(65 + idx) + '</span>' +
-                '<span class="option-text">' + opt + '</span>' +
+                '<span class="option-text">' + escapeHTML(opt) + '</span>' +
                '</label>';
     }).join('');
 
@@ -372,7 +382,7 @@ function renderQuestionUI() {
 
             '<div class="question-card">' +
                 '<p class="question-number">' + t('question') + ' ' + (state.currentQuestionIndex + 1) + ' ' + t('of') + ' ' + total + '</p>' +
-                '<h2 class="question-text">' + q.question + '</h2>' +
+                '<h2 class="question-text">' + escapeHTML(q.question) + '</h2>' +
                 '<div class="options-list">' + optionsHTML + '</div>' +
             '</div>' +
 
@@ -524,7 +534,7 @@ function renderResults() {
             else if (oi === userAns)   { cls = 'is-wrong-answer'; }
             return '<div class="review-option ' + cls + '">' +
                         '<span class="option-letter">' + String.fromCharCode(65 + oi) + '</span>' +
-                        '<span>' + opt + '</span>' +
+                        '<span>' + escapeHTML(opt) + '</span>' +
                         (oi === q.correctIndex ? '<span class="tick">✓</span>' : '') +
                         (oi === userAns && oi !== q.correctIndex ? '<span class="cross">✗</span>' : '') +
                    '</div>';
@@ -535,12 +545,12 @@ function renderResults() {
 
         var explanationHTML = '';
         if (q.explanation) {
-            explanationHTML = '<div class="explanation"><strong>💡 ' + t('explanation') + ':</strong> ' + q.explanation + '</div>';
+            explanationHTML = '<div class="explanation"><strong>💡 ' + t('explanation') + ':</strong> ' + escapeHTML(q.explanation) + '</div>';
         }
 
         return '<div class="review-card ' + cardCls + '">' +
                     '<div class="review-qheader">' +
-                        '<h4 class="review-question">' + t('question') + ' ' + (i + 1) + '. ' + q.question + '</h4>' +
+                        '<h4 class="review-question">' + t('question') + ' ' + (i + 1) + '. ' + escapeHTML(q.question) + '</h4>' +
                         '<span class="review-badge">' + badge + '</span>' +
                     '</div>' +
                     '<div class="review-options">' + opts + '</div>' +

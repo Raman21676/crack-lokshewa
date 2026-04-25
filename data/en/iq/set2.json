@@ -339,15 +339,15 @@
   },
   {
     "id": 27,
-    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
+    "question": "Next in series: 2, 6, 12, 20, 30, ?",
     "options": [
-      "96",
-      "48",
-      "32",
-      "64"
+      "38",
+      "40",
+      "42",
+      "44"
     ],
-    "correctIndex": 0,
-    "explanation": "Pattern: a+b = a×(a+b). So 8×12=96.",
+    "correctIndex": 2,
+    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
     "subject": "IQ"
   },
   {

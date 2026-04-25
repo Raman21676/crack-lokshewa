@@ -625,15 +625,15 @@
   },
   {
     "id": 49,
-    "question": "Nepal's standard time is determined based on which longitude passing through Gaurishankar?",
+    "question": "When did Kathmandu Metropolitan City reopen the open stage (Khulla Manch) for the public?",
     "options": [
-      "83 degrees 15 minutes",
-      "85 degrees 30 minutes",
-      "81 degrees 45 minutes",
-      "84 degrees 00 minutes"
+      "2078 Baisakh 15",
+      "2082 Baisakh 2",
+      "2082 Baisakh 3",
+      "2082 Chaitra 29"
     ],
-    "correctIndex": 0,
-    "explanation": "Nepal's standard time is based on 83°15' East longitude passing through Gaurishankar.",
+    "correctIndex": 2,
+    "explanation": "Reopened on 2082 Baisakh 3 after being closed since 2078 Baisakh due to COVID-19.",
     "subject": "GK"
   },
   {
