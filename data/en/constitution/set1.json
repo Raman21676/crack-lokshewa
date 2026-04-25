@@ -1,0 +1,711 @@
+{
+  "setId": "constitution-set1",
+  "title": "Set 1: Constitution of Nepal",
+  "description": "50 questions on the Constitution of Nepal 2072 (2015).",
+  "category": "constitution",
+  "locked": false,
+  "timeLimit": 1800,
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": 1,
+      "question": "When was the Constitution of Nepal, 2072 (2015) promulgated?",
+      "options": [
+        "20 September 2015",
+        "28 May 2008",
+        "15 January 2007",
+        "10 November 2006"
+      ],
+      "correctIndex": 0,
+      "subject": "CONSTITUTION",
+      "explanation": "The Constitution of Nepal was promulgated on 20 September 2015 (3 Ashwin 2072) by the Constituent Assembly.",
+      "reference": "Constitution of Nepal, Preamble"
+    },
+    {
+      "id": 2,
+      "question": "What type of state is Nepal according to Article 4 of the Constitution?",
+      "options": [
+        "Federal Democratic Republic",
+        "Federal Democratic Republican",
+        "Socialism-oriented Federal Democratic Republican",
+        "Socialist Federal Republic"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 4 states Nepal is an independent, indivisible, sovereign, secular, inclusive, democratic, socialism-oriented, federal democratic republican state.",
+      "reference": "Constitution of Nepal, Article 4"
+    },
+    {
+      "id": 3,
+      "question": "What is the official language of Nepal according to Article 7?",
+      "options": [
+        "Nepali language in Devanagari script",
+        "Nepali and English",
+        "Nepali, Maithili and Bhojpuri",
+        "All languages spoken as mother tongues"
+      ],
+      "correctIndex": 0,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 7(1): The Nepali language in the Devanagari script shall be the official language of Nepal.",
+      "reference": "Constitution of Nepal, Article 7"
+    },
+    {
+      "id": 4,
+      "question": "Which bird is designated as the national bird of Nepal?",
+      "options": [
+        "Eagle",
+        "Danphe (Lophophorus)",
+        "Peacock",
+        "Himalayan Monal"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 9(3) designates the Lophophorus (Danphe) as the national bird of Nepal.",
+      "reference": "Constitution of Nepal, Article 9"
+    },
+    {
+      "id": 5,
+      "question": "What is the national flower of Nepal according to the Constitution?",
+      "options": [
+        "Lotus",
+        "Rhododendron Arboreum (Lali Gurans)",
+        "Sunflower",
+        "Rose"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 9(3) states the Rhododendron Arboreum (Lali Gurans) shall be the national flower of Nepal.",
+      "reference": "Constitution of Nepal, Article 9"
+    },
+    {
+      "id": 6,
+      "question": "According to Article 10, what type of citizenship does Nepal have?",
+      "options": [
+        "Dual citizenship",
+        "Single federal citizenship with State identity",
+        "State citizenship only",
+        "Naturalized citizenship for all"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 10(2) provides for single federal citizenship with State identity in Nepal.",
+      "reference": "Constitution of Nepal, Article 10"
+    },
+    {
+      "id": 7,
+      "question": "Under Article 11, who can acquire citizenship of Nepal by descent?",
+      "options": [
+        "Only those whose father is Nepali",
+        "Persons whose father or mother was a citizen of Nepal",
+        "Only naturalized citizens",
+        "Foreigners married to Nepali citizens"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 11(2)(b): A person whose father or mother was a citizen of Nepal at his or her birth shall be the citizen of Nepal by descent.",
+      "reference": "Constitution of Nepal, Article 11"
+    },
+    {
+      "id": 8,
+      "question": "What is the provision for non-resident Nepalese citizenship according to Article 14?",
+      "options": [
+        "Full political rights",
+        "Economic, social and cultural rights only",
+        "No rights granted",
+        "Same as naturalized citizenship"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 14 grants non-resident Nepalese citizenship with rights to enjoy economic, social and cultural rights in accordance with Federal law.",
+      "reference": "Constitution of Nepal, Article 14"
+    },
+    {
+      "id": 9,
+      "question": "According to Article 12, can citizenship certificate mention mother's name?",
+      "options": [
+        "No, only father's name",
+        "Yes, with gender identity by mother's or father's name",
+        "Only in special cases",
+        "Not mentioned in Constitution"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 12 allows a person to obtain citizenship certificate with gender identity by the name of his or her mother or father.",
+      "reference": "Constitution of Nepal, Article 12"
+    },
+    {
+      "id": 10,
+      "question": "How many years does the State have to make legal provisions for implementation of fundamental rights?",
+      "options": [
+        "One year",
+        "Two years",
+        "Three years",
+        "Five years"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 47 requires the State to make legal provisions for implementation of fundamental rights within three years of commencement of the Constitution.",
+      "reference": "Constitution of Nepal, Article 47"
+    },
+    {
+      "id": 11,
+      "question": "Which Article guarantees the right to live with dignity?",
+      "options": [
+        "Article 16",
+        "Article 17",
+        "Article 18",
+        "Article 20"
+      ],
+      "correctIndex": 0,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 16 guarantees every person's right to live with dignity.",
+      "reference": "Constitution of Nepal, Article 16"
+    },
+    {
+      "id": 12,
+      "question": "Does the Constitution of Nepal allow death penalty?",
+      "options": [
+        "Yes, for serious crimes",
+        "Yes, with President's approval",
+        "No, no law shall provide for death penalty",
+        "Not mentioned"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 16(2) explicitly states: No law shall be made providing for the death penalty to any person.",
+      "reference": "Constitution of Nepal, Article 16"
+    },
+    {
+      "id": 13,
+      "question": "Within how many hours must an arrested person be produced before the adjudicating authority?",
+      "options": [
+        "12 hours",
+        "24 hours",
+        "48 hours",
+        "72 hours"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 20(3): Any person arrested shall be produced before the adjudicating authority within 24 hours, excluding journey time.",
+      "reference": "Constitution of Nepal, Article 20"
+    },
+    {
+      "id": 14,
+      "question": "Which Article guarantees the right to equality?",
+      "options": [
+        "Article 16",
+        "Article 17",
+        "Article 18",
+        "Article 19"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 18 guarantees equality before law and equal protection of law to all citizens.",
+      "reference": "Constitution of Nepal, Article 18"
+    },
+    {
+      "id": 15,
+      "question": "According to Article 18(5), do daughters have equal right to ancestral property?",
+      "options": [
+        "No, only sons",
+        "Yes, equal right without gender discrimination",
+        "Only if unmarried",
+        "Only after father's death"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 18(5): All offspring shall have the equal right to the ancestral property without discrimination on the ground of gender.",
+      "reference": "Constitution of Nepal, Article 18"
+    },
+    {
+      "id": 16,
+      "question": "Which Article guarantees the right to information?",
+      "options": [
+        "Article 25",
+        "Article 26",
+        "Article 27",
+        "Article 28"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 27 guarantees every citizen the right to demand and receive information on any matter of public interest.",
+      "reference": "Constitution of Nepal, Article 27"
+    },
+    {
+      "id": 17,
+      "question": "Which Article guarantees the right to education?",
+      "options": [
+        "Article 29",
+        "Article 30",
+        "Article 31",
+        "Article 32"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 31 guarantees every citizen the right of access to basic education and compulsory free education up to basic level.",
+      "reference": "Constitution of Nepal, Article 31"
+    },
+    {
+      "id": 18,
+      "question": "According to Article 31(5), do communities have the right to education in their mother tongue?",
+      "options": [
+        "No, only Nepali language",
+        "Yes, every Nepalese community has the right",
+        "Only in private schools",
+        "Only up to primary level"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 31(5): Every Nepalese community residing in Nepal shall have the right to get education in its mother tongue.",
+      "reference": "Constitution of Nepal, Article 31"
+    },
+    {
+      "id": 19,
+      "question": "Which Article guarantees the right to employment?",
+      "options": [
+        "Article 32",
+        "Article 33",
+        "Article 34",
+        "Article 35"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 33 guarantees every citizen the right to employment and to choose employment.",
+      "reference": "Constitution of Nepal, Article 33"
+    },
+    {
+      "id": 20,
+      "question": "Which Article guarantees the right to food sovereignty?",
+      "options": [
+        "Article 34",
+        "Article 35",
+        "Article 36",
+        "Article 37"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 36(3) guarantees every citizen the right to food sovereignty in accordance with law.",
+      "reference": "Constitution of Nepal, Article 36"
+    },
+    {
+      "id": 21,
+      "question": "Which Article prohibits untouchability and discrimination?",
+      "options": [
+        "Article 22",
+        "Article 23",
+        "Article 24",
+        "Article 25"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 24 prohibits any form of untouchability or discrimination in any private or public place.",
+      "reference": "Constitution of Nepal, Article 24"
+    },
+    {
+      "id": 22,
+      "question": "What is the right of a victim of crime according to Article 21?",
+      "options": [
+        "Only right to file FIR",
+        "Right to information about investigation and compensation",
+        "Right to punish the accused",
+        "No special rights"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 21 guarantees victims the right to get information about investigation and proceedings, and right to justice including compensation.",
+      "reference": "Constitution of Nepal, Article 21"
+    },
+    {
+      "id": 23,
+      "question": "Which Article guarantees the right to privacy?",
+      "options": [
+        "Article 26",
+        "Article 27",
+        "Article 28",
+        "Article 29"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 28 guarantees the privacy of person, residence, property, document, data, correspondence and matters relating to character.",
+      "reference": "Constitution of Nepal, Article 28"
+    },
+    {
+      "id": 24,
+      "question": "Which Article guarantees the right to clean environment?",
+      "options": [
+        "Article 28",
+        "Article 29",
+        "Article 30",
+        "Article 31"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 30(1) guarantees every citizen the right to live in a clean and healthy environment.",
+      "reference": "Constitution of Nepal, Article 30"
+    },
+    {
+      "id": 25,
+      "question": "According to Article 38(4), what principle applies to women's participation in State bodies?",
+      "options": [
+        "Merit-based only",
+        "Principle of proportional inclusion",
+        "Seniority-based",
+        "First-come-first-served"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 38(4): Women shall have the right to participate in all bodies of the State on the basis of the principle of proportional inclusion.",
+      "reference": "Constitution of Nepal, Article 38"
+    },
+    {
+      "id": 26,
+      "question": "How many levels of government does Nepal have under the Constitution?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "The Constitution establishes three levels of government: Federation, State (Province), and Local level.",
+      "reference": "Constitution of Nepal, Part 5"
+    },
+    {
+      "id": 27,
+      "question": "How many States (Provinces) are there in Nepal according to Schedule 4?",
+      "options": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Schedule 4 of the Constitution lists Seven States and their constituent districts.",
+      "reference": "Constitution of Nepal, Schedule 4"
+    },
+    {
+      "id": 28,
+      "question": "Which Part of the Constitution deals with the President and Vice-President?",
+      "options": [
+        "Part 4",
+        "Part 5",
+        "Part 6",
+        "Part 7"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Part 6 of the Constitution deals with the President and Vice-President of Nepal.",
+      "reference": "Constitution of Nepal, Part 6"
+    },
+    {
+      "id": 29,
+      "question": "Which Part of the Constitution deals with the Federal Executive?",
+      "options": [
+        "Part 5",
+        "Part 6",
+        "Part 7",
+        "Part 8"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Part 7 of the Constitution deals with the Federal Executive (Council of Ministers).",
+      "reference": "Constitution of Nepal, Part 7"
+    },
+    {
+      "id": 30,
+      "question": "Which Part of the Constitution deals with the Federal Legislature (Parliament)?",
+      "options": [
+        "Part 7",
+        "Part 8",
+        "Part 9",
+        "Part 10"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Part 8 of the Constitution establishes the Federal Legislature, which consists of two Houses: House of Representatives and National Assembly.",
+      "reference": "Constitution of Nepal, Part 8"
+    },
+    {
+      "id": 31,
+      "question": "Which Part of the Constitution deals with the Judiciary?",
+      "options": [
+        "Part 9",
+        "Part 10",
+        "Part 11",
+        "Part 12"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Part 11 of the Constitution deals with the Judiciary, including the Supreme Court, High Courts, and District Courts.",
+      "reference": "Constitution of Nepal, Part 11"
+    },
+    {
+      "id": 32,
+      "question": "Which Part of the Constitution deals with the Public Service Commission (Lok Sewa Aayog)?",
+      "options": [
+        "Part 21",
+        "Part 22",
+        "Part 23",
+        "Part 24"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Part 23 of the Constitution deals with the Public Service Commission (Lok Sewa Aayog).",
+      "reference": "Constitution of Nepal, Part 23"
+    },
+    {
+      "id": 33,
+      "question": "Which Part of the Constitution deals with the Election Commission?",
+      "options": [
+        "Part 22",
+        "Part 23",
+        "Part 24",
+        "Part 25"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Part 24 of the Constitution deals with the Election Commission.",
+      "reference": "Constitution of Nepal, Part 24"
+    },
+    {
+      "id": 34,
+      "question": "Which Part of the Constitution deals with the National Human Rights Commission?",
+      "options": [
+        "Part 23",
+        "Part 24",
+        "Part 25",
+        "Part 26"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Part 25 of the Constitution deals with the National Human Rights Commission.",
+      "reference": "Constitution of Nepal, Part 25"
+    },
+    {
+      "id": 35,
+      "question": "Which Part of the Constitution deals with the Auditor General?",
+      "options": [
+        "Part 20",
+        "Part 21",
+        "Part 22",
+        "Part 23"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Part 22 of the Constitution deals with the Auditor General.",
+      "reference": "Constitution of Nepal, Part 22"
+    },
+    {
+      "id": 36,
+      "question": "Which Part of the Constitution contains Directive Principles, Policies and Obligations of the State?",
+      "options": [
+        "Part 3",
+        "Part 4",
+        "Part 5",
+        "Part 6"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Part 4 of the Constitution contains Directive Principles, Policies and Obligations of the State.",
+      "reference": "Constitution of Nepal, Part 4"
+    },
+    {
+      "id": 37,
+      "question": "According to Article 50(1), what is the political objective of the State?",
+      "options": [
+        "Establish communist rule",
+        "Establish a public welfare system of governance",
+        "Establish monarchy",
+        "Establish military rule"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 50(1) states the political objective is to establish a public welfare system of governance through rule of law and social justice.",
+      "reference": "Constitution of Nepal, Article 50"
+    },
+    {
+      "id": 38,
+      "question": "According to Article 50(3), what is the economic objective of the State?",
+      "options": [
+        "Capitalist economy",
+        "Socialism-oriented independent and prosperous economy",
+        "Pure socialist economy",
+        "Free market economy only"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 50(3) aims to develop a socialism-oriented independent and prosperous economy while making the national economy independent, self-reliant and progressive.",
+      "reference": "Constitution of Nepal, Article 50"
+    },
+    {
+      "id": 39,
+      "question": "According to Article 51(c)(5), what must the State end in society?",
+      "options": [
+        "Political parties",
+        "All forms of discrimination, inequality, exploitation and injustice",
+        "Religious practices",
+        "Private property"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 51(c)(5) directs the State to end all forms of discrimination, inequality, exploitation and injustice in the name of religion, custom, usage, practice and tradition.",
+      "reference": "Constitution of Nepal, Article 51"
+    },
+    {
+      "id": 40,
+      "question": "According to Article 51(d)(7), what trade practices must the State end?",
+      "options": [
+        "Export trade",
+        "Black marketing, monopoly, artificial scarcity and restricting competition",
+        "Small businesses",
+        "Cooperatives"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 51(d)(7) directs the State to protect consumer interests by ending black marketing, monopoly, artificial scarcity and restricting competition.",
+      "reference": "Constitution of Nepal, Article 51"
+    },
+    {
+      "id": 41,
+      "question": "According to Article 48, which of the following is NOT a duty of citizens?",
+      "options": [
+        "To safeguard nationality and sovereignty",
+        "To abide by the Constitution and law",
+        "To pay taxes voluntarily",
+        "To render compulsory service as required by State"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 48 lists duties: safeguard nationality, abide by Constitution/law, render compulsory service, protect public property. Paying taxes is not explicitly listed as a constitutional duty.",
+      "reference": "Constitution of Nepal, Article 48"
+    },
+    {
+      "id": 42,
+      "question": "Which Article states that the Constitution is the fundamental law of Nepal?",
+      "options": [
+        "Article 1",
+        "Article 2",
+        "Article 3",
+        "Article 4"
+      ],
+      "correctIndex": 0,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 1(1) states: This Constitution is the fundamental law of Nepal. Any law inconsistent with this Constitution shall be void.",
+      "reference": "Constitution of Nepal, Article 1"
+    },
+    {
+      "id": 43,
+      "question": "Who does the sovereignty and state authority of Nepal vest in?",
+      "options": [
+        "The President",
+        "The Parliament",
+        "The Nepalese people",
+        "The Council of Ministers"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 2 states: The sovereignty and state authority of Nepal shall be vested in the Nepalese people.",
+      "reference": "Constitution of Nepal, Article 2"
+    },
+    {
+      "id": 44,
+      "question": "According to Article 26, what freedom does every person with faith in religion have?",
+      "options": [
+        "Only freedom to visit religious sites",
+        "Freedom to profess, practice and protect religion",
+        "Freedom to convert others",
+        "Freedom to establish a state religion"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 26(1) guarantees freedom to profess, practice and protect religion according to one's conviction.",
+      "reference": "Constitution of Nepal, Article 26"
+    },
+    {
+      "id": 45,
+      "question": "Which Article guarantees the right to social justice for marginalized communities?",
+      "options": [
+        "Article 40",
+        "Article 41",
+        "Article 42",
+        "Article 43"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 42 guarantees the right to social justice and proportional inclusion in State bodies for socially backward groups.",
+      "reference": "Constitution of Nepal, Article 42"
+    },
+    {
+      "id": 46,
+      "question": "According to Article 39(4), where can children NOT be employed?",
+      "options": [
+        "Schools",
+        "Factories, mines or hazardous works",
+        "Family businesses",
+        "Agriculture"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 39(4): No child shall be employed to work in any factory, mine or engaged in similar other hazardous works.",
+      "reference": "Constitution of Nepal, Article 39"
+    },
+    {
+      "id": 47,
+      "question": "What is the minimum age for voting in Nepal according to the Constitution?",
+      "options": [
+        "16 years",
+        "18 years",
+        "21 years",
+        "25 years"
+      ],
+      "correctIndex": 1,
+      "subject": "CONSTITUTION",
+      "explanation": "The Constitution guarantees adult franchise (Article 50 mentions periodic elections and adult franchise as part of the democratic system).",
+      "reference": "Constitution of Nepal, Preamble & Article 50"
+    },
+    {
+      "id": 48,
+      "question": "Which Article guarantees the right to health?",
+      "options": [
+        "Article 33",
+        "Article 34",
+        "Article 35",
+        "Article 36"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 35 guarantees every citizen the right to free basic health services from the State and emergency health services.",
+      "reference": "Constitution of Nepal, Article 35"
+    },
+    {
+      "id": 49,
+      "question": "Which Article guarantees the right to housing?",
+      "options": [
+        "Article 35",
+        "Article 36",
+        "Article 37",
+        "Article 38"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Article 37 guarantees every citizen the right to appropriate housing and protection from arbitrary eviction.",
+      "reference": "Constitution of Nepal, Article 37"
+    },
+    {
+      "id": 50,
+      "question": "Which Schedule of the Constitution lists the powers of the Local level?",
+      "options": [
+        "Schedule 6",
+        "Schedule 7",
+        "Schedule 8",
+        "Schedule 9"
+      ],
+      "correctIndex": 2,
+      "subject": "CONSTITUTION",
+      "explanation": "Schedule 8 lists the powers of the Local level. Schedule 5 is Federal, Schedule 6 is State, Schedule 7 is Concurrent (Federation and State).",
+      "reference": "Constitution of Nepal, Schedule 8"
+    }
+  ]
+}

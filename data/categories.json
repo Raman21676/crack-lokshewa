@@ -1,5 +1,26 @@
 [
     {
+        "id": "gk",
+        "title": { "en": "General Knowledge", "ne": "सामान्य ज्ञान" },
+        "description": { "en": "Nepal geography, history, politics, international affairs, and science.", "ne": "नेपालको भूगोल, इतिहास, राजनीति, अन्तर्राष्ट्रिय मामिला र विज्ञान।" },
+        "icon": "🌍",
+        "color": "#2563eb"
+    },
+    {
+        "id": "constitution",
+        "title": { "en": "Constitution of Nepal", "ne": "नेपालको संविधान" },
+        "description": { "en": "Questions based on the Constitution of Nepal 2072 (2015).", "ne": "नेपालको संविधान २०७२ (२०१५) मा आधारित प्रश्नहरू।" },
+        "icon": "⚖️",
+        "color": "#7c3aed"
+    },
+    {
+        "id": "iq",
+        "title": { "en": "IQ & Reasoning", "ne": "आईक्यू र तर्क" },
+        "description": { "en": "Logical reasoning, pattern recognition, and problem solving.", "ne": "तार्किक अनुमान, ढाँचा पहिचान र समस्या समाधान।" },
+        "icon": "🧠",
+        "color": "#059669"
+    },
+    {
         "id": "kharidar",
         "title": { "en": "Kharidar", "ne": "खरिदार" },
         "description": { "en": "Non-gazetted second-class officer level exams.", "ne": "अगजेटेड द्वितीय श्रेणी अधिकृत स्तरको परीक्षा।" },
