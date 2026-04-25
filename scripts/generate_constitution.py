@@ -529,42 +529,16 @@ def save_json(data, path):
 def main():
     base = os.path.dirname(os.path.abspath(__file__))
     
-    # Set 1 English
-    set1_en = {
-        "setId": "constitution-set1",
-        "title": "Set 1: Constitution of Nepal",
-        "description": "50 questions on the Constitution of Nepal 2072 (2015).",
-        "category": "constitution",
-        "locked": False,
-        "timeLimit": 1800,
-        "passingScore": 60,
-        "questions": QUESTIONS_EN
-    }
+    # Save questions directly as array (format expected by app.js)
+    save_json(QUESTIONS_EN, os.path.join(base, '../data/en/constitution/set1.json'))
+    save_json(QUESTIONS_NE, os.path.join(base, '../data/ne/constitution/set1.json'))
     
-    # Set 1 Nepali
-    set1_ne = {
-        "setId": "constitution-set1",
-        "title": "सेट १: नेपालको संविधान",
-        "description": "नेपालको संविधान २०७२ सम्बन्धी ५० प्रश्नहरू।",
-        "category": "constitution",
-        "locked": False,
-        "timeLimit": 1800,
-        "passingScore": 60,
-        "questions": QUESTIONS_NE
-    }
-    
-    save_json(set1_en, os.path.join(base, '../data/en/constitution/set1.json'))
-    save_json(set1_ne, os.path.join(base, '../data/ne/constitution/set1.json'))
-    
-    # tests.json for constitution
-    tests = {
-        "category": "constitution",
-        "sets": [
-            {"setId": "constitution-set1", "setNumber": 1, "title": {"en": "Set 1: Constitution of Nepal", "ne": "सेट १: नेपालको संविधान"}, "description": {"en": "50 questions on Constitution of Nepal 2072.", "ne": "नेपालको संविधान २०७२ सम्बन्धी ५० प्रश्नहरू।"}, "locked": False, "passingScore": 60, "timeLimit": 1800},
-            {"setId": "constitution-set2", "setNumber": 2, "title": {"en": "Set 2: Constitution of Nepal", "ne": "सेट २: नेपालको संविधान"}, "description": {"en": "Coming soon.", "ne": "चाँडै आउँदैछ।"}, "locked": True, "passingScore": 60, "timeLimit": 1800},
-            {"setId": "constitution-set3", "setNumber": 3, "title": {"en": "Set 3: Constitution of Nepal", "ne": "सेट ३: नेपालको संविधान"}, "description": {"en": "Coming soon.", "ne": "चाँडै आउँदैछ।"}, "locked": True, "passingScore": 60, "timeLimit": 1800}
-        ]
-    }
+    # tests.json in array format (format expected by app.js)
+    tests = [
+        {"id": "set1", "title": "Set 1: Constitution of Nepal", "questionCount": len(QUESTIONS_EN), "timeLimit": 45, "difficulty": "Easy", "locked": False},
+        {"id": "set2", "title": "Set 2: Constitution of Nepal", "questionCount": 50, "timeLimit": 45, "difficulty": "Medium", "locked": True},
+        {"id": "set3", "title": "Set 3: Constitution of Nepal", "questionCount": 50, "timeLimit": 45, "difficulty": "Hard", "locked": True}
+    ]
     save_json(tests, os.path.join(base, '../data/en/constitution/tests.json'))
     save_json(tests, os.path.join(base, '../data/ne/constitution/tests.json'))
     

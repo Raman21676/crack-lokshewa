@@ -1,26 +1,26 @@
 [
   {
     "id": "set1",
-    "title": "सेट १: सामान्य ज्ञान",
+    "title": "Set 1: General Knowledge",
     "questionCount": 50,
-    "timeLimit": 1800,
+    "timeLimit": 45,
     "difficulty": "Easy",
     "locked": false
   },
   {
     "id": "set2",
-    "title": "सेट २: सामान्य ज्ञान",
+    "title": "Set 2: General Knowledge",
     "questionCount": 50,
-    "timeLimit": 1800,
-    "difficulty": "Easy",
+    "timeLimit": 45,
+    "difficulty": "Medium",
     "locked": true
   },
   {
     "id": "set3",
-    "title": "सेट ३: सामान्य ज्ञान",
+    "title": "Set 3: General Knowledge",
     "questionCount": 50,
-    "timeLimit": 1800,
-    "difficulty": "Easy",
+    "timeLimit": 45,
+    "difficulty": "Hard",
     "locked": true
   }
 ]

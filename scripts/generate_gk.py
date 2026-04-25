@@ -529,39 +529,16 @@ def save_json(data, path):
 def main():
     base = os.path.dirname(os.path.abspath(__file__))
     
-    set1_en = {
-        "setId": "gk-set1",
-        "title": "Set 1: General Knowledge",
-        "description": "50 questions covering Nepal geography, history, politics, international affairs, and science.",
-        "category": "gk",
-        "locked": False,
-        "timeLimit": 1800,
-        "passingScore": 60,
-        "questions": QUESTIONS_EN
-    }
+    # Save questions directly as array (format expected by app.js)
+    save_json(QUESTIONS_EN, os.path.join(base, '../data/en/gk/set1.json'))
+    save_json(QUESTIONS_NE, os.path.join(base, '../data/ne/gk/set1.json'))
     
-    set1_ne = {
-        "setId": "gk-set1",
-        "title": "सेट १: सामान्य ज्ञान",
-        "description": "नेपालको भूगोल, इतिहास, राजनीति, अन्तर्राष्ट्रिय मामिला र विज्ञान सम्बन्धी ५० प्रश्नहरू।",
-        "category": "gk",
-        "locked": False,
-        "timeLimit": 1800,
-        "passingScore": 60,
-        "questions": QUESTIONS_NE
-    }
-    
-    save_json(set1_en, os.path.join(base, '../data/en/gk/set1.json'))
-    save_json(set1_ne, os.path.join(base, '../data/ne/gk/set1.json'))
-    
-    tests = {
-        "category": "gk",
-        "sets": [
-            {"setId": "gk-set1", "setNumber": 1, "title": {"en": "Set 1: General Knowledge", "ne": "सेट १: सामान्य ज्ञान"}, "description": {"en": "50 questions on GK.", "ne": "सामान्य ज्ञान सम्बन्धी ५० प्रश्नहरू।"}, "locked": False, "passingScore": 60, "timeLimit": 1800},
-            {"setId": "gk-set2", "setNumber": 2, "title": {"en": "Set 2: General Knowledge", "ne": "सेट २: सामान्य ज्ञान"}, "description": {"en": "Coming soon.", "ne": "चाँडै आउँदैछ।"}, "locked": True, "passingScore": 60, "timeLimit": 1800},
-            {"setId": "gk-set3", "setNumber": 3, "title": {"en": "Set 3: General Knowledge", "ne": "सेट ३: सामान्य ज्ञान"}, "description": {"en": "Coming soon.", "ne": "चाँडै आउँदैछ।"}, "locked": True, "passingScore": 60, "timeLimit": 1800}
-        ]
-    }
+    # tests.json in array format (format expected by app.js)
+    tests = [
+        {"id": "set1", "title": "Set 1: General Knowledge", "questionCount": len(QUESTIONS_EN), "timeLimit": 45, "difficulty": "Easy", "locked": False},
+        {"id": "set2", "title": "Set 2: General Knowledge", "questionCount": 50, "timeLimit": 45, "difficulty": "Medium", "locked": True},
+        {"id": "set3", "title": "Set 3: General Knowledge", "questionCount": 50, "timeLimit": 45, "difficulty": "Hard", "locked": True}
+    ]
     save_json(tests, os.path.join(base, '../data/en/gk/tests.json'))
     save_json(tests, os.path.join(base, '../data/ne/gk/tests.json'))
     

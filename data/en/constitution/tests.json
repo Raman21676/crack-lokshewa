@@ -3,7 +3,7 @@
     "id": "set1",
     "title": "Set 1: Constitution of Nepal",
     "questionCount": 50,
-    "timeLimit": 1800,
+    "timeLimit": 45,
     "difficulty": "Easy",
     "locked": false
   },
@@ -11,16 +11,16 @@
     "id": "set2",
     "title": "Set 2: Constitution of Nepal",
     "questionCount": 50,
-    "timeLimit": 1800,
-    "difficulty": "Easy",
+    "timeLimit": 45,
+    "difficulty": "Medium",
     "locked": true
   },
   {
     "id": "set3",
     "title": "Set 3: Constitution of Nepal",
     "questionCount": 50,
-    "timeLimit": 1800,
-    "difficulty": "Easy",
+    "timeLimit": 45,
+    "difficulty": "Hard",
     "locked": true
   }
 ]

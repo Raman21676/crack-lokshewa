@@ -319,39 +319,16 @@ def save_json(data, path):
 def main():
     base = os.path.dirname(os.path.abspath(__file__))
     
-    set1_en = {
-        "setId": "iq-set1",
-        "title": "Set 1: IQ & Reasoning",
-        "description": "30 questions on logical reasoning, pattern recognition, coding-decoding, and problem solving.",
-        "category": "iq",
-        "locked": False,
-        "timeLimit": 1200,
-        "passingScore": 60,
-        "questions": QUESTIONS_EN
-    }
+    # Save questions directly as array (format expected by app.js)
+    save_json(QUESTIONS_EN, os.path.join(base, '../data/en/iq/set1.json'))
+    save_json(QUESTIONS_NE, os.path.join(base, '../data/ne/iq/set1.json'))
     
-    set1_ne = {
-        "setId": "iq-set1",
-        "title": "सेट १: आईक्यू र तर्क",
-        "description": "तार्किक अनुमान, ढाँचा पहिचान, कोडिङ-डिकोडिङ र समस्या समाधान सम्बन्धी ३० प्रश्नहरू।",
-        "category": "iq",
-        "locked": False,
-        "timeLimit": 1200,
-        "passingScore": 60,
-        "questions": QUESTIONS_NE
-    }
-    
-    save_json(set1_en, os.path.join(base, '../data/en/iq/set1.json'))
-    save_json(set1_ne, os.path.join(base, '../data/ne/iq/set1.json'))
-    
-    tests = {
-        "category": "iq",
-        "sets": [
-            {"setId": "iq-set1", "setNumber": 1, "title": {"en": "Set 1: IQ & Reasoning", "ne": "सेट १: आईक्यू र तर्क"}, "description": {"en": "30 questions on IQ.", "ne": "आईक्यू सम्बन्धी ३० प्रश्नहरू।"}, "locked": False, "passingScore": 60, "timeLimit": 1200},
-            {"setId": "iq-set2", "setNumber": 2, "title": {"en": "Set 2: IQ & Reasoning", "ne": "सेट २: आईक्यू र तर्क"}, "description": {"en": "Coming soon.", "ne": "चाँडै आउँदैछ।"}, "locked": True, "passingScore": 60, "timeLimit": 1200},
-            {"setId": "iq-set3", "setNumber": 3, "title": {"en": "Set 3: IQ & Reasoning", "ne": "सेट ३: आईक्यू र तर्क"}, "description": {"en": "Coming soon.", "ne": "चाँडै आउँदैछ।"}, "locked": True, "passingScore": 60, "timeLimit": 1200}
-        ]
-    }
+    # tests.json in array format (format expected by app.js)
+    tests = [
+        {"id": "set1", "title": "Set 1: IQ & Reasoning", "questionCount": len(QUESTIONS_EN), "timeLimit": 30, "difficulty": "Easy", "locked": False},
+        {"id": "set2", "title": "Set 2: IQ & Reasoning", "questionCount": 30, "timeLimit": 30, "difficulty": "Medium", "locked": True},
+        {"id": "set3", "title": "Set 3: IQ & Reasoning", "questionCount": 30, "timeLimit": 30, "difficulty": "Hard", "locked": True}
+    ]
     save_json(tests, os.path.join(base, '../data/en/iq/tests.json'))
     save_json(tests, os.path.join(base, '../data/ne/iq/tests.json'))
     
