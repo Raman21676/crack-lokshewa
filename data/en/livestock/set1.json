@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "question": "According to current research and studies, how many species of fish are found in Nepal?",
+    "options": [
+      "1322",
+      "202",
+      "2322",
+      "2622"
+    ],
+    "correctIndex": 2,
+    "explanation": "According to current research and studies, 2,322 species of fish have been found in Nepal.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q2",
+    "question": "In which year was the Water Conservation Act enacted in Nepal?",
+    "options": [
+      "2015 AD",
+      "2017 AD",
+      "2020 AD",
+      "2030 AD"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Water Conservation Act was enacted in Nepal in 2017 AD.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q3",
+    "question": "What is the percentage of improved and crossbred cows in Nepal?",
+    "options": [
+      "5%",
+      "13%",
+      "30%",
+      "40%"
+    ],
+    "correctIndex": 1,
+    "explanation": "The percentage of improved and crossbred cows in Nepal is approximately 13%.",
+    "subject": "GK"
+  },
+  {
+    "id": "q4",
+    "question": "In which year was the separate Department of Livestock and Animal Health established from the Agriculture Department?",
+    "options": [
+      "2017",
+      "2023",
+      "2027",
+      "2032"
+    ],
+    "correctIndex": 1,
+    "explanation": "The separate Department of Livestock and Animal Health was established from the Agriculture Department in 2023 AD.",
+    "subject": "GK"
+  },
+  {
+    "id": "q5",
+    "question": "What are the various methods of agriculture/livestock/fisheries extension?",
+    "options": [
+      "Radio and TV",
+      "Poster, pamphlet, newspaper",
+      "Exhibition",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "explanation": "For agriculture, livestock and fisheries extension, radio, TV, posters, pamphlets, newspapers and exhibitions are all used as methods.",
+    "subject": "GK"
+  },
+  {
+    "id": "q6",
+    "question": "After Nepal adopted the federal system, in which year did the Local Government Operation Act come into implementation?",
+    "options": [
+      "2073 BS",
+      "2074 BS",
+      "2075 BS",
+      "2076 BS"
+    ],
+    "correctIndex": 1,
+    "explanation": "After Nepal adopted the federal system, the Local Government Operation Act came into implementation in 2074 BS.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q7",
+    "question": "In which article of Nepal's Constitution is the Right to Food mentioned?",
+    "options": [
+      "Article 36",
+      "Article 44",
+      "Article 22",
+      "Article 24"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Right to Food is mentioned in Article 36 of the Constitution of Nepal 2072.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q8",
+    "question": "What is the target for fish production increase by the end of the current periodic plan?",
+    "options": [
+      "4 MT/Hact.",
+      "6 MT/Hact.",
+      "8 MT/Hact.",
+      "10 MT/Hact."
+    ],
+    "correctIndex": 1,
+    "explanation": "The target for fish production increase by the end of the current periodic plan is 6 metric tons per hectare.",
+    "subject": "GK"
+  },
+  {
+    "id": "q9",
+    "question": "What is the penalty for illegally selling quarantined animals?",
+    "options": [
+      "Rs. 10,000",
+      "Rs. 25,000",
+      "Rs. 50,000",
+      "Rs. 1 lakh"
+    ],
+    "correctIndex": 2,
+    "explanation": "For illegally selling quarantined animals, a fine of up to Rs. 50,000 can be imposed.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q10",
+    "question": "What is the share of goat meat in Nepal's total meat production?",
+    "options": [
+      "10%",
+      "15%",
+      "20%",
+      "25%"
+    ],
+    "correctIndex": 1,
+    "explanation": "The contribution of goat meat in Nepal's total meat production is approximately 15%.",
+    "subject": "GK"
+  },
+  {
+    "id": "q11",
+    "question": "Who appoints the feed inspector?",
+    "options": [
+      "Government of Nepal",
+      "Provincial Government",
+      "Local levels",
+      "Both A and B"
+    ],
+    "correctIndex": 3,
+    "explanation": "The appointment of feed inspectors is done by both the Government of Nepal and the Provincial Governments.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q12",
+    "question": "According to the Feed Material Act, 2032, which department has the main responsibility?",
+    "options": [
+      "Livestock Service Department",
+      "Food Technology and Quality Control Department",
+      "Agriculture Department",
+      "Commerce Department"
+    ],
+    "correctIndex": 1,
+    "explanation": "According to the Feed Material Act, 2032, the Food Technology and Quality Control Department has the main responsibility for feed quality control.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q13",
+    "question": "What is done in livestock farming using Hydroponics technology in Nepal?",
+    "options": [
+      "Producing plants in laboratory",
+      "Producing grass on land",
+      "Producing plants on land",
+      "Producing grass in water"
+    ],
+    "correctIndex": 3,
+    "explanation": "In Hydroponics technology, plants are grown without soil, using only water with nutrients. In Nepal, this technology is used to produce grass for animals in water.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q14",
+    "question": "During animal milking, how many hours per day should they not be walked more than?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correctIndex": 1,
+    "explanation": "During milking, animals should not be walked more than 8 hours per day. Walking more can reduce milk production.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q15",
+    "question": "Penta sulfate is used for which disease?",
+    "options": [
+      "Pica",
+      "Anthrax",
+      "Ketosis",
+      "Tuberculosis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Penta sulfate is an antibiotic used in the treatment of anthrax disease.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q16",
+    "question": "In which disease of chicken does the body's ability to fight disease completely deteriorate?",
+    "options": [
+      "Fowl pox",
+      "Fowl cholera",
+      "Gumboro",
+      "Pullorum"
+    ],
+    "correctIndex": 2,
+    "explanation": "Gumboro (Infectious Bursal Disease - IBD) destroys the bursa in chickens, completely deteriorating the body's disease-fighting capacity.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q17",
+    "question": "In which part of the chicken does Heterakis Gallinarum reside?",
+    "options": [
+      "Small Intestine",
+      "Caecum, Colon",
+      "Oesophagus",
+      "Caecum, colon, rectum"
+    ],
+    "correctIndex": 1,
+    "explanation": "Heterakis Gallinarum is a parasitic worm that resides in the caecum and colon of chickens.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q18",
+    "question": "Lumbar Paralysis (Kushi) is caused by which parasite?",
+    "options": [
+      "Thelazia sps.",
+      "Staria (Setaria) sps.",
+      "Oesophagostomum",
+      "Nematodirus"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lumbar Paralysis (Kushi) is caused by parasites of the Staria (Setaria) species, which are found in cattle and buffaloes.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q19",
+    "question": "Bladder worm refers to which of the following?",
+    "options": [
+      "Gall bladder worm",
+      "Urinary bladder worm",
+      "Round worm",
+      "Tapeworm water bladder"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bladder worm refers to the Cysticercus stage, which is a stage of the urinary bladder worm (Taenia).",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q20",
+    "question": "Which disease in ducks is caused by fungus?",
+    "options": [
+      "Coccidiosis",
+      "Salmonellosis",
+      "Aspergillosis",
+      "None of the above"
+    ],
+    "correctIndex": 2,
+    "explanation": "Aspergillosis is a disease caused by Aspergillus fungus that affects ducks.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q21",
+    "question": "Among the following diseases in chickens, which one is caused by a virus?",
+    "options": [
+      "E. coli",
+      "Salmonellosis",
+      "Marek's Disease",
+      "Coccidiosis"
+    ],
+    "correctIndex": 2,
+    "explanation": "Marek's Disease is a viral disease in chickens. The other options are caused by bacteria or parasites.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q22",
+    "question": "In Newcastle disease, where is bleeding seen during post-mortem?",
+    "options": [
+      "Proventriculus",
+      "Caecum",
+      "Skin",
+      "Eyes"
+    ],
+    "correctIndex": 0,
+    "explanation": "In Newcastle disease, post-mortem examination of dead chickens shows bleeding in the proventriculus.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q23",
+    "question": "For which disease was the vaccine first developed in South Asia for sheep and goats in Nepal?",
+    "options": [
+      "Enterotaxemia",
+      "FMD",
+      "PPR",
+      "Foot rot"
+    ],
+    "correctIndex": 2,
+    "explanation": "The PPR (Peste des Petits Ruminants) vaccine was first developed in South Asia in Nepal. It is a serious viral disease of sheep and goats.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q24",
+    "question": "What is the common name for Thelazia?",
+    "options": [
+      "Guinea worm",
+      "Whip worm",
+      "Pin worm",
+      "Eye worm"
+    ],
+    "correctIndex": 3,
+    "explanation": "Thelazia is commonly called 'Eye worm' because it is found in the eyes of animals.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q25",
+    "question": "White muscle disease in animals is caused by deficiency of which element?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin E"
+    ],
+    "correctIndex": 3,
+    "explanation": "White muscle disease is caused by deficiency of Vitamin E and selenium, which creates white spots in the muscles.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q26",
+    "question": "Which strain of LSD vaccine is recommended in Nepal?",
+    "options": [
+      "Sheep pox",
+      "Capri pox",
+      "Neethling",
+      "All of the above"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Neethling strain of LSD (Lumpy Skin Disease) vaccine is recommended for use in Nepal.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q27",
+    "question": "Which hormone helps maintain pregnancy in cattle and buffaloes?",
+    "options": [
+      "GnRH",
+      "Prolactin",
+      "Estrogen",
+      "Progesterone"
+    ],
+    "correctIndex": 3,
+    "explanation": "Progesterone hormone controls conception and maintains the fetus in the uterus.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q28",
+    "question": "Which of the following is NOT an indigenous buffalo breed?",
+    "options": [
+      "Lime",
+      "Parkote",
+      "Rhadi",
+      "Nilirami"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nilirami is not an indigenous buffalo breed. Lime, Parkote and Rhadi are indigenous buffalo breeds of Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "What is the fat content in maize?",
+    "options": [
+      "60%",
+      "50%",
+      "50%",
+      "90%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Maize contains approximately 50% fat content. It is a good source of animal feed.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q30",
+    "question": "Which breed of chicken has been developed for multipurpose use (eggs and meat)?",
+    "options": [
+      "Black Australorp",
+      "New Hampshire",
+      "Giriraja",
+      "White leg-horn"
+    ],
+    "correctIndex": 2,
+    "explanation": "Giriraja chicken is a dual-purpose breed developed in Nepal for both egg and meat production.",
+    "subject": "GK"
+  },
+  {
+    "id": "q31",
+    "question": "What is the maximum percentage of urea that can be mixed when treating straw for feed?",
+    "options": [
+      "1-2%",
+      "2-5%",
+      "3-5%",
+      "5-10%"
+    ],
+    "correctIndex": 1,
+    "explanation": "When treating straw with urea, a maximum of 2-5% urea can be mixed. Adding more can be harmful to animals.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q32",
+    "question": "How many hours after showing heat signs should AI be performed in cattle/buffaloes?",
+    "options": [
+      "12-18 hours",
+      "20-24 hours",
+      "6-12 hours",
+      "18-22 hours"
+    ],
+    "correctIndex": 0,
+    "explanation": "AI (Artificial Insemination) should be performed 12-18 hours after cattle/buffaloes show heat signs.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q33",
+    "question": "What type of grass is Desmodium?",
+    "options": [
+      "Shrub grass",
+      "Leguminous grass",
+      "Both A and B",
+      "Tall grass"
+    ],
+    "correctIndex": 2,
+    "explanation": "Desmodium (Dopil Dopil) is both a shrub grass and a leguminous grass.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q34",
+    "question": "Which of the following are leguminous grasses?",
+    "options": [
+      "Desmodium, Stylo and Berseem",
+      "Centro, White clover and Bodi",
+      "Pea, Sheep and Joint vetch",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "explanation": "Desmodium, Stylo, Berseem, Centro, White clover, Bodi, Pea, Sheep and Joint vetch are all leguminous grasses.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q35",
+    "question": "Which is the best sheep breed for wool production?",
+    "options": [
+      "Lampucchhe",
+      "Kage",
+      "Baruwal",
+      "Merino"
+    ],
+    "correctIndex": 3,
+    "explanation": "Merino is internationally recognized as the best sheep breed for wool production.",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "For developing Pakhribas black pig, which breed was used for breeding?",
+    "options": [
+      "Saulbak",
+      "Fayun",
+      "Yorkshire",
+      "Tamworth"
+    ],
+    "correctIndex": 2,
+    "explanation": "Yorkshire breed pigs were used for breeding in the development of Pakhribas black pig.",
+    "subject": "GK"
+  },
+  {
+    "id": "q37",
+    "question": "How many kg of seed per hectare is required for Berseem grass cultivation?",
+    "options": [
+      "10-15",
+      "20-25",
+      "25-30",
+      "30-35"
+    ],
+    "correctIndex": 1,
+    "explanation": "For Berseem grass cultivation, 20-25 kg of seed per hectare is required.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q38",
+    "question": "Within how many hours of showing heat signs should buffaloes be inseminated?",
+    "options": [
+      "0-6",
+      "6-12",
+      "12-18",
+      "18-24"
+    ],
+    "correctIndex": 2,
+    "explanation": "Buffaloes should be inseminated within 12-18 hours of showing heat signs.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q39",
+    "question": "Which method is used to supply oxygen in fish ponds?",
+    "options": [
+      "Aeration",
+      "Pumping",
+      "Stirring",
+      "B and C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Aeration method is used to supply oxygen in fish ponds, which increases the oxygen level by mixing air with water.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q40",
+    "question": "Which improved fish is cultivated in Raceway with cold water in Nepal?",
+    "options": [
+      "Labeo Rohita",
+      "Rainbow trout",
+      "Mrigala",
+      "Grass Carp"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rainbow trout is an improved fish cultivated in Raceway with cold water in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q41",
+    "question": "Which fish species are suitable for cultivation in rice fields?",
+    "options": [
+      "Catla",
+      "Rohu",
+      "Mrigal and Catla",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "explanation": "Catla, Rohu and Mrigal are all suitable fish species for cultivation in rice fields. This is called 'Rice-fish farming'.",
+    "subject": "GK"
+  },
+  {
+    "id": "q42",
+    "question": "What percentage of protein is kept in common carp (Fry) feed?",
+    "options": [
+      "45",
+      "50",
+      "55",
+      "60"
+    ],
+    "correctIndex": 0,
+    "explanation": "Common carp (Fry) feed contains approximately 45% protein. Fry requires more protein as it is in the growth stage.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q43",
+    "question": "Which type of grain do fish use for easy digestion?",
+    "options": [
+      "Whole grain",
+      "Mouth grain",
+      "Milled grain",
+      "Wet grain"
+    ],
+    "correctIndex": 2,
+    "explanation": "Fish use milled (ground) grain which is easier to digest.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q44",
+    "question": "Trichodinosis disease in fish is caused by what?",
+    "options": [
+      "Virus",
+      "Phytoplankton",
+      "Contamination",
+      "Protozoa"
+    ],
+    "correctIndex": 3,
+    "explanation": "Trichodinosis in fish is caused by the protozoan parasite Trichodina.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q45",
+    "question": "Which tools are suitable for controlling unwanted fish in ponds?",
+    "options": [
+      "Seine net",
+      "Cast net",
+      "Hook",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "explanation": "Seine nets, cast nets and hooks are all used for controlling unwanted fish in ponds.",
+    "subject": "GK"
+  },
+  {
+    "id": "q46",
+    "question": "What is mainly considered when making commercial feed for fish?",
+    "options": [
+      "Vitamin",
+      "Carbohydrate",
+      "Mineral",
+      "Protein"
+    ],
+    "correctIndex": 3,
+    "explanation": "Protein content is mainly considered when making commercial fish feed because protein is the most important nutrient for fish growth.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q47",
+    "question": "For dip treatment of 0.5g fish fry, how much oil per liter of water should be used?",
+    "options": [
+      "1-2 microliters",
+      "2-3 microliters",
+      "3-5 microliters",
+      "5-7 microliters"
+    ],
+    "correctIndex": 1,
+    "explanation": "For dip treatment of 0.5g fish fry, 2-3 microliters of oil per liter of water should be used.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q48",
+    "question": "Which method is mainly used for fish farming in Nepal?",
+    "options": [
+      "Pond Culture",
+      "Swamp Culture",
+      "Cage Fish Culture",
+      "Raceway Culture"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pond Culture is the main method used for fish farming in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q49",
+    "question": "What causes Tail rot and Fin rot disease in fish?",
+    "options": [
+      "Bacteria",
+      "Fungus",
+      "Virus",
+      "Parasites"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tail rot and Fin rot in fish are caused by bacteria such as Aeromonas and Pseudomonas.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q50",
+    "question": "Which nutrient is most needed for the physical development of fish?",
+    "options": [
+      "Carbohydrate",
+      "Protein",
+      "Fat",
+      "Vitamin"
+    ],
+    "correctIndex": 1,
+    "explanation": "Protein is the most needed nutrient for the physical development and growth of fish. Fish require 30-50% protein in their diet relative to their body weight.",
+    "subject": "SCIENCE"
+  }
+]

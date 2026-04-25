@@ -47,5 +47,12 @@
         "description": { "en": "Computer operator and IT officer exams.", "ne": "कम्प्युटर सञ्चालक र आईटी अधिकृत परीक्षाहरू।" },
         "icon": "💻",
         "color": "#14b8a6"
+    },
+    {
+        "id": "livestock",
+        "title": { "en": "Livestock Technician", "ne": "नायब पशु सेवा" },
+        "description": { "en": "Veterinary and animal husbandry technical exams.", "ne": "भेटेरिनरी र पशुपालन प्राविधिक परीक्षाहरू।" },
+        "icon": "🐄",
+        "color": "#8B4513"
     }
 ]
