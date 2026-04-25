@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "question": "What is the speed of light in vacuum?",
+    "options": [
+      "3×10⁶ m/s",
+      "3×10¹⁰ m/s",
+      "3×10⁴ m/s",
+      "3×10⁸ m/s"
+    ],
+    "correctIndex": 3,
+    "explanation": "Speed of light in vacuum is ~3×10⁸ m/s.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": 2,
+    "question": "Which is the smallest sub-metropolitan city by area?",
+    "options": [
+      "Nepalgunj",
+      "Dharan",
+      "Dhangadhi",
+      "Itahari"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepalgunj is the smallest sub-metropolitan city by area. Largest sub-metropolitan = Ghorahi (Dang). Largest metropolitan = Pokhara (Kaski). Smallest metropolitan = Lalitpur.",
+    "subject": "GK"
+  },
+  {
+    "id": 3,
+    "question": "What percentage of water is found in the human body?",
+    "options": [
+      "4-6 liters",
+      "5-6 liters",
+      "2.5-3 liters",
+      "66%"
+    ],
+    "correctIndex": 3,
+    "explanation": "About 66% of the human body is water. Blood volume = 4-6 liters (male 5-6L, female 4-5L). Plasma volume = 2.5-3 liters.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": 4,
+    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
+    "options": [
+      "32",
+      "48",
+      "96",
+      "24"
+    ],
+    "correctIndex": 2,
+    "explanation": "Pattern: a+b = a*(a+b). 8*(8+4)=96.",
+    "subject": "IQ"
+  },
+  {
+    "id": 5,
+    "question": "When was Agriculture Development Bank established?",
+    "options": [
+      "2024 Magh 7",
+      "2062 Mangshir 1",
+      "2073 Poush 7",
+      "2033 Aswin 23"
+    ],
+    "correctIndex": 0,
+    "explanation": "Agriculture Development Bank was established on 2024 Magh 7. Coffee Day started on 2062 Mangshir 1, Farmer Commission formed on 2073 Poush 7, Tea Development Corporation on 2033 Aswin 23.",
+    "subject": "GK"
+  },
+  {
+    "id": 6,
+    "question": "Which is the smallest district of Koshi Province?",
+    "options": [
+      "Tehrathum",
+      "Jhapa",
+      "Morang",
+      "Sunsari"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tehrathum is the smallest district of Koshi Province by area.",
+    "subject": "GK"
+  },
+  {
+    "id": 7,
+    "question": "Which community has the tradition of cutting the dead body and feeding it to vultures?",
+    "options": [
+      "Satar",
+      "Tamang",
+      "Lepcha",
+      "Dolpo"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Dolpo community has the tradition of cutting the dead body and feeding it to vultures (sky burial). Satar = widow goes to in-laws' house after father-in-law's death. Tamang = 108 lamps in death ceremony. Lepcha = buried facing Kanchenjunga.",
+    "subject": "GK"
+  },
+  {
+    "id": 8,
+    "question": "When did the Sagarmatha Mass Plantation Campaign start?",
+    "options": [
+      "2082 Saun 14",
+      "2082 Bhadau 14",
+      "2082 Jestha 14",
+      "2082 Asar 14"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Sagarmatha Mass Plantation Campaign started on 2082 Asar 14. Under this campaign, 3 crore plants will be planted every year for 20 years continuously.",
+    "subject": "GK"
+  },
+  {
+    "id": 9,
+    "question": "Complete the analogy: Book is to Reading as Fork is to ?",
+    "options": [
+      "Cutting",
+      "Serving",
+      "Cooking",
+      "Eating"
+    ],
+    "correctIndex": 3,
+    "explanation": "A book is used for reading; a fork is used for eating.",
+    "subject": "IQ"
+  },
+  {
+    "id": 10,
+    "question": "How many member states does ASEAN currently have?",
+    "options": [
+      "12",
+      "11",
+      "10",
+      "14"
+    ],
+    "correctIndex": 1,
+    "explanation": "ASEAN currently has 11 member states. Timor-Leste became the 11th member on October 26, 2022.",
+    "subject": "GK"
+  },
+  {
+    "id": 11,
+    "question": "When was Nepal selected for the T20 World Cup for the 3rd time?",
+    "options": [
+      "October 15, 2025",
+      "October 13, 2025",
+      "October 11, 2025",
+      "October 9, 2025"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepal was selected for the T20 World Cup for the 3rd time on October 15, 2025. Previously selected in 2013 and 2024.",
+    "subject": "GK"
+  },
+  {
+    "id": 12,
+    "question": "Which combination about Singha Durbar is correct?",
+    "options": [
+      "Only A and B are correct",
+      "Only A and C are correct",
+      "Only B and C are correct",
+      "A, B and C are all correct"
+    ],
+    "correctIndex": 3,
+    "explanation": "All are correct: First fire on 2030 Asar 25, second fire on 2082 Bhadra 24, and builder was Chandra Shamsher.",
+    "subject": "GK"
+  },
+  {
+    "id": 13,
+    "question": "When is Constitution Day celebrated in Nepal?",
+    "options": [
+      "Falgun 7",
+      "Aswin 3",
+      "Jestha 15",
+      "Magh 16"
+    ],
+    "correctIndex": 1,
+    "explanation": "Constitution Day is celebrated on Aswin 3. Falgun 7 = Democracy Day, Jestha 15 = Republic Day, Magh 16 = Martyrs' Day.",
+    "subject": "GK"
+  },
+  {
+    "id": 14,
+    "question": "Which is the religious book of Christianity?",
+    "options": [
+      "Quran",
+      "Tripitaka",
+      "Bible",
+      "Vedas"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Bible is the religious book of Christianity. Quran = Islam. Tripitaka = Buddhism. Vedas = Hinduism.",
+    "subject": "GK"
+  },
+  {
+    "id": 15,
+    "question": "How many judges are in Nepal's Supreme Court?",
+    "options": [
+      "15",
+      "19",
+      "21",
+      "25"
+    ],
+    "correctIndex": 2,
+    "explanation": "21 judges including the Chief Justice.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 16,
+    "question": "Which planet is cold on one side and extremely hot on the other?",
+    "options": [
+      "Mercury",
+      "Uranus",
+      "Earth",
+      "Saturn"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mercury is extremely cold on one side and very hot on the other. Uranus = rises in the west, Earth = highest density planet, Saturn = lowest density planet.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": 17,
+    "question": "Who represented Nepal at COP 30?",
+    "options": [
+      "KP Sharma Oli",
+      "Madan Prasad Pariyar",
+      "Balendra Shah",
+      "Pushpa Kamal Dahal"
+    ],
+    "correctIndex": 1,
+    "explanation": "Madan Prasad Pariyar represented Nepal at COP 30 held in Belem, Brazil (Nov 10-21, 2025). COP 31 will be in Turkey (Nov 9-20, 2026).",
+    "subject": "GK"
+  },
+  {
+    "id": 18,
+    "question": "How many types are hydropower projects classified into?",
+    "options": [
+      "3 types",
+      "5 types",
+      "7 types",
+      "10 types"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hydropower projects are classified into 5 types.",
+    "subject": "GK"
+  },
+  {
+    "id": 19,
+    "question": "How many articles are in the Constitution of Nepal 2072?",
+    "options": [
+      "280",
+      "295",
+      "308",
+      "325"
+    ],
+    "correctIndex": 2,
+    "explanation": "308 articles, 35 parts, 9 schedules.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 20,
+    "question": "In which district is Nepal's wildlife museum located?",
+    "options": [
+      "Hetauda, Makwanpur",
+      "Godawari, Lalitpur",
+      "Damak, Jhapa",
+      "Pokhara, Kaski"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepal's wildlife museum is located in Hetauda, Makwanpur.",
+    "subject": "GK"
+  },
+  {
+    "id": 21,
+    "question": "Which SAARC country was the last to join the UN?",
+    "options": [
+      "Bangladesh",
+      "Nepal",
+      "Bhutan",
+      "Maldives"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bangladesh was the last SAARC country to join the UN.",
+    "subject": "GK"
+  },
+  {
+    "id": 22,
+    "question": "In the Lichhavi period, what type of punishment was 'Dhana Danda'?",
+    "options": [
+      "Scolding",
+      "Humiliation",
+      "Fine",
+      "Amputation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dhana Danda meant fine/jarivana. Vak Danda = scolding, Dhig Danda = humiliation, Badh Danda = amputation.",
+    "subject": "GK"
+  },
+  {
+    "id": 23,
+    "question": "Who was the first king of Patan in Nepal's history?",
+    "options": [
+      "Ranjit Malla",
+      "Ray Malla",
+      "Ratna Malla",
+      "Ran Malla"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ran Malla was the first king of Patan. Ranjit Malla = last king of Bhaktapur. Ray Malla = first king of Bhaktapur. Ratna Malla = first king of Kantipur.",
+    "subject": "GK"
+  },
+  {
+    "id": 24,
+    "question": "When did the One Village One Product (OVOP) program start in Nepal?",
+    "options": [
+      "2063 BS",
+      "2036 BS",
+      "2071 BS",
+      "2073 BS"
+    ],
+    "correctIndex": 0,
+    "explanation": "OVOP started in 2063 BS. First district was Dolakha (from lotta/potato farming), now in 42 districts, logo unveiled on 2071 Aswin 12.",
+    "subject": "GK"
+  },
+  {
+    "id": 25,
+    "question": "Who started the Rato Machhindranath Jatra (festival)?",
+    "options": [
+      "Pratap Malla",
+      "Narendradev",
+      "Ratna Malla",
+      "Bhupatindra Malla"
+    ],
+    "correctIndex": 1,
+    "explanation": "Narendradev started the Rato Machhindranath Jatra. Pratap Malla = started Seto Machhindranath Jatra. Ratna Malla = introduced copper coins. Bhupatindra Malla = built 55-window palace in Bhaktapur.",
+    "subject": "GK"
+  },
+  {
+    "id": 26,
+    "question": "When was the Natural and Cultural Heritage Conservation Council established?",
+    "options": [
+      "1985 AD",
+      "1988 AD",
+      "1990 AD",
+      "1995 AD"
+    ],
+    "correctIndex": 2,
+    "explanation": "Established in 1990 AD.",
+    "subject": "GK"
+  },
+  {
+    "id": 27,
+    "question": "Who started the Gai Jatra festival?",
+    "options": [
+      "Gunakamdev",
+      "Mahendra Malla",
+      "Jagat Jyoti Malla",
+      "Jagat Prakash Malla"
+    ],
+    "correctIndex": 3,
+    "explanation": "Jagat Prakash Malla started Gai Jatra. Jagat Jyoti Malla started Bisket Jatra.",
+    "subject": "GK"
+  },
+  {
+    "id": 28,
+    "question": "Where was COP 29 held?",
+    "options": [
+      "Brazil",
+      "UAE",
+      "Azerbaijan",
+      "Turkey"
+    ],
+    "correctIndex": 2,
+    "explanation": "COP 29 was held in Baku, Azerbaijan. COP 30 = Brazil, COP 28 = UAE, COP 31 = Turkey. COP stands for Conference of the Parties.",
+    "subject": "GK"
+  },
+  {
+    "id": 29,
+    "question": "When is Army Day celebrated in Nepal?",
+    "options": [
+      "Falgun 3",
+      "Baisakh 15",
+      "Aswin 1",
+      "Mangsir 7"
+    ],
+    "correctIndex": 0,
+    "explanation": "Army Day is celebrated on Falgun 3 in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": 30,
+    "question": "What is Nepal's rank in the Press Freedom Index?",
+    "options": [
+      "85th",
+      "88th",
+      "90th",
+      "92nd"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal ranks 90th in the Press Freedom Index.",
+    "subject": "GK"
+  },
+  {
+    "id": 31,
+    "question": "Which river is also known as 'Uttar Gaya' in Nepal?",
+    "options": [
+      "Sanoberi",
+      "Trishuli",
+      "Rapti",
+      "Karnali"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trishuli is known as 'Uttar Gaya'. Sanoberi = 'Uttar Ganga'. Karnali = fastest flowing river in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": 32,
+    "question": "What is the contribution of agriculture to Koshi Province's GDP?",
+    "options": [
+      "34.05%",
+      "25.16%",
+      "16.05%",
+      "49.9%"
+    ],
+    "correctIndex": 0,
+    "explanation": "Agriculture contributes 34.05% to Koshi's GDP. Nepal's agriculture = 25.16%. Koshi industry = 16.05%. Koshi service = 49.9%. Koshi primary sector = 34.4%.",
+    "subject": "GK"
+  },
+  {
+    "id": 33,
+    "question": "Who was the first President of independent Pakistan?",
+    "options": [
+      "Muhammad Ali Jinnah",
+      "Rabindranath Tagore",
+      "Liaquat Ali Khan",
+      "Sarvepalli Radhakrishnan"
+    ],
+    "correctIndex": 0,
+    "explanation": "Muhammad Ali Jinnah was the first President. Tagore gave 'Mahatma' title to Gandhi. Liaquat Ali Khan = first PM of Pakistan. Radhakrishnan = first Vice President of India.",
+    "subject": "GK"
+  },
+  {
+    "id": 34,
+    "question": "What is the scientific name of Vitamin B?",
+    "options": [
+      "Thiamine",
+      "Tocopherol",
+      "Retinol",
+      "Calciferol"
+    ],
+    "correctIndex": 0,
+    "explanation": "Vitamin B = Thiamine. Vitamin E = Tocopherol. Vitamin A = Retinol. Vitamin D = Calciferol. Vitamin C = Ascorbic acid.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": 35,
+    "question": "Which Election Day was celebrated in 2082 BS?",
+    "options": [
+      "8th",
+      "9th",
+      "10th",
+      "11th"
+    ],
+    "correctIndex": 2,
+    "explanation": "The 10th Election Day was celebrated in 2082 BS. Election Day started being observed from 2073 BS on Falgun 7.",
+    "subject": "GK"
+  },
+  {
+    "id": 36,
+    "question": "Nepal ranks 49th globally in biodiversity. What is Nepal's rank in Asia?",
+    "options": [
+      "12th",
+      "21st",
+      "11th",
+      "14th"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal ranks 11th in Asia in biodiversity. According to the Nepal Biodiversity Research and Conservation Center, Nepal is 49th globally.",
+    "subject": "GK"
+  },
+  {
+    "id": 37,
+    "question": "Which element is found in tea?",
+    "options": [
+      "Lycopene",
+      "Tannin",
+      "Curcumin",
+      "Gingerol"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tea contains tannin. Lycopene = found in tomatoes. Curcumin = found in turmeric. Gingerol = found in ginger.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": 38,
+    "question": "What is the highest peak of the Chure (Siwalik) range in Nepal?",
+    "options": [
+      "Fusang",
+      "Haripur",
+      "Langtang",
+      "Garba"
+    ],
+    "correctIndex": 3,
+    "explanation": "Garba is the highest peak of the Chure (Siwalik) range in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": 39,
+    "question": "Which country has three capital cities?",
+    "options": [
+      "Indonesia",
+      "Cape Verde",
+      "Mauritius",
+      "South Africa"
+    ],
+    "correctIndex": 3,
+    "explanation": "South Africa has three capital cities: Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial).",
+    "subject": "GK"
+  },
+  {
+    "id": 40,
+    "question": "Who was the king who settled Lalitpur?",
+    "options": [
+      "Gunakamdev",
+      "Shivdev Pratham",
+      "Anand Dev",
+      "Bardev"
+    ],
+    "correctIndex": 3,
+    "explanation": "Bardev settled Lalitpur. Gunakamdev settled Kathmandu, Shivdev Pratham settled Kirtipur, Anand Dev settled Bhaktapur.",
+    "subject": "GK"
+  },
+  {
+    "id": 41,
+    "question": "According to the World Bank, what is Nepal's current unemployment rate?",
+    "options": [
+      "21.7%",
+      "22.7%",
+      "23.7%",
+      "24.8%"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nepal's unemployment rate is 22.7% according to the World Bank. This is the highest unemployment rate in South Asia.",
+    "subject": "GK"
+  },
+  {
+    "id": 42,
+    "question": "What is the area of Chhyanath National Park?",
+    "options": [
+      "834 sq km",
+      "847 sq km",
+      "835 sq km",
+      "843 sq km"
+    ],
+    "correctIndex": 3,
+    "explanation": "Chhyanath National Park area is 843 sq km. It is Nepal's 13th national park by establishment and 7th by area.",
+    "subject": "GK"
+  },
+  {
+    "id": 43,
+    "question": "Which is the hottest place in Nepal?",
+    "options": [
+      "Birgunj",
+      "Nepalgunj",
+      "Bhairahawa",
+      "Janakpur"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nepalgunj is the hottest.",
+    "subject": "GK"
+  },
+  {
+    "id": 44,
+    "question": "What is the average depth of the Indian Ocean?",
+    "options": [
+      "390 meters",
+      "2400 meters",
+      "3700 meters",
+      "130 meters"
+    ],
+    "correctIndex": 2,
+    "explanation": "The average depth of the Indian Ocean is about 3700 meters. Pacific Ocean has the greatest average depth (~4300m), Arctic has the shallowest.",
+    "subject": "GK"
+  },
+  {
+    "id": 45,
+    "question": "Which was the first district declared fully literate in Nepal?",
+    "options": [
+      "Kathmandu",
+      "Bhaktapur",
+      "Lalitpur",
+      "Chitwan"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bhaktapur was the first district declared fully literate in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": 46,
+    "question": "What is Nepal's rank in the world by area?",
+    "options": [
+      "5th",
+      "21st",
+      "93rd",
+      "6th"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal ranks 93rd in the world by area. It ranks 5th in South Asia and 21st among landlocked countries.",
+    "subject": "GK"
+  },
+  {
+    "id": 47,
+    "question": "Who was the first Prime Minister to address the UN General Assembly from Nepal?",
+    "options": [
+      "Tank Prasad Acharya",
+      "BP Koirala",
+      "Matrika Prasad Koirala",
+      "Kirtinidhi Bista"
+    ],
+    "correctIndex": 1,
+    "explanation": "BP Koirala was the first Prime Minister to address the UN General Assembly from Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": 48,
+    "question": "Which constitutional body conducts elections in Nepal?",
+    "options": [
+      "Public Service Commission",
+      "Election Commission",
+      "CIAA",
+      "Auditor General"
+    ],
+    "correctIndex": 1,
+    "explanation": "Election Commission conducts all elections.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 49,
+    "question": "According to the Institute for Economics & Peace report, what is Nepal's rank in the Global Terrorism Index?",
+    "options": [
+      "99th",
+      "59th",
+      "69th",
+      "79th"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepal ranks 99th in the Global Terrorism Index by IEP. Pakistan ranks 1st with a score of 8.574, followed by Burkina Faso with 8.334.",
+    "subject": "GK"
+  },
+  {
+    "id": 50,
+    "question": "Which is the largest importer of Nepali carpets?",
+    "options": [
+      "USA",
+      "Germany",
+      "UK",
+      "Japan"
+    ],
+    "correctIndex": 1,
+    "explanation": "Germany is the largest importer of Nepali carpets.",
+    "subject": "GK"
+  }
+]

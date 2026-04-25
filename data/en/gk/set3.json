@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "question": "What is the condition of being extremely attracted to boys called?",
+    "options": [
+      "Gynophobia",
+      "Gynophilic",
+      "Androphobia",
+      "Androphilic"
+    ],
+    "correctIndex": 3,
+    "explanation": "Androphilic = attraction to males. Gynophobia = fear of women. Gynophilic = attraction to females. Androphobia = fear of men.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": 2,
+    "question": "What is Nepal's national bird?",
+    "options": [
+      "Eagle",
+      "Crow",
+      "Peacock",
+      "Himalayan Monal"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Himalayan Monal (Danphe).",
+    "subject": "GK"
+  },
+  {
+    "id": 3,
+    "question": "The Kyoto Protocol is related to which field?",
+    "options": [
+      "Trade",
+      "Human Rights",
+      "Environment",
+      "Defense"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Kyoto Protocol is related to environment and climate change.",
+    "subject": "GK"
+  },
+  {
+    "id": 4,
+    "question": "When was Nepal selected for the T20 World Cup for the 3rd time?",
+    "options": [
+      "October 15, 2025",
+      "October 13, 2025",
+      "October 11, 2025",
+      "October 9, 2025"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepal was selected for the T20 World Cup for the 3rd time on October 15, 2025. Previously selected in 2013 and 2024.",
+    "subject": "GK"
+  },
+  {
+    "id": 5,
+    "question": "Who is the current Secretary-General of BIMSTEC?",
+    "options": [
+      "Indramani Pandey",
+      "Sumith Nakandal",
+      "Tenzin Lekphell",
+      "Sahidul Islam"
+    ],
+    "correctIndex": 0,
+    "explanation": "Indramani Pandey is the current Secretary-General of BIMSTEC (from India). Sumith Nakandal = 1st SG (Sri Lanka). Sahidul Islam = 2nd SG (Bangladesh). Tenzin Lekphell = 3rd SG (Bhutan).",
+    "subject": "GK"
+  },
+  {
+    "id": 6,
+    "question": "Which planet is called the 'Golden Planet'?",
+    "options": [
+      "Saturn",
+      "Neptune",
+      "Uranus",
+      "Jupiter"
+    ],
+    "correctIndex": 0,
+    "explanation": "Saturn is called the Golden Planet. Neptune = planet of the water god, Uranus = failed star, Jupiter = God of sky and lightning.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": 7,
+    "question": "Which place is known as Nepal's 'wind hole'?",
+    "options": [
+      "Inner Madhes",
+      "Bhavar region",
+      "Chure mountain",
+      "Mahabharat mountain range"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mahabharat mountain range is known as Nepal's 'wind hole'. It is also called 'Hill Station of Nepal', 'Low Himalaya', and 'Moddar Parbat'.",
+    "subject": "GK"
+  },
+  {
+    "id": 8,
+    "question": "Which is the 5th country to land a spacecraft on the moon?",
+    "options": [
+      "India",
+      "China",
+      "Russia",
+      "Japan"
+    ],
+    "correctIndex": 3,
+    "explanation": "Japan is the 5th country.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": 9,
+    "question": "In which mountain's lap is Tilicho Lake located?",
+    "options": [
+      "Phakche Himal",
+      "Annapurna Himal",
+      "Dhaulagiri Himal",
+      "Manaslu Himal"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tilicho Lake, the world's highest lake, is located in the lap of Phakche Himal.",
+    "subject": "GK"
+  },
+  {
+    "id": 10,
+    "question": "The world's first cabinet meeting underwater took place in which ocean?",
+    "options": [
+      "Pacific",
+      "Atlantic",
+      "Indian",
+      "Arctic"
+    ],
+    "correctIndex": 2,
+    "explanation": "First underwater cabinet meeting was held in the Indian Ocean (Maldives).",
+    "subject": "GK"
+  },
+  {
+    "id": 11,
+    "question": "Which philosopher said 'Religion is knowledge and knowledge is religion'?",
+    "options": [
+      "Plato",
+      "Socrates",
+      "Aristotle",
+      "Confucius"
+    ],
+    "correctIndex": 1,
+    "explanation": "Socrates said this.",
+    "subject": "GK"
+  },
+  {
+    "id": 12,
+    "question": "When is Election Day celebrated in Nepal?",
+    "options": [
+      "Falgun 7",
+      "Aswin 2",
+      "Poush 1",
+      "Mangshir 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Election Day is celebrated on Falgun 7. It is also Democracy Day. Education Day = Aswin 2, Flag Day = Poush 1, Tax Day = Mangshir 1.",
+    "subject": "GK"
+  },
+  {
+    "id": 13,
+    "question": "How many labor agreement countries does Nepal currently have?",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal currently has labor agreements with 13 countries.",
+    "subject": "GK"
+  },
+  {
+    "id": 14,
+    "question": "Which king was the first to write 'Mall' in his own name?",
+    "options": [
+      "Abhay Malla",
+      "Haridev Malla",
+      "Aakshay Malla",
+      "Pratap Malla"
+    ],
+    "correctIndex": 1,
+    "explanation": "Haridev Malla was the first king to write 'Mall' in his own name. Abhay Malla = died in an earthquake. Aakshay Malla = built four-sided enclosure of Bhaktapur Durbar. Pratap Malla = imprisoned his father to become king.",
+    "subject": "GK"
+  },
+  {
+    "id": 15,
+    "question": "Nepal ranks 49th globally in biodiversity. What is Nepal's rank in Asia?",
+    "options": [
+      "12th",
+      "21st",
+      "11th",
+      "14th"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal ranks 11th in Asia in biodiversity. According to the Nepal Biodiversity Research and Conservation Center, Nepal is 49th globally.",
+    "subject": "GK"
+  },
+  {
+    "id": 16,
+    "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
+    "options": [
+      "214673",
+      "246173",
+      "214763",
+      "216473"
+    ],
+    "correctIndex": 0,
+    "explanation": "R=6,O=8,S=2,E=1,C=7,H=3,A=4,I=5,P=9. SEARCH=S(2)+E(1)+A(4)+R(6)+C(7)+H(3)=214673.",
+    "subject": "IQ"
+  },
+  {
+    "id": 17,
+    "question": "When was Bhakti Thapa declared as Nepal's 18th national hero?",
+    "options": [
+      "2066 BS",
+      "2067 BS",
+      "2068 BS",
+      "2069 BS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bhakti Thapa was declared Nepal's 18th national hero in 2066 BS.",
+    "subject": "GK"
+  },
+  {
+    "id": 18,
+    "question": "Which revolution is known as the Intellectual Revolution?",
+    "options": [
+      "French Revolution",
+      "Russian Revolution",
+      "Industrial Revolution",
+      "Glorious Revolution of Britain"
+    ],
+    "correctIndex": 0,
+    "explanation": "The French Revolution is called the Intellectual Revolution. Russian Revolution = October Revolution. Industrial Revolution = Mechanical Revolution. Glorious Revolution = Bloodless Revolution.",
+    "subject": "GK"
+  },
+  {
+    "id": 19,
+    "question": "What is the unemployment rate of Gandaki Province?",
+    "options": [
+      "23.9%",
+      "13.3%",
+      "20.9%",
+      "7.40%"
+    ],
+    "correctIndex": 3,
+    "explanation": "Unemployment rate = 7.40%. 23.9% = below 14 years, 13.3% = above 60 years, 20.9% = disabled population.",
+    "subject": "GK"
+  },
+  {
+    "id": 20,
+    "question": "How many local levels are there in Koshi Province?",
+    "options": [
+      "135",
+      "137",
+      "140",
+      "145"
+    ],
+    "correctIndex": 1,
+    "explanation": "There are 137 local levels: 1 metropolis, 2 sub-metropolises, 46 municipalities, and 88 rural municipalities. There are also 1,157 wards.",
+    "subject": "GK"
+  },
+  {
+    "id": 21,
+    "question": "How many wild animals were declared harmful by the government?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "2 animals: wild monkey (2082 Falgun 11) and red monkey (2082 Magh 29).",
+    "subject": "GK"
+  },
+  {
+    "id": 22,
+    "question": "When did Nepal get FIFA membership?",
+    "options": [
+      "1968",
+      "1969",
+      "1970",
+      "1971"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nepal got FIFA membership in 1971.",
+    "subject": "GK"
+  },
+  {
+    "id": 23,
+    "question": "Which edition of Miss Nepal did Luna Luitel win in 2025?",
+    "options": [
+      "30th",
+      "31st",
+      "32nd",
+      "33rd"
+    ],
+    "correctIndex": 1,
+    "explanation": "Luna Luitel won the 31st edition of Miss Nepal in 2025.",
+    "subject": "GK"
+  },
+  {
+    "id": 24,
+    "question": "How many peaks above 8000 meters are in Koshi Province?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "There are 5 peaks above 8000m: Kanchenjunga (8586m), Sagarmatha (8848.86m), Makalu (8463m), Cho Oyu (8201m), Lhotse (8516m).",
+    "subject": "GK"
+  },
+  {
+    "id": 25,
+    "question": "Which continent has the most countries?",
+    "options": [
+      "Asia",
+      "Africa",
+      "Europe",
+      "Australia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Africa has the most countries (54). Asia = 48, Europe = 44, Australia = 14, South America = 12, North America = 23.",
+    "subject": "GK"
+  },
+  {
+    "id": 26,
+    "question": "How many districts of Nepal do NOT touch both India and China?",
+    "options": [
+      "25",
+      "13",
+      "37",
+      "2"
+    ],
+    "correctIndex": 2,
+    "explanation": "37 districts do not touch both countries. 25 touch only India, 13 touch only China, and 2 (Taplejung and Darchula) touch both.",
+    "subject": "GK"
+  },
+  {
+    "id": 27,
+    "question": "Who propounded the Laws of Heredity?",
+    "options": [
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "Alexander Fleming"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gregor Mendel propounded the Laws of Heredity through his experiments with pea plants.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": 28,
+    "question": "Where was the National Silk Conference 2082 held?",
+    "options": [
+      "Kathmandu",
+      "Pokhara",
+      "Chitwan",
+      "Birgunj"
+    ],
+    "correctIndex": 0,
+    "explanation": "Held in Kathmandu on 2082 Push 26.",
+    "subject": "GK"
+  },
+  {
+    "id": 29,
+    "question": "A is older than B but younger than C. D is younger than E but older than A. Who is oldest?",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctIndex": 3,
+    "explanation": "Order: B < A < D < E and A < C. E is the oldest.",
+    "subject": "IQ"
+  },
+  {
+    "id": 30,
+    "question": "By the end of the 16th plan, what is the target percentage for women's participation in public service policy-making positions?",
+    "options": [
+      "15%",
+      "18%",
+      "20%",
+      "25%"
+    ],
+    "correctIndex": 2,
+    "explanation": "The 16th plan targets 20% women's participation in public service policy-making positions.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 31,
+    "question": "In which community is the custom of marrying only in the month of Mangsir practiced?",
+    "options": [
+      "Koche",
+      "Thami",
+      "Chepang",
+      "Punye"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Thami community has the custom of marrying only in the month of Mangsir. Koche = bride goes to groom's house after marriage. Chepang = chiuri tree given as dowry. Punye = bride kidnapping custom.",
+    "subject": "GK"
+  },
+  {
+    "id": 32,
+    "question": "Which type of soil is considered best for agricultural production?",
+    "options": [
+      "Sandy soil",
+      "Hilly soil",
+      "Marshy soil",
+      "Alluvial soil"
+    ],
+    "correctIndex": 3,
+    "explanation": "Alluvial soil (तलैया माटो) is considered the best for agricultural production due to its high fertility.",
+    "subject": "GK"
+  },
+  {
+    "id": 33,
+    "question": "How many provincial assemblies are there in Nepal?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "7 provincial assemblies.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 34,
+    "question": "Who was the Prime Minister of Nepal during World War I?",
+    "options": [
+      "Chandra Shumsher",
+      "Juddha Shumsher",
+      "Dev Shumsher",
+      "Bir Shumsher"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chandra Shumsher was the PM during WWI. Juddha Shumsher = PM during WWII and established first industries in Nepal (1993 BS). Bir Shumsher = started women's education.",
+    "subject": "GK"
+  },
+  {
+    "id": 35,
+    "question": "How many districts in Koshi Province have only one election constituency?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctIndex": 2,
+    "explanation": "There are 9 districts in Koshi Province with only one election constituency. The province has a total of 28 House of Representatives constituencies, with Morang having the highest (6).",
+    "subject": "GK"
+  },
+  {
+    "id": 36,
+    "question": "Which river's mythological name is Mahaprabha?",
+    "options": [
+      "Rapti",
+      "Likhu",
+      "Arun",
+      "Myagdi"
+    ],
+    "correctIndex": 2,
+    "explanation": "Arun River's mythological name is Mahaprabha. Rapti = Achiravati, Likhu = Hemganga, Myagdi = Mangala.",
+    "subject": "GK"
+  },
+  {
+    "id": 37,
+    "question": "What is the term length of National Assembly members?",
+    "options": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "7 years"
+    ],
+    "correctIndex": 2,
+    "explanation": "National Assembly members serve 6 years.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 38,
+    "question": "Which Buddha Jayanti was celebrated in 2082 BS?",
+    "options": [
+      "2566th",
+      "2577th",
+      "2578th",
+      "2569th"
+    ],
+    "correctIndex": 3,
+    "explanation": "The 2569th Buddha Jayanti was celebrated in 2082 BS. This commemorates the birth of Siddhartha Gautam (Buddha).",
+    "subject": "GK"
+  },
+  {
+    "id": 39,
+    "question": "When was the National Silk Conference 2082 held?",
+    "options": [
+      "2082 Poush 26",
+      "2082 Poush 25",
+      "2082 Poush 24",
+      "2082 Poush 27"
+    ],
+    "correctIndex": 0,
+    "explanation": "The National Silk Conference 2082 was held on Poush 26, 2082.",
+    "subject": "GK"
+  },
+  {
+    "id": 40,
+    "question": "Which Nepali was included in Time Magazine's 2026 list of 100 most influential people?",
+    "options": [
+      "KP Sharma Oli",
+      "Gagan Thapa",
+      "Pushpa Kamal Dahal",
+      "Balendra Shah"
+    ],
+    "correctIndex": 3,
+    "explanation": "Balendra Shah (Mayor of Kathmandu) was included. List published April 15, 2026.",
+    "subject": "GK"
+  },
+  {
+    "id": 41,
+    "question": "Which instrument is used to observe the Sun?",
+    "options": [
+      "Pyrheliometer",
+      "Helioscope",
+      "Photometer",
+      "Actinometer"
+    ],
+    "correctIndex": 1,
+    "explanation": "A helioscope is used to observe the Sun. Pyrheliometer = measures solar radiation. Photometer = measures light intensity.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": 42,
+    "question": "When did Kathmandu Metropolitan City reopen the open stage (Khulla Manch) for the public?",
+    "options": [
+      "2078 Baisakh 15",
+      "2082 Baisakh 2",
+      "2082 Baisakh 3",
+      "2082 Chaitra 29"
+    ],
+    "correctIndex": 2,
+    "explanation": "Reopened on 2082 Baisakh 3 after being closed since 2078 Baisakh due to COVID-19.",
+    "subject": "GK"
+  },
+  {
+    "id": 43,
+    "question": "Which pond is located in Bajhang district?",
+    "options": [
+      "Pap Kunda",
+      "Nihari Kunda",
+      "Narad Kunda",
+      "Gyan Kunda"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nihari Kunda is located in Bajhang district. Rakshas Kunda is also in Bajhang.",
+    "subject": "GK"
+  },
+  {
+    "id": 44,
+    "question": "What is the Dhimal priest called?",
+    "options": [
+      "Guju",
+      "Bhusal",
+      "Lama",
+      "Barang"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dhimal priest = Barang. Newar=Guju, Magar=Bhusal, Tamang=Lama.",
+    "subject": "GK"
+  },
+  {
+    "id": 45,
+    "question": "Which country did the Industrial Revolution start from?",
+    "options": [
+      "Germany",
+      "America",
+      "France",
+      "Britain"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Industrial Revolution started from Britain.",
+    "subject": "GK"
+  },
+  {
+    "id": 46,
+    "question": "How many times did record-holder Kami Rita Sherpa summit Everest on 2082 Jestha 13?",
+    "options": [
+      "20",
+      "31",
+      "30",
+      "29"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kami Rita Sherpa summited Everest for the 31st time on 2082 Jestha 13. He first summited in 1994.",
+    "subject": "GK"
+  },
+  {
+    "id": 47,
+    "question": "Which district in Koshi Province has the highest population growth rate?",
+    "options": [
+      "Ilam",
+      "Jhapa",
+      "Udayapur",
+      "Khotang"
+    ],
+    "correctIndex": 1,
+    "explanation": "Jhapa has the highest population growth rate in Koshi Province at 1.97%. Khotang has the lowest at -1.56%.",
+    "subject": "GK"
+  },
+  {
+    "id": 48,
+    "question": "Who is the current SAARC Secretary General?",
+    "options": [
+      "Esala Ruwan Weerakoon",
+      "Golam Sarwar",
+      "Arjun Bahadur Thapa",
+      "Silkant Sharma"
+    ],
+    "correctIndex": 1,
+    "explanation": "Golam Sarwar from Bangladesh is the current SAARC Secretary General.",
+    "subject": "GK"
+  },
+  {
+    "id": 49,
+    "question": "Who built the Changunarayan Temple?",
+    "options": [
+      "Mandev",
+      "Amshuverma",
+      "Bhrikuti",
+      "Narasingh Dev"
+    ],
+    "correctIndex": 0,
+    "explanation": "Changunarayan Temple was built by King Mandev.",
+    "subject": "GK"
+  },
+  {
+    "id": 50,
+    "question": "Ending hunger is which Sustainable Development Goal (SDG)?",
+    "options": [
+      "Goal 2",
+      "Goal 3",
+      "Goal 4",
+      "Goal 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ending hunger is SDG Goal 2. Goal 1 = No Poverty, Goal 3 = Good Health and Well-being, Goal 4 = Quality Education.",
+    "subject": "GK"
+  }
+]

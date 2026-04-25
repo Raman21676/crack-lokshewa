@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "question": "How many districts in Koshi Province have only one election constituency?",
+    "options": [
+      "10",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 3,
+    "explanation": "There are 9 districts in Koshi Province with only one election constituency. The province has a total of 28 House of Representatives constituencies, with Morang having the highest (6).",
+    "subject": "GK"
+  },
+  {
+    "id": 2,
+    "question": "What is the area of Chhyanath National Park?",
+    "options": [
+      "834 sq km",
+      "847 sq km",
+      "835 sq km",
+      "843 sq km"
+    ],
+    "correctIndex": 3,
+    "explanation": "Chhyanath National Park area is 843 sq km. It is Nepal's 13th national park by establishment and 7th by area.",
+    "subject": "GK"
+  },
+  {
+    "id": 3,
+    "question": "What was the total budget presented by all 7 provinces for FY 2082/83?",
+    "options": [
+      "Rs. 2 Kharab 97 Arba 70 Crore",
+      "Rs. 2 Kharab 67 Arba 70 Crore",
+      "Rs. 2 Kharab 77 Arba 70 Crore",
+      "Rs. 2 Kharab 87 Arba 70 Crore"
+    ],
+    "correctIndex": 3,
+    "explanation": "The total budget presented by all 7 provinces for FY 2082/83 was Rs. 2 Kharab 87 Arba 70 Crore.",
+    "subject": "GK"
+  },
+  {
+    "id": 4,
+    "question": "How many articles are in the Constitution of Nepal 2072?",
+    "options": [
+      "325",
+      "280",
+      "295",
+      "308"
+    ],
+    "correctIndex": 3,
+    "explanation": "308 articles, 35 parts, 9 schedules.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 5,
+    "question": "Who first used the term 'ecosystem'?",
+    "options": [
+      "A.G. Tansley",
+      "Ernest Haeckel",
+      "J.C. Farman",
+      "Barbara Ward"
+    ],
+    "correctIndex": 0,
+    "explanation": "A.G. Tansley first used the term 'ecosystem' and is known as the 'Father of Ecosystem'. Ernest Haeckel = first used 'ecology'. J.C. Farman = discovered the ozone layer. Barbara Ward = first used 'sustainable development'.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": 6,
+    "question": "How many judges are in Nepal's Supreme Court?",
+    "options": [
+      "25",
+      "15",
+      "19",
+      "21"
+    ],
+    "correctIndex": 3,
+    "explanation": "21 judges including the Chief Justice.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 7,
+    "question": "Find the odd one out: Tiger, Lion, Cheetah, Wolf",
+    "options": [
+      "Tiger",
+      "Lion",
+      "Cheetah",
+      "Wolf"
+    ],
+    "correctIndex": 3,
+    "explanation": "Tiger, Lion, Cheetah are cats; Wolf is a dog/canid.",
+    "subject": "IQ"
+  },
+  {
+    "id": 8,
+    "question": "What was the slogan of World Health Day 2026?",
+    "options": [
+      "Together for Health, Stand with Science",
+      "Help for All",
+      "Our Planet Our Earth",
+      "Support Nurses and Midwives"
+    ],
+    "correctIndex": 0,
+    "explanation": "World Health Day is celebrated every year on April 7 since 1950.",
+    "subject": "GK"
+  },
+  {
+    "id": 9,
+    "question": "Which national park is NOT correctly matched with its district in Koshi Province?",
+    "options": [
+      "Sagarmatha National Park - Solukhumbu",
+      "Makalu Barun National Park - Sankhuwasabha",
+      "Koshi Tappu Wildlife Reserve - Morang/Sunsari/Saptari",
+      "Parsa National Park - Taplejung"
+    ],
+    "correctIndex": 3,
+    "explanation": "Parsa National Park is in Parsa district, not Taplejung. Taplejung has Kanchenjunga Conservation Area.",
+    "subject": "GK"
+  },
+  {
+    "id": 10,
+    "question": "Which country ranked first in the World Happiness Index 2025?",
+    "options": [
+      "Norway",
+      "Finland",
+      "Denmark",
+      "Sweden"
+    ],
+    "correctIndex": 1,
+    "explanation": "Finland ranked first in the World Happiness Index 2025. Nepal was ranked 92nd.",
+    "subject": "GK"
+  },
+  {
+    "id": 11,
+    "question": "Who led the American War of Independence?",
+    "options": [
+      "George Washington",
+      "George Grenville",
+      "Thomas Jefferson",
+      "Red Indian"
+    ],
+    "correctIndex": 0,
+    "explanation": "George Washington led the American War of Independence. Grenville = British King at the time. Jefferson = drafted the Declaration of Independence. Red Indian = Native Americans.",
+    "subject": "GK"
+  },
+  {
+    "id": 12,
+    "question": "Which constitutional body conducts elections in Nepal?",
+    "options": [
+      "Public Service Commission",
+      "Election Commission",
+      "CIAA",
+      "Auditor General"
+    ],
+    "correctIndex": 1,
+    "explanation": "Election Commission conducts all elections.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 13,
+    "question": "When was Nepal declared untouchability-free?",
+    "options": [
+      "2063 Jestha 20",
+      "2063 Jestha 21",
+      "2063 Jestha 22",
+      "2063 Jestha 23"
+    ],
+    "correctIndex": 1,
+    "explanation": "Declared on 2063 Jestha 21.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 14,
+    "question": "Who was chosen as Player of the Tournament in the 2026 ICC Men's T20 World Cup?",
+    "options": [
+      "Sanju Samson",
+      "Sahibzada Farhan",
+      "Jasprit Bumrah",
+      "Jos Buttler"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sanju Samson was the Player of the Tournament in the 2026 ICC Men's T20 World Cup. Farhan scored the most runs (383) and Bumrah took the most wickets (14).",
+    "subject": "GK"
+  },
+  {
+    "id": 15,
+    "question": "Which body prevents corruption in Nepal?",
+    "options": [
+      "NHRC",
+      "Election Commission",
+      "Public Service Commission",
+      "CIAA"
+    ],
+    "correctIndex": 3,
+    "explanation": "CIAA (Commission for Investigation of Abuse of Authority).",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 16,
+    "question": "Who was the first person to travel to space?",
+    "options": [
+      "George Washington",
+      "Neil Armstrong",
+      "Yuri Gagarin",
+      "Magellan"
+    ],
+    "correctIndex": 2,
+    "explanation": "Yuri Gagarin of Russia was the first person in space. Washington = 1st US President. Armstrong = first on the moon. Magellan = first world circumnavigation.",
+    "subject": "GK"
+  },
+  {
+    "id": 17,
+    "question": "Which river is also known as 'Uttar Gaya' in Nepal?",
+    "options": [
+      "Sanoberi",
+      "Trishuli",
+      "Rapti",
+      "Karnali"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trishuli is known as 'Uttar Gaya'. Sanoberi = 'Uttar Ganga'. Karnali = fastest flowing river in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": 18,
+    "question": "If 2+3=10, 7+2=63, 6+5=66, then 8+4=?",
+    "options": [
+      "32",
+      "48",
+      "96",
+      "24"
+    ],
+    "correctIndex": 2,
+    "explanation": "Pattern: a+b = a*(a+b). 8*(8+4)=96.",
+    "subject": "IQ"
+  },
+  {
+    "id": 19,
+    "question": "Which is the largest importer of Nepali carpets?",
+    "options": [
+      "USA",
+      "Germany",
+      "UK",
+      "Japan"
+    ],
+    "correctIndex": 1,
+    "explanation": "Germany is the largest importer of Nepali carpets.",
+    "subject": "GK"
+  },
+  {
+    "id": 20,
+    "question": "What is the term length of Nepal's President?",
+    "options": [
+      "3 years",
+      "4 years",
+      "5 years",
+      "6 years"
+    ],
+    "correctIndex": 2,
+    "explanation": "5 years.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 21,
+    "question": "Under which schedule of Nepal's Constitution are provincial government powers listed?",
+    "options": [
+      "Schedule 5",
+      "Schedule 6",
+      "Schedule 7",
+      "Schedule 8"
+    ],
+    "correctIndex": 1,
+    "explanation": "Provincial government powers are listed in Schedule 6 of Nepal's Constitution.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 22,
+    "question": "Who was the Province Chief when Koshi Province was named?",
+    "options": [
+      "Somnath Adhikari Pyasi",
+      "Parshuram Khapung",
+      "Hikmat Kumar Karki",
+      "Kedar Karki"
+    ],
+    "correctIndex": 1,
+    "explanation": "Parshuram Khapung was the Province Chief when Koshi Province was named on 2079 Falgun 17.",
+    "subject": "GK"
+  },
+  {
+    "id": 23,
+    "question": "What is the term length of National Assembly members?",
+    "options": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "7 years"
+    ],
+    "correctIndex": 2,
+    "explanation": "National Assembly members serve 6 years.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 24,
+    "question": "Which is the upper house of Nepal's Federal Parliament?",
+    "options": [
+      "House of Representatives",
+      "National Assembly",
+      "Provincial Assembly",
+      "Local Assembly"
+    ],
+    "correctIndex": 1,
+    "explanation": "National Assembly (Rashtriya Sabha) is the upper house.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 25,
+    "question": "Which is the brightest planet?",
+    "options": [
+      "Mercury",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctIndex": 1,
+    "explanation": "Venus is the brightest planet. Mercury = Grey Planet, Jupiter = largest planet, Saturn = lowest density planet. Ganymede is the solar system's largest moon (orbits Jupiter).",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": 26,
+    "question": "Which district of Gandaki has the highest annual population growth rate?",
+    "options": [
+      "Kaski",
+      "Manang",
+      "Gorkha",
+      "Tanahu"
+    ],
+    "correctIndex": 0,
+    "explanation": "Kaski has the highest growth rate at 0.90%. Manang has the lowest at -3.9%.",
+    "subject": "GK"
+  },
+  {
+    "id": 27,
+    "question": "When was the Constitution of Nepal 2072 promulgated?",
+    "options": [
+      "2072 Ashoj 3",
+      "2072 Kartik 15",
+      "2072 Mangsir 1",
+      "2072 Poush 10"
+    ],
+    "correctIndex": 0,
+    "explanation": "September 20, 2015 (2072 Ashoj 3).",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 28,
+    "question": "How many members are there in Koshi Province Assembly?",
+    "options": [
+      "93",
+      "110",
+      "56",
+      "60"
+    ],
+    "correctIndex": 0,
+    "explanation": "Koshi Province Assembly has 93 members: 56 directly elected and 37 proportionally elected.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 29,
+    "question": "How many provincial assemblies are there in Nepal?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "7 provincial assemblies.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 30,
+    "question": "Which article guarantees Right to Equality?",
+    "options": [
+      "Article 16",
+      "Article 17",
+      "Article 18",
+      "Article 20"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 18 guarantees Right to Equality.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 31,
+    "question": "Which is Nepal's most recently listed World Heritage Site?",
+    "options": [
+      "Swayambhunath",
+      "Sagarmatha National Park",
+      "Boudhanath",
+      "Lumbini Area"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lumbini (1997). Sagarmatha was the first (1979).",
+    "subject": "GK"
+  },
+  {
+    "id": 32,
+    "question": "Which of the following economic behaviors has Nepal's economy NOT adopted?",
+    "options": [
+      "Liberal economic policy",
+      "Market economy",
+      "Mixed economy",
+      "State controlling behavior"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nepal has not adopted state controlling behavior. It follows a mixed economy with liberal and market-oriented policies.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 33,
+    "question": "What is the height of Manaslu Himal?",
+    "options": [
+      "8116 meters",
+      "8148 meters",
+      "8163 meters",
+      "8091 meters"
+    ],
+    "correctIndex": 2,
+    "explanation": "Manaslu Himal is 8163 meters high.",
+    "subject": "GK"
+  },
+  {
+    "id": 34,
+    "question": "How many local levels are there in Nepal?",
+    "options": [
+      "744",
+      "753",
+      "761",
+      "775"
+    ],
+    "correctIndex": 1,
+    "explanation": "753: 6 metros, 11 sub-metros, 276 municipalities, 460 rural municipalities.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 35,
+    "question": "India is the ____th country to enter space.",
+    "options": [
+      "6th",
+      "5th",
+      "14th",
+      "3rd"
+    ],
+    "correctIndex": 0,
+    "explanation": "India is the 6th country to enter space. Order: Russia, USA, France, Japan, China, India. India is also the 5th country to reach the Moon.",
+    "subject": "GK"
+  },
+  {
+    "id": 36,
+    "question": "When did the Sepoy Mutiny occur in India?",
+    "options": [
+      "1863",
+      "1804",
+      "1865",
+      "1857"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Sepoy Mutiny (Indian Rebellion) occurred in 1857. 1863 = Abolition of slavery in America. 1865 = Assassination of Abraham Lincoln. 1804 = Napoleon declared Emperor of France.",
+    "subject": "GK"
+  },
+  {
+    "id": 37,
+    "question": "What is the Dhimal priest called?",
+    "options": [
+      "Guju",
+      "Bhusal",
+      "Lama",
+      "Barang"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dhimal priest = Barang. Newar=Guju, Magar=Bhusal, Tamang=Lama.",
+    "subject": "GK"
+  },
+  {
+    "id": 38,
+    "question": "Nepal's standard time is determined based on which longitude passing through Gaurishankar?",
+    "options": [
+      "83 degrees 15 minutes",
+      "85 degrees 30 minutes",
+      "81 degrees 45 minutes",
+      "84 degrees 00 minutes"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepal's standard time is based on 83°15' East longitude passing through Gaurishankar.",
+    "subject": "GK"
+  },
+  {
+    "id": 39,
+    "question": "How many fundamental rights are in Nepal's Constitution?",
+    "options": [
+      "28",
+      "30",
+      "31",
+      "35"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Constitution guarantees 31 fundamental rights.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 40,
+    "question": "By the end of the 16th plan, what is the target percentage for women's participation in public service policy-making positions?",
+    "options": [
+      "15%",
+      "18%",
+      "20%",
+      "25%"
+    ],
+    "correctIndex": 2,
+    "explanation": "The 16th plan targets 20% women's participation in public service policy-making positions.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 41,
+    "question": "In which ethnicity is there a custom of proposing and marrying on Tuesday?",
+    "options": [
+      "Tharu",
+      "Chepang",
+      "Magar",
+      "Gurung"
+    ],
+    "correctIndex": 1,
+    "explanation": "In Chepang ethnicity, there is a custom of going to propose on Tuesday and also marrying on Tuesday.",
+    "subject": "GK"
+  },
+  {
+    "id": 42,
+    "question": "When was the Narcotic Drugs Control Act enacted?",
+    "options": [
+      "2028 BS",
+      "2033 BS",
+      "2045 BS",
+      "2050 BS"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Narcotic Drugs Control Act was enacted in 2033 BS.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 43,
+    "question": "What is the powerhouse of the cell?",
+    "options": [
+      "Nucleus",
+      "Ribosome",
+      "Mitochondria",
+      "Golgi body"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mitochondria produces ATP.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": 44,
+    "question": "Who was appointed as the first female chairperson of the Nepal Insurance Authority?",
+    "options": [
+      "Chandrakala Paudel",
+      "Sabita Sharma",
+      "Rama Ghimire",
+      "Manju Devkota"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chandrakala Paudel was appointed as the first female chairperson of Nepal Insurance Authority on 2082 Magh 13.",
+    "subject": "GK"
+  },
+  {
+    "id": 45,
+    "question": "What percentage of Provincial Assembly members are elected proportionally?",
+    "options": [
+      "40%",
+      "60%",
+      "50%",
+      "33%"
+    ],
+    "correctIndex": 0,
+    "explanation": "40% of Provincial Assembly members are elected through proportional representation. 60% are directly elected.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 46,
+    "question": "Which was the first Prime Minister to deposit money in a foreign bank?",
+    "options": [
+      "Mohan Shamsher",
+      "Bir Shamsher",
+      "Matrika Prasad Koirala",
+      "Juddha Shamsher"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bir Shamsher was the first PM to deposit money in a foreign bank. Mohan Shamsher = first PM after democracy, Matrika Prasad Koirala = first PM elected by general public, Juddha Shamsher = first Rana PM to voluntarily resign.",
+    "subject": "GK"
+  },
+  {
+    "id": 47,
+    "question": "What is the average depth of the Indian Ocean?",
+    "options": [
+      "390 meters",
+      "2400 meters",
+      "3700 meters",
+      "130 meters"
+    ],
+    "correctIndex": 2,
+    "explanation": "The average depth of the Indian Ocean is about 3700 meters. Pacific Ocean has the greatest average depth (~4300m), Arctic has the shallowest.",
+    "subject": "GK"
+  },
+  {
+    "id": 48,
+    "question": "When was the Treaty of Versailles signed?",
+    "options": [
+      "1917",
+      "1918",
+      "1919",
+      "1920"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Treaty of Versailles was signed on June 28, 1919, ending World War I.",
+    "subject": "GK"
+  },
+  {
+    "id": 49,
+    "question": "Nepal's standard time is determined based on which longitude passing through Gaurishankar?",
+    "options": [
+      "83 degrees 15 minutes",
+      "85 degrees 30 minutes",
+      "81 degrees 45 minutes",
+      "84 degrees 00 minutes"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nepal's standard time is based on 83°15' East longitude passing through Gaurishankar.",
+    "subject": "GK"
+  },
+  {
+    "id": 50,
+    "question": "What is Nepal's rank in the Henley Passport Index 2025?",
+    "options": [
+      "96th",
+      "98th",
+      "101st",
+      "105th"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nepal ranks 101st in the Henley Passport Index 2025.",
+    "subject": "GK"
+  }
+]

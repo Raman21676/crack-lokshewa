@@ -13,7 +13,7 @@
     "questionCount": 50,
     "timeLimit": 45,
     "difficulty": "Medium",
-    "locked": true
+    "locked": false
   },
   {
     "id": "set3",

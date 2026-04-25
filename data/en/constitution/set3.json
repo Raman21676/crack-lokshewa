@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "question": "The Kyoto Protocol is related to which field?",
+    "options": [
+      "Defense",
+      "Trade",
+      "Human Rights",
+      "Environment"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Kyoto Protocol is related to environment and climate change.",
+    "subject": "GK"
+  },
+  {
+    "id": 2,
+    "question": "Who is known as 'Bullet Maharaj' in Nepal's history?",
+    "options": [
+      "Surendra Bikram Shah",
+      "Dev Shamsher",
+      "Chandra Shamsher",
+      "Shreepach Trailokya"
+    ],
+    "correctIndex": 3,
+    "explanation": "Shreepach Trailokya is known as 'Bullet Maharaj'. Dev Shamsher = 'Dhanakute Maharaj', Chandra Shamsher = 'Fiste Maharaj', Surendra = 'Sanki Maharaj'.",
+    "subject": "GK"
+  },
+  {
+    "id": 3,
+    "question": "When was Nepal declared untouchability-free?",
+    "options": [
+      "2063 Jestha 22",
+      "2063 Jestha 23",
+      "2063 Jestha 20",
+      "2063 Jestha 21"
+    ],
+    "correctIndex": 3,
+    "explanation": "Declared on 2063 Jestha 21.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 4,
+    "question": "How many community forests are there in Koshi Province?",
+    "options": [
+      "3720",
+      "4720",
+      "5720",
+      "2720"
+    ],
+    "correctIndex": 0,
+    "explanation": "There are 3720 community forests. Additionally: 1211 kabuli vana, 2077 private vana, 46 religious vana, and 6 others.",
+    "subject": "GK"
+  },
+  {
+    "id": 5,
+    "question": "Which vitamin is produced when skin is exposed to sunlight?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correctIndex": 3,
+    "explanation": "Vitamin D from UVB radiation.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": 6,
+    "question": "What is the term length of Nepal's President?",
+    "options": [
+      "6 years",
+      "3 years",
+      "4 years",
+      "5 years"
+    ],
+    "correctIndex": 3,
+    "explanation": "5 years.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 7,
+    "question": "How many labor agreement countries does Nepal currently have?",
+    "options": [
+      "14",
+      "11",
+      "12",
+      "13"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nepal currently has labor agreements with 13 countries.",
+    "subject": "GK"
+  },
+  {
+    "id": 8,
+    "question": "By the end of the 16th plan, what is the target percentage for women's participation in public service policy-making positions?",
+    "options": [
+      "25%",
+      "15%",
+      "18%",
+      "20%"
+    ],
+    "correctIndex": 3,
+    "explanation": "The 16th plan targets 20% women's participation in public service policy-making positions.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 9,
+    "question": "How many local levels are there in Nepal?",
+    "options": [
+      "753",
+      "761",
+      "775",
+      "744"
+    ],
+    "correctIndex": 0,
+    "explanation": "753: 6 metros, 11 sub-metros, 276 municipalities, 460 rural municipalities.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 10,
+    "question": "Which constitutional body conducts elections in Nepal?",
+    "options": [
+      "Election Commission",
+      "CIAA",
+      "Auditor General",
+      "Public Service Commission"
+    ],
+    "correctIndex": 0,
+    "explanation": "Election Commission conducts all elections.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 11,
+    "question": "How many judges are in Nepal's Supreme Court?",
+    "options": [
+      "15",
+      "19",
+      "21",
+      "25"
+    ],
+    "correctIndex": 2,
+    "explanation": "21 judges including the Chief Justice.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 12,
+    "question": "Which of the following economic behaviors has Nepal's economy NOT adopted?",
+    "options": [
+      "Liberal economic policy",
+      "Market economy",
+      "Mixed economy",
+      "State controlling behavior"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nepal has not adopted state controlling behavior. It follows a mixed economy with liberal and market-oriented policies.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 13,
+    "question": "Which is the largest lake in Nepal?",
+    "options": [
+      "Phewa Lake",
+      "Rara Lake",
+      "Begnas Lake",
+      "Tilicho Lake"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rara Lake in Mugu district.",
+    "subject": "GK"
+  },
+  {
+    "id": 14,
+    "question": "How many fundamental rights are in Nepal's Constitution?",
+    "options": [
+      "28",
+      "30",
+      "31",
+      "35"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Constitution guarantees 31 fundamental rights.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 15,
+    "question": "Complete the analogy: Book is to Reading as Fork is to ?",
+    "options": [
+      "Cooking",
+      "Eating",
+      "Cutting",
+      "Serving"
+    ],
+    "correctIndex": 1,
+    "explanation": "A book is used for reading; a fork is used for eating.",
+    "subject": "IQ"
+  },
+  {
+    "id": 16,
+    "question": "What percentage of Provincial Assembly members are elected proportionally?",
+    "options": [
+      "40%",
+      "60%",
+      "50%",
+      "33%"
+    ],
+    "correctIndex": 0,
+    "explanation": "40% of Provincial Assembly members are elected through proportional representation. 60% are directly elected.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 17,
+    "question": "When was Artemis 2 launched in 2026?",
+    "options": [
+      "April 2, 2026",
+      "April 1, 2026",
+      "April 3, 2026",
+      "March 30, 2026"
+    ],
+    "correctIndex": 1,
+    "explanation": "Artemis 2 was launched on April 1, 2026. It is an American mission that traveled 4,20,000 km from Earth - the farthest in history. Christina Koch became the first woman to travel to the moon.",
+    "subject": "GK"
+  },
+  {
+    "id": 18,
+    "question": "Which event is considered the starting point of World War II?",
+    "options": [
+      "Attack on Pearl Harbor",
+      "Germany's invasion of Poland",
+      "Battle of Stalingrad",
+      "D-Day landing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Germany's invasion of Poland on September 1, 1939 is considered the starting point of WWII.",
+    "subject": "GK"
+  },
+  {
+    "id": 19,
+    "question": "When was TikTok registered as a social network in Nepal?",
+    "options": [
+      "2080 Ashoj 14",
+      "2080 Kartik 27",
+      "2081 Kartik 20",
+      "2081 Magh 15"
+    ],
+    "correctIndex": 2,
+    "explanation": "TikTok was registered on 2081 Kartik 20. It was banned on 2080 Kartik 27, and the ban was lifted on 2080 Falgun 24. Viber was registered on 2080 Bhadra 6.",
+    "subject": "GK"
+  },
+  {
+    "id": 20,
+    "question": "What is the term length of National Assembly members?",
+    "options": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "7 years"
+    ],
+    "correctIndex": 2,
+    "explanation": "National Assembly members serve 6 years.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 21,
+    "question": "Which body prevents corruption in Nepal?",
+    "options": [
+      "Election Commission",
+      "Public Service Commission",
+      "CIAA",
+      "NHRC"
+    ],
+    "correctIndex": 2,
+    "explanation": "CIAA (Commission for Investigation of Abuse of Authority).",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 22,
+    "question": "How many members are there in Koshi Province Assembly?",
+    "options": [
+      "93",
+      "110",
+      "56",
+      "60"
+    ],
+    "correctIndex": 0,
+    "explanation": "Koshi Province Assembly has 93 members: 56 directly elected and 37 proportionally elected.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 23,
+    "question": "Nepal ranks 10th in Asia in flowering plant diversity. What is its global rank?",
+    "options": [
+      "20th",
+      "23rd",
+      "25th",
+      "27th"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nepal ranks 27th globally.",
+    "subject": "GK"
+  },
+  {
+    "id": 24,
+    "question": "How many articles are in the Constitution of Nepal 2072?",
+    "options": [
+      "280",
+      "295",
+      "308",
+      "325"
+    ],
+    "correctIndex": 2,
+    "explanation": "308 articles, 35 parts, 9 schedules.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 25,
+    "question": "When was the Treaty of Versailles signed?",
+    "options": [
+      "1917",
+      "1918",
+      "1919",
+      "1920"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Treaty of Versailles was signed on June 28, 1919, ending World War I.",
+    "subject": "GK"
+  },
+  {
+    "id": 26,
+    "question": "When was Bhakti Thapa declared as Nepal's 18th national hero?",
+    "options": [
+      "2066 BS",
+      "2067 BS",
+      "2068 BS",
+      "2069 BS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bhakti Thapa was declared Nepal's 18th national hero in 2066 BS.",
+    "subject": "GK"
+  },
+  {
+    "id": 27,
+    "question": "In which country is the SAARC Agriculture Information Centre located?",
+    "options": [
+      "Nepal",
+      "India",
+      "Sri Lanka",
+      "Bangladesh"
+    ],
+    "correctIndex": 3,
+    "explanation": "SAARC Agriculture Information Centre is located in Bangladesh. Nepal's Agriculture Information Centre is in Chitwan.",
+    "subject": "GK"
+  },
+  {
+    "id": 28,
+    "question": "Which community counts a child as one year old immediately after birth?",
+    "options": [
+      "Danuwar",
+      "Sherpa",
+      "Dura",
+      "Byasi"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sherpa counts child as 1 year at birth. Danuwar=chicken blood wash, Dura=rooster/hen.",
+    "subject": "GK"
+  },
+  {
+    "id": 29,
+    "question": "Which article guarantees Right to Equality?",
+    "options": [
+      "Article 16",
+      "Article 17",
+      "Article 18",
+      "Article 20"
+    ],
+    "correctIndex": 2,
+    "explanation": "Article 18 guarantees Right to Equality.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 30,
+    "question": "When was the Narcotic Drugs Control Act enacted?",
+    "options": [
+      "2028 BS",
+      "2033 BS",
+      "2045 BS",
+      "2050 BS"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Narcotic Drugs Control Act was enacted in 2033 BS.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 31,
+    "question": "How many parties received national party status in the 2082 BS House of Representatives election?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "6"
+    ],
+    "correctIndex": 3,
+    "explanation": "6 parties received national party status: Rastriya Swatantra Party, Nepali Congress, CPN-UML, CPN-Maoist Centre, Janata Samajbadi Party, and Rastriya Prajatantra Party.",
+    "subject": "GK"
+  },
+  {
+    "id": 32,
+    "question": "What is the smallest unit of matter?",
+    "options": [
+      "Molecule",
+      "Atom",
+      "Electron",
+      "Proton"
+    ],
+    "correctIndex": 1,
+    "explanation": "Atom is the smallest unit that retains chemical properties.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": 33,
+    "question": "When will the National Economic Census 2083 begin?",
+    "options": [
+      "2083 Baisakh 1",
+      "2083 Baisakh 2",
+      "2083 Baisakh 3",
+      "2083 Baisakh 7"
+    ],
+    "correctIndex": 2,
+    "explanation": "The National Economic Census 2083 will begin on Baisakh 3 and continue until Asar 7. Slogan: 'Economic Census for Measuring the Economy'.",
+    "subject": "GK"
+  },
+  {
+    "id": 34,
+    "question": "Under which schedule of Nepal's Constitution are provincial government powers listed?",
+    "options": [
+      "Schedule 5",
+      "Schedule 6",
+      "Schedule 7",
+      "Schedule 8"
+    ],
+    "correctIndex": 1,
+    "explanation": "Provincial government powers are listed in Schedule 6 of Nepal's Constitution.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 35,
+    "question": "Which event is considered the starting point of World War II?",
+    "options": [
+      "Attack on Pearl Harbor",
+      "Germany's invasion of Poland",
+      "Battle of Stalingrad",
+      "D-Day landing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Germany's invasion of Poland on September 1, 1939 is considered the starting point of WWII.",
+    "subject": "GK"
+  },
+  {
+    "id": 36,
+    "question": "How many types of ecosystems are found in Nepal according to the Ministry of Science and Environment?",
+    "options": [
+      "119",
+      "903",
+      "114",
+      "118"
+    ],
+    "correctIndex": 3,
+    "explanation": "According to the Ministry of Science and Environment, there are 118 types of ecosystems in Nepal. 903 = types of birds. 114 = ecosystems per Dobreman.",
+    "subject": "GK"
+  },
+  {
+    "id": 37,
+    "question": "Who was the first female Chief Secretary in Nepal's history?",
+    "options": [
+      "Lila Devi Gadtaula",
+      "Seva Lamsal",
+      "Ansari Gharti",
+      "Sushila Karki"
+    ],
+    "correctIndex": 0,
+    "explanation": "Lila Devi Gadtaula was the first female Chief Secretary. Seva Lamsal = first female Foreign Secretary, Ansari Gharti = first female Speaker, Sushila Karki = first female Chief Justice.",
+    "subject": "GK"
+  },
+  {
+    "id": 38,
+    "question": "Where is Kichak Badhai located?",
+    "options": [
+      "Jhapa",
+      "Taplejung",
+      "Dhankuta",
+      "Sankhuwasabha"
+    ],
+    "correctIndex": 0,
+    "explanation": "Kichak Badhai is a historical and religious site located in Jhapa district.",
+    "subject": "GK"
+  },
+  {
+    "id": 39,
+    "question": "Which country appointed the world's first AI minister?",
+    "options": [
+      "Albania",
+      "Japan",
+      "South Korea",
+      "Estonia"
+    ],
+    "correctIndex": 0,
+    "explanation": "Albania appointed the world's first AI minister.",
+    "subject": "GK"
+  },
+  {
+    "id": 40,
+    "question": "When was the Constitution of Nepal 2072 promulgated?",
+    "options": [
+      "2072 Ashoj 3",
+      "2072 Kartik 15",
+      "2072 Mangsir 1",
+      "2072 Poush 10"
+    ],
+    "correctIndex": 0,
+    "explanation": "September 20, 2015 (2072 Ashoj 3).",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 41,
+    "question": "What was the contribution of the industrial sector to GDP in FY 2081/82?",
+    "options": [
+      "10.50%",
+      "11.50%",
+      "12.91%",
+      "13.50%"
+    ],
+    "correctIndex": 2,
+    "explanation": "The industrial sector contributed 12.91% to Nepal's GDP in FY 2081/82.",
+    "subject": "GK"
+  },
+  {
+    "id": 42,
+    "question": "Where is the headquarters of BIMSTEC located?",
+    "options": [
+      "Nepal",
+      "Belgium",
+      "Bangladesh",
+      "Jakarta"
+    ],
+    "correctIndex": 2,
+    "explanation": "The headquarters of BIMSTEC is in Bangladesh. Nepal = SAARC headquarters. Belgium = EU headquarters. Jakarta = ASEAN headquarters.",
+    "subject": "GK"
+  },
+  {
+    "id": 43,
+    "question": "How many provincial assemblies are there in Nepal?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "7 provincial assemblies.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 44,
+    "question": "Which is the upper house of Nepal's Federal Parliament?",
+    "options": [
+      "House of Representatives",
+      "National Assembly",
+      "Provincial Assembly",
+      "Local Assembly"
+    ],
+    "correctIndex": 1,
+    "explanation": "National Assembly (Rashtriya Sabha) is the upper house.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": 45,
+    "question": "What percentage of Nepal's population follows the Kirat religion?",
+    "options": [
+      "3.17%",
+      "1.76%",
+      "8.21%",
+      "5.09%"
+    ],
+    "correctIndex": 0,
+    "explanation": "According to the census, 3.17% of Nepal's population follows the Kirat religion. 1.76% = Christianity, 8.21% = Buddhism, 5.09% = Islam.",
+    "subject": "GK"
+  },
+  {
+    "id": 46,
+    "question": "Which place is known as Nepal's 'wind hole'?",
+    "options": [
+      "Chure mountain",
+      "Mahabharat mountain range",
+      "Inner Madhes",
+      "Bhavar region"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mahabharat mountain range is known as Nepal's 'wind hole'. It is also called 'Hill Station of Nepal', 'Low Himalaya', and 'Moddar Parbat'.",
+    "subject": "GK"
+  },
+  {
+    "id": 47,
+    "question": "The deepest part of the Indian Ocean is near which country?",
+    "options": [
+      "America",
+      "Philippines",
+      "Indonesia",
+      "Russia"
+    ],
+    "correctIndex": 2,
+    "explanation": "Java Trench (Indian Ocean's deepest) is near Indonesia. Puerto Rico Trench = Atlantic (near America). Mariana Trench = Pacific (near Philippines). Molloy Deep = Arctic (near Russia).",
+    "subject": "GK"
+  },
+  {
+    "id": 48,
+    "question": "When and where was COP 30 held?",
+    "options": [
+      "Baku, Azerbaijan, 2024 Nov 11-22",
+      "Belem, Brazil, 2025 Nov 10-21",
+      "Antalya, Turkey, 2026 Nov 9-20",
+      "Paris, France, 2025 Dec 1-10"
+    ],
+    "correctIndex": 1,
+    "explanation": "COP 30 was held in Belem, Brazil from November 10-21, 2025. COP 29 was in Baku 2024, COP 31 will be in Antalya 2026.",
+    "subject": "GK"
+  },
+  {
+    "id": 49,
+    "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
+    "options": [
+      "214673",
+      "246173",
+      "214763",
+      "216473"
+    ],
+    "correctIndex": 0,
+    "explanation": "R=6,O=8,S=2,E=1,C=7,H=3,A=4,I=5,P=9. SEARCH=S(2)+E(1)+A(4)+R(6)+C(7)+H(3)=214673.",
+    "subject": "IQ"
+  },
+  {
+    "id": 50,
+    "question": "Which mosquito spreads the dengue virus?",
+    "options": [
+      "Anopheles mosquito",
+      "Aedes aegypti",
+      "Culex mosquito",
+      "Mansonia mosquito"
+    ],
+    "correctIndex": 1,
+    "explanation": "The dengue virus is spread by the Aedes aegypti mosquito.",
+    "subject": "SCIENCE"
+  }
+]
