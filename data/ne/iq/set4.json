@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "question": "श्रृङ्खलामा अर्को पद भेट्टाउनुहोस्: nd, iy, dt, yo, tj, ?",
+    "options": ["oe", "of", "nq", "mp"],
+    "correctIndex": 0,
+    "subject": "IQ",
+    "explanation": "पहिलो अक्षरहरू ५ ले घट्छन्: n→i→d→y→t→o→j। दोस्रो अक्षरहरू पनि ५ ले घट्छन्: d→y→t→o→j→e।",
+    "reference": "Series"
+  },
+  {
+    "id": 2,
+    "question": "श्रृङ्खलामा हराएको पद भेट्टाउनुहोस्: ACD, EEF, IGH, ?, UKC",
+    "options": ["IJT", "OIJ", "UIJ", "OMN"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "पहिलो अक्षर: A(1), E(5), I(9), O(15), U(21) — अन्तर +4,+4,+6,+6। दोस्रो अक्षर: C(3), E(5), G(7), I(9), K(11) — +2। तेस्रो अक्षर: D(4), F(6), H(8), J(10), L(12) — +2।",
+    "reference": "Series"
+  },
+  {
+    "id": 3,
+    "question": "श्रृङ्खलामा अर्को अक्षर भेट्टाउनुहोस्: A, C, E, G, ?",
+    "options": ["P", "I", "N", "L"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "बीचको अक्षरहरू: A(1), C(3), E(5), G(7), I(9) — +2।",
+    "reference": "Series"
+  },
+  {
+    "id": 4,
+    "question": "श्रृङ्खलामा अर्को अक्षर भेट्टाउनुहोस्: A, D, G, ?",
+    "options": ["L", "K", "J", "I"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "A(1), D(4), G(7), J(10) — +3।",
+    "reference": "Series"
+  },
+  {
+    "id": 5,
+    "question": "श्रृङ्खलामा अर्को पद भेट्टाउनुहोस्: AC, DF, GI, ?",
+    "options": ["MO", "KM", "JL", "HJ"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "पहिलो अक्षर: A(1), D(4), G(7), J(10) — +3। दोस्रो अक्षर: C(3), F(6), I(9), L(12) — +3।",
+    "reference": "Series"
+  },
+  {
+    "id": 6,
+    "question": "श्रृङ्खलामा अर्को पद भेट्टाउनुहोस्: GH, KL, OP, ?",
+    "options": ["QR", "ST", "TU", "RS"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "पहिलो अक्षर: G(7), K(11), O(15), S(19) — +4। दोस्रो अक्षर: H(8), L(12), P(16), T(20) — +4।",
+    "reference": "Series"
+  },
+  {
+    "id": 7,
+    "question": "श्रृङ्खलामा अर्को पद भेट्टाउनुहोस्: CEG, HJL, MOQ, ?",
+    "options": ["UVX", "RTV", "SUV", "QSU"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "पहिलो अक्षर: C(3), H(8), M(13), R(18) — +5। दोस्रो: E(5), J(10), O(15), T(20) — +5। तेस्रो: G(7), L(12), Q(17), V(22) — +5।",
+    "reference": "Series"
+  },
+  {
+    "id": 8,
+    "question": "श्रृङ्खलामा अर्को अक्षर भेट्टाउनुहोस्: A, E, I, ?",
+    "options": ["P", "O", "M", "L"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "A(1), E(5), I(9), M(13) — +4।",
+    "reference": "Series"
+  },
+  {
+    "id": 9,
+    "question": "श्रृङ्खलामा अर्को अक्षर भेट्टाउनुहोस्: P, N, L, ?",
+    "options": ["J", "H", "I", "M"],
+    "correctIndex": 0,
+    "subject": "IQ",
+    "explanation": "P(16), N(14), L(12), J(10) — -2।",
+    "reference": "Series"
+  },
+  {
+    "id": 10,
+    "question": "श्रृङ्खलामा अर्को पद भेट्टाउनुहोस्: ZY, VU, RQ, ?",
+    "options": ["ML", "NM", "ON", "PO"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "पहिलो अक्षर: Z(26), V(22), R(18), N(14) — -4। दोस्रो: Y(25), U(21), Q(17), M(13) — -4।",
+    "reference": "Series"
+  },
+  {
+    "id": 11,
+    "question": "श्रृङ्खलामा अर्को अक्षर भेट्टाउनुहोस्: M, Q, U, ?",
+    "options": ["Z", "Y", "X", "W"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "M(13), Q(17), U(21), Y(25) — +4।",
+    "reference": "Series"
+  },
+  {
+    "id": 12,
+    "question": "श्रृङ्खलामा अर्को पद भेट्टाउनुहोस्: KM, NP, QS, ?",
+    "options": ["TV", "SU", "TU", "ST"],
+    "correctIndex": 0,
+    "subject": "IQ",
+    "explanation": "पहिलो अक्षर: K(11), N(14), Q(17), T(20) — +3। दोस्रो: M(13), P(16), S(19), V(22) — +3।",
+    "reference": "Series"
+  },
+  {
+    "id": 13,
+    "question": "श्रृङ्खलामा अर्को पद भेट्टाउनुहोस्: AL, BM, CN, ?",
+    "options": ["DP", "EP", "DO", "DN"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "पहिलो अक्षर: A(1), B(2), C(3), D(4) — +1। दोस्रो: L(12), M(13), N(14), O(15) — +1।",
+    "reference": "Series"
+  },
+  {
+    "id": 14,
+    "question": "श्रृङ्खलामा अर्को पद भेट्टाउनुहोस्: BEH, KNQ, TWZ, ?",
+    "options": ["DGJ", "CFI", "YBE", "UXA"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "पहिलो अक्षर: B(2), K(11), T(20), C(3) — +9 mod २६। दोस्रो: E(5), N(14), W(23), F(6) — +9 mod २६। तेस्रो: H(8), Q(17), Z(26), I(9) — +9 mod २६।",
+    "reference": "Series"
+  },
+  {
+    "id": 15,
+    "question": "श्रृङ्खलामा अर्को पद भेट्टाउनुहोस्: CDE, GHI, LMN, ?",
+    "options": ["STU", "RST", "OPQ", "QRS"],
+    "correctIndex": 3,
+    "subject": "IQ",
+    "explanation": "प्रत्येक समूहमा ३ वटा क्रमागत अक्षरहरू छन् र समूहबीच +२ को अन्तर छ: CDE, GHI (F छोडेर), LMN (K छोडेर), QRS (P छोडेर)।",
+    "reference": "Series"
+  },
+  {
+    "id": 16,
+    "question": "श्रृङ्खलामा अर्को पद भेट्टाउनुहोस्: PHOTOPRAPHER, HOTOGRAPHE, OTOGRAPH, ?",
+    "options": ["OTOGRA", "TOGRA", "TOGRAPH", "None of the above"],
+    "correctIndex": 3,
+    "subject": "IQ",
+    "explanation": "प्रत्येक पटक पहिलो २ अक्षर हटाउनुहोस्: PHOTOPRAPHER → HOTOGRAPHE (PH हटाएर), HOTOGRAPHE → OTOGRAPH (HO हटाएर), OTOGRAPH → TOGRAPH (OT हटाएर)। अर्को TOGRAPH → GRAPH (TO हटाएर) हुनुपर्छ। GRAPH विकल्पमा नभएकोले None of the above सही उत्तर हो।",
+    "reference": "Series"
+  },
+  {
+    "id": 17,
+    "question": "श्रृङ्खलामा हराएको पद भेट्टाउनुहोस्: A, CD, GHI, ?, UVWXY",
+    "options": ["LMNO", "NOPQ", "MNOP", "MNO"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "A(१ अक्षर), CD(२ अक्षर), GHI(३ अक्षर), MNOP(४ अक्षर), UVWXY(५ अक्षर)। प्रत्येक समूह अघिल्लो समूहको अन्तिम अक्षर +१ बाट सुरु हुन्छ र समूहको आकार बढ्दै जान्छ।",
+    "reference": "Series"
+  },
+  {
+    "id": 18,
+    "question": "श्रृङ्खलामा हराएको पद भेट्टाउनुहोस्: BA, ED, JI, ?, ZY",
+    "options": ["OP", "QP", "PQ", "PO"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "B(2)A(1), E(5)D(4), J(10)I(9), Q(17)P(16), Z(26)Y(25)। पहिलो अक्षर: 2, 5, 10, 17, 26 — अन्तर: +3, +5, +7, +9। दोस्रो अक्षर: 1, 4, 9, 16, 25 — वर्ग: 1², 2², 3², 4², 5²।",
+    "reference": "Series"
+  },
+  {
+    "id": 19,
+    "question": "श्रृङ्खलामा हराएको पद भेट्टाउनुहोस्: AZ, GT, MN, ?, YB",
+    "options": ["SK", "JH", "TS", "SH"],
+    "correctIndex": 3,
+    "subject": "IQ",
+    "explanation": "पहिलो अक्षर: A(1), G(7), M(13), S(19), Y(25) — +6। दोस्रो: Z(26), T(20), N(14), H(8), B(2) — -6।",
+    "reference": "Series"
+  },
+  {
+    "id": 20,
+    "question": "ढाँचा पूरा गर्नुहोस्: A-BBC-AAB-CCA-BBCC",
+    "options": ["ACBA", "BACB", "ABBA", "CABA"],
+    "correctIndex": 0,
+    "subject": "IQ",
+    "explanation": "खाली ठाउँमा ACBA राख्दा दोहोरिने AACBBCCAABBCA... ढाँचा बन्छ जसले निरन्तर चक्रीय अनुक्रम पालना गर्छ।",
+    "reference": "Series"
+  },
+  {
+    "id": 21,
+    "question": "ढाँचा पूरा गर्नुहोस्: C-ACCAA-AA-BC-B",
+    "options": ["ABBA", "CBBB", "BBBB", "CCCC"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "खाली ठाउँमा CBBB राख्दा दिइएको अक्षर श्रृङ्खलाको चक्रीय ढाँचा पूरा हुन्छ।",
+    "reference": "Series"
+  },
+  {
+    "id": 22,
+    "question": "श्रृङ्खलामा अर्को पद भेट्टाउनुहोस्: KM2, IP5, GS8, EV11, ?",
+    "options": ["BY14", "BX14", "CY14", "CZ14"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "पहिलो अक्षर: K(11), I(9), G(7), E(5), C(3) — -2। दोस्रो: M(13), P(16), S(19), V(22), Y(25) — +3। संख्या: 2, 5, 8, 11, 14 — +3।",
+    "reference": "Series"
+  },
+  {
+    "id": 23,
+    "question": "श्रृङ्खलामा अर्को पद भेट्टाउनुहोस्: 2A7, 4D9, 12G13, ?",
+    "options": ["48I21", "48J19", "4BJ21", "20J17"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "सुरुका संख्या: 2, 4, 12, 48 — ×2, ×3, ×4। बीचको अक्षर: A(1), D(4), G(7), J(10) — +3। अन्तिम संख्या: 7, 9, 13, 19 — +2, +4, +6।",
+    "reference": "Series"
+  },
+  {
+    "id": 24,
+    "question": "श्रृङ्खलामा अर्को अक्षर भेट्टाउनुहोस्: A, G, M, ?",
+    "options": ["U", "T", "S", "R"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "A(1), G(7), M(13), S(19) — +6।",
+    "reference": "Series"
+  },
+  {
+    "id": 25,
+    "question": "श्रृङ्खलामा अर्को अक्षर भेट्टाउनुहोस्: B, F, K, ?",
+    "options": ["R", "Q", "P", "N"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "B(2), F(6), K(11), Q(17) — अन्तर: +4, +5, +6।",
+    "reference": "Series"
+  },
+  {
+    "id": 26,
+    "question": "ब्यारोमिटर : चाप :: थर्मोमिटर : ?",
+    "options": ["प्रकाश", "वायु", "ताप", "विध्युतधारा"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "ब्यारोमिटरले चाप मापन गर्छ; थर्मोमिटरले ताप मापन गर्छ।",
+    "reference": "Analogy"
+  },
+  {
+    "id": 27,
+    "question": "पर्सा : विरगंज :: कास्की : ?",
+    "options": ["गण्डकी", "पोखरा", "माछापुछ्रे", "फेवा"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "विरगंज पर्सा जिल्लाको सदरमुकाम हो; पोखरा कास्की जिल्लाको सदरमुकाम हो।",
+    "reference": "Analogy"
+  },
+  {
+    "id": 28,
+    "question": "शान्ती : परेवा :: प्रेम : ?",
+    "options": ["ढुकुर", "कोईली", "चखेवा", "भँगेरा"],
+    "correctIndex": 0,
+    "subject": "IQ",
+    "explanation": "परेवा शान्तीको प्रतीक हो; ढुकुर (परेवा) प्रेमको पनि प्रतीक हो।",
+    "reference": "Analogy"
+  },
+  {
+    "id": 29,
+    "question": "रेडियोको स्रोता जस्तै टेलिभिजनको के हुन्छ?",
+    "options": ["कलाकार", "दर्शक", "स्रोता", "प्रस्तोता"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "रेडियोमा स्रोता हुन्छन्; टेलिभिजनमा दर्शक हुन्छन्।",
+    "reference": "Analogy"
+  },
+  {
+    "id": 30,
+    "question": "चरा : गुँड :: घोडा : ?",
+    "options": ["देवल", "हात्तीसार", "तबेला", "गन्ज"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "चराले गुँडमा बस्छ; घोडाले तबेलामा बस्छ।",
+    "reference": "Analogy"
+  }
+]

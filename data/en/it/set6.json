@@ -1,0 +1,402 @@
+[
+  {
+    "id": "q1",
+    "question": "To insert a new slide in the Current Presentation, we can choose .....",
+    "options": ["CTRL + M", "CTRL + N", "CTRL + O", "CTRL + P"],
+    "correctIndex": 0,
+    "explanation": "CTRL + M inserts a new slide in PowerPoint.",
+    "subject": "GK"
+  },
+  {
+    "id": "q2",
+    "question": "What does ASCII stand for?",
+    "options": ["American Standard Code for Information Interchange", "American Scientific Code for Information Interchange", "American Scientific Code for Interchanging Information", "American Standard Code for Interchanging Information"],
+    "correctIndex": 0,
+    "explanation": "ASCII = American Standard Code for Information Interchange.",
+    "subject": "GK"
+  },
+  {
+    "id": "q3",
+    "question": "BIOS stands for .....................",
+    "options": ["Base Interface Operating System", "Basic Input Output System", "Base Interaction for Output System", "Basic Interface to Operating System"],
+    "correctIndex": 1,
+    "explanation": "BIOS = Basic Input Output System.",
+    "subject": "GK"
+  },
+  {
+    "id": "q4",
+    "question": "The unit that processes logical and arithmetical operations ...................",
+    "options": ["ALU", "Control Unit", "Memory Unit", "Cache Unit"],
+    "correctIndex": 0,
+    "explanation": "ALU (Arithmetic Logic Unit) performs logical and arithmetic operations.",
+    "subject": "GK"
+  },
+  {
+    "id": "q5",
+    "question": "The act of exploiting human weaknesses to gain access to personal information and protected systems is known as ...................",
+    "options": ["Trojan Monuver", "DDOS exectuin", "Social Engineering", "Worm Infiltration"],
+    "correctIndex": 2,
+    "explanation": "Social engineering exploits human psychology to gain unauthorized access.",
+    "subject": "GK"
+  },
+  {
+    "id": "q6",
+    "question": "Which of the following is the protocol that provides email facility?",
+    "options": ["FTP", "SMTP", "TELNET", "SNMP"],
+    "correctIndex": 1,
+    "explanation": "SMTP (Simple Mail Transfer Protocol) is used for email.",
+    "subject": "GK"
+  },
+  {
+    "id": "q7",
+    "question": "As compared to the secondary memory, the primary memory of a computer is",
+    "options": ["large", "cheap", "fast", "slow"],
+    "correctIndex": 2,
+    "explanation": "Primary memory (RAM) is faster than secondary memory (HDD/SSD).",
+    "subject": "GK"
+  },
+  {
+    "id": "q8",
+    "question": "Hexadecimal numbers are a mixture of .......................",
+    "options": ["Octal and Decimal Numbers", "Binary and Octal Numbers", "Letters and Decimal Numbers", "Binary and Decimal Numbers"],
+    "correctIndex": 2,
+    "explanation": "Hexadecimal uses 0-9 (decimal digits) and A-F (letters).",
+    "subject": "GK"
+  },
+  {
+    "id": "q9",
+    "question": "You suspect a virus has entered your computer. What will not be affected by the virus?",
+    "options": ["CMOS", "Boot Sector", "Floppy Disks", "Program Files"],
+    "correctIndex": 0,
+    "explanation": "CMOS is hardware memory storing BIOS settings; viruses typically affect software/storage.",
+    "subject": "GK"
+  },
+  {
+    "id": "q10",
+    "question": "Which of the following is related to preventing unauthorized access to information?",
+    "options": ["ICT Policy", "Privacy ACT", "Electronic Transaction Act", "National Communication Policy"],
+    "correctIndex": 1,
+    "explanation": "Privacy laws prevent unauthorized access to personal information.",
+    "subject": "GK"
+  },
+  {
+    "id": "q11",
+    "question": "A computer program with a graphical user interface for displaying and navigating between web pages is called",
+    "options": ["Navigator", "File Explorer", "Web Browser", "Word Processor"],
+    "correctIndex": 2,
+    "explanation": "A web browser displays and navigates web pages.",
+    "subject": "GK"
+  },
+  {
+    "id": "q12",
+    "question": "A function inside another function is called ............................",
+    "options": ["Nested Function", "Round Function", "Sum Function", "Text Function"],
+    "correctIndex": 0,
+    "explanation": "A nested function is defined inside another function.",
+    "subject": "GK"
+  },
+  {
+    "id": "q13",
+    "question": "The ghost text that appears behind the text is known as",
+    "options": ["Air Mark", "Shade Mark", "Water Mark", "Shadow Mark"],
+    "correctIndex": 2,
+    "explanation": "Watermark is faint text appearing behind document content.",
+    "subject": "GK"
+  },
+  {
+    "id": "q14",
+    "question": "How to insert the Page Break in Word?",
+    "options": ["Enter", "ALT + Enter", "CTRL + Enter", "SHIFT + Enter"],
+    "correctIndex": 2,
+    "explanation": "CTRL + Enter inserts a page break in MS Word.",
+    "subject": "GK"
+  },
+  {
+    "id": "q15",
+    "question": "In Ms-Word, frequently used tasks can be automated using ....................",
+    "options": ["Mail Merge", "Macro", "Thesaurus", "Spell Checker"],
+    "correctIndex": 1,
+    "explanation": "Macros automate repetitive tasks in MS Word.",
+    "subject": "GK"
+  },
+  {
+    "id": "q16",
+    "question": "Which of the following Feature in Ms-word can help you locate misspelled words and correct them as you type?",
+    "options": ["Spell Checker", "Auto Correct", "Find and Replace", "None of the above"],
+    "correctIndex": 0,
+    "explanation": "Spell Checker identifies and helps correct misspelled words.",
+    "subject": "GK"
+  },
+  {
+    "id": "q17",
+    "question": "Indentation is used to ..................",
+    "options": ["Make text readable", "Change the paragraph color", "Apply border around text", "Change line spacing"],
+    "correctIndex": 0,
+    "explanation": "Indentation improves text readability and structure.",
+    "subject": "GK"
+  },
+  {
+    "id": "q18",
+    "question": "Gutter margin is .........................",
+    "options": ["Added to the left of margin when printing", "Added to the right margin when printing", "Added to the binding side of page when printing", "Added to the outside of the page when printing"],
+    "correctIndex": 2,
+    "explanation": "Gutter margin is extra space added at the binding side.",
+    "subject": "GK"
+  },
+  {
+    "id": "q19",
+    "question": "Which function in excel helps rotate (switch) the values from rows to columns and vice versa?",
+    "options": ["INVERSE", "FLIP", "REVERSE", "TRANSPOSE"],
+    "correctIndex": 3,
+    "explanation": "TRANSPOSE function switches rows to columns and vice versa.",
+    "subject": "GK"
+  },
+  {
+    "id": "q20",
+    "question": "Which features is used for monitoring all document changes?",
+    "options": ["Edit Document", "Monitor Change", "Track Change", "Track All"],
+    "correctIndex": 2,
+    "explanation": "Track Changes monitors all edits made to a document.",
+    "subject": "GK"
+  },
+  {
+    "id": "q21",
+    "question": "Which of the following is not a correct method of editing the cell content?",
+    "options": ["Press the Alt Key", "Press the F2 KEY", "Click the formula bar", "Double click the cell"],
+    "correctIndex": 0,
+    "explanation": "Alt key is not used for editing cell content in Excel.",
+    "subject": "GK"
+  },
+  {
+    "id": "q22",
+    "question": "................... Updates the data in a Pivot table when the source data change.",
+    "options": ["Format Report", "Pivot Table", "Refresh Data", "Show Data"],
+    "correctIndex": 2,
+    "explanation": "Refresh Data updates Pivot Table when source data changes.",
+    "subject": "GK"
+  },
+  {
+    "id": "q23",
+    "question": "Getting data from a cell located in a different sheet is called ...............",
+    "options": ["Accessing", "Referencing", "Filtering", "Customizing"],
+    "correctIndex": 1,
+    "explanation": "Referencing allows fetching data from cells in other sheets.",
+    "subject": "GK"
+  },
+  {
+    "id": "q24",
+    "question": "In goal seek, 'by changing cell' refers to the cell ..........................",
+    "options": ["Containing the out come formula", "Containing the constraints", "That you are attempting to calculate", "Containing the target value"],
+    "correctIndex": 0,
+    "explanation": "In Goal Seek, 'by changing cell' contains the formula whose outcome is adjusted.",
+    "subject": "GK"
+  },
+  {
+    "id": "q25",
+    "question": "Which chart would be better to track the progress of stock market on a daily basis?",
+    "options": ["Pie", "Line", "Bar", "Scatter"],
+    "correctIndex": 1,
+    "explanation": "Line charts are best for tracking trends over time like stock prices.",
+    "subject": "GK"
+  },
+  {
+    "id": "q26",
+    "question": "The Operating System keeps the information of files in a table called",
+    "options": ["File Folder Table (FFT)", "File Index Table (FIT)", "File Allocation Table (FAT)", "Directory Index Table (DIT)"],
+    "correctIndex": 2,
+    "explanation": "FAT (File Allocation Table) stores file information in OS.",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "Which statement is FALSE?",
+    "options": ["You can find deleted files in recycle bin", "You can restore any files in recycle bin in you need", "You can increase free space of disk by sending files in recycle bin", "You can right click and choose empty recycle bin to clean it at once"],
+    "correctIndex": 2,
+    "explanation": "Recycle bin does not free disk space until emptied.",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "Which of the following is NOT a System Tool?",
+    "options": ["Disk Management", "Disk Defragmenter", "Backup", "Virus Scanning"],
+    "correctIndex": 3,
+    "explanation": "Virus scanning is a security tool, not a system maintenance tool.",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "Which Command can be used to create or change name of volume of Disk?",
+    "options": ["NAME", "LABLE", "VOLUME", "FAT"],
+    "correctIndex": 1,
+    "explanation": "LABEL command is used to create or change volume name in DOS.",
+    "subject": "GK"
+  },
+  {
+    "id": "q30",
+    "question": "Microsoft Access is a",
+    "options": ["RDBMS", "OODBMS", "ORDBMS", "Network Database Model"],
+    "correctIndex": 0,
+    "explanation": "MS Access is a Relational Database Management System (RDBMS).",
+    "subject": "GK"
+  },
+  {
+    "id": "q31",
+    "question": "Which of the following database objects asks a question of information in a database and then displays the result?",
+    "options": ["Tables", "Reports", "Queries", "Forms"],
+    "correctIndex": 2,
+    "explanation": "Queries retrieve and display specific data from a database.",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
+    "question": "Which of the key to represent relationship between tables?",
+    "options": ["Primary key", "Secondary Key", "Foreign Key", "Tertiary Key"],
+    "correctIndex": 2,
+    "explanation": "Foreign Key establishes relationships between tables.",
+    "subject": "GK"
+  },
+  {
+    "id": "q33",
+    "question": "Which of the following causes retrieval of any kind of data from a database?",
+    "options": ["Key", "Query", "Indexing", "Relationship"],
+    "correctIndex": 1,
+    "explanation": "A query retrieves data from a database.",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "What shall be the term of \"office of member of Appellate Tribunal\" according to Electronic Transaction Act. 2063?",
+    "options": ["1 Year", "2 Year", "5 Year", "10 Year"],
+    "correctIndex": 2,
+    "explanation": "According to Nepal's Electronic Transaction Act 2063, the term is 5 years.",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "The small messages that can be read and written on Twitter are known as:",
+    "options": ["Twitter", "Tweezers", "Tweets", "Twit this"],
+    "correctIndex": 2,
+    "explanation": "Messages on Twitter are called tweets.",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "Which of the following not a social media platform?",
+    "options": ["Facebook", "Twitter", "Instagram", "Google"],
+    "correctIndex": 3,
+    "explanation": "Google is a search engine, not primarily a social media platform.",
+    "subject": "GK"
+  },
+  {
+    "id": "q37",
+    "question": "In which year was the current Information and Communication Technology Policy implemented?",
+    "options": ["2071", "2072", "2070", "2074"],
+    "correctIndex": 1,
+    "explanation": "Nepal's current ICT Policy was implemented in 2072 BS (2015 AD).",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "Pick an example of a valid IP address",
+    "options": ["www.google.com", "123.78.55.185", "www.ip.com", "1.888.234.578"],
+    "correctIndex": 1,
+    "explanation": "A valid IPv4 address consists of four decimal numbers (0-255) separated by dots.",
+    "subject": "GK"
+  },
+  {
+    "id": "q39",
+    "question": "Which tag is used to create a drop down in HTML?",
+    "options": ["input", "select", "text", "textarea"],
+    "correctIndex": 1,
+    "explanation": "The <select> tag creates a dropdown list in HTML.",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "If you want an organization logo to be appear on every slide, you should include it on .........",
+    "options": ["Slide Master", "Design Master", "Design Template", "None of the above"],
+    "correctIndex": 0,
+    "explanation": "Slide Master applies elements to all slides in a presentation.",
+    "subject": "GK"
+  },
+  {
+    "id": "q41",
+    "question": "Which Powerpoint view displays each slide of the presentation as thumbnail and is useful for rearranging slides?",
+    "options": ["Slide Master", "Slide Show", "Slide Sorter", "Notes Page"],
+    "correctIndex": 2,
+    "explanation": "Slide Sorter view shows thumbnails for easy rearrangement.",
+    "subject": "GK"
+  },
+  {
+    "id": "q42",
+    "question": "Which shortcut key inserts a new slide in current presentation?",
+    "options": ["Ctrl + N", "Ctrl + M", "Ctrl + S", "All of the above"],
+    "correctIndex": 1,
+    "explanation": "Ctrl + M inserts a new slide in PowerPoint.",
+    "subject": "GK"
+  },
+  {
+    "id": "q43",
+    "question": "In Ms Excel, the correct formula to add three cells A1, B1 & C1 is",
+    "options": ["=Sum(A1,B1,C1)", "=SUM(A1:C1)", "=A1+B1+C1", "All of the above"],
+    "correctIndex": 3,
+    "explanation": "All three methods are valid for adding cells in Excel.",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "The cell referencing that does not get changed when copied is:",
+    "options": ["Absolute cell addressing", "Comparative cell referencing", "Relative cell referencing", "None of the above"],
+    "correctIndex": 0,
+    "explanation": "Absolute references (with $) don't change when copied.",
+    "subject": "GK"
+  },
+  {
+    "id": "q45",
+    "question": "In Ms Excel, a set of commands describing a series of task to automate those tasks is called",
+    "options": ["Linkage", "Function", "Micro", "Macro"],
+    "correctIndex": 3,
+    "explanation": "A macro is a set of commands that automates tasks in Excel.",
+    "subject": "GK"
+  },
+  {
+    "id": "q46",
+    "question": "MS Excel is based on ...................... Operating System:",
+    "options": ["OS/2", "Windows", "Unix", "DOS"],
+    "correctIndex": 1,
+    "explanation": "MS Excel is primarily a Windows-based application.",
+    "subject": "GK"
+  },
+  {
+    "id": "q47",
+    "question": "To Insert a column between column D & E, you should ...............",
+    "options": ["Select column D & insert", "Select column E & insert", "Select columns both D & E & insert", "None of the above"],
+    "correctIndex": 1,
+    "explanation": "Selecting column E and inserting places a new column before E (between D and E).",
+    "subject": "GK"
+  },
+  {
+    "id": "q48",
+    "question": "Which one is the easiest way to insert default chart in MS Excel?",
+    "options": ["Select data -> Chart wizard", "Insert -> Chart from menu", "Select data and press F11", "None of the above"],
+    "correctIndex": 2,
+    "explanation": "Pressing F11 with data selected creates a default chart quickly.",
+    "subject": "GK"
+  },
+  {
+    "id": "q49",
+    "question": "Ms Excel, the symbol used for absolute cell reference is ........",
+    "options": ["#", "$", "%", "="],
+    "correctIndex": 1,
+    "explanation": "The dollar sign ($) is used for absolute cell references in Excel.",
+    "subject": "GK"
+  },
+  {
+    "id": "q50",
+    "question": "Which file starts Ms Word?",
+    "options": ["Word 2003.exe", "Word.exe", "Winword.exe", "Ms Word.exe"],
+    "correctIndex": 2,
+    "explanation": "Winword.exe is the executable file that starts Microsoft Word.",
+    "subject": "GK"
+  }
+]

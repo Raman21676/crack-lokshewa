@@ -38,5 +38,13 @@
         "timeLimit": 45,
         "difficulty": "Medium",
         "locked": false
+    },
+    {
+        "id": "set6",
+        "title": "\u0906\u0908\u091f\u0940 \u0905\u0927\u093f\u0915\u0943\u0924 \u092e\u0949\u0921\u0932 \u0938\u0947\u091f 6",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": false
     }
 ]

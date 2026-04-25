@@ -1,344 +1,149 @@
 [
   {
     "id": "q1",
-    "question": "How many times larger is Nepal than Vatican City?",
+    "question": "When was Agriculture Development Bank established?",
     "options": [
-      "3,34,500 times",
-      "3,33,500 times",
-      "3,32,500 times",
-      "3,31,500 times"
+      "2073 Poush 7",
+      "2033 Aswin 23",
+      "2024 Magh 7",
+      "2062 Mangshir 1"
     ],
-    "correctIndex": 0,
-    "explanation": "Nepal is about 3,34,500 times larger than Vatican City. Nepal is 116.17 times smaller than Russia (the largest country).",
+    "correctIndex": 2,
+    "explanation": "Agriculture Development Bank was established on 2024 Magh 7. Coffee Day started on 2062 Mangshir 1, Farmer Commission formed on 2073 Poush 7, Tea Development Corporation on 2033 Aswin 23.",
     "subject": "GK"
   },
   {
     "id": "q2",
-    "question": "Which Nepali bank won the SAFA Award 2024?",
+    "question": "What percentage of water is found in the human body?",
     "options": [
-      "NIC Asia Bank",
-      "Everest Bank",
-      "Nabil Bank",
-      "Global IME Bank"
+      "4-6 liters",
+      "5-6 liters",
+      "2.5-3 liters",
+      "66%"
     ],
     "correctIndex": 3,
-    "explanation": "Global IME Bank won the SAFA Award 2024.",
-    "subject": "GK"
+    "explanation": "About 66% of the human body is water. Blood volume = 4-6 liters (male 5-6L, female 4-5L). Plasma volume = 2.5-3 liters.",
+    "subject": "SCIENCE"
   },
   {
     "id": "q3",
-    "question": "Which district is Kathmandu University located in?",
+    "question": "What is the total population of Gandaki Province?",
     "options": [
-      "Kavre",
-      "Chitwan",
-      "Kathmandu",
-      "Makwanpur"
+      "11,70,833",
+      "12,95,594",
+      "24,66,427",
+      "6,62,480"
     ],
-    "correctIndex": 0,
-    "explanation": "Kathmandu University is in Kavre district. Tribhuvan University = Kirtipur (Kathmandu), Pokhara University = Kaski (Lekhnath), Purbanchal University = Biratnagar.",
+    "correctIndex": 2,
+    "explanation": "Total population = 24,66,427. Male = 11,70,833, Female = 12,95,594, Households = 6,62,480.",
     "subject": "GK"
   },
   {
     "id": "q4",
-    "question": "If ROSE=6821, CHAIR=73456 and PREACH=961473, what is SEARCH?",
+    "question": "Which of the following economic behaviors has Nepal's economy NOT adopted?",
     "options": [
-      "214673",
-      "246173",
-      "214763",
-      "216473"
+      "Liberal economic policy",
+      "Market economy",
+      "Mixed economy",
+      "State controlling behavior"
     ],
-    "correctIndex": 0,
-    "explanation": "R=6,O=8,S=2,E=1,C=7,H=3,A=4,I=5,P=9. SEARCH=S(2)+E(1)+A(4)+R(6)+C(7)+H(3)=214673.",
-    "subject": "IQ"
+    "correctIndex": 3,
+    "explanation": "Nepal has not adopted state controlling behavior. It follows a mixed economy with liberal and market-oriented policies.",
+    "subject": "CONSTITUTION"
   },
   {
     "id": "q5",
-    "question": "Which is the latest member state of the UN?",
+    "question": "When is World Health Day celebrated?",
     "options": [
-      "Kosovo",
-      "East Timor",
-      "Eritrea",
-      "South Sudan"
+      "June 5",
+      "March 8",
+      "April 7",
+      "May 1"
     ],
-    "correctIndex": 3,
-    "explanation": "South Sudan is the latest member state of the UN. East Timor is the latest member of WTO.",
+    "correctIndex": 2,
+    "explanation": "World Health Day is celebrated on April 7.",
     "subject": "GK"
   },
   {
     "id": "q6",
-    "question": "From which plan did the concept of sustainable development start in Nepal?",
+    "question": "According to Economic Survey 2081/82, what is Koshi Province's contribution to Nepal's GDP?",
     "options": [
-      "9th Plan",
-      "10th Plan",
-      "7th Plan",
-      "8th Plan"
+      "12.5%",
+      "13.9%",
+      "15.9%",
+      "17.2%"
     ],
-    "correctIndex": 3,
-    "explanation": "The concept of sustainable development started in Nepal from the 8th Plan.",
+    "correctIndex": 2,
+    "explanation": "Koshi Province contributes 15.9% to Nepal's GDP according to the Economic Survey 2081/82.",
     "subject": "GK"
   },
   {
     "id": "q7",
-    "question": "Up to how many decibels can the human ear tolerate?",
+    "question": "Match: Purnima, Christ, Vishnu Gupta, Karl Marx",
     "options": [
-      "80-85 dB",
-      "50-55 dB",
-      "60-65 dB",
-      "70-75 dB"
+      "Buddha/Rome/Chanakya/Germany",
+      "Gandhi/Jerusalem/Kautilya/Russia",
+      "Buddha/Israel/Chanakya/Germany",
+      "Buddha/Israel/Kautilya/England"
     ],
     "correctIndex": 3,
-    "explanation": "The human ear can tolerate up to 70-75 decibels.",
-    "subject": "SCIENCE"
+    "explanation": "Purnima=Buddha, Christ=Israel, Vishnu Gupta=Kautilya, Karl Marx=England.",
+    "subject": "GK"
   },
   {
     "id": "q8",
-    "question": "When was the Panchayat system formally started in Nepal?",
+    "question": "Which province does Rasuwa district belong to?",
     "options": [
-      "2015 Falgun 7",
-      "2046 Chaitra 26",
-      "2017 Push 1",
-      "2019 Push 1"
+      "Koshi",
+      "Gandaki",
+      "Lumbini",
+      "Bagmati"
     ],
     "correctIndex": 3,
-    "explanation": "The Panchayat system was formally started on 2019 Push 1. 2017 Push 1 = royal coup by Mahendra. 2015 Falgun 7 = Democracy Day. 2046 Chaitra 26 = 1990 democracy movement.",
+    "explanation": "Rasuwa district belongs to Bagmati Province (Province No. 3).",
     "subject": "GK"
   },
   {
     "id": "q9",
-    "question": "Which SAARC country established diplomatic relations with Nepal last?",
+    "question": "Which king built the 22nd dhara (water spout) of Balaju?",
     "options": [
-      "Maldives",
-      "Bangladesh",
-      "Pakistan",
-      "Bhutan"
+      "Jayaprakash Malla",
+      "Jayasthiti Malla",
+      "Ran Bahadur Shah",
+      "Yog Narendra Malla"
     ],
-    "correctIndex": 3,
-    "explanation": "Bhutan established diplomatic relations with Nepal last among SAARC countries.",
+    "correctIndex": 2,
+    "explanation": "Ran Bahadur Shah built the 22nd dhara. Jayaprakash Malla built the 21st dhara.",
     "subject": "GK"
   },
   {
     "id": "q10",
-    "question": "Which was the first spacecraft to land on the Moon's surface?",
+    "question": "What is the instrument used to check if a driver has consumed alcohol?",
     "options": [
-      "Luna 10",
-      "Skylab",
-      "Luna 1",
-      "Luna 2"
+      "Speed gun",
+      "Breathalyzer",
+      "Alcometer",
+      "Radar gun"
     ],
-    "correctIndex": 3,
-    "explanation": "Luna 2 was the first spacecraft to land on the Moon's surface. Luna 10 = first to orbit the Moon. Skylab = first manned station for solar study (1974).",
-    "subject": "SCIENCE"
+    "correctIndex": 1,
+    "explanation": "Breathalyzer is the instrument used to check if a driver has consumed alcohol.",
+    "subject": "GK"
   },
   {
     "id": "q11",
-    "question": "15 workers complete a job in 24 days. How many days for 18 workers?",
+    "question": "Where was the 17th BRICS Summit 2025 held?",
     "options": [
-      "18 days",
-      "20 days",
-      "22 days",
-      "25 days"
+      "India",
+      "South Africa",
+      "Indonesia",
+      "Brazil"
     ],
-    "correctIndex": 1,
-    "explanation": "M₁D₁=M₂D₂. 15×24=18×D₂. D₂=360/18=20 days.",
-    "subject": "MATH"
+    "correctIndex": 3,
+    "explanation": "The 17th BRICS Summit 2025 was held in Rio de Janeiro, Brazil from July 6-7, 2025.",
+    "subject": "GK"
   },
   {
     "id": "q12",
-    "question": "Which place is Nepal's southernmost point?",
-    "options": [
-      "Jhapa's Dhulabari",
-      "Jhapa's Lodabari",
-      "Jhapa's Godawari",
-      "Jhapa's Urlabari"
-    ],
-    "correctIndex": 1,
-    "explanation": "Nepal's southernmost point is Jhapa's Lodabari. Eastern = Taplejung's Leleph. Western = Kanchanpur's Dodhara. Northern = Humla's Chemla.",
-    "subject": "GK"
-  },
-  {
-    "id": "q13",
-    "question": "Which event is considered the starting point of World War II?",
-    "options": [
-      "Attack on Pearl Harbor",
-      "Germany's invasion of Poland",
-      "Battle of Stalingrad",
-      "D-Day landing"
-    ],
-    "correctIndex": 1,
-    "explanation": "Germany's invasion of Poland on September 1, 1939 is considered the starting point of WWII.",
-    "subject": "GK"
-  },
-  {
-    "id": "q14",
-    "question": "Which pond is located in Bajhang district?",
-    "options": [
-      "Pap Kunda",
-      "Nihari Kunda",
-      "Narad Kunda",
-      "Gyan Kunda"
-    ],
-    "correctIndex": 1,
-    "explanation": "Nihari Kunda is located in Bajhang district. Rakshas Kunda is also in Bajhang.",
-    "subject": "GK"
-  },
-  {
-    "id": "q15",
-    "question": "How many districts are there in Gandaki Province?",
-    "options": [
-      "10",
-      "11",
-      "12",
-      "13"
-    ],
-    "correctIndex": 1,
-    "explanation": "Gandaki Province has 11 districts.",
-    "subject": "GK"
-  },
-  {
-    "id": "q16",
-    "question": "When is World Toilet Day celebrated?",
-    "options": [
-      "November 19",
-      "June 14",
-      "September 16",
-      "December 5"
-    ],
-    "correctIndex": 0,
-    "explanation": "World Toilet Day is celebrated on November 19. June 14 = Blood Donor Day, September 16 = Ozone Day, December 5 = International Volunteer Day.",
-    "subject": "GK"
-  },
-  {
-    "id": "q17",
-    "question": "When is the International Day of Happiness celebrated every year?",
-    "options": [
-      "March 15",
-      "March 18",
-      "March 20",
-      "March 22"
-    ],
-    "correctIndex": 2,
-    "explanation": "The International Day of Happiness is celebrated on March 20 every year.",
-    "subject": "GK"
-  },
-  {
-    "id": "q18",
-    "question": "What was the contribution of the industrial sector to GDP in FY 2081/82?",
-    "options": [
-      "10.50%",
-      "11.50%",
-      "12.91%",
-      "13.50%"
-    ],
-    "correctIndex": 2,
-    "explanation": "The industrial sector contributed 12.91% to Nepal's GDP in FY 2081/82.",
-    "subject": "GK"
-  },
-  {
-    "id": "q19",
-    "question": "Which king introduced copper coins in Nepal's history?",
-    "options": [
-      "Mahendra Malla",
-      "Ratna Malla",
-      "Siddhi Narsingh Malla",
-      "Pratap Malla"
-    ],
-    "correctIndex": 1,
-    "explanation": "Ratna Malla introduced copper coins. Mahendra Malla = silver coins, Siddhi Narsingh Malla = leather coins, Pratap Malla = four-sided (chaar kone) coins.",
-    "subject": "GK"
-  },
-  {
-    "id": "q20",
-    "question": "Under which schedule of Nepal's Constitution are provincial government powers listed?",
-    "options": [
-      "Schedule 5",
-      "Schedule 6",
-      "Schedule 7",
-      "Schedule 8"
-    ],
-    "correctIndex": 1,
-    "explanation": "Provincial government powers are listed in Schedule 6 of Nepal's Constitution.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q21",
-    "question": "When was the Comprehensive Peace Agreement signed in Nepal?",
-    "options": [
-      "2063 Bhadra 5",
-      "2062 Chaitra 28",
-      "2061 Magh 1",
-      "2064 Asar 15"
-    ],
-    "correctIndex": 0,
-    "explanation": "The Comprehensive Peace Agreement was signed on 2063 Bhadra 5 (November 21, 2006).",
-    "subject": "GK"
-  },
-  {
-    "id": "q22",
-    "question": "Which district headquarters is the highest in Koshi Province?",
-    "options": [
-      "Diktel",
-      "Khatbari",
-      "Phidim",
-      "Salleri"
-    ],
-    "correctIndex": 3,
-    "explanation": "Salleri (Solukhumbu) is the highest district headquarters in Koshi Province.",
-    "subject": "GK"
-  },
-  {
-    "id": "q23",
-    "question": "How many judges are in Nepal's Supreme Court?",
-    "options": [
-      "15",
-      "19",
-      "21",
-      "25"
-    ],
-    "correctIndex": 2,
-    "explanation": "21 judges including the Chief Justice.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q24",
-    "question": "Which is the only SAARC country without a river?",
-    "options": [
-      "Maldives",
-      "Bhutan",
-      "Pakistan",
-      "Bangladesh"
-    ],
-    "correctIndex": 0,
-    "explanation": "Maldives is the only SAARC country without a river. Bhutan = no written constitution. Pakistan = first SAARC country to implement VAT. Bangladesh = first SAARC country to ban plastic.",
-    "subject": "GK"
-  },
-  {
-    "id": "q25",
-    "question": "Which was the first district declared fully literate in Nepal?",
-    "options": [
-      "Kathmandu",
-      "Bhaktapur",
-      "Lalitpur",
-      "Chitwan"
-    ],
-    "correctIndex": 1,
-    "explanation": "Bhaktapur was the first district declared fully literate in Nepal.",
-    "subject": "GK"
-  },
-  {
-    "id": "q26",
-    "question": "The Chhath festival is mainly celebrated by which community?",
-    "options": [
-      "Maithili community",
-      "Hindus",
-      "Buddhists",
-      "Sherpa community"
-    ],
-    "correctIndex": 0,
-    "explanation": "The Chhath festival is mainly celebrated by the Maithili community. Hindus = Dashain, Tihar, etc. Buddhists = Buddha Jayanti. Sherpas = Losar.",
-    "subject": "GK"
-  },
-  {
-    "id": "q27",
     "question": "Which continent has been most researched by scientists?",
     "options": [
       "Africa",
@@ -351,124 +156,124 @@
     "subject": "GK"
   },
   {
-    "id": "q28",
-    "question": "How many local levels are there in Nepal?",
+    "id": "q13",
+    "question": "In which district is Gosaikunda lake?",
     "options": [
-      "744",
-      "753",
-      "761",
-      "775"
+      "Sindhupalchok",
+      "Rasuwa",
+      "Nuwakot",
+      "Dhading"
     ],
     "correctIndex": 1,
-    "explanation": "753: 6 metros, 11 sub-metros, 276 municipalities, 460 rural municipalities.",
-    "subject": "CONSTITUTION"
+    "explanation": "Gosaikunda is in Rasuwa district.",
+    "subject": "GK"
   },
   {
-    "id": "q29",
-    "question": "When was Balaju Industrial Area established?",
+    "id": "q14",
+    "question": "How many physiographic regions is Nepal divided into?",
     "options": [
-      "2016 BS",
-      "2020 BS",
-      "2029 BS",
-      "2030 BS"
+      "5",
+      "3",
+      "7",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Physiographically, Nepal is divided into 3 regions: Mountain (Himal), Hill (Pahad), and Terai (Plain).",
+    "subject": "GK"
+  },
+  {
+    "id": "q15",
+    "question": "In which district is Nepal's wildlife museum located?",
+    "options": [
+      "Hetauda, Makwanpur",
+      "Godawari, Lalitpur",
+      "Damak, Jhapa",
+      "Pokhara, Kaski"
     ],
     "correctIndex": 0,
-    "explanation": "Balaju Industrial Area was established in 2016 BS. Hetauda and Patan = 2020, Dharan = 2029, Nepalgunj = 2030.",
+    "explanation": "Nepal's wildlife museum is located in Hetauda, Makwanpur.",
     "subject": "GK"
   },
   {
-    "id": "q30",
-    "question": "Which province has been declared as Nepal's first digital province?",
+    "id": "q16",
+    "question": "If INTELLIGENCE is written as ETNIGILLECNE in a certain code language, how will MATHEMATICAL be written?",
     "options": [
-      "Bagmati Province",
-      "Lumbini Province",
-      "Koshi Province",
-      "Gandaki Province"
+      "AMHTMETACILA",
+      "TAMMEHITALAC",
+      "HTAMMETALACI",
+      "HTAMTAMELACI"
     ],
-    "correctIndex": 2,
-    "explanation": "Koshi Province has set a goal to become Nepal's first digital province.",
-    "subject": "GK"
-  },
-  {
-    "id": "q31",
-    "question": "How many members are there in Koshi Province Assembly?",
-    "options": [
-      "93",
-      "110",
-      "56",
-      "60"
-    ],
-    "correctIndex": 0,
-    "explanation": "Koshi Province Assembly has 93 members: 56 directly elected and 37 proportionally elected.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q32",
-    "question": "The world's first cabinet meeting underwater took place in which ocean?",
-    "options": [
-      "Pacific",
-      "Atlantic",
-      "Indian",
-      "Arctic"
-    ],
-    "correctIndex": 2,
-    "explanation": "First underwater cabinet meeting was held in the Indian Ocean (Maldives).",
-    "subject": "GK"
-  },
-  {
-    "id": "q33",
-    "question": "Which king built the 22nd dhara (water spout) of Balaju?",
-    "options": [
-      "Ran Bahadur Shah",
-      "Yog Narendra Malla",
-      "Jayaprakash Malla",
-      "Jayasthiti Malla"
-    ],
-    "correctIndex": 0,
-    "explanation": "Ran Bahadur Shah built the 22nd dhara. Jayaprakash Malla built the 21st dhara.",
-    "subject": "GK"
-  },
-  {
-    "id": "q34",
-    "question": "Which metal is liquid at room temperature?",
-    "options": [
-      "Iron",
-      "Copper",
-      "Mercury",
-      "Silver"
-    ],
-    "correctIndex": 2,
-    "explanation": "Mercury is the only liquid metal at room temperature.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q35",
-    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
-    "options": [
-      "STATION",
-      "TRADITION",
-      "MINISTER",
-      "RATION"
-    ],
-    "correctIndex": 2,
-    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
+    "correctIndex": 3,
+    "explanation": "Each group of 4 letters is reversed: INTE→ETNI, LLIG→GILL, ENCE→ECNE. MATHEMATICAL = MATH EMAT ICAL → HTAM TAME LACI.",
     "subject": "IQ"
   },
   {
-    "id": "q36",
-    "question": "Where was the 6th National Conference of Lok Sewa Aayog held?",
+    "id": "q17",
+    "question": "What percentage of Provincial Assembly members are elected proportionally?",
     "options": [
-      "Dhulikhel, Kavre",
-      "Pokhara, Kaski",
-      "Biratnagar, Morang",
-      "Birendranagar, Surkhet"
+      "40%",
+      "60%",
+      "50%",
+      "33%"
     ],
-    "correctIndex": 1,
-    "explanation": "Held in Pokhara on 2082 Chaitra 29-30. 7th will be in Madhesh Province on 2083 Falgun 23-24.",
+    "correctIndex": 0,
+    "explanation": "40% of Provincial Assembly members are elected through proportional representation. 60% are directly elected.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q18",
+    "question": "When did Nepal get FIFA membership?",
+    "options": [
+      "1968",
+      "1969",
+      "1970",
+      "1971"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nepal got FIFA membership in 1971.",
     "subject": "GK"
   },
   {
-    "id": "q37",
+    "id": "q19",
+    "question": "What is the Dhimal priest called?",
+    "options": [
+      "Guju",
+      "Bhusal",
+      "Lama",
+      "Barang"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dhimal priest = Barang. Newar=Guju, Magar=Bhusal, Tamang=Lama.",
+    "subject": "GK"
+  },
+  {
+    "id": "q20",
+    "question": "What was the district cooperative office called during the Lichhavi period?",
+    "options": [
+      "Gram",
+      "Vishaya",
+      "Tal",
+      "Charbaat"
+    ],
+    "correctIndex": 1,
+    "explanation": "District cooperative office was called 'Vishaya'. Gram = small village. Tal = developed village. Charbaat = police.",
+    "subject": "GK"
+  },
+  {
+    "id": "q21",
+    "question": "What comes next in the series: 5, 2, 4, 3, 3, ?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Two interleaved series: odd positions (5,4,3,?) decreasing by 1, so next = 2. Even positions (2,3) increasing by 1. Since position 6 is even, it should be 4. Wait, the answer is 4 (option c, index 2). Let me verify: positions 1,3,5 = 5,4,3. Positions 2,4,6 = 2,3,4. So the 6th term is 4.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q22",
     "question": "Who took Nepal's first wicket in the T20 World Cup 2026?",
     "options": [
       "Sandeep Lamichhane",
@@ -481,172 +286,367 @@
     "subject": "GK"
   },
   {
-    "id": "q38",
-    "question": "Which planet is known as the Red Planet?",
+    "id": "q23",
+    "question": "What was Nepal called during the Satya Yuga?",
     "options": [
-      "Venus",
-      "Mars",
-      "Jupiter",
-      "Saturn"
+      "Tapovan",
+      "Nepal",
+      "Mukti Sopan",
+      "Satyawati"
+    ],
+    "correctIndex": 3,
+    "explanation": "During Satya Yuga, Nepal was called Satyawati. Tapovan = Treta Yuga. Nepal = Kali Yuga (present). Mukti Sopan = Dwapar Yuga.",
+    "subject": "GK"
+  },
+  {
+    "id": "q24",
+    "question": "Which element is found in tea?",
+    "options": [
+      "Lycopene",
+      "Tannin",
+      "Curcumin",
+      "Gingerol"
     ],
     "correctIndex": 1,
-    "explanation": "Mars is called the Red Planet due to iron oxide.",
+    "explanation": "Tea contains tannin. Lycopene = found in tomatoes. Curcumin = found in turmeric. Gingerol = found in ginger.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q25",
+    "question": "Where has the first genetic disease testing laboratory been established in Nepal?",
+    "options": [
+      "TU Teaching Hospital",
+      "Bir Hospital",
+      "Teku Hospital",
+      "Manipal Teaching Hospital"
+    ],
+    "correctIndex": 0,
+    "explanation": "The first genetic disease testing laboratory in Nepal was established at Tribhuvan University (TU) Teaching Hospital in Kathmandu.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q26",
+    "question": "How many local levels are there in Nepal?",
+    "options": [
+      "744",
+      "753",
+      "761",
+      "775"
+    ],
+    "correctIndex": 1,
+    "explanation": "753: 6 metros, 11 sub-metros, 276 municipalities, 460 rural municipalities.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q27",
+    "question": "Which is the first conservation area by establishment in Nepal?",
+    "options": [
+      "Gaurishankar",
+      "Annapurna",
+      "Krishnasar",
+      "Manaslu"
+    ],
+    "correctIndex": 1,
+    "explanation": "Annapurna Conservation Area is the first (established 2049 BS) and largest (7,629 sq km) conservation area in Nepal.",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "Which god is known as Ashutosh?",
+    "options": [
+      "Shiva",
+      "Vishnu",
+      "Brahma",
+      "Ganesh"
+    ],
+    "correctIndex": 0,
+    "explanation": "Lord Shiva is known as Ashutosh.",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "The simple interest on a sum for 3 years at 10% per annum is Rs. 4500. What is the principal?",
+    "options": [
+      "Rs. 12000",
+      "Rs. 13500",
+      "Rs. 15000",
+      "Rs. 18000"
+    ],
+    "correctIndex": 2,
+    "explanation": "SI = P×R×T/100. 4500 = P×10×3/100. P = 4500×100/30 = 15000.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q30",
+    "question": "Which census number was conducted in Nepal in 2078 BS?",
+    "options": [
+      "11th",
+      "12th",
+      "13th",
+      "14th"
+    ],
+    "correctIndex": 1,
+    "explanation": "The 2078 BS census was the 12th census of Nepal. Census is conducted every 10 years.",
+    "subject": "GK"
+  },
+  {
+    "id": "q31",
+    "question": "When was Mahaguru Falgunanda declared a national hero?",
+    "options": [
+      "2065 BS",
+      "2066 BS",
+      "2067 BS",
+      "2068 BS"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mahaguru Falgunanda was declared a national hero in 2066 BS.",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
+    "question": "Which country/territory has the highest population density in the world?",
+    "options": [
+      "Monaco",
+      "Macau",
+      "Singapore",
+      "Hong Kong"
+    ],
+    "correctIndex": 1,
+    "explanation": "Macau has the highest population density in the world. Lowest = Greenland. 2nd highest = Monaco. 2nd lowest = Mongolia.",
+    "subject": "GK"
+  },
+  {
+    "id": "q33",
+    "question": "Which philosopher said 'Religion is knowledge and knowledge is religion'?",
+    "options": [
+      "Plato",
+      "Socrates",
+      "Aristotle",
+      "Confucius"
+    ],
+    "correctIndex": 1,
+    "explanation": "Socrates said this.",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "When is Language Day celebrated in Nepal?",
+    "options": [
+      "Chaitra 29",
+      "Chaitra 30",
+      "Chaitra 28",
+      "Baisakh 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Language Day is celebrated on Chaitra 29 for Nepali language promotion.",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "What was the animal tax called during the Lichhavi period?",
+    "options": [
+      "Bhokkar",
+      "Bhagkar",
+      "Mallkar",
+      "Sukkar"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bhokkar was the tax on animals during the Lichhavi period. Bhagkar = agriculture tax. Mallkar = buffalo tax. Sukkar = pig tax.",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "What is the term length of National Assembly members?",
+    "options": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "7 years"
+    ],
+    "correctIndex": 2,
+    "explanation": "National Assembly members serve 6 years.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q37",
+    "question": "Where was the 22nd International Tax Conference 2025 held?",
+    "options": [
+      "Nepal",
+      "India",
+      "Sri Lanka",
+      "Maldives"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 22nd International Tax Conference 2025 was held in Nepal from 2082 Mangsir 2 to 5.",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "Who first used the term 'ecosystem'?",
+    "options": [
+      "A.G. Tansley",
+      "Ernest Haeckel",
+      "J.C. Farman",
+      "Barbara Ward"
+    ],
+    "correctIndex": 0,
+    "explanation": "A.G. Tansley first used the term 'ecosystem' and is known as the 'Father of Ecosystem'. Ernest Haeckel = first used 'ecology'. J.C. Farman = discovered the ozone layer. Barbara Ward = first used 'sustainable development'.",
     "subject": "SCIENCE"
   },
   {
     "id": "q39",
-    "question": "Which river's mythological name is Mahaprabha?",
+    "question": "Which was the first country to establish diplomatic relations with Nepal?",
     "options": [
-      "Rapti",
-      "Likhu",
-      "Arun",
-      "Myagdi"
+      "Britain",
+      "India",
+      "China",
+      "France"
     ],
-    "correctIndex": 2,
-    "explanation": "Arun River's mythological name is Mahaprabha. Rapti = Achiravati, Likhu = Hemganga, Myagdi = Mangala.",
+    "correctIndex": 0,
+    "explanation": "Britain was the first country.",
     "subject": "GK"
   },
   {
     "id": "q40",
-    "question": "Who was the first Governor of Gandaki Province?",
+    "question": "Which is the religious book of Christianity?",
     "options": [
-      "Baburam Kuwar",
-      "Krishna Chandra Pokharel",
-      "Netranath Adhikari",
-      "Bishnu Prasad Nepal"
+      "Quran",
+      "Tripitaka",
+      "Bible",
+      "Vedas"
     ],
-    "correctIndex": 0,
-    "explanation": "Baburam Kuwar was the first Governor. Krishna Chandra Pokharel = first CM, Netranath Adhikari = first Speaker, Bishnu Prasad Nepal = current Lok Sewa Aayog Chairman.",
+    "correctIndex": 2,
+    "explanation": "The Bible is the religious book of Christianity. Quran = Islam. Tripitaka = Buddhism. Vedas = Hinduism.",
     "subject": "GK"
   },
   {
     "id": "q41",
-    "question": "Who was appointed as Nepal's new Attorney General?",
+    "question": "In which community do families fight during marriage?",
     "options": [
-      "Bikasman Paudel",
-      "Govinda KC",
-      "Narayan Datt Kadel",
-      "Ram Krishna Sitaula"
+      "Thami",
+      "Limbu",
+      "Kumal",
+      "Jhangad"
     ],
     "correctIndex": 2,
-    "explanation": "Narayan Datt Kadel was appointed on 2082 Chaitra 22 as the 31st Attorney General. 30th was Sabita Bhandari, the first female Attorney General.",
+    "explanation": "Kumal = fight during marriage. Thami=marriage after death, Limbu=fire guns, Jhangad=exchange sindur.",
     "subject": "GK"
   },
   {
     "id": "q42",
-    "question": "Which is Nepal's largest province by area?",
+    "question": "Against which king's autocratic rule did Britain's Glorious Revolution take place?",
     "options": [
-      "Bagmati",
-      "Lumbini",
-      "Karnali",
-      "Sudurpashchim"
+      "King John",
+      "King Ramses II",
+      "King James I",
+      "King James II"
     ],
-    "correctIndex": 2,
-    "explanation": "Karnali (27,984 sq km, 19% of Nepal).",
+    "correctIndex": 3,
+    "explanation": "Britain's Glorious Revolution in 1688 took place against the autocratic rule of King James II, leading to the establishment of constitutional monarchy.",
     "subject": "GK"
   },
   {
     "id": "q43",
-    "question": "Which river in Nepal flows in two directions with the same name?",
+    "question": "When was Nepal's new map (Chuchhe Naksha) made public?",
     "options": [
-      "Koshi",
-      "Gandaki",
-      "Rapti",
-      "Karnali"
+      "2077 Jestha 7",
+      "2077 Jestha 5",
+      "2077 Asar 4",
+      "2077 Saun 3"
     ],
-    "correctIndex": 2,
-    "explanation": "The Rapti River flows in two directions with the same name in Nepal.",
+    "correctIndex": 0,
+    "explanation": "The new map was made public on 2077 Jestha 7. It was approved by the cabinet on Jestha 5, and the constitution was amended on Asar 4.",
     "subject": "GK"
   },
   {
     "id": "q44",
-    "question": "Which Buddha Jayanti was celebrated in 2082 BS?",
+    "question": "What is the science that studies the universe?",
     "options": [
-      "2566th",
-      "2577th",
-      "2578th",
-      "2569th"
+      "Cosmology",
+      "Astronomy",
+      "Astrophysics",
+      "Astrology"
     ],
-    "correctIndex": 3,
-    "explanation": "The 2569th Buddha Jayanti was celebrated in 2082 BS. This commemorates the birth of Siddhartha Gautam (Buddha).",
+    "correctIndex": 0,
+    "explanation": "Cosmology is the science that studies the universe.",
     "subject": "GK"
   },
   {
     "id": "q45",
-    "question": "How many constituencies were there in the first general election of 2015 BS?",
+    "question": "Who won the Ballon d'Or 2025?",
     "options": [
-      "108",
-      "109",
-      "110",
-      "111"
+      "Kylian Mbappe",
+      "Ousmane Dembele",
+      "Erling Haaland",
+      "Lionel Messi"
     ],
     "correctIndex": 1,
-    "explanation": "The first general election in 2015 BS had 109 constituencies. It was held from 2015 Falgun 7 to 2016 Baisakh 16. Nepali Congress won 74 seats. BP Koirala became the first elected Prime Minister.",
+    "explanation": "Ousmane Dembele won the Ballon d'Or 2025.",
     "subject": "GK"
   },
   {
     "id": "q46",
-    "question": "When did the Government of Nepal approve the Artificial Intelligence (AI) Policy 2082?",
+    "question": "When was the Nepal Red Cross Society established?",
     "options": [
-      "2082 Jestha 26",
-      "2082 Asar 26",
-      "2082 Saun 26",
-      "2082 Bhadau 26"
+      "2020 Bhadra 19",
+      "2033 Saun 12",
+      "2039 Bhadra 21",
+      "2068 Saun 22"
     ],
-    "correctIndex": 2,
-    "explanation": "The Government of Nepal approved the AI Policy 2082 on 2082 Saun 26.",
+    "correctIndex": 0,
+    "explanation": "Nepal Red Cross Society was established on 2020 Bhadra 19. Blood transfusion service started on 2033 Saun 12. Nepal Cancer Relief Society = 2039 Bhadra 21. Public smoking ban = 2068 Saun 22.",
     "subject": "GK"
   },
   {
     "id": "q47",
-    "question": "When did Nepal Telecom start robot technology for customer service?",
+    "question": "Which district of Gandaki has the highest population density?",
     "options": [
-      "2081 Mangsir 1",
-      "2081 Mangsir 2",
-      "2081 Mangsir 3",
-      "2082 Mangsir 1"
+      "Manang",
+      "Kaski",
+      "Gorkha",
+      "Syangja"
     ],
     "correctIndex": 1,
-    "explanation": "Nepal Telecom started robot technology for customer service on 2081 Mangsir 2.",
+    "explanation": "Kaski = 297 people/sq km (highest). Manang = 3 people/sq km (lowest). Lowest sex ratio = Syangja (85.57). Highest sex ratio = Manang (129.44).",
     "subject": "GK"
   },
   {
     "id": "q48",
-    "question": "Which districts are famous for cardamom in Koshi Province?",
+    "question": "Who led the American War of Independence?",
     "options": [
-      "Taplejung and Ilam",
-      "Ilam only",
-      "Ilam and Jhapa",
-      "Ilam and Dhankuta"
+      "George Washington",
+      "George Grenville",
+      "Thomas Jefferson",
+      "Red Indian"
     ],
     "correctIndex": 0,
-    "explanation": "Taplejung and Ilam are both famous for cardamom cultivation. Ilam is also famous for ginger, Ilam and Jhapa for tea, and Ilam and Dhankuta for potato.",
+    "explanation": "George Washington led the American War of Independence. Grenville = British King at the time. Jefferson = drafted the Declaration of Independence. Red Indian = Native Americans.",
     "subject": "GK"
   },
   {
     "id": "q49",
-    "question": "Which type of soil is considered best for agricultural production?",
+    "question": "Who built Pashupatinath Temple?",
     "options": [
-      "Sandy soil",
-      "Hilly soil",
-      "Marshy soil",
-      "Alluvial soil"
+      "King Dharmaraj",
+      "King Manadev",
+      "King Prachanda Dev",
+      "King Anshuvarma"
     ],
-    "correctIndex": 3,
-    "explanation": "Alluvial soil (तलैया माटो) is considered the best for agricultural production due to its high fertility.",
+    "correctIndex": 2,
+    "explanation": "Pashupatinath Temple was built by King Prachanda Dev.",
     "subject": "GK"
   },
   {
     "id": "q50",
-    "question": "When was the World Health Organization (WHO) established?",
+    "question": "Who was the last king of the Kirat period?",
     "options": [
-      "April 7, 1948",
-      "April 7, 1953",
-      "April 10, 1953",
-      "April 10, 1948"
+      "Jayakamadev",
+      "Aakshay Gupta",
+      "Bhuvan Singh",
+      "Gasti"
     ],
-    "correctIndex": 0,
-    "explanation": "WHO was established on April 7, 1948. Headquarters = Geneva, Switzerland. Nepal became a member in 1953.",
+    "correctIndex": 3,
+    "explanation": "Gasti was the last king of the Kirat period. Bhuvan Singh = last king of Maheshpal dynasty. Aakshay Gupta = last king of Gopal dynasty. Jayakamadev = last king of Lichhavi period.",
     "subject": "GK"
   }
 ]

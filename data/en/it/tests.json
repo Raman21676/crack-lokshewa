@@ -38,5 +38,13 @@
         "timeLimit": 45,
         "difficulty": "Medium",
         "locked": false
+    },
+    {
+        "id": "set6",
+        "title": "IT Officer Model Set 6",
+        "questionCount": 50,
+        "timeLimit": 45,
+        "difficulty": "Hard",
+        "locked": false
     }
 ]

@@ -22,5 +22,13 @@
         "timeLimit": 30,
         "difficulty": "Hard",
         "locked": false
+    },
+    {
+        "id": "set4",
+        "title": "Set 4: IQ & Reasoning",
+        "questionCount": 30,
+        "timeLimit": 30,
+        "difficulty": "Medium",
+        "locked": false
     }
 ]

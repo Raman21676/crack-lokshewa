@@ -1,0 +1,402 @@
+[
+  {
+    "id": "q1",
+    "question": "हालको प्रेजेन्टेसनमा नयाँ स्लाइड थप्न हामी कुन सर्टकट प्रयोग गर्छौं?",
+    "options": ["CTRL + M", "CTRL + N", "CTRL + O", "CTRL + P"],
+    "correctIndex": 0,
+    "explanation": "CTRL + M ले PowerPoint मा नयाँ स्लाइड थप्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q2",
+    "question": "ASCII ले केको संक्षिप्त रूप हो?",
+    "options": ["American Standard Code for Information Interchange", "American Scientific Code for Information Interchange", "American Scientific Code for Interchanging Information", "American Standard Code for Interchanging Information"],
+    "correctIndex": 0,
+    "explanation": "ASCII को पूर्ण रूप American Standard Code for Information Interchange हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q3",
+    "question": "BIOS ले केको संक्षिप्त रूप हो?",
+    "options": ["Base Interface Operating System", "Basic Input Output System", "Base Interaction for Output System", "Basic Interface to Operating System"],
+    "correctIndex": 1,
+    "explanation": "BIOS को पूर्ण रूप Basic Input Output System हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q4",
+    "question": "तार्किक र अंकगणितीय कार्यहरू प्रशोधन गर्ने एकाइ कुन हो?",
+    "options": ["ALU", "Control Unit", "Memory Unit", "Cache Unit"],
+    "correctIndex": 0,
+    "explanation": "ALU (Arithmetic Logic Unit) ले तार्किक र अंकगणितीय कार्यहरू सम्पादन गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q5",
+    "question": "मानवीय कमजोरीको फाइदा उठाएर व्यक्तिगत जानकारी र सुरक्षित प्रणालीमा पहुँच प्राप्त गर्ने कार्यलाई के भनिन्छ?",
+    "options": ["Trojan Monuver", "DDOS exectuin", "Social Engineering", "Worm Infiltration"],
+    "correctIndex": 2,
+    "explanation": "Social Engineering ले मानवीय मनोविज्ञानको दुरुपयोग गरी अनधिकृत पहुँच प्राप्त गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q6",
+    "question": "निम्नमध्ये कुन प्रोटोकलले इमेल सुविधा प्रदान गर्छ?",
+    "options": ["FTP", "SMTP", "TELNET", "SNMP"],
+    "correctIndex": 1,
+    "explanation": "SMTP (Simple Mail Transfer Protocol) इमेलका लागि प्रयोग गरिन्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q7",
+    "question": "द्वितीयक मेमोरीको तुलनामा कम्प्युटरको प्राथमिक मेमोरी कस्तो हुन्छ?",
+    "options": ["ठूलो", "सस्तो", "छिटो", "ढिलो"],
+    "correctIndex": 2,
+    "explanation": "प्राथमिक मेमोरी (RAM) द्वितीयक मेमोरी (HDD/SSD) भन्दा छिटो हुन्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q8",
+    "question": "हेक्साडेसिमल संख्याहरू केको मिश्रण हुन्?",
+    "options": ["Octal र Decimal Numbers", "Binary र Octal Numbers", "Letters र Decimal Numbers", "Binary र Decimal Numbers"],
+    "correctIndex": 2,
+    "explanation": "हेक्साडेसिमलमा ०-९ (दशमलव अंक) र A-F (अक्षर) प्रयोग गरिन्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q9",
+    "question": "तपाईंको कम्प्युटरमा भाइरस प्रवेश गरेको शंका छ। भाइरसले कुनलाई असर गर्दैन?",
+    "options": ["CMOS", "Boot Sector", "Floppy Disks", "Program Files"],
+    "correctIndex": 0,
+    "explanation": "CMOS BIOS सेटिङ्स स्टोर गर्ने हार्डवेयर मेमोरी हो; भाइरसले सामान्यतया सफ्टवेयर/स्टोरेजलाई असर गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q10",
+    "question": "निम्नमध्ये कुन अनधिकृत पहुँच रोक्न सम्बन्धित छ?",
+    "options": ["ICT Policy", "Privacy ACT", "Electronic Transaction Act", "National Communication Policy"],
+    "correctIndex": 1,
+    "explanation": "Privacy कानुनले व्यक्तिगत जानकारीको अनधिकृत पहुँच रोक्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q11",
+    "question": "ग्राफिकल युजर इन्टरफेस भएको र वेब पेजहरू प्रदर्शन तथा नेभिगेट गर्ने कम्प्युटर प्रोग्रामलाई के भनिन्छ?",
+    "options": ["Navigator", "File Explorer", "Web Browser", "Word Processor"],
+    "correctIndex": 2,
+    "explanation": "Web Browser ले वेब पेजहरू प्रदर्शन र नेभिगेट गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q12",
+    "question": "अर्को फंक्सनभित्र रहेको फंक्सनलाई के भनिन्छ?",
+    "options": ["Nested Function", "Round Function", "Sum Function", "Text Function"],
+    "correctIndex": 0,
+    "explanation": "Nested Function अर्को फंक्सनभित्र परिभाषित गरिएको फंक्सन हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q13",
+    "question": "पाठको पछाडि देखिने हल्का टेक्स्टलाई के भनिन्छ?",
+    "options": ["Air Mark", "Shade Mark", "Water Mark", "Shadow Mark"],
+    "correctIndex": 2,
+    "explanation": "Watermark कागजातको सामग्रीभन्दा पछाडि देखिने हल्का टेक्स्ट हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q14",
+    "question": "Word मा Page Break कसरी थप्ने?",
+    "options": ["Enter", "ALT + Enter", "CTRL + Enter", "SHIFT + Enter"],
+    "correctIndex": 2,
+    "explanation": "CTRL + Enter ले MS Word मा Page Break थप्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q15",
+    "question": "Ms-Word मा बारम्बार प्रयोग हुने कार्यहरू केको प्रयोग गरी स्वचालित बनाउन सकिन्छ?",
+    "options": ["Mail Merge", "Macro", "Thesaurus", "Spell Checker"],
+    "correctIndex": 1,
+    "explanation": "Macro ले MS Word मा दोहोरिने कार्यहरू स्वचालित बनाउँछ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q16",
+    "question": "Ms-Word मा निम्नमध्ये कुन सुविधाले गलत स्पेलिङ भएका शब्दहरू पत्ता लगाई टाइप गर्दै सच्याउन मद्दत गर्छ?",
+    "options": ["Spell Checker", "Auto Correct", "Find and Replace", "None of the above"],
+    "correctIndex": 0,
+    "explanation": "Spell Checker ले गलत स्पेलिङ भएका शब्दहरू पहिचान गरी सच्याउन मद्दत गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q17",
+    "question": "Indentation को प्रयोग केका लागि गरिन्छ?",
+    "options": ["पाठ पढ्न सजिलो बनाउन", "प्याराग्राफको रङ बदल्न", "पाठ वरिपरि बोर्डर लगाउन", "लाइन स्पेसिङ बदल्न"],
+    "correctIndex": 0,
+    "explanation": "Indentation ले पाठको पठनीयता र संरचना सुधार गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q18",
+    "question": "Gutter margin भनेको के हो?",
+    "options": ["प्रिन्ट गर्दा बायाँ मार्जिनमा थपिने", "प्रिन्ट गर्दा दायाँ मार्जिनमा थपिने", "प्रिन्ट गर्दा पानाको बाइन्डिङ साइडमा थपिने", "प्रिन्ट गर्दा पानाको बाहिरी भागमा थपिने"],
+    "correctIndex": 2,
+    "explanation": "Gutter margin बाइन्डिङ साइडमा थपिने अतिरिक्त ठाउँ हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q19",
+    "question": "Excel मा कुन फंक्सनले row का मानहरू column मा र column का मानहरू row मा सार्न मद्दत गर्छ?",
+    "options": ["INVERSE", "FLIP", "REVERSE", "TRANSPOSE"],
+    "correctIndex": 3,
+    "explanation": "TRANSPOSE फंक्सनले row लाई column र column लाई row मा सार्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q20",
+    "question": "कागजातमा गरिएका सबै परिवर्तनहरू अनुगमन गर्न कुन सुविधा प्रयोग गरिन्छ?",
+    "options": ["Edit Document", "Monitor Change", "Track Change", "Track All"],
+    "correctIndex": 2,
+    "explanation": "Track Changes ले कागजातमा गरिएका सबै सम्पादनहरूको निगरानी गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q21",
+    "question": "निम्नमध्ये कुन cell सामग्री सम्पादन गर्ने सही विधि होइन?",
+    "options": ["Alt Key थिच्ने", "F2 Key थिच्ने", "Formula bar मा क्लिक गर्ने", "Cell मा डबल क्लिक गर्ने"],
+    "correctIndex": 0,
+    "explanation": "Alt key ले Excel मा cell सामग्री सम्पादन गर्दैन।",
+    "subject": "GK"
+  },
+  {
+    "id": "q22",
+    "question": "................... ले स्रोत डाटा परिवर्तन हुँदा Pivot Table को डाटा अपडेट गर्छ।",
+    "options": ["Format Report", "Pivot Table", "Refresh Data", "Show Data"],
+    "correctIndex": 2,
+    "explanation": "Refresh Data ले स्रोत डाटा परिवर्तन हुँदा Pivot Table अपडेट गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q23",
+    "question": "अर्को sheet मा रहेको cell बाट डाटा लिनु के भनिन्छ?",
+    "options": ["Accessing", "Referencing", "Filtering", "Customizing"],
+    "correctIndex": 1,
+    "explanation": "Referencing ले अन्य sheet का cell बाट डाटा लिन मद्दत गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q24",
+    "question": "Goal Seek मा 'by changing cell' ले कुन cell लाई जनाउँछ?",
+    "options": ["परिणाम फर्मुला भएको", "नियम भएको", "जुन गणना गर्न खोजिएको", "लक्ष्य मान भएको"],
+    "correctIndex": 0,
+    "explanation": "Goal Seek मा 'by changing cell' ले जसको परिणाम समायोजन गरिन्छ, त्यो फर्मुला भएको cell लाई जनाउँछ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q25",
+    "question": "दैनिक आधारमा शेयर बजारको प्रगति ट्र्याक गर्न कुन चार्ट उपयुक्त हुन्छ?",
+    "options": ["Pie", "Line", "Bar", "Scatter"],
+    "correctIndex": 1,
+    "explanation": "Line chart ले समयसँगै हुने परिवर्तन ट्र्याक गर्न उत्तम हुन्छ, जस्तै शेयर मूल्य।",
+    "subject": "GK"
+  },
+  {
+    "id": "q26",
+    "question": "Operating System ले फाइलहरूको जानकारी कुन तालिकामा राख्छ?",
+    "options": ["File Folder Table (FFT)", "File Index Table (FIT)", "File Allocation Table (FAT)", "Directory Index Table (DIT)"],
+    "correctIndex": 2,
+    "explanation": "FAT (File Allocation Table) ले OS मा फाइलको जानकारी भण्डारण गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "निम्नमध्ये कुन भनाइ FALSE हो?",
+    "options": ["Recycle Bin मा मेटिएका फाइलहरू भेट्न सकिन्छ", "Recycle Bin का फाइलहरू आवश्यक परेमा पुनर्स्थापित गर्न सकिन्छ", "Recycle Bin मा फाइल पठाएर disk को खाली ठाउँ बढाउन सकिन्छ", "Recycle Bin खाली गर्न राइट क्लिक गरी Empty Recycle Bin छान्न सकिन्छ"],
+    "correctIndex": 2,
+    "explanation": "Recycle Bin खाली नगरेसम्म disk को खाली ठाउँ बढ्दैन।",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "निम्नमध्ये कुन System Tool होइन?",
+    "options": ["Disk Management", "Disk Defragmenter", "Backup", "Virus Scanning"],
+    "correctIndex": 3,
+    "explanation": "Virus Scanning सुरक्षा उपकरण हो, system maintenance tool होइन।",
+    "subject": "GK"
+  },
+  {
+    "id": "q29",
+    "question": "Disk को volume नाम सिर्जना वा परिवर्तन गर्न कुन Command प्रयोग गरिन्छ?",
+    "options": ["NAME", "LABLE", "VOLUME", "FAT"],
+    "correctIndex": 1,
+    "explanation": "LABEL command ले DOS मा volume नाम सिर्जना वा परिवर्तन गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q30",
+    "question": "Microsoft Access के हो?",
+    "options": ["RDBMS", "OODBMS", "ORDBMS", "Network Database Model"],
+    "correctIndex": 0,
+    "explanation": "MS Access Relational Database Management System (RDBMS) हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q31",
+    "question": "निम्नमध्ये कुन database object ले database मा जानकारीको प्रश्न सोधेर परिणाम प्रदर्शन गर्छ?",
+    "options": ["Tables", "Reports", "Queries", "Forms"],
+    "correctIndex": 2,
+    "explanation": "Queries ले database बाट निश्चित डाटा निकालेर प्रदर्शन गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
+    "question": "Table बीचको सम्बन्ध देखाउन कुन key प्रयोग गरिन्छ?",
+    "options": ["Primary key", "Secondary Key", "Foreign Key", "Tertiary Key"],
+    "correctIndex": 2,
+    "explanation": "Foreign Key ले table बीच सम्बन्ध स्थापित गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q33",
+    "question": "निम्नमध्ये कुनले database बाट कुनै पनि प्रकारको डाटा निकाल्छ?",
+    "options": ["Key", "Query", "Indexing", "Relationship"],
+    "correctIndex": 1,
+    "explanation": "Query ले database बाट डाटा निकाल्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "इलेक्ट्रोनिक ट्रान्जेक्सन ऐन २०६३ अनुसार \"अपिलीय अदालतको सदस्य पद\" को कार्यकाल कति हुन्छ?",
+    "options": ["1 वर्ष", "2 वर्ष", "5 वर्ष", "10 वर्ष"],
+    "correctIndex": 2,
+    "explanation": "नेपालको इलेक्ट्रोनिक ट्रान्जेक्सन ऐन २०६३ अनुसार कार्यकाल ५ वर्ष हुन्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "Twitter मा पढ्न र लेख्न सकिने साना सन्देशहरूलाई के भनिन्छ?",
+    "options": ["Twitter", "Tweezers", "Tweets", "Twit this"],
+    "correctIndex": 2,
+    "explanation": "Twitter मा पठाइने सन्देशहरूलाई tweets भनिन्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "निम्नमध्ये कुन social media platform होइन?",
+    "options": ["Facebook", "Twitter", "Instagram", "Google"],
+    "correctIndex": 3,
+    "explanation": "Google खोज इन्जिन हो, मुख्यतया social media platform होइन।",
+    "subject": "GK"
+  },
+  {
+    "id": "q37",
+    "question": "हालको सूचना तथा सञ्चार प्रविधि नीति कुन वर्षमा लागू भएको हो?",
+    "options": ["२०७१", "२०७२", "२०७०", "२०७४"],
+    "correctIndex": 1,
+    "explanation": "नेपालको हालको ICT नीति २०७२ बीएस (२०१५ ईस्वी) मा लागू भएको हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "मान्य IP address को उदाहरण छान्नुहोस्",
+    "options": ["www.google.com", "123.78.55.185", "www.ip.com", "1.888.234.578"],
+    "correctIndex": 1,
+    "explanation": "मान्य IPv4 address मा डटले छुट्याइएका चार दशमलव संख्या (०-२५५) हुन्छन्।",
+    "subject": "GK"
+  },
+  {
+    "id": "q39",
+    "question": "HTML मा drop down सिर्जना गर्न कुन tag प्रयोग गरिन्छ?",
+    "options": ["input", "select", "text", "textarea"],
+    "correctIndex": 1,
+    "explanation": "HTML मा <select> tag ले drop down list सिर्जना गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "सबै स्लाइडमा संस्थाको लोगो देखाउन चाहनुहुन्छ भने, त्यो कहाँ राख्नुपर्छ?",
+    "options": ["Slide Master", "Design Master", "Design Template", "None of the above"],
+    "correctIndex": 0,
+    "explanation": "Slide Master ले प्रेजेन्टेसनका सबै स्लाइडमा तत्वहरू लागू गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q41",
+    "question": "PowerPoint को कुन view ले प्रेजेन्टेसनको प्रत्येक स्लाइडलाई thumbnail का रूपमा देखाउँछ र स्लाइड पुनर्व्यवस्थित गर्न उपयोगी हुन्छ?",
+    "options": ["Slide Master", "Slide Show", "Slide Sorter", "Notes Page"],
+    "correctIndex": 2,
+    "explanation": "Slide Sorter view ले thumbnail देखाउँछ जसले सजिलै पुनर्व्यवस्थित गर्न मद्दत गर्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q42",
+    "question": "हालको प्रेजेन्टेसनमा नयाँ स्लाइड थप्ने सर्टकट key कुन हो?",
+    "options": ["Ctrl + N", "Ctrl + M", "Ctrl + S", "All of the above"],
+    "correctIndex": 1,
+    "explanation": "Ctrl + M ले PowerPoint मा नयाँ स्लाइड थप्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q43",
+    "question": "Ms Excel मा A1, B1 र C1 तीन cell जोड्ने सही फर्मुला के हो?",
+    "options": ["=Sum(A1,B1,C1)", "=SUM(A1:C1)", "=A1+B1+C1", "All of the above"],
+    "correctIndex": 3,
+    "explanation": "Excel मा cell जोड्ने यी तीनै विधि मान्य छन्।",
+    "subject": "GK"
+  },
+  {
+    "id": "q44",
+    "question": "Copy गर्दा परिवर्तन नहुने cell referencing कुन हो?",
+    "options": ["Absolute cell addressing", "Comparative cell referencing", "Relative cell referencing", "None of the above"],
+    "correctIndex": 0,
+    "explanation": "Absolute reference ($ सहित) copy गर्दा परिवर्तन हुँदैन।",
+    "subject": "GK"
+  },
+  {
+    "id": "q45",
+    "question": "Ms Excel मा कार्यहरू स्वचालित गर्ने आदेशहरूको सेटलाई के भनिन्छ?",
+    "options": ["Linkage", "Function", "Micro", "Macro"],
+    "correctIndex": 3,
+    "explanation": "Macro भनेको Excel मा कार्यहरू स्वचालित गर्ने आदेशहरूको सेट हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q46",
+    "question": "MS Excel कुन Operating System मा आधारित छ?",
+    "options": ["OS/2", "Windows", "Unix", "DOS"],
+    "correctIndex": 1,
+    "explanation": "MS Excel मुख्यतया Windows-based अनुप्रयोग हो।",
+    "subject": "GK"
+  },
+  {
+    "id": "q47",
+    "question": "Column D र E को बीचमा column थप्न के गर्नुपर्छ?",
+    "options": ["Column D छानी insert गर्ने", "Column E छानी insert गर्ने", "Column D र E दुवै छानी insert गर्ने", "None of the above"],
+    "correctIndex": 1,
+    "explanation": "Column E छानी insert गर्दा E अघि (D र E बीचमा) नयाँ column थपिन्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q48",
+    "question": "MS Excel मा default chart सबैभन्दा सजिलै कसरी थप्ने?",
+    "options": ["Select data -> Chart wizard", "Insert -> Chart from menu", "Select data and press F11", "None of the above"],
+    "correctIndex": 2,
+    "explanation": "डाटा छानी F11 थिच्दा छिटो default chart सिर्जना हुन्छ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q49",
+    "question": "Ms Excel मा absolute cell reference को प्रतीक कुन हो?",
+    "options": ["#", "$", "%", "="],
+    "correctIndex": 1,
+    "explanation": "Dollar sign ($) ले Excel मा absolute cell reference जनाउँछ।",
+    "subject": "GK"
+  },
+  {
+    "id": "q50",
+    "question": "Ms Word सुरु गर्ने फाइल कुन हो?",
+    "options": ["Word 2003.exe", "Word.exe", "Winword.exe", "Ms Word.exe"],
+    "correctIndex": 2,
+    "explanation": "Winword.exe Microsoft Word सुरु गर्ने executable फाइल हो।",
+    "subject": "GK"
+  }
+]

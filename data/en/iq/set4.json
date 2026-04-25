@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "question": "Find the next term in the series: nd, iy, dt, yo, tj, ?",
+    "options": ["oe", "of", "nq", "mp"],
+    "correctIndex": 0,
+    "subject": "IQ",
+    "explanation": "First letters decrease by 5: n→i→d→y→t→o→j. Second letters also decrease by 5 with wraparound: d→y→t→o→j→e.",
+    "reference": "Series"
+  },
+  {
+    "id": 2,
+    "question": "Find the missing term in the series: ACD, EEF, IGH, ?, UKC",
+    "options": ["IJT", "OIJ", "UIJ", "OMN"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "First letters: A(1), E(5), I(9), O(15), U(21) — differences +4,+4,+6,+6. Second letters: C(3), E(5), G(7), I(9), K(11) — +2 each. Third letters: D(4), F(6), H(8), J(10), L(12) — +2 each.",
+    "reference": "Series"
+  },
+  {
+    "id": 3,
+    "question": "Find the next letter in the series: A, C, E, G, ?",
+    "options": ["P", "I", "N", "L"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "Alternating letters: A(1), C(3), E(5), G(7), I(9) — +2 each.",
+    "reference": "Series"
+  },
+  {
+    "id": 4,
+    "question": "Find the next letter in the series: A, D, G, ?",
+    "options": ["L", "K", "J", "I"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "A(1), D(4), G(7), J(10) — +3 each.",
+    "reference": "Series"
+  },
+  {
+    "id": 5,
+    "question": "Find the next term in the series: AC, DF, GI, ?",
+    "options": ["MO", "KM", "JL", "HJ"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "First letters: A(1), D(4), G(7), J(10) — +3. Second letters: C(3), F(6), I(9), L(12) — +3.",
+    "reference": "Series"
+  },
+  {
+    "id": 6,
+    "question": "Find the next term in the series: GH, KL, OP, ?",
+    "options": ["QR", "ST", "TU", "RS"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "First letters: G(7), K(11), O(15), S(19) — +4. Second letters: H(8), L(12), P(16), T(20) — +4.",
+    "reference": "Series"
+  },
+  {
+    "id": 7,
+    "question": "Find the next term in the series: CEG, HJL, MOQ, ?",
+    "options": ["UVX", "RTV", "SUV", "QSU"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "First letters: C(3), H(8), M(13), R(18) — +5. Second: E(5), J(10), O(15), T(20) — +5. Third: G(7), L(12), Q(17), V(22) — +5.",
+    "reference": "Series"
+  },
+  {
+    "id": 8,
+    "question": "Find the next letter in the series: A, E, I, ?",
+    "options": ["P", "O", "M", "L"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "A(1), E(5), I(9), M(13) — +4 each.",
+    "reference": "Series"
+  },
+  {
+    "id": 9,
+    "question": "Find the next letter in the series: P, N, L, ?",
+    "options": ["J", "H", "I", "M"],
+    "correctIndex": 0,
+    "subject": "IQ",
+    "explanation": "P(16), N(14), L(12), J(10) — -2 each.",
+    "reference": "Series"
+  },
+  {
+    "id": 10,
+    "question": "Find the next term in the series: ZY, VU, RQ, ?",
+    "options": ["ML", "NM", "ON", "PO"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "First letters: Z(26), V(22), R(18), N(14) — -4. Second: Y(25), U(21), Q(17), M(13) — -4.",
+    "reference": "Series"
+  },
+  {
+    "id": 11,
+    "question": "Find the next letter in the series: M, Q, U, ?",
+    "options": ["Z", "Y", "X", "W"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "M(13), Q(17), U(21), Y(25) — +4 each.",
+    "reference": "Series"
+  },
+  {
+    "id": 12,
+    "question": "Find the next term in the series: KM, NP, QS, ?",
+    "options": ["TV", "SU", "TU", "ST"],
+    "correctIndex": 0,
+    "subject": "IQ",
+    "explanation": "First letters: K(11), N(14), Q(17), T(20) — +3. Second: M(13), P(16), S(19), V(22) — +3.",
+    "reference": "Series"
+  },
+  {
+    "id": 13,
+    "question": "Find the next term in the series: AL, BM, CN, ?",
+    "options": ["DP", "EP", "DO", "DN"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "First letters: A(1), B(2), C(3), D(4) — +1. Second: L(12), M(13), N(14), O(15) — +1.",
+    "reference": "Series"
+  },
+  {
+    "id": 14,
+    "question": "Find the next term in the series: BEH, KNQ, TWZ, ?",
+    "options": ["DGJ", "CFI", "YBE", "UXA"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "First letters: B(2), K(11), T(20), C(3) — +9 mod 26. Second: E(5), N(14), W(23), F(6) — +9 mod 26. Third: H(8), Q(17), Z(26), I(9) — +9 mod 26.",
+    "reference": "Series"
+  },
+  {
+    "id": 15,
+    "question": "Find the next term in the series: CDE, GHI, LMN, ?",
+    "options": ["STU", "RST", "OPQ", "QRS"],
+    "correctIndex": 3,
+    "subject": "IQ",
+    "explanation": "Each group is 3 consecutive letters with +2 gap between groups: CDE, GHI (skip F), LMN (skip K), QRS (skip P).",
+    "reference": "Series"
+  },
+  {
+    "id": 16,
+    "question": "Find the next term in the series: PHOTOPRAPHER, HOTOGRAPHE, OTOGRAPH, ?",
+    "options": ["OTOGRA", "TOGRA", "TOGRAPH", "None of the above"],
+    "correctIndex": 3,
+    "subject": "IQ",
+    "explanation": "Remove first 2 letters each time: PHOTOPRAPHER → HOTOGRAPHE (remove PH), HOTOGRAPHE → OTOGRAPH (remove HO), OTOGRAPH → TOGRAPH (remove OT). Next would be TOGRAPH → GRAPH (remove TO). Since GRAPH is not in the options, the answer is None of the above.",
+    "reference": "Series"
+  },
+  {
+    "id": 17,
+    "question": "Find the missing term in the series: A, CD, GHI, ?, UVWXY",
+    "options": ["LMNO", "NOPQ", "MNOP", "MNO"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "A(1 letter), CD(2 letters), GHI(3 letters), MNOP(4 letters), UVWXY(5 letters). Each group starts where previous ended +1, with increasing group size.",
+    "reference": "Series"
+  },
+  {
+    "id": 18,
+    "question": "Find the missing term in the series: BA, ED, JI, ?, ZY",
+    "options": ["OP", "QP", "PQ", "PO"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "B(2)A(1), E(5)D(4), J(10)I(9), Q(17)P(16), Z(26)Y(25). First letters: 2, 5, 10, 17, 26 — differences: +3, +5, +7, +9. Second letters: 1, 4, 9, 16, 25 — squares: 1², 2², 3², 4², 5².",
+    "reference": "Series"
+  },
+  {
+    "id": 19,
+    "question": "Find the missing term in the series: AZ, GT, MN, ?, YB",
+    "options": ["SK", "JH", "TS", "SH"],
+    "correctIndex": 3,
+    "subject": "IQ",
+    "explanation": "First letters: A(1), G(7), M(13), S(19), Y(25) — +6 each. Second: Z(26), T(20), N(14), H(8), B(2) — -6 each.",
+    "reference": "Series"
+  },
+  {
+    "id": 20,
+    "question": "Complete the pattern: A-BBC-AAB-CCA-BBCC",
+    "options": ["ACBA", "BACB", "ABBA", "CABA"],
+    "correctIndex": 0,
+    "subject": "IQ",
+    "explanation": "Filling the blanks with ACBA gives the repeating pattern AACBBCCAABBCA... which follows a consistent cyclic sequence.",
+    "reference": "Series"
+  },
+  {
+    "id": 21,
+    "question": "Complete the pattern: C-ACCAA-AA-BC-B",
+    "options": ["ABBA", "CBBB", "BBBB", "CCCC"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "Filling the blanks with CBBB completes the cyclic pattern of the given letter sequence.",
+    "reference": "Series"
+  },
+  {
+    "id": 22,
+    "question": "Find the next term in the series: KM2, IP5, GS8, EV11, ?",
+    "options": ["BY14", "BX14", "CY14", "CZ14"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "First letters: K(11), I(9), G(7), E(5), C(3) — -2 each. Second: M(13), P(16), S(19), V(22), Y(25) — +3 each. Numbers: 2, 5, 8, 11, 14 — +3 each.",
+    "reference": "Series"
+  },
+  {
+    "id": 23,
+    "question": "Find the next term in the series: 2A7, 4D9, 12G13, ?",
+    "options": ["48I21", "48J19", "4BJ21", "20J17"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "Numbers at start: 2, 4, 12, 48 — ×2, ×3, ×4. Middle letters: A(1), D(4), G(7), J(10) — +3 each. End numbers: 7, 9, 13, 19 — +2, +4, +6.",
+    "reference": "Series"
+  },
+  {
+    "id": 24,
+    "question": "Find the next letter in the series: A, G, M, ?",
+    "options": ["U", "T", "S", "R"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "A(1), G(7), M(13), S(19) — +6 each.",
+    "reference": "Series"
+  },
+  {
+    "id": 25,
+    "question": "Find the next letter in the series: B, F, K, ?",
+    "options": ["R", "Q", "P", "N"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "B(2), F(6), K(11), Q(17) — differences: +4, +5, +6.",
+    "reference": "Series"
+  },
+  {
+    "id": 26,
+    "question": "Barometer : Pressure :: Thermometer : ?",
+    "options": ["Light", "Air", "Temperature", "Electric Current"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "A barometer measures pressure; a thermometer measures temperature.",
+    "reference": "Analogy"
+  },
+  {
+    "id": 27,
+    "question": "Parsa : Birgunj :: Kaski : ?",
+    "options": ["Gandaki", "Pokhara", "Machhapuchhre", "Fewa"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "Birgunj is the district headquarters of Parsa district; Pokhara is the district headquarters of Kaski district.",
+    "reference": "Analogy"
+  },
+  {
+    "id": 28,
+    "question": "Peace : Dove :: Love : ?",
+    "options": ["Pigeon", "Cuckoo", "Swan", "Sparrow"],
+    "correctIndex": 0,
+    "subject": "IQ",
+    "explanation": "Dove is the symbol of peace; pigeon is also a symbol of love.",
+    "reference": "Analogy"
+  },
+  {
+    "id": 29,
+    "question": "What is to television what listener is to radio?",
+    "options": ["Artist", "Viewer", "Listener", "Presenter"],
+    "correctIndex": 1,
+    "subject": "IQ",
+    "explanation": "A radio has listeners; a television has viewers.",
+    "reference": "Analogy"
+  },
+  {
+    "id": 30,
+    "question": "Bird : Nest :: Horse : ?",
+    "options": ["Stable", "Elephant yard", "Stable/Horse-shed", "Shed"],
+    "correctIndex": 2,
+    "subject": "IQ",
+    "explanation": "A bird lives in a nest; a horse lives in a stable.",
+    "reference": "Analogy"
+  }
+]

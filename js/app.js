@@ -102,7 +102,7 @@ function t(key, replacements) {
 }
 
 // Cache-busting version — increment this after every data/content update
-var DATA_VERSION = 'v13';
+var DATA_VERSION = 'v15';
 
 function fetchJSON(url, callback) {
     var sep = url.indexOf('?') === -1 ? '?' : '&';

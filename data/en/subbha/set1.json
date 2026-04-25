@@ -1,123 +1,97 @@
 [
   {
     "id": "q1",
-    "question": "Which philosopher said 'Religion is knowledge and knowledge is religion'?",
+    "question": "Next triplet: CEG, HJL, MOQ, ?",
     "options": [
-      "Aristotle",
-      "Confucius",
-      "Plato",
-      "Socrates"
+      "SUV",
+      "QSU",
+      "UVX",
+      "RTV"
     ],
     "correctIndex": 3,
-    "explanation": "Socrates said this.",
-    "subject": "GK"
+    "explanation": "First letters: C(3), H(8), M(13), R(18) — +5. Second: E(5), J(10), O(15), T(20) — +5. Third: G(7), L(12), Q(17), V(22) — +5.",
+    "subject": "IQ"
   },
   {
     "id": "q2",
-    "question": "Which community counts a child as one year old immediately after birth?",
+    "question": "What is the average north-south width of Nepal in kilometers?",
     "options": [
-      "Dura",
-      "Byasi",
-      "Danuwar",
-      "Sherpa"
+      "193 km",
+      "200 km",
+      "185 km",
+      "210 km"
     ],
-    "correctIndex": 3,
-    "explanation": "Sherpa counts child as 1 year at birth. Danuwar=chicken blood wash, Dura=rooster/hen.",
+    "correctIndex": 0,
+    "explanation": "Nepal's average north-south width is approximately 193 kilometers.",
     "subject": "GK"
   },
   {
     "id": "q3",
-    "question": "Which of the following is NOT a communicable disease?",
+    "question": "Which of the following was NOT a cause of the Indian Independence Movement?",
     "options": [
-      "Measles",
-      "Cholera",
-      "Pneumonia",
-      "Asthma"
+      "Role of press",
+      "Awakening of Indians",
+      "Establishment of INC",
+      "Corrupt justice system"
     ],
     "correctIndex": 3,
-    "explanation": "Asthma is NOT a communicable disease. Measles, cholera, and pneumonia are all communicable (infectious) diseases.",
-    "subject": "SCIENCE"
+    "explanation": "Corrupt justice system was a cause of the French Revolution, not the Indian Independence Movement.",
+    "subject": "GK"
   },
   {
     "id": "q4",
-    "question": "What is the length of Tribhuvan Highway in kilometers?",
+    "question": "What is the second most spoken mother tongue in Koshi Province?",
     "options": [
-      "181.22 km",
-      "112.83 km",
-      "1027.67 km",
-      "188.79 km"
+      "Limbu",
+      "Tharu",
+      "Nepali",
+      "Maithili"
     ],
     "correctIndex": 3,
-    "explanation": "Tribhuvan Highway is 188.79 km. Mahendra Highway = 1027.67 km, Siddhartha Highway = 181.22 km, Araniko Highway = 112.83 km.",
+    "explanation": "Maithili is the second most spoken mother tongue in Koshi Province. Nepali is first, Limbu is third, and Tharu is fourth.",
     "subject": "GK"
   },
   {
     "id": "q5",
-    "question": "Which district HQ is at the highest altitude?",
+    "question": "Which is the brightest planet?",
     "options": [
-      "Dolpa",
-      "Namche",
-      "Jomsom",
-      "Simikot"
+      "Mercury",
+      "Venus",
+      "Jupiter",
+      "Saturn"
     ],
-    "correctIndex": 3,
-    "explanation": "Simikot in Humla district.",
-    "subject": "GK"
+    "correctIndex": 1,
+    "explanation": "Venus is the brightest planet. Mercury = Grey Planet, Jupiter = largest planet, Saturn = lowest density planet. Ganymede is the solar system's largest moon (orbits Jupiter).",
+    "subject": "SCIENCE"
   },
   {
     "id": "q6",
-    "question": "Who won the Ballon d'Or 2025?",
+    "question": "What is Nepal's rank in the Global Hunger Index 2025?",
     "options": [
-      "Kylian Mbappe",
-      "Ousmane Dembele",
-      "Erling Haaland",
-      "Lionel Messi"
+      "62nd",
+      "68th",
+      "72nd",
+      "78th"
     ],
-    "correctIndex": 1,
-    "explanation": "Ousmane Dembele won the Ballon d'Or 2025.",
+    "correctIndex": 2,
+    "explanation": "Nepal ranks 72nd in the Global Hunger Index 2025.",
     "subject": "GK"
   },
   {
     "id": "q7",
-    "question": "Which body prevents corruption in Nepal?",
+    "question": "Who led the Russian Revolution of 1905?",
     "options": [
-      "Election Commission",
-      "Public Service Commission",
-      "CIAA",
-      "NHRC"
+      "Nicholas II",
+      "Father Gapon",
+      "Bolshevik Party",
+      "Lenin's Red Army"
     ],
-    "correctIndex": 2,
-    "explanation": "CIAA (Commission for Investigation of Abuse of Authority).",
-    "subject": "CONSTITUTION"
+    "correctIndex": 1,
+    "explanation": "Father Gapon led the Russian Revolution of 1905. Nicholas II = Tsar at the time. Bolshevik Party = heroes of the revolution. Red Army = Lenin's army.",
+    "subject": "GK"
   },
   {
     "id": "q8",
-    "question": "Which is Nepal's smallest province by area?",
-    "options": [
-      "Gandaki",
-      "Koshi",
-      "Madhesh",
-      "Bagmati"
-    ],
-    "correctIndex": 2,
-    "explanation": "Madhesh Province (9,661 sq km).",
-    "subject": "GK"
-  },
-  {
-    "id": "q9",
-    "question": "In which country is the SAARC Agriculture Information Centre located?",
-    "options": [
-      "Nepal",
-      "India",
-      "Sri Lanka",
-      "Bangladesh"
-    ],
-    "correctIndex": 3,
-    "explanation": "SAARC Agriculture Information Centre is located in Bangladesh. Nepal's Agriculture Information Centre is in Chitwan.",
-    "subject": "GK"
-  },
-  {
-    "id": "q10",
     "question": "What percentage belongs to marginalized indigenous groups per Census 2078?",
     "options": [
       "10.5%",
@@ -130,462 +104,150 @@
     "subject": "GK"
   },
   {
-    "id": "q11",
-    "question": "When did the first jet plane land at Tribhuvan International Airport?",
+    "id": "q9",
+    "question": "Who was the shortest ruling Rana Prime Minister in Nepal's history?",
     "options": [
-      "2055 Push 2",
-      "2016 Magh 2",
-      "2023 Falgun 25",
-      "2064 Push 1"
+      "Bir Shumsher",
+      "Dev Shumsher",
+      "Chandra Shumsher",
+      "Bhim Shumsher"
     ],
-    "correctIndex": 2,
-    "explanation": "The first jet plane landed at Tribhuvan Airport on 2023 Falgun 25.",
+    "correctIndex": 1,
+    "explanation": "Dev Shumsher ruled for only 114 days, making him the shortest ruling Rana PM. Bir Shumsher = first to ride a motor vehicle. Chandra Shumsher = replaced Nepal Sambat with Bikram Sambat. Bhim Shumsher = established office hours 10 AM to 4 PM.",
+    "subject": "GK"
+  },
+  {
+    "id": "q10",
+    "question": "How many members are there in Koshi Province Assembly?",
+    "options": [
+      "93",
+      "110",
+      "56",
+      "60"
+    ],
+    "correctIndex": 0,
+    "explanation": "Koshi Province Assembly has 93 members: 56 directly elected and 37 proportionally elected.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q11",
+    "question": "How many districts are there in Gandaki Province?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gandaki Province has 11 districts.",
     "subject": "GK"
   },
   {
     "id": "q12",
-    "question": "From which year is Coffee Day celebrated every year on Mangsir 1?",
+    "question": "Who propounded the Laws of Heredity?",
     "options": [
-      "2054 BS",
-      "2061 BS",
-      "2062 BS",
-      "2053 BS"
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "Alexander Fleming"
     ],
-    "correctIndex": 2,
-    "explanation": "Coffee Day started from 2062 BS. Tea Day started from 2054 BS (Baisakh 15). Donation Day started from 2061 BS (Asar 15).",
-    "subject": "GK"
+    "correctIndex": 1,
+    "explanation": "Gregor Mendel propounded the Laws of Heredity through his experiments with pea plants.",
+    "subject": "SCIENCE"
   },
   {
     "id": "q13",
-    "question": "Which country has three capital cities?",
+    "question": "When was the decision to establish Gorkhapatra Academy made?",
     "options": [
-      "Indonesia",
-      "Cape Verde",
-      "Mauritius",
-      "South Africa"
+      "2075 Baisakh 30",
+      "2076 Jestha 15",
+      "2077 Aswin 3",
+      "2082 Mangsir 12"
     ],
     "correctIndex": 3,
-    "explanation": "South Africa has three capital cities: Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial).",
+    "explanation": "The decision to establish Gorkhapatra Academy was made on 2082 Mangsir 12.",
     "subject": "GK"
   },
   {
     "id": "q14",
-    "question": "In which district is Siddhakali Temple located?",
+    "question": "Which place is called 'Nepal's Nainital'?",
     "options": [
-      "Dhankuta",
-      "Sunsari",
-      "Sankhuwasabha",
-      "Bhojpur"
+      "Trivenidham",
+      "Lomathang",
+      "Jumla",
+      "Manaslu"
     ],
-    "correctIndex": 2,
-    "explanation": "Siddhakali Temple is located in Sankhuwasabha district. Chhintang Devi is in Dhankuta, Pindeshwar and Budha Subba temples are in Sunsari.",
+    "correctIndex": 0,
+    "explanation": "Trivenidham is called Nepal's Nainital. Lomathang = Nepal's city of clay (in Mustang). Jumla = Nepal's Darjeeling/Kashmir. Manaslu = Nepal's Mount Fuji.",
     "subject": "GK"
   },
   {
     "id": "q15",
-    "question": "How many fundamental rights are in Nepal's Constitution?",
+    "question": "Which community has the tradition of cutting the dead body and feeding it to vultures?",
     "options": [
-      "28",
-      "30",
-      "31",
-      "35"
+      "Satar",
+      "Tamang",
+      "Lepcha",
+      "Dolpo"
     ],
-    "correctIndex": 2,
-    "explanation": "The Constitution guarantees 31 fundamental rights.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q16",
-    "question": "Which ocean has the coldest water?",
-    "options": [
-      "Arctic Ocean",
-      "Indian Ocean",
-      "Pacific Ocean",
-      "Southern Ocean"
-    ],
-    "correctIndex": 0,
-    "explanation": "The Arctic Ocean has the coldest water. It is also called the 'Formidable Ocean' and its area increases during winter.",
+    "correctIndex": 3,
+    "explanation": "The Dolpo community has the tradition of cutting the dead body and feeding it to vultures (sky burial). Satar = widow goes to in-laws' house after father-in-law's death. Tamang = 108 lamps in death ceremony. Lepcha = buried facing Kanchenjunga.",
     "subject": "GK"
   },
   {
-    "id": "q17",
-    "question": "In a coded language, TABLE is written as UBCMF. How is CHAIR written?",
+    "id": "q16",
+    "question": "Who is the chief legal advisor of the Government of Nepal?",
     "options": [
-      "DIBJS",
-      "BDJIS",
-      "DIBJT",
-      "DJBIS"
+      "Prime Minister's Legal Advisor",
+      "Minister of Law",
+      "Chief Justice",
+      "Attorney General"
     ],
-    "correctIndex": 0,
-    "explanation": "Each letter +1: T→U, A→B... So C→D, H→I, A→B, I→J, R→S = DIBJS.",
-    "subject": "IQ"
+    "correctIndex": 3,
+    "explanation": "The Attorney General is the chief legal advisor of the Government of Nepal.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q17",
+    "question": "Which country surrendered first in World War II?",
+    "options": [
+      "Germany",
+      "Portugal",
+      "Japan",
+      "Italy"
+    ],
+    "correctIndex": 3,
+    "explanation": "Italy surrendered first. Germany was second. Japan surrendered last on August 14, 1945.",
+    "subject": "GK"
   },
   {
     "id": "q18",
-    "question": "Who is the winner of Madan Puraskar 2081?",
+    "question": "What is the mythological name of the Budhi Gandaki River?",
     "options": [
-      "Ambar Neupane",
-      "Narayan Wagle",
-      "Buddhi Sagar",
-      "Chuden Kabimo"
+      "Gandaki",
+      "Trishuli",
+      "Yasodhara",
+      "Narayani"
     ],
-    "correctIndex": 3,
-    "explanation": "Chuden Kabimo won the Madan Puraskar 2081 for his work 'Urmal'.",
+    "correctIndex": 2,
+    "explanation": "Budhi Gandaki's mythological name is Yasodhara.",
     "subject": "GK"
   },
   {
     "id": "q19",
-    "question": "Who was elected as Speaker of the House of Representatives on BS 2082 Chaitra 27?",
+    "question": "Which two seas does the Suez Canal connect?",
     "options": [
-      "Indira Ranamagar",
-      "Pushpa Bhusal",
-      "Ruby Kumari Thakur",
-      "Ansari Gharti"
+      "Mediterranean Sea and Red Sea",
+      "Mediterranean Sea and Bering Sea",
+      "Caribbean Sea and Red Sea",
+      "Black Sea"
     ],
-    "correctIndex": 2,
-    "explanation": "Ruby Kumari Thakur from CPN-UML was elected Speaker.",
+    "correctIndex": 0,
+    "explanation": "The Suez Canal connects the Mediterranean Sea and the Red Sea, providing a major maritime route between Europe and Asia.",
     "subject": "GK"
   },
   {
     "id": "q20",
-    "question": "How many languages are used in Gorkhapatra?",
-    "options": [
-      "46",
-      "48",
-      "24",
-      "26"
-    ],
-    "correctIndex": 1,
-    "explanation": "Gorkhapatra now publishes in 48 languages. 47th was Santhali, 48th was Hayu.",
-    "subject": "GK"
-  },
-  {
-    "id": "q21",
-    "question": "Which place is known as Nepal's 'wind hole'?",
-    "options": [
-      "Chure mountain",
-      "Mahabharat mountain range",
-      "Inner Madhes",
-      "Bhavar region"
-    ],
-    "correctIndex": 1,
-    "explanation": "Mahabharat mountain range is known as Nepal's 'wind hole'. It is also called 'Hill Station of Nepal', 'Low Himalaya', and 'Moddar Parbat'.",
-    "subject": "GK"
-  },
-  {
-    "id": "q22",
-    "question": "Which district is Halesi Mahadev located in?",
-    "options": [
-      "Khotang",
-      "Okhaldhunga",
-      "Bhojpur",
-      "Solukhumbu"
-    ],
-    "correctIndex": 0,
-    "explanation": "Halesi Mahadev is located in Khotang district of Koshi Province.",
-    "subject": "GK"
-  },
-  {
-    "id": "q23",
-    "question": "According to the Global Hunger Index 2025, what is Nepal's rank?",
-    "options": [
-      "68th",
-      "70th",
-      "72nd",
-      "75th"
-    ],
-    "correctIndex": 2,
-    "explanation": "According to the Global Hunger Index 2025, Nepal is ranked 72nd.",
-    "subject": "GK"
-  },
-  {
-    "id": "q24",
-    "question": "When was the first amendment to the Magna Carta made?",
-    "options": [
-      "Feb 11, 1225",
-      "Feb 17, 1217",
-      "Feb 16, 1216",
-      "Feb 10, 1127"
-    ],
-    "correctIndex": 2,
-    "explanation": "The first amendment to the Magna Carta was made on February 16, 1216 by Henry III. 2nd amendment = Feb 17, 1217. 3rd amendment = Feb 11, 1225.",
-    "subject": "GK"
-  },
-  {
-    "id": "q25",
-    "question": "Where will the 10th National Games be held?",
-    "options": [
-      "Koshi Province",
-      "Bagmati Province",
-      "Lumbini Province",
-      "Karnali Province"
-    ],
-    "correctIndex": 3,
-    "explanation": "The 10th National Games will be held in Karnali Province.",
-    "subject": "GK"
-  },
-  {
-    "id": "q26",
-    "question": "What is Nepal's national bird?",
-    "options": [
-      "Peacock",
-      "Himalayan Monal",
-      "Eagle",
-      "Crow"
-    ],
-    "correctIndex": 1,
-    "explanation": "The Himalayan Monal (Danphe).",
-    "subject": "GK"
-  },
-  {
-    "id": "q27",
-    "question": "Which blood group is the universal donor?",
-    "options": [
-      "A+",
-      "B+",
-      "AB+",
-      "O-"
-    ],
-    "correctIndex": 3,
-    "explanation": "O-negative is the universal donor.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q28",
-    "question": "When did the One Village One Product (OVOP) program start in Nepal?",
-    "options": [
-      "2063 BS",
-      "2036 BS",
-      "2071 BS",
-      "2073 BS"
-    ],
-    "correctIndex": 0,
-    "explanation": "OVOP started in 2063 BS. First district was Dolakha (from lotta/potato farming), now in 42 districts, logo unveiled on 2071 Aswin 12.",
-    "subject": "GK"
-  },
-  {
-    "id": "q29",
-    "question": "In which district is Kamini Lake located?",
-    "options": [
-      "Rupandehi",
-      "Palpa",
-      "Nawalparasi",
-      "Bara"
-    ],
-    "correctIndex": 3,
-    "explanation": "Kamini Lake is located in Bara district.",
-    "subject": "GK"
-  },
-  {
-    "id": "q30",
-    "question": "What percentage of Provincial Assembly members are elected proportionally?",
-    "options": [
-      "40%",
-      "60%",
-      "50%",
-      "33%"
-    ],
-    "correctIndex": 0,
-    "explanation": "40% of Provincial Assembly members are elected through proportional representation. 60% are directly elected.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q31",
-    "question": "Match the phobias: Aerophobia, Hydrophobia, Photophobia, Pyrophobia",
-    "options": [
-      "Sky/Water/Light/Fire",
-      "Water/Sky/Fire/Light",
-      "Light/Fire/Sky/Water",
-      "Fire/Light/Water/Sky"
-    ],
-    "correctIndex": 0,
-    "explanation": "Aerophobia=Sky, Hydrophobia=Water, Photophobia=Light, Pyrophobia=Fire.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q32",
-    "question": "Which revolution is known as the Intellectual Revolution?",
-    "options": [
-      "French Revolution",
-      "Russian Revolution",
-      "Industrial Revolution",
-      "Glorious Revolution of Britain"
-    ],
-    "correctIndex": 0,
-    "explanation": "The French Revolution is called the Intellectual Revolution. Russian Revolution = October Revolution. Industrial Revolution = Mechanical Revolution. Glorious Revolution = Bloodless Revolution.",
-    "subject": "GK"
-  },
-  {
-    "id": "q33",
-    "question": "What is the provincial flower of Koshi Province?",
-    "options": [
-      "Laligurans (Rhododendron)",
-      "Satguleli (Sunflower)",
-      "Kamal (Lotus)",
-      "Saras (Oleander)"
-    ],
-    "correctIndex": 0,
-    "explanation": "Laligurans (Rhododendron) is the provincial flower of Koshi Province. It is also Nepal's national flower.",
-    "subject": "GK"
-  },
-  {
-    "id": "q34",
-    "question": "Next in series: 2, 6, 12, 20, 30, ?",
-    "options": [
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "correctIndex": 2,
-    "explanation": "n×(n+1): 1×2=2, 2×3=6... 6×7=42.",
-    "subject": "IQ"
-  },
-  {
-    "id": "q35",
-    "question": "When was Kalikot declared the 68th literate district of Nepal?",
-    "options": [
-      "2082 Aswin 9",
-      "2081 Bhadra 15",
-      "2081 Bhadra 27",
-      "2082 Saun 12"
-    ],
-    "correctIndex": 0,
-    "explanation": "Kalikot was declared the 68th literate district on 2082 Aswin 9. The 67th was Humla on 2082 Jestha 9.",
-    "subject": "GK"
-  },
-  {
-    "id": "q36",
-    "question": "Which trekking route was NOT identified by Koshi Province government for trail-based tourism?",
-    "options": [
-      "Mundhum Trail",
-      "Milke Trail",
-      "Halesi Trail",
-      "Kanchenjunga Trail"
-    ],
-    "correctIndex": 2,
-    "explanation": "Halesi Trail was NOT identified by Koshi Province government for trail-based tourism development.",
-    "subject": "GK"
-  },
-  {
-    "id": "q37",
-    "question": "When did Prithvi Narayan Shah attack Patan?",
-    "options": [
-      "Vikram Sambat 1825 Aswin 24",
-      "Vikram Sambat 1826 Mangshir 1",
-      "Vikram Sambat 1826 Chaitra 10",
-      "Vikram Sambat 1831 Magh 1"
-    ],
-    "correctIndex": 0,
-    "explanation": "Prithvi Narayan Shah attacked Patan on Vikram Sambat 1825 Aswin 24. Attacked Bhaktapur on 1826 Mangshir 1. Declared Kathmandu as capital on 1826 Chaitra 10. Died on 1831 Magh 1 at Devighat, Nuwakot due to a tiger attack.",
-    "subject": "GK"
-  },
-  {
-    "id": "q38",
-    "question": "When did Shahid Shukraraj Shastri die?",
-    "options": [
-      "1997 Magh 10",
-      "1997 Magh 12",
-      "1997 Magh 24",
-      "1997 Magh 25"
-    ],
-    "correctIndex": 0,
-    "explanation": "Shahid Shukraraj Shastri died on 1997 Magh 10. Dharmabhakta Mathema = 1997 Magh 12. Dashrath Chand and Gangalal Shrestha = 1997 Magh 24.",
-    "subject": "GK"
-  },
-  {
-    "id": "q39",
-    "question": "Which province has the most agriculturally suitable land in Nepal?",
-    "options": [
-      "Koshi Province",
-      "Madhesh Province",
-      "Bagmati Province",
-      "Sudurpashchim Province"
-    ],
-    "correctIndex": 0,
-    "explanation": "Koshi Province has the most agriculturally suitable land in Nepal. Morang district in Koshi is also the largest rice-producing district in the province.",
-    "subject": "GK"
-  },
-  {
-    "id": "q40",
-    "question": "When was the Narcotic Drugs Control Act enacted?",
-    "options": [
-      "2028 BS",
-      "2033 BS",
-      "2045 BS",
-      "2050 BS"
-    ],
-    "correctIndex": 1,
-    "explanation": "The Narcotic Drugs Control Act was enacted in 2033 BS.",
-    "subject": "CONSTITUTION"
-  },
-  {
-    "id": "q41",
-    "question": "In which district is Nepal's wildlife museum located?",
-    "options": [
-      "Hetauda, Makwanpur",
-      "Godawari, Lalitpur",
-      "Damak, Jhapa",
-      "Pokhara, Kaski"
-    ],
-    "correctIndex": 0,
-    "explanation": "Nepal's wildlife museum is located in Hetauda, Makwanpur.",
-    "subject": "GK"
-  },
-  {
-    "id": "q42",
-    "question": "Simple interest on a sum for 3 years at 5% is Rs. 4500. Find the principal.",
-    "options": [
-      "Rs. 25000",
-      "Rs. 30000",
-      "Rs. 35000",
-      "Rs. 40000"
-    ],
-    "correctIndex": 1,
-    "explanation": "SI=P×R×T/100. 4500=P×5×3/100. P=4500×100/15=30000.",
-    "subject": "MATH"
-  },
-  {
-    "id": "q43",
-    "question": "Who became the new Prime Minister of Bangladesh in 2026?",
-    "options": [
-      "Khaleda Zia",
-      "Sheikh Hasina",
-      "Mohammad Yunus",
-      "Tariq Rahman"
-    ],
-    "correctIndex": 3,
-    "explanation": "Tariq Rahman was appointed Prime Minister on February 17, 2026.",
-    "subject": "GK"
-  },
-  {
-    "id": "q44",
-    "question": "What is the chemical formula of water?",
-    "options": [
-      "CO₂",
-      "H₂O",
-      "O₂",
-      "NaCl"
-    ],
-    "correctIndex": 1,
-    "explanation": "H₂O is the chemical formula of water.",
-    "subject": "SCIENCE"
-  },
-  {
-    "id": "q45",
-    "question": "When did IPL 2026 start?",
-    "options": [
-      "March 26, 2026",
-      "March 27, 2026",
-      "March 28, 2026",
-      "March 29, 2026"
-    ],
-    "correctIndex": 2,
-    "explanation": "IPL 2026 started on March 28, 2026. It is the 19th edition, running until May 1, with 10 participating teams.",
-    "subject": "GK"
-  },
-  {
-    "id": "q46",
     "question": "Bel marriage (Ihi) is a tradition of which caste?",
     "options": [
       "Gurung",
@@ -598,55 +260,393 @@
     "subject": "GK"
   },
   {
-    "id": "q47",
-    "question": "When did the Sagarmatha Mass Plantation Campaign start?",
+    "id": "q21",
+    "question": "In which district was Red Panda Festival 2082 held?",
     "options": [
-      "2082 Jestha 14",
-      "2082 Asar 14",
-      "2082 Saun 14",
-      "2082 Bhadau 14"
+      "Ilam",
+      "Kaski",
+      "Doti",
+      "Pokhara"
+    ],
+    "correctIndex": 0,
+    "explanation": "Red Panda Festival 2082 was held in Ilam district from Chaitra 20 to 23.",
+    "subject": "GK"
+  },
+  {
+    "id": "q22",
+    "question": "Which word CANNOT be formed from 'ADMINISTRATION'?",
+    "options": [
+      "STATION",
+      "TRADITION",
+      "MINISTER",
+      "RATION"
+    ],
+    "correctIndex": 2,
+    "explanation": "MINISTER requires an 'E' which is not in ADMINISTRATION.",
+    "subject": "IQ"
+  },
+  {
+    "id": "q23",
+    "question": "Which is the upper house of Nepal's Federal Parliament?",
+    "options": [
+      "House of Representatives",
+      "National Assembly",
+      "Provincial Assembly",
+      "Local Assembly"
     ],
     "correctIndex": 1,
-    "explanation": "The Sagarmatha Mass Plantation Campaign started on 2082 Asar 14. Under this campaign, 3 crore plants will be planted every year for 20 years continuously.",
+    "explanation": "National Assembly (Rashtriya Sabha) is the upper house.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q24",
+    "question": "In which district is Siddhakali Temple located?",
+    "options": [
+      "Dhankuta",
+      "Sunsari",
+      "Sankhuwasabha",
+      "Bhojpur"
+    ],
+    "correctIndex": 2,
+    "explanation": "Siddhakali Temple is located in Sankhuwasabha district. Chhintang Devi is in Dhankuta, Pindeshwar and Budha Subba temples are in Sunsari.",
+    "subject": "GK"
+  },
+  {
+    "id": "q25",
+    "question": "According to the 7th Agriculture Census 2078, what percentage of families are engaged in agriculture?",
+    "options": [
+      "62%",
+      "4.4%",
+      "70.4%",
+      "11.7%"
+    ],
+    "correctIndex": 0,
+    "explanation": "62% of families are engaged in agriculture. 4.4% have crop insurance, 70.4% have agriculture as main source, 11.7% took loans for agriculture.",
+    "subject": "GK"
+  },
+  {
+    "id": "q26",
+    "question": "What was the slogan of World Health Day 2026?",
+    "options": [
+      "Together for Health, Stand with Science",
+      "Help for All",
+      "Our Planet Our Earth",
+      "Support Nurses and Midwives"
+    ],
+    "correctIndex": 0,
+    "explanation": "World Health Day is celebrated every year on April 7 since 1950.",
+    "subject": "GK"
+  },
+  {
+    "id": "q27",
+    "question": "Which Social Security Day was celebrated in 2082?",
+    "options": [
+      "7th",
+      "8th",
+      "9th",
+      "10th"
+    ],
+    "correctIndex": 1,
+    "explanation": "8th Social Security Day. Celebrated on Mangsir 11.",
+    "subject": "GK"
+  },
+  {
+    "id": "q28",
+    "question": "How many articles are in the Constitution of Nepal 2072?",
+    "options": [
+      "280",
+      "295",
+      "308",
+      "325"
+    ],
+    "correctIndex": 2,
+    "explanation": "308 articles, 35 parts, 9 schedules.",
+    "subject": "CONSTITUTION"
+  },
+  {
+    "id": "q29",
+    "question": "Which community counts a child as one year old immediately after birth?",
+    "options": [
+      "Danuwar",
+      "Sherpa",
+      "Dura",
+      "Byasi"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sherpa counts child as 1 year at birth. Danuwar=chicken blood wash, Dura=rooster/hen.",
+    "subject": "GK"
+  },
+  {
+    "id": "q30",
+    "question": "When was Nepal Samvad given recognition?",
+    "options": [
+      "2065 Kartik 5",
+      "2065 Kartik 6",
+      "2065 Kartik 7",
+      "2065 Kartik 8"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nepal Samvad was given recognition on 2065 Kartik 8.",
+    "subject": "GK"
+  },
+  {
+    "id": "q31",
+    "question": "Who is the new Deputy Governor of Nepal Rastra Bank?",
+    "options": [
+      "Vishwanath Paudel",
+      "Himalaya Shamsher",
+      "Raj Bahadur Budha",
+      "Kiran Pandit"
+    ],
+    "correctIndex": 3,
+    "explanation": "Kiran Pandit appointed on 2082 Chaitra 24. Vishwanath Paudel is the 18th Governor.",
+    "subject": "GK"
+  },
+  {
+    "id": "q32",
+    "question": "How many districts of Nepal do NOT touch both India and China?",
+    "options": [
+      "25",
+      "13",
+      "37",
+      "2"
+    ],
+    "correctIndex": 2,
+    "explanation": "37 districts do not touch both countries. 25 touch only India, 13 touch only China, and 2 (Taplejung and Darchula) touch both.",
+    "subject": "GK"
+  },
+  {
+    "id": "q33",
+    "question": "What is the height of Manaslu Himal?",
+    "options": [
+      "8116 meters",
+      "8148 meters",
+      "8163 meters",
+      "8091 meters"
+    ],
+    "correctIndex": 2,
+    "explanation": "Manaslu Himal is 8163 meters high.",
+    "subject": "GK"
+  },
+  {
+    "id": "q34",
+    "question": "How many insurance service provider institutions are in Koshi Province?",
+    "options": [
+      "103",
+      "113",
+      "123",
+      "133"
+    ],
+    "correctIndex": 1,
+    "explanation": "There are 113 insurance institutions: 87 government, 21 private, and 5 community-based.",
+    "subject": "GK"
+  },
+  {
+    "id": "q35",
+    "question": "Which district of Gandaki has the highest annual population growth rate?",
+    "options": [
+      "Kaski",
+      "Manang",
+      "Gorkha",
+      "Tanahu"
+    ],
+    "correctIndex": 0,
+    "explanation": "Kaski has the highest growth rate at 0.90%. Manang has the lowest at -3.9%.",
+    "subject": "GK"
+  },
+  {
+    "id": "q36",
+    "question": "Where was the rule center of Somvanshi kings?",
+    "options": [
+      "Ayodhya",
+      "Janakpur",
+      "Kantipur",
+      "Godavari"
+    ],
+    "correctIndex": 3,
+    "explanation": "The rule center of Somvanshi kings was Godavari.",
+    "subject": "GK"
+  },
+  {
+    "id": "q37",
+    "question": "Which establishment day did the Commission for the Investigation of Abuse of Authority (CIAA) celebrate in 2082 BS?",
+    "options": [
+      "40th",
+      "35th",
+      "30th",
+      "25th"
+    ],
+    "correctIndex": 2,
+    "explanation": "CIAA celebrated its 30th establishment day in 2082 BS on Magh 28.",
+    "subject": "GK"
+  },
+  {
+    "id": "q38",
+    "question": "How many founding nations did BIMSTEC have?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "4"
+    ],
+    "correctIndex": 3,
+    "explanation": "BIMSTEC had 4 founding nations: Bangladesh, India, Sri Lanka, and Thailand. 7 = SAARC founding nations. 6 = EU founding nations. 5 = ASEAN founding nations.",
+    "subject": "GK"
+  },
+  {
+    "id": "q39",
+    "question": "What is the area of Karnali Province (the largest province)?",
+    "options": [
+      "27,984 sq km",
+      "26,984 sq km",
+      "25,984 sq km",
+      "24,984 sq km"
+    ],
+    "correctIndex": 0,
+    "explanation": "Karnali Province area = 27,984 sq km (19.01% of Nepal). Largest district = Dolpa (7,889 sq km). Smallest district = Rukum West (1,213.49 sq km). Most populous = Surkhet. Least populous = Dolpa.",
+    "subject": "GK"
+  },
+  {
+    "id": "q40",
+    "question": "When was the SLC Board established in Nepal?",
+    "options": [
+      "1958 BS",
+      "1990 BS",
+      "1991 BS",
+      "1993 BS"
+    ],
+    "correctIndex": 1,
+    "explanation": "The SLC (School Leaving Certificate) Board was established in Nepal in 1990 BS.",
+    "subject": "GK"
+  },
+  {
+    "id": "q41",
+    "question": "Who was elected as Speaker of the House of Representatives on BS 2082 Chaitra 27?",
+    "options": [
+      "Indira Ranamagar",
+      "Pushpa Bhusal",
+      "Ruby Kumari Thakur",
+      "Ansari Gharti"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ruby Kumari Thakur from CPN-UML was elected Speaker.",
+    "subject": "GK"
+  },
+  {
+    "id": "q42",
+    "question": "When is World TB Day celebrated?",
+    "options": [
+      "March 24",
+      "October 2",
+      "December 15",
+      "December 18"
+    ],
+    "correctIndex": 0,
+    "explanation": "World TB Day is celebrated on March 24. February 2 = Wetlands Day, October 15 = Handwashing Day, December 18 = International Migrants Day.",
+    "subject": "GK"
+  },
+  {
+    "id": "q43",
+    "question": "Which instrument measures height?",
+    "options": [
+      "Altimeter",
+      "Microscope",
+      "Polygraph",
+      "Pyrheliometer"
+    ],
+    "correctIndex": 0,
+    "explanation": "An altimeter measures height. Microscope = magnifies small objects. Polygraph = lie detector. Pyrheliometer = measures solar radiation.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q44",
+    "question": "Who invented the television?",
+    "options": [
+      "Martin Cooper",
+      "John Baird",
+      "Johannes Gutenberg",
+      "Alfred Nobel"
+    ],
+    "correctIndex": 1,
+    "explanation": "John Baird invented the television. Martin Cooper = mobile phone. Johannes Gutenberg = printing press. Alfred Nobel = dynamite.",
+    "subject": "SCIENCE"
+  },
+  {
+    "id": "q45",
+    "question": "When was the new coach appointed for the Nepal men's national football team?",
+    "options": [
+      "2082 Falgun 27",
+      "2082 Falgun 29",
+      "2082 Falgun 28",
+      "2082 Falgun 26"
+    ],
+    "correctIndex": 2,
+    "explanation": "Guglielmo Arena from Switzerland was appointed as the new coach of Nepal men's national football team on 2082 Falgun 28.",
+    "subject": "GK"
+  },
+  {
+    "id": "q46",
+    "question": "Average of 5 numbers is 25. If one excluded, average becomes 20. Excluded number?",
+    "options": [
+      "35",
+      "40",
+      "45",
+      "50"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sum=125. Sum of 4=80. Excluded=125-80=45.",
+    "subject": "MATH"
+  },
+  {
+    "id": "q47",
+    "question": "Who is the author of the book 'Baikuntha Express'?",
+    "options": [
+      "Mohanraj Sharma",
+      "Narayan Wagle",
+      "Amar Neupane",
+      "Buddhisagar"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Baikuntha Express' was written by Mohanraj Sharma.",
     "subject": "GK"
   },
   {
     "id": "q48",
-    "question": "Which Terai district has the highest population growth rate in Nepal?",
+    "question": "When was Koshi Province declared a fully vaccinated province?",
     "options": [
-      "Kathmandu",
-      "Banke",
-      "Khotang",
-      "Morang"
+      "2081 Asar 29",
+      "2081 Asar 30",
+      "2081 Asar 31",
+      "2081 Saun 2"
     ],
-    "correctIndex": 1,
-    "explanation": "Banke has the highest population growth rate in Terai. Bardia = lowest in Terai. Kathmandu = highest in hills. Khotang = lowest in hills. Morang = highest population in Terai. Kalikot = highest in mountains. Manang = lowest in mountains.",
+    "correctIndex": 2,
+    "explanation": "Koshi Province was declared fully vaccinated on 2081 Asar 31.",
     "subject": "GK"
   },
   {
     "id": "q49",
-    "question": "How many points were in the declaration issued at Sagarmatha Samvad 2082 in Kathmandu?",
+    "question": "When is World Wetlands Day celebrated?",
     "options": [
-      "21 points",
-      "25 points",
-      "27 points",
-      "31 points"
+      "February 2",
+      "June 5",
+      "May 22",
+      "April 22"
     ],
-    "correctIndex": 1,
-    "explanation": "A 25-point declaration was issued at Sagarmatha Samvad 2082, held in Kathmandu from Jeth 2-4, 2082. Inaugurated by KP Sharma Oli. Slogan: 'Climate Change and the Future of Mountains and Humanity'.",
+    "correctIndex": 0,
+    "explanation": "World Wetlands Day is February 2. Environment Day = June 5, Biodiversity Day = May 22, Earth Day = April 22.",
     "subject": "GK"
   },
   {
     "id": "q50",
-    "question": "How many times was the veto power used in UN Security Council in 2025?",
+    "question": "Which Lichhavi king went to take refuge in Tibet?",
     "options": [
-      "One time",
-      "Two times",
-      "Three times",
-      "Four times"
+      "Gunakamadev",
+      "Narendra Dev",
+      "Uday Dev",
+      "Shivadev Pratham"
     ],
-    "correctIndex": 1,
-    "explanation": "The veto power was used 2 times in 2025.",
+    "correctIndex": 2,
+    "explanation": "Uday Dev went to Tibet for refuge. Narendra Dev = started window decoration tradition. Gunakamadev = settled Kantipur (built Kathmandu). Shivadev Pratham = settled Kirtipur.",
     "subject": "GK"
   }
 ]
